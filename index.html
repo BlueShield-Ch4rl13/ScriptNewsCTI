@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News CTI · BlueShield</title>
+<meta name="description" content="Panel de inteligencia de amenazas con actualización automática cada 6 horas: IOCs de ThreatFox, URLhaus y OTX, más CVEs del CISA KEV.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="dot" id="status-dot" aria-hidden="true"></span>
+    <span class="brand-name">News CTI</span>
+  </div>
+  <nav class="topbar-links">
+    <span class="tlp" title="Información pública, IOCs defangueados">TLP:CLEAR</span>
+    <a href="https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI" rel="noopener">GitHub ↗</a>
+  </nav>
+</header>
+
+<section class="syncline" aria-live="polite">
+  <p class="syncline-label">Última sincronización</p>
+  <p class="syncline-value"><span id="sync-time">—</span> <span class="utc">UTC</span></p>
+  <p class="syncline-meta">
+    <span><b id="stat-iocs">0</b> IOCs</span>
+    <span class="sep">·</span>
+    <span><b id="stat-kev">0</b> CVEs en KEV</span>
+    <span class="sep">·</span>
+    <span><b id="stat-sources">0</b> feeds activos</span>
+  </p>
+</section>
+
+<main>
+  <section class="panel" aria-labelledby="iocs-title">
+    <div class="panel-head">
+      <h2 id="iocs-title">Indicadores de compromiso</h2>
+      <p class="panel-note">Defangueados · deduplicados · recolección cada 6 h vía GitHub Actions</p>
+    </div>
+
+    <div class="filters">
+      <label class="visually-hidden" for="f-search">Buscar IOC</label>
+      <input id="f-search" type="search" placeholder="Buscar IOC o amenaza…" autocomplete="off">
+      <label class="visually-hidden" for="f-type">Filtrar por tipo</label>
+      <select id="f-type"><option value="">Todos los tipos</option></select>
+      <label class="visually-hidden" for="f-source">Filtrar por fuente</label>
+      <select id="f-source"><option value="">Todas las fuentes</option></select>
+    </div>
+
+    <p class="result-count" id="result-count"></p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>IOC</th><th>Tipo</th><th>Amenaza</th><th>Fuente</th><th>Visto</th></tr>
+        </thead>
+        <tbody id="ioc-rows"></tbody>
+      </table>
+    </div>
+
+    <div class="empty" id="empty-state" hidden>
+      <p id="empty-msg">Cargando datos…</p>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="kev-title">
+    <div class="panel-head">
+      <h2 id="kev-title">Explotación activa · CISA KEV</h2>
+      <p class="panel-note">CVEs añadidos al catálogo en los últimos 14 días</p>
+    </div>
+    <div class="kev-grid" id="kev-grid"></div>
+    <div class="empty" id="kev-empty" hidden><p>Sin CVEs nuevos en la ventana actual.</p></div>
+  </section>
+</main>
+
+<footer>
+  <p>Uso exclusivamente defensivo · Fuentes: ThreatFox, URLhaus, AlienVault OTX, CISA KEV</p>
+  <p>Pipeline: Python · GitHub Actions · Cloudflare Pages — <a href="https://github.com/BlueShield-Ch4rl13" rel="noopener">BlueShield-Ch4rl13</a></p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
