@@ -65,13 +65,26 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-13 14:14 UTC · **IOCs recolectados:** 1042 · **CVEs KEV recientes:** 8
+**Última actualización:** 2026-07-13 14:52 UTC · **IOCs recolectados:** 1044 · **CVEs KEV recientes:** 8
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|
-| `high-priority[.]futurainternationalrealty[.]com` | domain | FAKEUPDATES | ThreatFox | 2026-07-13 14:07:42 UTC |
+| `tzcy9ec8[.]onjabet1[.]com` | domain | ClearFake | ThreatFox | 2026-07-13 14:51:29 UTC |
+| `dirone3rl3vvq64ckcnrvhe2ogrhjrwu5u7hqzrlotu3rfvmqmmbsuqd[.]onion` | domain | Unknown malware | ThreatFox | 2026-07-13 14:48:38 UTC |
+| `ulgqmzld[.]jadoou[.]online` | domain | ClearFake | ThreatFox | 2026-07-13 14:43:26 UTC |
+| `dzjr[.]bekabet[.]casino` | domain | ClearFake | ThreatFox | 2026-07-13 14:40:47 UTC |
+| `rjhrnhqj[.]jadoou[.]online` | domain | ClearFake | ThreatFox | 2026-07-13 14:39:59 UTC |
+| `qwfh[.]bekabet[.]casino` | domain | ClearFake | ThreatFox | 2026-07-13 14:39:43 UTC |
+| `159[.]89[.]132[.]240:9034` | ip:port | Aisuru | ThreatFox | 2026-07-13 14:27:09 UTC |
+| `s[.]na-cs[.]com` | domain | Kinsing | ThreatFox | 2026-07-13 14:17:22 UTC |
+| `oracle[.]zzhreceive[.]top` | domain | Kinsing | ThreatFox | 2026-07-13 14:17:21 UTC |
+| `162[.]243[.]3[.]92:80` | ip:port | Kinsing | ThreatFox | 2026-07-13 14:17:21 UTC |
+| `hxxp://s[.]na-cs[.]com/b2f628/b[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 14:17:21 UTC |
+| `hxxp://s[.]na-cs[.]com/t[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 14:17:20 UTC |
+| `hxxp://oracle[.]zzhreceive[.]top/b2f628/b[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 14:17:20 UTC |
+| `high-priority[.]futurainternationalrealty[.]com` | domain | FAKEUPDATES | ThreatFox | 2026-07-13 14:17:18 UTC |
 | `133[.]18[.]165[.]80:6606` | ip:port | AsyncRAT | ThreatFox | 2026-07-13 14:05:50 UTC |
 | `133[.]18[.]165[.]80:8808` | ip:port | AsyncRAT | ThreatFox | 2026-07-13 14:05:50 UTC |
 | `23[.]149[.]28[.]91:443` | ip:port | Unknown malware | ThreatFox | 2026-07-13 14:05:07 UTC |
@@ -81,21 +94,8 @@ python main.py
 | `51[.]38[.]99[.]224:443` | ip:port | Unknown Stealer | ThreatFox | 2026-07-13 14:04:23 UTC |
 | `outlook8web[.]com` | domain | NetSupportManager RAT | ThreatFox | 2026-07-13 14:00:52 UTC |
 | `133[.]18[.]165[.]80:7707` | ip:port | AsyncRAT | ThreatFox | 2026-07-13 14:00:05 UTC |
-| `hxxp://oracle[.]zzhreceive[.]top/b2f628/b[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 13:59:52 UTC |
-| `hxxp://s[.]na-cs[.]com/t[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 13:59:50 UTC |
-| `hxxp://s[.]na-cs[.]com/b2f628/b[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 13:59:48 UTC |
-| `162[.]243[.]3[.]92:80` | ip:port | Kinsing | ThreatFox | 2026-07-13 13:59:46 UTC |
-| `oracle[.]zzhreceive[.]top` | domain | Kinsing | ThreatFox | 2026-07-13 13:59:41 UTC |
-| `s[.]na-cs[.]com` | domain | Kinsing | ThreatFox | 2026-07-13 13:59:39 UTC |
 | `136[.]0[.]213[.]113:8041` | ip:port | Unknown RAT | ThreatFox | 2026-07-13 13:59:29 UTC |
 | `droptest[.]xyz` | domain | Unknown Loader | ThreatFox | 2026-07-13 13:53:54 UTC |
-| `45[.]198[.]0[.]193:22265` | ip:port | Unknown malware | ThreatFox | 2026-07-13 13:49:55 UTC |
-| `tcp[.]niceports[.]shop` | domain | Unknown malware | ThreatFox | 2026-07-13 13:49:34 UTC |
-| `yxxyqkkf[.]jadoou[.]one` | domain | ClearFake | ThreatFox | 2026-07-13 13:47:40 UTC |
-| `178[.]62[.]228[.]25:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 13:44:44 UTC |
-| `178[.]62[.]235[.]14:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 13:44:43 UTC |
-| `188[.]166[.]1[.]226:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 13:44:42 UTC |
-| `188[.]166[.]105[.]148:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 13:44:41 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
