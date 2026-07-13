@@ -1,2 +1,0 @@
-# ScriptNewsCTI
-In Progress
