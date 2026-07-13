@@ -65,42 +65,43 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-13 14:52 UTC · **IOCs recolectados:** 1044 · **CVEs KEV recientes:** 8
+**Última actualización:** 2026-07-13 19:40 UTC · **IOCs recolectados:** 1186 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|
-| `tzcy9ec8[.]onjabet1[.]com` | domain | ClearFake | ThreatFox | 2026-07-13 14:51:29 UTC |
-| `dirone3rl3vvq64ckcnrvhe2ogrhjrwu5u7hqzrlotu3rfvmqmmbsuqd[.]onion` | domain | Unknown malware | ThreatFox | 2026-07-13 14:48:38 UTC |
-| `ulgqmzld[.]jadoou[.]online` | domain | ClearFake | ThreatFox | 2026-07-13 14:43:26 UTC |
-| `dzjr[.]bekabet[.]casino` | domain | ClearFake | ThreatFox | 2026-07-13 14:40:47 UTC |
-| `rjhrnhqj[.]jadoou[.]online` | domain | ClearFake | ThreatFox | 2026-07-13 14:39:59 UTC |
-| `qwfh[.]bekabet[.]casino` | domain | ClearFake | ThreatFox | 2026-07-13 14:39:43 UTC |
-| `159[.]89[.]132[.]240:9034` | ip:port | Aisuru | ThreatFox | 2026-07-13 14:27:09 UTC |
-| `s[.]na-cs[.]com` | domain | Kinsing | ThreatFox | 2026-07-13 14:17:22 UTC |
-| `oracle[.]zzhreceive[.]top` | domain | Kinsing | ThreatFox | 2026-07-13 14:17:21 UTC |
-| `162[.]243[.]3[.]92:80` | ip:port | Kinsing | ThreatFox | 2026-07-13 14:17:21 UTC |
-| `hxxp://s[.]na-cs[.]com/b2f628/b[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 14:17:21 UTC |
-| `hxxp://s[.]na-cs[.]com/t[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 14:17:20 UTC |
-| `hxxp://oracle[.]zzhreceive[.]top/b2f628/b[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 14:17:20 UTC |
-| `high-priority[.]futurainternationalrealty[.]com` | domain | FAKEUPDATES | ThreatFox | 2026-07-13 14:17:18 UTC |
-| `133[.]18[.]165[.]80:6606` | ip:port | AsyncRAT | ThreatFox | 2026-07-13 14:05:50 UTC |
-| `133[.]18[.]165[.]80:8808` | ip:port | AsyncRAT | ThreatFox | 2026-07-13 14:05:50 UTC |
-| `23[.]149[.]28[.]91:443` | ip:port | Unknown malware | ThreatFox | 2026-07-13 14:05:07 UTC |
-| `23[.]149[.]28[.]91:80` | ip:port | Unknown malware | ThreatFox | 2026-07-13 14:05:07 UTC |
-| `23[.]149[.]28[.]91:8080` | ip:port | Unknown malware | ThreatFox | 2026-07-13 14:05:07 UTC |
-| `23[.]149[.]28[.]91:60000` | ip:port | Unknown malware | ThreatFox | 2026-07-13 14:05:06 UTC |
-| `51[.]38[.]99[.]224:443` | ip:port | Unknown Stealer | ThreatFox | 2026-07-13 14:04:23 UTC |
-| `outlook8web[.]com` | domain | NetSupportManager RAT | ThreatFox | 2026-07-13 14:00:52 UTC |
-| `133[.]18[.]165[.]80:7707` | ip:port | AsyncRAT | ThreatFox | 2026-07-13 14:00:05 UTC |
-| `136[.]0[.]213[.]113:8041` | ip:port | Unknown RAT | ThreatFox | 2026-07-13 13:59:29 UTC |
-| `droptest[.]xyz` | domain | Unknown Loader | ThreatFox | 2026-07-13 13:53:54 UTC |
+| `206[.]189[.]146[.]157:12345` | ip:port | Aisuru | ThreatFox | 2026-07-13 19:30:45 UTC |
+| `texjqbwa[.]site-shartbandi-bedun-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-13 19:08:37 UTC |
+| `site-shartbandi-bedun-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-13 19:07:02 UTC |
+| `114[.]132[.]89[.]132:45443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-13 19:05:08 UTC |
+| `36[.]140[.]162[.]173:7777` | ip:port | Cobalt Strike | ThreatFox | 2026-07-13 19:05:07 UTC |
+| `196[.]251[.]121[.]74:2323` | ip:port | DCRat | ThreatFox | 2026-07-13 19:05:06 UTC |
+| `ign0g5ax[.]site-shartbandi-khareji[.]com` | domain | ClearFake | ThreatFox | 2026-07-13 18:54:11 UTC |
+| `7vq4on85[.]site-shartbandi-khareji[.]com` | domain | ClearFake | ThreatFox | 2026-07-13 18:52:24 UTC |
+| `hxxp://159[.]65[.]201[.]180/hGkBCsBr/Full%20AES[.]pyw` | url | Unknown malware | ThreatFox | 2026-07-13 18:50:19 UTC |
+| `authid7[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:18 UTC |
+| `193[.]181[.]46[.]146:4444` | ip:port | Unknown malware | ThreatFox | 2026-07-13 18:50:18 UTC |
+| `193[.]104[.]222[.]134:443` | ip:port | Unknown malware | ThreatFox | 2026-07-13 18:50:18 UTC |
+| `hxxp://159[.]65[.]201[.]180/verify/request[.]vbs` | url | Unknown malware | ThreatFox | 2026-07-13 18:50:18 UTC |
+| `0id1[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `0id2[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `0id3[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `0id4[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `0id5[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `0id6[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `0id7[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `0id8[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `0id9[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `authid1[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `authid2[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `authid3[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2008-4128 | Cisco IOS | 2026-07-13 | Unknown |
 | CVE-2026-56291 | Balbooa Forms | 2026-07-10 | Unknown |
 | CVE-2026-48939 | iCagenda iCagenda | 2026-07-10 | Unknown |
 | CVE-2026-48908 | JoomShaper SP Page Builder | 2026-07-07 | Unknown |
