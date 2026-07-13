@@ -65,37 +65,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-13 11:46 UTC · **IOCs recolectados:** 1014 · **CVEs KEV recientes:** 8
+**Última actualización:** 2026-07-13 14:14 UTC · **IOCs recolectados:** 1042 · **CVEs KEV recientes:** 8
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|
-| `genesis-cheats[.]com` | domain | Unknown malware | ThreatFox | 2026-07-13 11:42:26 UTC |
-| `lqljywai[.]jadoou[.]christmas` | domain | ClearFake | ThreatFox | 2026-07-13 11:42:21 UTC |
-| `ahdwvzwy[.]jadoou[.]christmas` | domain | ClearFake | ThreatFox | 2026-07-13 11:39:29 UTC |
-| `mahyartunes[.]bio` | domain | ClearFake | ThreatFox | 2026-07-13 11:33:13 UTC |
-| `zxx1gpmw[.]pars90[.]download` | domain | ClearFake | ThreatFox | 2026-07-13 11:16:56 UTC |
-| `pars90[.]download` | domain | ClearFake | ThreatFox | 2026-07-13 11:14:45 UTC |
-| `hxxps://jadeworkshop[.]top/router/handler-asset[.]js` | url | SmartApeSG | ThreatFox | 2026-07-13 11:07:19 UTC |
-| `jadeworkshop[.]top` | domain | SmartApeSG | ThreatFox | 2026-07-13 11:07:18 UTC |
-| `hxxps://jadeworkshop[.]top/router/verify-build` | url | SmartApeSG | ThreatFox | 2026-07-13 11:07:17 UTC |
-| `154[.]88[.]99[.]59:8885` | ip:port | VShell | ThreatFox | 2026-07-13 11:05:07 UTC |
-| `154[.]88[.]99[.]60:8885` | ip:port | VShell | ThreatFox | 2026-07-13 11:05:07 UTC |
-| `154[.]88[.]99[.]58:8885` | ip:port | VShell | ThreatFox | 2026-07-13 11:05:06 UTC |
-| `154[.]88[.]99[.]54:8885` | ip:port | VShell | ThreatFox | 2026-07-13 11:05:05 UTC |
-| `ovcvaphj[.]jadoou[.]cfd` | domain | ClearFake | ThreatFox | 2026-07-13 10:48:49 UTC |
-| `vnuhxmfp[.]jadoou[.]cfd` | domain | ClearFake | ThreatFox | 2026-07-13 10:44:20 UTC |
-| `zxco[.]madgal[.]life` | domain | ClearFake | ThreatFox | 2026-07-13 10:37:14 UTC |
-| `ukgf[.]madgal[.]life` | domain | ClearFake | ThreatFox | 2026-07-13 10:32:21 UTC |
-| `64[.]225[.]73[.]161:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 10:22:32 UTC |
-| `157[.]245[.]71[.]64:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 10:22:19 UTC |
-| `178[.]128[.]249[.]233:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 10:22:08 UTC |
-| `209[.]38[.]46[.]121:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 10:21:57 UTC |
-| `142[.]93[.]231[.]53:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 10:21:45 UTC |
-| `167[.]99[.]42[.]38:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 10:21:34 UTC |
-| `188[.]166[.]105[.]148:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 10:21:22 UTC |
-| `188[.]166[.]1[.]226:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 10:21:09 UTC |
+| `high-priority[.]futurainternationalrealty[.]com` | domain | FAKEUPDATES | ThreatFox | 2026-07-13 14:07:42 UTC |
+| `133[.]18[.]165[.]80:6606` | ip:port | AsyncRAT | ThreatFox | 2026-07-13 14:05:50 UTC |
+| `133[.]18[.]165[.]80:8808` | ip:port | AsyncRAT | ThreatFox | 2026-07-13 14:05:50 UTC |
+| `23[.]149[.]28[.]91:443` | ip:port | Unknown malware | ThreatFox | 2026-07-13 14:05:07 UTC |
+| `23[.]149[.]28[.]91:80` | ip:port | Unknown malware | ThreatFox | 2026-07-13 14:05:07 UTC |
+| `23[.]149[.]28[.]91:8080` | ip:port | Unknown malware | ThreatFox | 2026-07-13 14:05:07 UTC |
+| `23[.]149[.]28[.]91:60000` | ip:port | Unknown malware | ThreatFox | 2026-07-13 14:05:06 UTC |
+| `51[.]38[.]99[.]224:443` | ip:port | Unknown Stealer | ThreatFox | 2026-07-13 14:04:23 UTC |
+| `outlook8web[.]com` | domain | NetSupportManager RAT | ThreatFox | 2026-07-13 14:00:52 UTC |
+| `133[.]18[.]165[.]80:7707` | ip:port | AsyncRAT | ThreatFox | 2026-07-13 14:00:05 UTC |
+| `hxxp://oracle[.]zzhreceive[.]top/b2f628/b[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 13:59:52 UTC |
+| `hxxp://s[.]na-cs[.]com/t[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 13:59:50 UTC |
+| `hxxp://s[.]na-cs[.]com/b2f628/b[.]sh` | url | Kinsing | ThreatFox | 2026-07-13 13:59:48 UTC |
+| `162[.]243[.]3[.]92:80` | ip:port | Kinsing | ThreatFox | 2026-07-13 13:59:46 UTC |
+| `oracle[.]zzhreceive[.]top` | domain | Kinsing | ThreatFox | 2026-07-13 13:59:41 UTC |
+| `s[.]na-cs[.]com` | domain | Kinsing | ThreatFox | 2026-07-13 13:59:39 UTC |
+| `136[.]0[.]213[.]113:8041` | ip:port | Unknown RAT | ThreatFox | 2026-07-13 13:59:29 UTC |
+| `droptest[.]xyz` | domain | Unknown Loader | ThreatFox | 2026-07-13 13:53:54 UTC |
+| `45[.]198[.]0[.]193:22265` | ip:port | Unknown malware | ThreatFox | 2026-07-13 13:49:55 UTC |
+| `tcp[.]niceports[.]shop` | domain | Unknown malware | ThreatFox | 2026-07-13 13:49:34 UTC |
+| `yxxyqkkf[.]jadoou[.]one` | domain | ClearFake | ThreatFox | 2026-07-13 13:47:40 UTC |
+| `178[.]62[.]228[.]25:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 13:44:44 UTC |
+| `178[.]62[.]235[.]14:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 13:44:43 UTC |
+| `188[.]166[.]1[.]226:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 13:44:42 UTC |
+| `188[.]166[.]105[.]148:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-13 13:44:41 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 

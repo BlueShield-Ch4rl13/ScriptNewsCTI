@@ -1,17 +1,777 @@
 {
-  "generated_utc": "2026-07-13 11:46",
-  "ioc_count": 1014,
+  "generated_utc": "2026-07-13 14:14",
+  "ioc_count": 1042,
   "kev_count": 8,
   "iocs": [
+    {
+      "value": "high-priority.futurainternationalrealty.com",
+      "type": "domain",
+      "threat": "FAKEUPDATES",
+      "confidence": 100,
+      "first_seen": "2026-07-13 14:07:42 UTC",
+      "source": "ThreatFox",
+      "reference": "https://infosec.exchange/@monitorsg/116913056137540514",
+      "defanged": "high-priority[.]futurainternationalrealty[.]com"
+    },
+    {
+      "value": "133.18.165.80:6606",
+      "type": "ip:port",
+      "threat": "AsyncRAT",
+      "confidence": 75,
+      "first_seen": "2026-07-13 14:05:50 UTC",
+      "source": "ThreatFox",
+      "reference": "https://bazaar.abuse.ch/sample/dc14aa1d739c79a92ae7342a7f6941aab24df1b03fedd0a99d9a57cd972d569d/",
+      "defanged": "133[.]18[.]165[.]80:6606"
+    },
+    {
+      "value": "133.18.165.80:8808",
+      "type": "ip:port",
+      "threat": "AsyncRAT",
+      "confidence": 75,
+      "first_seen": "2026-07-13 14:05:50 UTC",
+      "source": "ThreatFox",
+      "reference": "https://bazaar.abuse.ch/sample/dc14aa1d739c79a92ae7342a7f6941aab24df1b03fedd0a99d9a57cd972d569d/",
+      "defanged": "133[.]18[.]165[.]80:8808"
+    },
+    {
+      "value": "23.149.28.91:443",
+      "type": "ip:port",
+      "threat": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-07-13 14:05:07 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "23[.]149[.]28[.]91:443"
+    },
+    {
+      "value": "23.149.28.91:80",
+      "type": "ip:port",
+      "threat": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-07-13 14:05:07 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "23[.]149[.]28[.]91:80"
+    },
+    {
+      "value": "23.149.28.91:8080",
+      "type": "ip:port",
+      "threat": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-07-13 14:05:07 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "23[.]149[.]28[.]91:8080"
+    },
+    {
+      "value": "23.149.28.91:60000",
+      "type": "ip:port",
+      "threat": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-07-13 14:05:06 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "23[.]149[.]28[.]91:60000"
+    },
+    {
+      "value": "51.38.99.224:443",
+      "type": "ip:port",
+      "threat": "Unknown Stealer",
+      "confidence": 50,
+      "first_seen": "2026-07-13 14:04:23 UTC",
+      "source": "ThreatFox",
+      "reference": "https://bazaar.abuse.ch/sample/34ad97945a1f70cdbf8af7777a6c71c990d841840cf3c94a387f6cc83450ad4b/",
+      "defanged": "51[.]38[.]99[.]224:443"
+    },
+    {
+      "value": "outlook8web.com",
+      "type": "domain",
+      "threat": "NetSupportManager RAT",
+      "confidence": 100,
+      "first_seen": "2026-07-13 14:00:52 UTC",
+      "source": "ThreatFox",
+      "reference": "https://bazaar.abuse.ch/sample/b11880bbadb5a06cd44f60e08f48dd5592ad9add9377c81810f5216437415865/",
+      "defanged": "outlook8web[.]com"
+    },
+    {
+      "value": "133.18.165.80:7707",
+      "type": "ip:port",
+      "threat": "AsyncRAT",
+      "confidence": 100,
+      "first_seen": "2026-07-13 14:00:05 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "133[.]18[.]165[.]80:7707"
+    },
+    {
+      "value": "http://oracle.zzhreceive.top/b2f628/b.sh",
+      "type": "url",
+      "threat": "Kinsing",
+      "confidence": 80,
+      "first_seen": "2026-07-13 13:59:52 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "hxxp://oracle[.]zzhreceive[.]top/b2f628/b[.]sh"
+    },
+    {
+      "value": "http://s.na-cs.com/t.sh",
+      "type": "url",
+      "threat": "Kinsing",
+      "confidence": 90,
+      "first_seen": "2026-07-13 13:59:50 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "hxxp://s[.]na-cs[.]com/t[.]sh"
+    },
+    {
+      "value": "http://s.na-cs.com/b2f628/b.sh",
+      "type": "url",
+      "threat": "Kinsing",
+      "confidence": 95,
+      "first_seen": "2026-07-13 13:59:48 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "hxxp://s[.]na-cs[.]com/b2f628/b[.]sh"
+    },
+    {
+      "value": "162.243.3.92:80",
+      "type": "ip:port",
+      "threat": "Kinsing",
+      "confidence": 90,
+      "first_seen": "2026-07-13 13:59:46 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "162[.]243[.]3[.]92:80"
+    },
+    {
+      "value": "oracle.zzhreceive.top",
+      "type": "domain",
+      "threat": "Kinsing",
+      "confidence": 85,
+      "first_seen": "2026-07-13 13:59:41 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "oracle[.]zzhreceive[.]top"
+    },
+    {
+      "value": "s.na-cs.com",
+      "type": "domain",
+      "threat": "Kinsing",
+      "confidence": 90,
+      "first_seen": "2026-07-13 13:59:39 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "s[.]na-cs[.]com"
+    },
+    {
+      "value": "136.0.213.113:8041",
+      "type": "ip:port",
+      "threat": "Unknown RAT",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:59:29 UTC",
+      "source": "ThreatFox",
+      "reference": "https://bazaar.abuse.ch/sample/6eb36447883376c1cc14129e77d8bebec87a1ac31ea069442ba76949797da3e1/",
+      "defanged": "136[.]0[.]213[.]113:8041"
+    },
+    {
+      "value": "droptest.xyz",
+      "type": "domain",
+      "threat": "Unknown Loader",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:53:54 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "droptest[.]xyz"
+    },
+    {
+      "value": "45.198.0.193:22265",
+      "type": "ip:port",
+      "threat": "Unknown malware",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:49:55 UTC",
+      "source": "ThreatFox",
+      "reference": "https://bazaar.abuse.ch/sample/475774774c013c3a5d6db3ccdb025504c7151999a63097bf98476578d0533f5b/",
+      "defanged": "45[.]198[.]0[.]193:22265"
+    },
+    {
+      "value": "tcp.niceports.shop",
+      "type": "domain",
+      "threat": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:49:34 UTC",
+      "source": "ThreatFox",
+      "reference": "https://bazaar.abuse.ch/sample/475774774c013c3a5d6db3ccdb025504c7151999a63097bf98476578d0533f5b/",
+      "defanged": "tcp[.]niceports[.]shop"
+    },
+    {
+      "value": "yxxyqkkf.jadoou.one",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:47:40 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "yxxyqkkf[.]jadoou[.]one"
+    },
+    {
+      "value": "178.62.228.25:25001",
+      "type": "ip:port",
+      "threat": "Kimwolf",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:44 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "178[.]62[.]228[.]25:25001"
+    },
+    {
+      "value": "178.62.235.14:25001",
+      "type": "ip:port",
+      "threat": "Kimwolf",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:43 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "178[.]62[.]235[.]14:25001"
+    },
+    {
+      "value": "188.166.1.226:25001",
+      "type": "ip:port",
+      "threat": "Kimwolf",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:42 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "188[.]166[.]1[.]226:25001"
+    },
+    {
+      "value": "188.166.105.148:25001",
+      "type": "ip:port",
+      "threat": "Kimwolf",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:41 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "188[.]166[.]105[.]148:25001"
+    },
+    {
+      "value": "167.99.42.38:25001",
+      "type": "ip:port",
+      "threat": "Kimwolf",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:40 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "167[.]99[.]42[.]38:25001"
+    },
+    {
+      "value": "142.93.231.53:25001",
+      "type": "ip:port",
+      "threat": "Kimwolf",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:39 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "142[.]93[.]231[.]53:25001"
+    },
+    {
+      "value": "209.38.46.121:25001",
+      "type": "ip:port",
+      "threat": "Kimwolf",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:37 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "209[.]38[.]46[.]121:25001"
+    },
+    {
+      "value": "178.128.249.233:25001",
+      "type": "ip:port",
+      "threat": "Kimwolf",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:37 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "178[.]128[.]249[.]233:25001"
+    },
+    {
+      "value": "157.245.71.64:25001",
+      "type": "ip:port",
+      "threat": "Kimwolf",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:36 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "157[.]245[.]71[.]64:25001"
+    },
+    {
+      "value": "64.225.73.161:25001",
+      "type": "ip:port",
+      "threat": "Kimwolf",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:35 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "64[.]225[.]73[.]161:25001"
+    },
+    {
+      "value": "https://jadeworkshop.top/router/verify-build",
+      "type": "url",
+      "threat": "SmartApeSG",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:34 UTC",
+      "source": "ThreatFox",
+      "reference": "https://infosec.exchange/@monitorsg/116912346615212268",
+      "defanged": "hxxps://jadeworkshop[.]top/router/verify-build"
+    },
+    {
+      "value": "jadeworkshop.top",
+      "type": "domain",
+      "threat": "SmartApeSG",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:34 UTC",
+      "source": "ThreatFox",
+      "reference": "https://infosec.exchange/@monitorsg/116912346615212268",
+      "defanged": "jadeworkshop[.]top"
+    },
+    {
+      "value": "https://jadeworkshop.top/router/handler-asset.js",
+      "type": "url",
+      "threat": "SmartApeSG",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:32 UTC",
+      "source": "ThreatFox",
+      "reference": "https://infosec.exchange/@monitorsg/116912346615212268",
+      "defanged": "hxxps://jadeworkshop[.]top/router/handler-asset[.]js"
+    },
     {
       "value": "genesis-cheats.com",
       "type": "domain",
       "threat": "Unknown malware",
       "confidence": 100,
-      "first_seen": "2026-07-13 11:42:26 UTC",
+      "first_seen": "2026-07-13 13:44:32 UTC",
       "source": "ThreatFox",
       "reference": "",
       "defanged": "genesis-cheats[.]com"
+    },
+    {
+      "value": "wifihgu.duckdns.org",
+      "type": "domain",
+      "threat": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:31 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "wifihgu[.]duckdns[.]org"
+    },
+    {
+      "value": "lumennix.life",
+      "type": "domain",
+      "threat": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:44:30 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "lumennix[.]life"
+    },
+    {
+      "value": "jadoou.boats",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:30 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]boats"
+    },
+    {
+      "value": "jadoou.cfd",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:29 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]cfd"
+    },
+    {
+      "value": "jadoou.club",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:28 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]club"
+    },
+    {
+      "value": "jadoou.monster",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:27 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]monster"
+    },
+    {
+      "value": "jadoou.online",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:26 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]online"
+    },
+    {
+      "value": "jadoou.shop",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:25 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]shop"
+    },
+    {
+      "value": "jadoou.site",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:24 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]site"
+    },
+    {
+      "value": "jadoou.skin",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:23 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]skin"
+    },
+    {
+      "value": "jadoou.space",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:22 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]space"
+    },
+    {
+      "value": "jadoou.store",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:22 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]store"
+    },
+    {
+      "value": "jadoou.xyz",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 75,
+      "first_seen": "2026-07-13 13:44:20 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "jadoou[.]xyz"
+    },
+    {
+      "value": "instance-v81wjy-relay.screenconnect.com",
+      "type": "domain",
+      "threat": "Unknown malware",
+      "confidence": 90,
+      "first_seen": "2026-07-13 13:44:18 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "instance-v81wjy-relay[.]screenconnect[.]com"
+    },
+    {
+      "value": "fanampiana.screenconnect.com",
+      "type": "domain",
+      "threat": "Unknown malware",
+      "confidence": 90,
+      "first_seen": "2026-07-13 13:44:16 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "fanampiana[.]screenconnect[.]com"
+    },
+    {
+      "value": "37.59.66.254:443",
+      "type": "ip:port",
+      "threat": "Unknown malware",
+      "confidence": 90,
+      "first_seen": "2026-07-13 13:44:15 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "37[.]59[.]66[.]254:443"
+    },
+    {
+      "value": "cdnssa.com",
+      "type": "domain",
+      "threat": "Unknown malware",
+      "confidence": 90,
+      "first_seen": "2026-07-13 13:44:13 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "cdnssa[.]com"
+    },
+    {
+      "value": "hnzi.behtarin-site-shartbandi.com",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:41:50 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "hnzi[.]behtarin-site-shartbandi[.]com"
+    },
+    {
+      "value": "owhj.behtarin-site-shartbandi.com",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:39:16 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "owhj[.]behtarin-site-shartbandi[.]com"
+    },
+    {
+      "value": "81.70.21.248:8080",
+      "type": "ip:port",
+      "threat": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:05:06 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "81[.]70[.]21[.]248:8080"
+    },
+    {
+      "value": "186.241.75.134:443",
+      "type": "ip:port",
+      "threat": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:05:05 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "186[.]241[.]75[.]134:443"
+    },
+    {
+      "value": "81.70.21.248:80",
+      "type": "ip:port",
+      "threat": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-07-13 13:05:05 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "81[.]70[.]21[.]248:80"
+    },
+    {
+      "value": "5dov6pg7.jadoou.yachts",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:52:46 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "5dov6pg7[.]jadoou[.]yachts"
+    },
+    {
+      "value": "k7d5sjnk.jadoobet.club",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:52:40 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "k7d5sjnk[.]jadoobet[.]club"
+    },
+    {
+      "value": "bzd7mk6q.parsalip.bio",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:52:10 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "bzd7mk6q[.]parsalip[.]bio"
+    },
+    {
+      "value": "ciofzlfd.jadoou.lat",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:50:39 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "ciofzlfd[.]jadoou[.]lat"
+    },
+    {
+      "value": "parsalip.bio",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:50:29 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "parsalip[.]bio"
+    },
+    {
+      "value": "motabartarin-site-shartbandi.com",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:50:21 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "motabartarin-site-shartbandi[.]com"
+    },
+    {
+      "value": "asuf.bahsegel90.com",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:49:10 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "asuf[.]bahsegel90[.]com"
+    },
+    {
+      "value": "casintro.bet",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:40:28 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "casintro[.]bet"
+    },
+    {
+      "value": "zigeoavk.jadoou.click",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:35:35 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "zigeoavk[.]jadoou[.]click"
+    },
+    {
+      "value": "vzcr.bahigo.casino",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:10:28 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "vzcr[.]bahigo[.]casino"
+    },
+    {
+      "value": "103.118.243.73:443",
+      "type": "ip:port",
+      "threat": "ValleyRAT",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:10:06 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "103[.]118[.]243[.]73:443"
+    },
+    {
+      "value": "hmmz.bahigo.casino",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:08:49 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "hmmz[.]bahigo[.]casino"
+    },
+    {
+      "value": "81.70.21.248:443",
+      "type": "ip:port",
+      "threat": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:05:06 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "81[.]70[.]21[.]248:443"
+    },
+    {
+      "value": "186.241.75.134:8080",
+      "type": "ip:port",
+      "threat": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:05:05 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "186[.]241[.]75[.]134:8080"
+    },
+    {
+      "value": "8.137.164.118:18084",
+      "type": "ip:port",
+      "threat": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:05:05 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "8[.]137[.]164[.]118:18084"
+    },
+    {
+      "value": "mehradhidden.bio",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 12:03:45 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "mehradhidden[.]bio"
+    },
+    {
+      "value": "576m4hgs.jadoobet.click",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 11:55:04 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "576m4hgs[.]jadoobet[.]click"
+    },
+    {
+      "value": "imjbwe71.jadoou.xyz",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 11:53:17 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "imjbwe71[.]jadoou[.]xyz"
+    },
+    {
+      "value": "92991q0f.jadoou.xyz",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-13 11:52:45 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "92991q0f[.]jadoou[.]xyz"
+    },
+    {
+      "value": "https://69.164.253.21",
+      "type": "url",
+      "threat": "Vidar",
+      "confidence": 75,
+      "first_seen": "2026-07-13 11:50:51 UTC",
+      "source": "ThreatFox",
+      "reference": "https://bazaar.abuse.ch/sample/3b328b13d6925bb86cfa46b58586530dd14e6f0f627ec92a1f14ef162d5712ec/",
+      "defanged": "hxxps://69[.]164[.]253[.]21"
     },
     {
       "value": "lqljywai.jadoou.christmas",
@@ -62,36 +822,6 @@
       "source": "ThreatFox",
       "reference": "",
       "defanged": "pars90[.]download"
-    },
-    {
-      "value": "https://jadeworkshop.top/router/handler-asset.js",
-      "type": "url",
-      "threat": "SmartApeSG",
-      "confidence": 100,
-      "first_seen": "2026-07-13 11:07:19 UTC",
-      "source": "ThreatFox",
-      "reference": "https://infosec.exchange/@monitorsg/116912346615212268",
-      "defanged": "hxxps://jadeworkshop[.]top/router/handler-asset[.]js"
-    },
-    {
-      "value": "jadeworkshop.top",
-      "type": "domain",
-      "threat": "SmartApeSG",
-      "confidence": 100,
-      "first_seen": "2026-07-13 11:07:18 UTC",
-      "source": "ThreatFox",
-      "reference": "https://infosec.exchange/@monitorsg/116912346615212268",
-      "defanged": "jadeworkshop[.]top"
-    },
-    {
-      "value": "https://jadeworkshop.top/router/verify-build",
-      "type": "url",
-      "threat": "SmartApeSG",
-      "confidence": 100,
-      "first_seen": "2026-07-13 11:07:17 UTC",
-      "source": "ThreatFox",
-      "reference": "https://infosec.exchange/@monitorsg/116912346615212268",
-      "defanged": "hxxps://jadeworkshop[.]top/router/verify-build"
     },
     {
       "value": "154.88.99.59:8885",
@@ -172,106 +902,6 @@
       "source": "ThreatFox",
       "reference": "",
       "defanged": "ukgf[.]madgal[.]life"
-    },
-    {
-      "value": "64.225.73.161:25001",
-      "type": "ip:port",
-      "threat": "Kimwolf",
-      "confidence": 100,
-      "first_seen": "2026-07-13 10:22:32 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "64[.]225[.]73[.]161:25001"
-    },
-    {
-      "value": "157.245.71.64:25001",
-      "type": "ip:port",
-      "threat": "Kimwolf",
-      "confidence": 100,
-      "first_seen": "2026-07-13 10:22:19 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "157[.]245[.]71[.]64:25001"
-    },
-    {
-      "value": "178.128.249.233:25001",
-      "type": "ip:port",
-      "threat": "Kimwolf",
-      "confidence": 100,
-      "first_seen": "2026-07-13 10:22:08 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "178[.]128[.]249[.]233:25001"
-    },
-    {
-      "value": "209.38.46.121:25001",
-      "type": "ip:port",
-      "threat": "Kimwolf",
-      "confidence": 100,
-      "first_seen": "2026-07-13 10:21:57 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "209[.]38[.]46[.]121:25001"
-    },
-    {
-      "value": "142.93.231.53:25001",
-      "type": "ip:port",
-      "threat": "Kimwolf",
-      "confidence": 100,
-      "first_seen": "2026-07-13 10:21:45 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "142[.]93[.]231[.]53:25001"
-    },
-    {
-      "value": "167.99.42.38:25001",
-      "type": "ip:port",
-      "threat": "Kimwolf",
-      "confidence": 100,
-      "first_seen": "2026-07-13 10:21:34 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "167[.]99[.]42[.]38:25001"
-    },
-    {
-      "value": "188.166.105.148:25001",
-      "type": "ip:port",
-      "threat": "Kimwolf",
-      "confidence": 100,
-      "first_seen": "2026-07-13 10:21:22 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "188[.]166[.]105[.]148:25001"
-    },
-    {
-      "value": "188.166.1.226:25001",
-      "type": "ip:port",
-      "threat": "Kimwolf",
-      "confidence": 100,
-      "first_seen": "2026-07-13 10:21:09 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "188[.]166[.]1[.]226:25001"
-    },
-    {
-      "value": "178.62.235.14:25001",
-      "type": "ip:port",
-      "threat": "Kimwolf",
-      "confidence": 100,
-      "first_seen": "2026-07-13 10:20:58 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "178[.]62[.]235[.]14:25001"
-    },
-    {
-      "value": "178.62.228.25:25001",
-      "type": "ip:port",
-      "threat": "Kimwolf",
-      "confidence": 100,
-      "first_seen": "2026-07-13 10:20:47 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "178[.]62[.]228[.]25:25001"
     },
     {
       "value": "193.26.115.211:443",
@@ -442,16 +1072,6 @@
       "source": "ThreatFox",
       "reference": "",
       "defanged": "136[.]111[.]38[.]101:6932"
-    },
-    {
-      "value": "103.130.215.73:80",
-      "type": "ip:port",
-      "threat": "Mirai",
-      "confidence": 75,
-      "first_seen": "2026-07-13 09:43:11 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "103[.]130[.]215[.]73:80"
     },
     {
       "value": "vfld.jadoou.my",
@@ -644,16 +1264,6 @@
       "defanged": "23euhdso[.]deryuga-sablist[.]garden"
     },
     {
-      "value": "jadoou.monster",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-13 08:31:16 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "jadoou[.]monster"
-    },
-    {
       "value": "63mkau.deryuga-sablist.garden",
       "type": "domain",
       "threat": "ClearFake",
@@ -732,16 +1342,6 @@
       "source": "ThreatFox",
       "reference": "",
       "defanged": "cacbvgql[.]jadoou[.]skin"
-    },
-    {
-      "value": "jadoou.skin",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-13 07:58:11 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "jadoou[.]skin"
     },
     {
       "value": "fahv2h6l.kimimaro-trance.com",
@@ -1222,16 +1822,6 @@
       "source": "ThreatFox",
       "reference": "",
       "defanged": "hruqsetf[.]jadoou[.]shop"
-    },
-    {
-      "value": "jadoou.shop",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-13 06:06:26 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "jadoou[.]shop"
     },
     {
       "value": "154.88.97.54:8885",
@@ -6834,314 +7424,394 @@
       "defanged": "lrduhdmx[.]betturkey[.]bet"
     },
     {
-      "value": "llar.jadoou.boats",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 14:12:30 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "llar[.]jadoou[.]boats"
-    },
-    {
-      "value": "jadoou.boats",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 14:11:25 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "jadoou[.]boats"
-    },
-    {
-      "value": "154.88.100.54:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 14:05:06 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]54:8885"
-    },
-    {
-      "value": "154.88.100.59:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 14:05:06 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]59:8885"
-    },
-    {
-      "value": "154.88.100.47:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 14:05:05 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]47:8885"
-    },
-    {
-      "value": "154.88.100.53:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 14:05:05 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]53:8885"
-    },
-    {
-      "value": "voltix-net.biz",
-      "type": "domain",
-      "threat": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:49:14 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "voltix-net[.]biz"
-    },
-    {
-      "value": "arcanemods.top",
-      "type": "domain",
-      "threat": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:49:14 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "arcanemods[.]top"
-    },
-    {
-      "value": "https://cbsnews.date/tgv/RandApp",
+      "value": "https://kaleda.pro/50bf4317.exe",
       "type": "url",
-      "threat": "Unknown malware",
-      "confidence": 90,
-      "first_seen": "2026-07-12 13:46:24 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "hxxps://cbsnews[.]date/tgv/RandApp"
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 14:10:20 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885884/",
+      "defanged": "hxxps://kaleda[.]pro/50bf4317[.]exe"
     },
     {
-      "value": "qfjwyksn.jadoobet.info",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:36:33 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "qfjwyksn[.]jadoobet[.]info"
+      "value": "https://kaleda.pro/96de8ea9.exe",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 14:08:19 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885883/",
+      "defanged": "hxxps://kaleda[.]pro/96de8ea9[.]exe"
     },
     {
-      "value": "tdyx2uq8.jadoobet.info",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:35:13 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "tdyx2uq8[.]jadoobet[.]info"
+      "value": "http://196.190.1.39:42645/bin.sh",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 14:01:26 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885882/",
+      "defanged": "hxxp://196[.]190[.]1[.]39:42645/bin[.]sh"
     },
     {
-      "value": "zduyoblb.betropol.bet",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:27:16 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "zduyoblb[.]betropol[.]bet"
+      "value": "http://noventis8.com/lxnew.png",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 14:00:43 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885881/",
+      "defanged": "hxxp://noventis8[.]com/lxnew[.]png"
     },
     {
-      "value": "kantnxrl.betropol.bet",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:25:24 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "kantnxrl[.]betropol[.]bet"
+      "value": "https://nexrogcapital.xyz/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:59:22 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885880/",
+      "defanged": "hxxps://nexrogcapital[.]xyz/Bin/ScreenConnect[.]ClientSetup[.]msi?e=Access&y=Guest"
     },
     {
-      "value": "ltvz.jadoou.biz",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:12:16 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "ltvz[.]jadoou[.]biz"
+      "value": "http://112.248.190.178:57119/bin.sh",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:52:52 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885879/",
+      "defanged": "hxxp://112[.]248[.]190[.]178:57119/bin[.]sh"
     },
     {
-      "value": "jadoou.biz",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:11:18 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "jadoou[.]biz"
+      "value": "http://42.230.17.60:42266/i",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:51:17 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885878/",
+      "defanged": "hxxp://42[.]230[.]17[.]60:42266/i"
     },
     {
-      "value": "154.88.100.49:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:05:08 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]49:8885"
+      "value": "https://yxxyqkkf.jadoou.one/5f5d1b02-aca5-4491-a0ee-e53048a627c0",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:48:17 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885877/",
+      "defanged": "hxxps://yxxyqkkf[.]jadoou[.]one/5f5d1b02-aca5-4491-a0ee-e53048a627c0"
     },
     {
-      "value": "154.88.100.52:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:05:08 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]52:8885"
+      "value": "https://genesis-cheats.com/files/Genesis.zip",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:45:41 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885876/",
+      "defanged": "hxxps://genesis-cheats[.]com/files/Genesis[.]zip"
     },
     {
-      "value": "154.88.100.48:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:05:07 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]48:8885"
+      "value": "https://hnzi.behtarin-site-shartbandi.com/2a563779-d2bb-492c-9164-4dd12c9dd8d0",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:42:18 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885875/",
+      "defanged": "hxxps://hnzi[.]behtarin-site-shartbandi[.]com/2a563779-d2bb-492c-9164-4dd12c9dd8d0"
     },
     {
-      "value": "154.88.100.46:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 13:05:05 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]46:8885"
+      "value": "http://175.175.13.148:55899/i",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:41:13 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885874/",
+      "defanged": "hxxp://175[.]175[.]13[.]148:55899/i"
     },
     {
-      "value": "peiry.casinomilyon.bet",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:44:39 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "peiry[.]casinomilyon[.]bet"
+      "value": "http://110.37.85.150:52270/i",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:16:37 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885873/",
+      "defanged": "hxxp://110[.]37[.]85[.]150:52270/i"
     },
     {
-      "value": "casinomilyon.bet",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:40:36 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "casinomilyon[.]bet"
+      "value": "http://62.60.226.140/files/8130232421/rb0yFh2.exe",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:08:12 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885872/",
+      "defanged": "hxxp://62[.]60[.]226[.]140/files/8130232421/rb0yFh2[.]exe"
     },
     {
-      "value": "wubbueiu.betpublic.casino",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:35:06 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "wubbueiu[.]betpublic[.]casino"
+      "value": "http://175.175.13.148:55899/bin.sh",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:07:23 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885871/",
+      "defanged": "hxxp://175[.]175[.]13[.]148:55899/bin[.]sh"
     },
     {
-      "value": "iifoqkzw.betpublic.casino",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:29:53 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "iifoqkzw[.]betpublic[.]casino"
+      "value": "http://59.58.188.169:33841/i",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 13:06:32 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885870/",
+      "defanged": "hxxp://59[.]58[.]188[.]169:33841/i"
     },
     {
-      "value": "xxaz.jadoou.beauty",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:15:37 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "xxaz[.]jadoou[.]beauty"
+      "value": "https://5dov6pg7.jadoou.yachts/?ublib=2942e19d-e648-4773-ac5a-ec92c91e64e2",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 12:53:16 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885868/",
+      "defanged": "hxxps://5dov6pg7[.]jadoou[.]yachts/?ublib=2942e19d-e648-4773-ac5a-ec92c91e64e2"
     },
     {
-      "value": "jadoou.beauty",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:10:46 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "jadoou[.]beauty"
+      "value": "https://k7d5sjnk.jadoobet.club/?ublib=cea18345-3e45-4dc5-9d5e-b2cf1d9f8e71",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 12:53:16 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885869/",
+      "defanged": "hxxps://k7d5sjnk[.]jadoobet[.]club/?ublib=cea18345-3e45-4dc5-9d5e-b2cf1d9f8e71"
     },
     {
-      "value": "imagehubguest.info",
-      "type": "domain",
-      "threat": "Unknown Loader",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:06:34 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "imagehubguest[.]info"
+      "value": "https://bzd7mk6q.parsalip.bio/?ublib=05713f42-f9d4-42b0-b12b-b214ee3822f9",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 12:52:15 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885867/",
+      "defanged": "hxxps://bzd7mk6q[.]parsalip[.]bio/?ublib=05713f42-f9d4-42b0-b12b-b214ee3822f9"
     },
     {
-      "value": "154.88.100.41:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:05:07 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]41:8885"
+      "value": "https://zigeoavk.jadoou.click/30db1ecc-d221-497d-96ff-02a27a553918",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 12:36:16 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885866/",
+      "defanged": "hxxps://zigeoavk[.]jadoou[.]click/30db1ecc-d221-497d-96ff-02a27a553918"
     },
     {
-      "value": "154.88.100.38:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:05:06 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]38:8885"
+      "value": "http://123.5.133.104:36549/bin.sh",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 12:29:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885865/",
+      "defanged": "hxxp://123[.]5[.]133[.]104:36549/bin[.]sh"
     },
     {
-      "value": "154.88.100.39:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:05:06 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]39:8885"
+      "value": "https://vzcr.bahigo.casino/7ca83116-6045-48b9-89d9-600b25614c94",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 12:11:12 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885864/",
+      "defanged": "hxxps://vzcr[.]bahigo[.]casino/7ca83116-6045-48b9-89d9-600b25614c94"
     },
     {
-      "value": "154.88.100.36:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:05:05 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]36:8885"
+      "value": "http://39.40.129.155:46621/i",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:59:31 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885863/",
+      "defanged": "hxxp://39[.]40[.]129[.]155:46621/i"
     },
     {
-      "value": "154.88.100.37:8885",
-      "type": "ip:port",
-      "threat": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-07-12 12:05:05 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "154[.]88[.]100[.]37:8885"
+      "value": "http://wifihgu.duckdns.org/arm7",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:32 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885855/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/arm7"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/arm5",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:32 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885856/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/arm5"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/ppc",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:32 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885857/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/ppc"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/arm",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:32 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885858/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/arm"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/sh4",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:32 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885859/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/sh4"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/arc",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:32 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885860/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/arc"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org///arm5",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:32 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885861/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org///arm5"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/mpsl",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:32 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885862/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/mpsl"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/x86",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:30 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885851/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/x86"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/mips",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:30 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885852/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/mips"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/spc",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:30 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885853/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/spc"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/arm6",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:30 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885854/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/arm6"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/x86_64",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:28 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885850/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/x86_64"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/i686",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:19 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885848/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/i686"
+    },
+    {
+      "value": "http://wifihgu.duckdns.org/m68k",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:56:19 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885849/",
+      "defanged": "hxxp://wifihgu[.]duckdns[.]org/m68k"
+    },
+    {
+      "value": "https://576m4hgs.jadoobet.click/?ublib=8e0e9e79-9fd9-4add-88d9-36754b1a79d3",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:55:08 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885847/",
+      "defanged": "hxxps://576m4hgs[.]jadoobet[.]click/?ublib=8e0e9e79-9fd9-4add-88d9-36754b1a79d3"
+    },
+    {
+      "value": "https://imjbwe71.jadoou.xyz/?ublib=2fcdccc0-9442-4581-8f0a-e9c1d2c4187a",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-13 11:54:13 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3885846/",
+      "defanged": "hxxps://imjbwe71[.]jadoou[.]xyz/?ublib=2fcdccc0-9442-4581-8f0a-e9c1d2c4187a"
     },
     {
       "value": "http://62.60.226.140/files/8079848160/5cPfAMH.exe",
@@ -7752,396 +8422,6 @@
       "source": "URLhaus",
       "reference": "https://urlhaus.abuse.ch/url/3885785/",
       "defanged": "hxxps://frqljktr[.]jadoou[.]site/b8a7601f-d076-4287-b05f-0d4b7b21e27e"
-    },
-    {
-      "value": "http://196.189.198.193:36412/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 07:00:37 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885784/",
-      "defanged": "hxxp://196[.]189[.]198[.]193:36412/i"
-    },
-    {
-      "value": "http://42.235.144.196:35570/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:55:49 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885783/",
-      "defanged": "hxxp://42[.]235[.]144[.]196:35570/i"
-    },
-    {
-      "value": "https://byagqv8a.fileboroo.com/?ublib=24901cc9-f3c6-4c2f-8e81-2458d20e816d",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:55:21 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885782/",
-      "defanged": "hxxps://byagqv8a[.]fileboroo[.]com/?ublib=24901cc9-f3c6-4c2f-8e81-2458d20e816d"
-    },
-    {
-      "value": "http://196.189.198.193:36412/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:38:40 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885781/",
-      "defanged": "hxxp://196[.]189[.]198[.]193:36412/bin[.]sh"
-    },
-    {
-      "value": "https://mlbn.jadoou.makeup/d9a04cde-d015-470b-a51f-75ab154a1462",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:31:13 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885780/",
-      "defanged": "hxxps://mlbn[.]jadoou[.]makeup/d9a04cde-d015-470b-a51f-75ab154a1462"
-    },
-    {
-      "value": "http://77.79.160.210:51525/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:22:16 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885779/",
-      "defanged": "hxxp://77[.]79[.]160[.]210:51525/i"
-    },
-    {
-      "value": "https://sth4xz5f.pacificcrestforaging.com/?ublib=24006556-f831-4f6e-ac02-922fcafa7d3f",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:17:17 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885778/",
-      "defanged": "hxxps://sth4xz5f[.]pacificcrestforaging[.]com/?ublib=24006556-f831-4f6e-ac02-922fcafa7d3f"
-    },
-    {
-      "value": "https://gogolfonline.com/zira-miszsn.exe",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:12:22 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885777/",
-      "defanged": "hxxps://gogolfonline[.]com/zira-miszsn[.]exe"
-    },
-    {
-      "value": "http://77.79.160.210:51525/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:09:20 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885776/",
-      "defanged": "hxxp://77[.]79[.]160[.]210:51525/bin[.]sh"
-    },
-    {
-      "value": "https://knihrdel.jadoou.shop/1f9c07a6-6ceb-4e3b-a4c9-70e2cb0bfa38",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:09:07 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885775/",
-      "defanged": "hxxps://knihrdel[.]jadoou[.]shop/1f9c07a6-6ceb-4e3b-a4c9-70e2cb0bfa38"
-    },
-    {
-      "value": "http://42.59.119.187:37559/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:06:33 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885774/",
-      "defanged": "hxxp://42[.]59[.]119[.]187:37559/bin[.]sh"
-    },
-    {
-      "value": "https://pub-6bb84612f1aa422e987506bd70a6550c.r2.dev/HCUQAUTJ.msi",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:05:10 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885773/",
-      "defanged": "hxxps://pub-6bb84612f1aa422e987506bd70a6550c[.]r2[.]dev/HCUQAUTJ[.]msi"
-    },
-    {
-      "value": "http://141.11.88.119/dg.x86_64",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885759/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]x86_64"
-    },
-    {
-      "value": "http://141.11.88.119/dg.aarch64",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885760/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]aarch64"
-    },
-    {
-      "value": "http://141.11.88.119/dg.mipsel",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885761/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]mipsel"
-    },
-    {
-      "value": "http://141.11.88.119/dg.powerpc",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885762/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]powerpc"
-    },
-    {
-      "value": "http://141.11.88.119/dg.armv4l",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885763/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]armv4l"
-    },
-    {
-      "value": "http://141.11.88.119/dg.sparc",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885764/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]sparc"
-    },
-    {
-      "value": "http://141.11.88.119/dg.sh4",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885765/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]sh4"
-    },
-    {
-      "value": "http://141.11.88.119/dg.mipsrouter",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885766/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]mipsrouter"
-    },
-    {
-      "value": "http://141.11.88.119/dg.armv5l",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885767/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]armv5l"
-    },
-    {
-      "value": "http://141.11.88.119/dg.armv7l",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885768/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]armv7l"
-    },
-    {
-      "value": "http://141.11.88.119/dg.i486",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885769/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]i486"
-    },
-    {
-      "value": "http://141.11.88.119/dg.m68k",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885770/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]m68k"
-    },
-    {
-      "value": "http://141.11.88.119/dg.arc",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885771/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]arc"
-    },
-    {
-      "value": "http://141.11.88.119/dg.armv6l",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:26 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885772/",
-      "defanged": "hxxp://141[.]11[.]88[.]119/dg[.]armv6l"
-    },
-    {
-      "value": "http://85.239.149.167/nLZQ1kMfpqUTJofiP",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:14 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885757/",
-      "defanged": "hxxp://85[.]239[.]149[.]167/nLZQ1kMfpqUTJofiP"
-    },
-    {
-      "value": "https://fairth.dev/Fairth.zip",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:14 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885758/",
-      "defanged": "hxxps://fairth[.]dev/Fairth[.]zip"
-    },
-    {
-      "value": "https://www.dropbox.com/scl/fi/87ikws7x5qn2p1ogczanv/unitymanager.exe?rlkey=tp4t2v1llj60fopadmv63zx1n&st=1feetr0p&e=1&dl=1",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:04:05 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885756/",
-      "defanged": "hxxps://www[.]dropbox[.]com/scl/fi/87ikws7x5qn2p1ogczanv/unitymanager[.]exe?rlkey=tp4t2v1llj60fopadmv63zx1n&st=1feetr0p&e=1&dl=1"
-    },
-    {
-      "value": "https://nightmare-download.pw/NMLoader%20v%204.2.1.zip",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:03:21 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885755/",
-      "defanged": "hxxps://nightmare-download[.]pw/NMLoader%20v%204[.]2[.]1[.]zip"
-    },
-    {
-      "value": "http://91.92.242.236/files-129312398/files/file_77b5757ae75eb20b.exe",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:03:17 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885754/",
-      "defanged": "hxxp://91[.]92[.]242[.]236/files-129312398/files/file_77b5757ae75eb20b[.]exe"
-    },
-    {
-      "value": "http://151.247.22.48:8080/bins/payload.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 06:03:08 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885753/",
-      "defanged": "hxxp://151[.]247[.]22[.]48:8080/bins/payload[.]sh"
-    },
-    {
-      "value": "https://xc1y2oam.jetbet.download/?ublib=2a0a4211-ae80-4d54-a77e-c5e04e044848",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 05:53:04 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885752/",
-      "defanged": "hxxps://xc1y2oam[.]jetbet[.]download/?ublib=2a0a4211-ae80-4d54-a77e-c5e04e044848"
-    },
-    {
-      "value": "http://110.37.55.84:51036/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 05:45:25 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885751/",
-      "defanged": "hxxp://110[.]37[.]55[.]84:51036/i"
-    },
-    {
-      "value": "https://ahkx.jadoou.lol/5c479e97-397b-4074-a7e4-d80c37dd6be7",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 05:35:09 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885750/",
-      "defanged": "hxxps://ahkx[.]jadoou[.]lol/5c479e97-397b-4074-a7e4-d80c37dd6be7"
-    },
-    {
-      "value": "http://124.131.129.41:41802/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 05:33:35 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885749/",
-      "defanged": "hxxp://124[.]131[.]129[.]41:41802/i"
-    },
-    {
-      "value": "http://42.59.119.187:37559/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 05:16:22 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885748/",
-      "defanged": "hxxp://42[.]59[.]119[.]187:37559/i"
-    },
-    {
-      "value": "https://pqxhifiu.jadoou.sbs/3f80625e-0815-4bcf-aad9-fe261f52fc51",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 05:14:06 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885747/",
-      "defanged": "hxxps://pqxhifiu[.]jadoou[.]sbs/3f80625e-0815-4bcf-aad9-fe261f52fc51"
-    },
-    {
-      "value": "http://110.37.55.84:51036/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 05:13:21 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3885746/",
-      "defanged": "hxxp://110[.]37[.]55[.]84:51036/bin[.]sh"
     },
     {
       "value": "picis.net",
