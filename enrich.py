@@ -81,6 +81,13 @@ SEV_ALTA = (
     "qakbot", "qbot", "pikabot", "icedid", "emotet", "trickbot", "bumblebee",
     "darkgate", "socgholish", "fakeupdates", "gootloader", "mirai", "amadey",
     "smokeloader", "latrodectus", "danabot", "netsupport",
+    "clearfake", "kongtuke", "aisuru",
+)
+# Categorías genéricas: si la familia no está en las listas pero su nombre
+# delata el tipo de malware, también es gravedad alta
+SEV_ALTA_GENERICAS = (
+    "stealer", "rat", "loader", "backdoor", "keylogger", "botnet",
+    "banker", "spyware",
 )
 
 GEO_PATH = os.path.join(tempfile.gettempdir(), "dbip-country-lite.mmdb")
@@ -181,7 +188,8 @@ def classify_severity(threat: str, vt: dict | None) -> str:
     """Gravedad del IOC según la familia/categoría de amenaza reportada.
 
     crítica  ransomware y frameworks C2 (Cobalt Strike, Sliver…)
-    alta     RATs, stealers, loaders y botnets conocidos
+    alta     RATs, stealers, loaders y botnets — familias conocidas o
+             categoría genérica en el nombre ("X Stealer", "Unknown RAT"…)
     media    resto de amenazas identificadas (payload delivery, phishing…)
              o desconocidas con ratio de detecciones VT >= 0,3
     baja     sin familia identificada ni señal externa
@@ -190,6 +198,8 @@ def classify_severity(threat: str, vt: dict | None) -> str:
     if any(k in t for k in SEV_CRITICA):
         return "critica"
     if any(k in t for k in SEV_ALTA):
+        return "alta"
+    if any(k in t for k in SEV_ALTA_GENERICAS):
         return "alta"
     if t and t != "unknown":
         return "media"
