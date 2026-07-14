@@ -65,12 +65,13 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-14 06:42 UTC · **IOCs recolectados:** 846 · **CVEs KEV recientes:** 8
+**Última actualización:** 2026-07-14 06:55 UTC · **IOCs recolectados:** 846 · **CVEs KEV recientes:** 8
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| — (—) | — | `takhtenard[.]app` | domain | ClearFake | ThreatFox | 2026-07-14 06:54:36 UTC |
 | — (—) | — | `206[.]189[.]146[.]157:34567` | ip:port | Aisuru | ThreatFox | 2026-07-14 06:38:48 UTC |
 | — (—) | — | `cwkw[.]site-shartbandi-bedun-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 06:24:56 UTC |
 | — (—) | — | `dddododiiik[.]com` | domain | Unknown Loader | ThreatFox | 2026-07-14 06:22:42 UTC |
@@ -95,7 +96,6 @@ python main.py
 | — (—) | — | `hxxp://44[.]223[.]110[.]247:1337/babayla/zor/yarisirlar/` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:27 UTC |
 | — (—) | — | `hxxp://44[.]223[.]110[.]247:1337/?p=` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:27 UTC |
 | — (—) | — | `hxxps://schuctz[.]click/h5gqnaud[.]js` | url | KongTuke | ThreatFox | 2026-07-14 05:30:27 UTC |
-| — (—) | — | `hxxps://schuctz[.]click/xyzqcsdc[.]js` | url | KongTuke | ThreatFox | 2026-07-14 05:30:26 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 

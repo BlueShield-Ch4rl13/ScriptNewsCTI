@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-14 06:42",
+  "generated_utc": "2026-07-14 06:55",
   "ioc_count": 846,
   "kev_count": 8,
   "levels": {
@@ -8,6 +8,16 @@
     "baja": 0
   },
   "iocs": [
+    {
+      "value": "takhtenard.app",
+      "type": "domain",
+      "threat": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-07-14 06:54:36 UTC",
+      "source": "ThreatFox",
+      "reference": "",
+      "defanged": "takhtenard[.]app"
+    },
     {
       "value": "206.189.146.157:34567",
       "type": "ip:port",
@@ -5459,14 +5469,474 @@
       "defanged": "bsrqzaff[.]jadoou[.]site"
     },
     {
-      "value": "byagqv8a.fileboroo.com",
-      "type": "domain",
-      "threat": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-07-13 06:54:42 UTC",
-      "source": "ThreatFox",
-      "reference": "",
-      "defanged": "byagqv8a[.]fileboroo[.]com"
+      "value": "http://94.154.43.51/main_x86_64",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:54:44 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886176/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_x86_64"
+    },
+    {
+      "value": "http://94.154.43.51/main_x86",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:54:43 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886175/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_x86"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.arm",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886154/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]arm"
+    },
+    {
+      "value": "http://94.154.43.51/main_arm",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886155/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_arm"
+    },
+    {
+      "value": "http://94.154.43.51/main_m68k",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886156/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_m68k"
+    },
+    {
+      "value": "http://94.154.43.51/main_ppc",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886157/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_ppc"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.m68k",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886158/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]m68k"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.arm5",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886159/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]arm5"
+    },
+    {
+      "value": "http://94.154.43.51/main_arm7",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886160/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_arm7"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.x86",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886161/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]x86"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.spc",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886162/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]spc"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.arm7",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886163/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]arm7"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.arm6",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886164/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]arm6"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.sh4",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886165/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]sh4"
+    },
+    {
+      "value": "http://94.154.43.51/main_mpsl",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886166/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_mpsl"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.mpsl",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886167/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]mpsl"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.mips",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886168/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]mips"
+    },
+    {
+      "value": "http://94.154.43.51/dlr.ppc",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886169/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/dlr[.]ppc"
+    },
+    {
+      "value": "http://94.154.43.51/main_arm6",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886170/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_arm6"
+    },
+    {
+      "value": "http://94.154.43.51/main_arm5",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886171/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_arm5"
+    },
+    {
+      "value": "http://94.154.43.51/main_mips",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886172/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_mips"
+    },
+    {
+      "value": "http://94.154.43.51/debug.dbg",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886173/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/debug[.]dbg"
+    },
+    {
+      "value": "http://94.154.43.51/main_sh4",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:53:36 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886174/",
+      "defanged": "hxxp://94[.]154[.]43[.]51/main_sh4"
+    },
+    {
+      "value": "http://188.232.76.68:20238/i",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:52:48 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886153/",
+      "defanged": "hxxp://188[.]232[.]76[.]68:20238/i"
+    },
+    {
+      "value": "http://219.155.211.71:55862/i",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:52:22 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886152/",
+      "defanged": "hxxp://219[.]155[.]211[.]71:55862/i"
+    },
+    {
+      "value": "http://94.154.43.88/bins/txkjolgzu.arm5",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:49:35 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886145/",
+      "defanged": "hxxp://94[.]154[.]43[.]88/bins/txkjolgzu[.]arm5"
+    },
+    {
+      "value": "http://94.154.43.88/bins/nvephtfwk",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:49:35 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886146/",
+      "defanged": "hxxp://94[.]154[.]43[.]88/bins/nvephtfwk"
+    },
+    {
+      "value": "http://94.154.43.88/bins/nvwrudmsi",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:49:35 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886147/",
+      "defanged": "hxxp://94[.]154[.]43[.]88/bins/nvwrudmsi"
+    },
+    {
+      "value": "http://94.154.43.88/bins/txkjolgzu.arm6",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:49:35 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886148/",
+      "defanged": "hxxp://94[.]154[.]43[.]88/bins/txkjolgzu[.]arm6"
+    },
+    {
+      "value": "http://94.154.43.88/bins/ikydgrvum",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:49:35 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886149/",
+      "defanged": "hxxp://94[.]154[.]43[.]88/bins/ikydgrvum"
+    },
+    {
+      "value": "http://94.154.43.88/bins/abzutimdw",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:49:35 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886150/",
+      "defanged": "hxxp://94[.]154[.]43[.]88/bins/abzutimdw"
+    },
+    {
+      "value": "http://94.154.43.88/bins/lkchngqsu",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:49:35 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886151/",
+      "defanged": "hxxp://94[.]154[.]43[.]88/bins/lkchngqsu"
+    },
+    {
+      "value": "http://94.154.43.88/bins/txkjolgzu.arm",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:49:34 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886144/",
+      "defanged": "hxxp://94[.]154[.]43[.]88/bins/txkjolgzu[.]arm"
+    },
+    {
+      "value": "http://61.52.72.136:50524/bin.sh",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:47:45 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886143/",
+      "defanged": "hxxp://61[.]52[.]72[.]136:50524/bin[.]sh"
+    },
+    {
+      "value": "http://110.36.3.201:35761/bin.sh",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:45:29 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886142/",
+      "defanged": "hxxp://110[.]36[.]3[.]201:35761/bin[.]sh"
+    },
+    {
+      "value": "http://112.239.120.131:39996/i",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:44:38 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886141/",
+      "defanged": "hxxp://112[.]239[.]120[.]131:39996/i"
+    },
+    {
+      "value": "http://94.154.43.73/main_mpsl",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:44:25 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886134/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/main_mpsl"
+    },
+    {
+      "value": "http://94.154.43.73/bot.arm",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:44:25 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886135/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/bot[.]arm"
+    },
+    {
+      "value": "http://94.154.43.73/main_arm",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:44:25 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886136/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/main_arm"
+    },
+    {
+      "value": "http://94.154.43.73/main_arm7",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:44:25 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886137/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/main_arm7"
+    },
+    {
+      "value": "http://94.154.43.73/main_x64",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:44:25 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886138/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/main_x64"
+    },
+    {
+      "value": "http://94.154.43.73/main_aarch64",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:44:25 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886139/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/main_aarch64"
+    },
+    {
+      "value": "http://94.154.43.73/main_mips",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:44:25 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886140/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/main_mips"
+    },
+    {
+      "value": "http://94.154.43.73/bot.x86_64",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:43:39 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886131/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/bot[.]x86_64"
+    },
+    {
+      "value": "http://94.154.43.73/bot.mipsel",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:43:39 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886132/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/bot[.]mipsel"
+    },
+    {
+      "value": "http://94.154.43.73/bot.mips",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:43:39 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886133/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/bot[.]mips"
+    },
+    {
+      "value": "http://94.154.43.73/bot.aarch64",
+      "type": "url",
+      "threat": "malware_download",
+      "confidence": null,
+      "first_seen": "2026-07-14 06:43:29 UTC",
+      "source": "URLhaus",
+      "reference": "https://urlhaus.abuse.ch/url/3886130/",
+      "defanged": "hxxp://94[.]154[.]43[.]73/bot[.]aarch64"
     },
     {
       "value": "http://182.113.222.145:54243/bin.sh",
@@ -5997,476 +6467,6 @@
       "source": "URLhaus",
       "reference": "https://urlhaus.abuse.ch/url/3886077/",
       "defanged": "hxxps://s645gfw3[.]bahsegel90[.]com/?ublib=370be8fb-9552-4144-890b-2b3b0ab12300"
-    },
-    {
-      "value": "https://nqzp.jadoou.mom/a3df109c-3498-43e9-abcb-49ecaf4d9d57",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 02:47:15 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886076/",
-      "defanged": "hxxps://nqzp[.]jadoou[.]mom/a3df109c-3498-43e9-abcb-49ecaf4d9d57"
-    },
-    {
-      "value": "http://110.37.25.189:59393/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 02:32:30 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886075/",
-      "defanged": "hxxp://110[.]37[.]25[.]189:59393/i"
-    },
-    {
-      "value": "http://110.38.223.172:35521/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 02:31:23 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886074/",
-      "defanged": "hxxp://110[.]38[.]223[.]172:35521/i"
-    },
-    {
-      "value": "http://222.141.131.100:40368/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 02:31:16 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886073/",
-      "defanged": "hxxp://222[.]141[.]131[.]100:40368/bin[.]sh"
-    },
-    {
-      "value": "http://105.184.147.15:44875/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 02:19:24 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886072/",
-      "defanged": "hxxp://105[.]184[.]147[.]15:44875/i"
-    },
-    {
-      "value": "http://182.113.194.106:55664/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 02:03:24 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886071/",
-      "defanged": "hxxp://182[.]113[.]194[.]106:55664/bin[.]sh"
-    },
-    {
-      "value": "http://105.184.147.15:44875/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 01:55:31 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886070/",
-      "defanged": "hxxp://105[.]184[.]147[.]15:44875/bin[.]sh"
-    },
-    {
-      "value": "https://sqbw.jadoou.makeup/945aca7b-aec5-4508-a7d4-e1a5dd245828",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 01:50:14 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886069/",
-      "defanged": "hxxps://sqbw[.]jadoou[.]makeup/945aca7b-aec5-4508-a7d4-e1a5dd245828"
-    },
-    {
-      "value": "http://196.190.11.194:47788/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 01:46:18 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886068/",
-      "defanged": "hxxp://196[.]190[.]11[.]194:47788/i"
-    },
-    {
-      "value": "https://wmgbwskd.pdfbama.com/2e3f1faf-8ebf-48eb-818a-157de1faf62a",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 01:39:16 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886067/",
-      "defanged": "hxxps://wmgbwskd[.]pdfbama[.]com/2e3f1faf-8ebf-48eb-818a-157de1faf62a"
-    },
-    {
-      "value": "http://103.157.210.26:54448/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 01:25:44 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886066/",
-      "defanged": "hxxp://103[.]157[.]210[.]26:54448/i"
-    },
-    {
-      "value": "http://103.157.210.26:54448/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 01:19:35 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886065/",
-      "defanged": "hxxp://103[.]157[.]210[.]26:54448/bin[.]sh"
-    },
-    {
-      "value": "http://110.37.10.113:48215/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 01:14:19 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886064/",
-      "defanged": "hxxp://110[.]37[.]10[.]113:48215/i"
-    },
-    {
-      "value": "http://5.134.252.106:56153/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 01:12:01 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886063/",
-      "defanged": "hxxp://5[.]134[.]252[.]106:56153/i"
-    },
-    {
-      "value": "http://115.49.210.33:49963/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 01:01:23 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886062/",
-      "defanged": "hxxp://115[.]49[.]210[.]33:49963/i"
-    },
-    {
-      "value": "http://123.11.15.48:50483/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 01:00:28 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886061/",
-      "defanged": "hxxp://123[.]11[.]15[.]48:50483/i"
-    },
-    {
-      "value": "http://110.37.10.113:48215/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:55:38 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886060/",
-      "defanged": "hxxp://110[.]37[.]10[.]113:48215/bin[.]sh"
-    },
-    {
-      "value": "http://105.184.93.115:54259/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:54:33 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886059/",
-      "defanged": "hxxp://105[.]184[.]93[.]115:54259/i"
-    },
-    {
-      "value": "https://hczzqwrl.pinbahis-bedon-filter.com/?ublib=e53b482c-b66a-48c5-91d6-917a1579c741",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:54:17 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886058/",
-      "defanged": "hxxps://hczzqwrl[.]pinbahis-bedon-filter[.]com/?ublib=e53b482c-b66a-48c5-91d6-917a1579c741"
-    },
-    {
-      "value": "http://182.126.58.113:33017/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:49:36 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886057/",
-      "defanged": "hxxp://182[.]126[.]58[.]113:33017/i"
-    },
-    {
-      "value": "http://105.184.93.115:54259/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:46:37 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886056/",
-      "defanged": "hxxp://105[.]184[.]93[.]115:54259/bin[.]sh"
-    },
-    {
-      "value": "https://wjek.jadoou.lol/3deecc0e-2f9c-4789-b647-9f05d9db0f99",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:46:23 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886055/",
-      "defanged": "hxxps://wjek[.]jadoou[.]lol/3deecc0e-2f9c-4789-b647-9f05d9db0f99"
-    },
-    {
-      "value": "http://125.41.4.100:36488/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:44:39 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886054/",
-      "defanged": "hxxp://125[.]41[.]4[.]100:36488/i"
-    },
-    {
-      "value": "http://182.126.58.113:33017/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:39:23 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886053/",
-      "defanged": "hxxp://182[.]126[.]58[.]113:33017/bin[.]sh"
-    },
-    {
-      "value": "http://218.91.14.10:35128/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:39:22 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886052/",
-      "defanged": "hxxp://218[.]91[.]14[.]10:35128/bin[.]sh"
-    },
-    {
-      "value": "http://123.11.15.48:50483/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:33:36 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886051/",
-      "defanged": "hxxp://123[.]11[.]15[.]48:50483/bin[.]sh"
-    },
-    {
-      "value": "http://125.41.4.100:36488/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:28:34 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886050/",
-      "defanged": "hxxp://125[.]41[.]4[.]100:36488/bin[.]sh"
-    },
-    {
-      "value": "http://110.36.72.57:52269/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:22:20 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886049/",
-      "defanged": "hxxp://110[.]36[.]72[.]57:52269/i"
-    },
-    {
-      "value": "http://123.5.191.238:60095/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:21:13 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886048/",
-      "defanged": "hxxp://123[.]5[.]191[.]238:60095/i"
-    },
-    {
-      "value": "http://42.224.93.190:55917/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:20:25 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886047/",
-      "defanged": "hxxp://42[.]224[.]93[.]190:55917/i"
-    },
-    {
-      "value": "http://36.35.73.89:40757/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:20:24 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886046/",
-      "defanged": "hxxp://36[.]35[.]73[.]89:40757/i"
-    },
-    {
-      "value": "http://112.248.177.91:51675/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:13:28 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886045/",
-      "defanged": "hxxp://112[.]248[.]177[.]91:51675/i"
-    },
-    {
-      "value": "http://115.50.217.45:59698/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-14 00:11:18 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886044/",
-      "defanged": "hxxp://115[.]50[.]217[.]45:59698/i"
-    },
-    {
-      "value": "http://5.59.107.34:57247/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 23:56:16 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886043/",
-      "defanged": "hxxp://5[.]59[.]107[.]34:57247/i"
-    },
-    {
-      "value": "http://123.5.191.238:60095/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 23:51:15 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886042/",
-      "defanged": "hxxp://123[.]5[.]191[.]238:60095/bin[.]sh"
-    },
-    {
-      "value": "https://cvjd.fileboroo.com/88e01120-9f66-4a2d-b646-d6c0d62bc4d5",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 23:46:19 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886041/",
-      "defanged": "hxxps://cvjd[.]fileboroo[.]com/88e01120-9f66-4a2d-b646-d6c0d62bc4d5"
-    },
-    {
-      "value": "http://112.248.177.91:51675/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 23:41:43 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886040/",
-      "defanged": "hxxp://112[.]248[.]177[.]91:51675/bin[.]sh"
-    },
-    {
-      "value": "http://117.26.225.169:40468/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 23:22:31 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886039/",
-      "defanged": "hxxp://117[.]26[.]225[.]169:40468/i"
-    },
-    {
-      "value": "https://hqmcfjqy.madgal.life/53f131a4-ca45-4b74-ab13-d929eb4d0cf8",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 23:21:10 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886038/",
-      "defanged": "hxxps://hqmcfjqy[.]madgal[.]life/53f131a4-ca45-4b74-ab13-d929eb4d0cf8"
-    },
-    {
-      "value": "http://110.38.207.151:46188/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 23:02:36 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886037/",
-      "defanged": "hxxp://110[.]38[.]207[.]151:46188/bin[.]sh"
-    },
-    {
-      "value": "http://220.184.3.184:37223/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 22:58:34 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886036/",
-      "defanged": "hxxp://220[.]184[.]3[.]184:37223/i"
-    },
-    {
-      "value": "https://uwkx2xdq.zaribbala.bet/?ublib=5f21ecb1-6984-4066-b901-ea0e59c65fca",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 22:56:14 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886035/",
-      "defanged": "hxxps://uwkx2xdq[.]zaribbala[.]bet/?ublib=5f21ecb1-6984-4066-b901-ea0e59c65fca"
-    },
-    {
-      "value": "http://42.239.255.84:36392/i",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 22:55:36 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886034/",
-      "defanged": "hxxp://42[.]239[.]255[.]84:36392/i"
-    },
-    {
-      "value": "https://xprba39f.jadoou.space/?ublib=84b3e683-bb20-42cf-aa2a-f727e70a5ad3",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 22:55:19 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886033/",
-      "defanged": "hxxps://xprba39f[.]jadoou[.]space/?ublib=84b3e683-bb20-42cf-aa2a-f727e70a5ad3"
-    },
-    {
-      "value": "http://117.26.225.169:40468/bin.sh",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 22:53:28 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886032/",
-      "defanged": "hxxp://117[.]26[.]225[.]169:40468/bin[.]sh"
-    },
-    {
-      "value": "https://xt19c0ua.casinomhub.bet/?ublib=c534ce2e-bc8c-454c-a10f-e2bf582d8260",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 22:53:23 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886031/",
-      "defanged": "hxxps://xt19c0ua[.]casinomhub[.]bet/?ublib=c534ce2e-bc8c-454c-a10f-e2bf582d8260"
-    },
-    {
-      "value": "https://igowjhcd.madgal.life/58bee191-59f8-4a0f-a2f0-12d0f036f489",
-      "type": "url",
-      "threat": "malware_download",
-      "confidence": null,
-      "first_seen": "2026-07-13 22:53:16 UTC",
-      "source": "URLhaus",
-      "reference": "https://urlhaus.abuse.ch/url/3886030/",
-      "defanged": "hxxps://igowjhcd[.]madgal[.]life/58bee191-59f8-4a0f-a2f0-12d0f036f489"
     },
     {
       "value": "c4c8e8c336c3429d97195076bf3bb6eb",
