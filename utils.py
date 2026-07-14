@@ -38,23 +38,31 @@ def save_outputs(iocs: list[dict], kev: list[dict]) -> None:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
 
     enriched = [{**i, "defanged": defang(i.get("value", ""))} for i in iocs]
+    levels = {"alta": 0, "media": 0, "baja": 0}
+    for i in enriched:
+        if i.get("level") in levels:
+            levels[i["level"]] += 1
     payload = {
         "generated_utc": now,
         "ioc_count": len(enriched),
         "kev_count": len(kev),
+        "levels": levels,
         "iocs": enriched,
         "cisa_kev_recent": kev,
     }
     with open(os.path.join(DATA_DIR, "iocs_latest.json"), "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
-    columns = ["value", "defanged", "type", "threat", "confidence",
-               "first_seen", "source", "reference"]
+    columns = ["score", "level", "severity", "value", "defanged", "type", "threat",
+               "sources", "country", "vt_detections", "abuse_score",
+               "age_days", "confidence", "first_seen", "source", "reference"]
     with open(os.path.join(DATA_DIR, "iocs_latest.csv"), "w",
               newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=columns, extrasaction="ignore")
         writer.writeheader()
-        writer.writerows(enriched)
+        writer.writerows(
+            {**i, "sources": ", ".join(i.get("sources") or [])} for i in enriched
+        )
 
     log.info("Guardados %d IOCs y %d CVEs en %s/", len(enriched), len(kev), DATA_DIR)
 
@@ -74,11 +82,13 @@ def update_readme(iocs: list[dict], kev: list[dict], max_rows: int = 25) -> None
         "",
         f"### Últimos IOCs (defangueados, máx. {max_rows})",
         "",
-        "| IOC | Tipo | Amenaza | Fuente | Visto |",
-        "|---|---|---|---|---|",
+        "| Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |",
+        "|---|---|---|---|---|---|---|",
     ]
     for i in iocs[:max_rows]:
         lines.append(
+            f"| {_md(i.get('score', '—'))} ({_md(i.get('level', '—'))}) "
+            f"| {_md(i.get('severity', '—'))} "
             f"| `{_md(defang(i.get('value', '')))}` | {_md(i.get('type'))} "
             f"| {_md(i.get('threat'))} | {_md(i.get('source'))} "
             f"| {_md(i.get('first_seen'))} |"
