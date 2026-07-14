@@ -127,42 +127,44 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-14 14:08 UTC · **IOCs recolectados:** 879 · **CVEs KEV recientes:** 8
+**Última actualización:** 2026-07-14 19:38 UTC · **IOCs recolectados:** 860 · **CVEs KEV recientes:** 10
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 76 (alta) | alta | `175[.]210[.]184[.]125:5000` | ip:port | AsyncRAT | ThreatFox | 2026-07-14 18:05:07 UTC |
 | 71 (alta) | alta | `185[.]242[.]3[.]87:80` | ip:port | Mirai | ThreatFox | 2026-07-14 09:59:59 UTC |
 | 71 (alta) | media | `185[.]241[.]208[.]52:10213` | ip:port | Unknown malware | ThreatFox | 2026-07-14 09:49:59 UTC |
-| 71 (alta) | alta | `45[.]225[.]135[.]18:80` | ip:port | Mirai | ThreatFox | 2026-07-13 16:42:18 UTC |
-| 71 (alta) | alta | `45[.]225[.]135[.]18:1212` | ip:port | Mirai | ThreatFox | 2026-07-13 16:42:17 UTC |
-| 71 (alta) | alta | `64[.]89[.]163[.]22:443` | ip:port | Mirai | ThreatFox | 2026-07-13 16:42:16 UTC |
-| 71 (alta) | alta | `45[.]225[.]135[.]18:8080` | ip:port | Mirai | ThreatFox | 2026-07-13 16:42:16 UTC |
-| 71 (alta) | alta | `45[.]225[.]135[.]18:9091` | ip:port | Mirai | ThreatFox | 2026-07-13 16:42:10 UTC |
-| 71 (alta) | alta | `45[.]225[.]135[.]18:6262` | ip:port | Mirai | ThreatFox | 2026-07-13 16:42:09 UTC |
-| 71 (alta) | alta | `59[.]110[.]152[.]228:9292` | ip:port | Mirai | ThreatFox | 2026-07-13 16:42:08 UTC |
-| 71 (alta) | media | `45[.]61[.]187[.]50:50001` | ip:port | Unknown malware | ThreatFox | 2026-07-13 16:42:07 UTC |
+| 69 (media) | media | `1c38405a026f44a612256e5e8ca0af5f1e7292731f5dc71b54a4c41490cd7745` | sha256_hash | Unknown malware | ThreatFox | 2026-07-14 17:33:35 UTC |
 | 69 (media) | critica | `172[.]86[.]119[.]141:443` | ip:port | Havoc | ThreatFox | 2026-07-13 19:43:44 UTC |
+| 68 (media) | media | `33d9b53c42674663d0d7d23c251a7dce5f2ea7992a42540e421ab3956e621595` | sha256_hash | Unknown malware | ThreatFox | 2026-07-14 17:33:35 UTC |
+| 68 (media) | media | `8ea817d0ed3395ae61643b36726bcc4ed3e55a555acf739ed94b2307b885af34` | sha256_hash | Unknown malware | ThreatFox | 2026-07-14 17:33:35 UTC |
+| 65 (media) | media | `169[.]197[.]113[.]233:56789` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:25 UTC |
+| 65 (media) | media | `152[.]32[.]181[.]65:43561` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:24 UTC |
+| 63 (media) | media | `128[.]14[.]226[.]122:49653` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:26 UTC |
+| 63 (media) | media | `107[.]150[.]105[.]104:37654` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:23 UTC |
 | 62 (media) | critica | `165[.]154[.]240[.]17:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-07-14 12:05:05 UTC |
 | 62 (media) | critica | `165[.]154[.]240[.]17:80` | ip:port | Cobalt Strike | ThreatFox | 2026-07-14 11:05:08 UTC |
 | 62 (media) | critica | `165[.]154[.]240[.]17:443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-14 11:05:07 UTC |
 | 62 (media) | alta | `188[.]166[.]146[.]39:5555` | ip:port | Aisuru | ThreatFox | 2026-07-14 05:30:25 UTC |
-| 61 (media) | media | `159[.]223[.]216[.]143:443` | ip:port | AMOS | ThreatFox | 2026-07-14 13:45:36 UTC |
+| 61 (media) | media | `159[.]223[.]216[.]143:443` | ip:port | AMOS | ThreatFox | 2026-07-14 14:11:16 UTC |
 | 59 (media) | alta | `213[.]152[.]162[.]21:11525` | ip:port | Remcos | ThreatFox | 2026-07-14 07:01:04 UTC |
+| 58 (media) | media | `152[.]32[.]155[.]176:36478` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:25 UTC |
+| 58 (media) | media | `118[.]193[.]56[.]165:62345` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:20 UTC |
 | 58 (media) | alta | `ftp[.]fibrasanchez[.]com` | domain | Agent Tesla | ThreatFox | 2026-07-14 07:44:45 UTC |
 | 58 (media) | critica | `158[.]94[.]211[.]63:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-14 07:05:05 UTC |
+| 57 (media) | critica | `179[.]43[.]190[.]13:443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-14 19:05:07 UTC |
+| 57 (media) | critica | `179[.]43[.]190[.]13:80` | ip:port | Cobalt Strike | ThreatFox | 2026-07-14 19:05:07 UTC |
 | 57 (media) | media | `45[.]154[.]98[.]125:10213` | ip:port | Unknown malware | ThreatFox | 2026-07-14 09:49:59 UTC |
 | 57 (media) | alta | `hxxps://schuctz[.]click/epx4vn8q[.]js` | url | KongTuke | ThreatFox | 2026-07-14 09:49:54 UTC |
-| 57 (media) | media | `154[.]88[.]97[.]34:8885` | ip:port | VShell | ThreatFox | 2026-07-14 09:05:05 UTC |
-| 57 (media) | media | `5[.]189[.]149[.]171:80` | ip:port | XMRIG | ThreatFox | 2026-07-14 07:45:19 UTC |
-| 57 (media) | media | `5[.]189[.]149[.]171:1010` | ip:port | XMRIG | ThreatFox | 2026-07-14 07:45:19 UTC |
-| 57 (media) | media | `154[.]88[.]97[.]49:8885` | ip:port | VShell | ThreatFox | 2026-07-14 06:05:04 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-56155 | Microsoft Active Directory Federation Services | 2026-07-14 | Unknown |
+| CVE-2026-56164 | Microsoft SharePoint Server | 2026-07-14 | Unknown |
 | CVE-2008-4128 | Cisco IOS | 2026-07-13 | Unknown |
 | CVE-2026-56291 | Balbooa Forms | 2026-07-10 | Unknown |
 | CVE-2026-48939 | iCagenda iCagenda | 2026-07-10 | Unknown |
