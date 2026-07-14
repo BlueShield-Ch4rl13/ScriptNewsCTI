@@ -65,37 +65,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-13 19:40 UTC · **IOCs recolectados:** 1186 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-07-14 03:17 UTC · **IOCs recolectados:** 1021 · **CVEs KEV recientes:** 8
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|
-| `206[.]189[.]146[.]157:12345` | ip:port | Aisuru | ThreatFox | 2026-07-13 19:30:45 UTC |
-| `texjqbwa[.]site-shartbandi-bedun-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-13 19:08:37 UTC |
-| `site-shartbandi-bedun-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-13 19:07:02 UTC |
-| `114[.]132[.]89[.]132:45443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-13 19:05:08 UTC |
-| `36[.]140[.]162[.]173:7777` | ip:port | Cobalt Strike | ThreatFox | 2026-07-13 19:05:07 UTC |
-| `196[.]251[.]121[.]74:2323` | ip:port | DCRat | ThreatFox | 2026-07-13 19:05:06 UTC |
-| `ign0g5ax[.]site-shartbandi-khareji[.]com` | domain | ClearFake | ThreatFox | 2026-07-13 18:54:11 UTC |
-| `7vq4on85[.]site-shartbandi-khareji[.]com` | domain | ClearFake | ThreatFox | 2026-07-13 18:52:24 UTC |
-| `hxxp://159[.]65[.]201[.]180/hGkBCsBr/Full%20AES[.]pyw` | url | Unknown malware | ThreatFox | 2026-07-13 18:50:19 UTC |
-| `authid7[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:18 UTC |
-| `193[.]181[.]46[.]146:4444` | ip:port | Unknown malware | ThreatFox | 2026-07-13 18:50:18 UTC |
-| `193[.]104[.]222[.]134:443` | ip:port | Unknown malware | ThreatFox | 2026-07-13 18:50:18 UTC |
-| `hxxp://159[.]65[.]201[.]180/verify/request[.]vbs` | url | Unknown malware | ThreatFox | 2026-07-13 18:50:18 UTC |
-| `0id1[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `0id2[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `0id3[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `0id4[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `0id5[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `0id6[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `0id7[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `0id8[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `0id9[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `authid1[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `authid2[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
-| `authid3[.]xyz` | domain | Unknown malware | ThreatFox | 2026-07-13 18:50:17 UTC |
+| `hxxps://schuctz[.]click/kkikc54m[.]js` | url | KongTuke | ThreatFox | 2026-07-14 03:09:35 UTC |
+| `154[.]88[.]97[.]50:8885` | ip:port | VShell | ThreatFox | 2026-07-14 03:05:06 UTC |
+| `154[.]88[.]96[.]43:8885` | ip:port | VShell | ThreatFox | 2026-07-14 03:05:06 UTC |
+| `154[.]88[.]97[.]53:8885` | ip:port | VShell | ThreatFox | 2026-07-14 03:05:05 UTC |
+| `154[.]88[.]96[.]33:8885` | ip:port | VShell | ThreatFox | 2026-07-14 03:05:05 UTC |
+| `45[.]197[.]36[.]34:8885` | ip:port | VShell | ThreatFox | 2026-07-14 03:05:05 UTC |
+| `s645gfw3[.]bahsegel90[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 02:54:22 UTC |
+| `nqzp[.]jadoou[.]mom` | domain | ClearFake | ThreatFox | 2026-07-14 02:46:24 UTC |
+| `pishro[.]bio` | domain | ClearFake | ThreatFox | 2026-07-14 02:32:58 UTC |
+| `hxxps://freememusic[.]com/` | url | Vidar | ThreatFox | 2026-07-14 02:15:02 UTC |
+| `154[.]88[.]97[.]39:8885` | ip:port | VShell | ThreatFox | 2026-07-14 02:05:07 UTC |
+| `154[.]88[.]96[.]55:8885` | ip:port | VShell | ThreatFox | 2026-07-14 02:05:06 UTC |
+| `43[.]161[.]215[.]33:21` | ip:port | VShell | ThreatFox | 2026-07-14 02:05:05 UTC |
+| `154[.]88[.]96[.]40:8885` | ip:port | VShell | ThreatFox | 2026-07-14 02:05:05 UTC |
+| `154[.]88[.]96[.]61:8885` | ip:port | VShell | ThreatFox | 2026-07-14 02:05:05 UTC |
+| `sqbw[.]jadoou[.]makeup` | domain | ClearFake | ThreatFox | 2026-07-14 01:49:44 UTC |
+| `ydzi[.]jadoou[.]makeup` | domain | ClearFake | ThreatFox | 2026-07-14 01:44:48 UTC |
+| `wmgbwskd[.]pdfbama[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 01:38:13 UTC |
+| `fbecwqni[.]pdfbama[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 01:37:50 UTC |
+| `hxxps://schuctz[.]click/xyzqcsdc[.]js` | url | KongTuke | ThreatFox | 2026-07-14 01:11:00 UTC |
+| `154[.]88[.]96[.]35:8885` | ip:port | VShell | ThreatFox | 2026-07-14 01:05:05 UTC |
+| `154[.]88[.]96[.]57:8885` | ip:port | VShell | ThreatFox | 2026-07-14 01:05:05 UTC |
+| `hczzqwrl[.]pinbahis-bedon-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 00:54:05 UTC |
+| `mkneg2lo[.]pinbahis-bedon-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 00:53:48 UTC |
+| `pinbahis-bedon-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 00:53:41 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -109,5 +109,4 @@ python main.py
 | CVE-2026-56290 | Joomlack Page Builder | 2026-07-07 | Unknown |
 | CVE-2026-48282 | Adobe ColdFusion | 2026-07-07 | Unknown |
 | CVE-2026-45659 | Microsoft SharePoint Server | 2026-07-01 | Unknown |
-| CVE-2026-48558 | SimpleHelp  SimpleHelp | 2026-06-29 | Unknown |
 <!-- CTI:END -->
