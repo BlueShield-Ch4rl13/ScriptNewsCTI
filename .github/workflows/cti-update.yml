@@ -8,13 +8,18 @@ on:
 permissions:
   contents: write
 
+# Nunca dos ejecuciones a la vez: evita carreras al hacer push
+concurrency:
+  group: cti-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -34,5 +39,14 @@ jobs:
           git config user.name "cti-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/ README.md
-          git diff --cached --quiet || git commit -m "CTI update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          if git diff --cached --quiet; then
+            echo "Sin cambios que publicar"
+            exit 0
+          fi
+          git commit -m "CTI update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # El remoto puede haber avanzado durante la ejecución (p. ej. una
+          # subida manual de ficheros): se rebasa encima antes de publicar.
+          # Si un fichero generado entra en conflicto, gana la versión recién
+          # generada (en un rebase, -X theirs = los commits que se reaplican).
+          git pull --rebase -X theirs origin main
           git push
