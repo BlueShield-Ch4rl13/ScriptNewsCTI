@@ -65,37 +65,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-14 03:17 UTC · **IOCs recolectados:** 1021 · **CVEs KEV recientes:** 8
+**Última actualización:** 2026-07-14 06:39 UTC · **IOCs recolectados:** 846 · **CVEs KEV recientes:** 8
 
 ### Últimos IOCs (defangueados, máx. 25)
 
-| IOC | Tipo | Amenaza | Fuente | Visto |
-|---|---|---|---|---|
-| `hxxps://schuctz[.]click/kkikc54m[.]js` | url | KongTuke | ThreatFox | 2026-07-14 03:09:35 UTC |
-| `154[.]88[.]97[.]50:8885` | ip:port | VShell | ThreatFox | 2026-07-14 03:05:06 UTC |
-| `154[.]88[.]96[.]43:8885` | ip:port | VShell | ThreatFox | 2026-07-14 03:05:06 UTC |
-| `154[.]88[.]97[.]53:8885` | ip:port | VShell | ThreatFox | 2026-07-14 03:05:05 UTC |
-| `154[.]88[.]96[.]33:8885` | ip:port | VShell | ThreatFox | 2026-07-14 03:05:05 UTC |
-| `45[.]197[.]36[.]34:8885` | ip:port | VShell | ThreatFox | 2026-07-14 03:05:05 UTC |
-| `s645gfw3[.]bahsegel90[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 02:54:22 UTC |
-| `nqzp[.]jadoou[.]mom` | domain | ClearFake | ThreatFox | 2026-07-14 02:46:24 UTC |
-| `pishro[.]bio` | domain | ClearFake | ThreatFox | 2026-07-14 02:32:58 UTC |
-| `hxxps://freememusic[.]com/` | url | Vidar | ThreatFox | 2026-07-14 02:15:02 UTC |
-| `154[.]88[.]97[.]39:8885` | ip:port | VShell | ThreatFox | 2026-07-14 02:05:07 UTC |
-| `154[.]88[.]96[.]55:8885` | ip:port | VShell | ThreatFox | 2026-07-14 02:05:06 UTC |
-| `43[.]161[.]215[.]33:21` | ip:port | VShell | ThreatFox | 2026-07-14 02:05:05 UTC |
-| `154[.]88[.]96[.]40:8885` | ip:port | VShell | ThreatFox | 2026-07-14 02:05:05 UTC |
-| `154[.]88[.]96[.]61:8885` | ip:port | VShell | ThreatFox | 2026-07-14 02:05:05 UTC |
-| `sqbw[.]jadoou[.]makeup` | domain | ClearFake | ThreatFox | 2026-07-14 01:49:44 UTC |
-| `ydzi[.]jadoou[.]makeup` | domain | ClearFake | ThreatFox | 2026-07-14 01:44:48 UTC |
-| `wmgbwskd[.]pdfbama[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 01:38:13 UTC |
-| `fbecwqni[.]pdfbama[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 01:37:50 UTC |
-| `hxxps://schuctz[.]click/xyzqcsdc[.]js` | url | KongTuke | ThreatFox | 2026-07-14 01:11:00 UTC |
-| `154[.]88[.]96[.]35:8885` | ip:port | VShell | ThreatFox | 2026-07-14 01:05:05 UTC |
-| `154[.]88[.]96[.]57:8885` | ip:port | VShell | ThreatFox | 2026-07-14 01:05:05 UTC |
-| `hczzqwrl[.]pinbahis-bedon-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 00:54:05 UTC |
-| `mkneg2lo[.]pinbahis-bedon-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 00:53:48 UTC |
-| `pinbahis-bedon-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 00:53:41 UTC |
+| Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
+|---|---|---|---|---|---|---|
+| — (—) | — | `206[.]189[.]146[.]157:34567` | ip:port | Aisuru | ThreatFox | 2026-07-14 06:38:48 UTC |
+| — (—) | — | `cwkw[.]site-shartbandi-bedun-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 06:24:56 UTC |
+| — (—) | — | `dddododiiik[.]com` | domain | Unknown Loader | ThreatFox | 2026-07-14 06:22:42 UTC |
+| — (—) | — | `extranet-partners-report[.]com` | domain | Unknown Loader | ThreatFox | 2026-07-14 06:22:42 UTC |
+| — (—) | — | `imagesafedown[.]info` | domain | Unknown Loader | ThreatFox | 2026-07-14 06:22:42 UTC |
+| — (—) | — | `mentopo[.]info` | domain | Unknown Loader | ThreatFox | 2026-07-14 06:22:42 UTC |
+| — (—) | — | `ghyrtamr[.]plinko-1xbet[.]games` | domain | ClearFake | ThreatFox | 2026-07-14 06:19:57 UTC |
+| — (—) | — | `bfpi[.]site-shartbandi-bedun-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 06:19:52 UTC |
+| — (—) | — | `tdzfnvda[.]plinko-1xbet[.]games` | domain | ClearFake | ThreatFox | 2026-07-14 06:15:02 UTC |
+| — (—) | — | `yliw[.]site-asli-bedon-filter-1xbet[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 06:14:45 UTC |
+| — (—) | — | `94[.]154[.]32[.]144:1912` | ip:port | RedLine Stealer | ThreatFox | 2026-07-14 06:10:07 UTC |
+| — (—) | — | `13[.]53[.]169[.]83:8808` | ip:port | AsyncRAT | ThreatFox | 2026-07-14 06:05:05 UTC |
+| — (—) | — | `154[.]88[.]97[.]49:8885` | ip:port | VShell | ThreatFox | 2026-07-14 06:05:04 UTC |
+| — (—) | — | `ucpwcpfl[.]jadoou[.]lat` | domain | ClearFake | ThreatFox | 2026-07-14 05:54:22 UTC |
+| — (—) | — | `eonjaoyi[.]jadoou[.]lat` | domain | ClearFake | ThreatFox | 2026-07-14 05:53:44 UTC |
+| — (—) | — | `edge[.]kernelmonitor[.]cc` | domain | ACR Stealer | ThreatFox | 2026-07-14 05:33:38 UTC |
+| — (—) | — | `hxxps://schuctz[.]click/e187jn2e[.]js` | url | KongTuke | ThreatFox | 2026-07-14 05:30:32 UTC |
+| — (—) | — | `hxxps://irahook[.]com/babayla/zor/yarisirlar/` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:30 UTC |
+| — (—) | — | `hxxps://irahook[.]com/?p=` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:30 UTC |
+| — (—) | — | `hxxp://44[.]223[.]110[.]247:1337/get/config` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:29 UTC |
+| — (—) | — | `hxxp://44[.]223[.]110[.]247:1337/mods/api/log-download` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:29 UTC |
+| — (—) | — | `hxxp://44[.]223[.]110[.]247:1337/babayla/zor/yarisirlar/` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:27 UTC |
+| — (—) | — | `hxxp://44[.]223[.]110[.]247:1337/?p=` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:27 UTC |
+| — (—) | — | `hxxps://schuctz[.]click/h5gqnaud[.]js` | url | KongTuke | ThreatFox | 2026-07-14 05:30:27 UTC |
+| — (—) | — | `hxxps://schuctz[.]click/xyzqcsdc[.]js` | url | KongTuke | ThreatFox | 2026-07-14 05:30:26 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
