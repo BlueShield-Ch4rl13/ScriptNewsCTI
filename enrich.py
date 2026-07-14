@@ -73,6 +73,7 @@ SEV_CRITICA = (
     "lockbit", "blackcat", "alphv", "akira", "ransomhub", "clop", "cl0p",
     "medusa", "black basta", "blackbasta", "ransom",
     "cobalt strike", "cobaltstrike", "sliver", "havoc", "brute ratel", "mythic",
+    "adaptix", "c2",  # frameworks C2: cualquier familia con "c2" en el nombre
 )
 SEV_ALTA = (
     "asyncrat", "remcos", "quasar", "njrat", "dcrat", "venomrat", "xworm",
