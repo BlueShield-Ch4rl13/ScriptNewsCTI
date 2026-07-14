@@ -65,12 +65,20 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-14 06:55 UTC · **IOCs recolectados:** 846 · **CVEs KEV recientes:** 8
+**Última actualización:** 2026-07-14 07:13 UTC · **IOCs recolectados:** 628 · **CVEs KEV recientes:** 8
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| — (—) | — | `45[.]88[.]186[.]125:443` | ip:port | Unknown RAT | ThreatFox | 2026-07-14 07:06:13 UTC |
+| — (—) | — | `47[.]251[.]241[.]59:443` | ip:port | Havoc | ThreatFox | 2026-07-14 07:05:06 UTC |
+| — (—) | — | `158[.]94[.]211[.]63:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-14 07:05:05 UTC |
+| — (—) | — | `45[.]13[.]238[.]92:443` | ip:port | Unknown RAT | ThreatFox | 2026-07-14 07:04:53 UTC |
+| — (—) | — | `178[.]128[.]208[.]65:9035` | ip:port | Aisuru | ThreatFox | 2026-07-14 07:01:43 UTC |
+| — (—) | — | `213[.]152[.]162[.]21:11525` | ip:port | Remcos | ThreatFox | 2026-07-14 07:01:04 UTC |
+| — (—) | — | `39[.]105[.]94[.]168:80` | ip:port | Cobalt Strike | ThreatFox | 2026-07-14 06:57:56 UTC |
+| — (—) | — | `17eqwy30[.]takhtenard[.]app` | domain | ClearFake | ThreatFox | 2026-07-14 06:55:12 UTC |
 | — (—) | — | `takhtenard[.]app` | domain | ClearFake | ThreatFox | 2026-07-14 06:54:36 UTC |
 | — (—) | — | `206[.]189[.]146[.]157:34567` | ip:port | Aisuru | ThreatFox | 2026-07-14 06:38:48 UTC |
 | — (—) | — | `cwkw[.]site-shartbandi-bedun-filter[.]com` | domain | ClearFake | ThreatFox | 2026-07-14 06:24:56 UTC |
@@ -88,14 +96,6 @@ python main.py
 | — (—) | — | `ucpwcpfl[.]jadoou[.]lat` | domain | ClearFake | ThreatFox | 2026-07-14 05:54:22 UTC |
 | — (—) | — | `eonjaoyi[.]jadoou[.]lat` | domain | ClearFake | ThreatFox | 2026-07-14 05:53:44 UTC |
 | — (—) | — | `edge[.]kernelmonitor[.]cc` | domain | ACR Stealer | ThreatFox | 2026-07-14 05:33:38 UTC |
-| — (—) | — | `hxxps://schuctz[.]click/e187jn2e[.]js` | url | KongTuke | ThreatFox | 2026-07-14 05:30:32 UTC |
-| — (—) | — | `hxxps://irahook[.]com/babayla/zor/yarisirlar/` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:30 UTC |
-| — (—) | — | `hxxps://irahook[.]com/?p=` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:30 UTC |
-| — (—) | — | `hxxp://44[.]223[.]110[.]247:1337/get/config` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:29 UTC |
-| — (—) | — | `hxxp://44[.]223[.]110[.]247:1337/mods/api/log-download` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:29 UTC |
-| — (—) | — | `hxxp://44[.]223[.]110[.]247:1337/babayla/zor/yarisirlar/` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:27 UTC |
-| — (—) | — | `hxxp://44[.]223[.]110[.]247:1337/?p=` | url | Unknown RAT | ThreatFox | 2026-07-14 05:30:27 UTC |
-| — (—) | — | `hxxps://schuctz[.]click/h5gqnaud[.]js` | url | KongTuke | ThreatFox | 2026-07-14 05:30:27 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
