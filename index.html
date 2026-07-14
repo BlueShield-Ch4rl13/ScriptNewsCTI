@@ -36,7 +36,7 @@
   <section class="panel" aria-labelledby="iocs-title">
     <div class="panel-head">
       <h2 id="iocs-title">Indicadores de compromiso</h2>
-      <p class="panel-note">Defangueados · deduplicados · recolección cada 6 h vía GitHub Actions</p>
+      <p class="panel-note">Defangueados · fusionados multi-fuente · scoring propio · recolección cada 6 h vía GitHub Actions</p>
     </div>
 
     <div class="filters">
@@ -46,6 +46,21 @@
       <select id="f-type"><option value="">Todos los tipos</option></select>
       <label class="visually-hidden" for="f-source">Filtrar por fuente</label>
       <select id="f-source"><option value="">Todas las fuentes</option></select>
+      <label class="visually-hidden" for="f-sev">Filtrar por gravedad</label>
+      <select id="f-sev">
+        <option value="">Todas las gravedades</option>
+        <option value="critica">Crítica</option>
+        <option value="alta">Alta</option>
+        <option value="media">Media</option>
+        <option value="baja">Baja</option>
+      </select>
+      <label class="visually-hidden" for="f-level">Filtrar por nivel</label>
+      <select id="f-level">
+        <option value="">Todos los niveles</option>
+        <option value="alta">Confianza alta</option>
+        <option value="media">Confianza media</option>
+        <option value="baja">Confianza baja</option>
+      </select>
     </div>
 
     <p class="result-count" id="result-count"></p>
@@ -53,7 +68,7 @@
     <div class="table-wrap">
       <table>
         <thead>
-          <tr><th>IOC</th><th>Tipo</th><th>Amenaza</th><th>Fuente</th><th>Visto</th></tr>
+          <tr><th>Score</th><th>Gravedad</th><th>IOC</th><th>Tipo</th><th>Amenaza</th><th>País</th><th>Reputación</th><th>Fuente</th><th>Visto</th></tr>
         </thead>
         <tbody id="ioc-rows"></tbody>
       </table>
@@ -75,7 +90,7 @@
 </main>
 
 <footer>
-  <p>Uso exclusivamente defensivo · Fuentes: ThreatFox, URLhaus, AlienVault OTX, CISA KEV</p>
+  <p>Uso exclusivamente defensivo · Fuentes: ThreatFox, URLhaus, AlienVault OTX, CISA KEV · GeoIP: <a href="https://db-ip.com" rel="noopener">DB-IP</a> (CC BY 4.0)</p>
   <p>Pipeline: Python · GitHub Actions · Cloudflare Pages — <a href="https://github.com/BlueShield-Ch4rl13" rel="noopener">BlueShield-Ch4rl13</a></p>
 </footer>
 
