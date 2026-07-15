@@ -25,15 +25,24 @@
   <p class="syncline-label">Última sincronización</p>
   <p class="syncline-value"><span id="sync-time">—</span> <span class="utc">UTC</span></p>
   <p class="syncline-meta">
-    <span><b id="stat-iocs">0</b> IOCs</span>
-    <span class="sep">·</span>
     <span><b id="stat-kev">0</b> CVEs en KEV</span>
+    <span class="sep">·</span>
+    <span><b id="stat-iocs">0</b> IOCs</span>
     <span class="sep">·</span>
     <span><b id="stat-sources">0</b> feeds activos</span>
   </p>
 </section>
 
 <main>
+  <section class="panel" aria-labelledby="kev-title">
+    <div class="panel-head">
+      <h2 id="kev-title">Explotación activa · CISA KEV</h2>
+      <p class="panel-note">CVEs añadidos al catálogo en los últimos 14 días</p>
+    </div>
+    <div class="kev-grid" id="kev-grid"></div>
+    <div class="empty" id="kev-empty" hidden><p>Sin CVEs nuevos en la ventana actual.</p></div>
+  </section>
+  
   <section class="panel" aria-labelledby="iocs-title">
     <div class="panel-head">
       <h2 id="iocs-title">Indicadores de compromiso</h2>
@@ -78,15 +87,6 @@
     <div class="empty" id="empty-state" hidden>
       <p id="empty-msg">Cargando datos…</p>
     </div>
-  </section>
-
-  <section class="panel" aria-labelledby="kev-title">
-    <div class="panel-head">
-      <h2 id="kev-title">Explotación activa · CISA KEV</h2>
-      <p class="panel-note">CVEs añadidos al catálogo en los últimos 14 días</p>
-    </div>
-    <div class="kev-grid" id="kev-grid"></div>
-    <div class="empty" id="kev-empty" hidden><p>Sin CVEs nuevos en la ventana actual.</p></div>
   </section>
 </main>
 
