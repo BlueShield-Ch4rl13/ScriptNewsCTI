@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-15 08:34 UTC · **IOCs recolectados:** 1028 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-07-15 14:04 UTC · **IOCs recolectados:** 1133 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -135,29 +135,29 @@ python main.py
 |---|---|---|---|---|---|---|
 | 76 (alta) | alta | `175[.]210[.]184[.]125:8000` | ip:port | AsyncRAT | ThreatFox | 2026-07-14 22:05:04 UTC |
 | 76 (alta) | alta | `175[.]210[.]184[.]125:5000` | ip:port | AsyncRAT | ThreatFox | 2026-07-14 18:05:07 UTC |
-| 71 (alta) | alta | `185[.]242[.]3[.]87:80` | ip:port | Mirai | ThreatFox | 2026-07-14 09:59:59 UTC |
-| 71 (alta) | media | `185[.]241[.]208[.]52:10213` | ip:port | Unknown malware | ThreatFox | 2026-07-14 09:49:59 UTC |
 | 69 (media) | alta | `160[.]25[.]72[.]34:2404` | ip:port | Remcos | ThreatFox | 2026-07-15 07:00:55 UTC |
 | 69 (media) | media | `1c38405a026f44a612256e5e8ca0af5f1e7292731f5dc71b54a4c41490cd7745` | sha256_hash | Unknown malware | ThreatFox | 2026-07-14 20:48:36 UTC |
 | 68 (media) | media | `33d9b53c42674663d0d7d23c251a7dce5f2ea7992a42540e421ab3956e621595` | sha256_hash | Unknown malware | ThreatFox | 2026-07-14 20:48:35 UTC |
 | 68 (media) | media | `8ea817d0ed3395ae61643b36726bcc4ed3e55a555acf739ed94b2307b885af34` | sha256_hash | Unknown malware | ThreatFox | 2026-07-14 20:48:35 UTC |
 | 65 (media) | media | `169[.]197[.]113[.]233:56789` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:25 UTC |
 | 65 (media) | media | `152[.]32[.]181[.]65:43561` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:24 UTC |
-| 64 (media) | media | `hxxps://productionai-shop[.]pages[.]dev/recaptcha-verify` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-15 06:22:08 UTC |
 | 63 (media) | media | `128[.]14[.]226[.]122:49653` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:26 UTC |
 | 63 (media) | media | `107[.]150[.]105[.]104:37654` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:23 UTC |
 | 62 (media) | alta | `164[.]37[.]109[.]234:9035` | ip:port | Aisuru | ThreatFox | 2026-07-15 06:17:47 UTC |
-| 62 (media) | critica | `165[.]154[.]240[.]17:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-07-14 12:05:05 UTC |
-| 62 (media) | critica | `165[.]154[.]240[.]17:80` | ip:port | Cobalt Strike | ThreatFox | 2026-07-14 11:05:08 UTC |
-| 62 (media) | critica | `165[.]154[.]240[.]17:443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-14 11:05:07 UTC |
 | 61 (media) | media | `159[.]223[.]216[.]143:443` | ip:port | AMOS | ThreatFox | 2026-07-14 14:11:16 UTC |
+| 60 (media) | media | `hxxps://asioklaydpory[.]com/h4r2[.]html` | url | Unknown malware | ThreatFox | 2026-07-15 13:26:34 UTC |
 | 58 (media) | media | `zelpx[.]garden` | domain | Remus | ThreatFox | 2026-07-15 08:04:08 UTC |
 | 58 (media) | critica | `101[.]133[.]225[.]51:443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-15 01:05:05 UTC |
 | 58 (media) | alta | `64[.]89[.]161[.]190:8808` | ip:port | AsyncRAT | ThreatFox | 2026-07-14 19:45:50 UTC |
 | 58 (media) | media | `152[.]32[.]155[.]176:36478` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:25 UTC |
 | 58 (media) | media | `118[.]193[.]56[.]165:62345` | ip:port | Unknown malware | ThreatFox | 2026-07-14 14:57:20 UTC |
-| 57 (media) | alta | `hxxps://ritchie[.]click/usfp4ldu[.]js` | url | KongTuke | ThreatFox | 2026-07-15 08:10:23 UTC |
+| 57 (media) | alta | `hxxps://fij[.]kijangturbo88[.]top/` | url | Vidar | ThreatFox | 2026-07-15 13:35:09 UTC |
+| 57 (media) | alta | `fij[.]kijangturbo88[.]top` | domain | Vidar | ThreatFox | 2026-07-15 13:35:08 UTC |
+| 57 (media) | alta | `hxxps://ritchie[.]click/usfp4ldu[.]js` | url | KongTuke | ThreatFox | 2026-07-15 09:03:43 UTC |
 | 57 (media) | alta | `38[.]146[.]219[.]149:56001` | ip:port | PureRAT | ThreatFox | 2026-07-15 06:54:38 UTC |
+| 57 (media) | alta | `hxxps://ritchie[.]click/i7r4dbm3[.]js` | url | KongTuke | ThreatFox | 2026-07-15 06:17:50 UTC |
+| 57 (media) | alta | `hxxps://ritchie[.]click/3ypepkhb[.]js` | url | KongTuke | ThreatFox | 2026-07-15 06:17:46 UTC |
+| 57 (media) | alta | `hxxps://ritchie[.]click/ybsunal3[.]js` | url | KongTuke | ThreatFox | 2026-07-15 06:17:45 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
