@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-15 19:31 UTC · **IOCs recolectados:** 803 · **CVEs KEV recientes:** 14
+**Última actualización:** 2026-07-16 03:25 UTC · **IOCs recolectados:** 848 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 76 (alta) | alta | `175[.]210[.]184[.]125:8000` | ip:port | AsyncRAT | ThreatFox | 2026-07-14 22:05:04 UTC |
-| 75 (alta) | alta | `113[.]19[.]109[.]137:8635` | ip:port | Mirai | ThreatFox | 2026-07-15 18:57:52 UTC |
+| 75 (alta) | alta | `113[.]19[.]109[.]137:8635` | ip:port | Mirai | ThreatFox | 2026-07-15 20:21:29 UTC |
 | 69 (media) | alta | `160[.]25[.]72[.]34:2404` | ip:port | Remcos | ThreatFox | 2026-07-15 07:00:55 UTC |
-| 69 (media) | media | `1c38405a026f44a612256e5e8ca0af5f1e7292731f5dc71b54a4c41490cd7745` | sha256_hash | Unknown malware | ThreatFox | 2026-07-14 20:48:36 UTC |
-| 68 (media) | media | `33d9b53c42674663d0d7d23c251a7dce5f2ea7992a42540e421ab3956e621595` | sha256_hash | Unknown malware | ThreatFox | 2026-07-14 20:48:35 UTC |
-| 68 (media) | media | `8ea817d0ed3395ae61643b36726bcc4ed3e55a555acf739ed94b2307b885af34` | sha256_hash | Unknown malware | ThreatFox | 2026-07-14 20:48:35 UTC |
+| 68 (media) | critica | `141[.]255[.]162[.]234:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 00:05:05 UTC |
 | 62 (media) | alta | `164[.]37[.]109[.]234:9035` | ip:port | Aisuru | ThreatFox | 2026-07-15 06:17:47 UTC |
+| 60 (media) | critica | `152[.]32[.]202[.]240:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 02:05:06 UTC |
 | 60 (media) | critica | `116[.]198[.]233[.]179:4434` | ip:port | Cobalt Strike | ThreatFox | 2026-07-15 19:05:07 UTC |
 | 60 (media) | critica | `117[.]72[.]159[.]215:8081` | ip:port | Cobalt Strike | ThreatFox | 2026-07-15 18:05:05 UTC |
 | 60 (media) | media | `hxxps://asioklaydpory[.]com/h4r2[.]html` | url | Unknown malware | ThreatFox | 2026-07-15 13:26:34 UTC |
-| 58 (media) | alta | `hxxps://ritchie[.]click/m5t9l50e[.]js` | url | KongTuke | ThreatFox | 2026-07-15 19:11:32 UTC |
+| 59 (media) | critica | `117[.]72[.]181[.]104:2222` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 02:05:05 UTC |
+| 59 (media) | alta | `hxxps://ritchie[.]click/q7eu4gpd[.]js` | url | KongTuke | ThreatFox | 2026-07-16 00:10:08 UTC |
+| 58 (media) | alta | `hxxps://ritchie[.]click/jh2fg27r[.]js` | url | KongTuke | ThreatFox | 2026-07-16 02:11:22 UTC |
+| 58 (media) | critica | `43[.]136[.]180[.]88:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 00:05:07 UTC |
+| 58 (media) | critica | `43[.]136[.]180[.]88:111` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 00:05:07 UTC |
+| 58 (media) | critica | `43[.]136[.]180[.]88:7000` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 00:05:06 UTC |
+| 58 (media) | alta | `hxxps://ritchie[.]click/5mv24f3u[.]js` | url | KongTuke | ThreatFox | 2026-07-15 20:21:40 UTC |
+| 58 (media) | alta | `hxxps://ritchie[.]click/n2bw9boq[.]js` | url | KongTuke | ThreatFox | 2026-07-15 20:21:30 UTC |
+| 58 (media) | alta | `hxxps://ritchie[.]click/m5t9l50e[.]js` | url | KongTuke | ThreatFox | 2026-07-15 20:21:27 UTC |
 | 58 (media) | critica | `14[.]29[.]160[.]181:123` | ip:port | Cobalt Strike | ThreatFox | 2026-07-15 19:05:05 UTC |
 | 58 (media) | critica | `14[.]29[.]160[.]181:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-15 19:05:05 UTC |
-| 58 (media) | alta | `hxxps://ritchie[.]click/n2bw9boq[.]js` | url | KongTuke | ThreatFox | 2026-07-15 18:43:57 UTC |
-| 58 (media) | alta | `hxxps://ritchie[.]click/5mv24f3u[.]js` | url | KongTuke | ThreatFox | 2026-07-15 18:08:16 UTC |
 | 58 (media) | alta | `wpl[.]kijangturbo88[.]top` | domain | Vidar | ThreatFox | 2026-07-15 17:45:08 UTC |
 | 58 (media) | media | `zelpx[.]garden` | domain | Remus | ThreatFox | 2026-07-15 08:04:08 UTC |
-| 58 (media) | critica | `101[.]133[.]225[.]51:443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-15 01:05:05 UTC |
-| 58 (media) | alta | `64[.]89[.]161[.]190:8808` | ip:port | AsyncRAT | ThreatFox | 2026-07-14 19:45:50 UTC |
-| 57 (media) | alta | `hxxps://bitista[.]icu/api/v1/status` | url | KongTuke | ThreatFox | 2026-07-15 19:11:34 UTC |
-| 57 (media) | alta | `hxxps://bitista[.]icu/api/v1/verify` | url | KongTuke | ThreatFox | 2026-07-15 19:11:33 UTC |
-| 57 (media) | alta | `hxxps://bitista[.]icu/api/v1/session` | url | KongTuke | ThreatFox | 2026-07-15 19:11:32 UTC |
-| 57 (media) | alta | `bitista[.]icu` | domain | KongTuke | ThreatFox | 2026-07-15 19:11:31 UTC |
-| 57 (media) | alta | `hxxps://bitista[.]icu/file[.]js` | url | KongTuke | ThreatFox | 2026-07-15 19:11:30 UTC |
-| 57 (media) | critica | `81[.]70[.]21[.]248:4369` | ip:port | Cobalt Strike | ThreatFox | 2026-07-15 18:05:07 UTC |
+| 57 (media) | critica | `43[.]139[.]50[.]42:60000` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 03:05:07 UTC |
+| 57 (media) | critica | `158[.]178[.]230[.]77:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 03:05:07 UTC |
+| 57 (media) | critica | `43[.]139[.]50[.]42:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 03:05:05 UTC |
+| 57 (media) | critica | `43[.]139[.]50[.]42:123` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 03:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -176,5 +176,4 @@ python main.py
 | CVE-2026-55255 | Langflow Langflow | 2026-07-07 | Unknown |
 | CVE-2026-56290 | Joomlack Page Builder | 2026-07-07 | Unknown |
 | CVE-2026-48282 | Adobe ColdFusion | 2026-07-07 | Unknown |
-| CVE-2026-45659 | Microsoft SharePoint Server | 2026-07-01 | Unknown |
 <!-- CTI:END -->
