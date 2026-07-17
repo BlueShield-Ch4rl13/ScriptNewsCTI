@@ -127,16 +127,17 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-16 19:31 UTC · **IOCs recolectados:** 1646 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-17 03:28 UTC · **IOCs recolectados:** 1655 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 75 (alta) | alta | `113[.]19[.]109[.]137:8635` | ip:port | Mirai | ThreatFox | 2026-07-15 20:21:29 UTC |
-| 68 (media) | critica | `141[.]255[.]162[.]234:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 00:05:05 UTC |
 | 67 (media) | media | `23[.]94[.]27[.]110:22` | ip:port | Unknown malware | ThreatFox | 2026-07-16 12:05:06 UTC |
-| 60 (media) | critica | `152[.]32[.]202[.]240:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 02:05:06 UTC |
+| 60 (media) | alta | `43[.]225[.]157[.]146:7707` | ip:port | AsyncRAT | ThreatFox | 2026-07-16 19:46:09 UTC |
+| 59 (media) | media | `149[.]104[.]28[.]77:6000` | ip:port | VShell | ThreatFox | 2026-07-17 02:05:05 UTC |
+| 59 (media) | critica | `85[.]158[.]57[.]247:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 01:05:08 UTC |
+| 59 (media) | critica | `85[.]158[.]57[.]247:443` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 01:05:07 UTC |
 | 59 (media) | critica | `104[.]234[.]174[.]93:443` | ip:port | AdaptixC2 | ThreatFox | 2026-07-16 14:05:11 UTC |
 | 59 (media) | critica | `104[.]234[.]174[.]93:20443` | ip:port | AdaptixC2 | ThreatFox | 2026-07-16 14:05:10 UTC |
 | 59 (media) | alta | `hxxps://ritchie[.]click/ha1es146[.]js` | url | KongTuke | ThreatFox | 2026-07-16 13:44:08 UTC |
@@ -149,15 +150,14 @@ python main.py
 | 59 (media) | alta | `hxxps://ritchie[.]click/85iuztos[.]js` | url | KongTuke | ThreatFox | 2026-07-16 07:15:04 UTC |
 | 59 (media) | alta | `205[.]237[.]110[.]232:80` | ip:port | Mirai | ThreatFox | 2026-07-16 07:15:03 UTC |
 | 59 (media) | alta | `hxxps://ritchie[.]click/q7eu4gpd[.]js` | url | KongTuke | ThreatFox | 2026-07-16 04:25:11 UTC |
-| 59 (media) | critica | `117[.]72[.]181[.]104:2222` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 02:05:05 UTC |
+| 58 (media) | critica | `2[.]26[.]229[.]254:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 01:05:05 UTC |
+| 58 (media) | alta | `hxxps://arthuratelier[.]com` | url | Unknown Stealer | ThreatFox | 2026-07-17 00:56:22 UTC |
+| 58 (media) | critica | `45[.]136[.]13[.]247:8000` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 00:05:04 UTC |
+| 58 (media) | critica | `45[.]136[.]13[.]247:3306` | ip:port | AdaptixC2 | ThreatFox | 2026-07-16 23:05:05 UTC |
 | 58 (media) | alta | `sa7[.]kijangturbo88[.]top` | domain | Vidar | ThreatFox | 2026-07-16 16:15:04 UTC |
 | 58 (media) | media | `103[.]142[.]147[.]18:8089` | ip:port | Unknown malware | ThreatFox | 2026-07-16 12:05:05 UTC |
 | 58 (media) | alta | `hxi[.]kijangturbo88[.]top` | domain | Vidar | ThreatFox | 2026-07-16 12:00:06 UTC |
 | 58 (media) | critica | `185[.]213[.]20[.]250:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-16 08:05:07 UTC |
-| 58 (media) | critica | `146[.]70[.]87[.]64:6579` | ip:port | AdaptixC2 | ThreatFox | 2026-07-16 08:05:07 UTC |
-| 58 (media) | critica | `185[.]213[.]20[.]250:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-16 08:05:06 UTC |
-| 58 (media) | alta | `hxxps://ritchie[.]click/jh2fg27r[.]js` | url | KongTuke | ThreatFox | 2026-07-16 04:25:07 UTC |
-| 58 (media) | critica | `43[.]136[.]180[.]88:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-16 00:05:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
