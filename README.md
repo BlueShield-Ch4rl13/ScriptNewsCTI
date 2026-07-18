@@ -127,17 +127,22 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-18 13:37 UTC · **IOCs recolectados:** 791 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-18 19:22 UTC · **IOCs recolectados:** 816 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 71 (alta) | alta | `157[.]20[.]182[.]17:1665` | ip:port | AsyncRAT | ThreatFox | 2026-07-17 19:43:48 UTC |
-| 62 (media) | critica | `114[.]134[.]187[.]38:5000` | ip:port | Cobalt Strike | ThreatFox | 2026-07-17 17:05:05 UTC |
-| 62 (media) | critica | `114[.]134[.]187[.]38:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-17 17:05:05 UTC |
-| 62 (media) | critica | `114[.]134[.]187[.]38:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-07-17 16:05:05 UTC |
-| 62 (media) | critica | `114[.]134[.]187[.]38:111` | ip:port | Cobalt Strike | ThreatFox | 2026-07-17 15:05:06 UTC |
+| 60 (media) | media | `113[.]44[.]90[.]0:22` | ip:port | Unknown malware | ThreatFox | 2026-07-18 19:05:06 UTC |
+| 60 (media) | critica | `101[.]126[.]10[.]34:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-18 19:05:04 UTC |
+| 60 (media) | media | `113[.]44[.]90[.]0:888` | ip:port | Unknown malware | ThreatFox | 2026-07-18 18:05:06 UTC |
+| 60 (media) | media | `113[.]44[.]90[.]0:21` | ip:port | Unknown malware | ThreatFox | 2026-07-18 18:05:06 UTC |
+| 59 (media) | alta | `loveloveinfo[.]xyz` | domain | Unknown Stealer | ThreatFox | 2026-07-18 17:33:06 UTC |
+| 59 (media) | alta | `searchranktraffic[.]live` | domain | Unknown Stealer | ThreatFox | 2026-07-18 17:32:55 UTC |
+| 59 (media) | critica | `101[.]133[.]225[.]51:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-18 16:05:06 UTC |
+| 59 (media) | critica | `117[.]72[.]39[.]83:111` | ip:port | Cobalt Strike | ThreatFox | 2026-07-18 16:05:05 UTC |
+| 59 (media) | critica | `101[.]133[.]225[.]51:7777` | ip:port | Cobalt Strike | ThreatFox | 2026-07-18 16:05:05 UTC |
 | 59 (media) | media | `101[.]34[.]222[.]38:5244` | ip:port | Unknown malware | ThreatFox | 2026-07-18 13:05:05 UTC |
 | 59 (media) | media | `101[.]34[.]222[.]38:28888` | ip:port | Unknown malware | ThreatFox | 2026-07-18 12:05:08 UTC |
 | 59 (media) | media | `101[.]34[.]222[.]38:21118` | ip:port | Unknown malware | ThreatFox | 2026-07-18 12:05:06 UTC |
@@ -145,19 +150,14 @@ python main.py
 | 59 (media) | media | `104[.]225[.]149[.]151:61002` | ip:port | Unknown malware | ThreatFox | 2026-07-18 11:05:06 UTC |
 | 59 (media) | media | `103[.]215[.]81[.]156:5555` | ip:port | Unknown malware | ThreatFox | 2026-07-18 11:05:05 UTC |
 | 59 (media) | media | `103[.]215[.]81[.]156:8008` | ip:port | Unknown malware | ThreatFox | 2026-07-18 11:05:05 UTC |
-| 59 (media) | alta | `searchranktraffic[.]live` | domain | Unknown Stealer | ThreatFox | 2026-07-18 10:50:51 UTC |
 | 59 (media) | media | `103[.]215[.]81[.]156:22` | ip:port | Unknown malware | ThreatFox | 2026-07-18 10:05:08 UTC |
 | 59 (media) | media | `103[.]215[.]81[.]156:81` | ip:port | Unknown malware | ThreatFox | 2026-07-18 10:05:06 UTC |
 | 59 (media) | critica | `45[.]87[.]53[.]6:5003` | ip:port | Cobalt Strike | ThreatFox | 2026-07-18 05:05:07 UTC |
 | 59 (media) | critica | `45[.]87[.]53[.]6:18082` | ip:port | Cobalt Strike | ThreatFox | 2026-07-18 05:05:06 UTC |
 | 59 (media) | critica | `45[.]87[.]53[.]6:8888` | ip:port | Cobalt Strike | ThreatFox | 2026-07-18 04:05:06 UTC |
 | 59 (media) | media | `hxxps://crf[.]masterklass[.]net` | url | Unknown malware | ThreatFox | 2026-07-17 23:29:43 UTC |
-| 59 (media) | alta | `loveloveinfo[.]xyz` | domain | Unknown Stealer | ThreatFox | 2026-07-17 16:48:18 UTC |
-| 59 (media) | critica | `212[.]103[.]26[.]10:22` | ip:port | Havoc | ThreatFox | 2026-07-17 15:05:06 UTC |
-| 59 (media) | critica | `212[.]103[.]26[.]10:40056` | ip:port | Havoc | ThreatFox | 2026-07-17 15:05:05 UTC |
-| 59 (media) | critica | `212[.]103[.]26[.]10:8000` | ip:port | Havoc | ThreatFox | 2026-07-17 15:05:05 UTC |
+| 58 (media) | critica | `47[.]105[.]36[.]109:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-18 18:05:03 UTC |
 | 58 (media) | media | `103[.]39[.]79[.]102:22` | ip:port | Unknown malware | ThreatFox | 2026-07-18 13:05:06 UTC |
-| 58 (media) | media | `103[.]39[.]79[.]102:14657` | ip:port | Unknown malware | ThreatFox | 2026-07-18 13:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
