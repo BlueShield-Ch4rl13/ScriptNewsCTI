@@ -127,17 +127,18 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-17 19:29 UTC · **IOCs recolectados:** 565 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-18 03:18 UTC · **IOCs recolectados:** 849 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 71 (alta) | alta | `157[.]20[.]182[.]17:1665` | ip:port | AsyncRAT | ThreatFox | 2026-07-17 19:43:48 UTC |
 | 62 (media) | critica | `114[.]134[.]187[.]38:5000` | ip:port | Cobalt Strike | ThreatFox | 2026-07-17 17:05:05 UTC |
 | 62 (media) | critica | `114[.]134[.]187[.]38:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-17 17:05:05 UTC |
 | 62 (media) | critica | `114[.]134[.]187[.]38:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-07-17 16:05:05 UTC |
 | 62 (media) | critica | `114[.]134[.]187[.]38:111` | ip:port | Cobalt Strike | ThreatFox | 2026-07-17 15:05:06 UTC |
-| 60 (media) | alta | `43[.]225[.]157[.]146:7707` | ip:port | AsyncRAT | ThreatFox | 2026-07-16 19:46:09 UTC |
+| 59 (media) | media | `hxxps://crf[.]masterklass[.]net` | url | Unknown malware | ThreatFox | 2026-07-17 23:29:43 UTC |
 | 59 (media) | alta | `loveloveinfo[.]xyz` | domain | Unknown Stealer | ThreatFox | 2026-07-17 16:48:18 UTC |
 | 59 (media) | critica | `212[.]103[.]26[.]10:22` | ip:port | Havoc | ThreatFox | 2026-07-17 15:05:06 UTC |
 | 59 (media) | critica | `212[.]103[.]26[.]10:40056` | ip:port | Havoc | ThreatFox | 2026-07-17 15:05:05 UTC |
@@ -147,9 +148,9 @@ python main.py
 | 59 (media) | critica | `23[.]227[.]203[.]190:6579` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 07:05:07 UTC |
 | 59 (media) | critica | `23[.]227[.]203[.]246:6579` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 06:05:08 UTC |
 | 59 (media) | critica | `85[.]158[.]57[.]247:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 06:05:05 UTC |
-| 59 (media) | media | `149[.]104[.]28[.]77:6000` | ip:port | VShell | ThreatFox | 2026-07-17 02:05:05 UTC |
-| 59 (media) | critica | `85[.]158[.]57[.]247:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 01:05:08 UTC |
-| 59 (media) | critica | `85[.]158[.]57[.]247:443` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 01:05:07 UTC |
+| 58 (media) | critica | `43[.]167[.]177[.]224:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-18 02:05:03 UTC |
+| 58 (media) | media | `hxxps://xverikstat[.]us/dl/file/` | url | Unknown malware | ThreatFox | 2026-07-17 23:14:53 UTC |
+| 58 (media) | media | `hxxps://xverikstat[.]us/ccheck` | url | Unknown malware | ThreatFox | 2026-07-17 23:14:32 UTC |
 | 58 (media) | critica | `146[.]190[.]80[.]105:22` | ip:port | Havoc | ThreatFox | 2026-07-17 15:05:05 UTC |
 | 58 (media) | critica | `104[.]251[.]181[.]73:22` | ip:port | Havoc | ThreatFox | 2026-07-17 13:05:04 UTC |
 | 58 (media) | critica | `142[.]93[.]88[.]220:22` | ip:port | Havoc | ThreatFox | 2026-07-17 12:05:07 UTC |
@@ -157,7 +158,6 @@ python main.py
 | 58 (media) | critica | `217[.]60[.]97[.]3:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 07:05:06 UTC |
 | 58 (media) | critica | `217[.]60[.]97[.]3:443` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 07:05:05 UTC |
 | 58 (media) | critica | `217[.]60[.]97[.]3:9200` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 06:05:09 UTC |
-| 58 (media) | critica | `79[.]135[.]160[.]20:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-17 06:05:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
