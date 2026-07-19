@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-19 03:36 UTC · **IOCs recolectados:** 636 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-19 08:37 UTC · **IOCs recolectados:** 708 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 68 (media) | alta | `b1a6dba6636b519d76d7219f6264ac9f1456681c0855baef954fb435d3e25ce5` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
-| 68 (media) | alta | `e987bb8b32facef51c3cc5a94bd51e01d8c3be8a19c106de70147ab5ce84dc66` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
-| 68 (media) | alta | `6e709fb9b09d9f8318724a8620812f55411a3ea49de6319c4832885547773ddd` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
-| 68 (media) | alta | `b4acd1ab65624b694946b1181bba0732bb63c88c51b8334914c26c1805b2e1aa` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
-| 68 (media) | alta | `21c5f4a04173a5176d60b06095bf5d25e0022ffbe304601e368eccf718587dc8` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
-| 68 (media) | alta | `ec442a132f27486d1dfa3faa92c03e10012afe2b8de39fa9b42b367f7971c989` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
-| 68 (media) | alta | `9538c8a2edeaa8667134a469d03a7057ddc1e753ce1e5250f92f01c1097fcb1d` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
+| 68 (media) | media | `hxxp://95[.]164[.]53[.]214:5554/d[.]bat` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:37:55 UTC |
+| 68 (media) | media | `hxxp://93[.]152[.]224[.]29/VMvDWLT7AqpC45hhHf` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:37:54 UTC |
+| 68 (media) | alta | `b1a6dba6636b519d76d7219f6264ac9f1456681c0855baef954fb435d3e25ce5` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:30 UTC |
+| 68 (media) | alta | `e987bb8b32facef51c3cc5a94bd51e01d8c3be8a19c106de70147ab5ce84dc66` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:29 UTC |
+| 68 (media) | alta | `6e709fb9b09d9f8318724a8620812f55411a3ea49de6319c4832885547773ddd` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:29 UTC |
+| 68 (media) | alta | `b4acd1ab65624b694946b1181bba0732bb63c88c51b8334914c26c1805b2e1aa` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:28 UTC |
+| 68 (media) | alta | `21c5f4a04173a5176d60b06095bf5d25e0022ffbe304601e368eccf718587dc8` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:27 UTC |
+| 68 (media) | alta | `ec442a132f27486d1dfa3faa92c03e10012afe2b8de39fa9b42b367f7971c989` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:27 UTC |
+| 68 (media) | alta | `9538c8a2edeaa8667134a469d03a7057ddc1e753ce1e5250f92f01c1097fcb1d` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:26 UTC |
+| 67 (media) | alta | `bf38b3e5d645c78377599a6c218a347312c5a3daef693c7931f2710806d85317` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:30 UTC |
 | 67 (media) | media | `23[.]94[.]27[.]110:3478` | ip:port | Unknown malware | ThreatFox | 2026-07-19 01:05:05 UTC |
 | 67 (media) | media | `23[.]94[.]27[.]110:111` | ip:port | Unknown malware | ThreatFox | 2026-07-19 00:05:04 UTC |
 | 67 (media) | media | `23[.]94[.]27[.]110:631` | ip:port | Unknown malware | ThreatFox | 2026-07-19 00:05:04 UTC |
-| 67 (media) | alta | `bf38b3e5d645c78377599a6c218a347312c5a3daef693c7931f2710806d85317` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
-| 66 (media) | alta | `f5cb6dadaee4399a1f014ef5946d0a4c1af578d15ff078e725e0757f28dc8493` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
-| 66 (media) | alta | `103[.]83[.]87[.]122:4444` | ip:port | Mirai | ThreatFox | 2026-07-18 23:53:39 UTC |
-| 66 (media) | alta | `103[.]83[.]87[.]122:80` | ip:port | Mirai | ThreatFox | 2026-07-18 23:51:48 UTC |
-| 66 (media) | alta | `103[.]83[.]87[.]122:2222` | ip:port | Mirai | ThreatFox | 2026-07-18 23:51:48 UTC |
-| 66 (media) | alta | `103[.]83[.]87[.]122:8060` | ip:port | Mirai | ThreatFox | 2026-07-18 23:51:48 UTC |
-| 65 (media) | alta | `0d64cd75599dea5b8cf393b6e2b709f51b3971e64b96920e0707020e22ee7953` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
-| 64 (media) | alta | `f38d748d9ea29424c28744c52bcd1d14328d49fcb604ca08fab3547ec500d6f0` | sha256_hash | Mirai | ThreatFox | 2026-07-18 23:59:00 UTC |
-| 60 (media) | media | `113[.]44[.]90[.]0:22` | ip:port | Unknown malware | ThreatFox | 2026-07-18 19:05:06 UTC |
-| 60 (media) | critica | `101[.]126[.]10[.]34:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-18 19:05:04 UTC |
-| 60 (media) | media | `113[.]44[.]90[.]0:888` | ip:port | Unknown malware | ThreatFox | 2026-07-18 18:05:06 UTC |
-| 60 (media) | media | `113[.]44[.]90[.]0:21` | ip:port | Unknown malware | ThreatFox | 2026-07-18 18:05:06 UTC |
-| 59 (media) | critica | `101[.]200[.]193[.]211:44321` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 03:05:04 UTC |
-| 59 (media) | alta | `loveloveinfo[.]xyz` | domain | Unknown Stealer | ThreatFox | 2026-07-18 17:33:06 UTC |
-| 59 (media) | alta | `searchranktraffic[.]live` | domain | Unknown Stealer | ThreatFox | 2026-07-18 17:32:55 UTC |
+| 66 (media) | alta | `103[.]83[.]87[.]122:80` | ip:port | Mirai | ThreatFox | 2026-07-19 07:08:39 UTC |
+| 66 (media) | alta | `103[.]83[.]87[.]122:2222` | ip:port | Mirai | ThreatFox | 2026-07-19 07:08:39 UTC |
+| 66 (media) | alta | `103[.]83[.]87[.]122:4444` | ip:port | Mirai | ThreatFox | 2026-07-19 07:08:39 UTC |
+| 66 (media) | alta | `103[.]83[.]87[.]122:8060` | ip:port | Mirai | ThreatFox | 2026-07-19 07:08:38 UTC |
+| 66 (media) | alta | `f5cb6dadaee4399a1f014ef5946d0a4c1af578d15ff078e725e0757f28dc8493` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:30 UTC |
+| 65 (media) | media | `hxxps://natural-health-news[.]com/Verify[.]msi?I` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:37:55 UTC |
+| 65 (media) | media | `hxxp://178[.]17[.]59[.]195:5506/ll[.]vbs` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:37:54 UTC |
+| 65 (media) | alta | `0d64cd75599dea5b8cf393b6e2b709f51b3971e64b96920e0707020e22ee7953` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:29 UTC |
+| 64 (media) | media | `hxxps://gerenland[.]click/flask/whales[.]msi` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:37:54 UTC |
+| 64 (media) | media | `hxxps://gerenland[.]click/api/stale[.]msi` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:28:19 UTC |
+| 64 (media) | alta | `f38d748d9ea29424c28744c52bcd1d14328d49fcb604ca08fab3547ec500d6f0` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:28 UTC |
+| 62 (media) | critica | `101[.]42[.]255[.]92:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 06:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
