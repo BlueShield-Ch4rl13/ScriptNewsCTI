@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-19 08:37 UTC · **IOCs recolectados:** 708 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-19 13:47 UTC · **IOCs recolectados:** 718 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -151,13 +151,13 @@ python main.py
 | 66 (media) | alta | `103[.]83[.]87[.]122:4444` | ip:port | Mirai | ThreatFox | 2026-07-19 07:08:39 UTC |
 | 66 (media) | alta | `103[.]83[.]87[.]122:8060` | ip:port | Mirai | ThreatFox | 2026-07-19 07:08:38 UTC |
 | 66 (media) | alta | `f5cb6dadaee4399a1f014ef5946d0a4c1af578d15ff078e725e0757f28dc8493` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:30 UTC |
+| 65 (media) | media | `hxxps://productionai[.]shop/recaptcha-verify` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:37:57 UTC |
 | 65 (media) | media | `hxxps://natural-health-news[.]com/Verify[.]msi?I` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:37:55 UTC |
 | 65 (media) | media | `hxxp://178[.]17[.]59[.]195:5506/ll[.]vbs` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:37:54 UTC |
 | 65 (media) | alta | `0d64cd75599dea5b8cf393b6e2b709f51b3971e64b96920e0707020e22ee7953` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:29 UTC |
 | 64 (media) | media | `hxxps://gerenland[.]click/flask/whales[.]msi` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:37:54 UTC |
 | 64 (media) | media | `hxxps://gerenland[.]click/api/stale[.]msi` | url | Unknown malware | ThreatFox, URLhaus | 2026-07-19 07:28:19 UTC |
 | 64 (media) | alta | `f38d748d9ea29424c28744c52bcd1d14328d49fcb604ca08fab3547ec500d6f0` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:28 UTC |
-| 62 (media) | critica | `101[.]42[.]255[.]92:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 06:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
