@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-20 14:30 UTC · **IOCs recolectados:** 925 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-20 19:58 UTC · **IOCs recolectados:** 936 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -136,13 +136,19 @@ python main.py
 | 77 (alta) | alta | `8c21b2fbded2faeb6db2e7a20c513cdb` | md5_hash | RedLine Stealer | ThreatFox | 2026-07-20 01:16:13 UTC |
 | 77 (alta) | alta | `b59653f1e2b8dae784ca4211199d2887ea676d27e7af9d057a625cf9281c17e0` | sha256_hash | RedLine Stealer | ThreatFox | 2026-07-20 01:16:12 UTC |
 | 77 (alta) | alta | `38b837cc5fe814ca9580f9029386aa405f8e94df` | sha1_hash | RedLine Stealer | ThreatFox | 2026-07-20 01:16:12 UTC |
+| 76 (alta) | alta | `94[.]154[.]43[.]77:80` | ip:port | Mirai | ThreatFox | 2026-07-20 19:45:56 UTC |
 | 71 (alta) | media | `5a8031f3c9ff3c65ebaa0aa60f9e59feba83c71c` | sha1_hash | Phorpiex | ThreatFox | 2026-07-20 01:16:10 UTC |
 | 71 (alta) | media | `b0c4fe17a83df1621ce3db824684bb55` | md5_hash | Phorpiex | ThreatFox | 2026-07-20 01:16:10 UTC |
 | 71 (alta) | media | `2ac492ce3b66a7979ceba5f26c594f0a69698d19b2ffdb56ac8b741dc30f8e5e` | sha256_hash | Phorpiex | ThreatFox | 2026-07-20 01:16:09 UTC |
 | 70 (alta) | critica | `89[.]124[.]104[.]192:49999` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 09:45:58 UTC |
+| 68 (media) | media | `157[.]245[.]77[.]63:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:16 UTC |
+| 65 (media) | alta | `hxxps://nodemetrics9095[.]com/update/package` | url | KongTuke | ThreatFox, URLhaus | 2026-07-20 15:55:18 UTC |
+| 62 (media) | media | `64[.]227[.]69[.]17:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:16 UTC |
 | 62 (media) | alta | `9c986d7e311ce1e8db7bd65b8271a87d` | md5_hash | ValleyRAT | ThreatFox | 2026-07-20 01:16:11 UTC |
 | 62 (media) | alta | `40c98ff9673f67cfa82d9e2e16a2e55644f71fec87e2d92f25821a2b917f8145` | sha256_hash | ValleyRAT | ThreatFox | 2026-07-20 01:16:10 UTC |
 | 62 (media) | alta | `5c542d609013e48e6095af6ce5ef28208a35bb3f` | sha1_hash | ValleyRAT | ThreatFox | 2026-07-20 01:16:10 UTC |
+| 61 (media) | media | `209[.]38[.]99[.]84:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:15 UTC |
+| 60 (media) | media | `165[.]232[.]88[.]245:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:17 UTC |
 | 60 (media) | critica | `117[.]72[.]39[.]83:20443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-20 14:05:05 UTC |
 | 60 (media) | media | `209[.]38[.]38[.]123:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 12:20:30 UTC |
 | 60 (media) | media | `161[.]35[.]85[.]184:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 12:20:29 UTC |
@@ -152,12 +158,6 @@ python main.py
 | 59 (media) | critica | `149[.]104[.]28[.]204:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 14:05:04 UTC |
 | 59 (media) | critica | `149[.]104[.]28[.]204:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 14:05:04 UTC |
 | 59 (media) | critica | `149[.]104[.]28[.]204:9879` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 13:05:08 UTC |
-| 59 (media) | alta | `137[.]184[.]135[.]42:9034` | ip:port | Aisuru | ThreatFox | 2026-07-20 06:28:31 UTC |
-| 59 (media) | media | `103[.]142[.]147[.]19:5230` | ip:port | Unknown malware | ThreatFox | 2026-07-20 02:05:07 UTC |
-| 59 (media) | critica | `120[.]76[.]143[.]184:3306` | ip:port | Cobalt Strike | ThreatFox | 2026-07-20 02:05:07 UTC |
-| 59 (media) | alta | `52f56cc1abe3ed2f437aaae0c74f5db9` | md5_hash | Venus Stealer | ThreatFox | 2026-07-20 01:16:12 UTC |
-| 59 (media) | alta | `5f85e22acb86ebc9031256efb11af9f1eed58621312a0c0bf448fe699e809c92` | sha256_hash | Venus Stealer | ThreatFox | 2026-07-20 01:16:11 UTC |
-| 59 (media) | alta | `196515f98d4a043751629ffdc6e4fc371391b5b3` | sha1_hash | Venus Stealer | ThreatFox | 2026-07-20 01:16:11 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
