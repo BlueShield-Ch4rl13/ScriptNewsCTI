@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-20 09:36 UTC · **IOCs recolectados:** 771 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-20 14:30 UTC · **IOCs recolectados:** 925 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -139,25 +139,25 @@ python main.py
 | 71 (alta) | media | `5a8031f3c9ff3c65ebaa0aa60f9e59feba83c71c` | sha1_hash | Phorpiex | ThreatFox | 2026-07-20 01:16:10 UTC |
 | 71 (alta) | media | `b0c4fe17a83df1621ce3db824684bb55` | md5_hash | Phorpiex | ThreatFox | 2026-07-20 01:16:10 UTC |
 | 71 (alta) | media | `2ac492ce3b66a7979ceba5f26c594f0a69698d19b2ffdb56ac8b741dc30f8e5e` | sha256_hash | Phorpiex | ThreatFox | 2026-07-20 01:16:09 UTC |
+| 70 (alta) | critica | `89[.]124[.]104[.]192:49999` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 09:45:58 UTC |
 | 62 (media) | alta | `9c986d7e311ce1e8db7bd65b8271a87d` | md5_hash | ValleyRAT | ThreatFox | 2026-07-20 01:16:11 UTC |
 | 62 (media) | alta | `40c98ff9673f67cfa82d9e2e16a2e55644f71fec87e2d92f25821a2b917f8145` | sha256_hash | ValleyRAT | ThreatFox | 2026-07-20 01:16:10 UTC |
 | 62 (media) | alta | `5c542d609013e48e6095af6ce5ef28208a35bb3f` | sha1_hash | ValleyRAT | ThreatFox | 2026-07-20 01:16:10 UTC |
+| 60 (media) | critica | `117[.]72[.]39[.]83:20443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-20 14:05:05 UTC |
+| 60 (media) | media | `209[.]38[.]38[.]123:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 12:20:30 UTC |
+| 60 (media) | media | `161[.]35[.]85[.]184:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 12:20:29 UTC |
+| 60 (media) | media | `209[.]38[.]106[.]41:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 12:20:28 UTC |
 | 60 (media) | critica | `124[.]220[.]6[.]158:8097` | ip:port | Cobalt Strike | ThreatFox | 2026-07-20 03:05:03 UTC |
-| 60 (media) | critica | `116[.]198[.]233[.]179:3443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 13:05:07 UTC |
-| 60 (media) | critica | `117[.]72[.]178[.]246:9200` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 13:05:05 UTC |
-| 60 (media) | critica | `179[.]43[.]186[.]214:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 12:05:07 UTC |
-| 60 (media) | critica | `104[.]248[.]201[.]191:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 11:05:06 UTC |
+| 59 (media) | critica | `45[.]77[.]89[.]29:8484` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 14:05:05 UTC |
+| 59 (media) | critica | `149[.]104[.]28[.]204:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 14:05:04 UTC |
+| 59 (media) | critica | `149[.]104[.]28[.]204:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 14:05:04 UTC |
+| 59 (media) | critica | `149[.]104[.]28[.]204:9879` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 13:05:08 UTC |
 | 59 (media) | alta | `137[.]184[.]135[.]42:9034` | ip:port | Aisuru | ThreatFox | 2026-07-20 06:28:31 UTC |
 | 59 (media) | media | `103[.]142[.]147[.]19:5230` | ip:port | Unknown malware | ThreatFox | 2026-07-20 02:05:07 UTC |
 | 59 (media) | critica | `120[.]76[.]143[.]184:3306` | ip:port | Cobalt Strike | ThreatFox | 2026-07-20 02:05:07 UTC |
 | 59 (media) | alta | `52f56cc1abe3ed2f437aaae0c74f5db9` | md5_hash | Venus Stealer | ThreatFox | 2026-07-20 01:16:12 UTC |
 | 59 (media) | alta | `5f85e22acb86ebc9031256efb11af9f1eed58621312a0c0bf448fe699e809c92` | sha256_hash | Venus Stealer | ThreatFox | 2026-07-20 01:16:11 UTC |
 | 59 (media) | alta | `196515f98d4a043751629ffdc6e4fc371391b5b3` | sha1_hash | Venus Stealer | ThreatFox | 2026-07-20 01:16:11 UTC |
-| 59 (media) | alta | `0bf07f316fe80ace56c947a2021e56a07dab0d6b` | sha1_hash | Venus Stealer | ThreatFox | 2026-07-20 01:16:09 UTC |
-| 59 (media) | alta | `d0b2dbfbc3a1d6474628f5268cf884fc` | md5_hash | Venus Stealer | ThreatFox | 2026-07-20 01:16:09 UTC |
-| 59 (media) | alta | `602862693c2edba1df17afd61b4fcdc3a5ca139f` | sha1_hash | ValleyRAT | ThreatFox | 2026-07-20 01:16:08 UTC |
-| 59 (media) | alta | `137[.]184[.]135[.]42:8443` | ip:port | Aisuru | ThreatFox | 2026-07-19 20:10:38 UTC |
-| 59 (media) | alta | `137[.]184[.]135[.]42:34567` | ip:port | Aisuru | ThreatFox | 2026-07-19 20:09:47 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
