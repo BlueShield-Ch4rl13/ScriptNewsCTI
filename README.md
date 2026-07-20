@@ -127,12 +127,18 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-19 19:24 UTC · **IOCs recolectados:** 735 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-20 03:50 UTC · **IOCs recolectados:** 741 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 77 (alta) | alta | `8c21b2fbded2faeb6db2e7a20c513cdb` | md5_hash | RedLine Stealer | ThreatFox | 2026-07-20 01:16:13 UTC |
+| 77 (alta) | alta | `b59653f1e2b8dae784ca4211199d2887ea676d27e7af9d057a625cf9281c17e0` | sha256_hash | RedLine Stealer | ThreatFox | 2026-07-20 01:16:12 UTC |
+| 77 (alta) | alta | `38b837cc5fe814ca9580f9029386aa405f8e94df` | sha1_hash | RedLine Stealer | ThreatFox | 2026-07-20 01:16:12 UTC |
+| 71 (alta) | media | `5a8031f3c9ff3c65ebaa0aa60f9e59feba83c71c` | sha1_hash | Phorpiex | ThreatFox | 2026-07-20 01:16:10 UTC |
+| 71 (alta) | media | `b0c4fe17a83df1621ce3db824684bb55` | md5_hash | Phorpiex | ThreatFox | 2026-07-20 01:16:10 UTC |
+| 71 (alta) | media | `2ac492ce3b66a7979ceba5f26c594f0a69698d19b2ffdb56ac8b741dc30f8e5e` | sha256_hash | Phorpiex | ThreatFox | 2026-07-20 01:16:09 UTC |
 | 68 (media) | alta | `b1a6dba6636b519d76d7219f6264ac9f1456681c0855baef954fb435d3e25ce5` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:30 UTC |
 | 68 (media) | alta | `e987bb8b32facef51c3cc5a94bd51e01d8c3be8a19c106de70147ab5ce84dc66` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:29 UTC |
 | 68 (media) | alta | `6e709fb9b09d9f8318724a8620812f55411a3ea49de6319c4832885547773ddd` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:29 UTC |
@@ -141,9 +147,6 @@ python main.py
 | 68 (media) | alta | `ec442a132f27486d1dfa3faa92c03e10012afe2b8de39fa9b42b367f7971c989` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:27 UTC |
 | 68 (media) | alta | `9538c8a2edeaa8667134a469d03a7057ddc1e753ce1e5250f92f01c1097fcb1d` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:26 UTC |
 | 67 (media) | alta | `bf38b3e5d645c78377599a6c218a347312c5a3daef693c7931f2710806d85317` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:30 UTC |
-| 67 (media) | media | `23[.]94[.]27[.]110:3478` | ip:port | Unknown malware | ThreatFox | 2026-07-19 01:05:05 UTC |
-| 67 (media) | media | `23[.]94[.]27[.]110:111` | ip:port | Unknown malware | ThreatFox | 2026-07-19 00:05:04 UTC |
-| 67 (media) | media | `23[.]94[.]27[.]110:631` | ip:port | Unknown malware | ThreatFox | 2026-07-19 00:05:04 UTC |
 | 66 (media) | alta | `103[.]83[.]87[.]122:80` | ip:port | Mirai | ThreatFox | 2026-07-19 07:08:39 UTC |
 | 66 (media) | alta | `103[.]83[.]87[.]122:2222` | ip:port | Mirai | ThreatFox | 2026-07-19 07:08:39 UTC |
 | 66 (media) | alta | `103[.]83[.]87[.]122:4444` | ip:port | Mirai | ThreatFox | 2026-07-19 07:08:39 UTC |
@@ -151,13 +154,10 @@ python main.py
 | 66 (media) | alta | `f5cb6dadaee4399a1f014ef5946d0a4c1af578d15ff078e725e0757f28dc8493` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:30 UTC |
 | 65 (media) | alta | `0d64cd75599dea5b8cf393b6e2b709f51b3971e64b96920e0707020e22ee7953` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:29 UTC |
 | 64 (media) | alta | `f38d748d9ea29424c28744c52bcd1d14328d49fcb604ca08fab3547ec500d6f0` | sha256_hash | Mirai | ThreatFox | 2026-07-19 07:08:28 UTC |
+| 62 (media) | alta | `9c986d7e311ce1e8db7bd65b8271a87d` | md5_hash | ValleyRAT | ThreatFox | 2026-07-20 01:16:11 UTC |
+| 62 (media) | alta | `40c98ff9673f67cfa82d9e2e16a2e55644f71fec87e2d92f25821a2b917f8145` | sha256_hash | ValleyRAT | ThreatFox | 2026-07-20 01:16:10 UTC |
+| 62 (media) | alta | `5c542d609013e48e6095af6ce5ef28208a35bb3f` | sha1_hash | ValleyRAT | ThreatFox | 2026-07-20 01:16:10 UTC |
 | 62 (media) | critica | `101[.]42[.]255[.]92:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 06:05:05 UTC |
-| 60 (media) | critica | `116[.]198[.]233[.]179:3443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 13:05:07 UTC |
-| 60 (media) | critica | `117[.]72[.]178[.]246:9200` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 13:05:05 UTC |
-| 60 (media) | critica | `179[.]43[.]186[.]214:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 12:05:07 UTC |
-| 60 (media) | critica | `104[.]248[.]201[.]191:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-19 11:05:06 UTC |
-| 59 (media) | critica | `1[.]92[.]135[.]168:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-19 19:05:06 UTC |
-| 59 (media) | critica | `154[.]219[.]115[.]123:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-19 19:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
