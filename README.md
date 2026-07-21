@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-21 03:30 UTC · **IOCs recolectados:** 959 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-21 08:48 UTC · **IOCs recolectados:** 888 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -138,10 +138,10 @@ python main.py
 | 68 (media) | media | `157[.]245[.]77[.]63:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:16 UTC |
 | 62 (media) | media | `64[.]227[.]69[.]17:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:16 UTC |
 | 61 (media) | media | `209[.]38[.]99[.]84:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:15 UTC |
+| 60 (media) | alta | `137[.]184[.]135[.]42:37215` | ip:port | Aisuru | ThreatFox | 2026-07-21 05:20:33 UTC |
 | 60 (media) | critica | `8[.]137[.]149[.]67:3443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 03:05:08 UTC |
 | 60 (media) | critica | `8[.]137[.]149[.]67:8000` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 03:05:05 UTC |
 | 60 (media) | critica | `8[.]137[.]149[.]67:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 02:05:05 UTC |
-| 60 (media) | alta | `137[.]184[.]135[.]42:37215` | ip:port | Aisuru | ThreatFox | 2026-07-21 01:27:48 UTC |
 | 60 (media) | media | `165[.]232[.]88[.]245:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:17 UTC |
 | 60 (media) | critica | `117[.]72[.]39[.]83:20443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-20 14:05:05 UTC |
 | 60 (media) | media | `209[.]38[.]38[.]123:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 12:20:30 UTC |
@@ -157,7 +157,7 @@ python main.py
 | 59 (media) | critica | `149[.]104[.]28[.]204:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 14:05:04 UTC |
 | 59 (media) | critica | `149[.]104[.]28[.]204:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 14:05:04 UTC |
 | 59 (media) | critica | `149[.]104[.]28[.]204:9879` | ip:port | AdaptixC2 | ThreatFox | 2026-07-20 13:05:08 UTC |
-| 59 (media) | alta | `137[.]184[.]135[.]42:9034` | ip:port | Aisuru | ThreatFox | 2026-07-20 06:28:31 UTC |
+| 58 (media) | media | `47[.]108[.]140[.]10:8099` | ip:port | Unknown malware | ThreatFox | 2026-07-20 13:05:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
