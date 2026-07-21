@@ -127,21 +127,18 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-21 14:17 UTC · **IOCs recolectados:** 738 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-21 19:49 UTC · **IOCs recolectados:** 736 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 76 (alta) | alta | `94[.]154[.]43[.]77:80` | ip:port | Mirai | ThreatFox | 2026-07-20 19:45:56 UTC |
-| 68 (media) | media | `157[.]245[.]77[.]63:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:16 UTC |
-| 62 (media) | media | `64[.]227[.]69[.]17:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:16 UTC |
-| 61 (media) | media | `209[.]38[.]99[.]84:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:15 UTC |
+| 61 (media) | critica | `101[.]42[.]255[.]92:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 19:05:06 UTC |
 | 60 (media) | alta | `137[.]184[.]135[.]42:37215` | ip:port | Aisuru | ThreatFox | 2026-07-21 05:20:33 UTC |
 | 60 (media) | critica | `8[.]137[.]149[.]67:3443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 03:05:08 UTC |
 | 60 (media) | critica | `8[.]137[.]149[.]67:8000` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 03:05:05 UTC |
 | 60 (media) | critica | `8[.]137[.]149[.]67:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 02:05:05 UTC |
-| 60 (media) | media | `165[.]232[.]88[.]245:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-20 15:55:17 UTC |
 | 59 (media) | critica | `47[.]94[.]162[.]43:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 03:05:04 UTC |
 | 59 (media) | critica | `101[.]200[.]193[.]211:44322` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 02:05:04 UTC |
 | 59 (media) | critica | `8[.]163[.]49[.]50:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 01:05:08 UTC |
@@ -150,19 +147,26 @@ python main.py
 | 59 (media) | critica | `47[.]94[.]162[.]43:3306` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 01:05:06 UTC |
 | 57 (media) | media | `47[.]108[.]140[.]10:20881` | ip:port | Unknown malware | ThreatFox | 2026-07-21 08:05:05 UTC |
 | 57 (media) | critica | `101[.]42[.]255[.]92:222` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 04:05:05 UTC |
-| 57 (media) | critica | `47[.]236[.]130[.]154:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-20 19:05:05 UTC |
-| 57 (media) | critica | `121[.]43[.]181[.]37:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-20 18:05:06 UTC |
-| 57 (media) | critica | `101[.]42[.]255[.]92:3306` | ip:port | Cobalt Strike | ThreatFox | 2026-07-20 17:05:04 UTC |
+| 56 (media) | alta | `yn9w54gw[.]springfieldsummerhoops[.]com` | domain | ClearFake | ThreatFox | 2026-07-21 19:34:10 UTC |
+| 56 (media) | critica | `203[.]9[.]150[.]13:443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 19:05:05 UTC |
+| 56 (media) | critica | `182[.]92[.]117[.]223:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 19:05:05 UTC |
+| 56 (media) | critica | `182[.]92[.]117[.]223:111` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 19:05:05 UTC |
+| 56 (media) | alta | `161[.]35[.]125[.]247:8080` | ip:port | Aisuru | ThreatFox | 2026-07-21 18:43:32 UTC |
+| 56 (media) | alta | `goc[.]luckyturbo88[.]top` | domain | Vidar | ThreatFox | 2026-07-21 18:25:05 UTC |
+| 56 (media) | alta | `hxxps://goc[.]luckyturbo88[.]top/` | url | Vidar | ThreatFox | 2026-07-21 18:25:05 UTC |
+| 56 (media) | critica | `203[.]9[.]150[.]13:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 18:05:06 UTC |
+| 56 (media) | critica | `203[.]9[.]150[.]13:80` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 18:05:05 UTC |
 | 56 (media) | alta | `mvjx[.]phtaxiservices[.]com` | domain | ClearFake | ThreatFox | 2026-07-21 14:04:26 UTC |
 | 56 (media) | alta | `w3jxkd42[.]jardins-do-mar[.]com` | domain | ClearFake | ThreatFox | 2026-07-21 13:38:29 UTC |
-| 56 (media) | alta | `213[.]232[.]235[.]51:8880` | ip:port | ClearFake | ThreatFox | 2026-07-21 13:29:42 UTC |
-| 56 (media) | alta | `hrmotorsspringville[.]com` | domain | ClearFake | ThreatFox | 2026-07-21 13:13:22 UTC |
-| 56 (media) | alta | `izhx[.]phimmoichilla[.]org` | domain | ClearFake | ThreatFox | 2026-07-21 13:07:30 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-60137 | WordPress Core | 2026-07-21 | Unknown |
+| CVE-2026-63030 | WordPress Core | 2026-07-21 | Unknown |
+| CVE-2026-0770 | Langflow Langflow | 2026-07-21 | Unknown |
+| CVE-2021-27137 | DD-WRT DD-WRT | 2026-07-21 | Unknown |
 | CVE-2026-58644 | Microsoft SharePoint | 2026-07-16 | Unknown |
 | CVE-2026-25089 | Fortinet FortiSandbox | 2026-07-16 | Unknown |
 | CVE-2026-39808 | Fortinet FortiSandbox | 2026-07-16 | Unknown |
