@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-21 19:49 UTC · **IOCs recolectados:** 736 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-07-22 03:29 UTC · **IOCs recolectados:** 769 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 76 (alta) | alta | `94[.]154[.]43[.]77:80` | ip:port | Mirai | ThreatFox | 2026-07-20 19:45:56 UTC |
+| 79 (alta) | media | `42[.]193[.]201[.]58:8084` | ip:port | VShell | ThreatFox | 2026-07-22 03:05:06 UTC |
 | 61 (media) | critica | `101[.]42[.]255[.]92:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 19:05:06 UTC |
 | 60 (media) | alta | `137[.]184[.]135[.]42:37215` | ip:port | Aisuru | ThreatFox | 2026-07-21 05:20:33 UTC |
-| 60 (media) | critica | `8[.]137[.]149[.]67:3443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 03:05:08 UTC |
-| 60 (media) | critica | `8[.]137[.]149[.]67:8000` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 03:05:05 UTC |
-| 60 (media) | critica | `8[.]137[.]149[.]67:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 02:05:05 UTC |
-| 59 (media) | critica | `47[.]94[.]162[.]43:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 03:05:04 UTC |
-| 59 (media) | critica | `101[.]200[.]193[.]211:44322` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 02:05:04 UTC |
-| 59 (media) | critica | `8[.]163[.]49[.]50:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 01:05:08 UTC |
-| 59 (media) | critica | `47[.]94[.]162[.]43:111` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 01:05:07 UTC |
-| 59 (media) | critica | `8[.]163[.]49[.]50:3389` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 01:05:07 UTC |
-| 59 (media) | critica | `47[.]94[.]162[.]43:3306` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 01:05:06 UTC |
+| 59 (media) | media | `115[.]190[.]237[.]175:8085` | ip:port | VShell | ThreatFox | 2026-07-22 02:05:07 UTC |
+| 59 (media) | critica | `47[.]82[.]234[.]12:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-22 00:05:05 UTC |
+| 57 (media) | critica | `8[.]133[.]197[.]201:3001` | ip:port | Havoc | ThreatFox | 2026-07-22 02:05:04 UTC |
+| 57 (media) | media | `47[.]108[.]140[.]10:20886` | ip:port | Unknown malware | ThreatFox | 2026-07-22 01:05:04 UTC |
+| 57 (media) | media | `106[.]52[.]255[.]211:9001` | ip:port | Unknown malware | ThreatFox | 2026-07-22 01:05:04 UTC |
+| 57 (media) | critica | `47[.]99[.]196[.]178:7002` | ip:port | AdaptixC2 | ThreatFox | 2026-07-22 00:05:05 UTC |
+| 57 (media) | critica | `47[.]99[.]196[.]178:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-21 23:05:05 UTC |
+| 57 (media) | critica | `114[.]134[.]187[.]38:8545` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 20:05:05 UTC |
 | 57 (media) | media | `47[.]108[.]140[.]10:20881` | ip:port | Unknown malware | ThreatFox | 2026-07-21 08:05:05 UTC |
 | 57 (media) | critica | `101[.]42[.]255[.]92:222` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 04:05:05 UTC |
-| 56 (media) | alta | `yn9w54gw[.]springfieldsummerhoops[.]com` | domain | ClearFake | ThreatFox | 2026-07-21 19:34:10 UTC |
-| 56 (media) | critica | `203[.]9[.]150[.]13:443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 19:05:05 UTC |
-| 56 (media) | critica | `182[.]92[.]117[.]223:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 19:05:05 UTC |
-| 56 (media) | critica | `182[.]92[.]117[.]223:111` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 19:05:05 UTC |
-| 56 (media) | alta | `161[.]35[.]125[.]247:8080` | ip:port | Aisuru | ThreatFox | 2026-07-21 18:43:32 UTC |
-| 56 (media) | alta | `goc[.]luckyturbo88[.]top` | domain | Vidar | ThreatFox | 2026-07-21 18:25:05 UTC |
-| 56 (media) | alta | `hxxps://goc[.]luckyturbo88[.]top/` | url | Vidar | ThreatFox | 2026-07-21 18:25:05 UTC |
-| 56 (media) | critica | `203[.]9[.]150[.]13:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 18:05:06 UTC |
-| 56 (media) | critica | `203[.]9[.]150[.]13:80` | ip:port | Cobalt Strike | ThreatFox | 2026-07-21 18:05:05 UTC |
-| 56 (media) | alta | `mvjx[.]phtaxiservices[.]com` | domain | ClearFake | ThreatFox | 2026-07-21 14:04:26 UTC |
-| 56 (media) | alta | `w3jxkd42[.]jardins-do-mar[.]com` | domain | ClearFake | ThreatFox | 2026-07-21 13:38:29 UTC |
+| 56 (media) | media | `64[.]111[.]93[.]243:8443` | ip:port | VShell | ThreatFox | 2026-07-22 03:05:05 UTC |
+| 56 (media) | alta | `smoothbioticsgummies[.]com` | domain | ClearFake | ThreatFox | 2026-07-22 02:04:16 UTC |
+| 56 (media) | alta | `gorto[.]ridgerenovation[.]com` | domain | ClearFake | ThreatFox | 2026-07-22 01:40:33 UTC |
+| 56 (media) | alta | `yfma9er2[.]drrobertoiturralde[.]com` | domain | ClearFake | ThreatFox | 2026-07-22 01:37:15 UTC |
+| 56 (media) | alta | `mpmu[.]slepsluzbaublizini[.]com` | domain | ClearFake | ThreatFox | 2026-07-22 01:05:01 UTC |
+| 56 (media) | alta | `slepsluzbaublizini[.]com` | domain | ClearFake | ThreatFox | 2026-07-22 01:03:38 UTC |
+| 56 (media) | media | `malekos[.]pro` | domain | Unknown Webinject | ThreatFox | 2026-07-22 00:50:31 UTC |
+| 56 (media) | alta | `clna[.]springhillcommons[.]com` | domain | ClearFake | ThreatFox | 2026-07-22 00:48:13 UTC |
+| 56 (media) | alta | `zqwhz[.]phimmoichilla[.]org` | domain | ClearFake | ThreatFox | 2026-07-22 00:40:08 UTC |
+| 56 (media) | alta | `stt[.]majusm188[.]top` | domain | Vidar | ThreatFox | 2026-07-22 00:20:05 UTC |
+| 56 (media) | alta | `stt[.]77zeus[.]com` | domain | Vidar | ThreatFox | 2026-07-22 00:15:07 UTC |
+| 56 (media) | alta | `qyov[.]site-asli-bedon-filter-1xbet[.]com` | domain | ClearFake | ThreatFox | 2026-07-22 00:10:00 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -179,8 +179,4 @@ python main.py
 | CVE-2008-4128 | Cisco IOS | 2026-07-13 | Unknown |
 | CVE-2026-56291 | Balbooa Forms | 2026-07-10 | Unknown |
 | CVE-2026-48939 | iCagenda iCagenda | 2026-07-10 | Unknown |
-| CVE-2026-48908 | JoomShaper SP Page Builder | 2026-07-07 | Unknown |
-| CVE-2026-55255 | Langflow Langflow | 2026-07-07 | Unknown |
-| CVE-2026-56290 | Joomlack Page Builder | 2026-07-07 | Unknown |
-| CVE-2026-48282 | Adobe ColdFusion | 2026-07-07 | Unknown |
 <!-- CTI:END -->
