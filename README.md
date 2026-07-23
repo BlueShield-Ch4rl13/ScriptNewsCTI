@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-23 14:26 UTC · **IOCs recolectados:** 1151 · **CVEs KEV recientes:** 18
+**Última actualización:** 2026-07-23 19:37 UTC · **IOCs recolectados:** 1108 · **CVEs KEV recientes:** 18
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -135,7 +135,6 @@ python main.py
 |---|---|---|---|---|---|---|
 | 76 (alta) | alta | `45[.]74[.]3[.]37:9` | ip:port | Mirai | ThreatFox | 2026-07-23 05:11:38 UTC |
 | 71 (alta) | alta | `94[.]154[.]43[.]102:345` | ip:port | Mirai | ThreatFox | 2026-07-23 05:26:19 UTC |
-| 71 (alta) | alta | `91[.]92[.]42[.]213:1312` | ip:port | Mirai | ThreatFox | 2026-07-22 14:17:30 UTC |
 | 69 (media) | alta | `bd6c7efbdd13e521de1f00c22b2bc8104e2c10c3` | sha1_hash | Venus Stealer | ThreatFox | 2026-07-23 01:48:26 UTC |
 | 69 (media) | alta | `512bb4a122568ab91f86b9bb716739a5` | md5_hash | Venus Stealer | ThreatFox | 2026-07-23 01:48:26 UTC |
 | 69 (media) | alta | `72935b04a5ab38bfd9240514cd205935f7ffe921ae5a61d0b389495235feaeb3` | sha256_hash | Venus Stealer | ThreatFox | 2026-07-23 01:48:25 UTC |
@@ -158,6 +157,7 @@ python main.py
 | 60 (media) | media | `4b1ff336071a687cd35ef14ad285c854` | md5_hash | Coinminer | ThreatFox | 2026-07-23 01:48:24 UTC |
 | 60 (media) | alta | `f9f49c54ef5a103b4efdfba8fe7bc54e` | md5_hash | Vidar | ThreatFox | 2026-07-23 01:48:23 UTC |
 | 60 (media) | media | `ab161caf790e0722f10c95343132e648a3d64185ed575834e5a9853c9dca7618` | sha256_hash | Coinminer | ThreatFox | 2026-07-23 01:48:23 UTC |
+| 60 (media) | media | `9d7477931b00cfcd23ae914fc2bb8f781cfc7616` | sha1_hash | Coinminer | ThreatFox | 2026-07-23 01:48:23 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
