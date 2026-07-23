@@ -127,42 +127,44 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-22 19:45 UTC · **IOCs recolectados:** 698 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-23 03:35 UTC · **IOCs recolectados:** 1015 · **CVEs KEV recientes:** 18
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 79 (alta) | media | `42[.]193[.]201[.]58:8084` | ip:port | VShell | ThreatFox | 2026-07-22 03:05:06 UTC |
+| 76 (alta) | alta | `45[.]74[.]3[.]37:9` | ip:port | Mirai | ThreatFox | 2026-07-23 02:52:07 UTC |
 | 73 (alta) | alta | `94[.]154[.]43[.]102:25565` | ip:port | Mirai | ThreatFox | 2026-07-22 07:51:16 UTC |
 | 71 (alta) | alta | `91[.]92[.]42[.]213:1312` | ip:port | Mirai | ThreatFox | 2026-07-22 14:17:30 UTC |
+| 69 (media) | alta | `bd6c7efbdd13e521de1f00c22b2bc8104e2c10c3` | sha1_hash | Venus Stealer | ThreatFox | 2026-07-23 01:48:26 UTC |
+| 69 (media) | alta | `512bb4a122568ab91f86b9bb716739a5` | md5_hash | Venus Stealer | ThreatFox | 2026-07-23 01:48:26 UTC |
+| 69 (media) | alta | `72935b04a5ab38bfd9240514cd205935f7ffe921ae5a61d0b389495235feaeb3` | sha256_hash | Venus Stealer | ThreatFox | 2026-07-23 01:48:25 UTC |
+| 68 (media) | alta | `ae58622241092d9ba1d2426a875119a7` | md5_hash | Formbook | ThreatFox | 2026-07-23 01:48:30 UTC |
+| 68 (media) | alta | `ef8f821a54f3f07ae8036c005c7656aa755f8078de6c70a1a8f72ebafe35fe69` | sha256_hash | Formbook | ThreatFox | 2026-07-23 01:48:29 UTC |
+| 68 (media) | alta | `514853c657defc7e450cce08e5884fce6c0c1066` | sha1_hash | Formbook | ThreatFox | 2026-07-23 01:48:29 UTC |
+| 68 (media) | media | `709ea37c2d8c2bc532b065d95af124d9a7dab1c1` | sha1_hash | Kuiper | ThreatFox | 2026-07-23 01:48:25 UTC |
+| 68 (media) | media | `0a635961383389c90b59d8104d1a70cc` | md5_hash | Kuiper | ThreatFox | 2026-07-23 01:48:25 UTC |
+| 68 (media) | media | `ee313cc02f4f644e2a80a407a4971faa06df65ac484d1bd0f57e62eb2c55d8bd` | sha256_hash | Kuiper | ThreatFox | 2026-07-23 01:48:24 UTC |
+| 67 (media) | alta | `9460a4fc5ef4a5f6a8a3b851398c0b44` | md5_hash | Vidar | ThreatFox | 2026-07-23 01:48:28 UTC |
+| 67 (media) | alta | `75a0d2b32af70bcbffb8ed27215b60c924efd460a85cd21013fc1b83e1d2fdc8` | sha256_hash | Vidar | ThreatFox | 2026-07-23 01:48:27 UTC |
+| 67 (media) | alta | `4b21892cf36b9e75f7ce2ee7e42227187a79f5e9` | sha1_hash | Vidar | ThreatFox | 2026-07-23 01:48:27 UTC |
+| 67 (media) | media | `3eb6186b67791934b8e94d9ba5324abd` | md5_hash | Kuiper | ThreatFox | 2026-07-23 01:48:22 UTC |
 | 66 (media) | media | `77[.]247[.]88[.]88:46996` | ip:port | Unknown malware | ThreatFox | 2026-07-22 18:15:12 UTC |
+| 65 (media) | alta | `face4acb042c323fca0ead3463d0e896` | md5_hash | RN Stealer | ThreatFox | 2026-07-23 01:48:29 UTC |
+| 65 (media) | alta | `4c897108e8e793d6904110928c996815c302d6975c9bc61162149e855a963d50` | sha256_hash | RN Stealer | ThreatFox | 2026-07-23 01:48:28 UTC |
+| 65 (media) | alta | `b3f6efdbac7547ee988417c636a9eea999e8eebb` | sha1_hash | RN Stealer | ThreatFox | 2026-07-23 01:48:28 UTC |
 | 64 (media) | alta | `91[.]92[.]42[.]213:80` | ip:port | Mirai | ThreatFox | 2026-07-22 15:30:20 UTC |
 | 63 (media) | alta | `129[.]121[.]114[.]124:5362` | ip:port | Mirai | ThreatFox | 2026-07-22 07:41:35 UTC |
 | 63 (media) | alta | `129[.]121[.]114[.]124:25565` | ip:port | Mirai | ThreatFox | 2026-07-22 07:41:35 UTC |
-| 60 (media) | critica | `47[.]121[.]137[.]8:24242` | ip:port | Cobalt Strike | ThreatFox | 2026-07-22 18:05:06 UTC |
-| 60 (media) | alta | `158[.]94[.]211[.]212:8443` | ip:port | PureLogs Stealer | ThreatFox | 2026-07-22 07:31:22 UTC |
-| 59 (media) | critica | `2[.]26[.]229[.]254:7000` | ip:port | AdaptixC2 | ThreatFox | 2026-07-22 14:17:30 UTC |
-| 59 (media) | media | `marvelouslooks[.]monster` | domain | Unknown malware | ThreatFox | 2026-07-22 14:00:39 UTC |
-| 59 (media) | critica | `150[.]187[.]25[.]242:8083` | ip:port | Cobalt Strike | ThreatFox | 2026-07-22 07:05:07 UTC |
-| 59 (media) | critica | `150[.]187[.]25[.]242:33060` | ip:port | Cobalt Strike | ThreatFox | 2026-07-22 06:05:06 UTC |
-| 59 (media) | critica | `150[.]187[.]25[.]242:3366` | ip:port | Cobalt Strike | ThreatFox | 2026-07-22 06:05:06 UTC |
-| 59 (media) | critica | `120[.]76[.]143[.]184:5003` | ip:port | Cobalt Strike | ThreatFox | 2026-07-22 06:05:04 UTC |
-| 59 (media) | media | `115[.]190[.]237[.]175:8085` | ip:port | VShell | ThreatFox | 2026-07-22 02:05:07 UTC |
-| 59 (media) | critica | `47[.]82[.]234[.]12:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-22 00:05:05 UTC |
-| 58 (media) | critica | `45[.]136[.]13[.]247:17777` | ip:port | AdaptixC2 | ThreatFox | 2026-07-22 18:05:06 UTC |
-| 58 (media) | critica | `47[.]94[.]162[.]43:888` | ip:port | Cobalt Strike | ThreatFox | 2026-07-22 07:05:08 UTC |
-| 58 (media) | critica | `120[.]55[.]3[.]157:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-22 07:05:07 UTC |
-| 57 (media) | media | `43[.]143[.]128[.]126:65443` | ip:port | Unknown malware | ThreatFox | 2026-07-22 19:05:06 UTC |
-| 57 (media) | media | `43[.]143[.]128[.]126:9200` | ip:port | Unknown malware | ThreatFox | 2026-07-22 19:05:06 UTC |
-| 57 (media) | media | `47[.]109[.]190[.]151:8000` | ip:port | Unknown malware | ThreatFox | 2026-07-22 19:05:05 UTC |
-| 57 (media) | critica | `49[.]233[.]136[.]227:9999` | ip:port | Cobalt Strike | ThreatFox | 2026-07-22 18:05:05 UTC |
-| 57 (media) | alta | `hxxp://196[.]251[.]107[.]186/acovp/post[.]php` | url | SVCStealer | ThreatFox | 2026-07-22 13:10:40 UTC |
+| 60 (media) | alta | `137[.]184[.]135[.]42:12345` | ip:port | Aisuru | ThreatFox | 2026-07-23 02:11:38 UTC |
+| 60 (media) | media | `4b1ff336071a687cd35ef14ad285c854` | md5_hash | Coinminer | ThreatFox | 2026-07-23 01:48:24 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-16232 | Check Point SmartConsole | 2026-07-22 | Unknown |
+| CVE-2026-50522 | Microsoft SharePoint | 2026-07-22 | Unknown |
 | CVE-2026-60137 | WordPress Core | 2026-07-21 | Unknown |
 | CVE-2026-63030 | WordPress Core | 2026-07-21 | Unknown |
 | CVE-2026-0770 | Langflow Langflow | 2026-07-21 | Unknown |
