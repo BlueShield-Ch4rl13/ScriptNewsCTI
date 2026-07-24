@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-23 19:37 UTC · **IOCs recolectados:** 1108 · **CVEs KEV recientes:** 18
+**Última actualización:** 2026-07-24 03:30 UTC · **IOCs recolectados:** 1221 · **CVEs KEV recientes:** 18
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 76 (alta) | alta | `45[.]74[.]3[.]37:9` | ip:port | Mirai | ThreatFox | 2026-07-23 05:11:38 UTC |
+| 71 (alta) | alta | `5cc694a33b659fb6c6e18633daea040c` | md5_hash | Vidar | ThreatFox | 2026-07-24 01:06:37 UTC |
+| 71 (alta) | alta | `c118f7037676c76b39d05c16c337158c0d714decee91af1c44f41c899233b265` | sha256_hash | Vidar | ThreatFox | 2026-07-24 01:06:36 UTC |
+| 71 (alta) | alta | `c2b2ecfe88e5555a73cd3d893d369b1640b626bd` | sha1_hash | Vidar | ThreatFox | 2026-07-24 01:06:36 UTC |
 | 71 (alta) | alta | `94[.]154[.]43[.]102:345` | ip:port | Mirai | ThreatFox | 2026-07-23 05:26:19 UTC |
-| 69 (media) | alta | `bd6c7efbdd13e521de1f00c22b2bc8104e2c10c3` | sha1_hash | Venus Stealer | ThreatFox | 2026-07-23 01:48:26 UTC |
-| 69 (media) | alta | `512bb4a122568ab91f86b9bb716739a5` | md5_hash | Venus Stealer | ThreatFox | 2026-07-23 01:48:26 UTC |
-| 69 (media) | alta | `72935b04a5ab38bfd9240514cd205935f7ffe921ae5a61d0b389495235feaeb3` | sha256_hash | Venus Stealer | ThreatFox | 2026-07-23 01:48:25 UTC |
-| 68 (media) | alta | `ae58622241092d9ba1d2426a875119a7` | md5_hash | Formbook | ThreatFox | 2026-07-23 01:48:30 UTC |
-| 68 (media) | alta | `ef8f821a54f3f07ae8036c005c7656aa755f8078de6c70a1a8f72ebafe35fe69` | sha256_hash | Formbook | ThreatFox | 2026-07-23 01:48:29 UTC |
-| 68 (media) | alta | `514853c657defc7e450cce08e5884fce6c0c1066` | sha1_hash | Formbook | ThreatFox | 2026-07-23 01:48:29 UTC |
-| 68 (media) | media | `709ea37c2d8c2bc532b065d95af124d9a7dab1c1` | sha1_hash | Kuiper | ThreatFox | 2026-07-23 01:48:25 UTC |
-| 68 (media) | media | `0a635961383389c90b59d8104d1a70cc` | md5_hash | Kuiper | ThreatFox | 2026-07-23 01:48:25 UTC |
-| 68 (media) | media | `ee313cc02f4f644e2a80a407a4971faa06df65ac484d1bd0f57e62eb2c55d8bd` | sha256_hash | Kuiper | ThreatFox | 2026-07-23 01:48:24 UTC |
-| 67 (media) | alta | `9460a4fc5ef4a5f6a8a3b851398c0b44` | md5_hash | Vidar | ThreatFox | 2026-07-23 01:48:28 UTC |
-| 67 (media) | alta | `75a0d2b32af70bcbffb8ed27215b60c924efd460a85cd21013fc1b83e1d2fdc8` | sha256_hash | Vidar | ThreatFox | 2026-07-23 01:48:27 UTC |
-| 67 (media) | alta | `4b21892cf36b9e75f7ce2ee7e42227187a79f5e9` | sha1_hash | Vidar | ThreatFox | 2026-07-23 01:48:27 UTC |
-| 67 (media) | media | `3eb6186b67791934b8e94d9ba5324abd` | md5_hash | Kuiper | ThreatFox | 2026-07-23 01:48:22 UTC |
+| 68 (media) | alta | `5a43ccbb36c23176b99cb7727d338f43319f353f` | sha1_hash | Vidar | ThreatFox | 2026-07-24 01:06:39 UTC |
+| 68 (media) | alta | `e006cb0220146177e684c11e8548ab39` | md5_hash | Vidar | ThreatFox | 2026-07-24 01:06:39 UTC |
+| 68 (media) | alta | `3bb64d86bed8337443f4b6f6c981914dd7d94b6fa7b61709015f9698e13bc67c` | sha256_hash | Vidar | ThreatFox | 2026-07-24 01:06:38 UTC |
+| 67 (media) | media | `18b3741afc2712dafb56505b1c1822372b35cc0b` | sha1_hash | Kuiper | ThreatFox | 2026-07-24 01:06:42 UTC |
+| 67 (media) | media | `a20052c78501ce91feba8ce56a3aa665` | md5_hash | Kuiper | ThreatFox | 2026-07-24 01:06:42 UTC |
+| 67 (media) | media | `366e52b6d95d9478a73ffcd659a1807bdea901a0737b7b2532fe11145be03925` | sha256_hash | Kuiper | ThreatFox | 2026-07-24 01:06:41 UTC |
+| 67 (media) | alta | `afc61229018541efa19cd9affa1aeb72` | md5_hash | ValleyRAT | ThreatFox | 2026-07-24 01:06:38 UTC |
+| 67 (media) | alta | `98f5e6cc01bd74709e63639e75a6e4d68b6c5fb9654ae97490155792888bebdd` | sha256_hash | ValleyRAT | ThreatFox | 2026-07-24 01:06:37 UTC |
+| 67 (media) | alta | `b6cbc4017ed864b21917e3604c6e5f57d2e9ed0a` | sha1_hash | ValleyRAT | ThreatFox | 2026-07-24 01:06:37 UTC |
+| 66 (media) | media | `56091719eeba4881f3db1f837feaa9d47a5a275bff6218186d97614e252e6d21` | sha256_hash | Kuiper | ThreatFox | 2026-07-24 01:06:40 UTC |
+| 66 (media) | media | `432375fba1147d8880a98b149fe7f8f2e4f78d1a` | sha1_hash | Kuiper | ThreatFox | 2026-07-24 01:06:40 UTC |
+| 66 (media) | media | `9f3955f8be35326246e2551754bd6d5e` | md5_hash | Kuiper | ThreatFox | 2026-07-24 01:06:40 UTC |
 | 66 (media) | media | `77[.]247[.]88[.]88:46996` | ip:port | Unknown malware | ThreatFox | 2026-07-23 05:12:52 UTC |
-| 65 (media) | alta | `face4acb042c323fca0ead3463d0e896` | md5_hash | RN Stealer | ThreatFox | 2026-07-23 01:48:29 UTC |
-| 65 (media) | alta | `4c897108e8e793d6904110928c996815c302d6975c9bc61162149e855a963d50` | sha256_hash | RN Stealer | ThreatFox | 2026-07-23 01:48:28 UTC |
-| 65 (media) | alta | `b3f6efdbac7547ee988417c636a9eea999e8eebb` | sha1_hash | RN Stealer | ThreatFox | 2026-07-23 01:48:28 UTC |
+| 65 (media) | media | `ce629f8ad9428474bab4b95774102a13b096f516` | sha1_hash | Coinminer | ThreatFox | 2026-07-24 01:06:41 UTC |
+| 65 (media) | media | `9f95d8290bd17c8319a2f3b47db6bd75` | md5_hash | Coinminer | ThreatFox | 2026-07-24 01:06:41 UTC |
+| 65 (media) | media | `694a3bab92e60e6760649fd40e97c04ff03faded2073e7a0c2e061229bf7820a` | sha256_hash | Coinminer | ThreatFox | 2026-07-24 01:06:40 UTC |
 | 64 (media) | alta | `91[.]92[.]42[.]213:80` | ip:port | Mirai | ThreatFox | 2026-07-23 05:13:13 UTC |
 | 60 (media) | alta | `137[.]184[.]135[.]42:12345` | ip:port | Aisuru | ThreatFox | 2026-07-23 05:11:40 UTC |
-| 60 (media) | media | `4b1ff336071a687cd35ef14ad285c854` | md5_hash | Coinminer | ThreatFox | 2026-07-23 01:48:24 UTC |
-| 60 (media) | alta | `f9f49c54ef5a103b4efdfba8fe7bc54e` | md5_hash | Vidar | ThreatFox | 2026-07-23 01:48:23 UTC |
-| 60 (media) | media | `ab161caf790e0722f10c95343132e648a3d64185ed575834e5a9853c9dca7618` | sha256_hash | Coinminer | ThreatFox | 2026-07-23 01:48:23 UTC |
-| 60 (media) | media | `9d7477931b00cfcd23ae914fc2bb8f781cfc7616` | sha1_hash | Coinminer | ThreatFox | 2026-07-23 01:48:23 UTC |
+| 59 (media) | critica | `8[.]134[.]70[.]73:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-07-23 18:05:05 UTC |
+| 58 (media) | media | `47[.]108[.]140[.]10:20884` | ip:port | Unknown malware | ThreatFox | 2026-07-23 18:05:06 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
