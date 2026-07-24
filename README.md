@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-24 08:45 UTC · **IOCs recolectados:** 1037 · **CVEs KEV recientes:** 18
+**Última actualización:** 2026-07-24 14:06 UTC · **IOCs recolectados:** 1043 · **CVEs KEV recientes:** 18
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -152,12 +152,12 @@ python main.py
 | 65 (media) | media | `9f95d8290bd17c8319a2f3b47db6bd75` | md5_hash | Coinminer | ThreatFox | 2026-07-24 01:06:41 UTC |
 | 65 (media) | media | `694a3bab92e60e6760649fd40e97c04ff03faded2073e7a0c2e061229bf7820a` | sha256_hash | Coinminer | ThreatFox | 2026-07-24 01:06:40 UTC |
 | 59 (media) | critica | `8[.]134[.]70[.]73:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-07-23 18:05:05 UTC |
+| 58 (media) | media | `221[.]132[.]16[.]23:8000` | ip:port | Unknown malware | ThreatFox | 2026-07-24 13:05:11 UTC |
+| 58 (media) | critica | `8[.]140[.]239[.]162:3000` | ip:port | Cobalt Strike | ThreatFox | 2026-07-24 13:05:05 UTC |
 | 58 (media) | media | `47[.]108[.]140[.]10:20884` | ip:port | Unknown malware | ThreatFox | 2026-07-23 18:05:06 UTC |
 | 57 (media) | critica | `8[.]137[.]170[.]3:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-24 02:05:08 UTC |
 | 57 (media) | critica | `8[.]137[.]170[.]3:8443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-24 02:05:08 UTC |
 | 57 (media) | critica | `8[.]137[.]170[.]3:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-07-24 02:05:07 UTC |
-| 57 (media) | critica | `101[.]42[.]255[.]92:8000` | ip:port | Cobalt Strike | ThreatFox | 2026-07-23 15:05:05 UTC |
-| 56 (media) | media | `47[.]100[.]94[.]78:8084` | ip:port | VShell | ThreatFox | 2026-07-24 07:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
