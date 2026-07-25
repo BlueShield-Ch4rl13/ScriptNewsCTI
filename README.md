@@ -127,12 +127,14 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-25 03:28 UTC · **IOCs recolectados:** 853 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-25 08:24 UTC · **IOCs recolectados:** 830 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 76 (alta) | alta | `27[.]50[.]29[.]181:5787` | ip:port | Quasar RAT | ThreatFox | 2026-07-25 08:05:06 UTC |
+| 71 (alta) | media | `175[.]107[.]12[.]59:56792` | ip:port | Unknown malware | ThreatFox | 2026-07-25 06:15:45 UTC |
 | 71 (alta) | alta | `fb26fdde000d289ac423f5dd74865e43` | md5_hash | Agent Tesla | ThreatFox | 2026-07-25 01:23:52 UTC |
 | 71 (alta) | alta | `9e04e38658dc4c764ec10e04a9d50931` | md5_hash | ValleyRAT | ThreatFox | 2026-07-25 01:23:51 UTC |
 | 71 (alta) | alta | `51816d9ac510766a54a0cc31569c5fd97b46742e0de82f18854ea042bfdfdf7b` | sha256_hash | Agent Tesla | ThreatFox | 2026-07-25 01:23:51 UTC |
@@ -156,8 +158,6 @@ python main.py
 | 61 (media) | alta | `4b2911bf6128350411e6dd6b676a1148` | md5_hash | Formbook | ThreatFox | 2026-07-25 01:23:53 UTC |
 | 61 (media) | alta | `8c2ca1c6a2ecf606ceb778ecc9928508727dc36598426e958da23b72cb6368e0` | sha256_hash | Formbook | ThreatFox | 2026-07-25 01:23:52 UTC |
 | 61 (media) | alta | `6560d48b4bc94813b44a42865d30b44689a0f7e2` | sha1_hash | Formbook | ThreatFox | 2026-07-25 01:23:52 UTC |
-| 60 (media) | media | `d615bb89afdae1f96c6f60522ddd87e9de781a0826a9070f822c1f344bc86cce` | sha256_hash | Kuiper | ThreatFox | 2026-07-25 01:23:54 UTC |
-| 60 (media) | media | `4d989e8a514dc79e4622114d0bb40f9dd90d4f3c` | sha1_hash | Kuiper | ThreatFox | 2026-07-25 01:23:54 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
