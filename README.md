@@ -127,13 +127,16 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-25 13:57 UTC · **IOCs recolectados:** 1033 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-25 19:26 UTC · **IOCs recolectados:** 1146 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 76 (alta) | alta | `27[.]50[.]29[.]181:5787` | ip:port | Quasar RAT | ThreatFox | 2026-07-25 08:05:06 UTC |
+| 73 (alta) | critica | `89[.]124[.]104[.]192:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 19:05:06 UTC |
+| 73 (alta) | critica | `89[.]124[.]104[.]192:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 19:05:05 UTC |
+| 73 (alta) | critica | `89[.]124[.]104[.]192:443` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 18:05:07 UTC |
 | 71 (alta) | media | `45[.]74[.]3[.]37:5001` | ip:port | Unknown malware | ThreatFox | 2026-07-25 12:16:47 UTC |
 | 71 (alta) | media | `175[.]107[.]12[.]59:56792` | ip:port | Unknown malware | ThreatFox | 2026-07-25 11:02:40 UTC |
 | 71 (alta) | alta | `fb26fdde000d289ac423f5dd74865e43` | md5_hash | Agent Tesla | ThreatFox | 2026-07-25 01:23:52 UTC |
@@ -155,9 +158,6 @@ python main.py
 | 62 (media) | media | `844316e11edc801dcad57532a47d45e0` | md5_hash | Kuiper | ThreatFox | 2026-07-25 01:23:59 UTC |
 | 62 (media) | media | `5dec3afbd81e113a798be61868d1a4835c3ecb6c` | sha1_hash | Kuiper | ThreatFox | 2026-07-25 01:23:58 UTC |
 | 62 (media) | media | `8498ec75a9609ce1d1a27138fccf246a` | md5_hash | GCleaner | ThreatFox | 2026-07-25 01:23:57 UTC |
-| 62 (media) | media | `4132a264cf4d25b6b9104fb6332f9a082e354abf96486c34a07cf5e32277dfd3` | sha256_hash | Kuiper | ThreatFox | 2026-07-25 01:23:57 UTC |
-| 62 (media) | media | `0bc36272c7b85c9b61ea7774a9aade9c6da49d4b` | sha1_hash | GCleaner | ThreatFox | 2026-07-25 01:23:56 UTC |
-| 62 (media) | media | `e2ade9d3303ff03e5e73c8d90da926e3c2390aa3698924d2397c692138c9a141` | sha256_hash | GCleaner | ThreatFox | 2026-07-25 01:23:55 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
