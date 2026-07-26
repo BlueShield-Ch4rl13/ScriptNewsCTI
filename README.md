@@ -127,16 +127,14 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-26 13:51 UTC · **IOCs recolectados:** 1183 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-26 19:30 UTC · **IOCs recolectados:** 1624 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 73 (alta) | critica | `89[.]124[.]104[.]192:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 19:05:06 UTC |
-| 73 (alta) | critica | `89[.]124[.]104[.]192:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 19:05:05 UTC |
-| 73 (alta) | critica | `89[.]124[.]104[.]192:443` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 18:05:07 UTC |
 | 72 (alta) | media | `143[.]20[.]185[.]88:8081` | ip:port | Unknown malware | ThreatFox | 2026-07-26 13:10:34 UTC |
+| 71 (alta) | media | `51[.]89[.]11[.]180:6000` | ip:port | Unknown malware | ThreatFox | 2026-07-26 16:44:27 UTC |
 | 71 (alta) | media | `45[.]205[.]1[.]36:8081` | ip:port | Unknown malware | ThreatFox | 2026-07-26 13:10:34 UTC |
 | 71 (alta) | critica | `2[.]27[.]248[.]209:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 19:44:25 UTC |
 | 68 (media) | media | `73021a747bab23a60469f89a42ac4ff2a3d3531cd9d2f3d8816f1d97b46f6551` | sha256_hash | Unknown malware | ThreatFox | 2026-07-26 13:04:59 UTC |
@@ -158,6 +156,8 @@ python main.py
 | 63 (media) | media | `9d8e694d18e3c976b45ada0041ae3f756ef7c795089c05537396dbe89d929262` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:38 UTC |
 | 63 (media) | media | `672f654f31e91cdb9766131ad3034d1284842fc8b56dc8b4e9a32e925b7f8e95` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:37 UTC |
 | 62 (media) | media | `7247db5cefb311a3315946beb72f6f4469fef639d80541322d7b5f96b940d2ad` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:52 UTC |
+| 62 (media) | media | `721d764d2d1985eefb42fee9e1e2f05d4f4f35bbec216b952cdad74b0ac90cd1` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:51 UTC |
+| 62 (media) | media | `06c4ddabac5e976f152f482a47581313fdb95e2cbee564d56279648bbaf5694a` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:39 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
