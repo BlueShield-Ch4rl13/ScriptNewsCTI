@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-25 19:26 UTC · **IOCs recolectados:** 1146 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-26 03:42 UTC · **IOCs recolectados:** 1146 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -137,27 +137,27 @@ python main.py
 | 73 (alta) | critica | `89[.]124[.]104[.]192:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 19:05:06 UTC |
 | 73 (alta) | critica | `89[.]124[.]104[.]192:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 19:05:05 UTC |
 | 73 (alta) | critica | `89[.]124[.]104[.]192:443` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 18:05:07 UTC |
+| 71 (alta) | critica | `2[.]27[.]248[.]209:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 19:44:25 UTC |
 | 71 (alta) | media | `45[.]74[.]3[.]37:5001` | ip:port | Unknown malware | ThreatFox | 2026-07-25 12:16:47 UTC |
 | 71 (alta) | media | `175[.]107[.]12[.]59:56792` | ip:port | Unknown malware | ThreatFox | 2026-07-25 11:02:40 UTC |
-| 71 (alta) | alta | `fb26fdde000d289ac423f5dd74865e43` | md5_hash | Agent Tesla | ThreatFox | 2026-07-25 01:23:52 UTC |
-| 71 (alta) | alta | `9e04e38658dc4c764ec10e04a9d50931` | md5_hash | ValleyRAT | ThreatFox | 2026-07-25 01:23:51 UTC |
-| 71 (alta) | alta | `51816d9ac510766a54a0cc31569c5fd97b46742e0de82f18854ea042bfdfdf7b` | sha256_hash | Agent Tesla | ThreatFox | 2026-07-25 01:23:51 UTC |
-| 71 (alta) | alta | `546a20ebd21328f86293ac94bc59b00a5c6f8426` | sha1_hash | Agent Tesla | ThreatFox | 2026-07-25 01:23:51 UTC |
-| 71 (alta) | alta | `d01940a0ebe8fd39c5358f39f069c1cd` | md5_hash | ValleyRAT | ThreatFox | 2026-07-25 01:23:50 UTC |
-| 71 (alta) | alta | `0d542dca2b2948549a23cc166a3da8d599ea976fbc14506468ae9c2d32e34d70` | sha256_hash | ValleyRAT | ThreatFox | 2026-07-25 01:23:50 UTC |
-| 71 (alta) | alta | `3bc0486e1f918766dc29d19c8775e3bf720f8148` | sha1_hash | ValleyRAT | ThreatFox | 2026-07-25 01:23:50 UTC |
-| 71 (alta) | alta | `8aee9c6f38a36f3858373c256b6b8b63e1420a2d` | sha1_hash | ValleyRAT | ThreatFox | 2026-07-25 01:23:49 UTC |
 | 70 (alta) | alta | `194[.]48[.]251[.]116:8080` | ip:port | Mirai | ThreatFox | 2026-07-25 11:02:36 UTC |
-| 65 (media) | media | `a414b6ef203d4320665d72cf43e98fefbd451123a2c7f10a56728a2cc207ced7` | sha256_hash | Kuiper | ThreatFox | 2026-07-25 01:23:53 UTC |
-| 65 (media) | media | `4075db854bef2e4a9b402515859bbad9477d53ac` | sha1_hash | Kuiper | ThreatFox | 2026-07-25 01:23:53 UTC |
-| 65 (media) | media | `e691d9c99d46ee5ef886a9e276d8def9` | md5_hash | Kuiper | ThreatFox | 2026-07-25 01:23:53 UTC |
-| 64 (media) | media | `8bc62193a60f3d63e0e56d4564d08a12fae7036b` | sha1_hash | Kuiper | ThreatFox | 2026-07-25 01:24:00 UTC |
-| 64 (media) | media | `c5d14331d0910a8d4d724b3c00329ced` | md5_hash | Kuiper | ThreatFox | 2026-07-25 01:24:00 UTC |
-| 64 (media) | media | `81775ecf00ef60ef088c4d79d37ad60154dcc43bc8edce4ec56bb509331feaa8` | sha256_hash | Kuiper | ThreatFox | 2026-07-25 01:23:59 UTC |
+| 65 (media) | alta | `haobbao[.]com` | domain | TonRAT | ThreatFox, OTX | 2026-07-25 08:19:58 UTC |
 | 62 (media) | alta | `194[.]59[.]30[.]31:5173` | ip:port | Overlord RAT | ThreatFox | 2026-07-25 11:02:25 UTC |
-| 62 (media) | media | `844316e11edc801dcad57532a47d45e0` | md5_hash | Kuiper | ThreatFox | 2026-07-25 01:23:59 UTC |
-| 62 (media) | media | `5dec3afbd81e113a798be61868d1a4835c3ecb6c` | sha1_hash | Kuiper | ThreatFox | 2026-07-25 01:23:58 UTC |
-| 62 (media) | media | `8498ec75a9609ce1d1a27138fccf246a` | md5_hash | GCleaner | ThreatFox | 2026-07-25 01:23:57 UTC |
+| 59 (media) | media | `38[.]54[.]119[.]24:8080` | ip:port | VShell | ThreatFox | 2026-07-26 03:05:07 UTC |
+| 59 (media) | media | `67[.]216[.]197[.]83:2053` | ip:port | Unknown malware | ThreatFox | 2026-07-25 17:05:05 UTC |
+| 59 (media) | alta | `137[.]184[.]135[.]42:9035` | ip:port | Aisuru | ThreatFox | 2026-07-25 16:38:32 UTC |
+| 59 (media) | media | `hxxps://silenttunnelzone[.]top/token/token-controller[.]js` | url | SmartApeSG | ThreatFox | 2026-07-25 14:38:59 UTC |
+| 59 (media) | media | `silenttunnelzone[.]top` | domain | SmartApeSG | ThreatFox | 2026-07-25 14:38:57 UTC |
+| 59 (media) | media | `60[.]205[.]115[.]92:44321` | ip:port | Unknown malware | ThreatFox | 2026-07-25 06:05:05 UTC |
+| 59 (media) | media | `60[.]205[.]115[.]92:4330` | ip:port | Unknown malware | ThreatFox | 2026-07-25 05:05:05 UTC |
+| 58 (media) | alta | `157[.]20[.]182[.]22:4444` | ip:port | AsyncRAT | ThreatFox | 2026-07-25 23:05:05 UTC |
+| 58 (media) | media | `xxxmobeilehd[.]com` | domain | IClickFix | ThreatFox | 2026-07-25 18:38:36 UTC |
+| 58 (media) | critica | `206[.]189[.]40[.]107:22` | ip:port | Havoc | ThreatFox | 2026-07-25 08:05:05 UTC |
+| 57 (media) | media | `111[.]170[.]148[.]134:28888` | ip:port | Unknown malware | ThreatFox | 2026-07-26 02:05:04 UTC |
+| 57 (media) | media | `hxxps://eco-megalabs[.]com/` | url | Unknown malware | ThreatFox | 2026-07-26 00:00:49 UTC |
+| 57 (media) | alta | `15[.]197[.]162[.]184:443` | ip:port | Nanocore RAT | ThreatFox | 2026-07-25 22:20:03 UTC |
+| 57 (media) | critica | `114[.]132[.]89[.]132:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-25 18:05:07 UTC |
+| 57 (media) | media | `app-ondofinance[.]com` | domain | Unknown malware | ThreatFox | 2026-07-25 14:49:46 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
