@@ -127,13 +127,12 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-26 03:42 UTC · **IOCs recolectados:** 1146 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-26 08:44 UTC · **IOCs recolectados:** 1257 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 76 (alta) | alta | `27[.]50[.]29[.]181:5787` | ip:port | Quasar RAT | ThreatFox | 2026-07-25 08:05:06 UTC |
 | 73 (alta) | critica | `89[.]124[.]104[.]192:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 19:05:06 UTC |
 | 73 (alta) | critica | `89[.]124[.]104[.]192:80` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 19:05:05 UTC |
 | 73 (alta) | critica | `89[.]124[.]104[.]192:443` | ip:port | AdaptixC2 | ThreatFox | 2026-07-25 18:05:07 UTC |
@@ -141,23 +140,24 @@ python main.py
 | 71 (alta) | media | `45[.]74[.]3[.]37:5001` | ip:port | Unknown malware | ThreatFox | 2026-07-25 12:16:47 UTC |
 | 71 (alta) | media | `175[.]107[.]12[.]59:56792` | ip:port | Unknown malware | ThreatFox | 2026-07-25 11:02:40 UTC |
 | 70 (alta) | alta | `194[.]48[.]251[.]116:8080` | ip:port | Mirai | ThreatFox | 2026-07-25 11:02:36 UTC |
-| 65 (media) | alta | `haobbao[.]com` | domain | TonRAT | ThreatFox, OTX | 2026-07-25 08:19:58 UTC |
-| 62 (media) | alta | `194[.]59[.]30[.]31:5173` | ip:port | Overlord RAT | ThreatFox | 2026-07-25 11:02:25 UTC |
-| 59 (media) | media | `38[.]54[.]119[.]24:8080` | ip:port | VShell | ThreatFox | 2026-07-26 03:05:07 UTC |
-| 59 (media) | media | `67[.]216[.]197[.]83:2053` | ip:port | Unknown malware | ThreatFox | 2026-07-25 17:05:05 UTC |
-| 59 (media) | alta | `137[.]184[.]135[.]42:9035` | ip:port | Aisuru | ThreatFox | 2026-07-25 16:38:32 UTC |
-| 59 (media) | media | `hxxps://silenttunnelzone[.]top/token/token-controller[.]js` | url | SmartApeSG | ThreatFox | 2026-07-25 14:38:59 UTC |
-| 59 (media) | media | `silenttunnelzone[.]top` | domain | SmartApeSG | ThreatFox | 2026-07-25 14:38:57 UTC |
-| 59 (media) | media | `60[.]205[.]115[.]92:44321` | ip:port | Unknown malware | ThreatFox | 2026-07-25 06:05:05 UTC |
-| 59 (media) | media | `60[.]205[.]115[.]92:4330` | ip:port | Unknown malware | ThreatFox | 2026-07-25 05:05:05 UTC |
-| 58 (media) | alta | `157[.]20[.]182[.]22:4444` | ip:port | AsyncRAT | ThreatFox | 2026-07-25 23:05:05 UTC |
-| 58 (media) | media | `xxxmobeilehd[.]com` | domain | IClickFix | ThreatFox | 2026-07-25 18:38:36 UTC |
-| 58 (media) | critica | `206[.]189[.]40[.]107:22` | ip:port | Havoc | ThreatFox | 2026-07-25 08:05:05 UTC |
-| 57 (media) | media | `111[.]170[.]148[.]134:28888` | ip:port | Unknown malware | ThreatFox | 2026-07-26 02:05:04 UTC |
-| 57 (media) | media | `hxxps://eco-megalabs[.]com/` | url | Unknown malware | ThreatFox | 2026-07-26 00:00:49 UTC |
-| 57 (media) | alta | `15[.]197[.]162[.]184:443` | ip:port | Nanocore RAT | ThreatFox | 2026-07-25 22:20:03 UTC |
-| 57 (media) | critica | `114[.]132[.]89[.]132:22` | ip:port | Cobalt Strike | ThreatFox | 2026-07-25 18:05:07 UTC |
-| 57 (media) | media | `app-ondofinance[.]com` | domain | Unknown malware | ThreatFox | 2026-07-25 14:49:46 UTC |
+| 68 (media) | media | `6491a2ccac96e64a37a5d18e62575b44ba7704159fbe21d06f83b712ba747c9d` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 68 (media) | media | `a53dd987ba4c34030e10da19431fa7f81208c7ce010ec474bc62ee82dde6fa61` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 67 (media) | media | `e0c6b4998e0c8c5e1a18f5af13c236809df2c7b281e8dba1038592c3e6e752f3` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 67 (media) | media | `ee56b8f51fd5722918ff2082c0027cc6183429554bcf177ea20b17af7d46a2a4` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 66 (media) | media | `07b8ca62d5b394842a09e05d06fa833d51504b69b1085eec49732e65594e5392` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 66 (media) | media | `4b05cd307e64425075f3f651d3d07c381e87a8846976ca241733a6e1d7f892db` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 66 (media) | media | `f105326c65e40d64430bc80c367485295b73d5255164f4b022868dc97b71955a` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 65 (media) | media | `9697a161278f262022eb0cd80ac97e2b83349f79990fd6547d452d40cd422969` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 65 (media) | media | `333774e3405c4e6ef3a663bb7fe5e9074f03a6c8bb080e0ff3bcc33eec848b30` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 65 (media) | media | `8abae386ec6aaa1d1bf03e39f339922053e4b66d7ebbbeba15701d3ecc183fb8` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:45 UTC |
+| 64 (media) | media | `01d5fba3c3906d1fb26a6697644610f0f9f02140720de49edf907091669dbb8b` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:47 UTC |
+| 64 (media) | media | `d7c75c5258ea8467690ec1f710415e7f8234491d4873566515f15fb7e5e729a2` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:45 UTC |
+| 63 (media) | media | `9d8e694d18e3c976b45ada0041ae3f756ef7c795089c05537396dbe89d929262` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:47 UTC |
+| 63 (media) | media | `672f654f31e91cdb9766131ad3034d1284842fc8b56dc8b4e9a32e925b7f8e95` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:47 UTC |
+| 62 (media) | media | `51c7abd74c3de141108d7f229d2c54df93a1b4f28fb6e95987aa7676e3c88480` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:47 UTC |
+| 62 (media) | media | `7247db5cefb311a3315946beb72f6f4469fef639d80541322d7b5f96b940d2ad` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 62 (media) | media | `721d764d2d1985eefb42fee9e1e2f05d4f4f35bbec216b952cdad74b0ac90cd1` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
+| 62 (media) | media | `06c4ddabac5e976f152f482a47581313fdb95e2cbee564d56279648bbaf5694a` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 07:29:46 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
