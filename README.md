@@ -127,16 +127,15 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-27 14:59 UTC · **IOCs recolectados:** 2366 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-27 19:53 UTC · **IOCs recolectados:** 2060 · **CVEs KEV recientes:** 18
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 71 (alta) | alta | `93[.]152[.]221[.]140:1010` | ip:port | AsyncRAT | ThreatFox | 2026-07-26 19:45:49 UTC |
-| 71 (alta) | media | `51[.]89[.]11[.]180:6000` | ip:port | Unknown malware | ThreatFox | 2026-07-26 16:44:27 UTC |
-| 67 (media) | media | `45[.]205[.]1[.]36:44510` | ip:port | Unknown malware | ThreatFox | 2026-07-26 16:01:31 UTC |
 | 64 (media) | critica | `141[.]255[.]162[.]234:37422` | ip:port | Cobalt Strike | ThreatFox | 2026-07-26 23:45:57 UTC |
+| 62 (media) | media | `hxxp://42[.]234[.]144[.]27:35871/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-07-27 19:00:33 UTC |
 | 60 (media) | media | `43[.]247[.]135[.]185:443` | ip:port | Unknown malware | ThreatFox | 2026-07-27 14:05:12 UTC |
 | 60 (media) | media | `43[.]247[.]135[.]185:8080` | ip:port | Unknown malware | ThreatFox | 2026-07-27 14:05:11 UTC |
 | 60 (media) | media | `160[.]250[.]128[.]197:24236` | ip:port | Unknown malware | ThreatFox | 2026-07-27 06:05:06 UTC |
@@ -144,8 +143,8 @@ python main.py
 | 60 (media) | media | `160[.]250[.]128[.]197:888` | ip:port | Unknown malware | ThreatFox | 2026-07-27 04:05:09 UTC |
 | 60 (media) | media | `160[.]250[.]128[.]197:22` | ip:port | Unknown malware | ThreatFox | 2026-07-27 04:05:08 UTC |
 | 60 (media) | media | `103[.]43[.]18[.]10:22` | ip:port | Unknown malware | ThreatFox | 2026-07-27 03:05:05 UTC |
-| 60 (media) | media | `143[.]110[.]142[.]104:22` | ip:port | Unknown malware | ThreatFox | 2026-07-26 18:05:06 UTC |
-| 60 (media) | media | `143[.]110[.]142[.]104:3232` | ip:port | Unknown malware | ThreatFox | 2026-07-26 18:05:06 UTC |
+| 59 (media) | alta | `34[.]106[.]101[.]107:8808` | ip:port | AsyncRAT | ThreatFox | 2026-07-27 18:05:08 UTC |
+| 59 (media) | critica | `117[.]72[.]39[.]83:51647` | ip:port | Cobalt Strike | ThreatFox | 2026-07-27 18:05:07 UTC |
 | 59 (media) | media | `38[.]47[.]238[.]110:3232` | ip:port | Unknown malware | ThreatFox | 2026-07-27 14:05:10 UTC |
 | 59 (media) | media | `38[.]47[.]238[.]110:80` | ip:port | Unknown malware | ThreatFox | 2026-07-27 14:05:07 UTC |
 | 59 (media) | media | `38[.]47[.]238[.]110:22` | ip:port | Unknown malware | ThreatFox | 2026-07-27 13:05:08 UTC |
@@ -158,11 +157,14 @@ python main.py
 | 59 (media) | media | `124[.]223[.]53[.]112:8080` | ip:port | Unknown malware | ThreatFox | 2026-07-27 03:05:04 UTC |
 | 59 (media) | media | `115[.]191[.]18[.]57:5003` | ip:port | Unknown malware | ThreatFox | 2026-07-27 02:05:05 UTC |
 | 59 (media) | media | `115[.]191[.]18[.]57:22` | ip:port | Unknown malware | ThreatFox | 2026-07-27 01:05:07 UTC |
+| 59 (media) | media | `115[.]191[.]18[.]57:3232` | ip:port | Unknown malware | ThreatFox | 2026-07-27 01:05:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2025-68686 | Fortinet FortiOS | 2026-07-27 | Unknown |
+| CVE-2026-16812 | Arista VeloCloud Orchestrator | 2026-07-27 | Unknown |
 | CVE-2026-16232 | Check Point SmartConsole | 2026-07-22 | Unknown |
 | CVE-2026-50522 | Microsoft SharePoint | 2026-07-22 | Unknown |
 | CVE-2026-60137 | WordPress Core | 2026-07-21 | Unknown |
