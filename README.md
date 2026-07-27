@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-27 03:50 UTC · **IOCs recolectados:** 2077 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-07-27 10:12 UTC · **IOCs recolectados:** 2398 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -146,6 +146,7 @@ python main.py
 | 66 (media) | media | `07b8ca62d5b394842a09e05d06fa833d51504b69b1085eec49732e65594e5392` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:51 UTC |
 | 66 (media) | media | `4b05cd307e64425075f3f651d3d07c381e87a8846976ca241733a6e1d7f892db` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:40 UTC |
 | 66 (media) | media | `f105326c65e40d64430bc80c367485295b73d5255164f4b022868dc97b71955a` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:40 UTC |
+| 65 (media) | alta | `hxxp://47[.]239[.]127[.]71/lib/xxx` | url | Mirai | ThreatFox, URLhaus | 2026-07-27 05:59:25 UTC |
 | 65 (media) | media | `8abae386ec6aaa1d1bf03e39f339922053e4b66d7ebbbeba15701d3ecc183fb8` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:59 UTC |
 | 65 (media) | media | `9697a161278f262022eb0cd80ac97e2b83349f79990fd6547d452d40cd422969` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:50 UTC |
 | 65 (media) | media | `333774e3405c4e6ef3a663bb7fe5e9074f03a6c8bb080e0ff3bcc33eec848b30` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:49 UTC |
@@ -157,7 +158,6 @@ python main.py
 | 63 (media) | media | `9d8e694d18e3c976b45ada0041ae3f756ef7c795089c05537396dbe89d929262` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:38 UTC |
 | 63 (media) | media | `672f654f31e91cdb9766131ad3034d1284842fc8b56dc8b4e9a32e925b7f8e95` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:37 UTC |
 | 62 (media) | media | `7247db5cefb311a3315946beb72f6f4469fef639d80541322d7b5f96b940d2ad` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:52 UTC |
-| 62 (media) | media | `721d764d2d1985eefb42fee9e1e2f05d4f4f35bbec216b952cdad74b0ac90cd1` | sha256_hash | Jackskid | ThreatFox | 2026-07-26 10:59:51 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
