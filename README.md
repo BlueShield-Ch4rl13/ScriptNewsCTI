@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-28 19:51 UTC · **IOCs recolectados:** 1368 · **CVEs KEV recientes:** 17
+**Última actualización:** 2026-07-29 03:25 UTC · **IOCs recolectados:** 1094 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -141,23 +141,23 @@ python main.py
 | 65 (media) | critica | `168[.]144[.]45[.]2:443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-28 10:05:05 UTC |
 | 65 (media) | critica | `168[.]144[.]45[.]2:80` | ip:port | Cobalt Strike | ThreatFox | 2026-07-28 10:05:04 UTC |
 | 62 (media) | alta | `207[.]154[.]240[.]223:8001` | ip:port | Aisuru | ThreatFox | 2026-07-28 08:37:29 UTC |
-| 61 (media) | media | `hxxp://157[.]245[.]34[.]109:8080/update[.]cmd` | url | IClickFix | ThreatFox, URLhaus | 2026-07-28 16:58:57 UTC |
+| 61 (media) | alta | `217[.]165[.]57[.]225:8808` | ip:port | AsyncRAT | ThreatFox | 2026-07-29 03:05:09 UTC |
 | 61 (media) | critica | `103[.]146[.]231[.]107:24444` | ip:port | Cobalt Strike | ThreatFox | 2026-07-28 13:05:05 UTC |
 | 61 (media) | critica | `103[.]146[.]231[.]107:23333` | ip:port | Cobalt Strike | ThreatFox | 2026-07-28 12:05:08 UTC |
 | 61 (media) | critica | `103[.]146[.]231[.]107:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-07-28 12:05:08 UTC |
 | 61 (media) | critica | `103[.]146[.]231[.]107:6099` | ip:port | Cobalt Strike | ThreatFox | 2026-07-28 12:05:07 UTC |
 | 61 (media) | critica | `103[.]146[.]231[.]107:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-07-28 12:05:05 UTC |
+| 60 (media) | media | `goodpix21341[.]digital` | domain | IClickFix | ThreatFox | 2026-07-29 01:29:18 UTC |
+| 60 (media) | media | `pixellanalit213[.]buzz` | domain | IClickFix | ThreatFox | 2026-07-29 01:29:18 UTC |
 | 60 (media) | media | `googlanalitlcs[.]icu` | domain | IClickFix | ThreatFox | 2026-07-28 18:08:48 UTC |
 | 60 (media) | media | `113[.]45[.]238[.]149:888` | ip:port | Unknown malware | ThreatFox | 2026-07-28 14:05:07 UTC |
 | 60 (media) | media | `113[.]45[.]238[.]149:22` | ip:port | Unknown malware | ThreatFox | 2026-07-28 07:05:09 UTC |
+| 59 (media) | media | `usual-pixx12[.]digital` | domain | IClickFix | ThreatFox | 2026-07-29 01:29:18 UTC |
+| 59 (media) | media | `sodapixerr[.]world` | domain | IClickFix | ThreatFox | 2026-07-29 01:29:18 UTC |
+| 59 (media) | media | `pixelart341[.]buzz` | domain | IClickFix | ThreatFox | 2026-07-29 01:29:18 UTC |
+| 59 (media) | media | `visitorflow[.]icu` | domain | IClickFix | ThreatFox | 2026-07-29 01:29:18 UTC |
 | 59 (media) | media | `8[.]138[.]180[.]67:3232` | ip:port | Unknown malware | ThreatFox | 2026-07-28 13:05:06 UTC |
 | 59 (media) | media | `verlfusercapa[.]com` | domain | Unknown malware | ThreatFox | 2026-07-28 07:21:58 UTC |
-| 59 (media) | media | `115[.]191[.]18[.]57:7000` | ip:port | Unknown malware | ThreatFox | 2026-07-28 01:05:06 UTC |
-| 59 (media) | media | `166[.]108[.]206[.]56:5000` | ip:port | Unknown malware | ThreatFox | 2026-07-28 01:05:05 UTC |
-| 59 (media) | media | `103[.]233[.]8[.]39:3232` | ip:port | Unknown malware | ThreatFox | 2026-07-28 00:05:05 UTC |
-| 59 (media) | media | `103[.]233[.]8[.]46:7880` | ip:port | Unknown malware | ThreatFox | 2026-07-27 23:05:06 UTC |
-| 58 (media) | alta | `157[.]20[.]182[.]21:9992` | ip:port | AsyncRAT | ThreatFox | 2026-07-28 18:15:11 UTC |
-| 58 (media) | media | `117[.]72[.]72[.]254:2297` | ip:port | Unknown malware | ThreatFox | 2026-07-28 14:05:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -176,8 +176,4 @@ python main.py
 | CVE-2026-39808 | Fortinet FortiSandbox | 2026-07-16 | Unknown |
 | CVE-2026-46817 | Oracle E-Business Suite | 2026-07-15 | Unknown |
 | CVE-2023-4346 | KNX Association KNX Protocol Connection Authorization Option 1 | 2026-07-15 | Unknown |
-| CVE-2026-56155 | Microsoft Active Directory Federation Services | 2026-07-14 | Unknown |
-| CVE-2026-56164 | Microsoft SharePoint Server | 2026-07-14 | Unknown |
-| CVE-2026-15409 | SonicWall SMA1000 Appliances | 2026-07-14 | Unknown |
-| CVE-2026-15410 | SonicWall SMA1000 Appliances | 2026-07-14 | Unknown |
 <!-- CTI:END -->
