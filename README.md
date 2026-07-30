@@ -127,13 +127,15 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-30 14:30 UTC · **IOCs recolectados:** 1760 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-07-30 19:52 UTC · **IOCs recolectados:** 1696 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 77 (alta) | alta | `83[.]168[.]69[.]141:9481` | ip:port | Mirai | ThreatFox | 2026-07-30 19:23:18 UTC |
 | 75 (alta) | alta | `45[.]90[.]163[.]37:35342` | ip:port | Mirai | ThreatFox | 2026-07-29 19:44:37 UTC |
+| 71 (alta) | critica | `103[.]75[.]183[.]232:31337` | ip:port | Sliver | ThreatFox | 2026-07-30 09:03:57 UTC |
 | 71 (alta) | alta | `91[.]199[.]133[.]133:8080` | ip:port | Mirai | ThreatFox | 2026-07-29 19:46:24 UTC |
 | 69 (media) | critica | `144[.]172[.]93[.]33:80` | ip:port | Havoc | ThreatFox | 2026-07-30 09:43:35 UTC |
 | 69 (media) | alta | `90b30f19d6dc61e4c84539324b839f4fec0b4814` | sha1_hash | SalatStealer | ThreatFox | 2026-07-29 23:26:38 UTC |
@@ -147,17 +149,15 @@ python main.py
 | 65 (media) | media | `4a2bb63c5007379ea2dffb8669743af4cc773844` | sha1_hash | Kuiper | ThreatFox | 2026-07-29 23:26:35 UTC |
 | 63 (media) | media | `0664d2922ea22920f609f17e3f5b512623d940b5` | sha1_hash | Kuiper | ThreatFox | 2026-07-30 11:25:15 UTC |
 | 63 (media) | media | `af38775c7c7dc7046f77a7748b89933d` | md5_hash | Kuiper | ThreatFox | 2026-07-30 11:25:15 UTC |
-| 63 (media) | media | `134[.]122[.]154[.]180:80` | ip:port | VShell | ThreatFox | 2026-07-29 15:05:06 UTC |
-| 63 (media) | media | `134[.]122[.]154[.]180:8080` | ip:port | VShell | ThreatFox | 2026-07-29 15:05:05 UTC |
 | 62 (media) | media | `159[.]223[.]4[.]28:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-30 10:47:13 UTC |
 | 62 (media) | media | `134[.]122[.]48[.]153:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-30 10:47:12 UTC |
 | 61 (media) | media | `27550b8c15c5a7cf5568dd1d2e1243b510eb983a7eb8ff5ddc9974415e5a0093` | sha256_hash | Kuiper | ThreatFox | 2026-07-30 11:25:14 UTC |
 | 61 (media) | media | `174[.]138[.]11[.]120:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-30 10:47:13 UTC |
+| 60 (media) | media | `hxxp://45[.]95[.]147[.]178/hima_data/index[.]php` | url | Unknown malware | ThreatFox | 2026-07-30 19:33:51 UTC |
 | 60 (media) | media | `hxxps://laurelcloister[.]top/role/logout-header[.]js` | url | SmartApeSG | ThreatFox | 2026-07-30 12:28:04 UTC |
-| 59 (media) | media | `117[.]72[.]72[.]254:995` | ip:port | Unknown malware | ThreatFox | 2026-07-30 14:05:07 UTC |
-| 59 (media) | alta | `157[.]20[.]182[.]21:4443` | ip:port | AsyncRAT | ThreatFox | 2026-07-30 09:05:04 UTC |
-| 59 (media) | alta | `da[.]dojiner[.]at` | domain | Unknown Stealer | ThreatFox | 2026-07-30 07:34:59 UTC |
-| 59 (media) | alta | `ph[.]dojiner[.]at` | domain | Unknown Stealer | ThreatFox | 2026-07-30 07:34:58 UTC |
+| 59 (media) | alta | `voucher-01-static[.]com` | domain | PureLogs Stealer | ThreatFox | 2026-07-30 19:16:19 UTC |
+| 59 (media) | alta | `adobeartsia[.]com` | domain | PureLogs Stealer | ThreatFox | 2026-07-30 19:16:16 UTC |
+| 59 (media) | media | `download[.]stopbanningmydomains[.]ru` | domain | XMRIG | ThreatFox | 2026-07-30 17:13:39 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
