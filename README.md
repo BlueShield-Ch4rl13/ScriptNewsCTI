@@ -127,12 +127,13 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-31 03:41 UTC · **IOCs recolectados:** 1517 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-07-31 09:07 UTC · **IOCs recolectados:** 1767 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 80 (alta) | alta | `217[.]60[.]195[.]127:7249` | ip:port | Mirai | ThreatFox | 2026-07-31 08:22:59 UTC |
 | 77 (alta) | alta | `83[.]168[.]69[.]141:9481` | ip:port | Mirai | ThreatFox | 2026-07-30 19:23:18 UTC |
 | 71 (alta) | critica | `103[.]75[.]183[.]232:31337` | ip:port | Sliver | ThreatFox | 2026-07-30 09:03:57 UTC |
 | 69 (media) | critica | `144[.]172[.]93[.]33:80` | ip:port | Havoc | ThreatFox | 2026-07-30 09:43:35 UTC |
@@ -150,14 +151,13 @@ python main.py
 | 59 (media) | media | `download[.]stopbanningmydomains[.]ru` | domain | XMRIG | ThreatFox | 2026-07-30 17:13:39 UTC |
 | 59 (media) | media | `117[.]72[.]72[.]254:995` | ip:port | Unknown malware | ThreatFox | 2026-07-30 14:05:07 UTC |
 | 59 (media) | alta | `157[.]20[.]182[.]21:4443` | ip:port | AsyncRAT | ThreatFox | 2026-07-30 09:05:04 UTC |
-| 59 (media) | alta | `da[.]dojiner[.]at` | domain | Unknown Stealer | ThreatFox | 2026-07-30 07:34:59 UTC |
-| 59 (media) | alta | `ph[.]dojiner[.]at` | domain | Unknown Stealer | ThreatFox | 2026-07-30 07:34:58 UTC |
 | 58 (media) | critica | `81[.]70[.]21[.]248:65443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-31 00:05:07 UTC |
 | 58 (media) | media | `199[.]30[.]90[.]240:5003` | ip:port | Unknown malware | ThreatFox | 2026-07-31 00:05:05 UTC |
 | 58 (media) | alta | `relay-01-static[.]com` | domain | PureLogs Stealer | ThreatFox | 2026-07-30 19:16:19 UTC |
 | 58 (media) | alta | `relay-02-static[.]com` | domain | PureLogs Stealer | ThreatFox | 2026-07-30 19:16:17 UTC |
 | 58 (media) | media | `107[.]175[.]114[.]96:80` | ip:port | XMRIG | ThreatFox | 2026-07-30 17:20:40 UTC |
 | 58 (media) | media | `199[.]30[.]90[.]240:60000` | ip:port | Unknown malware | ThreatFox | 2026-07-30 12:05:05 UTC |
+| 58 (media) | media | `188[.]166[.]64[.]30:25001` | ip:port | Kimwolf | ThreatFox | 2026-07-30 10:47:11 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
