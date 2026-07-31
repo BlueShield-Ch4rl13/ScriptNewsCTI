@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-07-31 14:32 UTC · **IOCs recolectados:** 1680 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-07-31 19:52 UTC · **IOCs recolectados:** 1681 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 80 (alta) | alta | `217[.]60[.]195[.]127:7249` | ip:port | Mirai | ThreatFox | 2026-07-31 08:22:59 UTC |
-| 77 (alta) | alta | `83[.]168[.]69[.]141:9481` | ip:port | Mirai | ThreatFox | 2026-07-30 19:23:18 UTC |
+| 79 (alta) | media | `5[.]61[.]209[.]44:443` | ip:port | Jackskid | ThreatFox | 2026-07-31 17:35:17 UTC |
 | 63 (media) | media | `e3144c24d2eefa8b88c9723c91217f57fb29114a9dbc1ff5f2b0fb4a0183a520` | sha256_hash | NetWire RC | ThreatFox | 2026-07-31 12:12:17 UTC |
 | 62 (media) | media | `db967abae63200065e22c95bbc1fe380` | md5_hash | NetWire RC | ThreatFox | 2026-07-31 12:12:19 UTC |
 | 62 (media) | media | `439a03653b8f93d80b15335d49f0937d0f395b803bbf60d6ed31b968816dad39` | sha256_hash | NetWire RC | ThreatFox | 2026-07-31 12:12:18 UTC |
 | 62 (media) | media | `7df1fe0e985b0e7ccf3dd4dfa459a3ed20751143` | sha1_hash | NetWire RC | ThreatFox | 2026-07-31 12:12:18 UTC |
 | 61 (media) | alta | `195[.]177[.]94[.]169:8080` | ip:port | AsyncRAT | ThreatFox | 2026-07-31 09:44:40 UTC |
-| 60 (media) | media | `hxxp://45[.]95[.]147[.]178/hima_data/index[.]php` | url | Unknown malware | ThreatFox | 2026-07-30 19:33:51 UTC |
+| 60 (media) | alta | `abcsgftr[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
+| 60 (media) | alta | `alkociferblat[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
+| 60 (media) | alta | `infociganka[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
+| 59 (media) | alta | `blakcinwhitexn[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
+| 59 (media) | alta | `gugonaftikzin[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
+| 59 (media) | alta | `hihankidaha[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
+| 59 (media) | alta | `hilacbatoriaaa[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
+| 59 (media) | alta | `huishuvish[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
+| 59 (media) | alta | `pluhabovra[.]info` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
 | 59 (media) | media | `117[.]72[.]72[.]254:21119` | ip:port | Unknown malware | ThreatFox | 2026-07-31 01:05:07 UTC |
-| 59 (media) | alta | `voucher-01-static[.]com` | domain | PureLogs Stealer | ThreatFox | 2026-07-30 19:16:19 UTC |
-| 59 (media) | alta | `adobeartsia[.]com` | domain | PureLogs Stealer | ThreatFox | 2026-07-30 19:16:16 UTC |
-| 59 (media) | media | `download[.]stopbanningmydomains[.]ru` | domain | XMRIG | ThreatFox | 2026-07-30 17:13:39 UTC |
+| 58 (media) | alta | `tue-partner-03[.]cfd` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
 | 58 (media) | critica | `81[.]70[.]21[.]248:65443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-31 00:05:07 UTC |
 | 58 (media) | media | `199[.]30[.]90[.]240:5003` | ip:port | Unknown malware | ThreatFox | 2026-07-31 00:05:05 UTC |
-| 58 (media) | alta | `relay-01-static[.]com` | domain | PureLogs Stealer | ThreatFox | 2026-07-30 19:16:19 UTC |
-| 58 (media) | alta | `relay-02-static[.]com` | domain | PureLogs Stealer | ThreatFox | 2026-07-30 19:16:17 UTC |
-| 58 (media) | media | `107[.]175[.]114[.]96:80` | ip:port | XMRIG | ThreatFox | 2026-07-30 17:20:40 UTC |
+| 57 (media) | alta | `gotynotbag[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:28:17 UTC |
 | 57 (media) | critica | `123[.]57[.]243[.]182:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-07-31 03:05:05 UTC |
 | 57 (media) | critica | `123[.]57[.]243[.]182:443` | ip:port | Cobalt Strike | ThreatFox | 2026-07-31 03:05:04 UTC |
 | 57 (media) | media | `64[.]7[.]199[.]177:10443` | ip:port | VShell | ThreatFox | 2026-07-31 00:05:06 UTC |
 | 57 (media) | alta | `libertytoken[.]com` | domain | ClearFake | ThreatFox | 2026-07-30 23:58:09 UTC |
-| 57 (media) | alta | `osl2rfoi[.]shopprincesshair[.]com` | domain | ClearFake | ThreatFox | 2026-07-30 23:41:13 UTC |
-| 57 (media) | alta | `boltiviersoul[.]com` | domain | PureLogs Stealer | ThreatFox | 2026-07-30 19:16:16 UTC |
-| 57 (media) | media | `156[.]229[.]165[.]166:80` | ip:port | XMRIG | ThreatFox | 2026-07-30 17:20:40 UTC |
-| 56 (media) | alta | `akhkdv[.]ecopro-edu[.]com` | domain | ClearFake | ThreatFox | 2026-07-31 14:05:25 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
