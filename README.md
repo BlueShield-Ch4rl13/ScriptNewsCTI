@@ -127,19 +127,21 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-01 13:50 UTC · **IOCs recolectados:** 696 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-01 19:27 UTC · **IOCs recolectados:** 929 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 79 (alta) | media | `45[.]148[.]146[.]52:2535` | ip:port | Remus | ThreatFox | 2026-08-01 06:27:53 UTC |
-| 79 (alta) | media | `5[.]61[.]209[.]44:443` | ip:port | Jackskid | ThreatFox | 2026-07-31 17:35:17 UTC |
+| 77 (alta) | media | `94[.]154[.]43[.]249:7777` | ip:port | XMRIG | ThreatFox | 2026-08-01 17:13:26 UTC |
+| 75 (alta) | alta | `95[.]155[.]151[.]113:9506` | ip:port | Mirai | ThreatFox | 2026-08-01 16:44:43 UTC |
 | 63 (media) | media | `192[.]210[.]197[.]13:8080` | ip:port | VShell | ThreatFox | 2026-08-01 06:05:07 UTC |
 | 60 (media) | media | `23[.]254[.]208[.]236:8084` | ip:port | VShell | ThreatFox | 2026-08-01 03:05:06 UTC |
 | 60 (media) | alta | `abcsgftr[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:49:42 UTC |
 | 60 (media) | alta | `alkociferblat[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:49:41 UTC |
 | 60 (media) | alta | `infociganka[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:49:37 UTC |
+| 59 (media) | critica | `43[.]166[.]246[.]26:8000` | ip:port | Cobalt Strike | ThreatFox | 2026-08-01 17:05:05 UTC |
 | 59 (media) | critica | `43[.]166[.]246[.]26:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-01 11:05:05 UTC |
 | 59 (media) | critica | `43[.]166[.]246[.]26:587` | ip:port | Cobalt Strike | ThreatFox | 2026-08-01 11:05:05 UTC |
 | 59 (media) | critica | `43[.]166[.]246[.]26:7010` | ip:port | Cobalt Strike | ThreatFox | 2026-08-01 10:05:04 UTC |
@@ -154,10 +156,8 @@ python main.py
 | 59 (media) | alta | `huishuvish[.]cc` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:49:39 UTC |
 | 59 (media) | alta | `pluhabovra[.]info` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:49:37 UTC |
 | 58 (media) | alta | `tue-partner-03[.]cfd` | domain | Unknown Loader | ThreatFox | 2026-07-31 19:49:37 UTC |
-| 57 (media) | alta | `137[.]184[.]156[.]157:9035` | ip:port | Aisuru | ThreatFox | 2026-08-01 13:38:43 UTC |
+| 57 (media) | alta | `137[.]184[.]156[.]157:9035` | ip:port | Aisuru | ThreatFox | 2026-08-01 15:15:33 UTC |
 | 57 (media) | critica | `42[.]193[.]22[.]177:8888` | ip:port | Cobalt Strike | ThreatFox | 2026-08-01 13:05:06 UTC |
-| 57 (media) | critica | `111[.]170[.]148[.]141:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-01 13:05:05 UTC |
-| 57 (media) | critica | `111[.]170[.]148[.]141:5432` | ip:port | Cobalt Strike | ThreatFox | 2026-08-01 13:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
