@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-02 13:50 UTC · **IOCs recolectados:** 915 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-02 19:28 UTC · **IOCs recolectados:** 867 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -139,25 +139,25 @@ python main.py
 | 61 (media) | alta | `207[.]154[.]240[.]223:8443` | ip:port | Aisuru | ThreatFox | 2026-08-02 06:54:54 UTC |
 | 61 (media) | alta | `195[.]177[.]94[.]61:56003` | ip:port | PureRAT | ThreatFox | 2026-08-01 19:44:38 UTC |
 | 60 (media) | alta | `wqok85qtq[.]net` | domain | Mirai | ThreatFox | 2026-08-02 06:54:47 UTC |
+| 59 (media) | critica | `60[.]247[.]206[.]23:808` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 19:05:07 UTC |
 | 59 (media) | critica | `43[.]166[.]246[.]26:993` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:06 UTC |
 | 59 (media) | media | `101[.]37[.]210[.]236:8081` | ip:port | Unknown malware | ThreatFox | 2026-08-02 06:05:05 UTC |
 | 59 (media) | media | `1[.]117[.]77[.]166:111` | ip:port | Unknown malware | ThreatFox | 2026-08-02 05:05:06 UTC |
 | 59 (media) | media | `1[.]117[.]77[.]166:8082` | ip:port | Unknown malware | ThreatFox | 2026-08-02 05:05:06 UTC |
-| 59 (media) | critica | `43[.]166[.]246[.]26:8000` | ip:port | Cobalt Strike | ThreatFox | 2026-08-01 17:05:05 UTC |
+| 58 (media) | media | `85[.]137[.]240[.]26:17000` | ip:port | Unknown malware | ThreatFox | 2026-08-02 19:05:09 UTC |
+| 58 (media) | critica | `156[.]224[.]18[.]21:25` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 19:05:06 UTC |
+| 58 (media) | critica | `156[.]224[.]18[.]21:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 18:05:08 UTC |
 | 58 (media) | critica | `156[.]224[.]18[.]21:110` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 08:05:08 UTC |
 | 58 (media) | critica | `124[.]222[.]145[.]172:3306` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 08:05:07 UTC |
 | 58 (media) | alta | `185[.]157[.]46[.]242:8808` | ip:port | AsyncRAT | ThreatFox | 2026-08-02 07:05:05 UTC |
 | 58 (media) | critica | `43[.]166[.]246[.]26:110` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 07:05:04 UTC |
 | 58 (media) | critica | `156[.]224[.]18[.]21:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 02:05:05 UTC |
+| 57 (media) | media | `106[.]52[.]255[.]211:19876` | ip:port | Unknown malware | ThreatFox | 2026-08-02 17:05:05 UTC |
 | 57 (media) | critica | `101[.]42[.]176[.]50:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:09 UTC |
 | 57 (media) | critica | `101[.]42[.]176[.]50:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:09 UTC |
 | 57 (media) | critica | `101[.]42[.]176[.]50:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:08 UTC |
 | 57 (media) | media | `43[.]161[.]234[.]96:23` | ip:port | Unknown malware | ThreatFox | 2026-08-02 08:05:05 UTC |
 | 57 (media) | critica | `111[.]170[.]148[.]141:81` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 08:05:05 UTC |
-| 57 (media) | alta | `2b9ljdva[.]tashabeautystore[.]com` | domain | ClearFake | ThreatFox | 2026-08-02 06:33:47 UTC |
-| 57 (media) | media | `43[.]161[.]234[.]96:3232` | ip:port | Unknown malware | ThreatFox | 2026-08-02 06:05:07 UTC |
-| 57 (media) | media | `70[.]39[.]205[.]231:3000` | ip:port | Unknown malware | ThreatFox | 2026-08-02 05:05:05 UTC |
-| 57 (media) | alta | `sg03wupc[.]brexcavatingllc[.]com` | domain | ClearFake | ThreatFox | 2026-08-02 04:22:56 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
