@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-03 10:07 UTC · **IOCs recolectados:** 833 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-03 15:02 UTC · **IOCs recolectados:** 850 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 72 (alta) | alta | `39[.]108[.]72[.]32:9177` | ip:port | Mirai | ThreatFox | 2026-08-03 14:19:09 UTC |
 | 70 (alta) | alta | `192[.]159[.]99[.]55:8989` | ip:port | DCRat | ThreatFox | 2026-08-03 09:44:24 UTC |
+| 64 (media) | alta | `195[.]177[.]94[.]169:443` | ip:port | AsyncRAT | ThreatFox | 2026-08-03 10:05:06 UTC |
 | 64 (media) | alta | `195[.]177[.]94[.]169:80` | ip:port | AsyncRAT | ThreatFox | 2026-08-03 06:05:06 UTC |
 | 62 (media) | alta | `207[.]154[.]240[.]223:9034` | ip:port | Aisuru | ThreatFox | 2026-08-03 05:45:42 UTC |
 | 60 (media) | critica | `23[.]141[.]12[.]111:21` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 02:05:05 UTC |
+| 59 (media) | critica | `156[.]224[.]18[.]21:587` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 14:05:06 UTC |
+| 59 (media) | alta | `89[.]34[.]90[.]99:56001` | ip:port | PureRAT | ThreatFox | 2026-08-03 13:28:20 UTC |
 | 59 (media) | alta | `5[.]75[.]238[.]232:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:16 UTC |
 | 59 (media) | critica | `60[.]247[.]206[.]23:808` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 19:05:07 UTC |
-| 59 (media) | critica | `43[.]166[.]246[.]26:993` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:06 UTC |
+| 58 (media) | alta | `46[.]16[.]34[.]50:8001` | ip:port | Aisuru | ThreatFox | 2026-08-03 14:41:31 UTC |
 | 58 (media) | media | `92[.]119[.]158[.]20:7443` | ip:port | Unknown malware | ThreatFox | 2026-08-03 07:05:06 UTC |
 | 58 (media) | media | `85[.]137[.]240[.]26:17000` | ip:port | Unknown malware | ThreatFox | 2026-08-02 19:05:09 UTC |
 | 58 (media) | critica | `156[.]224[.]18[.]21:25` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 19:05:06 UTC |
 | 58 (media) | critica | `156[.]224[.]18[.]21:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 18:05:08 UTC |
+| 57 (media) | critica | `151[.]244[.]243[.]42:7443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 14:05:06 UTC |
+| 57 (media) | critica | `108[.]165[.]147[.]244:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 14:05:05 UTC |
 | 57 (media) | alta | `65[.]108[.]201[.]76:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:17 UTC |
 | 57 (media) | alta | `165[.]245[.]219[.]184:8443` | ip:port | Aisuru | ThreatFox | 2026-08-03 05:45:45 UTC |
 | 57 (media) | media | `hxxp://31[.]56[.]209[.]153/nz[.]sh` | url | Unknown malware | ThreatFox | 2026-08-03 05:45:42 UTC |
 | 57 (media) | critica | `45[.]195[.]8[.]67:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-08-02 23:05:06 UTC |
 | 57 (media) | critica | `45[.]195[.]8[.]67:80` | ip:port | AdaptixC2 | ThreatFox | 2026-08-02 23:05:05 UTC |
 | 57 (media) | media | `106[.]52[.]255[.]211:19876` | ip:port | Unknown malware | ThreatFox | 2026-08-02 17:05:05 UTC |
-| 57 (media) | critica | `101[.]42[.]176[.]50:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:09 UTC |
-| 57 (media) | critica | `101[.]42[.]176[.]50:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:09 UTC |
-| 57 (media) | critica | `101[.]42[.]176[.]50:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:08 UTC |
-| 56 (media) | alta | `143[.]198[.]206[.]191:9034` | ip:port | Aisuru | ThreatFox | 2026-08-03 09:33:03 UTC |
-| 56 (media) | alta | `2[.]28[.]15[.]55:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:17 UTC |
-| 56 (media) | alta | `37[.]27[.]197[.]184:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:16 UTC |
-| 56 (media) | alta | `2[.]28[.]12[.]152:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:15 UTC |
-| 56 (media) | alta | `37[.]27[.]193[.]182:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:15 UTC |
+| 56 (media) | alta | `103[.]83[.]87[.]87:42900` | ip:port | Remcos | ThreatFox | 2026-08-03 14:05:36 UTC |
+| 56 (media) | critica | `39[.]106[.]183[.]67:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 14:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
