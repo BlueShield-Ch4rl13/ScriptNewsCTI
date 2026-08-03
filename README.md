@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-03 03:42 UTC · **IOCs recolectados:** 765 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-03 10:07 UTC · **IOCs recolectados:** 833 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 77 (alta) | media | `94[.]154[.]43[.]249:7777` | ip:port | XMRIG | ThreatFox | 2026-08-02 06:55:05 UTC |
-| 75 (alta) | alta | `95[.]155[.]151[.]113:9506` | ip:port | Mirai | ThreatFox | 2026-08-02 06:55:18 UTC |
-| 62 (media) | alta | `207[.]154[.]240[.]223:9034` | ip:port | Aisuru | ThreatFox | 2026-08-03 01:27:31 UTC |
-| 62 (media) | alta | `bd216916031c63a5f3174bc27d64babf31294363f1b8274e4ab7d8802c46d91c` | sha256_hash | Mirai | ThreatFox | 2026-08-02 06:54:52 UTC |
-| 61 (media) | alta | `207[.]154[.]240[.]223:8443` | ip:port | Aisuru | ThreatFox | 2026-08-02 06:54:54 UTC |
+| 70 (alta) | alta | `192[.]159[.]99[.]55:8989` | ip:port | DCRat | ThreatFox | 2026-08-03 09:44:24 UTC |
+| 64 (media) | alta | `195[.]177[.]94[.]169:80` | ip:port | AsyncRAT | ThreatFox | 2026-08-03 06:05:06 UTC |
+| 62 (media) | alta | `207[.]154[.]240[.]223:9034` | ip:port | Aisuru | ThreatFox | 2026-08-03 05:45:42 UTC |
 | 60 (media) | critica | `23[.]141[.]12[.]111:21` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 02:05:05 UTC |
-| 60 (media) | alta | `wqok85qtq[.]net` | domain | Mirai | ThreatFox | 2026-08-02 06:54:47 UTC |
+| 59 (media) | alta | `5[.]75[.]238[.]232:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:16 UTC |
 | 59 (media) | critica | `60[.]247[.]206[.]23:808` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 19:05:07 UTC |
 | 59 (media) | critica | `43[.]166[.]246[.]26:993` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:06 UTC |
-| 59 (media) | media | `101[.]37[.]210[.]236:8081` | ip:port | Unknown malware | ThreatFox | 2026-08-02 06:05:05 UTC |
-| 59 (media) | media | `1[.]117[.]77[.]166:111` | ip:port | Unknown malware | ThreatFox | 2026-08-02 05:05:06 UTC |
-| 59 (media) | media | `1[.]117[.]77[.]166:8082` | ip:port | Unknown malware | ThreatFox | 2026-08-02 05:05:06 UTC |
+| 58 (media) | media | `92[.]119[.]158[.]20:7443` | ip:port | Unknown malware | ThreatFox | 2026-08-03 07:05:06 UTC |
 | 58 (media) | media | `85[.]137[.]240[.]26:17000` | ip:port | Unknown malware | ThreatFox | 2026-08-02 19:05:09 UTC |
 | 58 (media) | critica | `156[.]224[.]18[.]21:25` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 19:05:06 UTC |
 | 58 (media) | critica | `156[.]224[.]18[.]21:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 18:05:08 UTC |
-| 58 (media) | critica | `156[.]224[.]18[.]21:110` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 08:05:08 UTC |
-| 58 (media) | critica | `124[.]222[.]145[.]172:3306` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 08:05:07 UTC |
-| 58 (media) | alta | `185[.]157[.]46[.]242:8808` | ip:port | AsyncRAT | ThreatFox | 2026-08-02 07:05:05 UTC |
-| 58 (media) | critica | `43[.]166[.]246[.]26:110` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 07:05:04 UTC |
-| 57 (media) | media | `hxxp://31[.]56[.]209[.]153/nz[.]sh` | url | Unknown malware | ThreatFox | 2026-08-03 02:40:49 UTC |
+| 57 (media) | alta | `65[.]108[.]201[.]76:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:17 UTC |
+| 57 (media) | alta | `165[.]245[.]219[.]184:8443` | ip:port | Aisuru | ThreatFox | 2026-08-03 05:45:45 UTC |
+| 57 (media) | media | `hxxp://31[.]56[.]209[.]153/nz[.]sh` | url | Unknown malware | ThreatFox | 2026-08-03 05:45:42 UTC |
 | 57 (media) | critica | `45[.]195[.]8[.]67:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-08-02 23:05:06 UTC |
 | 57 (media) | critica | `45[.]195[.]8[.]67:80` | ip:port | AdaptixC2 | ThreatFox | 2026-08-02 23:05:05 UTC |
-| 57 (media) | alta | `165[.]245[.]219[.]184:8443` | ip:port | Aisuru | ThreatFox | 2026-08-02 22:47:29 UTC |
 | 57 (media) | media | `106[.]52[.]255[.]211:19876` | ip:port | Unknown malware | ThreatFox | 2026-08-02 17:05:05 UTC |
 | 57 (media) | critica | `101[.]42[.]176[.]50:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:09 UTC |
+| 57 (media) | critica | `101[.]42[.]176[.]50:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:09 UTC |
+| 57 (media) | critica | `101[.]42[.]176[.]50:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-02 11:05:08 UTC |
+| 56 (media) | alta | `143[.]198[.]206[.]191:9034` | ip:port | Aisuru | ThreatFox | 2026-08-03 09:33:03 UTC |
+| 56 (media) | alta | `2[.]28[.]15[.]55:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:17 UTC |
+| 56 (media) | alta | `37[.]27[.]197[.]184:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:16 UTC |
+| 56 (media) | alta | `2[.]28[.]12[.]152:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:15 UTC |
+| 56 (media) | alta | `37[.]27[.]193[.]182:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:15 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
