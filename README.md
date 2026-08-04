@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-04 14:39 UTC · **IOCs recolectados:** 764 · **CVEs KEV recientes:** 10
+**Última actualización:** 2026-08-04 19:54 UTC · **IOCs recolectados:** 804 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -138,12 +138,10 @@ python main.py
 | 78 (alta) | alta | `130[.]12[.]182[.]39:6606` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 14:05:06 UTC |
 | 78 (alta) | alta | `130[.]12[.]182[.]39:8808` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 13:05:09 UTC |
 | 77 (alta) | critica | `89[.]124[.]104[.]192:8443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-04 02:05:06 UTC |
-| 73 (alta) | alta | `130[.]12[.]182[.]39:6666` | ip:port | AsyncRAT | ThreatFox | 2026-08-03 19:43:23 UTC |
 | 71 (alta) | alta | `130[.]12[.]182[.]39:5333` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 09:43:25 UTC |
-| 65 (media) | media | `82[.]41[.]66[.]7:8084` | ip:port | VShell | ThreatFox | 2026-08-03 18:05:07 UTC |
+| 65 (media) | media | `hxxps://ferncurrent14[.]com/curl/a7ec41c89a3dc6bf3de47264b4a3013134c7273dd1aa379859c2149b7517f0b2` | url | Unknown malware | ThreatFox, URLhaus | 2026-08-04 16:28:12 UTC |
 | 64 (media) | media | `165[.]154[.]236[.]119:9025` | ip:port | Unknown malware | ThreatFox | 2026-08-04 01:05:08 UTC |
 | 62 (media) | alta | `hxxp://196[.]251[.]107[.]186/svbia/post[.]php` | url | SVCStealer | ThreatFox | 2026-08-04 08:30:22 UTC |
-| 61 (media) | media | `101[.]33[.]45[.]136:8084` | ip:port | VShell | ThreatFox | 2026-08-03 16:05:08 UTC |
 | 60 (media) | media | `ma-pdffiller[.]lat` | domain | Unknown malware | ThreatFox | 2026-08-04 12:18:54 UTC |
 | 60 (media) | media | `hxxps://ma-pdffiller[.]lat/h/estagio1[.]php` | url | Unknown malware | ThreatFox | 2026-08-04 12:18:47 UTC |
 | 59 (media) | alta | `178[.]16[.]55[.]104:8848` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 08:50:29 UTC |
@@ -152,17 +150,22 @@ python main.py
 | 59 (media) | media | `hxxp://94[.]26[.]106[.]195:5555` | url | xmrig | ThreatFox | 2026-08-04 07:32:11 UTC |
 | 59 (media) | media | `hxxp://94[.]26[.]106[.]195:80` | url | xmrig | ThreatFox | 2026-08-04 07:32:11 UTC |
 | 59 (media) | alta | `hxxps://nonobody123[.]com/a85e9a98b9364c5d8f74[.]php` | url | Stealc | ThreatFox | 2026-08-03 19:54:25 UTC |
-| 59 (media) | alta | `akyv188[.]club` | domain | ValleyRAT | ThreatFox | 2026-08-03 17:22:23 UTC |
-| 59 (media) | alta | `txpfproxy[.]vip` | domain | ValleyRAT | ThreatFox | 2026-08-03 17:22:23 UTC |
 | 58 (media) | alta | `46[.]16[.]34[.]50:8443` | ip:port | Aisuru | ThreatFox | 2026-08-04 05:21:11 UTC |
-| 58 (media) | alta | `46[.]16[.]34[.]50:8001` | ip:port | Aisuru | ThreatFox | 2026-08-03 15:57:05 UTC |
-| 57 (media) | alta | `137[.]184[.]70[.]190:8080` | ip:port | Aisuru | ThreatFox | 2026-08-04 13:47:09 UTC |
+| 57 (media) | alta | `178[.]83[.]206[.]213:8080` | ip:port | Mirai | ThreatFox | 2026-08-04 19:20:26 UTC |
+| 57 (media) | alta | `137[.]184[.]70[.]190:8080` | ip:port | Aisuru | ThreatFox | 2026-08-04 16:28:11 UTC |
 | 57 (media) | alta | `ftp[.]gebzekamlok[.]com` | domain | Agent Tesla | ThreatFox | 2026-08-04 12:53:25 UTC |
+| 57 (media) | media | `mail[.]spacaex[.]com` | domain | MASS Logger | ThreatFox | 2026-08-04 12:28:03 UTC |
+| 57 (media) | media | `doc[.]nfiscais[.]com` | domain | Unknown malware | ThreatFox | 2026-08-04 08:22:31 UTC |
+| 57 (media) | media | `doc[.]nfe-online[.]com` | domain | Unknown malware | ThreatFox | 2026-08-04 08:21:27 UTC |
+| 57 (media) | critica | `106[.]75[.]249[.]202:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-04 08:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-18556 | N-able N-central | 2026-08-04 | Unknown |
+| CVE-2026-34486 | Apache Tomcat | 2026-08-04 | Unknown |
+| CVE-2026-9198 | IBM Langflow | 2026-08-04 | Unknown |
 | CVE-2026-18577 | N-able N-central | 2026-08-03 | Unknown |
 | CVE-2026-20316 | Cisco Secure Firewall Management Center (FMC) | 2026-07-29 | Unknown |
 | CVE-2025-68686 | Fortinet FortiOS | 2026-07-27 | Unknown |
