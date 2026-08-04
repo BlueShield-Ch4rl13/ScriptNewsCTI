@@ -127,23 +127,26 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-04 08:57 UTC · **IOCs recolectados:** 827 · **CVEs KEV recientes:** 10
+**Última actualización:** 2026-08-04 14:39 UTC · **IOCs recolectados:** 764 · **CVEs KEV recientes:** 10
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 78 (alta) | alta | `130[.]12[.]182[.]39:7001` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 14:05:07 UTC |
+| 78 (alta) | alta | `130[.]12[.]182[.]39:7707` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 14:05:07 UTC |
+| 78 (alta) | alta | `130[.]12[.]182[.]39:6606` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 14:05:06 UTC |
+| 78 (alta) | alta | `130[.]12[.]182[.]39:8808` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 13:05:09 UTC |
 | 77 (alta) | critica | `89[.]124[.]104[.]192:8443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-04 02:05:06 UTC |
 | 73 (alta) | alta | `130[.]12[.]182[.]39:6666` | ip:port | AsyncRAT | ThreatFox | 2026-08-03 19:43:23 UTC |
-| 72 (alta) | alta | `39[.]108[.]72[.]32:9177` | ip:port | Mirai | ThreatFox | 2026-08-03 14:19:09 UTC |
-| 70 (alta) | alta | `192[.]159[.]99[.]55:8989` | ip:port | DCRat | ThreatFox | 2026-08-03 09:44:24 UTC |
+| 71 (alta) | alta | `130[.]12[.]182[.]39:5333` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 09:43:25 UTC |
 | 65 (media) | media | `82[.]41[.]66[.]7:8084` | ip:port | VShell | ThreatFox | 2026-08-03 18:05:07 UTC |
 | 64 (media) | media | `165[.]154[.]236[.]119:9025` | ip:port | Unknown malware | ThreatFox | 2026-08-04 01:05:08 UTC |
-| 64 (media) | alta | `195[.]177[.]94[.]169:443` | ip:port | AsyncRAT | ThreatFox | 2026-08-03 10:05:06 UTC |
 | 62 (media) | alta | `hxxp://196[.]251[.]107[.]186/svbia/post[.]php` | url | SVCStealer | ThreatFox | 2026-08-04 08:30:22 UTC |
-| 61 (media) | media | `hxxp://42[.]232[.]238[.]126:40504/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-04 06:59:43 UTC |
-| 61 (media) | media | `hxxp://182[.]126[.]198[.]5:57587/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-08-04 06:59:42 UTC |
 | 61 (media) | media | `101[.]33[.]45[.]136:8084` | ip:port | VShell | ThreatFox | 2026-08-03 16:05:08 UTC |
+| 60 (media) | media | `ma-pdffiller[.]lat` | domain | Unknown malware | ThreatFox | 2026-08-04 12:18:54 UTC |
+| 60 (media) | media | `hxxps://ma-pdffiller[.]lat/h/estagio1[.]php` | url | Unknown malware | ThreatFox | 2026-08-04 12:18:47 UTC |
+| 59 (media) | alta | `178[.]16[.]55[.]104:8848` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 08:50:29 UTC |
 | 59 (media) | alta | `hxxp://62[.]60[.]226[.]232/zpzp/get[.]php` | url | SVCStealer | ThreatFox | 2026-08-04 08:29:07 UTC |
 | 59 (media) | alta | `ftp[.]ambikaexportsindia[.]com` | domain | Phantom Stealer | ThreatFox | 2026-08-04 07:43:20 UTC |
 | 59 (media) | media | `hxxp://94[.]26[.]106[.]195:5555` | url | xmrig | ThreatFox | 2026-08-04 07:32:11 UTC |
@@ -151,13 +154,10 @@ python main.py
 | 59 (media) | alta | `hxxps://nonobody123[.]com/a85e9a98b9364c5d8f74[.]php` | url | Stealc | ThreatFox | 2026-08-03 19:54:25 UTC |
 | 59 (media) | alta | `akyv188[.]club` | domain | ValleyRAT | ThreatFox | 2026-08-03 17:22:23 UTC |
 | 59 (media) | alta | `txpfproxy[.]vip` | domain | ValleyRAT | ThreatFox | 2026-08-03 17:22:23 UTC |
-| 59 (media) | critica | `156[.]224[.]18[.]21:587` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 14:05:06 UTC |
-| 59 (media) | alta | `89[.]34[.]90[.]99:56001` | ip:port | PureRAT | ThreatFox | 2026-08-03 13:28:20 UTC |
-| 59 (media) | alta | `5[.]75[.]238[.]232:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:16 UTC |
 | 58 (media) | alta | `46[.]16[.]34[.]50:8443` | ip:port | Aisuru | ThreatFox | 2026-08-04 05:21:11 UTC |
 | 58 (media) | alta | `46[.]16[.]34[.]50:8001` | ip:port | Aisuru | ThreatFox | 2026-08-03 15:57:05 UTC |
-| 57 (media) | media | `doc[.]nfiscais[.]com` | domain | Unknown malware | ThreatFox | 2026-08-04 08:22:31 UTC |
-| 57 (media) | media | `doc[.]nfe-online[.]com` | domain | Unknown malware | ThreatFox | 2026-08-04 08:21:27 UTC |
+| 57 (media) | alta | `137[.]184[.]70[.]190:8080` | ip:port | Aisuru | ThreatFox | 2026-08-04 13:47:09 UTC |
+| 57 (media) | alta | `ftp[.]gebzekamlok[.]com` | domain | Agent Tesla | ThreatFox | 2026-08-04 12:53:25 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
