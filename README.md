@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-03 19:55 UTC · **IOCs recolectados:** 718 · **CVEs KEV recientes:** 10
+**Última actualización:** 2026-08-04 03:25 UTC · **IOCs recolectados:** 760 · **CVEs KEV recientes:** 10
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 77 (alta) | critica | `89[.]124[.]104[.]192:8443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-04 02:05:06 UTC |
 | 73 (alta) | alta | `130[.]12[.]182[.]39:6666` | ip:port | AsyncRAT | ThreatFox | 2026-08-03 19:43:23 UTC |
 | 72 (alta) | alta | `39[.]108[.]72[.]32:9177` | ip:port | Mirai | ThreatFox | 2026-08-03 14:19:09 UTC |
 | 70 (alta) | alta | `192[.]159[.]99[.]55:8989` | ip:port | DCRat | ThreatFox | 2026-08-03 09:44:24 UTC |
-| 66 (media) | alta | `hxxps://tdfhdser-1433552157[.]cos[.]ap-hongkong[.]myqcloud[.]com/20260729213603[.]zip` | url | ValleyRAT | ThreatFox, URLhaus | 2026-08-03 17:21:30 UTC |
-| 66 (media) | alta | `hxxps://yfghrey-1433552157[.]cos[.]ap-hongkong[.]myqcloud[.]com/20260729074327[.]zip` | url | ValleyRAT | ThreatFox, URLhaus | 2026-08-03 17:21:30 UTC |
-| 66 (media) | alta | `hxxps://mt-link[.]qdhuzf[.]cc/cl/a5UYfW_dao7L4uK02Y5e3T4RKwwLAq7x5FXAtyV8o3UJAUT_K5Ia0VIbWVrxBLXMNGzEK9WhhAhSQFoBqqCupKzzInKiHGMgGOcp1Yiigbo6JUPzwHm0YBF[.]_JurP0LhKB4wt0m5H1gYc3aG149V2da397unkY11uVn30sF8DGJJMiZtmJS_UGZtI_JqupELrUzGNWj2gvSMSOq9_0IdaVJwLmuBiwllpHaogXqN4cKH--rCZGX49Rzqev4iXM--N6CY14rgI[.][.]iNc2Atg5k9g~~` | url | ValleyRAT | ThreatFox, URLhaus | 2026-08-03 17:21:29 UTC |
 | 65 (media) | media | `82[.]41[.]66[.]7:8084` | ip:port | VShell | ThreatFox | 2026-08-03 18:05:07 UTC |
-| 65 (media) | alta | `hxxps://mt-link[.]qdhuzf[.]cc/cl/rlLXIXSwv8IKS9aWzYqx[.]GteIY[.]dfPLTRPY013hMjghjIqNPZYu0[.]3GRfdJuvkQ6tE_bREwYxiJYCce5tvEnoE3KBUTwvCDTiu2bDHWXZs0x1W9uo0iVh[.]1QNGRtX1FCHw7RAGf7rgebqPkGAHTMO9PNVObFPz6ZweWWMF[.]A8WcBWExrFhKajHLSIXt2Nztt0U74bljpjJsEHOma6bAX63E8oWmZHpihcBw2sQ~~--2IJbf9QXryunJZJU--8Oh[.]0r5JKH3jZkGT7hZ3yQ~~` | url | ValleyRAT | ThreatFox, URLhaus | 2026-08-03 17:21:29 UTC |
-| 65 (media) | alta | `hxxps://kaiwyrey[.]eu[.]cc/d/6f025f85e3c0` | url | ValleyRAT | ThreatFox, URLhaus | 2026-08-03 17:21:28 UTC |
-| 65 (media) | alta | `hxxps://kaiwyrey[.]eu[.]cc/d/70878efbc582` | url | ValleyRAT | ThreatFox, URLhaus | 2026-08-03 17:21:28 UTC |
-| 65 (media) | alta | `hxxps://kaiwyrey[.]eu[.]cc/d/ac516096c285` | url | ValleyRAT | ThreatFox, URLhaus | 2026-08-03 17:21:28 UTC |
-| 65 (media) | alta | `hxxps://kaiwyrey[.]eu[.]cc/d/bdc9637e70c2` | url | ValleyRAT | ThreatFox, URLhaus | 2026-08-03 17:21:28 UTC |
-| 65 (media) | alta | `hxxps://mt-link[.]hxnxajp[.]club/cl/1tI4_QY7DCeBkEln5kmk9jrSOzkvCGnqOfOF[.]bP_ka4kNqy51He4r8IRtwhlZ2I_O_2nU1KmVVSZh_zV7BAOwQDLryYzqpE8R_QSdcIQel3f70U7Skywz[.]3B98ZVFhCxcdZMSYEd7RUj5[.]hif56qVudA9TU0yYiHnpS9u9fRMFRUpUFU4WNZg58wPV[.]jZgunKFKSrVPKboquHgJkbIYtGq_rfPM[.]1ldbJbc~--NuCyngcfq[.]n1c[.]5q--k8naVtPRTZtZg9yGwu3P8g~~` | url | ValleyRAT | ThreatFox, URLhaus | 2026-08-03 17:21:28 UTC |
-| 65 (media) | alta | `hxxps://mt-link[.]jiosjcjp[.]club/cl/XyTkjX7q1dAL2BGNTd9WS4rxd2jM6dRs81I6p9oIabEzdaoU[.]hKBV4joWBgjmpuG1R7lQFSw[.]ycTLHGORYhj2SUP3sFXpIV6xdCcBG0RXRfRL7UHgFuOXTo2My_iS7qkQfe3qQ9HI3LZ8Yxj6VNOgU8mxReAxoA9FexD3dTAKBOPLMZS2YwrHmsCeDNS3nLZL3Bu53l9rtzb6rmz2xWLsLH_YpqfyMFUI0e7Ac9xKG[.]C0r8~--qdLygJPqKgnky9Es--_CzsqbW_5cv2HhL6j7Dr3w~~` | url | ValleyRAT | ThreatFox, URLhaus | 2026-08-03 17:21:28 UTC |
+| 64 (media) | media | `165[.]154[.]236[.]119:9025` | ip:port | Unknown malware | ThreatFox | 2026-08-04 01:05:08 UTC |
 | 64 (media) | alta | `195[.]177[.]94[.]169:443` | ip:port | AsyncRAT | ThreatFox | 2026-08-03 10:05:06 UTC |
 | 64 (media) | alta | `195[.]177[.]94[.]169:80` | ip:port | AsyncRAT | ThreatFox | 2026-08-03 06:05:06 UTC |
 | 62 (media) | alta | `207[.]154[.]240[.]223:9034` | ip:port | Aisuru | ThreatFox | 2026-08-03 05:45:42 UTC |
 | 61 (media) | media | `101[.]33[.]45[.]136:8084` | ip:port | VShell | ThreatFox | 2026-08-03 16:05:08 UTC |
-| 60 (media) | critica | `23[.]141[.]12[.]111:21` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 02:05:05 UTC |
-| 59 (media) | alta | `hxxps://nonobody123[.]com/a85e9a98b9364c5d8f74[.]php` | url | Stealc | ThreatFox | 2026-08-03 18:00:56 UTC |
+| 59 (media) | alta | `hxxps://nonobody123[.]com/a85e9a98b9364c5d8f74[.]php` | url | Stealc | ThreatFox | 2026-08-03 19:54:25 UTC |
 | 59 (media) | alta | `akyv188[.]club` | domain | ValleyRAT | ThreatFox | 2026-08-03 17:22:23 UTC |
 | 59 (media) | alta | `txpfproxy[.]vip` | domain | ValleyRAT | ThreatFox | 2026-08-03 17:22:23 UTC |
 | 59 (media) | critica | `156[.]224[.]18[.]21:587` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 14:05:06 UTC |
 | 59 (media) | alta | `89[.]34[.]90[.]99:56001` | ip:port | PureRAT | ThreatFox | 2026-08-03 13:28:20 UTC |
 | 59 (media) | alta | `5[.]75[.]238[.]232:443` | ip:port | Vidar | ThreatFox | 2026-08-03 09:05:16 UTC |
+| 58 (media) | alta | `46[.]16[.]34[.]50:8443` | ip:port | Aisuru | ThreatFox | 2026-08-04 01:34:31 UTC |
+| 58 (media) | alta | `46[.]16[.]34[.]50:8001` | ip:port | Aisuru | ThreatFox | 2026-08-03 15:57:05 UTC |
+| 58 (media) | media | `92[.]119[.]158[.]20:7443` | ip:port | Unknown malware | ThreatFox | 2026-08-03 07:05:06 UTC |
+| 57 (media) | critica | `159[.]75[.]159[.]217:8083` | ip:port | Cobalt Strike | ThreatFox | 2026-08-04 02:05:05 UTC |
+| 57 (media) | alta | `hxxps://slu[.]popi999[.]net/` | url | Vidar | ThreatFox | 2026-08-04 01:15:05 UTC |
+| 57 (media) | alta | `slu[.]popi999[.]net` | domain | Vidar | ThreatFox | 2026-08-04 01:15:04 UTC |
+| 57 (media) | alta | `hxxps://withered-lake-8596[.]krzakanna172[.]workers[.]dev/` | url | ValleyRAT | ThreatFox | 2026-08-03 17:21:30 UTC |
+| 57 (media) | critica | `151[.]244[.]243[.]42:7443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 14:05:06 UTC |
+| 57 (media) | critica | `108[.]165[.]147[.]244:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-03 14:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
