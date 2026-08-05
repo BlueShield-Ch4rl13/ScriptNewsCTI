@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-04 19:54 UTC · **IOCs recolectados:** 804 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-08-05 03:06 UTC · **IOCs recolectados:** 832 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -137,11 +137,9 @@ python main.py
 | 78 (alta) | alta | `130[.]12[.]182[.]39:7707` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 14:05:07 UTC |
 | 78 (alta) | alta | `130[.]12[.]182[.]39:6606` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 14:05:06 UTC |
 | 78 (alta) | alta | `130[.]12[.]182[.]39:8808` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 13:05:09 UTC |
-| 77 (alta) | critica | `89[.]124[.]104[.]192:8443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-04 02:05:06 UTC |
 | 71 (alta) | alta | `130[.]12[.]182[.]39:5333` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 09:43:25 UTC |
-| 65 (media) | media | `hxxps://ferncurrent14[.]com/curl/a7ec41c89a3dc6bf3de47264b4a3013134c7273dd1aa379859c2149b7517f0b2` | url | Unknown malware | ThreatFox, URLhaus | 2026-08-04 16:28:12 UTC |
-| 64 (media) | media | `165[.]154[.]236[.]119:9025` | ip:port | Unknown malware | ThreatFox | 2026-08-04 01:05:08 UTC |
 | 62 (media) | alta | `hxxp://196[.]251[.]107[.]186/svbia/post[.]php` | url | SVCStealer | ThreatFox | 2026-08-04 08:30:22 UTC |
+| 61 (media) | critica | `101[.]42[.]255[.]92:8555` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:06 UTC |
 | 60 (media) | media | `ma-pdffiller[.]lat` | domain | Unknown malware | ThreatFox | 2026-08-04 12:18:54 UTC |
 | 60 (media) | media | `hxxps://ma-pdffiller[.]lat/h/estagio1[.]php` | url | Unknown malware | ThreatFox | 2026-08-04 12:18:47 UTC |
 | 59 (media) | alta | `178[.]16[.]55[.]104:8848` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 08:50:29 UTC |
@@ -149,15 +147,17 @@ python main.py
 | 59 (media) | alta | `ftp[.]ambikaexportsindia[.]com` | domain | Phantom Stealer | ThreatFox | 2026-08-04 07:43:20 UTC |
 | 59 (media) | media | `hxxp://94[.]26[.]106[.]195:5555` | url | xmrig | ThreatFox | 2026-08-04 07:32:11 UTC |
 | 59 (media) | media | `hxxp://94[.]26[.]106[.]195:80` | url | xmrig | ThreatFox | 2026-08-04 07:32:11 UTC |
-| 59 (media) | alta | `hxxps://nonobody123[.]com/a85e9a98b9364c5d8f74[.]php` | url | Stealc | ThreatFox | 2026-08-03 19:54:25 UTC |
+| 58 (media) | alta | `195[.]177[.]94[.]210:80` | ip:port | AsyncRAT | ThreatFox | 2026-08-05 00:05:05 UTC |
+| 58 (media) | media | `4c48cbbd55ff2b63a1fca862b8bb8ff00eec90050b2a2608140bbb3b2ad03f54` | sha256_hash | Unknown malware | ThreatFox | 2026-08-04 23:39:39 UTC |
 | 58 (media) | alta | `46[.]16[.]34[.]50:8443` | ip:port | Aisuru | ThreatFox | 2026-08-04 05:21:11 UTC |
-| 57 (media) | alta | `178[.]83[.]206[.]213:8080` | ip:port | Mirai | ThreatFox | 2026-08-04 19:20:26 UTC |
-| 57 (media) | alta | `137[.]184[.]70[.]190:8080` | ip:port | Aisuru | ThreatFox | 2026-08-04 16:28:11 UTC |
-| 57 (media) | alta | `ftp[.]gebzekamlok[.]com` | domain | Agent Tesla | ThreatFox | 2026-08-04 12:53:25 UTC |
-| 57 (media) | media | `mail[.]spacaex[.]com` | domain | MASS Logger | ThreatFox | 2026-08-04 12:28:03 UTC |
-| 57 (media) | media | `doc[.]nfiscais[.]com` | domain | Unknown malware | ThreatFox | 2026-08-04 08:22:31 UTC |
-| 57 (media) | media | `doc[.]nfe-online[.]com` | domain | Unknown malware | ThreatFox | 2026-08-04 08:21:27 UTC |
-| 57 (media) | critica | `106[.]75[.]249[.]202:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-04 08:05:05 UTC |
+| 57 (media) | critica | `210[.]56[.]48[.]227:8081` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 02:05:08 UTC |
+| 57 (media) | critica | `210[.]56[.]48[.]227:888` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 02:05:07 UTC |
+| 57 (media) | critica | `210[.]56[.]48[.]227:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 02:05:06 UTC |
+| 57 (media) | critica | `210[.]56[.]48[.]227:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:07 UTC |
+| 57 (media) | critica | `210[.]56[.]48[.]227:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:07 UTC |
+| 57 (media) | critica | `106[.]75[.]249[.]202:111` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:06 UTC |
+| 57 (media) | critica | `106[.]75[.]249[.]202:9001` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:06 UTC |
+| 57 (media) | critica | `106[.]75[.]249[.]202:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 00:05:06 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -172,8 +172,4 @@ python main.py
 | CVE-2026-16812 | Arista VeloCloud Orchestrator | 2026-07-27 | Unknown |
 | CVE-2026-16232 | Check Point SmartConsole | 2026-07-22 | Unknown |
 | CVE-2026-50522 | Microsoft SharePoint | 2026-07-22 | Unknown |
-| CVE-2026-60137 | WordPress Core | 2026-07-21 | Unknown |
-| CVE-2026-63030 | WordPress Core | 2026-07-21 | Unknown |
-| CVE-2026-0770 | Langflow Langflow | 2026-07-21 | Unknown |
-| CVE-2021-27137 | DD-WRT DD-WRT | 2026-07-21 | Unknown |
 <!-- CTI:END -->
