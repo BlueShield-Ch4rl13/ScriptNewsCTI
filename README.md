@@ -127,23 +127,25 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-05 08:46 UTC · **IOCs recolectados:** 780 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-05 14:33 UTC · **IOCs recolectados:** 660 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 78 (alta) | alta | `130[.]12[.]182[.]39:7001` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 14:05:07 UTC |
-| 78 (alta) | alta | `130[.]12[.]182[.]39:7707` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 14:05:07 UTC |
-| 78 (alta) | alta | `130[.]12[.]182[.]39:6606` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 14:05:06 UTC |
-| 78 (alta) | alta | `130[.]12[.]182[.]39:8808` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 13:05:09 UTC |
-| 71 (alta) | alta | `130[.]12[.]182[.]39:5333` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 09:43:25 UTC |
+| 63 (media) | media | `104[.]248[.]199[.]73:25001` | ip:port | Kimwolf | ThreatFox | 2026-08-05 10:19:02 UTC |
 | 61 (media) | critica | `101[.]42[.]255[.]92:8555` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:06 UTC |
-| 60 (media) | media | `ma-pdffiller[.]lat` | domain | Unknown malware | ThreatFox | 2026-08-04 12:18:54 UTC |
-| 60 (media) | media | `hxxps://ma-pdffiller[.]lat/h/estagio1[.]php` | url | Unknown malware | ThreatFox | 2026-08-04 12:18:47 UTC |
-| 59 (media) | alta | `178[.]16[.]55[.]104:8848` | ip:port | AsyncRAT | ThreatFox | 2026-08-04 08:50:29 UTC |
+| 59 (media) | media | `117[.]72[.]72[.]254:1261` | ip:port | Unknown malware | ThreatFox | 2026-08-05 14:05:08 UTC |
+| 59 (media) | media | `195[.]222[.]53[.]130:2930` | ip:port | Remus | ThreatFox | 2026-08-05 13:40:56 UTC |
+| 59 (media) | critica | `36[.]140[.]162[.]173:28080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 11:05:06 UTC |
+| 59 (media) | critica | `36[.]140[.]162[.]173:8081` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 11:05:05 UTC |
+| 59 (media) | critica | `36[.]140[.]162[.]173:8001` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 09:05:07 UTC |
+| 59 (media) | critica | `36[.]140[.]162[.]173:20443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 09:05:07 UTC |
+| 59 (media) | critica | `36[.]140[.]162[.]173:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 09:05:06 UTC |
+| 59 (media) | critica | `36[.]140[.]162[.]173:111` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 09:05:06 UTC |
 | 58 (media) | media | `4c48cbbd55ff2b63a1fca862b8bb8ff00eec90050b2a2608140bbb3b2ad03f54` | sha256_hash | Unknown malware | ThreatFox | 2026-08-05 06:37:48 UTC |
 | 58 (media) | alta | `195[.]177[.]94[.]210:80` | ip:port | AsyncRAT | ThreatFox | 2026-08-05 00:05:05 UTC |
+| 57 (media) | media | `cqylt[.]net` | domain | Unknown malware | ThreatFox | 2026-08-05 13:59:35 UTC |
 | 57 (media) | alta | `178[.]83[.]206[.]213:8080` | ip:port | Mirai | ThreatFox | 2026-08-05 06:37:59 UTC |
 | 57 (media) | media | `89[.]208[.]97[.]111:8133` | ip:port | Unknown malware | ThreatFox | 2026-08-05 06:37:49 UTC |
 | 57 (media) | critica | `210[.]56[.]48[.]227:8081` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 02:05:08 UTC |
@@ -155,9 +157,7 @@ python main.py
 | 57 (media) | critica | `106[.]75[.]249[.]202:9001` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:06 UTC |
 | 57 (media) | critica | `106[.]75[.]249[.]202:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 00:05:06 UTC |
 | 57 (media) | alta | `137[.]184[.]70[.]190:8080` | ip:port | Aisuru | ThreatFox | 2026-08-04 16:28:11 UTC |
-| 57 (media) | alta | `ftp[.]gebzekamlok[.]com` | domain | Agent Tesla | ThreatFox | 2026-08-04 12:53:25 UTC |
-| 57 (media) | media | `mail[.]spacaex[.]com` | domain | MASS Logger | ThreatFox | 2026-08-04 12:28:03 UTC |
-| 56 (media) | alta | `91[.]208[.]162[.]129:34567` | ip:port | Aisuru | ThreatFox | 2026-08-05 06:38:04 UTC |
+| 56 (media) | media | `123[.]56[.]48[.]58:8999` | ip:port | Unknown malware | ThreatFox | 2026-08-05 14:05:08 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
