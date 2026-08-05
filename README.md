@@ -127,13 +127,17 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-05 14:33 UTC · **IOCs recolectados:** 660 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-05 19:45 UTC · **IOCs recolectados:** 845 · **CVEs KEV recientes:** 10
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 65 (media) | media | `pypi-get[.]com` | domain | Unknown malware | ThreatFox, OTX | 2026-08-04 20:53:34 UTC |
+| 65 (media) | media | `js-mirror[.]com` | domain | Unknown malware | ThreatFox, OTX | 2026-08-04 20:53:34 UTC |
+| 65 (media) | media | `npm-cache[.]com` | domain | Unknown malware | ThreatFox, OTX | 2026-08-04 20:38:31 UTC |
 | 63 (media) | media | `104[.]248[.]199[.]73:25001` | ip:port | Kimwolf | ThreatFox | 2026-08-05 10:19:02 UTC |
+| 61 (media) | alta | `447ead614a3eadc8c5c769ca18947a03865dedfc8e9eb633548ffa3d7e877c7a` | sha256_hash | RevStealer | ThreatFox | 2026-08-05 19:18:58 UTC |
 | 61 (media) | critica | `101[.]42[.]255[.]92:8555` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:06 UTC |
 | 59 (media) | media | `117[.]72[.]72[.]254:1261` | ip:port | Unknown malware | ThreatFox | 2026-08-05 14:05:08 UTC |
 | 59 (media) | media | `195[.]222[.]53[.]130:2930` | ip:port | Remus | ThreatFox | 2026-08-05 13:40:56 UTC |
@@ -143,6 +147,8 @@ python main.py
 | 59 (media) | critica | `36[.]140[.]162[.]173:20443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 09:05:07 UTC |
 | 59 (media) | critica | `36[.]140[.]162[.]173:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 09:05:06 UTC |
 | 59 (media) | critica | `36[.]140[.]162[.]173:111` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 09:05:06 UTC |
+| 58 (media) | media | `blog[.]derrspecial-onlinedmin[.]live` | domain | Unknown malware | ThreatFox, OTX | 2026-08-05 09:46:14 UTC |
+| 58 (media) | media | `subscription-magnetic-recommended-meat[.]trycloudflare[.]com` | domain | Unknown malware | ThreatFox, OTX | 2026-08-05 09:46:13 UTC |
 | 58 (media) | media | `4c48cbbd55ff2b63a1fca862b8bb8ff00eec90050b2a2608140bbb3b2ad03f54` | sha256_hash | Unknown malware | ThreatFox | 2026-08-05 06:37:48 UTC |
 | 58 (media) | alta | `195[.]177[.]94[.]210:80` | ip:port | AsyncRAT | ThreatFox | 2026-08-05 00:05:05 UTC |
 | 57 (media) | media | `cqylt[.]net` | domain | Unknown malware | ThreatFox | 2026-08-05 13:59:35 UTC |
@@ -152,17 +158,12 @@ python main.py
 | 57 (media) | critica | `210[.]56[.]48[.]227:888` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 02:05:07 UTC |
 | 57 (media) | critica | `210[.]56[.]48[.]227:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 02:05:06 UTC |
 | 57 (media) | critica | `210[.]56[.]48[.]227:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:07 UTC |
-| 57 (media) | critica | `210[.]56[.]48[.]227:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:07 UTC |
-| 57 (media) | critica | `106[.]75[.]249[.]202:111` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:06 UTC |
-| 57 (media) | critica | `106[.]75[.]249[.]202:9001` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:06 UTC |
-| 57 (media) | critica | `106[.]75[.]249[.]202:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 00:05:06 UTC |
-| 57 (media) | alta | `137[.]184[.]70[.]190:8080` | ip:port | Aisuru | ThreatFox | 2026-08-04 16:28:11 UTC |
-| 56 (media) | media | `123[.]56[.]48[.]58:8999` | ip:port | Unknown malware | ThreatFox | 2026-08-05 14:05:08 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-63077 | JetBrains TeamCity | 2026-08-05 | Unknown |
 | CVE-2026-18556 | N-able N-central | 2026-08-04 | Unknown |
 | CVE-2026-34486 | Apache Tomcat | 2026-08-04 | Unknown |
 | CVE-2026-9198 | IBM Langflow | 2026-08-04 | Unknown |
