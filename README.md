@@ -127,18 +127,20 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-05 19:45 UTC · **IOCs recolectados:** 845 · **CVEs KEV recientes:** 10
+**Última actualización:** 2026-08-06 03:23 UTC · **IOCs recolectados:** 847 · **CVEs KEV recientes:** 8
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 65 (media) | media | `pypi-get[.]com` | domain | Unknown malware | ThreatFox, OTX | 2026-08-04 20:53:34 UTC |
-| 65 (media) | media | `js-mirror[.]com` | domain | Unknown malware | ThreatFox, OTX | 2026-08-04 20:53:34 UTC |
-| 65 (media) | media | `npm-cache[.]com` | domain | Unknown malware | ThreatFox, OTX | 2026-08-04 20:38:31 UTC |
+| 76 (alta) | alta | `161[.]35[.]48[.]40:8001` | ip:port | Aisuru | ThreatFox | 2026-08-06 02:19:22 UTC |
+| 68 (media) | alta | `188[.]166[.]222[.]192:8001` | ip:port | Aisuru | ThreatFox | 2026-08-06 02:19:09 UTC |
+| 63 (media) | critica | `185[.]103[.]164[.]42:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-08-05 23:05:10 UTC |
+| 63 (media) | critica | `185[.]103[.]164[.]42:80` | ip:port | AdaptixC2 | ThreatFox | 2026-08-05 23:05:08 UTC |
+| 63 (media) | critica | `185[.]103[.]164[.]42:443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-05 23:05:07 UTC |
 | 63 (media) | media | `104[.]248[.]199[.]73:25001` | ip:port | Kimwolf | ThreatFox | 2026-08-05 10:19:02 UTC |
 | 61 (media) | alta | `447ead614a3eadc8c5c769ca18947a03865dedfc8e9eb633548ffa3d7e877c7a` | sha256_hash | RevStealer | ThreatFox | 2026-08-05 19:18:58 UTC |
-| 61 (media) | critica | `101[.]42[.]255[.]92:8555` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:06 UTC |
+| 59 (media) | critica | `60[.]247[.]206[.]23:801` | ip:port | Cobalt Strike | ThreatFox | 2026-08-06 00:05:04 UTC |
 | 59 (media) | media | `117[.]72[.]72[.]254:1261` | ip:port | Unknown malware | ThreatFox | 2026-08-05 14:05:08 UTC |
 | 59 (media) | media | `195[.]222[.]53[.]130:2930` | ip:port | Remus | ThreatFox | 2026-08-05 13:40:56 UTC |
 | 59 (media) | critica | `36[.]140[.]162[.]173:28080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 11:05:06 UTC |
@@ -147,17 +149,15 @@ python main.py
 | 59 (media) | critica | `36[.]140[.]162[.]173:20443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 09:05:07 UTC |
 | 59 (media) | critica | `36[.]140[.]162[.]173:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 09:05:06 UTC |
 | 59 (media) | critica | `36[.]140[.]162[.]173:111` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 09:05:06 UTC |
+| 58 (media) | media | `42[.]51[.]37[.]74:80` | ip:port | VShell | ThreatFox | 2026-08-06 02:05:06 UTC |
 | 58 (media) | media | `blog[.]derrspecial-onlinedmin[.]live` | domain | Unknown malware | ThreatFox, OTX | 2026-08-05 09:46:14 UTC |
 | 58 (media) | media | `subscription-magnetic-recommended-meat[.]trycloudflare[.]com` | domain | Unknown malware | ThreatFox, OTX | 2026-08-05 09:46:13 UTC |
 | 58 (media) | media | `4c48cbbd55ff2b63a1fca862b8bb8ff00eec90050b2a2608140bbb3b2ad03f54` | sha256_hash | Unknown malware | ThreatFox | 2026-08-05 06:37:48 UTC |
-| 58 (media) | alta | `195[.]177[.]94[.]210:80` | ip:port | AsyncRAT | ThreatFox | 2026-08-05 00:05:05 UTC |
 | 57 (media) | media | `cqylt[.]net` | domain | Unknown malware | ThreatFox | 2026-08-05 13:59:35 UTC |
 | 57 (media) | alta | `178[.]83[.]206[.]213:8080` | ip:port | Mirai | ThreatFox | 2026-08-05 06:37:59 UTC |
 | 57 (media) | media | `89[.]208[.]97[.]111:8133` | ip:port | Unknown malware | ThreatFox | 2026-08-05 06:37:49 UTC |
-| 57 (media) | critica | `210[.]56[.]48[.]227:8081` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 02:05:08 UTC |
-| 57 (media) | critica | `210[.]56[.]48[.]227:888` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 02:05:07 UTC |
-| 57 (media) | critica | `210[.]56[.]48[.]227:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 02:05:06 UTC |
-| 57 (media) | critica | `210[.]56[.]48[.]227:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-05 01:05:07 UTC |
+| 56 (media) | alta | `ubcvxb[.]southwestautoupholstery[.]com` | domain | ClearFake | ThreatFox | 2026-08-06 02:57:09 UTC |
+| 56 (media) | alta | `c8bl0t87[.]nailhousechicago[.]com` | domain | ClearFake | ThreatFox | 2026-08-06 02:44:11 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -171,6 +171,4 @@ python main.py
 | CVE-2026-20316 | Cisco Secure Firewall Management Center (FMC) | 2026-07-29 | Unknown |
 | CVE-2025-68686 | Fortinet FortiOS | 2026-07-27 | Unknown |
 | CVE-2026-16812 | Arista VeloCloud Orchestrator | 2026-07-27 | Unknown |
-| CVE-2026-16232 | Check Point SmartConsole | 2026-07-22 | Unknown |
-| CVE-2026-50522 | Microsoft SharePoint | 2026-07-22 | Unknown |
 <!-- CTI:END -->
