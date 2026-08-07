@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-07 00:17 UTC · **IOCs recolectados:** 760 · **CVEs KEV recientes:** 8
+**Última actualización:** 2026-08-07 07:27 UTC · **IOCs recolectados:** 504 · **CVEs KEV recientes:** 8
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 76 (alta) | alta | `161[.]35[.]48[.]40:8001` | ip:port | Aisuru | ThreatFox | 2026-08-06 05:10:16 UTC |
+| 78 (alta) | alta | `130[.]12[.]182[.]39:5222` | ip:port | AsyncRAT | ThreatFox | 2026-08-07 06:05:06 UTC |
 | 73 (alta) | media | `ba77ebc4ee8500a0baaa5e2cddf8076a` | md5_hash | INC | ThreatFox | 2026-08-06 14:21:02 UTC |
 | 72 (alta) | media | `a7fd97ff3685cb971650922c12725e8b` | md5_hash | WarLock | ThreatFox | 2026-08-06 13:31:40 UTC |
 | 72 (alta) | media | `016802863edd6de4503ffa5d815d90b4` | md5_hash | WarLock | ThreatFox | 2026-08-06 13:31:38 UTC |
 | 71 (alta) | media | `7997927159d0477fcb755d0befa26ca2` | md5_hash | INC | ThreatFox | 2026-08-06 14:21:01 UTC |
 | 71 (alta) | media | `1a2bcaa7ccee237163bb2a03f1c08e55` | md5_hash | INC | ThreatFox | 2026-08-06 14:20:59 UTC |
 | 71 (alta) | media | `dd7f096c647581f6c639e5c3dc7d1e7e` | md5_hash | WarLock | ThreatFox | 2026-08-06 13:31:39 UTC |
-| 71 (alta) | alta | `141[.]98[.]10[.]179:8443` | ip:port | PureLogs Stealer | ThreatFox | 2026-08-06 05:52:37 UTC |
 | 70 (alta) | media | `3279610d12c4309a5b2fdc7ebc9cfb66` | md5_hash | INC | ThreatFox | 2026-08-06 14:21:00 UTC |
 | 70 (alta) | media | `974e9a9579927b2935140b6813f89692` | md5_hash | INC | ThreatFox | 2026-08-06 14:21:00 UTC |
-| 68 (media) | alta | `188[.]166[.]222[.]192:8443` | ip:port | Aisuru | ThreatFox | 2026-08-06 07:02:53 UTC |
-| 68 (media) | alta | `188[.]166[.]222[.]192:8001` | ip:port | Aisuru | ThreatFox | 2026-08-06 05:10:18 UTC |
 | 67 (media) | alta | `188[.]166[.]222[.]192:9034` | ip:port | Aisuru | ThreatFox | 2026-08-06 19:41:32 UTC |
 | 67 (media) | alta | `188[.]166[.]222[.]192:8080` | ip:port | Aisuru | ThreatFox | 2026-08-06 18:07:50 UTC |
 | 63 (media) | alta | `46[.]151[.]182[.]172:8443` | ip:port | PureLogs Stealer | ThreatFox | 2026-08-06 08:11:15 UTC |
 | 62 (media) | media | `ff709591615a26f037a465ce97cc59d6` | md5_hash | Gentlemen | ThreatFox | 2026-08-06 14:21:03 UTC |
 | 62 (media) | media | `1ecaf7098bedaa4ffae0fff3e077f937` | md5_hash | Gentlemen | ThreatFox | 2026-08-06 14:21:02 UTC |
-| 61 (media) | alta | `447ead614a3eadc8c5c769ca18947a03865dedfc8e9eb633548ffa3d7e877c7a` | sha256_hash | RevStealer | ThreatFox | 2026-08-06 05:10:30 UTC |
 | 59 (media) | media | `1[.]117[.]77[.]166:22` | ip:port | Unknown malware | ThreatFox | 2026-08-06 14:05:07 UTC |
 | 59 (media) | critica | `36[.]140[.]162[.]173:10443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-06 13:05:06 UTC |
-| 59 (media) | alta | `springsconstruction[.]net` | domain | ClearFake | ThreatFox | 2026-08-06 07:10:07 UTC |
-| 59 (media) | critica | `36[.]140[.]162[.]173:11443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-06 06:05:05 UTC |
+| 58 (media) | alta | `159[.]203[.]69[.]210:8088` | ip:port | AsyncRAT | ThreatFox | 2026-08-07 06:05:06 UTC |
 | 58 (media) | alta | `telenet-webmail[.]com` | domain | ClearFake | ThreatFox | 2026-08-06 13:31:46 UTC |
 | 58 (media) | media | `843df3ad51fb7c3d35e6f65545bb710b` | md5_hash | WarLock | ThreatFox | 2026-08-06 13:31:39 UTC |
 | 58 (media) | media | `103[.]142[.]147[.]18:28554` | ip:port | Unknown malware | ThreatFox | 2026-08-06 08:05:07 UTC |
+| 57 (media) | media | `hubcert[.]com[.]br` | domain | IClickFix | ThreatFox | 2026-08-06 14:20:58 UTC |
+| 57 (media) | alta | `kiwqhe[.]telenet-webmail[.]com` | domain | ClearFake | ThreatFox | 2026-08-06 13:35:50 UTC |
+| 57 (media) | media | `117[.]72[.]202[.]93:3232` | ip:port | Unknown malware | ThreatFox | 2026-08-06 08:05:07 UTC |
+| 57 (media) | media | `hxxp://2[.]26[.]252[.]48:8080/gate/handshake` | url | Unknown malware | ThreatFox | 2026-08-06 07:53:58 UTC |
+| 57 (media) | media | `hxxp://2[.]26[.]252[.]48:8080/gate/complete` | url | Unknown malware | ThreatFox | 2026-08-06 07:53:58 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
