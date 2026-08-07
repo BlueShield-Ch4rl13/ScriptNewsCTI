@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-07 13:26 UTC · **IOCs recolectados:** 730 · **CVEs KEV recientes:** 8
+**Última actualización:** 2026-08-07 19:14 UTC · **IOCs recolectados:** 996 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -135,34 +135,35 @@ python main.py
 |---|---|---|---|---|---|---|
 | 78 (alta) | alta | `130[.]12[.]182[.]39:5222` | ip:port | AsyncRAT | ThreatFox | 2026-08-07 06:05:06 UTC |
 | 76 (alta) | alta | `161[.]35[.]48[.]40:8080` | ip:port | Aisuru | ThreatFox | 2026-08-07 12:15:50 UTC |
-| 73 (alta) | media | `ba77ebc4ee8500a0baaa5e2cddf8076a` | md5_hash | INC | ThreatFox | 2026-08-06 14:21:02 UTC |
-| 72 (alta) | media | `a7fd97ff3685cb971650922c12725e8b` | md5_hash | WarLock | ThreatFox | 2026-08-06 13:31:40 UTC |
-| 72 (alta) | media | `016802863edd6de4503ffa5d815d90b4` | md5_hash | WarLock | ThreatFox | 2026-08-06 13:31:38 UTC |
-| 71 (alta) | media | `7997927159d0477fcb755d0befa26ca2` | md5_hash | INC | ThreatFox | 2026-08-06 14:21:01 UTC |
-| 71 (alta) | media | `1a2bcaa7ccee237163bb2a03f1c08e55` | md5_hash | INC | ThreatFox | 2026-08-06 14:20:59 UTC |
-| 71 (alta) | media | `dd7f096c647581f6c639e5c3dc7d1e7e` | md5_hash | WarLock | ThreatFox | 2026-08-06 13:31:39 UTC |
-| 70 (alta) | media | `3279610d12c4309a5b2fdc7ebc9cfb66` | md5_hash | INC | ThreatFox | 2026-08-06 14:21:00 UTC |
-| 70 (alta) | media | `974e9a9579927b2935140b6813f89692` | md5_hash | INC | ThreatFox | 2026-08-06 14:21:00 UTC |
+| 75 (alta) | alta | `161[.]35[.]48[.]40:8443` | ip:port | Aisuru | ThreatFox | 2026-08-07 14:12:06 UTC |
 | 67 (media) | alta | `46[.]151[.]182[.]225:7007` | ip:port | XWorm | ThreatFox | 2026-08-07 12:20:41 UTC |
 | 67 (media) | alta | `188[.]166[.]222[.]192:9034` | ip:port | Aisuru | ThreatFox | 2026-08-06 19:41:32 UTC |
-| 67 (media) | alta | `188[.]166[.]222[.]192:8080` | ip:port | Aisuru | ThreatFox | 2026-08-06 18:07:50 UTC |
 | 64 (media) | alta | `116[.]202[.]186[.]230:443` | ip:port | Vidar | ThreatFox | 2026-08-07 08:03:23 UTC |
-| 62 (media) | media | `ff709591615a26f037a465ce97cc59d6` | md5_hash | Gentlemen | ThreatFox | 2026-08-06 14:21:03 UTC |
-| 62 (media) | media | `1ecaf7098bedaa4ffae0fff3e077f937` | md5_hash | Gentlemen | ThreatFox | 2026-08-06 14:21:02 UTC |
+| 62 (media) | media | `hxxp://115[.]51[.]80[.]33:54187/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-07 18:20:03 UTC |
 | 59 (media) | alta | `185[.]215[.]151[.]16:8823` | ip:port | XWorm | ThreatFox | 2026-08-07 10:20:40 UTC |
-| 59 (media) | media | `1[.]117[.]77[.]166:22` | ip:port | Unknown malware | ThreatFox | 2026-08-06 14:05:07 UTC |
+| 58 (media) | media | `165[.]154[.]236[.]119:14333` | ip:port | Unknown malware | ThreatFox | 2026-08-07 14:05:05 UTC |
 | 58 (media) | alta | `64[.]89[.]161[.]196:7777` | ip:port | DCRat | ThreatFox | 2026-08-07 09:46:24 UTC |
 | 58 (media) | alta | `159[.]203[.]69[.]210:8088` | ip:port | AsyncRAT | ThreatFox | 2026-08-07 06:05:06 UTC |
-| 58 (media) | alta | `telenet-webmail[.]com` | domain | ClearFake | ThreatFox | 2026-08-06 13:31:46 UTC |
-| 58 (media) | media | `843df3ad51fb7c3d35e6f65545bb710b` | md5_hash | WarLock | ThreatFox | 2026-08-06 13:31:39 UTC |
-| 57 (media) | media | `hubcert[.]com[.]br` | domain | IClickFix | ThreatFox | 2026-08-06 14:20:58 UTC |
-| 57 (media) | alta | `kiwqhe[.]telenet-webmail[.]com` | domain | ClearFake | ThreatFox | 2026-08-06 13:35:50 UTC |
-| 56 (media) | media | `103[.]251[.]113[.]127:8085` | ip:port | VShell | ThreatFox | 2026-08-07 13:05:08 UTC |
+| 56 (media) | alta | `103[.]83[.]86[.]215:2` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:23 UTC |
+| 56 (media) | alta | `103[.]83[.]86[.]215:2222` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:23 UTC |
+| 56 (media) | alta | `103[.]83[.]86[.]215:4231` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:22 UTC |
+| 56 (media) | alta | `103[.]83[.]86[.]215:7012` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:22 UTC |
+| 56 (media) | alta | `103[.]83[.]86[.]215:6969` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:21 UTC |
+| 56 (media) | alta | `103[.]83[.]86[.]215:4567` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:21 UTC |
+| 56 (media) | alta | `103[.]83[.]86[.]215:5555` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:20 UTC |
+| 56 (media) | alta | `103[.]83[.]86[.]215:2381` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:20 UTC |
+| 56 (media) | media | `vmi3462151[.]contaboserver[.]net` | domain | Unknown malware | ThreatFox | 2026-08-07 18:19:45 UTC |
+| 56 (media) | media | `grove53[.]com` | domain | AMOS | ThreatFox | 2026-08-07 17:54:41 UTC |
+| 56 (media) | media | `161[.]35[.]146[.]120:80` | ip:port | AMOS | ThreatFox | 2026-08-07 17:54:40 UTC |
+| 56 (media) | media | `hxxp://161[.]35[.]146[.]120/contact` | url | AMOS | ThreatFox | 2026-08-07 17:54:40 UTC |
+| 56 (media) | alta | `0zrbstse[.]tiptop-shops[.]com` | domain | ClearFake | ThreatFox | 2026-08-07 17:54:11 UTC |
+| 56 (media) | media | `telemetras[.]pro` | domain | Unknown malware | ThreatFox | 2026-08-07 16:43:17 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-8037 | Progress LoadMaster | 2026-08-07 | Unknown |
 | CVE-2026-63077 | JetBrains TeamCity | 2026-08-05 | Unknown |
 | CVE-2026-18556 | N-able N-central | 2026-08-04 | Unknown |
 | CVE-2026-34486 | Apache Tomcat | 2026-08-04 | Unknown |
