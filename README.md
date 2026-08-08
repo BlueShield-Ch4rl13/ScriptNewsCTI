@@ -127,7 +127,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-07 19:14 UTC · **IOCs recolectados:** 996 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-08 02:09 UTC · **IOCs recolectados:** 1243 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -137,13 +137,17 @@ python main.py
 | 76 (alta) | alta | `161[.]35[.]48[.]40:8080` | ip:port | Aisuru | ThreatFox | 2026-08-07 12:15:50 UTC |
 | 75 (alta) | alta | `161[.]35[.]48[.]40:8443` | ip:port | Aisuru | ThreatFox | 2026-08-07 14:12:06 UTC |
 | 67 (media) | alta | `46[.]151[.]182[.]225:7007` | ip:port | XWorm | ThreatFox | 2026-08-07 12:20:41 UTC |
-| 67 (media) | alta | `188[.]166[.]222[.]192:9034` | ip:port | Aisuru | ThreatFox | 2026-08-06 19:41:32 UTC |
 | 64 (media) | alta | `116[.]202[.]186[.]230:443` | ip:port | Vidar | ThreatFox | 2026-08-07 08:03:23 UTC |
 | 62 (media) | media | `hxxp://115[.]51[.]80[.]33:54187/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-07 18:20:03 UTC |
 | 59 (media) | alta | `185[.]215[.]151[.]16:8823` | ip:port | XWorm | ThreatFox | 2026-08-07 10:20:40 UTC |
 | 58 (media) | media | `165[.]154[.]236[.]119:14333` | ip:port | Unknown malware | ThreatFox | 2026-08-07 14:05:05 UTC |
 | 58 (media) | alta | `64[.]89[.]161[.]196:7777` | ip:port | DCRat | ThreatFox | 2026-08-07 09:46:24 UTC |
 | 58 (media) | alta | `159[.]203[.]69[.]210:8088` | ip:port | AsyncRAT | ThreatFox | 2026-08-07 06:05:06 UTC |
+| 57 (media) | alta | `167[.]99[.]64[.]180:9035` | ip:port | Aisuru | ThreatFox | 2026-08-08 01:00:05 UTC |
+| 57 (media) | media | `tracklifefit[.]com[.]br` | domain | Unknown malware | ThreatFox | 2026-08-08 00:03:58 UTC |
+| 57 (media) | alta | `217[.]60[.]97[.]106:6606` | ip:port | AsyncRAT | ThreatFox | 2026-08-07 19:45:24 UTC |
+| 56 (media) | alta | `duaozkgx[.]gtacauto[.]com` | domain | ClearFake | ThreatFox | 2026-08-08 00:23:27 UTC |
+| 56 (media) | alta | `telemetras[.]pro` | domain | ClearFake | ThreatFox | 2026-08-08 00:02:43 UTC |
 | 56 (media) | alta | `103[.]83[.]86[.]215:2` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:23 UTC |
 | 56 (media) | alta | `103[.]83[.]86[.]215:2222` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:23 UTC |
 | 56 (media) | alta | `103[.]83[.]86[.]215:4231` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:22 UTC |
@@ -154,10 +158,6 @@ python main.py
 | 56 (media) | alta | `103[.]83[.]86[.]215:2381` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:20 UTC |
 | 56 (media) | media | `vmi3462151[.]contaboserver[.]net` | domain | Unknown malware | ThreatFox | 2026-08-07 18:19:45 UTC |
 | 56 (media) | media | `grove53[.]com` | domain | AMOS | ThreatFox | 2026-08-07 17:54:41 UTC |
-| 56 (media) | media | `161[.]35[.]146[.]120:80` | ip:port | AMOS | ThreatFox | 2026-08-07 17:54:40 UTC |
-| 56 (media) | media | `hxxp://161[.]35[.]146[.]120/contact` | url | AMOS | ThreatFox | 2026-08-07 17:54:40 UTC |
-| 56 (media) | alta | `0zrbstse[.]tiptop-shops[.]com` | domain | ClearFake | ThreatFox | 2026-08-07 17:54:11 UTC |
-| 56 (media) | media | `telemetras[.]pro` | domain | Unknown malware | ThreatFox | 2026-08-07 16:43:17 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
