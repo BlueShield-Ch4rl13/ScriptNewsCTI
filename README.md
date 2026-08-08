@@ -127,25 +127,28 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-08 02:09 UTC · **IOCs recolectados:** 1243 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-08 07:12 UTC · **IOCs recolectados:** 1279 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 78 (alta) | alta | `130[.]12[.]182[.]39:5222` | ip:port | AsyncRAT | ThreatFox | 2026-08-07 06:05:06 UTC |
 | 76 (alta) | alta | `161[.]35[.]48[.]40:8080` | ip:port | Aisuru | ThreatFox | 2026-08-07 12:15:50 UTC |
 | 75 (alta) | alta | `161[.]35[.]48[.]40:8443` | ip:port | Aisuru | ThreatFox | 2026-08-07 14:12:06 UTC |
+| 72 (alta) | media | `hxxp://178[.]16[.]54[.]109/molakc` | url | Phorpiex | ThreatFox, URLhaus | 2026-08-08 06:35:29 UTC |
 | 67 (media) | alta | `46[.]151[.]182[.]225:7007` | ip:port | XWorm | ThreatFox | 2026-08-07 12:20:41 UTC |
+| 64 (media) | media | `hxxp://199[.]217[.]99[.]6/Troubleshoot[.]ps1` | url | Unknown malware | ThreatFox, URLhaus | 2026-08-08 00:02:43 UTC |
 | 64 (media) | alta | `116[.]202[.]186[.]230:443` | ip:port | Vidar | ThreatFox | 2026-08-07 08:03:23 UTC |
-| 62 (media) | media | `hxxp://115[.]51[.]80[.]33:54187/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-07 18:20:03 UTC |
+| 62 (media) | media | `hxxp://221[.]15[.]226[.]18:57698/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-08-08 06:35:26 UTC |
 | 59 (media) | alta | `185[.]215[.]151[.]16:8823` | ip:port | XWorm | ThreatFox | 2026-08-07 10:20:40 UTC |
 | 58 (media) | media | `165[.]154[.]236[.]119:14333` | ip:port | Unknown malware | ThreatFox | 2026-08-07 14:05:05 UTC |
 | 58 (media) | alta | `64[.]89[.]161[.]196:7777` | ip:port | DCRat | ThreatFox | 2026-08-07 09:46:24 UTC |
-| 58 (media) | alta | `159[.]203[.]69[.]210:8088` | ip:port | AsyncRAT | ThreatFox | 2026-08-07 06:05:06 UTC |
-| 57 (media) | alta | `167[.]99[.]64[.]180:9035` | ip:port | Aisuru | ThreatFox | 2026-08-08 01:00:05 UTC |
+| 57 (media) | alta | `155[.]2[.]192[.]235:8041` | ip:port | Unknown RAT | ThreatFox | 2026-08-08 06:48:28 UTC |
+| 57 (media) | alta | `167[.]99[.]64[.]180:9035` | ip:port | Aisuru | ThreatFox | 2026-08-08 06:35:38 UTC |
 | 57 (media) | media | `tracklifefit[.]com[.]br` | domain | Unknown malware | ThreatFox | 2026-08-08 00:03:58 UTC |
 | 57 (media) | alta | `217[.]60[.]97[.]106:6606` | ip:port | AsyncRAT | ThreatFox | 2026-08-07 19:45:24 UTC |
+| 56 (media) | alta | `139[.]59[.]144[.]8:8080` | ip:port | Aisuru | ThreatFox | 2026-08-08 06:35:28 UTC |
+| 56 (media) | alta | `ztnr4f37[.]overtheitgirl[.]com` | domain | ClearFake | ThreatFox | 2026-08-08 05:58:32 UTC |
 | 56 (media) | alta | `duaozkgx[.]gtacauto[.]com` | domain | ClearFake | ThreatFox | 2026-08-08 00:23:27 UTC |
 | 56 (media) | alta | `telemetras[.]pro` | domain | ClearFake | ThreatFox | 2026-08-08 00:02:43 UTC |
 | 56 (media) | alta | `103[.]83[.]86[.]215:2` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:23 UTC |
@@ -155,9 +158,6 @@ python main.py
 | 56 (media) | alta | `103[.]83[.]86[.]215:6969` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:21 UTC |
 | 56 (media) | alta | `103[.]83[.]86[.]215:4567` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:21 UTC |
 | 56 (media) | alta | `103[.]83[.]86[.]215:5555` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:20 UTC |
-| 56 (media) | alta | `103[.]83[.]86[.]215:2381` | ip:port | Mirai | ThreatFox | 2026-08-07 18:33:20 UTC |
-| 56 (media) | media | `vmi3462151[.]contaboserver[.]net` | domain | Unknown malware | ThreatFox | 2026-08-07 18:19:45 UTC |
-| 56 (media) | media | `grove53[.]com` | domain | AMOS | ThreatFox | 2026-08-07 17:54:41 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
