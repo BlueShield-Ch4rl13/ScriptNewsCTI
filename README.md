@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-09 07:14 UTC · **IOCs recolectados:** 857 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-09 13:12 UTC · **IOCs recolectados:** 832 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 81 (alta) | alta | `94[.]154[.]43[.]87:8082` | ip:port | Mirai | ThreatFox | 2026-08-09 06:30:55 UTC |
-| 79 (alta) | media | `176[.]65[.]148[.]250:6556` | ip:port | XMRIG | ThreatFox | 2026-08-08 11:09:24 UTC |
 | 77 (alta) | alta | `94[.]154[.]43[.]175:6794` | ip:port | Mirai | ThreatFox | 2026-08-09 06:30:53 UTC |
+| 76 (alta) | alta | `161[.]35[.]48[.]40:9034` | ip:port | Aisuru | ThreatFox | 2026-08-09 12:27:57 UTC |
 | 75 (alta) | alta | `79[.]143[.]191[.]7:8082` | ip:port | Mirai | ThreatFox | 2026-08-09 06:30:59 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]46:1337` | ip:port | Mirai | ThreatFox | 2026-08-08 16:47:48 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]97:9931` | ip:port | Mirai | ThreatFox | 2026-08-08 16:47:47 UTC |
 | 72 (alta) | alta | `217[.]60[.]195[.]187:8529` | ip:port | Mirai | ThreatFox | 2026-08-08 16:47:46 UTC |
+| 71 (alta) | alta | `130[.]12[.]182[.]39:2700` | ip:port | AsyncRAT | ThreatFox | 2026-08-09 09:43:26 UTC |
 | 71 (alta) | alta | `91[.]92[.]40[.]5:80` | ip:port | Mirai | ThreatFox | 2026-08-08 19:46:26 UTC |
-| 71 (alta) | alta | `217[.]60[.]195[.]187:80` | ip:port | Mirai | ThreatFox | 2026-08-08 09:45:29 UTC |
-| 71 (alta) | alta | `94[.]154[.]43[.]12:32` | ip:port | Mirai | ThreatFox | 2026-08-08 07:33:27 UTC |
 | 66 (media) | alta | `188[.]166[.]222[.]192:34567` | ip:port | Aisuru | ThreatFox | 2026-08-08 16:47:46 UTC |
-| 64 (media) | media | `188[.]253[.]125[.]245:8080` | ip:port | VShell | ThreatFox | 2026-08-08 11:05:08 UTC |
-| 64 (media) | media | `188[.]253[.]125[.]245:80` | ip:port | VShell | ThreatFox | 2026-08-08 11:05:08 UTC |
-| 62 (media) | media | `hxxp://115[.]55[.]183[.]61:57147/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-08-09 06:30:48 UTC |
+| 65 (media) | alta | `5[.]83[.]150[.]71:4567` | ip:port | Quasar RAT | ThreatFox | 2026-08-09 08:05:09 UTC |
 | 61 (media) | media | `hxxp://178[.]16[.]54[.]109/locopoco` | url | Phorpiex | ThreatFox | 2026-08-08 16:47:49 UTC |
 | 60 (media) | media | `183[.]60[.]226[.]2:110` | ip:port | Unknown malware | ThreatFox | 2026-08-09 05:05:05 UTC |
-| 59 (media) | media | `hxxp://176[.]65[.]148[.]250:6556/ok` | url | XMRIG | ThreatFox | 2026-08-08 11:09:24 UTC |
 | 58 (media) | media | `144[.]172[.]94[.]130:443` | ip:port | Unknown malware | ThreatFox | 2026-08-08 20:42:22 UTC |
+| 57 (media) | alta | `zfnv2q4q[.]dayvillelaundry[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 09:49:31 UTC |
 | 57 (media) | alta | `jhjokx[.]sweethannahs[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 03:54:48 UTC |
 | 57 (media) | alta | `sholap[.]sweethannahs[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 03:24:14 UTC |
 | 57 (media) | media | `139[.]212[.]143[.]218:22` | ip:port | Unknown malware | ThreatFox | 2026-08-08 18:05:06 UTC |
 | 57 (media) | alta | `4pm3ff8r[.]tacticalk9familycoin[.]com` | domain | ClearFake | ThreatFox | 2026-08-08 17:56:11 UTC |
-| 57 (media) | critica | `192[.]255[.]236[.]156:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-08 12:05:06 UTC |
-| 57 (media) | media | `34[.]70[.]205[.]211:80` | ip:port | XMRIG | ThreatFox | 2026-08-08 11:09:21 UTC |
-| 56 (media) | media | `vmi3469820[.]contaboserver[.]net` | domain | Unknown malware | ThreatFox | 2026-08-09 06:59:36 UTC |
+| 56 (media) | alta | `159[.]203[.]172[.]232:8443` | ip:port | Aisuru | ThreatFox | 2026-08-09 12:20:57 UTC |
+| 56 (media) | alta | `38[.]207[.]178[.]195:8080` | ip:port | Aisuru | ThreatFox | 2026-08-09 12:20:56 UTC |
+| 56 (media) | alta | `167[.]172[.]188[.]177:34567` | ip:port | Aisuru | ThreatFox | 2026-08-09 12:20:56 UTC |
+| 56 (media) | alta | `veralok[.]click` | domain | ClearFake | ThreatFox | 2026-08-09 12:20:55 UTC |
+| 56 (media) | alta | `fh32dvqs[.]eachway-multiplier[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 12:13:24 UTC |
+| 56 (media) | alta | `alifbd[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 12:02:06 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
