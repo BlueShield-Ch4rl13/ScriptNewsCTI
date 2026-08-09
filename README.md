@@ -127,16 +127,19 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-08 18:56 UTC · **IOCs recolectados:** 1173 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-09 02:17 UTC · **IOCs recolectados:** 918 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 81 (alta) | alta | `94[.]154[.]43[.]87:8082` | ip:port | Mirai | ThreatFox | 2026-08-09 02:05:19 UTC |
 | 79 (alta) | media | `176[.]65[.]148[.]250:6556` | ip:port | XMRIG | ThreatFox | 2026-08-08 11:09:24 UTC |
+| 75 (alta) | alta | `79[.]143[.]191[.]7:8082` | ip:port | Mirai | ThreatFox | 2026-08-08 23:52:18 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]46:1337` | ip:port | Mirai | ThreatFox | 2026-08-08 16:47:48 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]97:9931` | ip:port | Mirai | ThreatFox | 2026-08-08 16:47:47 UTC |
 | 72 (alta) | alta | `217[.]60[.]195[.]187:8529` | ip:port | Mirai | ThreatFox | 2026-08-08 16:47:46 UTC |
+| 71 (alta) | alta | `91[.]92[.]40[.]5:80` | ip:port | Mirai | ThreatFox | 2026-08-08 19:46:26 UTC |
 | 71 (alta) | alta | `217[.]60[.]195[.]187:80` | ip:port | Mirai | ThreatFox | 2026-08-08 09:45:29 UTC |
 | 71 (alta) | alta | `94[.]154[.]43[.]12:32` | ip:port | Mirai | ThreatFox | 2026-08-08 07:33:27 UTC |
 | 66 (media) | alta | `188[.]166[.]222[.]192:34567` | ip:port | Aisuru | ThreatFox | 2026-08-08 16:47:46 UTC |
@@ -145,19 +148,16 @@ python main.py
 | 62 (media) | media | `hxxp://178[.]16[.]54[.]109/molakc` | url | Phorpiex | ThreatFox | 2026-08-08 06:35:29 UTC |
 | 61 (media) | media | `hxxp://178[.]16[.]54[.]109/locopoco` | url | Phorpiex | ThreatFox | 2026-08-08 16:47:49 UTC |
 | 59 (media) | media | `hxxp://176[.]65[.]148[.]250:6556/ok` | url | XMRIG | ThreatFox | 2026-08-08 11:09:24 UTC |
+| 58 (media) | media | `144[.]172[.]94[.]130:443` | ip:port | Unknown malware | ThreatFox | 2026-08-08 20:42:22 UTC |
 | 57 (media) | media | `139[.]212[.]143[.]218:22` | ip:port | Unknown malware | ThreatFox | 2026-08-08 18:05:06 UTC |
 | 57 (media) | alta | `4pm3ff8r[.]tacticalk9familycoin[.]com` | domain | ClearFake | ThreatFox | 2026-08-08 17:56:11 UTC |
 | 57 (media) | critica | `192[.]255[.]236[.]156:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-08 12:05:06 UTC |
 | 57 (media) | media | `34[.]70[.]205[.]211:80` | ip:port | XMRIG | ThreatFox | 2026-08-08 11:09:21 UTC |
 | 57 (media) | alta | `155[.]2[.]192[.]235:8041` | ip:port | Unknown RAT | ThreatFox | 2026-08-08 06:48:28 UTC |
 | 57 (media) | alta | `167[.]99[.]64[.]180:9035` | ip:port | Aisuru | ThreatFox | 2026-08-08 06:35:38 UTC |
-| 57 (media) | media | `tracklifefit[.]com[.]br` | domain | Unknown malware | ThreatFox | 2026-08-08 00:03:58 UTC |
-| 57 (media) | alta | `217[.]60[.]97[.]106:6606` | ip:port | AsyncRAT | ThreatFox | 2026-08-07 19:45:24 UTC |
-| 56 (media) | alta | `mwf64ejt[.]greaternewzionbc[.]org` | domain | ClearFake | ThreatFox | 2026-08-08 17:59:35 UTC |
-| 56 (media) | alta | `myi88a45[.]eng-gutdrops[.]us` | domain | ClearFake | ThreatFox | 2026-08-08 12:00:04 UTC |
-| 56 (media) | alta | `rkuepjvspjokrqjehy[.]nygyrowillmar[.]com` | domain | ClearFake | ThreatFox | 2026-08-08 11:53:24 UTC |
-| 56 (media) | media | `43[.]143[.]94[.]53:22` | ip:port | Unknown malware | ThreatFox | 2026-08-08 11:05:05 UTC |
-| 56 (media) | alta | `139[.]59[.]144[.]8:8080` | ip:port | Aisuru | ThreatFox | 2026-08-08 06:35:28 UTC |
+| 56 (media) | alta | `querem[.]supremepaintingandrestoration[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 01:26:57 UTC |
+| 56 (media) | alta | `nidyjdv[.]eng-usa-goldalign[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 00:48:14 UTC |
+| 56 (media) | alta | `livfaj[.]grannygshemporium[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 00:25:03 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
