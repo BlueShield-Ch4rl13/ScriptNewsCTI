@@ -127,37 +127,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-09 19:00 UTC · **IOCs recolectados:** 550 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-10 02:21 UTC · **IOCs recolectados:** 546 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 81 (alta) | alta | `94[.]154[.]43[.]87:8082` | ip:port | Mirai | ThreatFox | 2026-08-09 06:30:55 UTC |
+| 80 (alta) | media | `130[.]12[.]180[.]51:43782` | ip:port | RedTail | ThreatFox | 2026-08-10 01:41:54 UTC |
 | 76 (alta) | alta | `161[.]35[.]48[.]40:9034` | ip:port | Aisuru | ThreatFox | 2026-08-09 12:27:57 UTC |
 | 75 (alta) | alta | `79[.]143[.]191[.]7:8082` | ip:port | Mirai | ThreatFox | 2026-08-09 06:30:59 UTC |
+| 71 (alta) | media | `hxxp://178[.]16[.]54[.]109/bolodo` | url | Phorpiex | ThreatFox, URLhaus | 2026-08-09 23:19:10 UTC |
 | 71 (alta) | alta | `130[.]12[.]182[.]39:2700` | ip:port | AsyncRAT | ThreatFox | 2026-08-09 09:43:26 UTC |
-| 71 (alta) | alta | `91[.]92[.]40[.]5:80` | ip:port | Mirai | ThreatFox | 2026-08-08 19:46:26 UTC |
+| 66 (media) | alta | `180[.]93[.]116[.]41:56999` | ip:port | Mirai | ThreatFox | 2026-08-09 21:09:02 UTC |
 | 65 (media) | alta | `5[.]83[.]150[.]71:4567` | ip:port | Quasar RAT | ThreatFox | 2026-08-09 08:05:09 UTC |
 | 60 (media) | media | `183[.]60[.]226[.]2:110` | ip:port | Unknown malware | ThreatFox | 2026-08-09 05:05:05 UTC |
 | 59 (media) | critica | `36[.]140[.]162[.]173:12443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-09 13:05:07 UTC |
 | 58 (media) | alta | `37[.]221[.]66[.]27:443` | ip:port | Nanocore RAT | ThreatFox | 2026-08-09 15:55:03 UTC |
-| 58 (media) | media | `144[.]172[.]94[.]130:443` | ip:port | Unknown malware | ThreatFox | 2026-08-08 20:42:22 UTC |
+| 57 (media) | media | `hxxps://fashion-chicken[.]com/x9i32md/w1/la02` | url | Unknown malware | ThreatFox | 2026-08-09 23:45:34 UTC |
 | 57 (media) | alta | `46[.]151[.]182[.]200:60195` | ip:port | Mirai | ThreatFox | 2026-08-09 16:09:02 UTC |
 | 57 (media) | media | `8[.]218[.]211[.]108:3232` | ip:port | Unknown malware | ThreatFox | 2026-08-09 14:05:06 UTC |
 | 57 (media) | media | `31[.]7[.]62[.]178:12583` | ip:port | VShell | ThreatFox | 2026-08-09 14:05:05 UTC |
 | 57 (media) | alta | `zfnv2q4q[.]dayvillelaundry[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 09:49:31 UTC |
 | 57 (media) | alta | `jhjokx[.]sweethannahs[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 03:54:48 UTC |
 | 57 (media) | alta | `sholap[.]sweethannahs[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 03:24:14 UTC |
-| 56 (media) | media | `hxxp://onesdto[.]shop:2535/collections` | url | Remus | ThreatFox | 2026-08-09 18:00:58 UTC |
-| 56 (media) | alta | `h0snck00[.]elcornerderaulmorote[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 17:13:00 UTC |
-| 56 (media) | alta | `od8872b0[.]nurvearmor[.]us` | domain | ClearFake | ThreatFox | 2026-08-09 17:03:21 UTC |
-| 56 (media) | alta | `qkyear[.]en-usa-sugarmute[.]us` | domain | ClearFake | ThreatFox | 2026-08-09 16:39:07 UTC |
-| 56 (media) | alta | `uv8fudow[.]eng--keyslimdrops[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 16:14:09 UTC |
-| 56 (media) | alta | `en-us-en-prostawive[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 15:54:00 UTC |
-| 56 (media) | alta | `khypcp[.]en-usa-sightfresh[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 15:36:52 UTC |
-| 56 (media) | alta | `5j5spglj[.]engus-prostavive[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 15:03:56 UTC |
-| 56 (media) | alta | `wxfruqi[.]shop-digestistart[.]com` | domain | ClearFake | ThreatFox | 2026-08-09 14:57:05 UTC |
+| 56 (media) | alta | `zgeetmr[.]enus-bpzone[.]com` | domain | ClearFake | ThreatFox | 2026-08-10 01:56:37 UTC |
+| 56 (media) | alta | `hqwgki[.]habbofutbol[.]com` | domain | ClearFake | ThreatFox | 2026-08-10 01:13:27 UTC |
+| 56 (media) | alta | `4lmn5pp8[.]eachway-multiplier[.]com` | domain | ClearFake | ThreatFox | 2026-08-10 01:07:44 UTC |
+| 56 (media) | alta | `hxxps://vokhmiwmncjba[.]vivaldinotabot[.]com/s/psc4?cl` | url | Unknown Loader | ThreatFox | 2026-08-10 00:55:17 UTC |
+| 56 (media) | alta | `5gghr1ol[.]eng-echoxen[.]us` | domain | ClearFake | ThreatFox | 2026-08-10 00:34:16 UTC |
+| 56 (media) | alta | `zwqbnl[.]gtacauto[.]com` | domain | ClearFake | ThreatFox | 2026-08-10 00:26:58 UTC |
+| 56 (media) | alta | `aqfcvod[.]en-usa-sugarmute[.]us` | domain | ClearFake | ThreatFox | 2026-08-10 00:15:47 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
