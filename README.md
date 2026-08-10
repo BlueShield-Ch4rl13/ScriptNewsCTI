@@ -47,7 +47,7 @@ Cada IOC recibe un score de 0 a 100 combinando señales del propio feed y valida
 | Confianza del feed | `confidence` × 0,15 (hasta +15) |
 | AbuseIPDB | `abuseConfidenceScore` × 0,20 (hasta +20) |
 | VirusTotal | ratio de detecciones × 25 (hasta +25) |
-| Frescura | ×1,0 ≤7 días · ×0,85 ≤30 · ×0,6 ≤90 · ×0,3 resto |
+
 
 Niveles: **alta** ≥70 · **media** 40–69 · **baja** <40.
 
@@ -111,17 +111,6 @@ python main.py
 ├── index.html + assets/               # dashboard estático (Cloudflare Pages)
 └── data/                              # iocs_latest.json / .csv + ioc_state.json (estado)
 ```
-
-## Troubleshooting
-
-- **El workflow no commitea**: revisa *Settings → Actions → General → Workflow permissions* y marca *Read and write permissions*.
-- **ThreatFox/URLhaus devuelven 401/403**: falta o es inválida la `ABUSECH_API_KEY`.
-- **Score o gravedad en «—» en la web**: los datos publicados los generó una versión antigua del pipeline; comprueba que `main.py` importa `enrich` y relanza *CTI Update*.
-- **Reputación en «—»**: faltan `VT_API_KEY` / `ABUSEIPDB_API_KEY`; el log del run lo confirma (`VirusTotal omitido: falta VT_API_KEY`).
-- **El run tarda ~10 minutos**: normal con VirusTotal activo (rate limit del plan gratuito) — no lo canceles.
-- **Push rechazado (`fetch first`)**: usa la versión actual del workflow, que serializa ejecuciones y rebasa antes de publicar.
-- **El cron deja de ejecutarse**: GitHub pausa los schedules tras 60 días sin actividad; los commits del bot cuentan como actividad, así que con que funcione no se pausará.
-
 ---
 
 ## 📊 Datos en vivo
