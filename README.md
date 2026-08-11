@@ -116,16 +116,14 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-11 02:06 UTC · **IOCs recolectados:** 835 · **CVEs KEV recientes:** 7
+**Última actualización:** 2026-08-11 07:18 UTC · **IOCs recolectados:** 902 · **CVEs KEV recientes:** 7
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 80 (alta) | media | `130[.]12[.]180[.]51:43782` | ip:port | RedTail | ThreatFox | 2026-08-10 06:17:50 UTC |
 | 76 (alta) | alta | `161[.]35[.]48[.]40:12345` | ip:port | Aisuru | ThreatFox | 2026-08-10 14:24:06 UTC |
-| 76 (alta) | alta | `161[.]35[.]48[.]40:9034` | ip:port | Aisuru | ThreatFox | 2026-08-10 06:18:08 UTC |
-| 75 (alta) | alta | `161[.]35[.]48[.]40:5555` | ip:port | Aisuru | ThreatFox | 2026-08-10 20:56:36 UTC |
+| 75 (alta) | alta | `161[.]35[.]48[.]40:5555` | ip:port | Aisuru | ThreatFox | 2026-08-11 05:46:11 UTC |
 | 71 (alta) | alta | `31[.]13[.]190[.]82:37393` | ip:port | Remcos | ThreatFox | 2026-08-10 14:10:45 UTC |
 | 71 (alta) | critica | `1441b32780ec0e76d09af693f62819c2d1ae8125` | sha1_hash | Havoc | ThreatFox | 2026-08-10 11:49:10 UTC |
 | 71 (alta) | critica | `33d103a950e97fb4c0f28d8cff985ba6` | md5_hash | Havoc | ThreatFox | 2026-08-10 11:49:10 UTC |
@@ -139,7 +137,6 @@ python main.py
 | 67 (media) | alta | `0e260f328a81040da84f79bb21d54953` | md5_hash | PureRAT | ThreatFox | 2026-08-10 11:49:09 UTC |
 | 67 (media) | alta | `965974f7bb6bd5c71da7d0ae843ea3f84229b74c` | sha1_hash | PureRAT | ThreatFox | 2026-08-10 11:49:08 UTC |
 | 67 (media) | alta | `da9442ac1174544216a00fb1792f7ee019cb708e47cd5948a9632e24285b36cb` | sha256_hash | PureRAT | ThreatFox | 2026-08-10 11:49:07 UTC |
-| 66 (media) | alta | `180[.]93[.]116[.]41:56999` | ip:port | Mirai | ThreatFox | 2026-08-10 06:18:01 UTC |
 | 64 (media) | media | `de71cf8817c3e91c8a00c22198bb36d6655f00e32741098ae5d81ec09ea69918` | sha256_hash | Kuiper | ThreatFox | 2026-08-10 11:49:11 UTC |
 | 64 (media) | media | `5df985e256e32dd57aaac1bad79672fbb44788ea` | sha1_hash | Kuiper | ThreatFox | 2026-08-10 11:49:11 UTC |
 | 64 (media) | media | `662d653f550544643f67c3891ff2cf2c` | md5_hash | Kuiper | ThreatFox | 2026-08-10 11:49:11 UTC |
@@ -147,6 +144,9 @@ python main.py
 | 63 (media) | alta | `37[.]120[.]146[.]146:37393` | ip:port | Remcos | ThreatFox | 2026-08-10 13:50:44 UTC |
 | 61 (media) | alta | `46[.]183[.]218[.]151:37393` | ip:port | Remcos | ThreatFox | 2026-08-10 13:40:44 UTC |
 | 61 (media) | media | `hxxps://id-verif-code[.]info/api[.]php` | url | Unknown malware | ThreatFox | 2026-08-10 07:33:29 UTC |
+| 60 (media) | alta | `91[.]92[.]42[.]22:6767` | ip:port | PureRAT | ThreatFox | 2026-08-10 19:46:44 UTC |
+| 60 (media) | alta | `91[.]92[.]42[.]22:443` | ip:port | PureRAT | ThreatFox | 2026-08-10 09:46:52 UTC |
+| 59 (media) | media | `46[.]246[.]4[.]9:7044` | ip:port | Vjw0rm | ThreatFox | 2026-08-10 17:45:11 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
