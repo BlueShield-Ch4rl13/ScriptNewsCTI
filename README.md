@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-11 07:18 UTC · **IOCs recolectados:** 902 · **CVEs KEV recientes:** 7
+**Última actualización:** 2026-08-11 13:28 UTC · **IOCs recolectados:** 832 · **CVEs KEV recientes:** 7
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 76 (alta) | alta | `161[.]35[.]48[.]40:12345` | ip:port | Aisuru | ThreatFox | 2026-08-10 14:24:06 UTC |
+| 75 (alta) | media | `106[.]13[.]23[.]149:6819` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:44 UTC |
 | 75 (alta) | alta | `161[.]35[.]48[.]40:5555` | ip:port | Aisuru | ThreatFox | 2026-08-11 05:46:11 UTC |
+| 74 (alta) | alta | `176[.]65[.]139[.]236:1337` | ip:port | Mirai | ThreatFox | 2026-08-11 12:48:51 UTC |
+| 72 (alta) | alta | `94[.]154[.]43[.]97:1302` | ip:port | Mirai | ThreatFox | 2026-08-11 11:26:37 UTC |
+| 72 (alta) | alta | `94[.]154[.]43[.]97:4330` | ip:port | Mirai | ThreatFox | 2026-08-11 11:26:37 UTC |
+| 72 (alta) | alta | `94[.]154[.]43[.]97:44321` | ip:port | Mirai | ThreatFox | 2026-08-11 11:26:36 UTC |
+| 71 (alta) | alta | `178[.]16[.]52[.]136:7707` | ip:port | AsyncRAT | ThreatFox | 2026-08-11 09:44:26 UTC |
 | 71 (alta) | alta | `31[.]13[.]190[.]82:37393` | ip:port | Remcos | ThreatFox | 2026-08-10 14:10:45 UTC |
-| 71 (alta) | critica | `1441b32780ec0e76d09af693f62819c2d1ae8125` | sha1_hash | Havoc | ThreatFox | 2026-08-10 11:49:10 UTC |
-| 71 (alta) | critica | `33d103a950e97fb4c0f28d8cff985ba6` | md5_hash | Havoc | ThreatFox | 2026-08-10 11:49:10 UTC |
-| 71 (alta) | critica | `904bb06ad9ad3c8e4aa980b96cbecad85c14bd994af013d77121723c85a5e1a9` | sha256_hash | Havoc | ThreatFox | 2026-08-10 11:49:09 UTC |
-| 70 (alta) | alta | `c829ecdfad04daba449fb93106f176c5fd065f3642b70cc46ab4285246a3057d` | sha256_hash | Creal Stealer | ThreatFox | 2026-08-10 11:49:06 UTC |
-| 70 (alta) | alta | `40bb4c848b9e8843d48884ded074af0dc183778d` | sha1_hash | Creal Stealer | ThreatFox | 2026-08-10 11:49:06 UTC |
+| 69 (media) | media | `114[.]67[.]87[.]14:60125` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:44 UTC |
+| 68 (media) | media | `222[.]213[.]23[.]56:60134` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:44 UTC |
+| 68 (media) | media | `132[.]243[.]225[.]173:7080` | ip:port | Unknown malware | ThreatFox | 2026-08-11 09:39:03 UTC |
 | 68 (media) | alta | `109[.]248[.]148[.]247:32734` | ip:port | Remcos | ThreatFox | 2026-08-10 14:20:24 UTC |
-| 68 (media) | alta | `2a167fbe58a9d874dda8798e9b0d773d9316a217256a7e3f1d0c5e3e26f9f03a` | sha256_hash | PureRAT | ThreatFox | 2026-08-10 11:49:07 UTC |
-| 68 (media) | alta | `666974fd5ab2ab200c8c87e1945708c9e4f2e76e` | sha1_hash | PureRAT | ThreatFox | 2026-08-10 11:49:07 UTC |
-| 68 (media) | alta | `325dd213f9a6f78e41cad30c49e0a178` | md5_hash | PureRAT | ThreatFox | 2026-08-10 11:49:07 UTC |
-| 67 (media) | alta | `0e260f328a81040da84f79bb21d54953` | md5_hash | PureRAT | ThreatFox | 2026-08-10 11:49:09 UTC |
-| 67 (media) | alta | `965974f7bb6bd5c71da7d0ae843ea3f84229b74c` | sha1_hash | PureRAT | ThreatFox | 2026-08-10 11:49:08 UTC |
-| 67 (media) | alta | `da9442ac1174544216a00fb1792f7ee019cb708e47cd5948a9632e24285b36cb` | sha256_hash | PureRAT | ThreatFox | 2026-08-10 11:49:07 UTC |
-| 64 (media) | media | `de71cf8817c3e91c8a00c22198bb36d6655f00e32741098ae5d81ec09ea69918` | sha256_hash | Kuiper | ThreatFox | 2026-08-10 11:49:11 UTC |
-| 64 (media) | media | `5df985e256e32dd57aaac1bad79672fbb44788ea` | sha1_hash | Kuiper | ThreatFox | 2026-08-10 11:49:11 UTC |
-| 64 (media) | media | `662d653f550544643f67c3891ff2cf2c` | md5_hash | Kuiper | ThreatFox | 2026-08-10 11:49:11 UTC |
-| 64 (media) | media | `158[.]94[.]211[.]92:80` | ip:port | Unknown malware | ThreatFox | 2026-08-10 07:33:28 UTC |
+| 64 (media) | media | `47[.]236[.]146[.]147:60134` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:44 UTC |
+| 63 (media) | media | `8[.]219[.]169[.]170:60119` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
+| 63 (media) | media | `47[.]236[.]70[.]102:60108` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:45 UTC |
+| 63 (media) | media | `47[.]236[.]172[.]100:60117` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:44 UTC |
 | 63 (media) | alta | `37[.]120[.]146[.]146:37393` | ip:port | Remcos | ThreatFox | 2026-08-10 13:50:44 UTC |
-| 61 (media) | alta | `46[.]183[.]218[.]151:37393` | ip:port | Remcos | ThreatFox | 2026-08-10 13:40:44 UTC |
-| 61 (media) | media | `hxxps://id-verif-code[.]info/api[.]php` | url | Unknown malware | ThreatFox | 2026-08-10 07:33:29 UTC |
-| 60 (media) | alta | `91[.]92[.]42[.]22:6767` | ip:port | PureRAT | ThreatFox | 2026-08-10 19:46:44 UTC |
-| 60 (media) | alta | `91[.]92[.]42[.]22:443` | ip:port | PureRAT | ThreatFox | 2026-08-10 09:46:52 UTC |
-| 59 (media) | media | `46[.]246[.]4[.]9:7044` | ip:port | Vjw0rm | ThreatFox | 2026-08-10 17:45:11 UTC |
+| 62 (media) | media | `8[.]219[.]241[.]116:60106` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
+| 62 (media) | media | `47[.]237[.]167[.]249:60128` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:45 UTC |
+| 61 (media) | media | `8[.]219[.]210[.]218:60139` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
+| 61 (media) | media | `8[.]219[.]69[.]227:60133` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
+| 61 (media) | media | `8[.]222[.]179[.]91:60122` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
+| 61 (media) | media | `47[.]237[.]127[.]21:60124` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:45 UTC |
+| 61 (media) | media | `47[.]236[.]122[.]72:60123` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:44 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
