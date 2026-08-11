@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-10 19:14 UTC · **IOCs recolectados:** 777 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-11 02:06 UTC · **IOCs recolectados:** 835 · **CVEs KEV recientes:** 7
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -125,6 +125,7 @@ python main.py
 | 80 (alta) | media | `130[.]12[.]180[.]51:43782` | ip:port | RedTail | ThreatFox | 2026-08-10 06:17:50 UTC |
 | 76 (alta) | alta | `161[.]35[.]48[.]40:12345` | ip:port | Aisuru | ThreatFox | 2026-08-10 14:24:06 UTC |
 | 76 (alta) | alta | `161[.]35[.]48[.]40:9034` | ip:port | Aisuru | ThreatFox | 2026-08-10 06:18:08 UTC |
+| 75 (alta) | alta | `161[.]35[.]48[.]40:5555` | ip:port | Aisuru | ThreatFox | 2026-08-10 20:56:36 UTC |
 | 71 (alta) | alta | `31[.]13[.]190[.]82:37393` | ip:port | Remcos | ThreatFox | 2026-08-10 14:10:45 UTC |
 | 71 (alta) | critica | `1441b32780ec0e76d09af693f62819c2d1ae8125` | sha1_hash | Havoc | ThreatFox | 2026-08-10 11:49:10 UTC |
 | 71 (alta) | critica | `33d103a950e97fb4c0f28d8cff985ba6` | md5_hash | Havoc | ThreatFox | 2026-08-10 11:49:10 UTC |
@@ -146,7 +147,6 @@ python main.py
 | 63 (media) | alta | `37[.]120[.]146[.]146:37393` | ip:port | Remcos | ThreatFox | 2026-08-10 13:50:44 UTC |
 | 61 (media) | alta | `46[.]183[.]218[.]151:37393` | ip:port | Remcos | ThreatFox | 2026-08-10 13:40:44 UTC |
 | 61 (media) | media | `hxxps://id-verif-code[.]info/api[.]php` | url | Unknown malware | ThreatFox | 2026-08-10 07:33:29 UTC |
-| 61 (media) | media | `hxxp://178[.]16[.]54[.]109/bolodo` | url | Phorpiex | ThreatFox | 2026-08-10 06:18:00 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -159,6 +159,4 @@ python main.py
 | CVE-2026-9198 | IBM Langflow | 2026-08-04 | Unknown |
 | CVE-2026-18577 | N-able N-central | 2026-08-03 | Unknown |
 | CVE-2026-20316 | Cisco Secure Firewall Management Center (FMC) | 2026-07-29 | Unknown |
-| CVE-2025-68686 | Fortinet FortiOS | 2026-07-27 | Unknown |
-| CVE-2026-16812 | Arista VeloCloud Orchestrator | 2026-07-27 | Unknown |
 <!-- CTI:END -->
