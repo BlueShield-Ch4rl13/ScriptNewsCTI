@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-11 19:19 UTC · **IOCs recolectados:** 812 · **CVEs KEV recientes:** 7
+**Última actualización:** 2026-08-12 02:34 UTC · **IOCs recolectados:** 839 · **CVEs KEV recientes:** 10
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -129,6 +129,7 @@ python main.py
 | 72 (alta) | alta | `94[.]154[.]43[.]97:4330` | ip:port | Mirai | ThreatFox | 2026-08-11 11:26:37 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]97:44321` | ip:port | Mirai | ThreatFox | 2026-08-11 11:26:36 UTC |
 | 71 (alta) | alta | `178[.]16[.]52[.]136:7707` | ip:port | AsyncRAT | ThreatFox | 2026-08-11 09:44:26 UTC |
+| 70 (alta) | alta | `130[.]12[.]182[.]39:5444` | ip:port | AsyncRAT | ThreatFox | 2026-08-11 19:43:27 UTC |
 | 69 (media) | media | `114[.]67[.]87[.]14:60125` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:44 UTC |
 | 68 (media) | media | `222[.]213[.]23[.]56:60134` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:44 UTC |
 | 68 (media) | media | `132[.]243[.]225[.]173:7080` | ip:port | Unknown malware | ThreatFox | 2026-08-11 09:39:03 UTC |
@@ -136,22 +137,24 @@ python main.py
 | 63 (media) | media | `8[.]219[.]169[.]170:60119` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
 | 63 (media) | media | `47[.]236[.]70[.]102:60108` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:45 UTC |
 | 63 (media) | media | `47[.]236[.]172[.]100:60117` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:44 UTC |
+| 62 (media) | media | `hxxp://158[.]255[.]83[.]180:39837/Mozi[.]7` | url | Mozi | ThreatFox, URLhaus | 2026-08-11 19:20:22 UTC |
 | 62 (media) | media | `8[.]219[.]241[.]116:60106` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
 | 62 (media) | media | `47[.]237[.]167[.]249:60128` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:45 UTC |
+| 61 (media) | alta | `hxxp://77[.]90[.]185[.]66/wget` | url | Mirai | ThreatFox, URLhaus | 2026-08-11 19:20:25 UTC |
+| 61 (media) | alta | `hxxp://77[.]90[.]185[.]66/mirai[.]mips` | url | Mirai | ThreatFox, URLhaus | 2026-08-11 19:20:25 UTC |
+| 61 (media) | alta | `hxxp://77[.]90[.]185[.]66/mirai[.]mpsl` | url | Mirai | ThreatFox, URLhaus | 2026-08-11 19:20:24 UTC |
+| 61 (media) | alta | `hxxp://77[.]90[.]185[.]66/mirai[.]arm` | url | Mirai | ThreatFox, URLhaus | 2026-08-11 19:20:24 UTC |
+| 61 (media) | alta | `hxxp://77[.]90[.]185[.]66/mirai[.]arm5` | url | Mirai | ThreatFox, URLhaus | 2026-08-11 19:20:23 UTC |
+| 61 (media) | alta | `hxxp://77[.]90[.]185[.]66/mirai[.]arm7` | url | Mirai | ThreatFox, URLhaus | 2026-08-11 19:20:23 UTC |
 | 61 (media) | media | `8[.]219[.]210[.]218:60139` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
-| 61 (media) | media | `8[.]219[.]69[.]227:60133` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
-| 61 (media) | media | `8[.]222[.]179[.]91:60122` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
-| 61 (media) | media | `47[.]237[.]127[.]21:60124` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:45 UTC |
-| 61 (media) | media | `47[.]236[.]122[.]72:60123` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:44 UTC |
-| 60 (media) | media | `8[.]219[.]155[.]47:60149` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
-| 60 (media) | media | `8[.]219[.]62[.]229:60143` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
-| 60 (media) | alta | `91[.]92[.]42[.]22:6767` | ip:port | PureRAT | ThreatFox | 2026-08-10 19:46:44 UTC |
-| 59 (media) | media | `64[.]226[.]68[.]236:60128` | ip:port | P2Pinfect | ThreatFox | 2026-08-11 12:28:46 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-20349 | Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)  | 2026-08-11 | Unknown |
+| CVE-2026-68820 | Microsoft Windows Ancillary Function Driver for WinSock  | 2026-08-11 | Unknown |
+| CVE-2026-72898 | Metabase Metabase | 2026-08-11 | Unknown |
 | CVE-2026-8037 | Progress LoadMaster | 2026-08-07 | Unknown |
 | CVE-2026-63077 | JetBrains TeamCity | 2026-08-05 | Unknown |
 | CVE-2026-18556 | N-able N-central | 2026-08-04 | Unknown |
