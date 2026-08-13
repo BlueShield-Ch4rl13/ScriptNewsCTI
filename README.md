@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-13 13:34 UTC · **IOCs recolectados:** 919 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-13 19:19 UTC · **IOCs recolectados:** 855 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -125,7 +125,6 @@ python main.py
 | 76 (alta) | alta | `3966dfc023858b3f3bd6aca6562964838aaa2e31` | sha1_hash | Nanocore RAT | ThreatFox | 2026-08-13 13:09:55 UTC |
 | 76 (alta) | alta | `7d4dcace32850c5e3e9d5dff5a6ef08d` | md5_hash | Nanocore RAT | ThreatFox | 2026-08-13 13:09:55 UTC |
 | 76 (alta) | alta | `4208d5e8fe67a312095ee467a08bd0d6ec6007f10922d03383e760b40e0e1dc9` | sha256_hash | Nanocore RAT | ThreatFox | 2026-08-13 13:09:54 UTC |
-| 75 (alta) | alta | `94[.]154[.]43[.]76:1312` | ip:port | Mirai | ThreatFox | 2026-08-12 17:32:16 UTC |
 | 69 (media) | media | `687e3c588e1d0482e8aae96a9ee780fe534dde01` | sha1_hash | Void | ThreatFox | 2026-08-13 13:09:48 UTC |
 | 69 (media) | media | `36612c13573375fb4c796f3569eb50c0` | md5_hash | Void | ThreatFox | 2026-08-13 13:09:48 UTC |
 | 69 (media) | media | `d0319eb0aad677d46a509fdcdf2c03e7c92cee9794cee70a79d3e84c564708c0` | sha256_hash | Void | ThreatFox | 2026-08-13 13:09:47 UTC |
@@ -133,7 +132,6 @@ python main.py
 | 68 (media) | alta | `3bb888cb49563f907b4b1305cd3c6a1eff227a5a` | sha1_hash | KrakenKeylogger | ThreatFox | 2026-08-13 13:09:53 UTC |
 | 68 (media) | alta | `f0227e480e845b98b91e385b898e9b47` | md5_hash | KrakenKeylogger | ThreatFox | 2026-08-13 13:09:53 UTC |
 | 68 (media) | alta | `c9548996fd7c80f449b61ab4706dce3d35307aa7215c8ff82788a513d6789e2d` | sha256_hash | KrakenKeylogger | ThreatFox | 2026-08-13 13:09:52 UTC |
-| 68 (media) | media | `31[.]77[.]227[.]121:18129` | ip:port | Unknown malware | ThreatFox | 2026-08-12 17:32:21 UTC |
 | 67 (media) | critica | `93[.]152[.]223[.]39:9443` | ip:port | Havoc | ThreatFox | 2026-08-13 06:48:22 UTC |
 | 67 (media) | critica | `93[.]152[.]223[.]39:8089` | ip:port | Havoc | ThreatFox | 2026-08-12 22:05:07 UTC |
 | 66 (media) | alta | `695fe5d40398a4f75c5125cffeb5bb1ab2117040` | sha1_hash | AsyncRAT | ThreatFox | 2026-08-13 13:09:46 UTC |
@@ -142,7 +140,9 @@ python main.py
 | 64 (media) | alta | `8ad256c5b786abb5f1552d906df3482a` | md5_hash | Quasar RAT | ThreatFox | 2026-08-13 13:09:52 UTC |
 | 64 (media) | alta | `b3c2f9ac068664bb861d7f8a59db533810032bc26d75fad48dbd0e2ba26413b2` | sha256_hash | Quasar RAT | ThreatFox | 2026-08-13 13:09:51 UTC |
 | 64 (media) | alta | `c321593cb3d8e279dfbdcf6d8bb94fac93cdc405` | sha1_hash | Quasar RAT | ThreatFox | 2026-08-13 13:09:51 UTC |
+| 63 (media) | critica | `159[.]203[.]165[.]107:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-08-13 14:05:05 UTC |
 | 62 (media) | alta | `hxxps://cloud-flare-authenticator[.]link/` | url | Stealc | ThreatFox | 2026-08-13 05:53:09 UTC |
+| 61 (media) | critica | `101[.]42[.]255[.]92:8443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-13 17:05:06 UTC |
 | 61 (media) | media | `0578ccbe64ee7f6c1f90cf656095dad7059b1587` | sha1_hash | NetWire RC | ThreatFox | 2026-08-13 13:09:50 UTC |
 | 61 (media) | media | `6ff68578110de0105fc3a1a1ab635dd3` | md5_hash | NetWire RC | ThreatFox | 2026-08-13 13:09:50 UTC |
 | 61 (media) | media | `46da9bf913828dfdc3cbfc435e414285ba5cb715` | sha1_hash | NetWire RC | ThreatFox | 2026-08-13 13:09:49 UTC |
