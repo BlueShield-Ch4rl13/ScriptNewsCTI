@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-12 19:19 UTC · **IOCs recolectados:** 1135 · **CVEs KEV recientes:** 10
+**Última actualización:** 2026-08-13 02:35 UTC · **IOCs recolectados:** 1149 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -125,12 +125,12 @@ python main.py
 | 75 (alta) | alta | `94[.]154[.]43[.]76:1312` | ip:port | Mirai | ThreatFox | 2026-08-12 17:32:16 UTC |
 | 75 (alta) | media | `152[.]32[.]240[.]167:9556` | ip:port | Unidentified Linux 001 | ThreatFox | 2026-08-12 05:56:53 UTC |
 | 72 (alta) | alta | `217[.]60[.]195[.]187:7075` | ip:port | Mirai | ThreatFox | 2026-08-12 08:48:33 UTC |
-| 70 (alta) | alta | `130[.]12[.]182[.]39:5444` | ip:port | AsyncRAT | ThreatFox | 2026-08-11 19:43:27 UTC |
 | 69 (media) | media | `hxxp://192[.]162[.]199[.]249/8jot5vdohds0imt4` | url | AMOS | ThreatFox, URLhaus | 2026-08-12 17:32:42 UTC |
 | 69 (media) | critica | `93[.]152[.]223[.]39:9090` | ip:port | Havoc | ThreatFox | 2026-08-12 06:05:09 UTC |
 | 69 (media) | critica | `93[.]152[.]223[.]39:8080` | ip:port | Havoc | ThreatFox | 2026-08-12 06:05:07 UTC |
 | 69 (media) | critica | `93[.]152[.]223[.]39:22` | ip:port | Havoc | ThreatFox | 2026-08-12 06:05:06 UTC |
 | 68 (media) | media | `31[.]77[.]227[.]121:18129` | ip:port | Unknown malware | ThreatFox | 2026-08-12 17:32:21 UTC |
+| 67 (media) | critica | `93[.]152[.]223[.]39:8089` | ip:port | Havoc | ThreatFox | 2026-08-12 22:05:07 UTC |
 | 67 (media) | critica | `93[.]152[.]223[.]39:5900` | ip:port | Havoc | ThreatFox | 2026-08-12 05:05:07 UTC |
 | 67 (media) | critica | `93[.]152[.]223[.]39:80` | ip:port | Havoc | ThreatFox | 2026-08-12 05:05:06 UTC |
 | 67 (media) | critica | `93[.]152[.]223[.]39:443` | ip:port | Havoc | ThreatFox | 2026-08-12 05:05:06 UTC |
@@ -141,12 +141,12 @@ python main.py
 | 66 (media) | media | `hxxp://192[.]162[.]199[.]249/zeb8cgwmkkpvu7pc` | url | AMOS | ThreatFox, URLhaus | 2026-08-12 17:32:40 UTC |
 | 66 (media) | media | `hxxp://192[.]162[.]199[.]249/ezaenul9` | url | AMOS | ThreatFox, URLhaus | 2026-08-12 17:32:39 UTC |
 | 66 (media) | media | `hxxp://192[.]162[.]199[.]249/1vo6lm4y50k3ww0f` | url | AMOS | ThreatFox, URLhaus | 2026-08-12 17:32:39 UTC |
+| 62 (media) | alta | `hxxps://cloud-flare-authenticator[.]link/` | url | Stealc | ThreatFox | 2026-08-13 01:00:57 UTC |
+| 60 (media) | alta | `217[.]60[.]241[.]247:8808` | ip:port | AsyncRAT | ThreatFox | 2026-08-12 19:45:37 UTC |
 | 60 (media) | alta | `cloud-flare-authenticator[.]link` | domain | Stealc | ThreatFox | 2026-08-12 13:05:17 UTC |
-| 60 (media) | media | `113[.]44[.]90[.]0:8787` | ip:port | Unknown malware | ThreatFox | 2026-08-11 23:05:08 UTC |
-| 59 (media) | media | `blessdayservices[.]org` | domain | Unknown malware | ThreatFox | 2026-08-11 23:05:46 UTC |
-| 58 (media) | alta | `158[.]94[.]208[.]101:888` | ip:port | AsyncRAT | ThreatFox | 2026-08-12 13:05:07 UTC |
-| 58 (media) | alta | `217[.]60[.]195[.]74:443` | ip:port | XWorm | ThreatFox | 2026-08-12 08:12:00 UTC |
-| 57 (media) | critica | `159[.]75[.]123[.]199:9090` | ip:port | Cobalt Strike | ThreatFox | 2026-08-12 19:05:08 UTC |
+| 59 (media) | critica | `138[.]226[.]236[.]52:80` | ip:port | AdaptixC2 | ThreatFox | 2026-08-13 02:05:06 UTC |
+| 59 (media) | media | `8[.]134[.]51[.]218:8098` | ip:port | VShell | ThreatFox | 2026-08-13 01:05:07 UTC |
+| 59 (media) | critica | `138[.]226[.]236[.]52:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-08-13 00:05:06 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -161,5 +161,4 @@ python main.py
 | CVE-2026-34486 | Apache Tomcat | 2026-08-04 | Unknown |
 | CVE-2026-9198 | IBM Langflow | 2026-08-04 | Unknown |
 | CVE-2026-18577 | N-able N-central | 2026-08-03 | Unknown |
-| CVE-2026-20316 | Cisco Secure Firewall Management Center (FMC) | 2026-07-29 | Unknown |
 <!-- CTI:END -->
