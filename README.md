@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-14 02:34 UTC · **IOCs recolectados:** 1033 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-14 07:50 UTC · **IOCs recolectados:** 1051 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -126,6 +126,9 @@ python main.py
 | 76 (alta) | alta | `7d4dcace32850c5e3e9d5dff5a6ef08d` | md5_hash | Nanocore RAT | ThreatFox | 2026-08-13 13:09:55 UTC |
 | 76 (alta) | alta | `4208d5e8fe67a312095ee467a08bd0d6ec6007f10922d03383e760b40e0e1dc9` | sha256_hash | Nanocore RAT | ThreatFox | 2026-08-13 13:09:54 UTC |
 | 71 (alta) | alta | `104[.]251[.]180[.]164:55006` | ip:port | PureRAT | ThreatFox | 2026-08-13 19:43:15 UTC |
+| 70 (alta) | alta | `160[.]119[.]71[.]134:2` | ip:port | Mirai | ThreatFox | 2026-08-14 06:18:50 UTC |
+| 70 (alta) | alta | `160[.]119[.]71[.]134:2049` | ip:port | Mirai | ThreatFox | 2026-08-14 06:18:49 UTC |
+| 70 (alta) | alta | `160[.]119[.]71[.]134:23` | ip:port | Mirai | ThreatFox | 2026-08-14 06:18:49 UTC |
 | 69 (media) | media | `687e3c588e1d0482e8aae96a9ee780fe534dde01` | sha1_hash | Void | ThreatFox | 2026-08-13 13:09:48 UTC |
 | 69 (media) | media | `36612c13573375fb4c796f3569eb50c0` | md5_hash | Void | ThreatFox | 2026-08-13 13:09:48 UTC |
 | 69 (media) | media | `d0319eb0aad677d46a509fdcdf2c03e7c92cee9794cee70a79d3e84c564708c0` | sha256_hash | Void | ThreatFox | 2026-08-13 13:09:47 UTC |
@@ -133,20 +136,17 @@ python main.py
 | 68 (media) | alta | `3bb888cb49563f907b4b1305cd3c6a1eff227a5a` | sha1_hash | KrakenKeylogger | ThreatFox | 2026-08-13 13:09:53 UTC |
 | 68 (media) | alta | `f0227e480e845b98b91e385b898e9b47` | md5_hash | KrakenKeylogger | ThreatFox | 2026-08-13 13:09:53 UTC |
 | 68 (media) | alta | `c9548996fd7c80f449b61ab4706dce3d35307aa7215c8ff82788a513d6789e2d` | sha256_hash | KrakenKeylogger | ThreatFox | 2026-08-13 13:09:52 UTC |
-| 67 (media) | critica | `93[.]152[.]223[.]39:9443` | ip:port | Havoc | ThreatFox | 2026-08-13 06:48:22 UTC |
 | 66 (media) | alta | `695fe5d40398a4f75c5125cffeb5bb1ab2117040` | sha1_hash | AsyncRAT | ThreatFox | 2026-08-13 13:09:46 UTC |
 | 66 (media) | alta | `1bb0a4abcc83dd82f0c7da52ce5d9e8a` | md5_hash | AsyncRAT | ThreatFox | 2026-08-13 13:09:46 UTC |
 | 66 (media) | alta | `e87d14fd46969a5a2341482f1e1082f00a84520b9d6fe7138807584c83a25269` | sha256_hash | AsyncRAT | ThreatFox | 2026-08-13 13:09:45 UTC |
+| 65 (media) | media | `hxxp://217[.]60[.]36[.]94/test/test[.]bef_fri` | url | MoonPeak | ThreatFox, URLhaus | 2026-08-14 06:20:14 UTC |
+| 65 (media) | media | `hxxp://217[.]60[.]36[.]94/william/wi[.]txt` | url | MoonPeak | ThreatFox, URLhaus | 2026-08-14 06:20:14 UTC |
+| 65 (media) | media | `hxxp://217[.]60[.]36[.]94/test/p[.]txt` | url | MoonPeak | ThreatFox, URLhaus | 2026-08-14 06:20:13 UTC |
 | 64 (media) | alta | `8ad256c5b786abb5f1552d906df3482a` | md5_hash | Quasar RAT | ThreatFox | 2026-08-13 13:09:52 UTC |
 | 64 (media) | alta | `b3c2f9ac068664bb861d7f8a59db533810032bc26d75fad48dbd0e2ba26413b2` | sha256_hash | Quasar RAT | ThreatFox | 2026-08-13 13:09:51 UTC |
 | 64 (media) | alta | `c321593cb3d8e279dfbdcf6d8bb94fac93cdc405` | sha1_hash | Quasar RAT | ThreatFox | 2026-08-13 13:09:51 UTC |
 | 63 (media) | critica | `159[.]203[.]165[.]107:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-08-13 14:05:05 UTC |
-| 62 (media) | alta | `hxxps://cloud-flare-authenticator[.]link/` | url | Stealc | ThreatFox | 2026-08-13 05:53:09 UTC |
-| 61 (media) | critica | `101[.]42[.]255[.]92:8443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-13 17:05:06 UTC |
-| 61 (media) | media | `0578ccbe64ee7f6c1f90cf656095dad7059b1587` | sha1_hash | NetWire RC | ThreatFox | 2026-08-13 13:09:50 UTC |
-| 61 (media) | media | `6ff68578110de0105fc3a1a1ab635dd3` | md5_hash | NetWire RC | ThreatFox | 2026-08-13 13:09:50 UTC |
-| 61 (media) | media | `46da9bf913828dfdc3cbfc435e414285ba5cb715` | sha1_hash | NetWire RC | ThreatFox | 2026-08-13 13:09:49 UTC |
-| 61 (media) | media | `ef5b6211a47d0bec3ddb8d77b9c9586a` | md5_hash | NetWire RC | ThreatFox | 2026-08-13 13:09:49 UTC |
+| 61 (media) | media | `hxxp://36[.]70[.]68[.]244:54909/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-14 06:18:48 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
