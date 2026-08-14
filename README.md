@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-13 19:19 UTC · **IOCs recolectados:** 855 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-14 02:34 UTC · **IOCs recolectados:** 1033 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -125,6 +125,7 @@ python main.py
 | 76 (alta) | alta | `3966dfc023858b3f3bd6aca6562964838aaa2e31` | sha1_hash | Nanocore RAT | ThreatFox | 2026-08-13 13:09:55 UTC |
 | 76 (alta) | alta | `7d4dcace32850c5e3e9d5dff5a6ef08d` | md5_hash | Nanocore RAT | ThreatFox | 2026-08-13 13:09:55 UTC |
 | 76 (alta) | alta | `4208d5e8fe67a312095ee467a08bd0d6ec6007f10922d03383e760b40e0e1dc9` | sha256_hash | Nanocore RAT | ThreatFox | 2026-08-13 13:09:54 UTC |
+| 71 (alta) | alta | `104[.]251[.]180[.]164:55006` | ip:port | PureRAT | ThreatFox | 2026-08-13 19:43:15 UTC |
 | 69 (media) | media | `687e3c588e1d0482e8aae96a9ee780fe534dde01` | sha1_hash | Void | ThreatFox | 2026-08-13 13:09:48 UTC |
 | 69 (media) | media | `36612c13573375fb4c796f3569eb50c0` | md5_hash | Void | ThreatFox | 2026-08-13 13:09:48 UTC |
 | 69 (media) | media | `d0319eb0aad677d46a509fdcdf2c03e7c92cee9794cee70a79d3e84c564708c0` | sha256_hash | Void | ThreatFox | 2026-08-13 13:09:47 UTC |
@@ -133,7 +134,6 @@ python main.py
 | 68 (media) | alta | `f0227e480e845b98b91e385b898e9b47` | md5_hash | KrakenKeylogger | ThreatFox | 2026-08-13 13:09:53 UTC |
 | 68 (media) | alta | `c9548996fd7c80f449b61ab4706dce3d35307aa7215c8ff82788a513d6789e2d` | sha256_hash | KrakenKeylogger | ThreatFox | 2026-08-13 13:09:52 UTC |
 | 67 (media) | critica | `93[.]152[.]223[.]39:9443` | ip:port | Havoc | ThreatFox | 2026-08-13 06:48:22 UTC |
-| 67 (media) | critica | `93[.]152[.]223[.]39:8089` | ip:port | Havoc | ThreatFox | 2026-08-12 22:05:07 UTC |
 | 66 (media) | alta | `695fe5d40398a4f75c5125cffeb5bb1ab2117040` | sha1_hash | AsyncRAT | ThreatFox | 2026-08-13 13:09:46 UTC |
 | 66 (media) | alta | `1bb0a4abcc83dd82f0c7da52ce5d9e8a` | md5_hash | AsyncRAT | ThreatFox | 2026-08-13 13:09:46 UTC |
 | 66 (media) | alta | `e87d14fd46969a5a2341482f1e1082f00a84520b9d6fe7138807584c83a25269` | sha256_hash | AsyncRAT | ThreatFox | 2026-08-13 13:09:45 UTC |
