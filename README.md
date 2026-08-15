@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-15 12:58 UTC · **IOCs recolectados:** 1688 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-15 18:47 UTC · **IOCs recolectados:** 1396 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -124,29 +124,29 @@ python main.py
 |---|---|---|---|---|---|---|
 | 71 (alta) | alta | `178[.]16[.]52[.]136:3009` | ip:port | AsyncRAT | ThreatFox | 2026-08-14 19:44:10 UTC |
 | 71 (alta) | alta | `176[.]65[.]139[.]232:80` | ip:port | Mirai | ThreatFox | 2026-08-14 19:44:08 UTC |
+| 69 (media) | alta | `f9c60eb51354ab07885428d7b868ade6` | md5_hash | Vidar | ThreatFox | 2026-08-15 17:17:40 UTC |
+| 69 (media) | alta | `63eedb85b370d3d55a6023987dc1ca36c49074b364804b3187aa9db9eac2dd33` | sha256_hash | Vidar | ThreatFox | 2026-08-15 17:17:39 UTC |
+| 69 (media) | alta | `89dba32d78049d5650f10eb53173461a4969b673` | sha1_hash | Vidar | ThreatFox | 2026-08-15 17:17:39 UTC |
+| 69 (media) | alta | `9327108ce3c50647935244813d506f4d` | md5_hash | Vidar | ThreatFox | 2026-08-15 17:17:33 UTC |
+| 65 (media) | media | `56160fa06b16e3822879e77aa47f0764` | md5_hash | Kuiper | ThreatFox | 2026-08-15 17:17:39 UTC |
+| 65 (media) | media | `dc33f06c86f021af72cc89e1feafa16dad624d43a79242ab738518480a0aef88` | sha256_hash | Kuiper | ThreatFox | 2026-08-15 17:17:38 UTC |
+| 65 (media) | media | `6e6db8bfff48fb23ca12b33a4c0272d787633e06` | sha1_hash | Kuiper | ThreatFox | 2026-08-15 17:17:38 UTC |
+| 65 (media) | media | `f3d99d574240983bcf016ef1c477d2d3c764966a` | sha1_hash | Coinminer | ThreatFox | 2026-08-15 17:17:37 UTC |
+| 65 (media) | media | `57dacba3658cf6df28ae9d54c10c98c9` | md5_hash | Coinminer | ThreatFox | 2026-08-15 17:17:37 UTC |
+| 65 (media) | media | `958f41d1487994caa3cacb8e52176712efa9d13115ea95587c6dec3658bbcee3` | sha256_hash | Coinminer | ThreatFox | 2026-08-15 17:17:36 UTC |
+| 64 (media) | media | `hxxp://111[.]127[.]232[.]94:58633/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-15 15:42:00 UTC |
+| 64 (media) | media | `hxxp://105[.]186[.]143[.]37:55447/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-08-15 15:41:56 UTC |
+| 61 (media) | media | `40ee71fb1e584d320db1dcbc71e8b00a2b1b0cac` | sha1_hash | stealler | ThreatFox | 2026-08-15 17:17:42 UTC |
+| 61 (media) | media | `84412c10b460870f3f9a5db8df5c4fb1` | md5_hash | stealler | ThreatFox | 2026-08-15 17:17:42 UTC |
+| 61 (media) | media | `d4aaf92e411b242f454647d7a6d1b3657a4699e419b273e7e4b63ce4d2cccb3c` | sha256_hash | stealler | ThreatFox | 2026-08-15 17:17:41 UTC |
+| 61 (media) | alta | `fb837122ffb8b7041986db79fdd5e908d8ec38c8` | sha1_hash | Vidar | ThreatFox | 2026-08-15 17:17:34 UTC |
+| 61 (media) | alta | `4d4dad091692dc25b7ab60efab9fc5e3` | md5_hash | Vidar | ThreatFox | 2026-08-15 17:17:34 UTC |
+| 61 (media) | alta | `f2b7f869036f558eabe71d5f73820dd56a58269d3db1435f26daeeb687c49f9d` | sha256_hash | Vidar | ThreatFox | 2026-08-15 17:17:33 UTC |
+| 61 (media) | media | `hxxp://218[.]0[.]112[.]226:51471/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-08-15 15:42:38 UTC |
 | 61 (media) | critica | `64[.]227[.]74[.]35:443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-14 19:46:21 UTC |
 | 60 (media) | media | `garanti-sans-virus[.]com` | domain | IClickFix | ThreatFox | 2026-08-15 11:47:11 UTC |
 | 59 (media) | alta | `104[.]243[.]248[.]63:412` | ip:port | AsyncRAT | ThreatFox | 2026-08-15 11:05:07 UTC |
 | 59 (media) | alta | `13[.]248[.]243[.]5:443` | ip:port | Nanocore RAT | ThreatFox | 2026-08-15 05:05:06 UTC |
-| 58 (media) | media | `xplayduels[.]com` | domain | IClickFix | ThreatFox | 2026-08-15 11:47:14 UTC |
-| 58 (media) | alta | `64[.]89[.]161[.]196:4444` | ip:port | DCRat | ThreatFox | 2026-08-14 19:46:22 UTC |
-| 58 (media) | alta | `46[.]101[.]133[.]159:8001` | ip:port | Aisuru | ThreatFox | 2026-08-14 18:20:05 UTC |
-| 57 (media) | media | `156[.]239[.]47[.]245:3232` | ip:port | Unknown malware | ThreatFox | 2026-08-15 12:05:08 UTC |
-| 57 (media) | media | `rovalue[.]info` | domain | IClickFix | ThreatFox | 2026-08-15 11:47:13 UTC |
-| 57 (media) | media | `pedrosdevelop[.]xyz` | domain | IClickFix | ThreatFox | 2026-08-15 11:47:12 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:1009` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:42 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:6969` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:42 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:14` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:2049` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:1005` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:1003` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:1002` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:1001` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:1008` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:1013` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:1014` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:1007` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
-| 57 (media) | alta | `45[.]38[.]249[.]63:1011` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:41 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
