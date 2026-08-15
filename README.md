@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-15 01:46 UTC · **IOCs recolectados:** 2475 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-15 06:57 UTC · **IOCs recolectados:** 2327 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -126,9 +126,6 @@ python main.py
 | 71 (alta) | alta | `178[.]16[.]52[.]136:3009` | ip:port | AsyncRAT | ThreatFox | 2026-08-14 19:44:10 UTC |
 | 71 (alta) | alta | `176[.]65[.]139[.]232:80` | ip:port | Mirai | ThreatFox | 2026-08-14 19:44:08 UTC |
 | 71 (alta) | alta | `104[.]251[.]180[.]164:55009` | ip:port | PureRAT | ThreatFox | 2026-08-14 09:43:13 UTC |
-| 70 (alta) | alta | `160[.]119[.]71[.]134:2` | ip:port | Mirai | ThreatFox | 2026-08-14 06:18:50 UTC |
-| 70 (alta) | alta | `160[.]119[.]71[.]134:2049` | ip:port | Mirai | ThreatFox | 2026-08-14 06:18:49 UTC |
-| 70 (alta) | alta | `160[.]119[.]71[.]134:23` | ip:port | Mirai | ThreatFox | 2026-08-14 06:18:49 UTC |
 | 62 (media) | media | `b5248924bb215076323efa59a05a011d6199bbe1` | sha1_hash | NetWire RC | ThreatFox | 2026-08-14 12:10:54 UTC |
 | 62 (media) | media | `626e45681bd083f5f85acd0f6aefe5bc` | md5_hash | NetWire RC | ThreatFox | 2026-08-14 12:10:54 UTC |
 | 61 (media) | critica | `64[.]227[.]74[.]35:443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-14 19:46:21 UTC |
@@ -141,12 +138,15 @@ python main.py
 | 60 (media) | media | `3b5870ca6edb52e878ddadcaa9ade7f8` | md5_hash | Kuiper | ThreatFox | 2026-08-14 12:10:55 UTC |
 | 60 (media) | media | `a86215689dcc155290c3bbf9cf9e0da4d82681ffccab1a490965805ba26d7d76` | sha256_hash | NetWire RC | ThreatFox | 2026-08-14 12:10:55 UTC |
 | 60 (media) | alta | `217[.]60[.]241[.]247:7707` | ip:port | AsyncRAT | ThreatFox | 2026-08-14 09:45:24 UTC |
+| 59 (media) | alta | `13[.]248[.]243[.]5:443` | ip:port | Nanocore RAT | ThreatFox | 2026-08-15 05:05:06 UTC |
 | 59 (media) | alta | `bedpocket[.]xyz` | domain | Unknown Loader | ThreatFox | 2026-08-14 07:33:34 UTC |
-| 59 (media) | alta | `bg678[.]tamilkamaveri[.]pro` | domain | AsyncRAT | ThreatFox | 2026-08-14 06:19:08 UTC |
 | 58 (media) | alta | `64[.]89[.]161[.]196:4444` | ip:port | DCRat | ThreatFox | 2026-08-14 19:46:22 UTC |
 | 58 (media) | alta | `46[.]101[.]133[.]159:8001` | ip:port | Aisuru | ThreatFox | 2026-08-14 18:20:05 UTC |
 | 58 (media) | alta | `alvin[.]bet` | domain | ClearFake | ThreatFox | 2026-08-14 12:20:49 UTC |
 | 58 (media) | alta | `beardiscovery[.]xyz` | domain | Unknown Loader | ThreatFox | 2026-08-14 07:36:18 UTC |
+| 58 (media) | alta | `hxxps://digitalenterprise2026[.]com/ZxC9vBnM7lKjH3gF` | url | ClearFake | ThreatFox | 2026-08-14 07:00:32 UTC |
+| 57 (media) | alta | `45[.]38[.]249[.]63:1009` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:42 UTC |
+| 57 (media) | alta | `45[.]38[.]249[.]63:6969` | ip:port | Mirai | ThreatFox | 2026-08-15 06:40:42 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
