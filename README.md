@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-16 12:59 UTC · **IOCs recolectados:** 1124 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-16 18:46 UTC · **IOCs recolectados:** 816 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 69 (media) | alta | `f9c60eb51354ab07885428d7b868ade6` | md5_hash | Vidar | ThreatFox | 2026-08-15 17:17:40 UTC |
-| 69 (media) | alta | `63eedb85b370d3d55a6023987dc1ca36c49074b364804b3187aa9db9eac2dd33` | sha256_hash | Vidar | ThreatFox | 2026-08-15 17:17:39 UTC |
-| 69 (media) | alta | `89dba32d78049d5650f10eb53173461a4969b673` | sha1_hash | Vidar | ThreatFox | 2026-08-15 17:17:39 UTC |
-| 69 (media) | alta | `9327108ce3c50647935244813d506f4d` | md5_hash | Vidar | ThreatFox | 2026-08-15 17:17:33 UTC |
-| 65 (media) | media | `56160fa06b16e3822879e77aa47f0764` | md5_hash | Kuiper | ThreatFox | 2026-08-15 17:17:39 UTC |
-| 65 (media) | media | `dc33f06c86f021af72cc89e1feafa16dad624d43a79242ab738518480a0aef88` | sha256_hash | Kuiper | ThreatFox | 2026-08-15 17:17:38 UTC |
-| 65 (media) | media | `6e6db8bfff48fb23ca12b33a4c0272d787633e06` | sha1_hash | Kuiper | ThreatFox | 2026-08-15 17:17:38 UTC |
-| 65 (media) | media | `f3d99d574240983bcf016ef1c477d2d3c764966a` | sha1_hash | Coinminer | ThreatFox | 2026-08-15 17:17:37 UTC |
-| 65 (media) | media | `57dacba3658cf6df28ae9d54c10c98c9` | md5_hash | Coinminer | ThreatFox | 2026-08-15 17:17:37 UTC |
-| 65 (media) | media | `958f41d1487994caa3cacb8e52176712efa9d13115ea95587c6dec3658bbcee3` | sha256_hash | Coinminer | ThreatFox | 2026-08-15 17:17:36 UTC |
-| 63 (media) | media | `154[.]91[.]180[.]246:18081` | ip:port | VShell | ThreatFox | 2026-08-15 22:51:12 UTC |
+| 64 (media) | alta | `43[.]224[.]224[.]66:7800` | ip:port | ValleyRAT | ThreatFox | 2026-08-16 14:20:19 UTC |
+| 64 (media) | alta | `43[.]224[.]224[.]66:7811` | ip:port | ValleyRAT | ThreatFox | 2026-08-16 14:20:16 UTC |
+| 63 (media) | media | `154[.]91[.]180[.]246:18081` | ip:port | VShell | ThreatFox | 2026-08-16 13:04:25 UTC |
 | 61 (media) | critica | `101[.]42[.]255[.]92:8001` | ip:port | Cobalt Strike | ThreatFox | 2026-08-16 05:05:06 UTC |
-| 61 (media) | media | `40ee71fb1e584d320db1dcbc71e8b00a2b1b0cac` | sha1_hash | stealler | ThreatFox | 2026-08-15 17:17:42 UTC |
-| 61 (media) | media | `84412c10b460870f3f9a5db8df5c4fb1` | md5_hash | stealler | ThreatFox | 2026-08-15 17:17:42 UTC |
-| 61 (media) | media | `d4aaf92e411b242f454647d7a6d1b3657a4699e419b273e7e4b63ce4d2cccb3c` | sha256_hash | stealler | ThreatFox | 2026-08-15 17:17:41 UTC |
-| 61 (media) | alta | `fb837122ffb8b7041986db79fdd5e908d8ec38c8` | sha1_hash | Vidar | ThreatFox | 2026-08-15 17:17:34 UTC |
-| 61 (media) | alta | `4d4dad091692dc25b7ab60efab9fc5e3` | md5_hash | Vidar | ThreatFox | 2026-08-15 17:17:34 UTC |
-| 61 (media) | alta | `f2b7f869036f558eabe71d5f73820dd56a58269d3db1435f26daeeb687c49f9d` | sha256_hash | Vidar | ThreatFox | 2026-08-15 17:17:33 UTC |
+| 60 (media) | alta | `admetricslab[.]org` | domain | Unknown Loader | ThreatFox | 2026-08-16 13:03:41 UTC |
+| 60 (media) | alta | `hxxps://admetricslab[.]org` | url | Unknown Loader | ThreatFox | 2026-08-16 13:03:40 UTC |
+| 60 (media) | alta | `hxxps://soft-update[.]dev` | url | Unknown Loader | ThreatFox | 2026-08-16 13:03:40 UTC |
 | 60 (media) | critica | `108[.]165[.]147[.]244:8081` | ip:port | Cobalt Strike | ThreatFox | 2026-08-16 06:05:05 UTC |
 | 60 (media) | alta | `6cad154538301583429bf7ebe03f812afa33e4d2207ce54b2e488f3cc74e4eba` | sha256_hash | ClearFake | ThreatFox | 2026-08-16 01:52:58 UTC |
-| 60 (media) | alta | `hxxps://soft-update[.]dev` | url | Unknown Loader | ThreatFox | 2026-08-15 23:00:52 UTC |
-| 60 (media) | alta | `hxxps://admetricslab[.]org` | url | Unknown Loader | ThreatFox | 2026-08-15 23:00:51 UTC |
-| 60 (media) | alta | `admetricslab[.]org` | domain | Unknown Loader | ThreatFox | 2026-08-15 22:59:52 UTC |
-| 59 (media) | alta | `soft-update[.]dev` | domain | Unknown Loader | ThreatFox | 2026-08-15 22:59:52 UTC |
+| 59 (media) | alta | `soft-update[.]dev` | domain | Unknown Loader | ThreatFox | 2026-08-16 13:03:41 UTC |
+| 58 (media) | alta | `hxxps://coldformat[.]info/usa` | url | Unknown Loader | ThreatFox | 2026-08-16 17:12:48 UTC |
+| 58 (media) | alta | `46[.]101[.]133[.]159:8443` | ip:port | Aisuru | ThreatFox | 2026-08-16 13:03:49 UTC |
+| 58 (media) | alta | `attr-sdk[.]tech` | domain | Unknown Loader | ThreatFox | 2026-08-16 13:03:40 UTC |
+| 58 (media) | alta | `hxxps://attr-sdk[.]tech` | url | Unknown Loader | ThreatFox | 2026-08-16 13:03:39 UTC |
 | 58 (media) | media | `2[.]27[.]63[.]244:443` | ip:port | Unknown malware | ThreatFox | 2026-08-16 05:05:05 UTC |
+| 58 (media) | critica | `149[.]88[.]66[.]234:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-16 01:05:07 UTC |
+| 58 (media) | alta | `195[.]177[.]94[.]19:56001` | ip:port | PureRAT | ThreatFox | 2026-08-15 19:44:44 UTC |
+| 58 (media) | alta | `195[.]177[.]94[.]19:56002` | ip:port | PureRAT | ThreatFox | 2026-08-15 19:44:44 UTC |
+| 57 (media) | alta | `coldformat[.]info` | domain | Unknown Loader | ThreatFox | 2026-08-16 17:12:08 UTC |
+| 56 (media) | alta | `hxxps://rnd[.]sm188dadu[.]top/` | url | Vidar | ThreatFox | 2026-08-16 18:15:06 UTC |
+| 56 (media) | alta | `rnd[.]sm188dadu[.]top` | domain | Vidar | ThreatFox | 2026-08-16 18:15:05 UTC |
+| 56 (media) | alta | `1p3iya3c[.]usen-slimsounds[.]com` | domain | ClearFake | ThreatFox | 2026-08-16 16:47:55 UTC |
+| 56 (media) | alta | `103[.]240[.]196[.]115:7800` | ip:port | ValleyRAT | ThreatFox | 2026-08-16 16:15:20 UTC |
+| 56 (media) | alta | `103[.]240[.]196[.]115:7811` | ip:port | ValleyRAT | ThreatFox | 2026-08-16 16:15:17 UTC |
+| 56 (media) | media | `hxxp://tokjoza[.]shop:5200/exports` | url | Remus | ThreatFox | 2026-08-16 15:45:24 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
