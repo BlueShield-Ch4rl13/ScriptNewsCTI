@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-16 01:53 UTC · **IOCs recolectados:** 1105 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-16 06:59 UTC · **IOCs recolectados:** 924 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -132,16 +132,16 @@ python main.py
 | 65 (media) | media | `f3d99d574240983bcf016ef1c477d2d3c764966a` | sha1_hash | Coinminer | ThreatFox | 2026-08-15 17:17:37 UTC |
 | 65 (media) | media | `57dacba3658cf6df28ae9d54c10c98c9` | md5_hash | Coinminer | ThreatFox | 2026-08-15 17:17:37 UTC |
 | 65 (media) | media | `958f41d1487994caa3cacb8e52176712efa9d13115ea95587c6dec3658bbcee3` | sha256_hash | Coinminer | ThreatFox | 2026-08-15 17:17:36 UTC |
-| 64 (media) | media | `hxxp://111[.]127[.]232[.]94:58633/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-15 15:42:00 UTC |
-| 64 (media) | media | `hxxp://105[.]186[.]143[.]37:55447/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-08-15 15:41:56 UTC |
 | 63 (media) | media | `154[.]91[.]180[.]246:18081` | ip:port | VShell | ThreatFox | 2026-08-15 22:51:12 UTC |
+| 61 (media) | critica | `101[.]42[.]255[.]92:8001` | ip:port | Cobalt Strike | ThreatFox | 2026-08-16 05:05:06 UTC |
 | 61 (media) | media | `40ee71fb1e584d320db1dcbc71e8b00a2b1b0cac` | sha1_hash | stealler | ThreatFox | 2026-08-15 17:17:42 UTC |
 | 61 (media) | media | `84412c10b460870f3f9a5db8df5c4fb1` | md5_hash | stealler | ThreatFox | 2026-08-15 17:17:42 UTC |
 | 61 (media) | media | `d4aaf92e411b242f454647d7a6d1b3657a4699e419b273e7e4b63ce4d2cccb3c` | sha256_hash | stealler | ThreatFox | 2026-08-15 17:17:41 UTC |
 | 61 (media) | alta | `fb837122ffb8b7041986db79fdd5e908d8ec38c8` | sha1_hash | Vidar | ThreatFox | 2026-08-15 17:17:34 UTC |
 | 61 (media) | alta | `4d4dad091692dc25b7ab60efab9fc5e3` | md5_hash | Vidar | ThreatFox | 2026-08-15 17:17:34 UTC |
 | 61 (media) | alta | `f2b7f869036f558eabe71d5f73820dd56a58269d3db1435f26daeeb687c49f9d` | sha256_hash | Vidar | ThreatFox | 2026-08-15 17:17:33 UTC |
-| 61 (media) | media | `hxxp://218[.]0[.]112[.]226:51471/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-08-15 15:42:38 UTC |
+| 60 (media) | critica | `108[.]165[.]147[.]244:8081` | ip:port | Cobalt Strike | ThreatFox | 2026-08-16 06:05:05 UTC |
+| 60 (media) | alta | `6cad154538301583429bf7ebe03f812afa33e4d2207ce54b2e488f3cc74e4eba` | sha256_hash | ClearFake | ThreatFox | 2026-08-16 01:52:58 UTC |
 | 60 (media) | alta | `hxxps://soft-update[.]dev` | url | Unknown Loader | ThreatFox | 2026-08-15 23:00:52 UTC |
 | 60 (media) | alta | `hxxps://admetricslab[.]org` | url | Unknown Loader | ThreatFox | 2026-08-15 23:00:51 UTC |
 | 60 (media) | alta | `admetricslab[.]org` | domain | Unknown Loader | ThreatFox | 2026-08-15 22:59:52 UTC |
