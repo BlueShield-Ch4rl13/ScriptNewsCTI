@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-16 06:59 UTC · **IOCs recolectados:** 924 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-16 12:59 UTC · **IOCs recolectados:** 1124 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -145,8 +145,8 @@ python main.py
 | 60 (media) | alta | `hxxps://soft-update[.]dev` | url | Unknown Loader | ThreatFox | 2026-08-15 23:00:52 UTC |
 | 60 (media) | alta | `hxxps://admetricslab[.]org` | url | Unknown Loader | ThreatFox | 2026-08-15 23:00:51 UTC |
 | 60 (media) | alta | `admetricslab[.]org` | domain | Unknown Loader | ThreatFox | 2026-08-15 22:59:52 UTC |
-| 60 (media) | media | `garanti-sans-virus[.]com` | domain | IClickFix | ThreatFox | 2026-08-15 11:47:11 UTC |
 | 59 (media) | alta | `soft-update[.]dev` | domain | Unknown Loader | ThreatFox | 2026-08-15 22:59:52 UTC |
+| 58 (media) | media | `2[.]27[.]63[.]244:443` | ip:port | Unknown malware | ThreatFox | 2026-08-16 05:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
