@@ -116,42 +116,43 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-17 13:04 UTC · **IOCs recolectados:** 1244 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-17 18:58 UTC · **IOCs recolectados:** 1539 · **CVEs KEV recientes:** 10
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 65 (media) | alta | `83[.]136[.]211[.]230:443` | ip:port | PureRAT | ThreatFox | 2026-08-17 09:47:35 UTC |
-| 64 (media) | alta | `43[.]224[.]224[.]66:7800` | ip:port | ValleyRAT | ThreatFox | 2026-08-16 14:20:19 UTC |
-| 64 (media) | alta | `43[.]224[.]224[.]66:7811` | ip:port | ValleyRAT | ThreatFox | 2026-08-16 14:20:16 UTC |
-| 63 (media) | media | `154[.]91[.]180[.]246:18081` | ip:port | VShell | ThreatFox | 2026-08-16 13:04:25 UTC |
-| 60 (media) | alta | `admetricslab[.]org` | domain | Unknown Loader | ThreatFox | 2026-08-16 13:03:41 UTC |
-| 60 (media) | alta | `hxxps://admetricslab[.]org` | url | Unknown Loader | ThreatFox | 2026-08-16 13:03:40 UTC |
-| 60 (media) | alta | `hxxps://soft-update[.]dev` | url | Unknown Loader | ThreatFox | 2026-08-16 13:03:40 UTC |
 | 59 (media) | alta | `185[.]34[.]147[.]32:80` | ip:port | AsyncRAT | ThreatFox | 2026-08-17 06:05:06 UTC |
-| 59 (media) | alta | `soft-update[.]dev` | domain | Unknown Loader | ThreatFox | 2026-08-16 13:03:41 UTC |
+| 58 (media) | alta | `6t[.]czlw[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:13 UTC |
+| 58 (media) | alta | `ou[.]qymj[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:12 UTC |
+| 58 (media) | alta | `qv[.]gahq[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:12 UTC |
 | 58 (media) | alta | `hxxps://coldformat[.]info/usa` | url | Unknown Loader | ThreatFox | 2026-08-17 05:38:25 UTC |
 | 58 (media) | alta | `198[.]144[.]179[.]82:55650` | ip:port | Mirai | ThreatFox | 2026-08-17 05:38:18 UTC |
-| 58 (media) | alta | `46[.]101[.]133[.]159:8443` | ip:port | Aisuru | ThreatFox | 2026-08-16 13:03:49 UTC |
-| 58 (media) | alta | `attr-sdk[.]tech` | domain | Unknown Loader | ThreatFox | 2026-08-16 13:03:40 UTC |
-| 58 (media) | alta | `hxxps://attr-sdk[.]tech` | url | Unknown Loader | ThreatFox | 2026-08-16 13:03:39 UTC |
+| 57 (media) | alta | `cv[.]cbrw[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:13 UTC |
+| 57 (media) | alta | `cv[.]jyla[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:13 UTC |
+| 57 (media) | alta | `64[.]227[.]165[.]222:8080` | ip:port | Aisuru | ThreatFox | 2026-08-17 13:34:10 UTC |
 | 57 (media) | alta | `raw[.]githubusercontent[.]co` | domain | ClearFake | ThreatFox | 2026-08-17 12:51:12 UTC |
-| 57 (media) | alta | `64[.]227[.]165[.]222:8080` | ip:port | Aisuru | ThreatFox | 2026-08-17 12:44:30 UTC |
 | 57 (media) | alta | `coldformat[.]info` | domain | Unknown Loader | ThreatFox | 2026-08-17 05:38:27 UTC |
 | 57 (media) | alta | `165[.]22[.]81[.]15:8443` | ip:port | Aisuru | ThreatFox | 2026-08-17 05:37:58 UTC |
 | 57 (media) | alta | `hxxp://kkhouse[.]ml/kk2/fre[.]php` | url | Loki Password Stealer (PWS) | ThreatFox | 2026-08-16 23:50:03 UTC |
+| 56 (media) | alta | `wydi[.]press` | domain | ClearFake | ThreatFox | 2026-08-17 18:17:09 UTC |
+| 56 (media) | alta | `dyky[.]press` | domain | ClearFake | ThreatFox | 2026-08-17 18:17:09 UTC |
+| 56 (media) | alta | `64[.]227[.]165[.]222:9034` | ip:port | Aisuru | ThreatFox | 2026-08-17 13:34:14 UTC |
+| 56 (media) | alta | `139[.]59[.]108[.]178:8080` | ip:port | Aisuru | ThreatFox | 2026-08-17 13:34:12 UTC |
+| 56 (media) | alta | `cloudenterprise26[.]com` | domain | ClearFake | ThreatFox | 2026-08-17 13:34:07 UTC |
 | 56 (media) | alta | `hxxps://rex[.]sm188dadu[.]top/` | url | Vidar | ThreatFox | 2026-08-17 12:40:07 UTC |
 | 56 (media) | alta | `rex[.]sm188dadu[.]top` | domain | Vidar | ThreatFox | 2026-08-17 12:40:06 UTC |
-| 56 (media) | alta | `139[.]59[.]108[.]178:8080` | ip:port | Aisuru | ThreatFox | 2026-08-17 12:04:49 UTC |
-| 56 (media) | alta | `64[.]227[.]165[.]222:9034` | ip:port | Aisuru | ThreatFox | 2026-08-17 11:00:17 UTC |
 | 56 (media) | media | `loepaord[.]xyz` | domain | IClickFix | ThreatFox | 2026-08-17 06:16:07 UTC |
 | 56 (media) | media | `34[.]150[.]91[.]139:443` | ip:port | Unknown malware | ThreatFox | 2026-08-17 06:05:05 UTC |
+| 56 (media) | alta | `s570wlpz[.]us-us-us-goldalign[.]com` | domain | ClearFake | ThreatFox | 2026-08-17 05:42:10 UTC |
+| 56 (media) | alta | `bimba[.]anix-to[.]com` | domain | ClearFake | ThreatFox | 2026-08-17 05:38:26 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2025-62593 | Ray-Project Ray | 2026-08-17 | Unknown |
 | CVE-2026-20349 | Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)  | 2026-08-11 | Unknown |
 | CVE-2026-68820 | Microsoft Windows Ancillary Function Driver for WinSock  | 2026-08-11 | Unknown |
 | CVE-2026-72898 | Metabase Metabase | 2026-08-11 | Unknown |
