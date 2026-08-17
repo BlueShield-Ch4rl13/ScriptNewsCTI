@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-17 01:50 UTC · **IOCs recolectados:** 1014 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-17 07:15 UTC · **IOCs recolectados:** 1080 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -125,28 +125,28 @@ python main.py
 | 64 (media) | alta | `43[.]224[.]224[.]66:7800` | ip:port | ValleyRAT | ThreatFox | 2026-08-16 14:20:19 UTC |
 | 64 (media) | alta | `43[.]224[.]224[.]66:7811` | ip:port | ValleyRAT | ThreatFox | 2026-08-16 14:20:16 UTC |
 | 63 (media) | media | `154[.]91[.]180[.]246:18081` | ip:port | VShell | ThreatFox | 2026-08-16 13:04:25 UTC |
-| 61 (media) | critica | `101[.]42[.]255[.]92:8001` | ip:port | Cobalt Strike | ThreatFox | 2026-08-16 05:05:06 UTC |
 | 60 (media) | alta | `admetricslab[.]org` | domain | Unknown Loader | ThreatFox | 2026-08-16 13:03:41 UTC |
 | 60 (media) | alta | `hxxps://admetricslab[.]org` | url | Unknown Loader | ThreatFox | 2026-08-16 13:03:40 UTC |
 | 60 (media) | alta | `hxxps://soft-update[.]dev` | url | Unknown Loader | ThreatFox | 2026-08-16 13:03:40 UTC |
-| 60 (media) | critica | `108[.]165[.]147[.]244:8081` | ip:port | Cobalt Strike | ThreatFox | 2026-08-16 06:05:05 UTC |
-| 60 (media) | alta | `6cad154538301583429bf7ebe03f812afa33e4d2207ce54b2e488f3cc74e4eba` | sha256_hash | ClearFake | ThreatFox | 2026-08-16 01:52:58 UTC |
+| 59 (media) | alta | `185[.]34[.]147[.]32:80` | ip:port | AsyncRAT | ThreatFox | 2026-08-17 06:05:06 UTC |
 | 59 (media) | alta | `soft-update[.]dev` | domain | Unknown Loader | ThreatFox | 2026-08-16 13:03:41 UTC |
-| 58 (media) | alta | `198[.]144[.]179[.]82:55650` | ip:port | Mirai | ThreatFox | 2026-08-16 21:23:43 UTC |
-| 58 (media) | alta | `hxxps://coldformat[.]info/usa` | url | Unknown Loader | ThreatFox | 2026-08-16 17:12:48 UTC |
+| 58 (media) | alta | `hxxps://coldformat[.]info/usa` | url | Unknown Loader | ThreatFox | 2026-08-17 05:38:25 UTC |
+| 58 (media) | alta | `198[.]144[.]179[.]82:55650` | ip:port | Mirai | ThreatFox | 2026-08-17 05:38:18 UTC |
 | 58 (media) | alta | `46[.]101[.]133[.]159:8443` | ip:port | Aisuru | ThreatFox | 2026-08-16 13:03:49 UTC |
 | 58 (media) | alta | `attr-sdk[.]tech` | domain | Unknown Loader | ThreatFox | 2026-08-16 13:03:40 UTC |
 | 58 (media) | alta | `hxxps://attr-sdk[.]tech` | url | Unknown Loader | ThreatFox | 2026-08-16 13:03:39 UTC |
-| 58 (media) | media | `2[.]27[.]63[.]244:443` | ip:port | Unknown malware | ThreatFox | 2026-08-16 05:05:05 UTC |
-| 57 (media) | alta | `165[.]22[.]81[.]15:8443` | ip:port | Aisuru | ThreatFox | 2026-08-17 01:07:36 UTC |
+| 57 (media) | alta | `coldformat[.]info` | domain | Unknown Loader | ThreatFox | 2026-08-17 05:38:27 UTC |
+| 57 (media) | alta | `165[.]22[.]81[.]15:8443` | ip:port | Aisuru | ThreatFox | 2026-08-17 05:37:58 UTC |
 | 57 (media) | alta | `hxxp://kkhouse[.]ml/kk2/fre[.]php` | url | Loki Password Stealer (PWS) | ThreatFox | 2026-08-16 23:50:03 UTC |
-| 57 (media) | alta | `coldformat[.]info` | domain | Unknown Loader | ThreatFox | 2026-08-16 17:12:08 UTC |
-| 56 (media) | alta | `arcexploration[.]com[.]au` | domain | ClearFake | ThreatFox | 2026-08-17 01:34:52 UTC |
-| 56 (media) | critica | `38[.]190[.]196[.]19:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-17 01:05:09 UTC |
-| 56 (media) | critica | `38[.]190[.]196[.]19:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-17 01:05:08 UTC |
-| 56 (media) | critica | `154[.]91[.]85[.]44:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-17 01:05:07 UTC |
-| 56 (media) | critica | `154[.]91[.]85[.]44:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-17 01:05:06 UTC |
-| 56 (media) | alta | `hxxp://a1078269[.]xsph[.]ru/5dff4277[.]php` | url | DCRat | ThreatFox | 2026-08-17 00:25:10 UTC |
+| 56 (media) | media | `loepaord[.]xyz` | domain | IClickFix | ThreatFox | 2026-08-17 06:16:07 UTC |
+| 56 (media) | media | `34[.]150[.]91[.]139:443` | ip:port | Unknown malware | ThreatFox | 2026-08-17 06:05:05 UTC |
+| 56 (media) | alta | `s570wlpz[.]us-us-us-goldalign[.]com` | domain | ClearFake | ThreatFox | 2026-08-17 05:42:10 UTC |
+| 56 (media) | alta | `bimba[.]anix-to[.]com` | domain | ClearFake | ThreatFox | 2026-08-17 05:38:26 UTC |
+| 56 (media) | alta | `hxxps://hulusi[.]lol/mods/api/log-download` | url | Unknown RAT | ThreatFox | 2026-08-17 05:37:58 UTC |
+| 56 (media) | alta | `hxxps://hulusi[.]lol/ws` | url | Unknown RAT | ThreatFox | 2026-08-17 05:37:57 UTC |
+| 56 (media) | alta | `hxxps://hulusi[.]lol/?p=` | url | Unknown RAT | ThreatFox | 2026-08-17 05:37:56 UTC |
+| 56 (media) | alta | `hxxps://hulusi[.]lol/get/config` | url | Unknown RAT | ThreatFox | 2026-08-17 05:37:56 UTC |
+| 56 (media) | alta | `hxxps://hulusi[.]lol/babayla/zor/yarisirlar/` | url | Unknown RAT | ThreatFox | 2026-08-17 05:37:55 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
