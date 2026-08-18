@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-17 18:58 UTC · **IOCs recolectados:** 1539 · **CVEs KEV recientes:** 10
+**Última actualización:** 2026-08-18 01:46 UTC · **IOCs recolectados:** 1577 · **CVEs KEV recientes:** 9
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -129,13 +129,16 @@ python main.py
 | 58 (media) | alta | `qv[.]gahq[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:12 UTC |
 | 58 (media) | alta | `hxxps://coldformat[.]info/usa` | url | Unknown Loader | ThreatFox | 2026-08-17 05:38:25 UTC |
 | 58 (media) | alta | `198[.]144[.]179[.]82:55650` | ip:port | Mirai | ThreatFox | 2026-08-17 05:38:18 UTC |
+| 57 (media) | media | `hxxp://196[.]251[.]121[.]142/install[.]sh` | url | Unknown malware | ThreatFox | 2026-08-18 00:50:18 UTC |
 | 57 (media) | alta | `cv[.]cbrw[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:13 UTC |
 | 57 (media) | alta | `cv[.]jyla[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:13 UTC |
 | 57 (media) | alta | `64[.]227[.]165[.]222:8080` | ip:port | Aisuru | ThreatFox | 2026-08-17 13:34:10 UTC |
 | 57 (media) | alta | `raw[.]githubusercontent[.]co` | domain | ClearFake | ThreatFox | 2026-08-17 12:51:12 UTC |
 | 57 (media) | alta | `coldformat[.]info` | domain | Unknown Loader | ThreatFox | 2026-08-17 05:38:27 UTC |
 | 57 (media) | alta | `165[.]22[.]81[.]15:8443` | ip:port | Aisuru | ThreatFox | 2026-08-17 05:37:58 UTC |
-| 57 (media) | alta | `hxxp://kkhouse[.]ml/kk2/fre[.]php` | url | Loki Password Stealer (PWS) | ThreatFox | 2026-08-16 23:50:03 UTC |
+| 56 (media) | alta | `43[.]128[.]113[.]133:9034` | ip:port | Aisuru | ThreatFox | 2026-08-18 01:13:03 UTC |
+| 56 (media) | alta | `hxxps://kra[.]sm188dadu[.]top/` | url | Vidar | ThreatFox | 2026-08-18 01:10:06 UTC |
+| 56 (media) | alta | `kra[.]sm188dadu[.]top` | domain | Vidar | ThreatFox | 2026-08-18 01:10:05 UTC |
 | 56 (media) | alta | `wydi[.]press` | domain | ClearFake | ThreatFox | 2026-08-17 18:17:09 UTC |
 | 56 (media) | alta | `dyky[.]press` | domain | ClearFake | ThreatFox | 2026-08-17 18:17:09 UTC |
 | 56 (media) | alta | `64[.]227[.]165[.]222:9034` | ip:port | Aisuru | ThreatFox | 2026-08-17 13:34:14 UTC |
@@ -144,9 +147,6 @@ python main.py
 | 56 (media) | alta | `hxxps://rex[.]sm188dadu[.]top/` | url | Vidar | ThreatFox | 2026-08-17 12:40:07 UTC |
 | 56 (media) | alta | `rex[.]sm188dadu[.]top` | domain | Vidar | ThreatFox | 2026-08-17 12:40:06 UTC |
 | 56 (media) | media | `loepaord[.]xyz` | domain | IClickFix | ThreatFox | 2026-08-17 06:16:07 UTC |
-| 56 (media) | media | `34[.]150[.]91[.]139:443` | ip:port | Unknown malware | ThreatFox | 2026-08-17 06:05:05 UTC |
-| 56 (media) | alta | `s570wlpz[.]us-us-us-goldalign[.]com` | domain | ClearFake | ThreatFox | 2026-08-17 05:42:10 UTC |
-| 56 (media) | alta | `bimba[.]anix-to[.]com` | domain | ClearFake | ThreatFox | 2026-08-17 05:38:26 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -161,5 +161,4 @@ python main.py
 | CVE-2026-18556 | N-able N-central | 2026-08-04 | Unknown |
 | CVE-2026-34486 | Apache Tomcat | 2026-08-04 | Unknown |
 | CVE-2026-9198 | IBM Langflow | 2026-08-04 | Unknown |
-| CVE-2026-18577 | N-able N-central | 2026-08-03 | Unknown |
 <!-- CTI:END -->
