@@ -116,12 +116,13 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-18 13:07 UTC · **IOCs recolectados:** 3084 · **CVEs KEV recientes:** 9
+**Última actualización:** 2026-08-18 18:57 UTC · **IOCs recolectados:** 2995 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 71 (alta) | alta | `66[.]116[.]243[.]130:80` | ip:port | Mirai | ThreatFox | 2026-08-18 15:43:52 UTC |
 | 68 (media) | media | `20294fe9ec6b7763a8fd58f23be53be7` | md5_hash | Unknown malware | ThreatFox | 2026-08-18 05:24:22 UTC |
 | 67 (media) | media | `109[.]176[.]19[.]75:8081` | ip:port | VShell | ThreatFox | 2026-08-18 04:05:08 UTC |
 | 66 (media) | critica | `103[.]185[.]249[.]13:31337` | ip:port | Sliver | ThreatFox | 2026-08-18 12:01:33 UTC |
@@ -133,25 +134,28 @@ python main.py
 | 58 (media) | media | `103[.]84[.]230[.]85:443` | ip:port | Unknown malware | ThreatFox | 2026-08-18 12:28:39 UTC |
 | 58 (media) | media | `103[.]87[.]68[.]158:443` | ip:port | Unknown malware | ThreatFox | 2026-08-18 12:28:35 UTC |
 | 58 (media) | media | `94[.]26[.]106[.]206:80` | ip:port | MooBot | ThreatFox | 2026-08-18 12:10:47 UTC |
-| 58 (media) | alta | `6t[.]czlw[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:13 UTC |
-| 58 (media) | alta | `ou[.]qymj[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:12 UTC |
-| 58 (media) | alta | `qv[.]gahq[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:12 UTC |
 | 57 (media) | media | `whale-complex[.]site` | domain | Unknown malware | ThreatFox | 2026-08-18 05:41:13 UTC |
 | 57 (media) | media | `hxxp://196[.]251[.]121[.]142/install[.]sh` | url | Unknown malware | ThreatFox | 2026-08-18 05:24:28 UTC |
 | 57 (media) | critica | `109[.]248[.]160[.]184:22` | ip:port | Havoc | ThreatFox | 2026-08-18 03:05:05 UTC |
-| 57 (media) | alta | `cv[.]cbrw[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:13 UTC |
-| 57 (media) | alta | `cv[.]jyla[.]ru` | domain | ClearFake | ThreatFox | 2026-08-17 18:22:13 UTC |
-| 57 (media) | alta | `64[.]227[.]165[.]222:8080` | ip:port | Aisuru | ThreatFox | 2026-08-17 13:34:10 UTC |
-| 56 (media) | alta | `64[.]227[.]187[.]82:8443` | ip:port | Aisuru | ThreatFox | 2026-08-18 12:50:26 UTC |
-| 56 (media) | media | `secretpi88122[.]life` | domain | IClickFix | ThreatFox | 2026-08-18 12:36:31 UTC |
-| 56 (media) | media | `costum342183[.]life` | domain | IClickFix | ThreatFox | 2026-08-18 12:36:30 UTC |
-| 56 (media) | media | `hxxp://bravplo[.]click:7713/articles` | url | Remus | ThreatFox | 2026-08-18 12:33:22 UTC |
-| 56 (media) | alta | `hxxps://chappan[.]lol/api/v1/session` | url | KongTuke | ThreatFox | 2026-08-18 12:28:37 UTC |
+| 56 (media) | alta | `43[.]134[.]49[.]218:12345` | ip:port | Aisuru | ThreatFox | 2026-08-18 17:43:56 UTC |
+| 56 (media) | alta | `150[.]109[.]93[.]78:37215` | ip:port | Aisuru | ThreatFox | 2026-08-18 17:42:29 UTC |
+| 56 (media) | alta | `62k1d7bn[.]shop-sightfresh[.]com` | domain | ClearFake | ThreatFox | 2026-08-18 17:22:21 UTC |
+| 56 (media) | alta | `y01q42ad[.]theslimsplitsmethod[.]com` | domain | ClearFake | ThreatFox | 2026-08-18 17:18:28 UTC |
+| 56 (media) | media | `zillow-app[.]sbs` | domain | Unknown malware | ThreatFox | 2026-08-18 17:04:05 UTC |
+| 56 (media) | alta | `gpbohyg5[.]greaternewzionbc[.]org` | domain | ClearFake | ThreatFox | 2026-08-18 16:45:05 UTC |
+| 56 (media) | alta | `168[.]144[.]188[.]31:8443` | ip:port | Aisuru | ThreatFox | 2026-08-18 16:42:22 UTC |
+| 56 (media) | media | `zelenilo[.]com` | domain | IClickFix | ThreatFox | 2026-08-18 16:35:13 UTC |
+| 56 (media) | media | `zelfstandigennederland[.]nl` | domain | IClickFix | ThreatFox | 2026-08-18 16:35:13 UTC |
+| 56 (media) | alta | `64[.]227[.]187[.]82:8443` | ip:port | Aisuru | ThreatFox | 2026-08-18 14:03:09 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-33824 | Microsoft Internet Key Exchange (IKE) Service Extensions | 2026-08-18 | Unknown |
+| CVE-2026-59310 | Broadcom VMware vCenter | 2026-08-18 | Unknown |
+| CVE-2026-55040 | Microsoft SharePoint | 2026-08-18 | Unknown |
+| CVE-2026-65400 | Apple macOS | 2026-08-18 | Unknown |
 | CVE-2025-62593 | Ray-Project Ray | 2026-08-17 | Unknown |
 | CVE-2026-20349 | Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)  | 2026-08-11 | Unknown |
 | CVE-2026-68820 | Microsoft Windows Ancillary Function Driver for WinSock  | 2026-08-11 | Unknown |
