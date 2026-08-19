@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-19 07:04 UTC · **IOCs recolectados:** 3142 · **CVEs KEV recientes:** 10
+**Última actualización:** 2026-08-19 13:08 UTC · **IOCs recolectados:** 1733 · **CVEs KEV recientes:** 10
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 75 (alta) | alta | `94[.]154[.]32[.]171:2404` | ip:port | Remcos | ThreatFox | 2026-08-19 09:35:06 UTC |
+| 71 (alta) | alta | `108[.]186[.]112[.]220:4782` | ip:port | Quasar RAT | ThreatFox | 2026-08-19 09:31:46 UTC |
 | 71 (alta) | alta | `46[.]151[.]182[.]30:7443` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 06:06:10 UTC |
 | 71 (alta) | alta | `46[.]151[.]182[.]30:7080` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 06:06:09 UTC |
-| 66 (media) | critica | `103[.]185[.]249[.]13:31337` | ip:port | Sliver | ThreatFox | 2026-08-18 12:01:33 UTC |
-| 66 (media) | critica | `103[.]70[.]77[.]226:31337` | ip:port | Sliver | ThreatFox | 2026-08-18 12:01:29 UTC |
+| 65 (media) | alta | `95[.]214[.]53[.]90:2354` | ip:port | Quasar RAT | ThreatFox | 2026-08-19 09:31:47 UTC |
 | 60 (media) | alta | `governorhobbies[.]cfd` | domain | Unknown Loader | ThreatFox | 2026-08-19 06:47:42 UTC |
 | 59 (media) | alta | `snailsreading[.]xyz` | domain | Unknown Loader | ThreatFox | 2026-08-19 06:47:42 UTC |
 | 59 (media) | alta | `195[.]177[.]94[.]60:7080` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 06:05:56 UTC |
 | 59 (media) | alta | `196[.]251[.]107[.]252:24027` | ip:port | Remcos | ThreatFox | 2026-08-19 00:55:05 UTC |
+| 58 (media) | alta | `195[.]177[.]94[.]85:7004` | ip:port | XWorm | ThreatFox | 2026-08-19 10:35:44 UTC |
 | 58 (media) | media | `corrykro[.]icu` | domain | IClickFix | ThreatFox | 2026-08-19 06:51:18 UTC |
 | 58 (media) | media | `indytravelclub[.]com` | domain | IClickFix | ThreatFox | 2026-08-19 06:45:17 UTC |
 | 58 (media) | alta | `195[.]177[.]94[.]19:56003` | ip:port | PureRAT | ThreatFox | 2026-08-18 19:44:42 UTC |
-| 58 (media) | media | `103[.]84[.]230[.]85:443` | ip:port | Unknown malware | ThreatFox | 2026-08-18 12:28:39 UTC |
-| 58 (media) | media | `103[.]87[.]68[.]158:443` | ip:port | Unknown malware | ThreatFox | 2026-08-18 12:28:35 UTC |
-| 58 (media) | media | `94[.]26[.]106[.]206:80` | ip:port | MooBot | ThreatFox | 2026-08-18 12:10:47 UTC |
+| 57 (media) | media | `95[.]179[.]189[.]194:3333` | ip:port | SnappyClient | ThreatFox | 2026-08-19 09:56:31 UTC |
+| 57 (media) | media | `95[.]179[.]189[.]194:3334` | ip:port | SnappyClient | ThreatFox | 2026-08-19 09:56:30 UTC |
 | 57 (media) | media | `atomento10[.]icu` | domain | IClickFix | ThreatFox | 2026-08-19 06:51:17 UTC |
+| 56 (media) | alta | `gjii3jk6[.]en-us-theslimsplitsmethod[.]com` | domain | ClearFake | ThreatFox | 2026-08-19 12:47:23 UTC |
+| 56 (media) | media | `hxxp://bravplo[.]click:7713/addresses` | url | Remus | ThreatFox | 2026-08-19 12:33:12 UTC |
+| 56 (media) | alta | `188[.]132[.]165[.]148:8080` | ip:port | Quasar RAT | ThreatFox | 2026-08-19 09:31:47 UTC |
 | 56 (media) | alta | `sofazinc[.]cfd` | domain | Unknown Loader | ThreatFox | 2026-08-19 06:47:42 UTC |
 | 56 (media) | media | `enoria[.]se` | domain | IClickFix | ThreatFox | 2026-08-19 06:45:15 UTC |
 | 56 (media) | alta | `43[.]134[.]49[.]218:9034` | ip:port | Aisuru | ThreatFox | 2026-08-19 06:05:09 UTC |
 | 56 (media) | alta | `43[.]128[.]113[.]133:5555` | ip:port | Aisuru | ThreatFox | 2026-08-19 06:05:06 UTC |
 | 56 (media) | alta | `168[.]144[.]188[.]31:8443` | ip:port | Aisuru | ThreatFox | 2026-08-19 06:04:57 UTC |
 | 56 (media) | alta | `150[.]109[.]93[.]78:37215` | ip:port | Aisuru | ThreatFox | 2026-08-19 06:04:54 UTC |
-| 56 (media) | alta | `43[.]134[.]49[.]218:12345` | ip:port | Aisuru | ThreatFox | 2026-08-19 06:04:54 UTC |
-| 56 (media) | media | `hxxp://bravplo[.]click:7713/profiles` | url | Remus | ThreatFox | 2026-08-19 00:40:47 UTC |
-| 56 (media) | alta | `62k1d7bn[.]shop-sightfresh[.]com` | domain | ClearFake | ThreatFox | 2026-08-18 17:22:21 UTC |
-| 56 (media) | alta | `y01q42ad[.]theslimsplitsmethod[.]com` | domain | ClearFake | ThreatFox | 2026-08-18 17:18:28 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
