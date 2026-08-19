@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-18 18:57 UTC · **IOCs recolectados:** 2995 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-08-19 01:49 UTC · **IOCs recolectados:** 3119 · **CVEs KEV recientes:** 10
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 71 (alta) | alta | `46[.]151[.]182[.]30:7080` | ip:port | Unknown Stealer | ThreatFox | 2026-08-18 19:18:39 UTC |
+| 71 (alta) | alta | `46[.]151[.]182[.]30:7443` | ip:port | Unknown Stealer | ThreatFox | 2026-08-18 19:18:38 UTC |
 | 71 (alta) | alta | `66[.]116[.]243[.]130:80` | ip:port | Mirai | ThreatFox | 2026-08-18 15:43:52 UTC |
 | 68 (media) | media | `20294fe9ec6b7763a8fd58f23be53be7` | md5_hash | Unknown malware | ThreatFox | 2026-08-18 05:24:22 UTC |
 | 67 (media) | media | `109[.]176[.]19[.]75:8081` | ip:port | VShell | ThreatFox | 2026-08-18 04:05:08 UTC |
 | 66 (media) | critica | `103[.]185[.]249[.]13:31337` | ip:port | Sliver | ThreatFox | 2026-08-18 12:01:33 UTC |
 | 66 (media) | critica | `103[.]70[.]77[.]226:31337` | ip:port | Sliver | ThreatFox | 2026-08-18 12:01:29 UTC |
+| 59 (media) | alta | `196[.]251[.]107[.]252:24027` | ip:port | Remcos | ThreatFox | 2026-08-19 00:55:05 UTC |
+| 59 (media) | alta | `195[.]177[.]94[.]60:7080` | ip:port | Unknown Stealer | ThreatFox | 2026-08-18 19:18:41 UTC |
 | 59 (media) | critica | `117[.]72[.]159[.]96:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-18 06:05:05 UTC |
 | 59 (media) | critica | `117[.]72[.]159[.]96:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-08-18 05:05:07 UTC |
 | 59 (media) | critica | `117[.]72[.]159[.]96:8088` | ip:port | Cobalt Strike | ThreatFox | 2026-08-18 05:05:07 UTC |
 | 59 (media) | critica | `117[.]72[.]159[.]96:5003` | ip:port | Cobalt Strike | ThreatFox | 2026-08-18 05:05:06 UTC |
+| 58 (media) | alta | `195[.]177[.]94[.]19:56003` | ip:port | PureRAT | ThreatFox | 2026-08-18 19:44:42 UTC |
 | 58 (media) | media | `103[.]84[.]230[.]85:443` | ip:port | Unknown malware | ThreatFox | 2026-08-18 12:28:39 UTC |
 | 58 (media) | media | `103[.]87[.]68[.]158:443` | ip:port | Unknown malware | ThreatFox | 2026-08-18 12:28:35 UTC |
 | 58 (media) | media | `94[.]26[.]106[.]206:80` | ip:port | MooBot | ThreatFox | 2026-08-18 12:10:47 UTC |
 | 57 (media) | media | `whale-complex[.]site` | domain | Unknown malware | ThreatFox | 2026-08-18 05:41:13 UTC |
 | 57 (media) | media | `hxxp://196[.]251[.]121[.]142/install[.]sh` | url | Unknown malware | ThreatFox | 2026-08-18 05:24:28 UTC |
 | 57 (media) | critica | `109[.]248[.]160[.]184:22` | ip:port | Havoc | ThreatFox | 2026-08-18 03:05:05 UTC |
+| 56 (media) | media | `hxxp://bravplo[.]click:7713/profiles` | url | Remus | ThreatFox | 2026-08-19 00:40:47 UTC |
+| 56 (media) | alta | `43[.]128[.]113[.]133:5555` | ip:port | Aisuru | ThreatFox | 2026-08-19 00:39:46 UTC |
+| 56 (media) | alta | `43[.]134[.]49[.]218:9034` | ip:port | Aisuru | ThreatFox | 2026-08-19 00:03:30 UTC |
 | 56 (media) | alta | `43[.]134[.]49[.]218:12345` | ip:port | Aisuru | ThreatFox | 2026-08-18 17:43:56 UTC |
 | 56 (media) | alta | `150[.]109[.]93[.]78:37215` | ip:port | Aisuru | ThreatFox | 2026-08-18 17:42:29 UTC |
-| 56 (media) | alta | `62k1d7bn[.]shop-sightfresh[.]com` | domain | ClearFake | ThreatFox | 2026-08-18 17:22:21 UTC |
-| 56 (media) | alta | `y01q42ad[.]theslimsplitsmethod[.]com` | domain | ClearFake | ThreatFox | 2026-08-18 17:18:28 UTC |
-| 56 (media) | media | `zillow-app[.]sbs` | domain | Unknown malware | ThreatFox | 2026-08-18 17:04:05 UTC |
-| 56 (media) | alta | `gpbohyg5[.]greaternewzionbc[.]org` | domain | ClearFake | ThreatFox | 2026-08-18 16:45:05 UTC |
-| 56 (media) | alta | `168[.]144[.]188[.]31:8443` | ip:port | Aisuru | ThreatFox | 2026-08-18 16:42:22 UTC |
-| 56 (media) | media | `zelenilo[.]com` | domain | IClickFix | ThreatFox | 2026-08-18 16:35:13 UTC |
-| 56 (media) | media | `zelfstandigennederland[.]nl` | domain | IClickFix | ThreatFox | 2026-08-18 16:35:13 UTC |
-| 56 (media) | alta | `64[.]227[.]187[.]82:8443` | ip:port | Aisuru | ThreatFox | 2026-08-18 14:03:09 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -162,7 +162,4 @@ python main.py
 | CVE-2026-72898 | Metabase Metabase | 2026-08-11 | Unknown |
 | CVE-2026-8037 | Progress LoadMaster | 2026-08-07 | Unknown |
 | CVE-2026-63077 | JetBrains TeamCity | 2026-08-05 | Unknown |
-| CVE-2026-18556 | N-able N-central | 2026-08-04 | Unknown |
-| CVE-2026-34486 | Apache Tomcat | 2026-08-04 | Unknown |
-| CVE-2026-9198 | IBM Langflow | 2026-08-04 | Unknown |
 <!-- CTI:END -->
