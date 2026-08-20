@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-20 13:09 UTC · **IOCs recolectados:** 1129 · **CVEs KEV recientes:** 10
+**Última actualización:** 2026-08-20 18:58 UTC · **IOCs recolectados:** 1058 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -124,34 +124,36 @@ python main.py
 |---|---|---|---|---|---|---|
 | 74 (alta) | media | `82[.]197[.]65[.]206:7443` | ip:port | Unknown malware | ThreatFox | 2026-08-20 09:46:42 UTC |
 | 68 (media) | critica | `14[.]103[.]50[.]128:31337` | ip:port | Sliver | ThreatFox | 2026-08-20 05:39:44 UTC |
-| 63 (media) | media | `hxxp://183[.]63[.]8[.]194:46154/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-20 06:20:09 UTC |
-| 62 (media) | media | `hxxp://110[.]186[.]229[.]108:47843/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-20 06:20:11 UTC |
-| 62 (media) | media | `hxxp://115[.]57[.]182[.]131:41041/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-20 06:20:11 UTC |
 | 60 (media) | media | `46[.]246[.]84[.]10:7045` | ip:port | Vjw0rm | ThreatFox | 2026-08-20 06:15:10 UTC |
+| 59 (media) | media | `91[.]124[.]98[.]25:7080` | ip:port | HypeAgent | ThreatFox | 2026-08-20 16:47:18 UTC |
+| 59 (media) | media | `91[.]124[.]98[.]25:7443` | ip:port | HypeAgent | ThreatFox | 2026-08-20 16:47:18 UTC |
 | 59 (media) | alta | `195[.]177[.]94[.]61:2404` | ip:port | Remcos | ThreatFox | 2026-08-20 08:19:08 UTC |
 | 59 (media) | media | `hxxps://taliy[.]sbs/auth` | url | Unknown malware | ThreatFox | 2026-08-20 06:49:10 UTC |
 | 59 (media) | media | `hxxps://tradegenius[.]sbs/auth` | url | Unknown malware | ThreatFox | 2026-08-20 06:46:50 UTC |
 | 59 (media) | alta | `1hvnc[.]duckdns[.]org` | domain | PureRAT | ThreatFox | 2026-08-20 06:16:26 UTC |
 | 59 (media) | media | `hxxps://hyperliquid-solana[.]xyz/` | url | Unknown malware | ThreatFox | 2026-08-19 22:00:09 UTC |
+| 58 (media) | media | `ksr-racingparts[.]com` | domain | IClickFix | ThreatFox | 2026-08-20 18:32:07 UTC |
 | 58 (media) | media | `8[.]137[.]98[.]198:8089` | ip:port | VShell | ThreatFox | 2026-08-20 10:05:06 UTC |
 | 58 (media) | critica | `149[.]88[.]66[.]234:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-08-20 06:05:07 UTC |
 | 58 (media) | media | `hxxps://noise[.]lat/` | url | Unknown malware | ThreatFox | 2026-08-19 22:00:09 UTC |
-| 58 (media) | alta | `eventras[.]duckdns[.]org` | domain | Remcos | ThreatFox | 2026-08-19 18:23:10 UTC |
 | 57 (media) | alta | `62[.]238[.]98[.]35:443` | ip:port | Vidar | ThreatFox | 2026-08-20 09:29:16 UTC |
 | 57 (media) | alta | `trump2[.]1368[.]lol` | domain | PureRAT | ThreatFox | 2026-08-20 06:11:13 UTC |
 | 57 (media) | critica | `47[.]96[.]106[.]127:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-20 06:05:05 UTC |
 | 57 (media) | alta | `45[.]66[.]248[.]13:46972` | ip:port | RedLine Stealer | ThreatFox | 2026-08-20 02:45:03 UTC |
 | 57 (media) | media | `hxxps://sixpences[.]xyz/` | url | Unknown malware | ThreatFox | 2026-08-19 22:00:09 UTC |
-| 57 (media) | alta | `whichkindwahalabethisonesooluwahelurboi[.]duckdns[.]org` | domain | Remcos | ThreatFox | 2026-08-19 18:24:57 UTC |
-| 57 (media) | alta | `178[.]16[.]55[.]234:3000` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 18:20:31 UTC |
-| 56 (media) | alta | `hxxp://91[.]92[.]47[.]97/bins/wget[.]sh` | url | Mirai | ThreatFox | 2026-08-20 12:18:18 UTC |
+| 56 (media) | media | `hxxp://vexdico[.]shop:8539/messages` | url | Remus | ThreatFox | 2026-08-20 18:40:31 UTC |
+| 56 (media) | alta | `hxxp://31[.]77[.]228[.]40/` | url | Stealc | ThreatFox | 2026-08-20 13:15:01 UTC |
+| 56 (media) | alta | `hxxp://91[.]92[.]47[.]97/bins/wget[.]sh` | url | Mirai | ThreatFox | 2026-08-20 13:14:59 UTC |
 | 56 (media) | alta | `80[.]190[.]77[.]86:2000` | ip:port | AsyncRAT | ThreatFox | 2026-08-20 12:05:05 UTC |
 | 56 (media) | alta | `oaq1h9w2[.]crownconnectpk[.]com` | domain | ClearFake | ThreatFox | 2026-08-20 11:29:38 UTC |
+| 56 (media) | alta | `lslmt39k[.]app8k[.]xyz` | domain | ClearFake | ThreatFox | 2026-08-20 10:56:16 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-72530 | TrueConf Server | 2026-08-20 | Unknown |
+| CVE-2026-72529 | TrueConf Server | 2026-08-20 | Unknown |
 | CVE-2026-64849 | MLflow MLflow | 2026-08-19 | Unknown |
 | CVE-2026-33824 | Microsoft Internet Key Exchange (IKE) Service Extensions | 2026-08-18 | Unknown |
 | CVE-2026-59310 | Broadcom VMware vCenter | 2026-08-18 | Unknown |
