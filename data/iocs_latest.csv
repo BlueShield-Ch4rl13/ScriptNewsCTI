@@ -1,44 +1,74 @@
 score,level,severity,value,defanged,type,threat,sources,country,vt_detections,abuse_score,age_days,confidence,first_seen,source,reference
 75,alta,alta,94.154.32.171:2404,94[.]154[.]32[.]171:2404,ip:port,Remcos,ThreatFox,FR,,100,0,100,2026-08-19 09:35:06 UTC,ThreatFox,
 71,alta,alta,108.186.112.220:4782,108[.]186[.]112[.]220:4782,ip:port,Quasar RAT,ThreatFox,US,,100,0,75,2026-08-19 09:31:46 UTC,ThreatFox,
-71,alta,alta,46.151.182.30:7443,46[.]151[.]182[.]30:7443,ip:port,Unknown Stealer,ThreatFox,DE,,100,0,75,2026-08-19 06:06:10 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-71,alta,alta,46.151.182.30:7080,46[.]151[.]182[.]30:7080,ip:port,Unknown Stealer,ThreatFox,DE,,100,0,75,2026-08-19 06:06:09 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
+68,media,critica,14.103.50.128:31337,14[.]103[.]50[.]128:31337,ip:port,Sliver,ThreatFox,CN,,100,0,50,2026-08-20 05:39:44 UTC,ThreatFox,https://www.shodan.io/host/14.103.50.128#31337
 65,media,alta,95.214.53.90:2354,95[.]214[.]53[.]90:2354,ip:port,Quasar RAT,ThreatFox,PL,,67,0,75,2026-08-19 09:31:47 UTC,ThreatFox,
-60,media,alta,governorhobbies.cfd,governorhobbies[.]cfd,domain,Unknown Loader,ThreatFox,,17/91,,0,100,2026-08-19 06:47:42 UTC,ThreatFox,
+63,media,media,http://183.63.8.194:46154/Mozi.m,hxxp://183[.]63[.]8[.]194:46154/Mozi[.]m,url,Mozi,"ThreatFox, URLhaus",,5/92,,0,75,2026-08-20 06:20:09 UTC,"ThreatFox, URLhaus",https://honeylabs.net/lookup/183.63.8.194
+62,media,media,http://110.186.229.108:47843/Mozi.m,hxxp://110[.]186[.]229[.]108:47843/Mozi[.]m,url,Mozi,"ThreatFox, URLhaus",,1/92,,0,75,2026-08-20 06:20:11 UTC,"ThreatFox, URLhaus",https://honeylabs.net/lookup/110.186.229.108
+62,media,media,http://115.57.182.131:41041/Mozi.m,hxxp://115[.]57[.]182[.]131:41041/Mozi[.]m,url,Mozi,"ThreatFox, URLhaus",,2/92,,0,75,2026-08-20 06:20:11 UTC,"ThreatFox, URLhaus",https://honeylabs.net/lookup/115.57.182.131
+60,media,media,46.246.84.10:7045,46[.]246[.]84[.]10:7045,ip:port,Vjw0rm,ThreatFox,SE,11/91,12,0,100,2026-08-20 06:15:10 UTC,ThreatFox,
+59,media,media,https://taliy.sbs/auth,hxxps://taliy[.]sbs/auth,url,Unknown malware,ThreatFox,,15/92,,0,100,2026-08-20 06:49:10 UTC,ThreatFox,
+59,media,media,https://tradegenius.sbs/auth,hxxps://tradegenius[.]sbs/auth,url,Unknown malware,ThreatFox,,15/92,,0,100,2026-08-20 06:46:50 UTC,ThreatFox,
+59,media,alta,1hvnc.duckdns.org,1hvnc[.]duckdns[.]org,domain,PureRAT,ThreatFox,,13/91,,0,100,2026-08-20 06:16:26 UTC,ThreatFox,https://bazaar.abuse.ch/sample/b9eabf9c1e7eda061eb824e4d6eee8dcebfa10e85a45bbfd623c87169c2f7a8e/
 59,media,media,https://hyperliquid-solana.xyz/,hxxps://hyperliquid-solana[.]xyz/,url,Unknown malware,ThreatFox,,20/92,,0,90,2026-08-19 22:00:09 UTC,ThreatFox,https://clickfix.carsonww.com/domains/hyperliquid-solana.xyz
-59,media,alta,snailsreading.xyz,snailsreading[.]xyz,domain,Unknown Loader,ThreatFox,,14/91,,0,100,2026-08-19 06:47:42 UTC,ThreatFox,
-59,media,alta,195.177.94.60:7080,195[.]177[.]94[.]60:7080,ip:port,Unknown Stealer,ThreatFox,FR,,39,0,75,2026-08-19 06:05:56 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
+58,media,critica,149.88.66.234:8082,149[.]88[.]66[.]234:8082,ip:port,Cobalt Strike,ThreatFox,HK,12/91,0,0,100,2026-08-20 06:05:07 UTC,ThreatFox,
 58,media,media,https://noise.lat/,hxxps://noise[.]lat/,url,Unknown malware,ThreatFox,,16/92,,0,90,2026-08-19 22:00:09 UTC,ThreatFox,https://clickfix.carsonww.com/domains/noise.lat
 58,media,alta,eventras.duckdns.org,eventras[.]duckdns[.]org,domain,Remcos,ThreatFox,,12/91,,0,100,2026-08-19 18:23:10 UTC,ThreatFox,https://bazaar.abuse.ch/sample/2dae1df14d0cc6ea8e670e0b327101d0fe5c475dc06a376e99a6df426bddf418/
 58,media,alta,195.177.94.85:7004,195[.]177[.]94[.]85:7004,ip:port,XWorm,ThreatFox,FR,,34,0,75,2026-08-19 10:35:44 UTC,ThreatFox,https://bazaar.abuse.ch/sample/1d62a76d0311297527849b772fcb42eb964d10bbb0eeced50d7b83a94a9e7ef7/
-58,media,media,corrykro.icu,corrykro[.]icu,domain,IClickFix,ThreatFox,,10/91,,0,100,2026-08-19 06:51:18 UTC,ThreatFox,
-58,media,media,indytravelclub.com,indytravelclub[.]com,domain,IClickFix,ThreatFox,,10/91,,0,100,2026-08-19 06:45:17 UTC,ThreatFox,
+57,media,alta,trump2.1368.lol,trump2[.]1368[.]lol,domain,PureRAT,ThreatFox,,6/91,,0,100,2026-08-20 06:11:13 UTC,ThreatFox,https://bazaar.abuse.ch/sample/af4ee79582992e348a8739579da478d50daccbaa6ec97420311916a2ac0fc503/
+57,media,critica,47.96.106.127:8080,47[.]96[.]106[.]127:8080,ip:port,Cobalt Strike,ThreatFox,CN,9/91,0,0,100,2026-08-20 06:05:05 UTC,ThreatFox,
+57,media,alta,45.66.248.13:46972,45[.]66[.]248[.]13:46972,ip:port,RedLine Stealer,ThreatFox,US,,10,0,100,2026-08-20 02:45:03 UTC,ThreatFox,
 57,media,media,https://sixpences.xyz/,hxxps://sixpences[.]xyz/,url,Unknown malware,ThreatFox,,14/92,,0,90,2026-08-19 22:00:09 UTC,ThreatFox,https://clickfix.carsonww.com/domains/sixpences.xyz
 57,media,alta,whichkindwahalabethisonesooluwahelurboi.duckdns.org,whichkindwahalabethisonesooluwahelurboi[.]duckdns[.]org,domain,Remcos,ThreatFox,,6/91,,0,100,2026-08-19 18:24:57 UTC,ThreatFox,https://bazaar.abuse.ch/sample/c4227301dd23eb6ebd80bf1f5e48455413ba78cf1a33be2296a857618d5588dd/
 57,media,alta,178.16.55.234:3000,178[.]16[.]55[.]234:3000,ip:port,Unknown Stealer,ThreatFox,US,14/91,10,0,75,2026-08-19 18:20:31 UTC,ThreatFox,
 57,media,media,95.179.189.194:3333,95[.]179[.]189[.]194:3333,ip:port,SnappyClient,ThreatFox,NL,,28,0,75,2026-08-19 09:56:31 UTC,ThreatFox,
 57,media,media,95.179.189.194:3334,95[.]179[.]189[.]194:3334,ip:port,SnappyClient,ThreatFox,NL,,28,0,75,2026-08-19 09:56:30 UTC,ThreatFox,
-57,media,media,atomento10.icu,atomento10[.]icu,domain,IClickFix,ThreatFox,,8/91,,0,100,2026-08-19 06:51:17 UTC,ThreatFox,
+56,media,alta,https://biddingdossierrfi.com/?95e41d41,hxxps://biddingdossierrfi[.]com/?95e41d41,url,ClearFake,ThreatFox,,2/92,,0,100,2026-08-20 05:12:08 UTC,ThreatFox,
+56,media,alta,201.79.5.223:8443,201[.]79[.]5[.]223:8443,ip:port,Aisuru,ThreatFox,DE,5/91,0,0,100,2026-08-20 05:12:02 UTC,ThreatFox,
 56,media,media,http://vexdico.shop:8539/accounts,hxxp://vexdico[.]shop:8539/accounts,url,Remus,ThreatFox,,17/92,,0,75,2026-08-20 01:25:33 UTC,ThreatFox,
-56,media,alta,201.79.5.223:8443,201[.]79[.]5[.]223:8443,ip:port,Aisuru,ThreatFox,DE,5/91,0,0,100,2026-08-20 01:06:44 UTC,ThreatFox,
 56,media,critica,45.221.118.46:80,45[.]221[.]118[.]46:80,ip:port,Cobalt Strike,ThreatFox,TW,4/91,0,0,100,2026-08-20 01:05:05 UTC,ThreatFox,
 56,media,critica,45.221.118.46:443,45[.]221[.]118[.]46:443,ip:port,Cobalt Strike,ThreatFox,TW,4/91,0,0,100,2026-08-20 01:05:04 UTC,ThreatFox,
 56,media,alta,http://dsfdsfs.xsph.ru/L1nc0In.php,hxxp://dsfdsfs[.]xsph[.]ru/L1nc0In[.]php,url,DCRat,ThreatFox,,2/92,,0,100,2026-08-19 22:50:07 UTC,ThreatFox,
 56,media,alta,nkzfatjf.gut--drops.com,nkzfatjf[.]gut--drops[.]com,domain,ClearFake,ThreatFox,,4/91,,0,100,2026-08-19 22:37:11 UTC,ThreatFox,
-56,media,alta,https://biddingdossierrfi.com/?95e41d41,hxxps://biddingdossierrfi[.]com/?95e41d41,url,ClearFake,ThreatFox,,2/92,,0,100,2026-08-19 22:14:05 UTC,ThreatFox,
 56,media,media,https://taliy.sbs/,hxxps://taliy[.]sbs/,url,Unknown malware,ThreatFox,,11/92,,0,90,2026-08-19 22:00:09 UTC,ThreatFox,https://clickfix.carsonww.com/domains/taliy.sbs
 56,media,alta,178.16.52.194:3000,178[.]16[.]52[.]194:3000,ip:port,Unknown Stealer,ThreatFox,DE,16/91,0,0,75,2026-08-19 18:20:30 UTC,ThreatFox,
 56,media,media,134.209.112.52:7443,134[.]209[.]112[.]52:7443,ip:port,Unknown malware,ThreatFox,US,,7,0,100,2026-08-19 15:05:06 UTC,ThreatFox,
 56,media,alta,gjii3jk6.en-us-theslimsplitsmethod.com,gjii3jk6[.]en-us-theslimsplitsmethod[.]com,domain,ClearFake,ThreatFox,,5/91,,0,100,2026-08-19 12:47:23 UTC,ThreatFox,
 56,media,media,http://bravplo.click:7713/addresses,hxxp://bravplo[.]click:7713/addresses,url,Remus,ThreatFox,,16/92,,0,75,2026-08-19 12:33:12 UTC,ThreatFox,
 56,media,alta,188.132.165.148:8080,188[.]132[.]165[.]148:8080,ip:port,Quasar RAT,ThreatFox,TR,,22,0,75,2026-08-19 09:31:47 UTC,ThreatFox,
-56,media,alta,sofazinc.cfd,sofazinc[.]cfd,domain,Unknown Loader,ThreatFox,,3/91,,0,100,2026-08-19 06:47:42 UTC,ThreatFox,
-56,media,media,enoria.se,enoria[.]se,domain,IClickFix,ThreatFox,,3/91,,0,100,2026-08-19 06:45:15 UTC,ThreatFox,
-56,media,alta,43.134.49.218:9034,43[.]134[.]49[.]218:9034,ip:port,Aisuru,ThreatFox,SG,3/91,0,0,100,2026-08-19 06:05:09 UTC,ThreatFox,
-56,media,alta,43.128.113.133:5555,43[.]128[.]113[.]133:5555,ip:port,Aisuru,ThreatFox,SG,4/91,0,0,100,2026-08-19 06:05:06 UTC,ThreatFox,
-56,media,alta,168.144.188.31:8443,168[.]144[.]188[.]31:8443,ip:port,Aisuru,ThreatFox,IN,3/91,0,0,100,2026-08-19 06:04:57 UTC,ThreatFox,
-56,media,alta,150.109.93.78:37215,150[.]109[.]93[.]78:37215,ip:port,Aisuru,ThreatFox,SG,4/91,0,0,100,2026-08-19 06:04:54 UTC,ThreatFox,
-56,media,alta,43.134.49.218:12345,43[.]134[.]49[.]218:12345,ip:port,Aisuru,ThreatFox,SG,3/91,0,0,100,2026-08-19 06:04:54 UTC,ThreatFox,
+55,media,alta,credipaas.com,credipaas[.]com,domain,ClearFake,ThreatFox,,0/91,,0,100,2026-08-20 06:27:40 UTC,ThreatFox,
+55,media,alta,connxt.ttlock.ma,connxt[.]ttlock[.]ma,domain,PureRAT,ThreatFox,,1/91,,0,100,2026-08-20 06:13:20 UTC,ThreatFox,https://bazaar.abuse.ch/sample/f636ff2834f3f113d068225ba9fa1465aa6211c183ef9b10a043382bce6bff3b/
+55,media,alta,wt1d3ceb.en-en-en-slimsounds.com,wt1d3ceb[.]en-en-en-slimsounds[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-20 05:58:07 UTC,ThreatFox,
+55,media,media,45.92.16.135:5480,45[.]92[.]16[.]135:5480,ip:port,Unknown malware,ThreatFox,US,,20,0,75,2026-08-20 05:53:28 UTC,ThreatFox,
+55,media,alta,junovzz0.eng-slimsounds.com,junovzz0[.]eng-slimsounds[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-20 05:28:35 UTC,ThreatFox,
+55,media,alta,https://anguiano.study/api/v1/verify,hxxps://anguiano[.]study/api/v1/verify,url,KongTuke,ThreatFox,,,,0,100,2026-08-20 05:12:18 UTC,ThreatFox,
+55,media,alta,https://anguiano.study/api/v1/session,hxxps://anguiano[.]study/api/v1/session,url,KongTuke,ThreatFox,,,,0,100,2026-08-20 05:12:17 UTC,ThreatFox,
+55,media,alta,anguiano.study,anguiano[.]study,domain,KongTuke,ThreatFox,,,,0,100,2026-08-20 05:12:16 UTC,ThreatFox,
+55,media,alta,43.134.49.218:37215,43[.]134[.]49[.]218:37215,ip:port,Aisuru,ThreatFox,SG,,0,0,100,2026-08-20 05:12:12 UTC,ThreatFox,
+55,media,alta,https://subscontract.axisstone.de/bidnow/,hxxps://subscontract[.]axisstone[.]de/bidnow/,url,ClearFake,ThreatFox,,0/92,,0,100,2026-08-20 05:12:09 UTC,ThreatFox,
+55,media,alta,http://193.148.56.226/,hxxp://193[.]148[.]56[.]226/,url,Stealc,ThreatFox,,1/92,,0,100,2026-08-20 05:12:07 UTC,ThreatFox,
+55,media,alta,176.98.182.217:8080,176[.]98[.]182[.]217:8080,ip:port,Aisuru,ThreatFox,NL,,0,0,100,2026-08-20 05:11:59 UTC,ThreatFox,
+55,media,alta,68.183.221.133:37215,68[.]183[.]221[.]133:37215,ip:port,Aisuru,ThreatFox,DE,,0,0,100,2026-08-20 05:11:59 UTC,ThreatFox,
+55,media,alta,198.211.96.18:9034,198[.]211[.]96[.]18:9034,ip:port,Aisuru,ThreatFox,US,,0,0,100,2026-08-20 05:11:57 UTC,ThreatFox,
+55,media,alta,62.234.150.219:8848,62[.]234[.]150[.]219:8848,ip:port,DCRat,ThreatFox,CN,,0,0,100,2026-08-20 05:05:05 UTC,ThreatFox,
+55,media,critica,47.96.106.127:6379,47[.]96[.]106[.]127:6379,ip:port,Cobalt Strike,ThreatFox,CN,,0,0,100,2026-08-20 05:05:03 UTC,ThreatFox,
+55,media,media,fgx9.com,fgx9[.]com,domain,IClickFix,ThreatFox,,,,0,100,2026-08-20 04:30:11 UTC,ThreatFox,
+55,media,alta,oneai.surf,oneai[.]surf,domain,Unknown Loader,ThreatFox,,,,0,100,2026-08-20 04:27:28 UTC,ThreatFox,
+55,media,alta,oneai.icu,oneai[.]icu,domain,Unknown Loader,ThreatFox,,,,0,100,2026-08-20 04:26:06 UTC,ThreatFox,
+55,media,alta,office356.icu,office356[.]icu,domain,Unknown Loader,ThreatFox,,,,0,100,2026-08-20 04:23:52 UTC,ThreatFox,
+55,media,alta,sso.meshblueprint.cc,sso[.]meshblueprint[.]cc,domain,ACR Stealer,ThreatFox,,,,0,100,2026-08-20 04:09:51 UTC,ThreatFox,
+55,media,critica,47.96.106.127:443,47[.]96[.]106[.]127:443,ip:port,Cobalt Strike,ThreatFox,CN,,0,0,100,2026-08-20 04:05:07 UTC,ThreatFox,
+55,media,critica,47.96.106.127:22,47[.]96[.]106[.]127:22,ip:port,Cobalt Strike,ThreatFox,CN,,0,0,100,2026-08-20 04:05:06 UTC,ThreatFox,
+55,media,critica,169.58.121.189:8443,169[.]58[.]121[.]189:8443,ip:port,Cobalt Strike,ThreatFox,DE,,0,0,100,2026-08-20 04:05:05 UTC,ThreatFox,
+55,media,alta,nkht88l2.bio--dentix.com,nkht88l2[.]bio--dentix[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-20 03:48:24 UTC,ThreatFox,
+55,media,alta,bio--dentix.com,bio--dentix[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-20 03:47:15 UTC,ThreatFox,
+55,media,alta,osflx2hg.eng-eng-slimsounds.com,osflx2hg[.]eng-eng-slimsounds[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-20 03:33:37 UTC,ThreatFox,
+55,media,alta,43.99.86.192:443,43[.]99[.]86[.]192:443,ip:port,ValleyRAT,ThreatFox,HK,,0,0,100,2026-08-20 03:05:14 UTC,ThreatFox,
+55,media,media,34.124.183.110:8080,34[.]124[.]183[.]110:8080,ip:port,VShell,ThreatFox,SG,,0,0,100,2026-08-20 03:05:04 UTC,ThreatFox,
+55,media,alta,118.107.9.136:7811,118[.]107[.]9[.]136:7811,ip:port,ValleyRAT,ThreatFox,HK,,0,0,100,2026-08-20 02:55:14 UTC,ThreatFox,
+55,media,alta,vfiwq0l4.blinzedor.us,vfiwq0l4[.]blinzedor[.]us,domain,ClearFake,ThreatFox,,,,0,100,2026-08-20 02:49:45 UTC,ThreatFox,
+55,media,alta,blinzedor.us,blinzedor[.]us,domain,ClearFake,ThreatFox,,,,0,100,2026-08-20 02:46:30 UTC,ThreatFox,
+55,media,alta,121.127.253.206:8856,121[.]127[.]253[.]206:8856,ip:port,ValleyRAT,ThreatFox,HK,,0,0,100,2026-08-20 01:50:12 UTC,ThreatFox,
 55,media,media,https://meraapnabharat.ca/,hxxps://meraapnabharat[.]ca/,url,Unknown malware,ThreatFox,,6/92,,0,90,2026-08-20 01:30:07 UTC,ThreatFox,https://clickfix.carsonww.com/domains/meraapnabharat.ca
 55,media,media,https://vidyalekha.co.in/,hxxps://vidyalekha[.]co[.]in/,url,Unknown malware,ThreatFox,,6/92,,0,90,2026-08-20 01:30:07 UTC,ThreatFox,https://clickfix.carsonww.com/domains/vidyalekha.co.in
 55,media,media,https://vefasigorta.net/,hxxps://vefasigorta[.]net/,url,Unknown malware,ThreatFox,,6/92,,0,90,2026-08-20 01:30:07 UTC,ThreatFox,https://clickfix.carsonww.com/domains/vefasigorta.net
@@ -46,18 +76,13 @@ score,level,severity,value,defanged,type,threat,sources,country,vt_detections,ab
 55,media,alta,cogniclearplus.com,cogniclearplus[.]com,domain,ClearFake,ThreatFox,,0/91,,0,100,2026-08-20 01:26:14 UTC,ThreatFox,
 55,media,alta,wu5yb08w.drubenginecologo.com,wu5yb08w[.]drubenginecologo[.]com,domain,ClearFake,ThreatFox,,1/91,,0,100,2026-08-20 00:59:37 UTC,ThreatFox,
 55,media,media,https://bathandyou.com/,hxxps://bathandyou[.]com/,url,Unknown malware,ThreatFox,,6/92,,0,90,2026-08-20 00:00:08 UTC,ThreatFox,https://clickfix.carsonww.com/domains/bathandyou.com
-55,media,alta,http://193.148.56.226/,hxxp://193[.]148[.]56[.]226/,url,Stealc,ThreatFox,,1/92,,0,100,2026-08-20 00:00:08 UTC,ThreatFox,
 55,media,alta,ru4gcxzf.cardoslim.com,ru4gcxzf[.]cardoslim[.]com,domain,ClearFake,ThreatFox,,0/91,,0,100,2026-08-19 23:28:42 UTC,ThreatFox,
 55,media,alta,cardoslim.com,cardoslim[.]com,domain,ClearFake,ThreatFox,,0/91,,0,100,2026-08-19 23:25:45 UTC,ThreatFox,
 55,media,alta,mc6rm56y.biodentax.us,mc6rm56y[.]biodentax[.]us,domain,ClearFake,ThreatFox,,0/91,,0,100,2026-08-19 22:48:11 UTC,ThreatFox,
 55,media,alta,biodentax.us,biodentax[.]us,domain,ClearFake,ThreatFox,,0/91,,0,100,2026-08-19 22:46:21 UTC,ThreatFox,
-55,media,alta,https://subscontract.axisstone.de/bidnow/,hxxps://subscontract[.]axisstone[.]de/bidnow/,url,ClearFake,ThreatFox,,0/92,,0,100,2026-08-19 22:13:20 UTC,ThreatFox,
 55,media,media,https://tradegenius.sbs/,hxxps://tradegenius[.]sbs/,url,Unknown malware,ThreatFox,,5/92,,0,90,2026-08-19 22:00:09 UTC,ThreatFox,https://clickfix.carsonww.com/domains/tradegenius.sbs
 55,media,alta,el9ozjuh.cardislim.com,el9ozjuh[.]cardislim[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-19 21:28:16 UTC,ThreatFox,
 55,media,alta,cardislim.com,cardislim[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-19 21:25:15 UTC,ThreatFox,
-55,media,alta,https://anguiano.study/api/v1/verify,hxxps://anguiano[.]study/api/v1/verify,url,KongTuke,ThreatFox,,,,0,100,2026-08-19 21:10:52 UTC,ThreatFox,
-55,media,alta,https://anguiano.study/api/v1/session,hxxps://anguiano[.]study/api/v1/session,url,KongTuke,ThreatFox,,,,0,100,2026-08-19 21:10:51 UTC,ThreatFox,
-55,media,alta,anguiano.study,anguiano[.]study,domain,KongTuke,ThreatFox,,,,0,100,2026-08-19 21:10:50 UTC,ThreatFox,
 55,media,alta,http://ce557109.tw1.ru/L1nc0In.php,hxxp://ce557109[.]tw1[.]ru/L1nc0In[.]php,url,DCRat,ThreatFox,,,,0,100,2026-08-19 20:35:06 UTC,ThreatFox,
 55,media,media,valokse.lol,valokse[.]lol,domain,IClickFix,ThreatFox,,,,0,100,2026-08-19 20:14:12 UTC,ThreatFox,
 55,media,alta,consulabast.com,consulabast[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-19 20:09:59 UTC,ThreatFox,
@@ -82,7 +107,6 @@ score,level,severity,value,defanged,type,threat,sources,country,vt_detections,ab
 55,media,critica,202.61.130.209:443,202[.]61[.]130[.]209:443,ip:port,AdaptixC2,ThreatFox,JP,,0,0,100,2026-08-19 19:05:06 UTC,ThreatFox,
 55,media,critica,202.61.130.209:80,202[.]61[.]130[.]209:80,ip:port,AdaptixC2,ThreatFox,JP,,0,0,100,2026-08-19 19:05:06 UTC,ThreatFox,
 55,media,critica,202.61.130.209:8888,202[.]61[.]130[.]209:8888,ip:port,AdaptixC2,ThreatFox,JP,,0,0,100,2026-08-19 19:05:05 UTC,ThreatFox,
-55,media,alta,43.134.49.218:37215,43[.]134[.]49[.]218:37215,ip:port,Aisuru,ThreatFox,SG,,0,0,100,2026-08-19 18:46:00 UTC,ThreatFox,
 55,media,media,http://196.251.107.186/zs/gate.php,hxxp://196[.]251[.]107[.]186/zs/gate[.]php,url,Unknown malware,ThreatFox,,,,0,100,2026-08-19 18:44:15 UTC,ThreatFox,
 55,media,media,http://196.251.107.186/svbia/uploads/31676eb5cfe66cf2_153.php,hxxp://196[.]251[.]107[.]186/svbia/uploads/31676eb5cfe66cf2_153[.]php,url,Unknown malware,ThreatFox,,,,0,100,2026-08-19 18:44:15 UTC,ThreatFox,
 55,media,alta,conareras.study,conareras[.]study,domain,KongTuke,ThreatFox,,0/91,,0,100,2026-08-19 18:32:47 UTC,ThreatFox,
@@ -271,95 +295,25 @@ score,level,severity,value,defanged,type,threat,sources,country,vt_detections,ab
 55,media,critica,213.199.53.152:80,213[.]199[.]53[.]152:80,ip:port,AdaptixC2,ThreatFox,DE,,0,0,100,2026-08-19 07:05:05 UTC,ThreatFox,
 55,media,critica,213.199.53.152:8080,213[.]199[.]53[.]152:8080,ip:port,AdaptixC2,ThreatFox,DE,,0,0,100,2026-08-19 07:05:05 UTC,ThreatFox,
 55,media,alta,app-api.embervault.cc,app-api[.]embervault[.]cc,domain,ACR Stealer,ThreatFox,,,,0,100,2026-08-19 06:58:24 UTC,ThreatFox,https://bazaar.abuse.ch/sample/8910f0cb2eb97c3b1ced8b512bb34884a958ba7d81829841b2e60eb487157662/
-55,media,media,rukkoldauwe87.xyz,rukkoldauwe87[.]xyz,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:51:19 UTC,ThreatFox,
-55,media,media,sotopiingpi91.xyz,sotopiingpi91[.]xyz,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:51:19 UTC,ThreatFox,
-55,media,media,volvernimo31.life,volvernimo31[.]life,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:51:19 UTC,ThreatFox,
-55,media,media,flowerpii9831.life,flowerpii9831[.]life,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:51:18 UTC,ThreatFox,
-55,media,media,rogethapi2134.life,rogethapi2134[.]life,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:51:18 UTC,ThreatFox,
-55,media,media,ngnhom.com,ngnhom[.]com,domain,IClickFix,ThreatFox,,,,0,100,2026-08-19 06:47:37 UTC,ThreatFox,
-55,media,media,omarllerena.com,omarllerena[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:22 UTC,ThreatFox,
-55,media,media,mrevolucion.org,mrevolucion[.]org,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:21 UTC,ThreatFox,
-55,media,media,nextgeneventsdecor.com,nextgeneventsdecor[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:21 UTC,ThreatFox,
-55,media,media,marcsons.com,marcsons[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:20 UTC,ThreatFox,
-55,media,media,medprov.com,medprov[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:20 UTC,ThreatFox,
-55,media,media,malcolmxerxes.com,malcolmxerxes[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:19 UTC,ThreatFox,
-55,media,media,malishplastics.com,malishplastics[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:19 UTC,ThreatFox,
-55,media,media,irfu-klimat.ru,irfu-klimat[.]ru,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:18 UTC,ThreatFox,
-55,media,media,kachafruit-barna.es,kachafruit-barna[.]es,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:18 UTC,ThreatFox,
-55,media,media,kakabrands.com,kakabrands[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:18 UTC,ThreatFox,
-55,media,media,kildeholm1.dk,kildeholm1[.]dk,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:18 UTC,ThreatFox,
-55,media,media,highwaynoisebarriers.com,highwaynoisebarriers[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:17 UTC,ThreatFox,
-55,media,media,getmeitin.com,getmeitin[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:16 UTC,ThreatFox,
-55,media,media,getusitin.com,getusitin[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:16 UTC,ThreatFox,
-55,media,media,herbalsolutions.co.za,herbalsolutions[.]co[.]za,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:16 UTC,ThreatFox,
-55,media,media,familie.slieter.de,familie[.]slieter[.]de,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:15 UTC,ThreatFox,
-55,media,media,dwatchglobal.com,dwatchglobal[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:14 UTC,ThreatFox,
-55,media,media,couvreursberthauxetfils.fr,couvreursberthauxetfils[.]fr,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:13 UTC,ThreatFox,
-55,media,media,desafiomlh.org,desafiomlh[.]org,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:13 UTC,ThreatFox,
-55,media,media,desihiphop.com,desihiphop[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:13 UTC,ThreatFox,
-55,media,media,cess.kr,cess[.]kr,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:12 UTC,ThreatFox,
-55,media,media,clickfive-ng.com,clickfive-ng[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:12 UTC,ThreatFox,
-55,media,media,cofeservice.ru,cofeservice[.]ru,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:12 UTC,ThreatFox,
-55,media,media,celebrandolofemenino.com,celebrandolofemenino[.]com,domain,IClickFix,ThreatFox,,1/91,,0,100,2026-08-19 06:45:11 UTC,ThreatFox,
-55,media,media,bandarawelahotel.com,bandarawelahotel[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:10 UTC,ThreatFox,
-55,media,media,blackiron.co.uk,blackiron[.]co[.]uk,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:10 UTC,ThreatFox,
-55,media,media,autosolutionsconnect.com,autosolutionsconnect[.]com,domain,IClickFix,ThreatFox,,0/91,,0,100,2026-08-19 06:45:09 UTC,ThreatFox,
-55,media,media,alkalize.ir,alkalize[.]ir,domain,IClickFix,ThreatFox,,,,0,100,2026-08-19 06:45:08 UTC,ThreatFox,
-55,media,media,aluminiosalicante.com,aluminiosalicante[.]com,domain,IClickFix,ThreatFox,,,,0,100,2026-08-19 06:45:08 UTC,ThreatFox,
-55,media,media,adayay.com.tr,adayay[.]com[.]tr,domain,IClickFix,ThreatFox,,,,0,100,2026-08-19 06:45:07 UTC,ThreatFox,
-55,media,media,aerisenergy.com.br,aerisenergy[.]com[.]br,domain,IClickFix,ThreatFox,,,,0,100,2026-08-19 06:45:07 UTC,ThreatFox,
-55,media,media,alessandrajobnutricionista.com,alessandrajobnutricionista[.]com,domain,IClickFix,ThreatFox,,,,0,100,2026-08-19 06:45:07 UTC,ThreatFox,
-55,media,alta,markthunder.xyz,markthunder[.]xyz,domain,Unknown Loader,ThreatFox,,,,0,100,2026-08-19 06:38:17 UTC,ThreatFox,
-55,media,alta,connectme.mom,connectme[.]mom,domain,Unknown RAT,ThreatFox,,,,0,100,2026-08-19 06:28:44 UTC,ThreatFox,https://bazaar.abuse.ch/sample/837278104e5d4ed94c286bd8ea3845377fd03c2f1fa4b7b43555b9fca3455115/
-55,media,media,testingherenigger.loophole.site,testingherenigger[.]loophole[.]site,domain,Unknown malware,ThreatFox,,,,0,100,2026-08-19 06:20:15 UTC,ThreatFox,https://bazaar.abuse.ch/sample/3b1d59c71cf19f0be3f66f4ad7d89e3593bbcd1c461b835f663bce969d07dc53/
-55,media,alta,201.79.5.223:9035,201[.]79[.]5[.]223:9035,ip:port,Aisuru,ThreatFox,DE,,0,0,100,2026-08-19 06:05:26 UTC,ThreatFox,
-55,media,alta,43.128.113.133:37215,43[.]128[.]113[.]133:37215,ip:port,Aisuru,ThreatFox,SG,,0,0,100,2026-08-19 06:05:26 UTC,ThreatFox,
-55,media,alta,43.128.113.133:9035,43[.]128[.]113[.]133:9035,ip:port,Aisuru,ThreatFox,SG,,0,0,100,2026-08-19 06:05:25 UTC,ThreatFox,
-55,media,alta,https://62.238.98.35,hxxps://62[.]238[.]98[.]35,url,Vidar,ThreatFox,,,,0,100,2026-08-19 06:05:25 UTC,ThreatFox,
-55,media,alta,150.109.93.78:8080,150[.]109[.]93[.]78:8080,ip:port,Aisuru,ThreatFox,SG,,0,0,100,2026-08-19 06:05:24 UTC,ThreatFox,
-55,media,alta,150.109.93.78:34567,150[.]109[.]93[.]78:34567,ip:port,Aisuru,ThreatFox,SG,,0,0,100,2026-08-19 06:05:24 UTC,ThreatFox,
-55,media,alta,43.128.113.133:12345,43[.]128[.]113[.]133:12345,ip:port,Aisuru,ThreatFox,SG,,0,0,100,2026-08-19 06:05:10 UTC,ThreatFox,
-55,media,alta,43.134.49.218:5555,43[.]134[.]49[.]218:5555,ip:port,Aisuru,ThreatFox,SG,,0,0,100,2026-08-19 06:05:09 UTC,ThreatFox,
-55,media,alta,142.93.205.111:8443,142[.]93[.]205[.]111:8443,ip:port,Aisuru,ThreatFox,US,,0,0,100,2026-08-19 06:05:09 UTC,ThreatFox,
-55,media,alta,176.98.182.217:34567,176[.]98[.]182[.]217:34567,ip:port,Aisuru,ThreatFox,NL,,0,0,100,2026-08-19 06:05:05 UTC,ThreatFox,
-55,media,alta,https://ljr.1001gacor.org,hxxps://ljr[.]1001gacor[.]org,url,Vidar,ThreatFox,,,,0,100,2026-08-19 06:05:05 UTC,ThreatFox,
-55,media,alta,64.227.187.82:8080,64[.]227[.]187[.]82:8080,ip:port,Aisuru,ThreatFox,IN,,2,0,100,2026-08-19 06:05:04 UTC,ThreatFox,
-55,media,alta,159.89.193.17:9034,159[.]89[.]193[.]17:9034,ip:port,Aisuru,ThreatFox,SG,,0,0,100,2026-08-19 06:05:03 UTC,ThreatFox,
-55,media,alta,150.109.93.78:5555,150[.]109[.]93[.]78:5555,ip:port,Aisuru,ThreatFox,SG,,0,0,100,2026-08-19 06:05:01 UTC,ThreatFox,
-55,media,alta,https://randenbrink.lol/api/v1/session,hxxps://randenbrink[.]lol/api/v1/session,url,KongTuke,ThreatFox,,0/92,,0,100,2026-08-19 06:04:54 UTC,ThreatFox,https://infosec.exchange/@monitorsg/117117856549686474
-55,media,alta,randenbrink.lol,randenbrink[.]lol,domain,KongTuke,ThreatFox,,0/91,,0,100,2026-08-19 06:04:53 UTC,ThreatFox,https://infosec.exchange/@monitorsg/117117856549686474
-55,media,alta,https://randenbrink.lol/api/v1/verify,hxxps://randenbrink[.]lol/api/v1/verify,url,KongTuke,ThreatFox,,0/92,,0,100,2026-08-19 06:04:52 UTC,ThreatFox,https://infosec.exchange/@monitorsg/117117856549686474
-55,media,alta,https://randenbrink.lol/api/v1/status,hxxps://randenbrink[.]lol/api/v1/status,url,KongTuke,ThreatFox,,0/92,,0,100,2026-08-19 06:04:51 UTC,ThreatFox,https://infosec.exchange/@monitorsg/117117856549686474
-55,media,alta,108.181.175.198:6606,108[.]181[.]175[.]198:6606,ip:port,AsyncRAT,ThreatFox,US,,0,0,100,2026-08-19 06:04:51 UTC,ThreatFox,https://bazaar.abuse.ch/sample/8437f141b392c50cb27717fef260b9bc0509178eb7919afe96b637b30cdca5d8/
-55,media,alta,108.181.175.198:7707,108[.]181[.]175[.]198:7707,ip:port,AsyncRAT,ThreatFox,US,,0,0,100,2026-08-19 06:04:51 UTC,ThreatFox,https://bazaar.abuse.ch/sample/8437f141b392c50cb27717fef260b9bc0509178eb7919afe96b637b30cdca5d8/
-55,media,alta,108.181.175.198:8808,108[.]181[.]175[.]198:8808,ip:port,AsyncRAT,ThreatFox,US,,0,0,100,2026-08-19 06:04:50 UTC,ThreatFox,https://bazaar.abuse.ch/sample/8437f141b392c50cb27717fef260b9bc0509178eb7919afe96b637b30cdca5d8/
-55,media,alta,108.181.175.198:7000,108[.]181[.]175[.]198:7000,ip:port,XWorm,ThreatFox,US,,0,0,100,2026-08-19 06:04:50 UTC,ThreatFox,https://bazaar.abuse.ch/sample/3dd9f794833b29db94173ee707a300162e388cf75357e494e328954b5d61c650/
-55,media,alta,https://vanloon.lol/api/v1/session,hxxps://vanloon[.]lol/api/v1/session,url,KongTuke,ThreatFox,,,,0,100,2026-08-19 06:04:49 UTC,ThreatFox,https://infosec.exchange/@monitorsg/117118086922735381
-55,media,alta,vanloon.lol,vanloon[.]lol,domain,KongTuke,ThreatFox,,,,0,100,2026-08-19 06:04:47 UTC,ThreatFox,https://infosec.exchange/@monitorsg/117118086922735381
-55,media,alta,https://vanloon.lol/api/v1/verify,hxxps://vanloon[.]lol/api/v1/verify,url,KongTuke,ThreatFox,,,,0,100,2026-08-19 06:04:46 UTC,ThreatFox,https://infosec.exchange/@monitorsg/117118086922735381
-55,media,alta,https://vanloon.lol/api/v1/status,hxxps://vanloon[.]lol/api/v1/status,url,KongTuke,ThreatFox,,,,0,100,2026-08-19 06:04:45 UTC,ThreatFox,https://infosec.exchange/@monitorsg/117118086922735381
-55,media,alta,securefiles-cdn.com,securefiles-cdn[.]com,domain,Unknown RAT,ThreatFox,,,,0,100,2026-08-19 06:02:25 UTC,ThreatFox,https://bazaar.abuse.ch/sample/093db91d8a9c42faf74d6531eacab95e1175952a8defd0a86113ab92403e4f22/
-55,media,alta,serv.therapasqualis.com,serv[.]therapasqualis[.]com,domain,Unknown RAT,ThreatFox,,,,0,100,2026-08-19 06:02:25 UTC,ThreatFox,https://bazaar.abuse.ch/sample/093db91d8a9c42faf74d6531eacab95e1175952a8defd0a86113ab92403e4f22/
-55,media,alta,104.168.115.94:2404,104[.]168[.]115[.]94:2404,ip:port,Remcos,ThreatFox,US,,0,0,100,2026-08-19 06:00:08 UTC,ThreatFox,
-55,media,alta,xiaovy4p.eng-slimsounds.com,xiaovy4p[.]eng-slimsounds[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-19 05:57:05 UTC,ThreatFox,
-55,media,alta,7ay96hev.bio--dentix.us,7ay96hev[.]bio--dentix[.]us,domain,ClearFake,ThreatFox,,,,0,100,2026-08-19 05:21:19 UTC,ThreatFox,
-55,media,alta,bio--dentix.us,bio--dentix[.]us,domain,ClearFake,ThreatFox,,,,0,100,2026-08-19 05:19:39 UTC,ThreatFox,
-55,media,critica,149.88.66.234:21,149[.]88[.]66[.]234:21,ip:port,Cobalt Strike,ThreatFox,HK,,0,0,100,2026-08-19 05:05:07 UTC,ThreatFox,
-55,media,critica,47.108.86.120:22,47[.]108[.]86[.]120:22,ip:port,Cobalt Strike,ThreatFox,CN,,0,0,100,2026-08-19 05:05:06 UTC,ThreatFox,
-55,media,critica,47.108.86.120:111,47[.]108[.]86[.]120:111,ip:port,Cobalt Strike,ThreatFox,CN,,0,0,100,2026-08-19 05:05:06 UTC,ThreatFox,
-55,media,alta,0eviqnwu.en-usa-sugarmute.us,0eviqnwu[.]en-usa-sugarmute[.]us,domain,ClearFake,ThreatFox,,,,0,100,2026-08-19 04:56:01 UTC,ThreatFox,
-55,media,critica,47.108.86.120:80,47[.]108[.]86[.]120:80,ip:port,Cobalt Strike,ThreatFox,CN,,0,0,100,2026-08-19 04:05:06 UTC,ThreatFox,
-55,media,critica,47.108.86.120:8080,47[.]108[.]86[.]120:8080,ip:port,Cobalt Strike,ThreatFox,CN,,0,0,100,2026-08-19 04:05:06 UTC,ThreatFox,
-55,media,critica,47.108.86.120:443,47[.]108[.]86[.]120:443,ip:port,Cobalt Strike,ThreatFox,CN,,0,0,100,2026-08-19 04:05:04 UTC,ThreatFox,
-55,media,alta,p9bh7aaa.usa-us--goldalign.com,p9bh7aaa[.]usa-us--goldalign[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-19 03:21:27 UTC,ThreatFox,
-55,media,media,124.222.128.197:8084,124[.]222[.]128[.]197:8084,ip:port,VShell,ThreatFox,CN,,0,0,100,2026-08-19 03:05:06 UTC,ThreatFox,
-55,media,media,183.60.226.2:7000,183[.]60[.]226[.]2:7000,ip:port,Unknown malware,ThreatFox,CN,,1,0,100,2026-08-19 03:05:04 UTC,ThreatFox,
-55,media,alta,yf1vlynb.gtacauto.com,yf1vlynb[.]gtacauto[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-19 02:48:03 UTC,ThreatFox,
-55,media,alta,156.251.16.249:7800,156[.]251[.]16[.]249:7800,ip:port,ValleyRAT,ThreatFox,HK,,0,0,100,2026-08-19 02:10:13 UTC,ThreatFox,
-55,media,alta,156.251.16.249:7811,156[.]251[.]16[.]249:7811,ip:port,ValleyRAT,ThreatFox,HK,,0,0,100,2026-08-19 02:10:08 UTC,ThreatFox,
-55,media,media,47.98.102.101:8084,47[.]98[.]102[.]101:8084,ip:port,VShell,ThreatFox,CN,,0,0,100,2026-08-19 02:05:06 UTC,ThreatFox,
-55,media,media,58.87.71.33:1999,58[.]87[.]71[.]33:1999,ip:port,VShell,ThreatFox,CN,,0,0,100,2026-08-19 02:05:06 UTC,ThreatFox,
-55,media,alta,hzyocvyc.en-us-slimsplits.com,hzyocvyc[.]en-us-slimsplits[.]com,domain,ClearFake,ThreatFox,,,,0,100,2026-08-19 01:45:53 UTC,ThreatFox,
+54,media,alta,niort-boissons.fr,niort-boissons[.]fr,domain,ClearFake,ThreatFox,,0/91,,0,90,2026-08-20 06:36:51 UTC,ThreatFox,
+54,media,alta,maurotacchella.ch,maurotacchella[.]ch,domain,ClearFake,ThreatFox,,0/91,,0,90,2026-08-20 06:36:50 UTC,ThreatFox,
+54,media,alta,kalozia.fr,kalozia[.]fr,domain,ClearFake,ThreatFox,,0/91,,0,90,2026-08-20 06:36:50 UTC,ThreatFox,
+54,media,media,http://223.123.44.122:42812/Mozi.m,hxxp://223[.]123[.]44[.]122:42812/Mozi[.]m,url,Mozi,ThreatFox,,11/92,,0,75,2026-08-20 06:20:14 UTC,ThreatFox,https://honeylabs.net/lookup/223.123.44.122
+54,media,media,187.87.138.158:43260,187[.]87[.]138[.]158:43260,ip:port,Unknown malware,ThreatFox,BR,,12,0,75,2026-08-20 05:48:09 UTC,ThreatFox,
+54,media,media,https://zaerkos.rest/,hxxps://zaerkos[.]rest/,url,Unknown malware,ThreatFox,,,,0,90,2026-08-20 05:30:07 UTC,ThreatFox,https://clickfix.carsonww.com/domains/zaerkos.rest
+54,media,media,https://proclean-ci.com/,hxxps://proclean-ci[.]com/,url,Unknown malware,ThreatFox,,,,0,90,2026-08-20 05:30:07 UTC,ThreatFox,https://clickfix.carsonww.com/domains/proclean-ci.com
+54,media,alta,bauenmitleuppi.ch,bauenmitleuppi[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-20 04:35:24 UTC,ThreatFox,
+54,media,alta,abiesco.ch,abiesco[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-20 04:25:23 UTC,ThreatFox,
+54,media,alta,clearviewpublishing.com,clearviewpublishing[.]com,domain,ClearFake,ThreatFox,,,,0,90,2026-08-20 04:05:21 UTC,ThreatFox,
+54,media,alta,maurobiasca.ch,maurobiasca[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-20 04:05:21 UTC,ThreatFox,
+54,media,media,https://sci-lumiere.ci/,hxxps://sci-lumiere[.]ci/,url,Unknown malware,ThreatFox,,,,0,90,2026-08-20 03:30:07 UTC,ThreatFox,https://clickfix.carsonww.com/domains/sci-lumiere.ci
+54,media,alta,papillon-international.ch,papillon-international[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-20 03:25:18 UTC,ThreatFox,
+54,media,alta,prophavengh.com,prophavengh[.]com,domain,ClearFake,ThreatFox,,,,0,90,2026-08-20 03:04:46 UTC,ThreatFox,
+54,media,alta,suarezleonseguridad.com,suarezleonseguridad[.]com,domain,ClearFake,ThreatFox,,,,0,90,2026-08-20 03:04:00 UTC,ThreatFox,
+54,media,alta,atlante.solutions,atlante[.]solutions,domain,ClearFake,ThreatFox,,,,0,90,2026-08-20 02:52:29 UTC,ThreatFox,
+54,media,alta,services-froid-climatisation-guyane.fr,services-froid-climatisation-guyane[.]fr,domain,ClearFake,ThreatFox,,,,0,90,2026-08-20 02:02:26 UTC,ThreatFox,
+54,media,alta,lincoln-barbershop.fr,lincoln-barbershop[.]fr,domain,ClearFake,ThreatFox,,,,0,90,2026-08-20 02:02:26 UTC,ThreatFox,
+54,media,media,https://richplusglobal.com/,hxxps://richplusglobal[.]com/,url,Unknown malware,ThreatFox,,,,0,90,2026-08-20 02:00:08 UTC,ThreatFox,https://clickfix.carsonww.com/domains/richplusglobal.com
 54,media,alta,wohnmobilankaufschweiz.ch,wohnmobilankaufschweiz[.]ch,domain,ClearFake,ThreatFox,,0/91,,0,90,2026-08-20 01:32:24 UTC,ThreatFox,
 54,media,alta,wesendit.ch,wesendit[.]ch,domain,ClearFake,ThreatFox,,0/91,,0,90,2026-08-20 01:22:23 UTC,ThreatFox,
 54,media,alta,zaerkos.rest,zaerkos[.]rest,domain,ClearFake,ThreatFox,,0/91,,0,90,2026-08-20 01:13:28 UTC,ThreatFox,
@@ -718,42 +672,8 @@ score,level,severity,value,defanged,type,threat,sources,country,vt_detections,ab
 54,media,alta,burignon.ch,burignon[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 07:29:02 UTC,ThreatFox,
 54,media,alta,ecurie-christel-boulard.fr,ecurie-christel-boulard[.]fr,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 07:29:02 UTC,ThreatFox,
 54,media,alta,tremplin-grand-oral.fr,tremplin-grand-oral[.]fr,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 06:59:00 UTC,ThreatFox,
-54,media,alta,klettix-ai.ch,klettix-ai[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 06:53:15 UTC,ThreatFox,
-54,media,alta,w-re.ch,w-re[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 06:53:15 UTC,ThreatFox,
-54,media,media,bravecdp.duckdns.org,bravecdp[.]duckdns[.]org,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 06:17:10 UTC,ThreatFox,
-54,media,media,http://153.117.13.31:50729/Mozi.m,hxxp://153[.]117[.]13[.]31:50729/Mozi[.]m,url,Mozi,ThreatFox,,10/92,,0,75,2026-08-19 06:05:07 UTC,ThreatFox,https://honeylabs.net/lookup/153.117.13.31
-54,media,media,79040421b5a48dcc6e611dfe187b2f3e355791ad8511adb84f5c0948aa1d6c89,79040421b5a48dcc6e611dfe187b2f3e355791ad8511adb84f5c0948aa1d6c89,sha256_hash,Unknown malware,ThreatFox,,,,0,90,2026-08-19 05:36:34 UTC,ThreatFox,
-54,media,media,forgedelaguiole.ch,forgedelaguiole[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 05:04:49 UTC,ThreatFox,
-54,media,media,group-galore.ch,group-galore[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 05:04:48 UTC,ThreatFox,
-54,media,alta,ringsum.ch,ringsum[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 05:04:47 UTC,ThreatFox,
-54,media,media,swissambulance.ch,swissambulance[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 04:54:46 UTC,ThreatFox,
-54,media,media,alpen-initiative.ch,alpen-initiative[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 04:44:45 UTC,ThreatFox,
-54,media,media,tiafe.ch,tiafe[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 04:44:45 UTC,ThreatFox,
-54,media,media,sistem-electromenager.ch,sistem-electromenager[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 04:44:45 UTC,ThreatFox,
-54,media,media,galfetti.ch,galfetti[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 04:35:18 UTC,ThreatFox,
-54,media,media,wanderingfoodie.com,wanderingfoodie[.]com,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 03:45:15 UTC,ThreatFox,
-54,media,media,winefolk.co.za,winefolk[.]co[.]za,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 03:35:15 UTC,ThreatFox,
-54,media,media,cameliamihai.ch,cameliamihai[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 03:35:14 UTC,ThreatFox,
-54,media,media,lesdomainesdulys.ch,lesdomainesdulys[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 03:35:14 UTC,ThreatFox,
-54,media,media,lueurbygreg.ch,lueurbygreg[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 03:35:14 UTC,ThreatFox,
-54,media,alta,fokusschweiz.ch,fokusschweiz[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 03:10:11 UTC,ThreatFox,
-54,media,media,zemgeneve.ch,zemgeneve[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 03:02:22 UTC,ThreatFox,
-54,media,alta,ilgiardinodeibambini.ch,ilgiardinodeibambini[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 03:01:52 UTC,ThreatFox,
-54,media,media,tridegar.es,tridegar[.]es,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 02:53:51 UTC,ThreatFox,
-54,media,alta,nadiatanner.ch,nadiatanner[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 02:52:51 UTC,ThreatFox,
-54,media,media,thetinytravelerblog.com,thetinytravelerblog[.]com,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 02:51:50 UTC,ThreatFox,
-54,media,alta,cwc.ch,cwc[.]ch,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 02:41:49 UTC,ThreatFox,
-54,media,media,gtcarclub.fr,gtcarclub[.]fr,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 02:31:48 UTC,ThreatFox,
-54,media,media,lunaviaggi.com,lunaviaggi[.]com,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 02:31:48 UTC,ThreatFox,
-54,media,media,https://valeroks.click/,hxxps://valeroks[.]click/,url,Unknown malware,ThreatFox,,,,0,90,2026-08-19 02:30:07 UTC,ThreatFox,https://clickfix.carsonww.com/domains/valeroks.click
-54,media,media,alpenschutzinitiative.ch,alpenschutzinitiative[.]ch,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 02:21:47 UTC,ThreatFox,
-54,media,media,maestranzaprecision.com,maestranzaprecision[.]com,domain,Unknown malware,ThreatFox,,,,0,90,2026-08-19 02:21:46 UTC,ThreatFox,
-54,media,alta,ametiqbanking.com,ametiqbanking[.]com,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 02:06:45 UTC,ThreatFox,
-54,media,alta,groupewagner.be,groupewagner[.]be,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 02:06:45 UTC,ThreatFox,
-54,media,alta,prophelab.com,prophelab[.]com,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 02:06:44 UTC,ThreatFox,
-54,media,alta,jackbeer.fr,jackbeer[.]fr,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 02:06:44 UTC,ThreatFox,
-54,media,alta,vb-zone.com,vb-zone[.]com,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 02:06:44 UTC,ThreatFox,
-54,media,alta,worldwhiskyandmore.com,worldwhiskyandmore[.]com,domain,ClearFake,ThreatFox,,,,0,90,2026-08-19 01:56:38 UTC,ThreatFox,
+53,media,alta,95.85.238.53:56002,95[.]85[.]238[.]53:56002,ip:port,PureRAT,ThreatFox,CZ,6/91,0,0,75,2026-08-20 06:06:39 UTC,ThreatFox,https://bazaar.abuse.ch/sample/e747deb0d49a53cda8ebc02a97c5eeb875d6b5b07e1be8dfac5545adb78760f6/
+53,media,alta,95.85.238.53:56003,95[.]85[.]238[.]53:56003,ip:port,PureRAT,ThreatFox,CZ,6/91,0,0,75,2026-08-20 06:06:39 UTC,ThreatFox,https://bazaar.abuse.ch/sample/e747deb0d49a53cda8ebc02a97c5eeb875d6b5b07e1be8dfac5545adb78760f6/
 53,media,media,http://xightne.click:7242/products,hxxp://xightne[.]click:7242/products,url,Remus,ThreatFox,,6/92,,0,75,2026-08-20 01:25:33 UTC,ThreatFox,
 53,media,media,http://zakuiru.shop:9048/payments,hxxp://zakuiru[.]shop:9048/payments,url,Remus,ThreatFox,,5/92,,0,75,2026-08-20 01:25:33 UTC,ThreatFox,
 53,media,alta,178.16.55.234:80,178[.]16[.]55[.]234:80,ip:port,Unknown Stealer,ThreatFox,US,,10,0,75,2026-08-19 18:46:54 UTC,ThreatFox,
@@ -763,8 +683,21 @@ score,level,severity,value,defanged,type,threat,sources,country,vt_detections,ab
 53,media,alta,91.193.7.162:13309,91[.]193[.]7[.]162:13309,ip:port,Remcos,ThreatFox,JP,12/91,12,0,50,2026-08-19 11:46:04 UTC,ThreatFox,
 53,media,alta,209.99.186.201:55009,209[.]99[.]186[.]201:55009,ip:port,PureRAT,ThreatFox,US,,9,0,75,2026-08-19 09:44:57 UTC,ThreatFox,
 53,media,alta,209.99.186.201:55006,209[.]99[.]186[.]201:55006,ip:port,PureRAT,ThreatFox,US,,9,0,75,2026-08-19 08:54:11 UTC,ThreatFox,
-53,media,media,http://103.190.23.91:50560/Mozi.m,hxxp://103[.]190[.]23[.]91:50560/Mozi[.]m,url,Mozi,ThreatFox,,7/92,,0,75,2026-08-19 06:05:08 UTC,ThreatFox,https://honeylabs.net/lookup/103.190.23.91
-53,media,alta,154.90.70.23:80,154[.]90[.]70[.]23:80,ip:port,Mirai,ThreatFox,RU,,10,0,75,2026-08-19 06:04:58 UTC,ThreatFox,https://twitter.com/NullBlue67
+52,media,media,http://190.196.253.119:10701/Mozi.m,hxxp://190[.]196[.]253[.]119:10701/Mozi[.]m,url,Mozi,ThreatFox,,3/92,,0,75,2026-08-20 06:20:15 UTC,ThreatFox,https://honeylabs.net/lookup/190.196.253.119
+52,media,media,http://116.140.6.114:46743/Mozi.m,hxxp://116[.]140[.]6[.]114:46743/Mozi[.]m,url,Mozi,ThreatFox,,2/92,,0,75,2026-08-20 06:20:13 UTC,ThreatFox,https://honeylabs.net/lookup/116.140.6.114
+52,media,media,http://153.117.40.170:44217/Mozi.m,hxxp://153[.]117[.]40[.]170:44217/Mozi[.]m,url,Mozi,ThreatFox,,4/92,,0,75,2026-08-20 06:20:12 UTC,ThreatFox,https://honeylabs.net/lookup/153.117.40.170
+52,media,alta,91.215.85.6:56001,91[.]215[.]85[.]6:56001,ip:port,PureRAT,ThreatFox,RU,3/91,0,0,75,2026-08-20 06:17:49 UTC,ThreatFox,https://bazaar.abuse.ch/sample/f626335064988d1687d5bc75faee7a1ff782c84efb62ae539ca2b7a0809df3fd/
+52,media,alta,91.215.85.6:56002,91[.]215[.]85[.]6:56002,ip:port,PureRAT,ThreatFox,RU,3/91,0,0,75,2026-08-20 06:17:49 UTC,ThreatFox,https://bazaar.abuse.ch/sample/f626335064988d1687d5bc75faee7a1ff782c84efb62ae539ca2b7a0809df3fd/
+52,media,alta,91.215.85.6:56003,91[.]215[.]85[.]6:56003,ip:port,PureRAT,ThreatFox,RU,3/91,0,0,75,2026-08-20 06:17:49 UTC,ThreatFox,https://bazaar.abuse.ch/sample/f626335064988d1687d5bc75faee7a1ff782c84efb62ae539ca2b7a0809df3fd/
+52,media,alta,134.209.211.37:56002,134[.]209[.]211[.]37:56002,ip:port,PureRAT,ThreatFox,US,1/91,0,0,75,2026-08-20 06:13:25 UTC,ThreatFox,https://bazaar.abuse.ch/sample/f636ff2834f3f113d068225ba9fa1465aa6211c183ef9b10a043382bce6bff3b/
+52,media,alta,134.209.211.37:56003,134[.]209[.]211[.]37:56003,ip:port,PureRAT,ThreatFox,US,1/91,0,0,75,2026-08-20 06:13:25 UTC,ThreatFox,https://bazaar.abuse.ch/sample/f636ff2834f3f113d068225ba9fa1465aa6211c183ef9b10a043382bce6bff3b/
+52,media,alta,134.209.211.37:56001,134[.]209[.]211[.]37:56001,ip:port,PureRAT,ThreatFox,US,1/91,0,0,75,2026-08-20 06:13:24 UTC,ThreatFox,https://bazaar.abuse.ch/sample/f636ff2834f3f113d068225ba9fa1465aa6211c183ef9b10a043382bce6bff3b/
+52,media,alta,15.235.174.203:56002,15[.]235[.]174[.]203:56002,ip:port,PureRAT,ThreatFox,SG,1/91,0,0,75,2026-08-20 06:11:12 UTC,ThreatFox,https://bazaar.abuse.ch/sample/af4ee79582992e348a8739579da478d50daccbaa6ec97420311916a2ac0fc503/
+52,media,alta,15.235.174.203:56003,15[.]235[.]174[.]203:56003,ip:port,PureRAT,ThreatFox,SG,1/91,0,0,75,2026-08-20 06:11:12 UTC,ThreatFox,https://bazaar.abuse.ch/sample/af4ee79582992e348a8739579da478d50daccbaa6ec97420311916a2ac0fc503/
+52,media,alta,15.235.174.203:56001,15[.]235[.]174[.]203:56001,ip:port,PureRAT,ThreatFox,SG,1/91,0,0,75,2026-08-20 06:11:11 UTC,ThreatFox,https://bazaar.abuse.ch/sample/af4ee79582992e348a8739579da478d50daccbaa6ec97420311916a2ac0fc503/
+52,media,alta,15.235.176.216:56001,15[.]235[.]176[.]216:56001,ip:port,PureRAT,ThreatFox,SG,1/91,0,0,75,2026-08-20 06:08:23 UTC,ThreatFox,https://bazaar.abuse.ch/sample/3922a4af520229c368788879ca8312fba656bb9b1285d91a8f62429e979ba6cf/
+52,media,alta,15.235.176.216:56002,15[.]235[.]176[.]216:56002,ip:port,PureRAT,ThreatFox,SG,1/91,0,0,75,2026-08-20 06:08:23 UTC,ThreatFox,https://bazaar.abuse.ch/sample/3922a4af520229c368788879ca8312fba656bb9b1285d91a8f62429e979ba6cf/
+52,media,alta,15.235.176.216:56003,15[.]235[.]176[.]216:56003,ip:port,PureRAT,ThreatFox,SG,1/91,0,0,75,2026-08-20 06:08:23 UTC,ThreatFox,https://bazaar.abuse.ch/sample/3922a4af520229c368788879ca8312fba656bb9b1285d91a8f62429e979ba6cf/
 52,media,alta,185.34.147.35:2204,185[.]34[.]147[.]35:2204,ip:port,AsyncRAT,ThreatFox,NL,,2,0,75,2026-08-19 19:44:31 UTC,ThreatFox,
 52,media,alta,185.34.147.34:443,185[.]34[.]147[.]34:443,ip:port,AsyncRAT,ThreatFox,NL,,2,0,75,2026-08-19 19:44:30 UTC,ThreatFox,
 52,media,alta,185.34.147.33:2204,185[.]34[.]147[.]33:2204,ip:port,AsyncRAT,ThreatFox,NL,,2,0,75,2026-08-19 19:44:29 UTC,ThreatFox,
@@ -785,10 +718,37 @@ score,level,severity,value,defanged,type,threat,sources,country,vt_detections,ab
 52,media,alta,2301amarilloa.kozow.com,2301amarilloa[.]kozow[.]com,domain,Remcos,ThreatFox,,16/91,,0,50,2026-08-19 11:45:42 UTC,ThreatFox,
 52,media,alta,176.65.139.209:1999,176[.]65[.]139[.]209:1999,ip:port,Mirai,ThreatFox,NL,,0,0,80,2026-08-19 11:30:59 UTC,ThreatFox,
 52,media,alta,132.243.200.43:1420,132[.]243[.]200[.]43:1420,ip:port,Mirai,ThreatFox,CH,,0,0,80,2026-08-19 11:30:58 UTC,ThreatFox,
-52,media,alta,94.154.32.8:443,94[.]154[.]32[.]8:443,ip:port,Unknown RAT,ThreatFox,FR,,3,0,75,2026-08-19 06:23:06 UTC,ThreatFox,https://bazaar.abuse.ch/sample/d0e5808cea92aa335ba889cb401a51506a13e79f5fe18c21a1e765c8f5c897a3/
-52,media,media,http://223.123.43.192:48208/Mozi.m,hxxp://223[.]123[.]43[.]192:48208/Mozi[.]m,url,Mozi,ThreatFox,,4/92,,0,75,2026-08-19 06:05:08 UTC,ThreatFox,https://honeylabs.net/lookup/223.123.43.192
-52,media,alta,147.182.224.216:80,147[.]182[.]224[.]216:80,ip:port,Mirai,ThreatFox,US,,2,0,75,2026-08-19 06:04:58 UTC,ThreatFox,https://twitter.com/NullBlue67
-52,media,alta,213.111.148.180:56003,213[.]111[.]148[.]180:56003,ip:port,PureRAT,ThreatFox,UA,3/91,0,0,75,2026-08-19 06:04:56 UTC,ThreatFox,
+51,media,media,http://103.176.16.59:34532/Mozi.m,hxxp://103[.]176[.]16[.]59:34532/Mozi[.]m,url,Mozi,ThreatFox,,0/92,,0,75,2026-08-20 06:20:13 UTC,ThreatFox,https://honeylabs.net/lookup/103.176.16.59
+51,media,media,http://103.225.191.202:34773/Mozi.m,hxxp://103[.]225[.]191[.]202:34773/Mozi[.]m,url,Mozi,ThreatFox,,0/92,,0,75,2026-08-20 06:20:12 UTC,ThreatFox,https://honeylabs.net/lookup/103.225.191.202
+51,media,alta,167.17.76.105:56002,167[.]17[.]76[.]105:56002,ip:port,PureRAT,ThreatFox,US,0/91,0,0,75,2026-08-20 06:16:24 UTC,ThreatFox,https://bazaar.abuse.ch/sample/b9eabf9c1e7eda061eb824e4d6eee8dcebfa10e85a45bbfd623c87169c2f7a8e/
+51,media,alta,167.17.76.105:56003,167[.]17[.]76[.]105:56003,ip:port,PureRAT,ThreatFox,US,0/91,0,0,75,2026-08-20 06:16:24 UTC,ThreatFox,https://bazaar.abuse.ch/sample/b9eabf9c1e7eda061eb824e4d6eee8dcebfa10e85a45bbfd623c87169c2f7a8e/
+51,media,alta,167.17.76.105:56001,167[.]17[.]76[.]105:56001,ip:port,PureRAT,ThreatFox,US,0/91,0,0,75,2026-08-20 06:16:23 UTC,ThreatFox,https://bazaar.abuse.ch/sample/b9eabf9c1e7eda061eb824e4d6eee8dcebfa10e85a45bbfd623c87169c2f7a8e/
+51,media,alta,108.187.4.26:56001,108[.]187[.]4[.]26:56001,ip:port,PureRAT,ThreatFox,HK,,0,0,75,2026-08-20 06:03:52 UTC,ThreatFox,https://bazaar.abuse.ch/sample/616b0525deac1fecbfa3f4a3d08f09748a027c9a850521c5df13fa193970890b/
+51,media,alta,108.187.4.26:56002,108[.]187[.]4[.]26:56002,ip:port,PureRAT,ThreatFox,HK,,0,0,75,2026-08-20 06:03:52 UTC,ThreatFox,https://bazaar.abuse.ch/sample/616b0525deac1fecbfa3f4a3d08f09748a027c9a850521c5df13fa193970890b/
+51,media,alta,108.187.4.26:56003,108[.]187[.]4[.]26:56003,ip:port,PureRAT,ThreatFox,HK,,0,0,75,2026-08-20 06:03:52 UTC,ThreatFox,https://bazaar.abuse.ch/sample/616b0525deac1fecbfa3f4a3d08f09748a027c9a850521c5df13fa193970890b/
+51,media,alta,130.250.191.154:56003,130[.]250[.]191[.]154:56003,ip:port,PureRAT,ThreatFox,IN,,0,0,75,2026-08-20 06:00:07 UTC,ThreatFox,
+51,media,alta,130.250.191.154:56002,130[.]250[.]191[.]154:56002,ip:port,PureRAT,ThreatFox,IN,,0,0,75,2026-08-20 06:00:06 UTC,ThreatFox,
+51,media,alta,130.250.191.154:56001,130[.]250[.]191[.]154:56001,ip:port,PureRAT,ThreatFox,IN,,0,0,75,2026-08-20 06:00:03 UTC,ThreatFox,
+51,media,alta,167.148.201.14:56002,167[.]148[.]201[.]14:56002,ip:port,PureRAT,ThreatFox,US,,0,0,75,2026-08-20 05:57:30 UTC,ThreatFox,
+51,media,alta,167.148.201.14:56003,167[.]148[.]201[.]14:56003,ip:port,PureRAT,ThreatFox,US,,0,0,75,2026-08-20 05:57:30 UTC,ThreatFox,
+51,media,alta,167.148.201.14:56001,167[.]148[.]201[.]14:56001,ip:port,PureRAT,ThreatFox,US,,0,0,75,2026-08-20 05:57:29 UTC,ThreatFox,
+51,media,media,37.120.214.122:2090,37[.]120[.]214[.]122:2090,ip:port,Unknown malware,ThreatFox,US,,0,0,75,2026-08-20 05:52:40 UTC,ThreatFox,
+51,media,alta,64.188.91.241:56002,64[.]188[.]91[.]241:56002,ip:port,PureRAT,ThreatFox,DE,,0,0,75,2026-08-20 05:52:06 UTC,ThreatFox,
+51,media,alta,64.188.91.241:56001,64[.]188[.]91[.]241:56001,ip:port,PureRAT,ThreatFox,DE,,0,0,75,2026-08-20 05:52:05 UTC,ThreatFox,
+51,media,alta,64.188.91.241:56003,64[.]188[.]91[.]241:56003,ip:port,PureRAT,ThreatFox,DE,,0,0,75,2026-08-20 05:52:05 UTC,ThreatFox,
+51,media,media,124.198.132.79:2023,124[.]198[.]132[.]79:2023,ip:port,Unknown malware,ThreatFox,US,,0,0,75,2026-08-20 05:47:36 UTC,ThreatFox,
+51,media,media,188.126.90.11:7777,188[.]126[.]90[.]11:7777,ip:port,Unknown malware,ThreatFox,SE,,0,0,75,2026-08-20 05:45:42 UTC,ThreatFox,
+51,media,alta,178.17.62.198:56001,178[.]17[.]62[.]198:56001,ip:port,PureRAT,ThreatFox,DE,,0,0,75,2026-08-20 05:44:50 UTC,ThreatFox,
+51,media,alta,178.17.62.198:56002,178[.]17[.]62[.]198:56002,ip:port,PureRAT,ThreatFox,DE,,0,0,75,2026-08-20 05:44:50 UTC,ThreatFox,
+51,media,alta,178.17.62.198:56003,178[.]17[.]62[.]198:56003,ip:port,PureRAT,ThreatFox,DE,,0,0,75,2026-08-20 05:44:50 UTC,ThreatFox,
+51,media,alta,192.154.100.77:57666,192[.]154[.]100[.]77:57666,ip:port,PureRAT,ThreatFox,US,,0,0,75,2026-08-20 05:39:17 UTC,ThreatFox,https://bazaar.abuse.ch/sample/c126a83d1def8e6458bdb92216892a0500984a979346676124c12a4b2dd4b41d/
+51,media,alta,185.102.115.93:56002,185[.]102[.]115[.]93:56002,ip:port,PureRAT,ThreatFox,DE,,0,0,75,2026-08-20 05:33:49 UTC,ThreatFox,https://bazaar.abuse.ch/sample/817067c431557ad88cd4fb18dc28a988a7a714f66b6b0f219cf9b03b5b665390/
+51,media,alta,185.102.115.93:56003,185[.]102[.]115[.]93:56003,ip:port,PureRAT,ThreatFox,DE,,0,0,75,2026-08-20 05:33:49 UTC,ThreatFox,https://bazaar.abuse.ch/sample/817067c431557ad88cd4fb18dc28a988a7a714f66b6b0f219cf9b03b5b665390/
+51,media,alta,192.162.199.215:56003,192[.]162[.]199[.]215:56003,ip:port,PureRAT,ThreatFox,GB,,0,0,75,2026-08-20 05:29:32 UTC,ThreatFox,https://bazaar.abuse.ch/sample/f94db5a93b19e1800be99cb0be2fb21794d3c89ccb588b53739a62c587bc20e6/
+51,media,alta,192.162.199.215:56001,192[.]162[.]199[.]215:56001,ip:port,PureRAT,ThreatFox,GB,,0,0,75,2026-08-20 05:29:31 UTC,ThreatFox,https://bazaar.abuse.ch/sample/f94db5a93b19e1800be99cb0be2fb21794d3c89ccb588b53739a62c587bc20e6/
+51,media,alta,192.162.199.215:56002,192[.]162[.]199[.]215:56002,ip:port,PureRAT,ThreatFox,GB,,0,0,75,2026-08-20 05:29:31 UTC,ThreatFox,https://bazaar.abuse.ch/sample/f94db5a93b19e1800be99cb0be2fb21794d3c89ccb588b53739a62c587bc20e6/
+51,media,media,http://kupzovo.shop:7567/webhooks,hxxp://kupzovo[.]shop:7567/webhooks,url,Remus,ThreatFox,,,,0,75,2026-08-20 03:27:15 UTC,ThreatFox,
+51,media,alta,https://dev.epicgames.com/community/api/user_profiles/profile.json?hash_id=YmbKZ,hxxps://dev[.]epicgames[.]com/community/api/user_profiles/profile[.]json?hash_id=YmbKZ,url,Vidar,ThreatFox,,,,0,75,2026-08-20 02:05:53 UTC,ThreatFox,https://bazaar.abuse.ch/sample/082370aaf679a20e722fec6c88ab73803063e34683b0106e11b0d1999508cec4/
 51,media,media,http://zakuiru.shop:9048/profiles,hxxp://zakuiru[.]shop:9048/profiles,url,Remus,ThreatFox,,,,0,75,2026-08-19 20:31:03 UTC,ThreatFox,https://bazaar.abuse.ch/sample/d684fb1e82d42041802c676440d58e964b19ae74e8e7669e84d15da1a1e9c7ee/
 51,media,media,http://kupzovo.shop:7567/exports,hxxp://kupzovo[.]shop:7567/exports,url,Remus,ThreatFox,,,,0,75,2026-08-19 20:30:45 UTC,ThreatFox,https://bazaar.abuse.ch/sample/d684fb1e82d42041802c676440d58e964b19ae74e8e7669e84d15da1a1e9c7ee/
 51,media,alta,91.202.233.120:8848,91[.]202[.]233[.]120:8848,ip:port,DCRat,ThreatFox,RU,,0,0,75,2026-08-19 19:46:51 UTC,ThreatFox,
@@ -1083,120 +1043,117 @@ score,level,severity,value,defanged,type,threat,sources,country,vt_detections,ab
 51,media,alta,41.100.227.210:3030,41[.]100[.]227[.]210:3030,ip:port,AsyncRAT,ThreatFox,DZ,,0,0,75,2026-08-19 08:53:12 UTC,ThreatFox,
 51,media,alta,64.89.160.127:4055,64[.]89[.]160[.]127:4055,ip:port,Unknown RAT,ThreatFox,LU,,0,0,75,2026-08-19 08:35:52 UTC,ThreatFox,https://bazaar.abuse.ch/sample/b7c60bc7570406370984e95e12934ecb7e935558d473e9444cee85951d202c67/
 51,media,media,37.77.150.193:6062,37[.]77[.]150[.]193:6062,ip:port,Unknown malware,ThreatFox,RU,,0,0,75,2026-08-19 07:53:08 UTC,ThreatFox,
-51,media,media,109.172.94.79:3333,109[.]172[.]94[.]79:3333,ip:port,SnappyClient,ThreatFox,DE,,0,0,75,2026-08-19 06:36:32 UTC,ThreatFox,https://bazaar.abuse.ch/sample/1863c944ff0f5f06cafe0f98d6a6f54084ac266936c0dbc16a9d13ab03dda421/
-51,media,media,109.172.94.79:3334,109[.]172[.]94[.]79:3334,ip:port,SnappyClient,ThreatFox,DE,,0,0,75,2026-08-19 06:36:32 UTC,ThreatFox,https://bazaar.abuse.ch/sample/1863c944ff0f5f06cafe0f98d6a6f54084ac266936c0dbc16a9d13ab03dda421/
-51,media,alta,195.177.94.25:443,195[.]177[.]94[.]25:443,ip:port,Unknown RAT,ThreatFox,FR,,0,0,75,2026-08-19 06:27:55 UTC,ThreatFox,https://bazaar.abuse.ch/sample/79990567c7458e6c7274f0d61011f9ce4718c47f76dec51a604182f182e3aac7/
-51,media,media,138.201.126.72:443,138[.]201[.]126[.]72:443,ip:port,Unknown malware,ThreatFox,DE,,0,0,75,2026-08-19 06:20:17 UTC,ThreatFox,https://bazaar.abuse.ch/sample/3b1d59c71cf19f0be3f66f4ad7d89e3593bbcd1c461b835f663bce969d07dc53/
-51,media,alta,23.106.253.199:7443,23[.]106[.]253[.]199:7443,ip:port,Unknown Stealer,ThreatFox,SG,,0,0,75,2026-08-19 06:06:14 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,23.106.253.199:7080,23[.]106[.]253[.]199:7080,ip:port,Unknown Stealer,ThreatFox,SG,,0,0,75,2026-08-19 06:06:14 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,31.40.204.178:7443,31[.]40[.]204[.]178:7443,ip:port,Unknown Stealer,ThreatFox,TR,,0,0,75,2026-08-19 06:06:14 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,31.77.138.147:7443,31[.]77[.]138[.]147:7443,ip:port,Unknown Stealer,ThreatFox,FI,,0,0,75,2026-08-19 06:06:13 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,31.77.138.147:7080,31[.]77[.]138[.]147:7080,ip:port,Unknown Stealer,ThreatFox,FI,,0,0,75,2026-08-19 06:06:13 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,31.77.138.156:7080,31[.]77[.]138[.]156:7080,ip:port,Unknown Stealer,ThreatFox,FI,,0,0,75,2026-08-19 06:06:12 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,31.77.168.191:7443,31[.]77[.]168[.]191:7443,ip:port,Unknown Stealer,ThreatFox,DE,,0,0,75,2026-08-19 06:06:12 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,31.77.168.191:7080,31[.]77[.]168[.]191:7080,ip:port,Unknown Stealer,ThreatFox,DE,,0,0,75,2026-08-19 06:06:11 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,31.207.7.126:7443,31[.]207[.]7[.]126:7443,ip:port,Unknown Stealer,ThreatFox,SE,,0,0,75,2026-08-19 06:06:11 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,31.207.7.126:7080,31[.]207[.]7[.]126:7080,ip:port,Unknown Stealer,ThreatFox,SE,,0,0,75,2026-08-19 06:06:10 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,64.224.17.66:7443,64[.]224[.]17[.]66:7443,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:06:09 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,64.224.17.66:7080,64[.]224[.]17[.]66:7080,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:06:09 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,78.40.209.239:7443,78[.]40[.]209[.]239:7443,ip:port,Unknown Stealer,ThreatFox,FI,,0,0,75,2026-08-19 06:06:08 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,78.40.209.239:7080,78[.]40[.]209[.]239:7080,ip:port,Unknown Stealer,ThreatFox,FI,,0,0,75,2026-08-19 06:06:08 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,84.38.129.111:7443,84[.]38[.]129[.]111:7443,ip:port,Unknown Stealer,ThreatFox,LV,,0,0,75,2026-08-19 06:06:07 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,84.38.129.111:7080,84[.]38[.]129[.]111:7080,ip:port,Unknown Stealer,ThreatFox,LV,,0,0,75,2026-08-19 06:06:07 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,89.106.83.159:7443,89[.]106[.]83[.]159:7443,ip:port,Unknown Stealer,ThreatFox,DE,,0,0,75,2026-08-19 06:06:06 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,89.106.83.159:7080,89[.]106[.]83[.]159:7080,ip:port,Unknown Stealer,ThreatFox,DE,,0,0,75,2026-08-19 06:06:06 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,91.92.47.111:7443,91[.]92[.]47[.]111:7443,ip:port,Unknown Stealer,ThreatFox,NL,,0,0,75,2026-08-19 06:06:06 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,91.92.47.111:7080,91[.]92[.]47[.]111:7080,ip:port,Unknown Stealer,ThreatFox,NL,,0,0,75,2026-08-19 06:06:04 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,91.92.120.61:7443,91[.]92[.]120[.]61:7443,ip:port,Unknown Stealer,ThreatFox,BG,,0,0,75,2026-08-19 06:06:04 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,91.92.120.61:7080,91[.]92[.]120[.]61:7080,ip:port,Unknown Stealer,ThreatFox,BG,,0,0,75,2026-08-19 06:06:03 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,93.127.160.86:32605,93[.]127[.]160[.]86:32605,ip:port,Unknown Stealer,ThreatFox,DE,,0,0,75,2026-08-19 06:06:02 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,94.26.3.211:7080,94[.]26[.]3[.]211:7080,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:06:01 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,94.154.32.73:7443,94[.]154[.]32[.]73:7443,ip:port,Unknown Stealer,ThreatFox,FR,,0,0,75,2026-08-19 06:06:01 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,103.141.235.248:7443,103[.]141[.]235[.]248:7443,ip:port,Unknown Stealer,ThreatFox,SG,,0,0,75,2026-08-19 06:06:01 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,103.141.235.248:7080,103[.]141[.]235[.]248:7080,ip:port,Unknown Stealer,ThreatFox,SG,,0,0,75,2026-08-19 06:06:00 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,104.168.70.163:7443,104[.]168[.]70[.]163:7443,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:06:00 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,107.174.146.6:7443,107[.]174[.]146[.]6:7443,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:05:59 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,107.174.146.6:7080,107[.]174[.]146[.]6:7080,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:05:59 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,147.124.221.0:7080,147[.]124[.]221[.]0:7080,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:05:59 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,151.242.63.24:7443,151[.]242[.]63[.]24:7443,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:05:58 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,151.242.63.24:7080,151[.]242[.]63[.]24:7080,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:05:58 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,151.242.63.165:7443,151[.]242[.]63[.]165:7443,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:05:58 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,151.242.63.165:7080,151[.]242[.]63[.]165:7080,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:05:57 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,151.242.63.215:7443,151[.]242[.]63[.]215:7443,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:05:57 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,151.242.63.215:7080,151[.]242[.]63[.]215:7080,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:05:56 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,207.56.137.196:7080,207[.]56[.]137[.]196:7080,ip:port,Unknown Stealer,ThreatFox,TW,,0,0,75,2026-08-19 06:05:55 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,209.54.103.173:7080,209[.]54[.]103[.]173:7080,ip:port,Unknown Stealer,ThreatFox,US,,0,0,75,2026-08-19 06:05:55 UTC,ThreatFox,https://infosec.exchange/@RecklessPush38671/117118098460752628
-51,media,alta,www.sphuatomotive.com,www[.]sphuatomotive[.]com,domain,Remcos,ThreatFox,,,,0,75,2026-08-19 06:05:49 UTC,ThreatFox,https://bazaar.abuse.ch/sample/12c2152d740d079902e326329ab53a9ac76bae36858475b5e0af1c217c4d46c3/
-51,media,alta,www.sphuatomotivebacku.com,www[.]sphuatomotivebacku[.]com,domain,Remcos,ThreatFox,,,,0,75,2026-08-19 06:05:49 UTC,ThreatFox,https://bazaar.abuse.ch/sample/12c2152d740d079902e326329ab53a9ac76bae36858475b5e0af1c217c4d46c3/
-51,media,alta,www.sphuatomotivebacku1.com,www[.]sphuatomotivebacku1[.]com,domain,Remcos,ThreatFox,,,,0,75,2026-08-19 06:05:49 UTC,ThreatFox,https://bazaar.abuse.ch/sample/12c2152d740d079902e326329ab53a9ac76bae36858475b5e0af1c217c4d46c3/
-51,media,alta,www.hxbgruop.com,www[.]hxbgruop[.]com,domain,Remcos,ThreatFox,,,,0,75,2026-08-19 06:05:48 UTC,ThreatFox,https://bazaar.abuse.ch/sample/12c2152d740d079902e326329ab53a9ac76bae36858475b5e0af1c217c4d46c3/
-51,media,media,43.110.42.102:81,43[.]110[.]42[.]102:81,ip:port,VShell,ThreatFox,US,,0,0,75,2026-08-19 06:05:14 UTC,ThreatFox,
-51,media,media,1.117.61.139:8080,1[.]117[.]61[.]139:8080,ip:port,VShell,ThreatFox,CN,,0,0,75,2026-08-19 06:05:13 UTC,ThreatFox,
-51,media,media,38.60.125.131:443,38[.]60[.]125[.]131:443,ip:port,VShell,ThreatFox,US,,0,0,75,2026-08-19 06:05:13 UTC,ThreatFox,
-51,media,media,159.75.118.45:9090,159[.]75[.]118[.]45:9090,ip:port,VShell,ThreatFox,CN,,0,0,75,2026-08-19 06:05:13 UTC,ThreatFox,
-51,media,media,45.115.124.43:1433,45[.]115[.]124[.]43:1433,ip:port,VShell,ThreatFox,HK,,0,0,75,2026-08-19 06:05:12 UTC,ThreatFox,
-51,media,alta,176.96.138.73:7000,176[.]96[.]138[.]73:7000,ip:port,PureRAT,ThreatFox,DE,0/91,0,0,75,2026-08-19 06:04:57 UTC,ThreatFox,
-51,media,alta,85.209.129.102:56003,85[.]209[.]129[.]102:56003,ip:port,PureRAT,ThreatFox,SC,0/91,0,0,75,2026-08-19 06:04:57 UTC,ThreatFox,
-51,media,alta,193.26.115.28:443,193[.]26[.]115[.]28:443,ip:port,Unknown RAT,ThreatFox,US,,0,0,75,2026-08-19 06:04:40 UTC,ThreatFox,https://bazaar.abuse.ch/sample/ce97b609df1b5fe98cea4d8763bbd569d98ca7494a59ab0590cc9176e1907eb2/
-51,media,alta,74.207.198.32:8041,74[.]207[.]198[.]32:8041,ip:port,Unknown RAT,ThreatFox,US,,0,0,75,2026-08-19 06:02:24 UTC,ThreatFox,https://bazaar.abuse.ch/sample/093db91d8a9c42faf74d6531eacab95e1175952a8defd0a86113ab92403e4f22/
-51,media,media,http://gofkaxz.click:8137/workspaces,hxxp://gofkaxz[.]click:8137/workspaces,url,Remus,ThreatFox,,,,0,75,2026-08-19 03:47:16 UTC,ThreatFox,
-51,media,media,http://bravplo.click:7713/invoices,hxxp://bravplo[.]click:7713/invoices,url,Remus,ThreatFox,,,,0,75,2026-08-19 02:48:13 UTC,ThreatFox,
-51,media,alta,https://bob.sm188daftar.mom/,hxxps://bob[.]sm188daftar[.]mom/,url,Vidar,ThreatFox,,,,0,75,2026-08-19 02:26:16 UTC,ThreatFox,
-51,media,alta,bob.sm188daftar.mom,bob[.]sm188daftar[.]mom,domain,Vidar,ThreatFox,,,,0,75,2026-08-19 02:26:16 UTC,ThreatFox,
+50,media,alta,102.220.160.204:10134,102[.]220[.]160[.]204:10134,ip:port,Orcus RAT,ThreatFox,SI,,10,0,50,2026-08-20 05:44:03 UTC,ThreatFox,https://www.shodan.io/host/102.220.160.204#10134
 50,media,alta,inatehub.cyou,inatehub[.]cyou,domain,Lumma Stealer,ThreatFox,,8/91,,0,50,2026-08-19 11:47:05 UTC,ThreatFox,
-48,media,media,196.75.227.186:2222,196[.]75[.]227[.]186:2222,ip:port,Meterpreter,ThreatFox,MA,1/91,0,0,50,2026-08-20 01:05:02 UTC,ThreatFox,
-48,media,media,patawypu.workers.dev,patawypu[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,0/91,,0,50,2026-08-19 23:59:55 UTC,ThreatFox,
-48,media,media,egkotiplon.workers.dev,egkotiplon[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,,,0,50,2026-08-19 21:57:21 UTC,ThreatFox,
-48,media,alta,ecoterica.com,ecoterica[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:44 UTC,ThreatFox,
-48,media,alta,chrisparrycollection.com,chrisparrycollection[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:44 UTC,ThreatFox,
-48,media,alta,wolfenbard.com,wolfenbard[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:44 UTC,ThreatFox,
-48,media,alta,gtpsostaric.com,gtpsostaric[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:44 UTC,ThreatFox,
-48,media,alta,globalgsa.net,globalgsa[.]net,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:44 UTC,ThreatFox,
-48,media,alta,eldran.com,eldran[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:44 UTC,ThreatFox,
-48,media,alta,de-learn.com,de-learn[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:44 UTC,ThreatFox,
-48,media,alta,kamalrealestate.com,kamalrealestate[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:44 UTC,ThreatFox,
-48,media,alta,nagrados.com,nagrados[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,minjeff.com,minjeff[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,duquai.com,duquai[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,robusttechhouse.com,robusttechhouse[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,poppyonmain.com,poppyonmain[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,minushead.com,minushead[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,jacommunicationsllc.com,jacommunicationsllc[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,galassiastudios.com,galassiastudios[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,robinmeng.net,robinmeng[.]net,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,professionalauctioneer.com,professionalauctioneer[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,naseaonline.org,naseaonline[.]org,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,evenements.sudouest.fr,evenements[.]sudouest[.]fr,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,flyinghighaerialimagery.com,flyinghighaerialimagery[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,fitnesslearningsystems.com,fitnesslearningsystems[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,finomes.com,finomes[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:43 UTC,ThreatFox,
-48,media,alta,wildcatroofingtx.com,wildcatroofingtx[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,akdconception.com,akdconception[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,learningforlifecenter.org,learningforlifecenter[.]org,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,janverborg.com,janverborg[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,exdesa.com,exdesa[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,rvweigh.com,rvweigh[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,planetogg.com,planetogg[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,pj-soft.com,pj-soft[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,mobel.co.za,mobel[.]co[.]za,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,luvexoticz.com,luvexoticz[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,proestetic.ro,proestetic[.]ro,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,musica-stnazaire.com,musica-stnazaire[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,domaine-realestate.com,domaine-realestate[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,martyhigh.com,martyhigh[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,charlesbenfield.com,charlesbenfield[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,kemlongkidsdental.org,kemlongkidsdental[.]org,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:42 UTC,ThreatFox,
-48,media,alta,loanology.com.au,loanology[.]com[.]au,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 21:11:41 UTC,ThreatFox,
-48,media,alta,adopt.media,adopt[.]media,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-19 20:47:15 UTC,ThreatFox,
-48,media,media,pvj9kfaww5.workers.dev,pvj9kfaww5[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,,,0,50,2026-08-19 20:44:57 UTC,ThreatFox,
-48,media,media,sheltercirrus.com,sheltercirrus[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-19 20:31:47 UTC,ThreatFox,https://x.com/skocherhan/status/2090166619435683931
-48,media,media,aspenriver6.com,aspenriver6[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-19 20:26:25 UTC,ThreatFox,https://x.com/skocherhan/status/2090166619435683931
-48,media,media,aspencore18.com,aspencore18[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-19 20:26:25 UTC,ThreatFox,https://x.com/skocherhan/status/2090166619435683931
-48,media,media,atlas-compass.com,atlas-compass[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-19 20:26:25 UTC,ThreatFox,https://x.com/skocherhan/status/2090166619435683931
-48,media,media,mossmesh17.com,mossmesh17[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-19 20:15:23 UTC,ThreatFox,https://x.com/masaomi346/status/2089288204101066803
-48,media,media,grove-satin.com,grove-satin[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-19 20:13:59 UTC,ThreatFox,https://x.com/masaomi346/status/2089288204101066803
-48,media,media,quest-22.com,quest-22[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-19 20:13:59 UTC,ThreatFox,https://x.com/masaomi346/status/2089288204101066803
-48,media,media,sykehiqe.workers.dev,sykehiqe[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,0/91,,0,50,2026-08-19 18:36:58 UTC,ThreatFox,
+48,media,media,iritageneral.workers.dev,iritageneral[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,0/91,,0,50,2026-08-20 06:20:16 UTC,ThreatFox,
+48,media,alta,https://api.telegram.org/bot8758444991:AAFF69OIaaE8t3nxSJfNYHB1J5BXA71IuyI/,hxxps://api[.]telegram[.]org/bot8758444991:AAFF69OIaaE8t3nxSJfNYHB1J5BXA71IuyI/,url,Agent Tesla,ThreatFox,,1/92,,0,50,2026-08-20 06:05:43 UTC,ThreatFox,
+48,media,media,129.226.174.180:443,129[.]226[.]174[.]180:443,ip:port,Unknown malware,ThreatFox,HK,,0,0,50,2026-08-20 05:45:02 UTC,ThreatFox,https://www.shodan.io/host/129.226.174.180#443
+48,media,critica,185.130.45.240:80,185[.]130[.]45[.]240:80,ip:port,Havoc,ThreatFox,SE,,0,0,50,2026-08-20 05:44:41 UTC,ThreatFox,https://www.shodan.io/host/185.130.45.240#80
+48,media,alta,181.167.80.196:5603,181[.]167[.]80[.]196:5603,ip:port,NetSupportManager RAT,ThreatFox,AR,,0,0,50,2026-08-20 05:43:40 UTC,ThreatFox,https://www.shodan.io/host/181.167.80.196#5603
+48,media,media,78.186.49.17:1337,78[.]186[.]49[.]17:1337,ip:port,Unknown malware,ThreatFox,TR,,0,0,50,2026-08-20 05:43:22 UTC,ThreatFox,https://www.shodan.io/host/78.186.49.17#1337
+48,media,media,193.233.130.223:80,193[.]233[.]130[.]223:80,ip:port,Unknown malware,ThreatFox,US,,0,0,50,2026-08-20 05:42:06 UTC,ThreatFox,https://www.shodan.io/host/193.233.130.223#80
+48,media,media,94.249.230.177:80,94[.]249[.]230[.]177:80,ip:port,Unknown malware,ThreatFox,UA,,0,0,50,2026-08-20 05:42:06 UTC,ThreatFox,https://www.shodan.io/host/94.249.230.177#80
+48,media,critica,152.32.133.192:7001,152[.]32[.]133[.]192:7001,ip:port,AdaptixC2,ThreatFox,HK,,0,0,50,2026-08-20 05:41:15 UTC,ThreatFox,https://www.shodan.io/host/152.32.133.192#7001
+48,media,critica,1.14.104.208:4321,1[.]14[.]104[.]208:4321,ip:port,AdaptixC2,ThreatFox,CN,,0,0,50,2026-08-20 05:41:15 UTC,ThreatFox,https://www.shodan.io/host/1.14.104.208#4321
+48,media,critica,50.6.44.138:4321,50[.]6[.]44[.]138:4321,ip:port,AdaptixC2,ThreatFox,IN,,0,0,50,2026-08-20 05:41:15 UTC,ThreatFox,https://www.shodan.io/host/50.6.44.138#4321
+48,media,media,84.71.50.253:8443,84[.]71[.]50[.]253:8443,ip:port,Unknown malware,ThreatFox,GB,,0,0,50,2026-08-20 05:40:47 UTC,ThreatFox,https://www.shodan.io/host/84.71.50.253#8443
+48,media,media,34.134.90.188:8089,34[.]134[.]90[.]188:8089,ip:port,Unknown malware,ThreatFox,US,,0,0,50,2026-08-20 05:40:10 UTC,ThreatFox,https://www.shodan.io/host/34.134.90.188#8089
+48,media,media,35.254.102.75:8089,35[.]254[.]102[.]75:8089,ip:port,Unknown malware,ThreatFox,US,,0,0,50,2026-08-20 05:40:10 UTC,ThreatFox,https://www.shodan.io/host/35.254.102.75#8089
+48,media,media,45.198.55.168:8089,45[.]198[.]55[.]168:8089,ip:port,Unknown malware,ThreatFox,ES,,0,0,50,2026-08-20 05:40:10 UTC,ThreatFox,https://www.shodan.io/host/45.198.55.168#8089
+48,media,media,141.125.158.53:8089,141[.]125[.]158[.]53:8089,ip:port,Unknown malware,ThreatFox,CA,,0,0,50,2026-08-20 05:40:09 UTC,ThreatFox,https://www.shodan.io/host/141.125.158.53#8089
+48,media,media,130.61.239.223:8089,130[.]61[.]239[.]223:8089,ip:port,Unknown malware,ThreatFox,DE,,0,0,50,2026-08-20 05:40:09 UTC,ThreatFox,https://www.shodan.io/host/130.61.239.223#8089
+48,media,media,172.236.7.224:8089,172[.]236[.]7[.]224:8089,ip:port,Unknown malware,ThreatFox,GB,,0,0,50,2026-08-20 05:40:09 UTC,ThreatFox,https://www.shodan.io/host/172.236.7.224#8089
+48,media,media,91.134.62.41:8089,91[.]134[.]62[.]41:8089,ip:port,Unknown malware,ThreatFox,FR,,0,0,50,2026-08-20 05:40:08 UTC,ThreatFox,https://www.shodan.io/host/91.134.62.41#8089
+48,media,critica,192.144.187.97:31337,192[.]144[.]187[.]97:31337,ip:port,Sliver,ThreatFox,CN,,0,0,50,2026-08-20 05:39:44 UTC,ThreatFox,https://www.shodan.io/host/192.144.187.97#31337
+48,media,critica,139.84.164.248:31337,139[.]84[.]164[.]248:31337,ip:port,Sliver,ThreatFox,IN,,0,0,50,2026-08-20 05:39:44 UTC,ThreatFox,https://www.shodan.io/host/139.84.164.248#31337
+48,media,critica,94.154.32.18:31337,94[.]154[.]32[.]18:31337,ip:port,Sliver,ThreatFox,FR,,0,0,50,2026-08-20 05:39:43 UTC,ThreatFox,https://www.shodan.io/host/94.154.32.18#31337
+48,media,critica,66.154.127.217:31337,66[.]154[.]127[.]217:31337,ip:port,Sliver,ThreatFox,CA,,0,0,50,2026-08-20 05:39:43 UTC,ThreatFox,https://www.shodan.io/host/66.154.127.217#31337
+48,media,critica,185.245.182.240:31337,185[.]245[.]182[.]240:31337,ip:port,Sliver,ThreatFox,GB,,0,0,50,2026-08-20 05:39:43 UTC,ThreatFox,https://www.shodan.io/host/185.245.182.240#31337
+48,media,critica,104.236.230.184:31337,104[.]236[.]230[.]184:31337,ip:port,Sliver,ThreatFox,US,,0,0,50,2026-08-20 05:39:43 UTC,ThreatFox,https://www.shodan.io/host/104.236.230.184#31337
+48,media,critica,91.229.23.96:31337,91[.]229[.]23[.]96:31337,ip:port,Sliver,ThreatFox,NL,,0,0,50,2026-08-20 05:39:43 UTC,ThreatFox,https://www.shodan.io/host/91.229.23.96#31337
+48,media,critica,47.89.175.103:31337,47[.]89[.]175[.]103:31337,ip:port,Sliver,ThreatFox,US,,0,0,50,2026-08-20 05:39:43 UTC,ThreatFox,https://www.shodan.io/host/47.89.175.103#31337
+48,media,critica,202.181.177.148:31337,202[.]181[.]177[.]148:31337,ip:port,Sliver,ThreatFox,SE,,1,0,50,2026-08-20 05:39:42 UTC,ThreatFox,https://www.shodan.io/host/202.181.177.148#31337
+48,media,media,64.176.175.194:3333,64[.]176[.]175[.]194:3333,ip:port,Unknown malware,ThreatFox,IL,,0,0,50,2026-08-20 05:39:00 UTC,ThreatFox,https://www.shodan.io/host/64.176.175.194#3333
+48,media,media,103.253.75.155:3333,103[.]253[.]75[.]155:3333,ip:port,Unknown malware,ThreatFox,TH,,0,0,50,2026-08-20 05:38:59 UTC,ThreatFox,https://www.shodan.io/host/103.253.75.155#3333
+48,media,media,51.77.46.205:7777,51[.]77[.]46[.]205:7777,ip:port,Unknown malware,ThreatFox,FR,,0,0,50,2026-08-20 05:38:58 UTC,ThreatFox,https://www.shodan.io/host/51.77.46.205#7777
+48,media,media,111.229.112.115:3333,111[.]229[.]112[.]115:3333,ip:port,Unknown malware,ThreatFox,CN,,0,0,50,2026-08-20 05:38:58 UTC,ThreatFox,https://www.shodan.io/host/111.229.112.115#3333
+48,media,media,4.204.25.104:3333,4[.]204[.]25[.]104:3333,ip:port,Unknown malware,ThreatFox,CA,,0,0,50,2026-08-20 05:38:58 UTC,ThreatFox,https://www.shodan.io/host/4.204.25.104#3333
+48,media,media,35.254.58.72:3333,35[.]254[.]58[.]72:3333,ip:port,Unknown malware,ThreatFox,US,,0,0,50,2026-08-20 05:38:58 UTC,ThreatFox,https://www.shodan.io/host/35.254.58.72#3333
+48,media,media,146.19.185.37:3333,146[.]19[.]185[.]37:3333,ip:port,Unknown malware,ThreatFox,EE,,0,0,50,2026-08-20 05:38:57 UTC,ThreatFox,https://www.shodan.io/host/146.19.185.37#3333
+48,media,media,120.26.238.236:3333,120[.]26[.]238[.]236:3333,ip:port,Unknown malware,ThreatFox,CN,,0,0,50,2026-08-20 05:38:57 UTC,ThreatFox,https://www.shodan.io/host/120.26.238.236#3333
+48,media,media,195.246.231.131:3333,195[.]246[.]231[.]131:3333,ip:port,Unknown malware,ThreatFox,IS,,0,0,50,2026-08-20 05:38:56 UTC,ThreatFox,https://www.shodan.io/host/195.246.231.131#3333
+48,media,media,201.189.58.129:3333,201[.]189[.]58[.]129:3333,ip:port,Unknown malware,ThreatFox,CL,,0,0,50,2026-08-20 05:38:56 UTC,ThreatFox,https://www.shodan.io/host/201.189.58.129#3333
+48,media,media,172.234.231.31:3333,172[.]234[.]231[.]31:3333,ip:port,Unknown malware,ThreatFox,US,,0,0,50,2026-08-20 05:38:56 UTC,ThreatFox,https://www.shodan.io/host/172.234.231.31#3333
+48,media,media,151.115.144.4:3333,151[.]115[.]144[.]4:3333,ip:port,Unknown malware,ThreatFox,FR,,0,0,50,2026-08-20 05:38:56 UTC,ThreatFox,https://www.shodan.io/host/151.115.144.4#3333
+48,media,media,200.155.77.90:3333,200[.]155[.]77[.]90:3333,ip:port,Unknown malware,ThreatFox,BR,,0,0,50,2026-08-20 05:38:55 UTC,ThreatFox,https://www.shodan.io/host/200.155.77.90#3333
+48,media,media,156.224.18.21:3333,156[.]224[.]18[.]21:3333,ip:port,Unknown malware,ThreatFox,HK,,0,0,50,2026-08-20 05:38:55 UTC,ThreatFox,https://www.shodan.io/host/156.224.18.21#3333
+48,media,critica,152.32.132.82:443,152[.]32[.]132[.]82:443,ip:port,Cobalt Strike,ThreatFox,HK,,0,0,50,2026-08-20 05:38:30 UTC,ThreatFox,https://www.shodan.io/host/152.32.132.82#443
+48,media,critica,46.8.236.158:8090,46[.]8[.]236[.]158:8090,ip:port,Cobalt Strike,ThreatFox,LV,,0,0,50,2026-08-20 05:38:29 UTC,ThreatFox,https://www.shodan.io/host/46.8.236.158#8090
+48,media,critica,47.84.50.235:443,47[.]84[.]50[.]235:443,ip:port,Cobalt Strike,ThreatFox,SG,,0,0,50,2026-08-20 05:38:29 UTC,ThreatFox,https://www.shodan.io/host/47.84.50.235#443
+48,media,critica,52.56.222.66:443,52[.]56[.]222[.]66:443,ip:port,Cobalt Strike,ThreatFox,GB,,0,0,50,2026-08-20 05:38:29 UTC,ThreatFox,https://www.shodan.io/host/52.56.222.66#443
+48,media,critica,8.219.220.240:7443,8[.]219[.]220[.]240:7443,ip:port,Cobalt Strike,ThreatFox,SG,,0,0,50,2026-08-20 05:38:29 UTC,ThreatFox,https://www.shodan.io/host/8.219.220.240#7443
+48,media,critica,104.199.132.123:10443,104[.]199[.]132[.]123:10443,ip:port,Cobalt Strike,ThreatFox,TW,,0,0,50,2026-08-20 05:38:29 UTC,ThreatFox,https://www.shodan.io/host/104.199.132.123#10443
+48,media,critica,52.147.196.140:50050,52[.]147[.]196[.]140:50050,ip:port,Cobalt Strike,ThreatFox,US,,0,0,50,2026-08-20 05:38:28 UTC,ThreatFox,https://www.shodan.io/host/52.147.196.140#50050
+48,media,critica,137.59.110.53:50050,137[.]59[.]110[.]53:50050,ip:port,Cobalt Strike,ThreatFox,MY,,3,0,50,2026-08-20 05:38:28 UTC,ThreatFox,https://www.shodan.io/host/137.59.110.53#50050
+48,media,critica,156.224.18.21:50050,156[.]224[.]18[.]21:50050,ip:port,Cobalt Strike,ThreatFox,HK,,0,0,50,2026-08-20 05:38:28 UTC,ThreatFox,https://www.shodan.io/host/156.224.18.21#50050
+48,media,critica,82.29.71.121:8443,82[.]29[.]71[.]121:8443,ip:port,Cobalt Strike,ThreatFox,US,,0,0,50,2026-08-20 05:38:28 UTC,ThreatFox,https://www.shodan.io/host/82.29.71.121#8443
+48,media,critica,81.69.15.52:51003,81[.]69[.]15[.]52:51003,ip:port,Cobalt Strike,ThreatFox,CN,,0,0,50,2026-08-20 05:38:25 UTC,ThreatFox,https://www.shodan.io/host/81.69.15.52#51003
+48,media,media,grove-satin.com,grove-satin[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-20 05:13:19 UTC,ThreatFox,https://x.com/masaomi346/status/2089288204101066803
+48,media,media,quest-22.com,quest-22[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-20 05:13:18 UTC,ThreatFox,https://x.com/masaomi346/status/2089288204101066803
+48,media,media,mossmesh17.com,mossmesh17[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-20 05:13:17 UTC,ThreatFox,https://x.com/masaomi346/status/2089288204101066803
+48,media,media,aspenriver6.com,aspenriver6[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-20 05:13:16 UTC,ThreatFox,https://x.com/skocherhan/status/2090166619435683931
+48,media,media,aspencore18.com,aspencore18[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-20 05:13:15 UTC,ThreatFox,https://x.com/skocherhan/status/2090166619435683931
+48,media,media,atlas-compass.com,atlas-compass[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-20 05:13:14 UTC,ThreatFox,https://x.com/skocherhan/status/2090166619435683931
+48,media,media,sheltercirrus.com,sheltercirrus[.]com,domain,AMOS,ThreatFox,,,,0,50,2026-08-20 05:13:13 UTC,ThreatFox,https://x.com/skocherhan/status/2090166619435683931
+48,media,alta,loanology.com.au,loanology[.]com[.]au,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:13:13 UTC,ThreatFox,
+48,media,alta,wildcatroofingtx.com,wildcatroofingtx[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:13:12 UTC,ThreatFox,
+48,media,alta,akdconception.com,akdconception[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:13:11 UTC,ThreatFox,
+48,media,alta,learningforlifecenter.org,learningforlifecenter[.]org,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:13:11 UTC,ThreatFox,
+48,media,alta,janverborg.com,janverborg[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:13:09 UTC,ThreatFox,
+48,media,alta,exdesa.com,exdesa[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:13:05 UTC,ThreatFox,
+48,media,alta,rvweigh.com,rvweigh[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:13:04 UTC,ThreatFox,
+48,media,alta,planetogg.com,planetogg[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:13:03 UTC,ThreatFox,
+48,media,alta,pj-soft.com,pj-soft[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:13:02 UTC,ThreatFox,
+48,media,alta,mobel.co.za,mobel[.]co[.]za,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:13:01 UTC,ThreatFox,
+48,media,alta,luvexoticz.com,luvexoticz[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:59 UTC,ThreatFox,
+48,media,alta,proestetic.ro,proestetic[.]ro,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:59 UTC,ThreatFox,
+48,media,alta,musica-stnazaire.com,musica-stnazaire[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:58 UTC,ThreatFox,
+48,media,alta,domaine-realestate.com,domaine-realestate[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:57 UTC,ThreatFox,
+48,media,alta,martyhigh.com,martyhigh[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:56 UTC,ThreatFox,
+48,media,alta,charlesbenfield.com,charlesbenfield[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:55 UTC,ThreatFox,
+48,media,alta,kemlongkidsdental.org,kemlongkidsdental[.]org,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:54 UTC,ThreatFox,
+48,media,alta,nagrados.com,nagrados[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:46 UTC,ThreatFox,
+48,media,alta,minjeff.com,minjeff[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:45 UTC,ThreatFox,
+48,media,alta,duquai.com,duquai[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:41 UTC,ThreatFox,
+48,media,alta,robusttechhouse.com,robusttechhouse[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:39 UTC,ThreatFox,
+48,media,alta,poppyonmain.com,poppyonmain[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:39 UTC,ThreatFox,
+48,media,alta,minushead.com,minushead[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:38 UTC,ThreatFox,
+48,media,alta,jacommunicationsllc.com,jacommunicationsllc[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:37 UTC,ThreatFox,
+48,media,alta,galassiastudios.com,galassiastudios[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:36 UTC,ThreatFox,
+48,media,alta,robinmeng.net,robinmeng[.]net,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:36 UTC,ThreatFox,
+48,media,alta,professionalauctioneer.com,professionalauctioneer[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:35 UTC,ThreatFox,
+48,media,alta,naseaonline.org,naseaonline[.]org,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:34 UTC,ThreatFox,
+48,media,alta,evenements.sudouest.fr,evenements[.]sudouest[.]fr,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:32 UTC,ThreatFox,
+48,media,alta,flyinghighaerialimagery.com,flyinghighaerialimagery[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:31 UTC,ThreatFox,
+48,media,alta,fitnesslearningsystems.com,fitnesslearningsystems[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:30 UTC,ThreatFox,
+48,media,alta,finomes.com,finomes[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:29 UTC,ThreatFox,
+48,media,alta,ecoterica.com,ecoterica[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:28 UTC,ThreatFox,
+48,media,alta,chrisparrycollection.com,chrisparrycollection[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:27 UTC,ThreatFox,
+48,media,alta,wolfenbard.com,wolfenbard[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:26 UTC,ThreatFox,
+48,media,alta,gtpsostaric.com,gtpsostaric[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:24 UTC,ThreatFox,
+48,media,alta,globalgsa.net,globalgsa[.]net,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:23 UTC,ThreatFox,
+48,media,alta,eldran.com,eldran[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:22 UTC,ThreatFox,
+48,media,alta,de-learn.com,de-learn[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:21 UTC,ThreatFox,
+48,media,alta,kamalrealestate.com,kamalrealestate[.]com,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:20 UTC,ThreatFox,
+48,media,media,pvj9kfaww5.workers.dev,pvj9kfaww5[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,,,0,50,2026-08-20 05:12:15 UTC,ThreatFox,
+48,media,alta,adopt.media,adopt[.]media,domain,FAKEUPDATES,ThreatFox,,,,0,50,2026-08-20 05:12:15 UTC,ThreatFox,
+48,media,media,sykehiqe.workers.dev,sykehiqe[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,0/91,,0,50,2026-08-20 05:12:13 UTC,ThreatFox,
+48,media,media,egkotiplon.workers.dev,egkotiplon[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,,,0,50,2026-08-20 05:12:10 UTC,ThreatFox,
+48,media,media,patawypu.workers.dev,patawypu[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,0/91,,0,50,2026-08-20 05:12:05 UTC,ThreatFox,
+48,media,media,196.75.227.186:2222,196[.]75[.]227[.]186:2222,ip:port,Meterpreter,ThreatFox,MA,1/91,0,0,50,2026-08-20 05:12:03 UTC,ThreatFox,
+48,media,media,bstdk98679.workers.dev,bstdk98679[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,,,0,50,2026-08-20 05:12:02 UTC,ThreatFox,
+48,media,media,biluvoxa.workers.dev,biluvoxa[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,,,0,50,2026-08-20 05:12:01 UTC,ThreatFox,
+48,media,media,qureo45905.workers.dev,qureo45905[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,,,0,50,2026-08-20 05:11:56 UTC,ThreatFox,
 48,media,alta,wer-ldr.duckdns.org,wer-ldr[.]duckdns[.]org,domain,Mirai,ThreatFox,,,,0,50,2026-08-19 17:01:10 UTC,ThreatFox,https://x.com/skocherhan/status/2090111458142994915
 48,media,alta,wereng.duckdns.org,wereng[.]duckdns[.]org,domain,Mirai,ThreatFox,,,,0,50,2026-08-19 17:01:09 UTC,ThreatFox,https://x.com/skocherhan/status/2090111458142994915
 48,media,media,ideiu88144.workers.dev,ideiu88144[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,,,0,50,2026-08-19 16:54:21 UTC,ThreatFox,
@@ -1324,138 +1281,103 @@ score,level,severity,value,defanged,type,threat,sources,country,vt_detections,ab
 48,media,critica,172.232.97.189:4444,172[.]232[.]97[.]189:4444,ip:port,Cobalt Strike,ThreatFox,IN,,2,0,50,2026-08-19 07:07:12 UTC,ThreatFox,https://www.shodan.io/host/172.232.97.189#4444
 48,media,critica,47.251.29.219:50050,47[.]251[.]29[.]219:50050,ip:port,Cobalt Strike,ThreatFox,US,,0,0,50,2026-08-19 07:07:12 UTC,ThreatFox,https://www.shodan.io/host/47.251.29.219#50050
 48,media,critica,47.254.68.68:50050,47[.]254[.]68[.]68:50050,ip:port,Cobalt Strike,ThreatFox,US,,0,0,50,2026-08-19 07:07:12 UTC,ThreatFox,https://www.shodan.io/host/47.254.68.68#50050
-48,media,media,chillifarmsukabumi.com,chillifarmsukabumi[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:53 UTC,ThreatFox,https://x.com/skocherhan/status/2089830470884143452
-48,media,media,themilesacademy.com,themilesacademy[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:53 UTC,ThreatFox,https://x.com/skocherhan/status/2089830470884143452
-48,media,media,casaandaimemarica.com.br,casaandaimemarica[.]com[.]br,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:52 UTC,ThreatFox,https://x.com/skocherhan/status/2089830470884143452
-48,media,media,one1ppp.com.pk,one1ppp[.]com[.]pk,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:52 UTC,ThreatFox,https://x.com/skocherhan/status/2089830470884143452
-48,media,media,speed.hirebiz.pro,speed[.]hirebiz[.]pro,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:51 UTC,ThreatFox,https://x.com/skocherhan/status/2089830470884143452
-48,media,media,topqualityroofingsolutionsltd.co.uk,topqualityroofingsolutionsltd[.]co[.]uk,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:51 UTC,ThreatFox,https://x.com/skocherhan/status/2089830470884143452
-48,media,media,shssc.edu.bd,shssc[.]edu[.]bd,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:50 UTC,ThreatFox,https://x.com/skocherhan/status/2089830470884143452
-48,media,media,captain-locataire.fr,captain-locataire[.]fr,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:49 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,amouzeshgahahora.ir,amouzeshgahahora[.]ir,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:49 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,funwork.io,funwork[.]io,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:48 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,kinesiologiadomiciliariacls.com,kinesiologiadomiciliariacls[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:48 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,guruchedacademy.com,guruchedacademy[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:47 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,tataneverify.co.za,tataneverify[.]co[.]za,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:47 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,inlojewellery.com,inlojewellery[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:47 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,summerdreams.pt,summerdreams[.]pt,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:46 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,swacipta.com,swacipta[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:46 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,dha-newlife.com,dha-newlife[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:46 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,kavithaation.com,kavithaation[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:45 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,qlgaminggroup.com,qlgaminggroup[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:45 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,kiinaturals.com,kiinaturals[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:44 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,femidaviesandco.com,femidaviesandco[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:44 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,thechesswebsite.com,thechesswebsite[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:44 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,mondiblanc.org,mondiblanc[.]org,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:43 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,irishpharmacyawards.ie,irishpharmacyawards[.]ie,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:43 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,academiacsf.com,academiacsf[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:42 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,centrenautique-saintdenis.fr,centrenautique-saintdenis[.]fr,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:42 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,miamivipcarservice.com,miamivipcarservice[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:41 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,oakdaledrivewaysandpatioslimited.co.uk,oakdaledrivewaysandpatioslimited[.]co[.]uk,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:41 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,omarfadhilalhameli.com,omarfadhilalhameli[.]com,domain,IClickFix,ThreatFox,,,,0,50,2026-08-19 06:05:14 UTC,ThreatFox,https://x.com/skocherhan/status/2089834462951408044
-48,media,media,xejaluze.workers.dev,xejaluze[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,0/91,,0,50,2026-08-19 06:05:06 UTC,ThreatFox,
-48,media,media,ryluhy.workers.dev,ryluhy[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,,,0,50,2026-08-19 06:05:03 UTC,ThreatFox,
-48,media,media,magnificent5240.workers.dev,magnificent5240[.]workers[.]dev,domain,php.shin_webshell,ThreatFox,,,,0,50,2026-08-19 06:05:01 UTC,ThreatFox,
-40,media,media,http://103.31.103.204:55940/bin.sh,hxxp://103[.]31[.]103[.]204:55940/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 01:32:15 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905960/
-40,media,media,http://219.157.249.227:40515/bin.sh,hxxp://219[.]157[.]249[.]227:40515/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 01:08:15 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905959/
-40,media,media,http://115.48.163.35:38931/i,hxxp://115[.]48[.]163[.]35:38931/i,url,malware_download,URLhaus,,,,0,,2026-08-20 01:06:15 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905958/
-40,media,media,http://123.172.77.129:45661/bin.sh,hxxp://123[.]172[.]77[.]129:45661/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 00:53:13 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905957/
-40,media,media,http://31.58.171.194/data_aarch64,hxxp://31[.]58[.]171[.]194/data_aarch64,url,malware_download,URLhaus,,,,0,,2026-08-20 00:53:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905956/
-40,media,media,http://31.58.171.194/data_powerpc,hxxp://31[.]58[.]171[.]194/data_powerpc,url,malware_download,URLhaus,,,,0,,2026-08-20 00:52:43 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905955/
-40,media,media,http://31.58.171.194/data_arm6,hxxp://31[.]58[.]171[.]194/data_arm6,url,malware_download,URLhaus,,,,0,,2026-08-20 00:52:36 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905954/
-40,media,media,http://31.58.171.194/data_arm4,hxxp://31[.]58[.]171[.]194/data_arm4,url,malware_download,URLhaus,,,,0,,2026-08-20 00:52:33 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905953/
-40,media,media,http://31.58.171.194/data_arm7,hxxp://31[.]58[.]171[.]194/data_arm7,url,malware_download,URLhaus,,,,0,,2026-08-20 00:52:19 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905952/
-40,media,media,http://31.58.171.194/bbc,hxxp://31[.]58[.]171[.]194/bbc,url,malware_download,URLhaus,,,,0,,2026-08-20 00:52:13 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905951/
-40,media,media,http://31.58.171.194/data_x86,hxxp://31[.]58[.]171[.]194/data_x86,url,malware_download,URLhaus,,,,0,,2026-08-20 00:52:10 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905949/
-40,media,media,http://31.58.171.194/data_x86_64,hxxp://31[.]58[.]171[.]194/data_x86_64,url,malware_download,URLhaus,,,,0,,2026-08-20 00:52:10 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905950/
-40,media,media,http://31.58.171.194/data_arm5,hxxp://31[.]58[.]171[.]194/data_arm5,url,malware_download,URLhaus,,,,0,,2026-08-20 00:52:08 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905948/
-40,media,media,http://121.233.205.151:33594/i,hxxp://121[.]233[.]205[.]151:33594/i,url,malware_download,URLhaus,,,,0,,2026-08-20 00:47:14 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905947/
-40,media,media,http://115.48.163.35:38931/bin.sh,hxxp://115[.]48[.]163[.]35:38931/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 00:42:19 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905946/
-40,media,media,http://42.230.45.47:55198/i,hxxp://42[.]230[.]45[.]47:55198/i,url,malware_download,URLhaus,,,,0,,2026-08-20 00:32:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905945/
-40,media,media,http://121.233.205.151:33594/bin.sh,hxxp://121[.]233[.]205[.]151:33594/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 00:18:10 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905944/
-40,media,media,http://101.108.7.49:39084/i,hxxp://101[.]108[.]7[.]49:39084/i,url,malware_download,URLhaus,,,,0,,2026-08-20 00:12:15 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905943/
-40,media,media,http://42.230.45.47:55198/bin.sh,hxxp://42[.]230[.]45[.]47:55198/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 00:07:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905942/
-40,media,media,http://123.12.46.19:42170/i,hxxp://123[.]12[.]46[.]19:42170/i,url,malware_download,URLhaus,,,,0,,2026-08-20 00:06:21 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905941/
-40,media,media,http://119.114.59.126:36050/bin.sh,hxxp://119[.]114[.]59[.]126:36050/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 23:57:23 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905940/
-40,media,media,http://101.108.7.49:39084/bin.sh,hxxp://101[.]108[.]7[.]49:39084/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 23:48:23 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905939/
-40,media,media,http://123.12.46.19:42170/bin.sh,hxxp://123[.]12[.]46[.]19:42170/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 23:40:14 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905938/
-40,media,media,http://42.238.169.48:54614/i,hxxp://42[.]238[.]169[.]48:54614/i,url,malware_download,URLhaus,,,,0,,2026-08-19 23:39:12 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905937/
-40,media,media,http://42.224.81.6:39508/i,hxxp://42[.]224[.]81[.]6:39508/i,url,malware_download,URLhaus,,,,0,,2026-08-19 23:26:09 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905936/
-40,media,media,http://103.249.199.3:45299/bin.sh,hxxp://103[.]249[.]199[.]3:45299/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 23:19:16 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905935/
-40,media,media,http://42.238.169.48:54614/bin.sh,hxxp://42[.]238[.]169[.]48:54614/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 23:00:18 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905934/
-40,media,media,http://31.58.171.194/data_mips,hxxp://31[.]58[.]171[.]194/data_mips,url,malware_download,URLhaus,,,,0,,2026-08-19 22:58:36 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905933/
-40,media,media,http://31.58.171.194/data_mipsel,hxxp://31[.]58[.]171[.]194/data_mipsel,url,malware_download,URLhaus,,,,0,,2026-08-19 22:57:16 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905932/
-40,media,media,http://222.140.197.114:37580/i,hxxp://222[.]140[.]197[.]114:37580/i,url,malware_download,URLhaus,,,,0,,2026-08-19 22:50:22 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905931/
-40,media,media,http://42.224.81.6:39508/bin.sh,hxxp://42[.]224[.]81[.]6:39508/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 22:47:23 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905930/
-40,media,media,https://threedrows.net/uploads/cl1786993325592.exe,hxxps://threedrows[.]net/uploads/cl1786993325592[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-19 22:22:05 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905929/
-40,media,media,http://222.140.197.114:37580/bin.sh,hxxp://222[.]140[.]197[.]114:37580/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 22:21:22 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905928/
-40,media,media,https://firstratezim.com/Updater.exe,hxxps://firstratezim[.]com/Updater[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-19 22:17:10 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905927/
-40,media,media,http://122.241.88.111:37163/i,hxxp://122[.]241[.]88[.]111:37163/i,url,malware_download,URLhaus,,,,0,,2026-08-19 22:04:22 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905926/
-40,media,media,http://222.138.103.241:51367/i,hxxp://222[.]138[.]103[.]241:51367/i,url,malware_download,URLhaus,,,,0,,2026-08-19 21:46:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905925/
-40,media,media,http://122.241.88.111:37163/bin.sh,hxxp://122[.]241[.]88[.]111:37163/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 21:31:29 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905924/
-40,media,media,http://154.90.70.52/xmrig.sh,hxxp://154[.]90[.]70[.]52/xmrig[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 21:29:30 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905923/
-40,media,media,http://182.123.210.94:55730/i,hxxp://182[.]123[.]210[.]94:55730/i,url,malware_download,URLhaus,,,,0,,2026-08-19 21:21:22 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905922/
-40,media,media,http://27.37.229.46:46712/i,hxxp://27[.]37[.]229[.]46:46712/i,url,malware_download,URLhaus,,,,0,,2026-08-19 21:08:21 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905921/
-40,media,media,http://42.231.218.95:36712/i,hxxp://42[.]231[.]218[.]95:36712/i,url,malware_download,URLhaus,,,,0,,2026-08-19 21:07:31 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905920/
-40,media,media,http://27.37.229.46:46712/bin.sh,hxxp://27[.]37[.]229[.]46:46712/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 21:06:28 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905919/
-40,media,media,http://182.123.210.94:55730/bin.sh,hxxp://182[.]123[.]210[.]94:55730/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 20:37:18 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905918/
-40,media,media,http://42.5.26.85:51916/i,hxxp://42[.]5[.]26[.]85:51916/i,url,malware_download,URLhaus,,,,0,,2026-08-19 20:31:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905917/
-40,media,media,http://42.231.190.213:48304/i,hxxp://42[.]231[.]190[.]213:48304/i,url,malware_download,URLhaus,,,,0,,2026-08-19 20:26:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905916/
-40,media,media,http://163.182.97.242:3654/i,hxxp://163[.]182[.]97[.]242:3654/i,url,malware_download,URLhaus,,,,0,,2026-08-19 20:06:25 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905915/
-40,media,media,http://42.231.190.213:48304/bin.sh,hxxp://42[.]231[.]190[.]213:48304/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 20:02:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905914/
-40,media,media,http://58.255.41.239:39378/bin.sh,hxxp://58[.]255[.]41[.]239:39378/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 19:03:20 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905913/
-40,media,media,http://119.185.241.8:42488/i,hxxp://119[.]185[.]241[.]8:42488/i,url,malware_download,URLhaus,,,,0,,2026-08-19 18:57:25 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905912/
-40,media,media,https://pub-1c4ef2a315ec4b89b9dfad9472afee69.r2.dev/zuyoking.png,hxxps://pub-1c4ef2a315ec4b89b9dfad9472afee69[.]r2[.]dev/zuyoking[.]png,url,malware_download,URLhaus,,,,0,,2026-08-19 18:52:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905911/
-40,media,media,https://one-graup.com/LUI.hta,hxxps://one-graup[.]com/LUI[.]hta,url,malware_download,URLhaus,,,,0,,2026-08-19 18:52:05 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905910/
-40,media,media,https://pub-eab9eb7761644f51bceeecfefdf0ec2b.r2.dev/teddywon.hta,hxxps://pub-eab9eb7761644f51bceeecfefdf0ec2b[.]r2[.]dev/teddywon[.]hta,url,malware_download,URLhaus,,,,0,,2026-08-19 18:51:08 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905909/
-40,media,media,https://pub-1c4ef2a315ec4b89b9dfad9472afee69.r2.dev/radman.png,hxxps://pub-1c4ef2a315ec4b89b9dfad9472afee69[.]r2[.]dev/radman[.]png,url,malware_download,URLhaus,,,,0,,2026-08-19 18:51:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905908/
-40,media,media,http://196.251.107.186/clpr6.exe,hxxp://196[.]251[.]107[.]186/clpr6[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-19 18:45:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905907/
-40,media,media,http://196.251.107.186/uniform_4.44_INSTALL.exe,hxxp://196[.]251[.]107[.]186/uniform_4[.]44_INSTALL[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-19 18:44:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905906/
-40,media,media,http://196.251.107.186/zs/config.bin,hxxp://196[.]251[.]107[.]186/zs/config[.]bin,url,malware_download,URLhaus,,,,0,,2026-08-19 18:44:05 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905905/
-40,media,media,http://125.40.68.15:56896/i,hxxp://125[.]40[.]68[.]15:56896/i,url,malware_download,URLhaus,,,,0,,2026-08-19 18:38:11 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905904/
-40,media,media,http://103.229.53.84:8443/bin,hxxp://103[.]229[.]53[.]84:8443/bin,url,malware_download,URLhaus,,,,0,,2026-08-19 18:28:09 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905903/
-40,media,media,http://103.229.53.84:8443/data,hxxp://103[.]229[.]53[.]84:8443/data,url,malware_download,URLhaus,,,,0,,2026-08-19 18:28:08 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905901/
-40,media,media,http://103.229.53.84:8443/chromelevator_x64.exe,hxxp://103[.]229[.]53[.]84:8443/chromelevator_x64[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-19 18:28:08 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905902/
-40,media,media,http://103.229.53.84:8443/package.zip,hxxp://103[.]229[.]53[.]84:8443/package[.]zip,url,malware_download,URLhaus,,,,0,,2026-08-19 18:28:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905900/
-40,media,media,http://103.229.53.84:8443/enc,hxxp://103[.]229[.]53[.]84:8443/enc,url,malware_download,URLhaus,,,,0,,2026-08-19 18:28:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905899/
-40,media,media,http://103.229.53.84:8443/run.ps1,hxxp://103[.]229[.]53[.]84:8443/run[.]ps1,url,malware_download,URLhaus,,,,0,,2026-08-19 18:28:05 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905896/
-40,media,media,http://103.229.53.84:8443/r.ps1,hxxp://103[.]229[.]53[.]84:8443/r[.]ps1,url,malware_download,URLhaus,,,,0,,2026-08-19 18:28:05 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905897/
-40,media,media,http://103.229.53.84:8443/dll,hxxp://103[.]229[.]53[.]84:8443/dll,url,malware_download,URLhaus,,,,0,,2026-08-19 18:28:05 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905898/
-40,media,media,http://103.229.53.84:8443/update.ps1,hxxp://103[.]229[.]53[.]84:8443/update[.]ps1,url,malware_download,URLhaus,,,,0,,2026-08-19 18:27:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905894/
-40,media,media,http://103.229.53.84:8443/upd,hxxp://103[.]229[.]53[.]84:8443/upd,url,malware_download,URLhaus,,,,0,,2026-08-19 18:27:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905895/
-40,media,media,https://pic.li/images/MSI_PRO_Last.jpeg,hxxps://pic[.]li/images/MSI_PRO_Last[.]jpeg,url,malware_download,URLhaus,,,,0,,2026-08-19 18:23:09 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905892/
-40,media,media,http://23.94.148.3/70/img_222651.png,hxxp://23[.]94[.]148[.]3/70/img_222651[.]png,url,malware_download,URLhaus,,,,0,,2026-08-19 18:23:09 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905893/
-40,media,media,http://23.94.148.3/70/weareinthebestplaceforbetterfuturecomingforme.hta,hxxp://23[.]94[.]148[.]3/70/weareinthebestplaceforbetterfuturecomingforme[.]hta,url,malware_download,URLhaus,,,,0,,2026-08-19 18:22:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905891/
-40,media,media,https://bmnjhy.shop/Common_Offline_Utility_ITR-1_to_4_AY2026-07-27.vhdx,hxxps://bmnjhy[.]shop/Common_Offline_Utility_ITR-1_to_4_AY2026-07-27[.]vhdx,url,malware_download,URLhaus,,,,0,,2026-08-19 18:12:48 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905890/
-40,media,media,https://mkjiun.shop/Common_Offline_Utility_ITR-1_to_4_AY2026-07-27.vhdx,hxxps://mkjiun[.]shop/Common_Offline_Utility_ITR-1_to_4_AY2026-07-27[.]vhdx,url,malware_download,URLhaus,,,,0,,2026-08-19 18:11:19 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905889/
-40,media,media,http://125.40.68.15:56896/bin.sh,hxxp://125[.]40[.]68[.]15:56896/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 18:08:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905888/
-40,media,media,https://nmhjnu.shop/Common_Offline_Utility_ITR-1_to_4_AY2026-07-27.vhdx,hxxps://nmhjnu[.]shop/Common_Offline_Utility_ITR-1_to_4_AY2026-07-27[.]vhdx,url,malware_download,URLhaus,,,,0,,2026-08-19 18:08:17 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905887/
-40,media,media,https://rukeyou.com/sys/X2/X2-payload_dfyihao.zip,hxxps://rukeyou[.]com/sys/X2/X2-payload_dfyihao[.]zip,url,malware_download,URLhaus,,,,0,,2026-08-19 18:07:20 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905886/
-40,media,media,https://rukeyou.com/sys/X2/X2-payload_baolljp.jpg,hxxps://rukeyou[.]com/sys/X2/X2-payload_baolljp[.]jpg,url,malware_download,URLhaus,,,,0,,2026-08-19 18:07:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905885/
-40,media,media,http://58.255.41.239:39378/i,hxxp://58[.]255[.]41[.]239:39378/i,url,malware_download,URLhaus,,,,0,,2026-08-19 18:04:22 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905884/
-40,media,media,http://119.185.241.8:42488/bin.sh,hxxp://119[.]185[.]241[.]8:42488/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 17:56:22 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905883/
-40,media,media,http://182.127.115.109:39219/i,hxxp://182[.]127[.]115[.]109:39219/i,url,malware_download,URLhaus,,,,0,,2026-08-19 17:55:22 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905882/
-40,media,media,http://www.justturtle.com/indie.exe,hxxp://www[.]justturtle[.]com/indie[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-19 17:53:08 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905881/
-40,media,media,http://182.127.115.109:39219/bin.sh,hxxp://182[.]127[.]115[.]109:39219/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 17:24:11 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905880/
-40,media,media,http://210.208.110.42:56390/i,hxxp://210[.]208[.]110[.]42:56390/i,url,malware_download,URLhaus,,,,0,,2026-08-19 17:21:19 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905879/
-40,media,media,http://123.11.68.231:52921/i,hxxp://123[.]11[.]68[.]231:52921/i,url,malware_download,URLhaus,,,,0,,2026-08-19 17:18:10 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905878/
-40,media,media,http://210.208.110.42:56390/bin.sh,hxxp://210[.]208[.]110[.]42:56390/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 17:12:26 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905877/
-40,media,media,http://akb.cat/N330,hxxp://akb[.]cat/N330,url,malware_download,URLhaus,,,,0,,2026-08-19 17:06:05 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905876/
-40,media,media,https://verifyidentify.com/check,hxxps://verifyidentify[.]com/check,url,malware_download,URLhaus,,,,0,,2026-08-19 17:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905875/
-40,media,media,http://115.49.7.198:54475/bin.sh,hxxp://115[.]49[.]7[.]198:54475/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 17:01:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905874/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.spc,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]spc,url,malware_download,URLhaus,,,,0,,2026-08-19 16:56:11 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905873/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.x86_64,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]x86_64,url,malware_download,URLhaus,,,,0,,2026-08-19 16:56:09 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905871/
-40,media,media,http://wer-ldr.duckdns.org/b.sh,hxxp://wer-ldr[.]duckdns[.]org/b[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-19 16:56:09 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905872/
-40,media,media,https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat,hxxps://aspenriver6[.]com/curl/epf215dtv0l/2otso19m8v27gj0d381[.]dat,url,malware_download,URLhaus,,,,0,,2026-08-19 16:56:05 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905870/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.s390x,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]s390x,url,malware_download,URLhaus,,,,0,,2026-08-19 16:55:17 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905865/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.mips,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]mips,url,malware_download,URLhaus,,,,0,,2026-08-19 16:55:17 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905866/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.sh4,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]sh4,url,malware_download,URLhaus,,,,0,,2026-08-19 16:55:17 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905867/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.ppc,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]ppc,url,malware_download,URLhaus,,,,0,,2026-08-19 16:55:17 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905868/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.ppc64el,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]ppc64el,url,malware_download,URLhaus,,,,0,,2026-08-19 16:55:17 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905869/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.arm,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]arm,url,malware_download,URLhaus,,,,0,,2026-08-19 16:55:16 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905859/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.m68k,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]m68k,url,malware_download,URLhaus,,,,0,,2026-08-19 16:55:16 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905860/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.mips64el,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]mips64el,url,malware_download,URLhaus,,,,0,,2026-08-19 16:55:16 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905861/
-40,media,media,http://wer-ldr.duckdns.org/bots/bot.x86,hxxp://wer-ldr[.]duckdns[.]org/bots/bot[.]x86,url,malware_download,URLhaus,,,,0,,2026-08-19 16:55:16 UTC,URLhaus,https://urlhaus.abuse.ch/url/3905862/
+40,media,media,https://long-wildflower-b4f5.gustavosoftware.workers.dev/,hxxps://long-wildflower-b4f5[.]gustavosoftware[.]workers[.]dev/,url,malware_download,URLhaus,,,,0,,2026-08-20 06:52:09 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906107/
+40,media,media,https://pub-a06eb79f0ebe4a6999bcc71a2227d8e3.r2.dev/apiti.png,hxxps://pub-a06eb79f0ebe4a6999bcc71a2227d8e3[.]r2[.]dev/apiti[.]png,url,malware_download,URLhaus,,,,0,,2026-08-20 06:52:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906106/
+40,media,media,https://elxxvvx.xyz/i,hxxps://elxxvvx[.]xyz/i,url,malware_download,URLhaus,,,,0,,2026-08-20 06:51:05 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906105/
+40,media,media,https://multisavcx.xyz/ncx,hxxps://multisavcx[.]xyz/ncx,url,malware_download,URLhaus,,,,0,,2026-08-20 06:48:04 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906104/
+40,media,media,https://python3.en-us--balancing.co/jquery.min.js,hxxps://python3[.]en-us--balancing[.]co/jquery[.]min[.]js,url,malware_download,URLhaus,,,,0,,2026-08-20 06:45:09 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906103/
+40,media,media,http://61.53.220.201:34645/i,hxxp://61[.]53[.]220[.]201:34645/i,url,malware_download,URLhaus,,,,0,,2026-08-20 06:44:31 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906102/
+40,media,media,http://183.23.132.41:35951/bin.sh,hxxp://183[.]23[.]132[.]41:35951/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 06:27:17 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906101/
+40,media,media,http://77.239.124.108/atomic/atomic.sh,hxxp://77[.]239[.]124[.]108/atomic/atomic[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 06:21:31 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906100/
+40,media,media,http://27.215.52.217:41359/i,hxxp://27[.]215[.]52[.]217:41359/i,url,malware_download,URLhaus,,,,0,,2026-08-20 06:14:31 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906096/
+40,media,media,http://5.182.210.174/76e6f5,hxxp://5[.]182[.]210[.]174/76e6f5,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906084/
+40,media,media,http://5.182.210.174/85692b,hxxp://5[.]182[.]210[.]174/85692b,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906085/
+40,media,media,http://5.182.210.174/b39f8f,hxxp://5[.]182[.]210[.]174/b39f8f,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906086/
+40,media,media,http://5.182.210.174/e00ee7,hxxp://5[.]182[.]210[.]174/e00ee7,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906087/
+40,media,media,http://5.182.210.174/6a20da,hxxp://5[.]182[.]210[.]174/6a20da,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906088/
+40,media,media,http://5.182.210.174/de19ef,hxxp://5[.]182[.]210[.]174/de19ef,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906089/
+40,media,media,http://5.182.210.174/b74d4d,hxxp://5[.]182[.]210[.]174/b74d4d,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906090/
+40,media,media,http://5.182.210.174/589a29,hxxp://5[.]182[.]210[.]174/589a29,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906091/
+40,media,media,http://5.182.210.174/4d493d,hxxp://5[.]182[.]210[.]174/4d493d,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906092/
+40,media,media,http://5.182.210.174/1498b2,hxxp://5[.]182[.]210[.]174/1498b2,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906093/
+40,media,media,http://5.182.210.174/804c43,hxxp://5[.]182[.]210[.]174/804c43,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906094/
+40,media,media,http://5.182.210.174/55bd33,hxxp://5[.]182[.]210[.]174/55bd33,url,malware_download,URLhaus,,,,0,,2026-08-20 06:10:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906095/
+40,media,media,http://94.154.43.210/daredevil.mipsel,hxxp://94[.]154[.]43[.]210/daredevil[.]mipsel,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:20 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906083/
+40,media,media,http://5.182.210.174/faedd6,hxxp://5[.]182[.]210[.]174/faedd6,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906081/
+40,media,media,http://5.182.210.174/78f157,hxxp://5[.]182[.]210[.]174/78f157,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906082/
+40,media,media,http://5.182.210.174/676064,hxxp://5[.]182[.]210[.]174/676064,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906059/
+40,media,media,http://5.182.210.174/c72382,hxxp://5[.]182[.]210[.]174/c72382,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906060/
+40,media,media,http://5.182.210.174/0b1663,hxxp://5[.]182[.]210[.]174/0b1663,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906061/
+40,media,media,http://5.182.210.174/515c80,hxxp://5[.]182[.]210[.]174/515c80,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906062/
+40,media,media,http://5.182.210.174/8ac363,hxxp://5[.]182[.]210[.]174/8ac363,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906063/
+40,media,media,http://5.182.210.174/db7a9c,hxxp://5[.]182[.]210[.]174/db7a9c,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906064/
+40,media,media,http://5.182.210.174/0db2ec,hxxp://5[.]182[.]210[.]174/0db2ec,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906065/
+40,media,media,http://5.182.210.174/2b08fb,hxxp://5[.]182[.]210[.]174/2b08fb,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906066/
+40,media,media,http://5.182.210.174/456417,hxxp://5[.]182[.]210[.]174/456417,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906067/
+40,media,media,http://5.182.210.174/279fe0,hxxp://5[.]182[.]210[.]174/279fe0,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906068/
+40,media,media,http://5.182.210.174/69d5f2,hxxp://5[.]182[.]210[.]174/69d5f2,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906069/
+40,media,media,http://5.182.210.174/acb326,hxxp://5[.]182[.]210[.]174/acb326,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906070/
+40,media,media,http://5.182.210.174/473c1a,hxxp://5[.]182[.]210[.]174/473c1a,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906071/
+40,media,media,http://5.182.210.174/065109,hxxp://5[.]182[.]210[.]174/065109,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906072/
+40,media,media,http://5.182.210.174/49fa35,hxxp://5[.]182[.]210[.]174/49fa35,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906073/
+40,media,media,http://5.182.210.174/9dfbc4,hxxp://5[.]182[.]210[.]174/9dfbc4,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906074/
+40,media,media,http://5.182.210.174/b3679a,hxxp://5[.]182[.]210[.]174/b3679a,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906075/
+40,media,media,http://5.182.210.174/094392,hxxp://5[.]182[.]210[.]174/094392,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906076/
+40,media,media,http://5.182.210.174/c4844d,hxxp://5[.]182[.]210[.]174/c4844d,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906077/
+40,media,media,http://5.182.210.174/573976,hxxp://5[.]182[.]210[.]174/573976,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906078/
+40,media,media,http://5.182.210.174/c515ee,hxxp://5[.]182[.]210[.]174/c515ee,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906079/
+40,media,media,http://5.182.210.174/344f7e,hxxp://5[.]182[.]210[.]174/344f7e,url,malware_download,URLhaus,,,,0,,2026-08-20 06:03:06 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906080/
+40,media,media,http://94.154.43.210/daredevil.armv4l,hxxp://94[.]154[.]43[.]210/daredevil[.]armv4l,url,malware_download,URLhaus,,,,0,,2026-08-20 06:02:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906054/
+40,media,media,http://94.154.43.210/daredevil.x86_64,hxxp://94[.]154[.]43[.]210/daredevil[.]x86_64,url,malware_download,URLhaus,,,,0,,2026-08-20 06:02:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906055/
+40,media,media,http://94.154.43.210/daredevil.armv7l,hxxp://94[.]154[.]43[.]210/daredevil[.]armv7l,url,malware_download,URLhaus,,,,0,,2026-08-20 06:02:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906056/
+40,media,media,http://94.154.43.210/daredevil.armv5l,hxxp://94[.]154[.]43[.]210/daredevil[.]armv5l,url,malware_download,URLhaus,,,,0,,2026-08-20 06:02:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906057/
+40,media,media,http://94.154.43.210/daredevil.armv6l,hxxp://94[.]154[.]43[.]210/daredevil[.]armv6l,url,malware_download,URLhaus,,,,0,,2026-08-20 06:02:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906058/
+40,media,media,http://94.154.43.210/daredevil.mips,hxxp://94[.]154[.]43[.]210/daredevil[.]mips,url,malware_download,URLhaus,,,,0,,2026-08-20 06:02:16 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906053/
+40,media,media,http://115.48.12.174:50575/i,hxxp://115[.]48[.]12[.]174:50575/i,url,malware_download,URLhaus,,,,0,,2026-08-20 05:56:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906052/
+40,media,media,http://27.215.52.217:41359/bin.sh,hxxp://27[.]215[.]52[.]217:41359/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 05:51:21 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906051/
+40,media,media,http://180.190.189.204:53404/i,hxxp://180[.]190[.]189[.]204:53404/i,url,malware_download,URLhaus,,,,0,,2026-08-20 05:37:25 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906050/
+40,media,media,http://115.48.12.174:50575/bin.sh,hxxp://115[.]48[.]12[.]174:50575/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 05:31:10 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906049/
+40,media,media,http://182.121.250.165:60904/i,hxxp://182[.]121[.]250[.]165:60904/i,url,malware_download,URLhaus,,,,0,,2026-08-20 05:29:14 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906048/
+40,media,media,http://219.156.98.218:49065/i,hxxp://219[.]156[.]98[.]218:49065/i,url,malware_download,URLhaus,,,,0,,2026-08-20 05:28:26 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906047/
+40,media,media,http://dl.myresult.co.za:8071/10y8r8/ac.xor,hxxp://dl[.]myresult[.]co[.]za:8071/10y8r8/ac[.]xor,url,malware_download,URLhaus,,,,0,,2026-08-20 05:28:12 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906046/
+40,media,media,http://dl.myresult.co.za:8071/10y8r8/wupd.bat,hxxp://dl[.]myresult[.]co[.]za:8071/10y8r8/wupd[.]bat,url,malware_download,URLhaus,,,,0,,2026-08-20 05:27:08 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906045/
+40,media,media,http://dl.myresult.co.za:8071/10y8r8/as.xor,hxxp://dl[.]myresult[.]co[.]za:8071/10y8r8/as[.]xor,url,malware_download,URLhaus,,,,0,,2026-08-20 05:27:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906043/
+40,media,media,http://dl.myresult.co.za:8071/10y8r8/inject.ps1,hxxp://dl[.]myresult[.]co[.]za:8071/10y8r8/inject[.]ps1,url,malware_download,URLhaus,,,,0,,2026-08-20 05:27:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906044/
+40,media,media,http://dl.myresult.co.za:8071/10y8r8/launch.vbs,hxxp://dl[.]myresult[.]co[.]za:8071/10y8r8/launch[.]vbs,url,malware_download,URLhaus,,,,0,,2026-08-20 05:27:05 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906042/
+40,media,media,http://182.126.90.106:37277/i,hxxp://182[.]126[.]90[.]106:37277/i,url,malware_download,URLhaus,,,,0,,2026-08-20 05:21:12 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906041/
+40,media,media,http://219.156.98.218:49065/bin.sh,hxxp://219[.]156[.]98[.]218:49065/bin[.]sh,url,malware_download,URLhaus,,,,0,,2026-08-20 05:19:22 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906040/
+40,media,media,http://69.33.213.199/nerv.m68k,hxxp://69[.]33[.]213[.]199/nerv[.]m68k,url,malware_download,URLhaus,,,,0,,2026-08-20 05:19:21 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906039/
+40,media,media,http://69.33.213.199/nerv.sparc,hxxp://69[.]33[.]213[.]199/nerv[.]sparc,url,malware_download,URLhaus,,,,0,,2026-08-20 05:18:26 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906037/
+40,media,media,http://69.33.213.199/nerv.ppc,hxxp://69[.]33[.]213[.]199/nerv[.]ppc,url,malware_download,URLhaus,,,,0,,2026-08-20 05:18:26 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906038/
+40,media,media,http://69.33.213.199/nerv.arm6,hxxp://69[.]33[.]213[.]199/nerv[.]arm6,url,malware_download,URLhaus,,,,0,,2026-08-20 05:18:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906033/
+40,media,media,http://69.33.213.199/nerv.x86_32,hxxp://69[.]33[.]213[.]199/nerv[.]x86_32,url,malware_download,URLhaus,,,,0,,2026-08-20 05:18:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906034/
+40,media,media,http://69.33.213.199/nerv.mpsl,hxxp://69[.]33[.]213[.]199/nerv[.]mpsl,url,malware_download,URLhaus,,,,0,,2026-08-20 05:18:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906035/
+40,media,media,http://69.33.213.199/nerv.sh4,hxxp://69[.]33[.]213[.]199/nerv[.]sh4,url,malware_download,URLhaus,,,,0,,2026-08-20 05:18:24 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906036/
+40,media,media,http://ip-69-33-213-199.dfw.megapath.net/nerv.mips,hxxp://ip-69-33-213-199[.]dfw[.]megapath[.]net/nerv[.]mips,url,malware_download,URLhaus,,,,0,,2026-08-20 05:17:30 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906032/
+40,media,media,http://69.33.213.199/nerv.arm7,hxxp://69[.]33[.]213[.]199/nerv[.]arm7,url,malware_download,URLhaus,,,,0,,2026-08-20 05:17:20 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906031/
+40,media,media,http://69.33.213.199/nerv.dbg,hxxp://69[.]33[.]213[.]199/nerv[.]dbg,url,malware_download,URLhaus,,,,0,,2026-08-20 05:17:19 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906025/
+40,media,media,http://69.33.213.199/nerv.x86,hxxp://69[.]33[.]213[.]199/nerv[.]x86,url,malware_download,URLhaus,,,,0,,2026-08-20 05:17:19 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906026/
+40,media,media,http://69.33.213.199/nerv.arm5,hxxp://69[.]33[.]213[.]199/nerv[.]arm5,url,malware_download,URLhaus,,,,0,,2026-08-20 05:17:19 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906027/
+40,media,media,http://69.33.213.199/nerv.x86_64,hxxp://69[.]33[.]213[.]199/nerv[.]x86_64,url,malware_download,URLhaus,,,,0,,2026-08-20 05:17:19 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906028/
+40,media,media,http://69.33.213.199/nerv.mips,hxxp://69[.]33[.]213[.]199/nerv[.]mips,url,malware_download,URLhaus,,,,0,,2026-08-20 05:17:19 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906029/
+40,media,media,http://69.33.213.199/nerv.arm4,hxxp://69[.]33[.]213[.]199/nerv[.]arm4,url,malware_download,URLhaus,,,,0,,2026-08-20 05:17:19 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906030/
+40,media,media,http://94.154.43.196:8080/api/v1/install,hxxp://94[.]154[.]43[.]196:8080/api/v1/install,url,malware_download,URLhaus,,,,0,,2026-08-20 05:17:07 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906024/
+40,media,media,http://91.92.242.236/files-129312398/files/file_0d90bf33aa3e6c18.exe,hxxp://91[.]92[.]242[.]236/files-129312398/files/file_0d90bf33aa3e6c18[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-20 05:16:30 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906023/
+40,media,media,http://37.221.93.40/Servicer.apk,hxxp://37[.]221[.]93[.]40/Servicer[.]apk,url,malware_download,URLhaus,,,,0,,2026-08-20 05:16:27 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906019/
+40,media,media,http://91.92.242.236/files-129312398/files/file_4799cc1c552dbe75.exe,hxxp://91[.]92[.]242[.]236/files-129312398/files/file_4799cc1c552dbe75[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-20 05:16:27 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906020/
+40,media,media,http://176.65.139.139/Services.apk,hxxp://176[.]65[.]139[.]139/Services[.]apk,url,malware_download,URLhaus,,,,0,,2026-08-20 05:16:27 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906021/
+40,media,media,http://38.97.56.196/Services.apk,hxxp://38[.]97[.]56[.]196/Services[.]apk,url,malware_download,URLhaus,,,,0,,2026-08-20 05:16:27 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906022/
+40,media,media,http://91.92.242.236/files-129312398/files/file_fedb1cae70e15500.exe,hxxp://91[.]92[.]242[.]236/files-129312398/files/file_fedb1cae70e15500[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-20 05:16:26 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906017/
+40,media,media,http://91.92.242.236/files-129312398/files/file_5531355e31758cd9.exe,hxxp://91[.]92[.]242[.]236/files-129312398/files/file_5531355e31758cd9[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-20 05:16:26 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906018/
+40,media,media,https://bm2contabilidade.com.br/Nxtlvllnk/ScreenConnect.ClientSetup.exe,hxxps://bm2contabilidade[.]com[.]br/Nxtlvllnk/ScreenConnect[.]ClientSetup[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-20 05:16:21 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906016/
+40,media,media,https://pub-f225fc4c925f4cad963c543c3378b1ae.r2.dev/Bembemi.exe,hxxps://pub-f225fc4c925f4cad963c543c3378b1ae[.]r2[.]dev/Bembemi[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-20 05:15:58 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906015/
+40,media,media,https://xxpro.dev/BAC_PC%E5%A3%B3.exe,hxxps://xxpro[.]dev/BAC_PC%E5%A3%B3[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-20 05:15:57 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906014/
+40,media,media,https://baoxissde.one/S/sp.zip,hxxps://baoxissde[.]one/S/sp[.]zip,url,malware_download,URLhaus,,,,0,,2026-08-20 05:15:37 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906013/
+40,media,media,https://pub-a6ae2d4aa393400aa29f7b02ac7ab213.r2.dev/OCUDLOMO.msi,hxxps://pub-a6ae2d4aa393400aa29f7b02ac7ab213[.]r2[.]dev/OCUDLOMO[.]msi,url,malware_download,URLhaus,,,,0,,2026-08-20 05:15:35 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906012/
+40,media,media,https://pub-1f5a501a59d74a6a97e77126cf1fc526.r2.dev/ohijfalqvzldlhaqw.exe,hxxps://pub-1f5a501a59d74a6a97e77126cf1fc526[.]r2[.]dev/ohijfalqvzldlhaqw[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-20 05:15:34 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906010/
+40,media,media,https://94.26.90.90/client.exe,hxxps://94[.]26[.]90[.]90/client[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-20 05:15:34 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906011/
+40,media,media,https://importantdocumentscopys.s3.us-east-2.amazonaws.com/ScreenConnect.ClientSetup.msi,hxxps://importantdocumentscopys[.]s3[.]us-east-2[.]amazonaws[.]com/ScreenConnect[.]ClientSetup[.]msi,url,malware_download,URLhaus,,,,0,,2026-08-20 05:15:28 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906009/
+40,media,media,https://itsmystik.com/dl/deadlock/Loader.exe,hxxps://itsmystik[.]com/dl/deadlock/Loader[.]exe,url,malware_download,URLhaus,,,,0,,2026-08-20 05:15:20 UTC,URLhaus,https://urlhaus.abuse.ch/url/3906008/
 29,baja,critica,78.128.113.10,78[.]128[.]113[.]10,ipv4,Clop Returns with Custom Implant in Mass-Extortion Campaign,OTX,BG,,22,0,,2026-08-19T06:54:06,OTX,https://otx.alienvault.com/pulse/6a85530dde3c55da4658c63b
 25,baja,alta,519d5f0350f7880559ad6ca51eb9c4e91ffe2046b635b58ada4b7269b775bb89,519d5f0350f7880559ad6ca51eb9c4e91ffe2046b635b58ada4b7269b775bb89,filehash-sha256,From ClickFix to MaaS: Exposing a Modular Windows RAT and Its Admin Panel,OTX,,,,0,,2026-08-19T15:50:51,OTX,https://otx.alienvault.com/pulse/6a8592950ee0e8d05fc1bec9
 25,baja,alta,https://bull-run.fun/,hxxps://bull-run[.]fun/,url,From ClickFix to MaaS: Exposing a Modular Windows RAT and Its Admin Panel,OTX,,,,0,,2026-08-19T15:50:51,OTX,https://otx.alienvault.com/pulse/6a8592950ee0e8d05fc1bec9

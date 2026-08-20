@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-20 01:46 UTC · **IOCs recolectados:** 1638 · **CVEs KEV recientes:** 10
+**Última actualización:** 2026-08-20 07:05 UTC · **IOCs recolectados:** 1560 · **CVEs KEV recientes:** 10
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -124,29 +124,29 @@ python main.py
 |---|---|---|---|---|---|---|
 | 75 (alta) | alta | `94[.]154[.]32[.]171:2404` | ip:port | Remcos | ThreatFox | 2026-08-19 09:35:06 UTC |
 | 71 (alta) | alta | `108[.]186[.]112[.]220:4782` | ip:port | Quasar RAT | ThreatFox | 2026-08-19 09:31:46 UTC |
-| 71 (alta) | alta | `46[.]151[.]182[.]30:7443` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 06:06:10 UTC |
-| 71 (alta) | alta | `46[.]151[.]182[.]30:7080` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 06:06:09 UTC |
+| 68 (media) | critica | `14[.]103[.]50[.]128:31337` | ip:port | Sliver | ThreatFox | 2026-08-20 05:39:44 UTC |
 | 65 (media) | alta | `95[.]214[.]53[.]90:2354` | ip:port | Quasar RAT | ThreatFox | 2026-08-19 09:31:47 UTC |
-| 60 (media) | alta | `governorhobbies[.]cfd` | domain | Unknown Loader | ThreatFox | 2026-08-19 06:47:42 UTC |
+| 63 (media) | media | `hxxp://183[.]63[.]8[.]194:46154/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-20 06:20:09 UTC |
+| 62 (media) | media | `hxxp://110[.]186[.]229[.]108:47843/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-20 06:20:11 UTC |
+| 62 (media) | media | `hxxp://115[.]57[.]182[.]131:41041/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-20 06:20:11 UTC |
+| 60 (media) | media | `46[.]246[.]84[.]10:7045` | ip:port | Vjw0rm | ThreatFox | 2026-08-20 06:15:10 UTC |
+| 59 (media) | media | `hxxps://taliy[.]sbs/auth` | url | Unknown malware | ThreatFox | 2026-08-20 06:49:10 UTC |
+| 59 (media) | media | `hxxps://tradegenius[.]sbs/auth` | url | Unknown malware | ThreatFox | 2026-08-20 06:46:50 UTC |
+| 59 (media) | alta | `1hvnc[.]duckdns[.]org` | domain | PureRAT | ThreatFox | 2026-08-20 06:16:26 UTC |
 | 59 (media) | media | `hxxps://hyperliquid-solana[.]xyz/` | url | Unknown malware | ThreatFox | 2026-08-19 22:00:09 UTC |
-| 59 (media) | alta | `snailsreading[.]xyz` | domain | Unknown Loader | ThreatFox | 2026-08-19 06:47:42 UTC |
-| 59 (media) | alta | `195[.]177[.]94[.]60:7080` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 06:05:56 UTC |
+| 58 (media) | critica | `149[.]88[.]66[.]234:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-08-20 06:05:07 UTC |
 | 58 (media) | media | `hxxps://noise[.]lat/` | url | Unknown malware | ThreatFox | 2026-08-19 22:00:09 UTC |
 | 58 (media) | alta | `eventras[.]duckdns[.]org` | domain | Remcos | ThreatFox | 2026-08-19 18:23:10 UTC |
 | 58 (media) | alta | `195[.]177[.]94[.]85:7004` | ip:port | XWorm | ThreatFox | 2026-08-19 10:35:44 UTC |
-| 58 (media) | media | `corrykro[.]icu` | domain | IClickFix | ThreatFox | 2026-08-19 06:51:18 UTC |
-| 58 (media) | media | `indytravelclub[.]com` | domain | IClickFix | ThreatFox | 2026-08-19 06:45:17 UTC |
+| 57 (media) | alta | `trump2[.]1368[.]lol` | domain | PureRAT | ThreatFox | 2026-08-20 06:11:13 UTC |
+| 57 (media) | critica | `47[.]96[.]106[.]127:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-20 06:05:05 UTC |
+| 57 (media) | alta | `45[.]66[.]248[.]13:46972` | ip:port | RedLine Stealer | ThreatFox | 2026-08-20 02:45:03 UTC |
 | 57 (media) | media | `hxxps://sixpences[.]xyz/` | url | Unknown malware | ThreatFox | 2026-08-19 22:00:09 UTC |
 | 57 (media) | alta | `whichkindwahalabethisonesooluwahelurboi[.]duckdns[.]org` | domain | Remcos | ThreatFox | 2026-08-19 18:24:57 UTC |
 | 57 (media) | alta | `178[.]16[.]55[.]234:3000` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 18:20:31 UTC |
 | 57 (media) | media | `95[.]179[.]189[.]194:3333` | ip:port | SnappyClient | ThreatFox | 2026-08-19 09:56:31 UTC |
 | 57 (media) | media | `95[.]179[.]189[.]194:3334` | ip:port | SnappyClient | ThreatFox | 2026-08-19 09:56:30 UTC |
-| 57 (media) | media | `atomento10[.]icu` | domain | IClickFix | ThreatFox | 2026-08-19 06:51:17 UTC |
-| 56 (media) | media | `hxxp://vexdico[.]shop:8539/accounts` | url | Remus | ThreatFox | 2026-08-20 01:25:33 UTC |
-| 56 (media) | alta | `201[.]79[.]5[.]223:8443` | ip:port | Aisuru | ThreatFox | 2026-08-20 01:06:44 UTC |
-| 56 (media) | critica | `45[.]221[.]118[.]46:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-20 01:05:05 UTC |
-| 56 (media) | critica | `45[.]221[.]118[.]46:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-20 01:05:04 UTC |
-| 56 (media) | alta | `hxxp://dsfdsfs[.]xsph[.]ru/L1nc0In[.]php` | url | DCRat | ThreatFox | 2026-08-19 22:50:07 UTC |
+| 56 (media) | alta | `hxxps://biddingdossierrfi[.]com/?95e41d41` | url | ClearFake | ThreatFox | 2026-08-20 05:12:08 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
