@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-19 18:53 UTC · **IOCs recolectados:** 1542 · **CVEs KEV recientes:** 11
+**Última actualización:** 2026-08-20 01:46 UTC · **IOCs recolectados:** 1638 · **CVEs KEV recientes:** 10
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -128,25 +128,25 @@ python main.py
 | 71 (alta) | alta | `46[.]151[.]182[.]30:7080` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 06:06:09 UTC |
 | 65 (media) | alta | `95[.]214[.]53[.]90:2354` | ip:port | Quasar RAT | ThreatFox | 2026-08-19 09:31:47 UTC |
 | 60 (media) | alta | `governorhobbies[.]cfd` | domain | Unknown Loader | ThreatFox | 2026-08-19 06:47:42 UTC |
+| 59 (media) | media | `hxxps://hyperliquid-solana[.]xyz/` | url | Unknown malware | ThreatFox | 2026-08-19 22:00:09 UTC |
 | 59 (media) | alta | `snailsreading[.]xyz` | domain | Unknown Loader | ThreatFox | 2026-08-19 06:47:42 UTC |
 | 59 (media) | alta | `195[.]177[.]94[.]60:7080` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 06:05:56 UTC |
-| 59 (media) | alta | `196[.]251[.]107[.]252:24027` | ip:port | Remcos | ThreatFox | 2026-08-19 00:55:05 UTC |
+| 58 (media) | media | `hxxps://noise[.]lat/` | url | Unknown malware | ThreatFox | 2026-08-19 22:00:09 UTC |
 | 58 (media) | alta | `eventras[.]duckdns[.]org` | domain | Remcos | ThreatFox | 2026-08-19 18:23:10 UTC |
 | 58 (media) | alta | `195[.]177[.]94[.]85:7004` | ip:port | XWorm | ThreatFox | 2026-08-19 10:35:44 UTC |
 | 58 (media) | media | `corrykro[.]icu` | domain | IClickFix | ThreatFox | 2026-08-19 06:51:18 UTC |
 | 58 (media) | media | `indytravelclub[.]com` | domain | IClickFix | ThreatFox | 2026-08-19 06:45:17 UTC |
-| 58 (media) | alta | `195[.]177[.]94[.]19:56003` | ip:port | PureRAT | ThreatFox | 2026-08-18 19:44:42 UTC |
+| 57 (media) | media | `hxxps://sixpences[.]xyz/` | url | Unknown malware | ThreatFox | 2026-08-19 22:00:09 UTC |
 | 57 (media) | alta | `whichkindwahalabethisonesooluwahelurboi[.]duckdns[.]org` | domain | Remcos | ThreatFox | 2026-08-19 18:24:57 UTC |
 | 57 (media) | alta | `178[.]16[.]55[.]234:3000` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 18:20:31 UTC |
 | 57 (media) | media | `95[.]179[.]189[.]194:3333` | ip:port | SnappyClient | ThreatFox | 2026-08-19 09:56:31 UTC |
 | 57 (media) | media | `95[.]179[.]189[.]194:3334` | ip:port | SnappyClient | ThreatFox | 2026-08-19 09:56:30 UTC |
 | 57 (media) | media | `atomento10[.]icu` | domain | IClickFix | ThreatFox | 2026-08-19 06:51:17 UTC |
-| 56 (media) | alta | `178[.]16[.]52[.]194:3000` | ip:port | Unknown Stealer | ThreatFox | 2026-08-19 18:20:30 UTC |
-| 56 (media) | media | `134[.]209[.]112[.]52:7443` | ip:port | Unknown malware | ThreatFox | 2026-08-19 15:05:06 UTC |
-| 56 (media) | alta | `gjii3jk6[.]en-us-theslimsplitsmethod[.]com` | domain | ClearFake | ThreatFox | 2026-08-19 12:47:23 UTC |
-| 56 (media) | media | `hxxp://bravplo[.]click:7713/addresses` | url | Remus | ThreatFox | 2026-08-19 12:33:12 UTC |
-| 56 (media) | alta | `188[.]132[.]165[.]148:8080` | ip:port | Quasar RAT | ThreatFox | 2026-08-19 09:31:47 UTC |
-| 56 (media) | alta | `sofazinc[.]cfd` | domain | Unknown Loader | ThreatFox | 2026-08-19 06:47:42 UTC |
+| 56 (media) | media | `hxxp://vexdico[.]shop:8539/accounts` | url | Remus | ThreatFox | 2026-08-20 01:25:33 UTC |
+| 56 (media) | alta | `201[.]79[.]5[.]223:8443` | ip:port | Aisuru | ThreatFox | 2026-08-20 01:06:44 UTC |
+| 56 (media) | critica | `45[.]221[.]118[.]46:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-20 01:05:05 UTC |
+| 56 (media) | critica | `45[.]221[.]118[.]46:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-20 01:05:04 UTC |
+| 56 (media) | alta | `hxxp://dsfdsfs[.]xsph[.]ru/L1nc0In[.]php` | url | DCRat | ThreatFox | 2026-08-19 22:50:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -162,5 +162,4 @@ python main.py
 | CVE-2026-68820 | Microsoft Windows Ancillary Function Driver for WinSock  | 2026-08-11 | Unknown |
 | CVE-2026-72898 | Metabase Metabase | 2026-08-11 | Unknown |
 | CVE-2026-8037 | Progress LoadMaster | 2026-08-07 | Unknown |
-| CVE-2026-63077 | JetBrains TeamCity | 2026-08-05 | Unknown |
 <!-- CTI:END -->
