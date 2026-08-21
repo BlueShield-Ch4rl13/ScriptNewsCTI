@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-21 13:08 UTC · **IOCs recolectados:** 981 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-08-21 18:54 UTC · **IOCs recolectados:** 659 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -152,6 +152,7 @@ python main.py
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-73570 | Synacor Zimbra Collaboration Suite (ZCS) | 2026-08-21 | Unknown |
 | CVE-2026-72530 | TrueConf Server | 2026-08-20 | Unknown |
 | CVE-2026-72529 | TrueConf Server | 2026-08-20 | Unknown |
 | CVE-2026-64849 | MLflow MLflow | 2026-08-19 | Unknown |
