@@ -116,14 +116,12 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-21 18:54 UTC · **IOCs recolectados:** 659 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-08-22 01:46 UTC · **IOCs recolectados:** 668 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 71 (alta) | alta | `94[.]26[.]68[.]54:4782` | ip:port | Quasar RAT | ThreatFox | 2026-08-20 19:29:22 UTC |
-| 71 (alta) | critica | `94[.]154[.]43[.]213:31337` | ip:port | Sliver | ThreatFox | 2026-08-20 19:26:35 UTC |
 | 68 (media) | alta | `dc7fcc0d7d189555827260b3e4acc96a` | md5_hash | Vidar | ThreatFox | 2026-08-21 11:10:46 UTC |
 | 68 (media) | alta | `acce16056f1fe8efd131034d6d27814ba5fb3e0878cf8147d1983bd73f59eec2` | sha256_hash | Vidar | ThreatFox | 2026-08-21 11:10:45 UTC |
 | 68 (media) | alta | `78059e3070682f0ed14015624d8323d4a42fe908` | sha1_hash | Vidar | ThreatFox | 2026-08-21 11:10:45 UTC |
@@ -138,7 +136,9 @@ python main.py
 | 63 (media) | media | `9853d168bdc4e85fb0c9d2446b5d13ff` | md5_hash | Coinminer | ThreatFox | 2026-08-21 11:10:47 UTC |
 | 63 (media) | alta | `e89e2ea4c743c87ef7faff9303b9133c54737dd683536cf5e6518374fb130a4a` | sha256_hash | Formbook | ThreatFox | 2026-08-21 11:10:47 UTC |
 | 63 (media) | media | `02522eaec42abfb57e780e43fda7ef0cc4f0e6d061c2e35aaa3575d5b62f7c13` | sha256_hash | Coinminer | ThreatFox | 2026-08-21 11:10:46 UTC |
+| 60 (media) | alta | `60786e24a45df08c6b53a35b485d6243371d43e6749390e7304e7c7a0d97d521` | sha256_hash | Mirai | ThreatFox | 2026-08-22 00:18:41 UTC |
 | 60 (media) | media | `103[.]242[.]12[.]143:1234` | ip:port | VShell | ThreatFox | 2026-08-21 06:05:07 UTC |
+| 59 (media) | media | `178[.]16[.]52[.]120:8787` | ip:port | VShell | ThreatFox | 2026-08-21 23:41:44 UTC |
 | 59 (media) | alta | `8abd6a3d21097d75fc4970cb1c202c7b30bc709cf2446a94a298e3020578942a` | sha256_hash | Venus Stealer | ThreatFox | 2026-08-21 11:10:44 UTC |
 | 59 (media) | alta | `31c21965b3661caf899480e5a6bc1e5e411e4518` | sha1_hash | Venus Stealer | ThreatFox | 2026-08-21 11:10:44 UTC |
 | 59 (media) | alta | `cb470ad87c2982fd1d60b2fa6cbe637d` | md5_hash | Venus Stealer | ThreatFox | 2026-08-21 11:10:44 UTC |
@@ -146,7 +146,7 @@ python main.py
 | 59 (media) | media | `113[.]44[.]89[.]87:8080` | ip:port | Unknown malware | ThreatFox | 2026-08-21 05:05:10 UTC |
 | 59 (media) | media | `113[.]44[.]89[.]87:80` | ip:port | Unknown malware | ThreatFox | 2026-08-21 05:05:09 UTC |
 | 59 (media) | media | `113[.]44[.]89[.]87:443` | ip:port | Unknown malware | ThreatFox | 2026-08-21 05:05:09 UTC |
-| 59 (media) | critica | `101[.]200[.]193[.]211:8082` | ip:port | Cobalt Strike | ThreatFox | 2026-08-20 23:05:05 UTC |
+| 58 (media) | alta | `checkout[.]lat` | domain | ClearFake | ThreatFox | 2026-08-21 11:43:30 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -164,5 +164,4 @@ python main.py
 | CVE-2026-20349 | Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)  | 2026-08-11 | Unknown |
 | CVE-2026-68820 | Microsoft Windows Ancillary Function Driver for WinSock  | 2026-08-11 | Unknown |
 | CVE-2026-72898 | Metabase Metabase | 2026-08-11 | Unknown |
-| CVE-2026-8037 | Progress LoadMaster | 2026-08-07 | Unknown |
 <!-- CTI:END -->
