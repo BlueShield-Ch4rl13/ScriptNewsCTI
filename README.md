@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-22 13:00 UTC · **IOCs recolectados:** 1109 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-08-22 18:48 UTC · **IOCs recolectados:** 1124 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
