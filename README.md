@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-22 18:48 UTC · **IOCs recolectados:** 1124 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-08-23 01:54 UTC · **IOCs recolectados:** 1312 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -137,7 +137,6 @@ python main.py
 | 64 (media) | media | `99d5dbbcec96cc84ac22c077680420e70315e19703667e5c8d9f2ec76af1acad` | sha256_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:37 UTC |
 | 64 (media) | media | `1fba1be772a9cc5ec1359949e28fb1a97fad53de` | sha1_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:37 UTC |
 | 64 (media) | media | `a67819c12c69894357adbec5d970085d` | md5_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:37 UTC |
-| 64 (media) | alta | `hxxp://91[.]92[.]47[.]97/softbot[.]mips` | url | Mirai | ThreatFox, URLhaus | 2026-08-22 07:00:04 UTC |
 | 64 (media) | alta | `3faadf0db8cb12791efc12956752a57d69e0ee52eecbe66cbbc70f2008e37626` | sha256_hash | 404 Keylogger | ThreatFox | 2026-08-22 06:59:59 UTC |
 | 63 (media) | media | `0f9aeb923449eec7d1f5f1382c69bebf68cbb908` | sha1_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:36 UTC |
 | 63 (media) | media | `ee1ed321e64aee5b57ad715a43c23835` | md5_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:36 UTC |
@@ -147,6 +146,7 @@ python main.py
 | 62 (media) | media | `bce4944eabdb55b2b42df2c5a7bd7683` | md5_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:34 UTC |
 | 62 (media) | media | `137d06e4b5009f494fd546fc87eb9fa1dcadf35664cecaeb36416c359f803a86` | sha256_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:32 UTC |
 | 62 (media) | media | `94d65bfd648a8c6ba9d05f48d89f11b0614128def305d881766397eed481a8cf` | sha256_hash | Unknown malware | ThreatFox | 2026-08-22 09:03:47 UTC |
+| 62 (media) | media | `a73195599731fc4d61697c6866dc934df5d7e227810bd9246de9775ad027d494` | sha256_hash | Unknown malware | ThreatFox | 2026-08-22 09:03:46 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
