@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-23 13:01 UTC · **IOCs recolectados:** 1044 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-08-23 18:46 UTC · **IOCs recolectados:** 1060 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -139,14 +139,14 @@ python main.py
 | 63 (media) | media | `ffaf64672a89086ad11d0a290fa2468a2a16d7a0f54e57a1abf52b427f54ba0a` | sha256_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:22 UTC |
 | 63 (media) | media | `2b1673d6d6e892f6f8be201e01294ac4b89a845f` | sha1_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:22 UTC |
 | 63 (media) | media | `0b55a6f1ae9d946ece71647dd09500b5` | md5_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:22 UTC |
-| 60 (media) | alta | `192[.]253[.]248[.]181:80` | ip:port | Unknown Stealer | ThreatFox | 2026-08-22 17:08:26 UTC |
-| 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/bot/actions/d51c30267c864160a1da8ba3d183cdd3` | url | Unknown Stealer | ThreatFox | 2026-08-22 17:05:49 UTC |
-| 60 (media) | alta | `hxxp://86[.]54[.]25[.]213/d/unix23269396` | url | Unknown Stealer | ThreatFox | 2026-08-22 17:05:49 UTC |
-| 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/getscpt/jaicharan` | url | Unknown Stealer | ThreatFox | 2026-08-22 17:05:49 UTC |
-| 60 (media) | alta | `hxxps://aprettopizza[.]world/live/` | url | Latrodectus | ThreatFox | 2026-08-22 15:10:13 UTC |
+| 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/bot/actions/d51c30267c864160a1da8ba3d183cdd3` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:28 UTC |
+| 60 (media) | alta | `hxxp://86[.]54[.]25[.]213/d/unix23269396` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:28 UTC |
+| 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/getscpt/jaicharan` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:27 UTC |
+| 60 (media) | alta | `192[.]253[.]248[.]181:80` | ip:port | Unknown Stealer | ThreatFox | 2026-08-23 16:11:24 UTC |
+| 60 (media) | alta | `hxxps://aprettopizza[.]world/live/` | url | Latrodectus | ThreatFox | 2026-08-23 16:11:12 UTC |
+| 59 (media) | alta | `hxxps://peermangoz[.]me/live/` | url | Latrodectus | ThreatFox | 2026-08-23 16:11:13 UTC |
+| 59 (media) | alta | `185[.]53[.]179[.]136:443` | ip:port | Nanocore RAT | ThreatFox | 2026-08-23 14:30:05 UTC |
 | 59 (media) | media | `101[.]200[.]193[.]211:8084` | ip:port | VShell | ThreatFox | 2026-08-23 05:05:06 UTC |
-| 59 (media) | media | `dollllar881122[.]icu` | domain | IClickFix | ThreatFox | 2026-08-23 01:20:22 UTC |
-| 59 (media) | alta | `89[.]163[.]135[.]20:8013` | ip:port | DCRat | ThreatFox | 2026-08-22 15:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
