@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-23 07:00 UTC · **IOCs recolectados:** 1420 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-08-23 13:01 UTC · **IOCs recolectados:** 1044 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 75 (alta) | alta | `77[.]239[.]124[.]108:1995` | ip:port | Mirai | ThreatFox | 2026-08-22 09:03:32 UTC |
-| 74 (alta) | alta | `dc954b97b95d03465f0f981c3bfdb3bc26a3a9812ce74dbae7fdea6368cd8125` | sha256_hash | 404 Keylogger | ThreatFox | 2026-08-22 06:59:54 UTC |
-| 65 (media) | media | `b9826e3da49b12448a57cd37175e01fc776fc38e` | sha1_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:35 UTC |
-| 65 (media) | media | `9f6cf57a2791b8c53733f410804dcd1a` | md5_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:35 UTC |
-| 65 (media) | media | `c2e63d8266f7c297f0303eecb4cb18dd9151ada99c13ca1683794eb8d6db8217` | sha256_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:34 UTC |
-| 65 (media) | alta | `4fef263fa94dc0c45d65a24739d906d2144bb9b8022b5a93713a7fed4f715fba` | sha256_hash | 404 Keylogger | ThreatFox | 2026-08-22 06:59:54 UTC |
-| 64 (media) | media | `6c255ef0b62a23e7828f04054e8f3896` | md5_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:42 UTC |
-| 64 (media) | media | `df94520df3d218bd7982a7fc40e92530` | md5_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:41 UTC |
-| 64 (media) | media | `edc73cf039196893ce93018f5fef4057f90a80447c9b7bf55b91a91b423abde1` | sha256_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:41 UTC |
-| 64 (media) | media | `22c9f62d38f274eddf7b38a7f63d9d6c926f8c35` | sha1_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:41 UTC |
-| 64 (media) | media | `d684d14082b121f32ce1f6b9df8d173d4daee35c` | sha1_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:40 UTC |
-| 64 (media) | media | `c6bfb0d885265012930ecd07a5bc2eb2e1c2db218ced4416839af5761f24f927` | sha256_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:38 UTC |
-| 64 (media) | media | `99d5dbbcec96cc84ac22c077680420e70315e19703667e5c8d9f2ec76af1acad` | sha256_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:37 UTC |
-| 64 (media) | media | `1fba1be772a9cc5ec1359949e28fb1a97fad53de` | sha1_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:37 UTC |
-| 64 (media) | media | `a67819c12c69894357adbec5d970085d` | md5_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:37 UTC |
-| 64 (media) | alta | `3faadf0db8cb12791efc12956752a57d69e0ee52eecbe66cbbc70f2008e37626` | sha256_hash | 404 Keylogger | ThreatFox | 2026-08-22 06:59:59 UTC |
-| 63 (media) | media | `0f9aeb923449eec7d1f5f1382c69bebf68cbb908` | sha1_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:36 UTC |
-| 63 (media) | media | `ee1ed321e64aee5b57ad715a43c23835` | md5_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:36 UTC |
-| 63 (media) | media | `355c5ee15bdc6e13d52a6c2551ebffd4932bcb7b93b3f3c7584e6e3a2c420830` | sha256_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:35 UTC |
-| 63 (media) | alta | `f067ff68e80f3f037c43069655689d284b587d52368e4f3b20a2d9466fec9f40` | sha256_hash | 404 Keylogger | ThreatFox | 2026-08-22 06:59:55 UTC |
-| 62 (media) | media | `e2a6345a9ab066c8d230f10505e564914ed5fab8` | sha1_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:34 UTC |
-| 62 (media) | media | `bce4944eabdb55b2b42df2c5a7bd7683` | md5_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:34 UTC |
-| 62 (media) | media | `137d06e4b5009f494fd546fc87eb9fa1dcadf35664cecaeb36416c359f803a86` | sha256_hash | NetWire RC | ThreatFox | 2026-08-22 11:19:32 UTC |
-| 62 (media) | media | `94d65bfd648a8c6ba9d05f48d89f11b0614128def305d881766397eed481a8cf` | sha256_hash | Unknown malware | ThreatFox | 2026-08-22 09:03:47 UTC |
-| 62 (media) | media | `a73195599731fc4d61697c6866dc934df5d7e227810bd9246de9775ad027d494` | sha256_hash | Unknown malware | ThreatFox | 2026-08-22 09:03:46 UTC |
+| 66 (media) | media | `092efbe07f739c831b8811c95bd4a506` | md5_hash | Crystal Rans0m | ThreatFox | 2026-08-23 11:19:31 UTC |
+| 66 (media) | media | `cec1219e3640202c54a484ed3b88dd56fd26edfdb533c5eba8b2416e17ea6334` | sha256_hash | Crystal Rans0m | ThreatFox | 2026-08-23 11:19:30 UTC |
+| 66 (media) | media | `e5a5ba8d8c6b47ad5614d0d879c946ff7b842191` | sha1_hash | Crystal Rans0m | ThreatFox | 2026-08-23 11:19:30 UTC |
+| 64 (media) | alta | `c4ed4c72d4e1cdfabeade9a6021d3ac9` | md5_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:26 UTC |
+| 64 (media) | alta | `496f3cba557efd0d708b008b906c45b985b996905b2f8eb922a23b892b57cfdf` | sha256_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:25 UTC |
+| 64 (media) | alta | `fe8a9be873800aab5c0e4b5999a2104ae92202dd` | sha1_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:25 UTC |
+| 64 (media) | media | `cdcd5f2b289d8c9354c05b55e970218bceaf61d1decd05a628fc34799b7df0a1` | sha256_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:21 UTC |
+| 64 (media) | alta | `130[.]12[.]182[.]39:2600` | ip:port | AsyncRAT | ThreatFox | 2026-08-23 09:43:34 UTC |
+| 63 (media) | alta | `a947f68792122ab241f671e9e7ee20d5a0e7766f` | sha1_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:25 UTC |
+| 63 (media) | alta | `905c791b2ed300193fbc4248c5bca33d` | md5_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:25 UTC |
+| 63 (media) | alta | `d5729bc0561611794d6d1b49b24c0d9dc3fde404` | sha1_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:24 UTC |
+| 63 (media) | alta | `ce4ba16956b7c2802e7dba75244e0352` | md5_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:24 UTC |
+| 63 (media) | alta | `b3aa80f62cf946fa6d290d17d895c2885c8c628e698a786549a31f28bfd9aaa1` | sha256_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:24 UTC |
+| 63 (media) | alta | `44c79975608861ee3a4bc452a4d643316d1d09641d40d8c9a63ed7536f3821a7` | sha256_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:23 UTC |
+| 63 (media) | media | `ffaf64672a89086ad11d0a290fa2468a2a16d7a0f54e57a1abf52b427f54ba0a` | sha256_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:22 UTC |
+| 63 (media) | media | `2b1673d6d6e892f6f8be201e01294ac4b89a845f` | sha1_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:22 UTC |
+| 63 (media) | media | `0b55a6f1ae9d946ece71647dd09500b5` | md5_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:22 UTC |
+| 60 (media) | alta | `192[.]253[.]248[.]181:80` | ip:port | Unknown Stealer | ThreatFox | 2026-08-22 17:08:26 UTC |
+| 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/bot/actions/d51c30267c864160a1da8ba3d183cdd3` | url | Unknown Stealer | ThreatFox | 2026-08-22 17:05:49 UTC |
+| 60 (media) | alta | `hxxp://86[.]54[.]25[.]213/d/unix23269396` | url | Unknown Stealer | ThreatFox | 2026-08-22 17:05:49 UTC |
+| 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/getscpt/jaicharan` | url | Unknown Stealer | ThreatFox | 2026-08-22 17:05:49 UTC |
+| 60 (media) | alta | `hxxps://aprettopizza[.]world/live/` | url | Latrodectus | ThreatFox | 2026-08-22 15:10:13 UTC |
+| 59 (media) | media | `101[.]200[.]193[.]211:8084` | ip:port | VShell | ThreatFox | 2026-08-23 05:05:06 UTC |
+| 59 (media) | media | `dollllar881122[.]icu` | domain | IClickFix | ThreatFox | 2026-08-23 01:20:22 UTC |
+| 59 (media) | alta | `89[.]163[.]135[.]20:8013` | ip:port | DCRat | ThreatFox | 2026-08-22 15:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
