@@ -116,31 +116,31 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-24 13:10 UTC · **IOCs recolectados:** 1037 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-08-24 19:00 UTC · **IOCs recolectados:** 1032 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 75 (alta) | alta | `94[.]154[.]43[.]249:2327` | ip:port | Mirai | ThreatFox | 2026-08-24 07:46:06 UTC |
-| 60 (media) | alta | `167[.]99[.]194[.]254:8080` | ip:port | Aisuru | ThreatFox | 2026-08-24 12:38:13 UTC |
-| 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/bot/actions/d51c30267c864160a1da8ba3d183cdd3` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:28 UTC |
-| 60 (media) | alta | `hxxp://86[.]54[.]25[.]213/d/unix23269396` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:28 UTC |
-| 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/getscpt/jaicharan` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:27 UTC |
-| 60 (media) | alta | `192[.]253[.]248[.]181:80` | ip:port | Unknown Stealer | ThreatFox | 2026-08-23 16:11:24 UTC |
-| 60 (media) | alta | `hxxps://aprettopizza[.]world/live/` | url | Latrodectus | ThreatFox | 2026-08-23 16:11:12 UTC |
+| 71 (alta) | alta | `91[.]92[.]241[.]175:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
+| 71 (alta) | alta | `91[.]92[.]42[.]50:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
+| 70 (alta) | alta | `91[.]92[.]42[.]223:443` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
+| 64 (media) | alta | `94[.]154[.]32[.]145:80` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
+| 60 (media) | alta | `31[.]56[.]209[.]100:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:51 UTC |
+| 60 (media) | alta | `167[.]99[.]194[.]254:8080` | ip:port | Aisuru | ThreatFox | 2026-08-24 13:10:47 UTC |
 | 59 (media) | alta | `95871105a8ca339c39ede4b2da1e2d30989b5a91395b808ba81f3cf9f7ed0b14` | sha256_hash | Mirai | ThreatFox | 2026-08-24 07:45:48 UTC |
 | 59 (media) | alta | `185[.]157[.]163[.]138:50810` | ip:port | Remcos | ThreatFox | 2026-08-24 01:25:03 UTC |
-| 59 (media) | alta | `hxxps://peermangoz[.]me/live/` | url | Latrodectus | ThreatFox | 2026-08-23 16:11:13 UTC |
-| 59 (media) | alta | `185[.]53[.]179[.]136:443` | ip:port | Nanocore RAT | ThreatFox | 2026-08-23 14:30:05 UTC |
-| 58 (media) | alta | `hxxp://86[.]54[.]25[.]213/log` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:29 UTC |
+| 58 (media) | alta | `157[.]245[.]34[.]109:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:46 UTC |
 | 57 (media) | critica | `164[.]160[.]187[.]69:443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-24 12:05:06 UTC |
 | 57 (media) | critica | `8[.]163[.]59[.]20:8000` | ip:port | Cobalt Strike | ThreatFox | 2026-08-24 07:05:05 UTC |
 | 57 (media) | media | `hxxps://hayvavillage[.]com/` | url | Unknown malware | ThreatFox | 2026-08-24 01:00:22 UTC |
-| 57 (media) | alta | `156[.]225[.]94[.]168:80` | ip:port | ValleyRAT | ThreatFox | 2026-08-23 18:30:08 UTC |
-| 57 (media) | media | `45[.]8[.]46[.]122:8545` | ip:port | Unknown malware | ThreatFox | 2026-08-23 18:05:04 UTC |
-| 57 (media) | alta | `86[.]54[.]25[.]213:80` | ip:port | Unknown Stealer | ThreatFox | 2026-08-23 16:11:26 UTC |
-| 57 (media) | alta | `123[.]13[.]48[.]131:55210` | ip:port | Mirai | ThreatFox | 2026-08-23 16:10:45 UTC |
+| 56 (media) | media | `hxxp://zakuiru[.]shop:9048/notifications` | url | Remus | ThreatFox | 2026-08-24 18:37:17 UTC |
+| 56 (media) | media | `hxxp://kupzovo[.]shop:7567/invoices` | url | Remus | ThreatFox | 2026-08-24 18:37:17 UTC |
+| 56 (media) | media | `hxxp://kupzovo[.]shop:7567/permissions` | url | Remus | ThreatFox | 2026-08-24 18:31:57 UTC |
+| 56 (media) | alta | `159[.]89[.]24[.]55:9035` | ip:port | Aisuru | ThreatFox | 2026-08-24 18:29:31 UTC |
+| 56 (media) | alta | `9bfndx1c[.]eng--theeloncode[.]com` | domain | ClearFake | ThreatFox | 2026-08-24 17:53:19 UTC |
+| 56 (media) | alta | `an818f37[.]en-us-en-theeloncode[.]com` | domain | ClearFake | ThreatFox | 2026-08-24 17:18:49 UTC |
 | 56 (media) | media | `hxxp://zakuiru[.]shop:9048/projects` | url | Remus | ThreatFox | 2026-08-24 12:50:37 UTC |
 | 56 (media) | media | `hxxp://zakuiru[.]shop:9048/attachments` | url | Remus | ThreatFox | 2026-08-24 12:35:26 UTC |
 | 56 (media) | critica | `209[.]200[.]246[.]194:24563` | ip:port | Cobalt Strike | ThreatFox | 2026-08-24 11:47:51 UTC |
@@ -152,6 +152,7 @@ python main.py
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-21962 | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in | 2026-08-24 | Unknown |
 | CVE-2026-73570 | Synacor Zimbra Collaboration Suite (ZCS) | 2026-08-21 | Unknown |
 | CVE-2026-72530 | TrueConf Server | 2026-08-20 | Unknown |
 | CVE-2026-72529 | TrueConf Server | 2026-08-20 | Unknown |
