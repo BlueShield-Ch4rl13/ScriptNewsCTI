@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-24 07:18 UTC · **IOCs recolectados:** 1045 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-08-24 13:10 UTC · **IOCs recolectados:** 1037 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 75 (alta) | alta | `94[.]154[.]43[.]249:2327` | ip:port | Mirai | ThreatFox | 2026-08-24 03:17:35 UTC |
-| 66 (media) | media | `092efbe07f739c831b8811c95bd4a506` | md5_hash | Crystal Rans0m | ThreatFox | 2026-08-23 11:19:31 UTC |
-| 66 (media) | media | `cec1219e3640202c54a484ed3b88dd56fd26edfdb533c5eba8b2416e17ea6334` | sha256_hash | Crystal Rans0m | ThreatFox | 2026-08-23 11:19:30 UTC |
-| 66 (media) | media | `e5a5ba8d8c6b47ad5614d0d879c946ff7b842191` | sha1_hash | Crystal Rans0m | ThreatFox | 2026-08-23 11:19:30 UTC |
-| 65 (media) | alta | `hxxp://150[.]241[.]65[.]250:889/raul[.]mips` | url | Mirai | ThreatFox, URLhaus | 2026-08-24 06:18:47 UTC |
-| 64 (media) | alta | `c4ed4c72d4e1cdfabeade9a6021d3ac9` | md5_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:26 UTC |
-| 64 (media) | alta | `496f3cba557efd0d708b008b906c45b985b996905b2f8eb922a23b892b57cfdf` | sha256_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:25 UTC |
-| 64 (media) | alta | `fe8a9be873800aab5c0e4b5999a2104ae92202dd` | sha1_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:25 UTC |
-| 64 (media) | media | `cdcd5f2b289d8c9354c05b55e970218bceaf61d1decd05a628fc34799b7df0a1` | sha256_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:21 UTC |
-| 64 (media) | alta | `130[.]12[.]182[.]39:2600` | ip:port | AsyncRAT | ThreatFox | 2026-08-23 09:43:34 UTC |
-| 63 (media) | alta | `a947f68792122ab241f671e9e7ee20d5a0e7766f` | sha1_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:25 UTC |
-| 63 (media) | alta | `905c791b2ed300193fbc4248c5bca33d` | md5_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:25 UTC |
-| 63 (media) | alta | `d5729bc0561611794d6d1b49b24c0d9dc3fde404` | sha1_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:24 UTC |
-| 63 (media) | alta | `ce4ba16956b7c2802e7dba75244e0352` | md5_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:24 UTC |
-| 63 (media) | alta | `b3aa80f62cf946fa6d290d17d895c2885c8c628e698a786549a31f28bfd9aaa1` | sha256_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:24 UTC |
-| 63 (media) | alta | `44c79975608861ee3a4bc452a4d643316d1d09641d40d8c9a63ed7536f3821a7` | sha256_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:23 UTC |
-| 63 (media) | media | `ffaf64672a89086ad11d0a290fa2468a2a16d7a0f54e57a1abf52b427f54ba0a` | sha256_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:22 UTC |
-| 63 (media) | media | `2b1673d6d6e892f6f8be201e01294ac4b89a845f` | sha1_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:22 UTC |
-| 63 (media) | media | `0b55a6f1ae9d946ece71647dd09500b5` | md5_hash | NetWire RC | ThreatFox | 2026-08-23 11:19:22 UTC |
+| 75 (alta) | alta | `94[.]154[.]43[.]249:2327` | ip:port | Mirai | ThreatFox | 2026-08-24 07:46:06 UTC |
+| 60 (media) | alta | `167[.]99[.]194[.]254:8080` | ip:port | Aisuru | ThreatFox | 2026-08-24 12:38:13 UTC |
 | 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/bot/actions/d51c30267c864160a1da8ba3d183cdd3` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:28 UTC |
 | 60 (media) | alta | `hxxp://86[.]54[.]25[.]213/d/unix23269396` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:28 UTC |
 | 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/getscpt/jaicharan` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:27 UTC |
 | 60 (media) | alta | `192[.]253[.]248[.]181:80` | ip:port | Unknown Stealer | ThreatFox | 2026-08-23 16:11:24 UTC |
 | 60 (media) | alta | `hxxps://aprettopizza[.]world/live/` | url | Latrodectus | ThreatFox | 2026-08-23 16:11:12 UTC |
-| 59 (media) | alta | `95871105a8ca339c39ede4b2da1e2d30989b5a91395b808ba81f3cf9f7ed0b14` | sha256_hash | Mirai | ThreatFox | 2026-08-24 06:18:48 UTC |
+| 59 (media) | alta | `95871105a8ca339c39ede4b2da1e2d30989b5a91395b808ba81f3cf9f7ed0b14` | sha256_hash | Mirai | ThreatFox | 2026-08-24 07:45:48 UTC |
+| 59 (media) | alta | `185[.]157[.]163[.]138:50810` | ip:port | Remcos | ThreatFox | 2026-08-24 01:25:03 UTC |
+| 59 (media) | alta | `hxxps://peermangoz[.]me/live/` | url | Latrodectus | ThreatFox | 2026-08-23 16:11:13 UTC |
+| 59 (media) | alta | `185[.]53[.]179[.]136:443` | ip:port | Nanocore RAT | ThreatFox | 2026-08-23 14:30:05 UTC |
+| 58 (media) | alta | `hxxp://86[.]54[.]25[.]213/log` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:29 UTC |
+| 57 (media) | critica | `164[.]160[.]187[.]69:443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-24 12:05:06 UTC |
+| 57 (media) | critica | `8[.]163[.]59[.]20:8000` | ip:port | Cobalt Strike | ThreatFox | 2026-08-24 07:05:05 UTC |
+| 57 (media) | media | `hxxps://hayvavillage[.]com/` | url | Unknown malware | ThreatFox | 2026-08-24 01:00:22 UTC |
+| 57 (media) | alta | `156[.]225[.]94[.]168:80` | ip:port | ValleyRAT | ThreatFox | 2026-08-23 18:30:08 UTC |
+| 57 (media) | media | `45[.]8[.]46[.]122:8545` | ip:port | Unknown malware | ThreatFox | 2026-08-23 18:05:04 UTC |
+| 57 (media) | alta | `86[.]54[.]25[.]213:80` | ip:port | Unknown Stealer | ThreatFox | 2026-08-23 16:11:26 UTC |
+| 57 (media) | alta | `123[.]13[.]48[.]131:55210` | ip:port | Mirai | ThreatFox | 2026-08-23 16:10:45 UTC |
+| 56 (media) | media | `hxxp://zakuiru[.]shop:9048/projects` | url | Remus | ThreatFox | 2026-08-24 12:50:37 UTC |
+| 56 (media) | media | `hxxp://zakuiru[.]shop:9048/attachments` | url | Remus | ThreatFox | 2026-08-24 12:35:26 UTC |
+| 56 (media) | critica | `209[.]200[.]246[.]194:24563` | ip:port | Cobalt Strike | ThreatFox | 2026-08-24 11:47:51 UTC |
+| 56 (media) | media | `hxxps://muhammadshakirp[.]com/` | url | Unknown malware | ThreatFox | 2026-08-24 11:30:22 UTC |
+| 56 (media) | media | `hxxp://vexdico[.]shop:8539/orders` | url | Remus | ThreatFox | 2026-08-24 11:25:23 UTC |
+| 56 (media) | alta | `z5rfxyfc[.]en-eng-geniusbrainsignal[.]com` | domain | ClearFake | ThreatFox | 2026-08-24 11:20:18 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
