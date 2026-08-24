@@ -116,15 +116,17 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-24 01:51 UTC · **IOCs recolectados:** 1110 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-08-24 07:18 UTC · **IOCs recolectados:** 1045 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 75 (alta) | alta | `94[.]154[.]43[.]249:2327` | ip:port | Mirai | ThreatFox | 2026-08-24 03:17:35 UTC |
 | 66 (media) | media | `092efbe07f739c831b8811c95bd4a506` | md5_hash | Crystal Rans0m | ThreatFox | 2026-08-23 11:19:31 UTC |
 | 66 (media) | media | `cec1219e3640202c54a484ed3b88dd56fd26edfdb533c5eba8b2416e17ea6334` | sha256_hash | Crystal Rans0m | ThreatFox | 2026-08-23 11:19:30 UTC |
 | 66 (media) | media | `e5a5ba8d8c6b47ad5614d0d879c946ff7b842191` | sha1_hash | Crystal Rans0m | ThreatFox | 2026-08-23 11:19:30 UTC |
+| 65 (media) | alta | `hxxp://150[.]241[.]65[.]250:889/raul[.]mips` | url | Mirai | ThreatFox, URLhaus | 2026-08-24 06:18:47 UTC |
 | 64 (media) | alta | `c4ed4c72d4e1cdfabeade9a6021d3ac9` | md5_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:26 UTC |
 | 64 (media) | alta | `496f3cba557efd0d708b008b906c45b985b996905b2f8eb922a23b892b57cfdf` | sha256_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:25 UTC |
 | 64 (media) | alta | `fe8a9be873800aab5c0e4b5999a2104ae92202dd` | sha1_hash | ValleyRAT | ThreatFox | 2026-08-23 11:19:25 UTC |
@@ -144,9 +146,7 @@ python main.py
 | 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/getscpt/jaicharan` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:27 UTC |
 | 60 (media) | alta | `192[.]253[.]248[.]181:80` | ip:port | Unknown Stealer | ThreatFox | 2026-08-23 16:11:24 UTC |
 | 60 (media) | alta | `hxxps://aprettopizza[.]world/live/` | url | Latrodectus | ThreatFox | 2026-08-23 16:11:12 UTC |
-| 59 (media) | alta | `185[.]157[.]163[.]138:50810` | ip:port | Remcos | ThreatFox | 2026-08-24 01:25:03 UTC |
-| 59 (media) | alta | `hxxps://peermangoz[.]me/live/` | url | Latrodectus | ThreatFox | 2026-08-23 16:11:13 UTC |
-| 59 (media) | alta | `185[.]53[.]179[.]136:443` | ip:port | Nanocore RAT | ThreatFox | 2026-08-23 14:30:05 UTC |
+| 59 (media) | alta | `95871105a8ca339c39ede4b2da1e2d30989b5a91395b808ba81f3cf9f7ed0b14` | sha256_hash | Mirai | ThreatFox | 2026-08-24 06:18:48 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
