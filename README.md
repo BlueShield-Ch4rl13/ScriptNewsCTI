@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-23 18:46 UTC · **IOCs recolectados:** 1060 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-08-24 01:51 UTC · **IOCs recolectados:** 1110 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -144,9 +144,9 @@ python main.py
 | 60 (media) | alta | `hxxp://192[.]253[.]248[.]181/api/v1/getscpt/jaicharan` | url | Unknown Stealer | ThreatFox | 2026-08-23 16:11:27 UTC |
 | 60 (media) | alta | `192[.]253[.]248[.]181:80` | ip:port | Unknown Stealer | ThreatFox | 2026-08-23 16:11:24 UTC |
 | 60 (media) | alta | `hxxps://aprettopizza[.]world/live/` | url | Latrodectus | ThreatFox | 2026-08-23 16:11:12 UTC |
+| 59 (media) | alta | `185[.]157[.]163[.]138:50810` | ip:port | Remcos | ThreatFox | 2026-08-24 01:25:03 UTC |
 | 59 (media) | alta | `hxxps://peermangoz[.]me/live/` | url | Latrodectus | ThreatFox | 2026-08-23 16:11:13 UTC |
 | 59 (media) | alta | `185[.]53[.]179[.]136:443` | ip:port | Nanocore RAT | ThreatFox | 2026-08-23 14:30:05 UTC |
-| 59 (media) | media | `101[.]200[.]193[.]211:8084` | ip:port | VShell | ThreatFox | 2026-08-23 05:05:06 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
