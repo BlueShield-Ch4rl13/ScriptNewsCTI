@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-24 19:00 UTC · **IOCs recolectados:** 1032 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-08-25 01:48 UTC · **IOCs recolectados:** 1028 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 75 (alta) | alta | `91[.]92[.]47[.]220:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:05 UTC |
 | 75 (alta) | alta | `94[.]154[.]43[.]249:2327` | ip:port | Mirai | ThreatFox | 2026-08-24 07:46:06 UTC |
+| 73 (alta) | alta | `103[.]253[.]244[.]145:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:08 UTC |
+| 72 (alta) | alta | `36[.]37[.]122[.]175:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:06 UTC |
 | 71 (alta) | alta | `91[.]92[.]241[.]175:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
 | 71 (alta) | alta | `91[.]92[.]42[.]50:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
 | 70 (alta) | alta | `91[.]92[.]42[.]223:443` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
+| 65 (media) | media | `hxxp://176[.]65[.]139[.]202/totolink[.]sh` | url | Unknown malware | ThreatFox, URLhaus | 2026-08-24 22:54:57 UTC |
 | 64 (media) | alta | `94[.]154[.]32[.]145:80` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
+| 63 (media) | alta | `154[.]86[.]30[.]133:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:11 UTC |
+| 62 (media) | alta | `176[.]118[.]193[.]229:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:12 UTC |
+| 60 (media) | alta | `51[.]255[.]28[.]210:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:08 UTC |
 | 60 (media) | alta | `31[.]56[.]209[.]100:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:51 UTC |
 | 60 (media) | alta | `167[.]99[.]194[.]254:8080` | ip:port | Aisuru | ThreatFox | 2026-08-24 13:10:47 UTC |
+| 59 (media) | alta | `51[.]75[.]182[.]116:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:10 UTC |
 | 59 (media) | alta | `95871105a8ca339c39ede4b2da1e2d30989b5a91395b808ba81f3cf9f7ed0b14` | sha256_hash | Mirai | ThreatFox | 2026-08-24 07:45:48 UTC |
-| 59 (media) | alta | `185[.]157[.]163[.]138:50810` | ip:port | Remcos | ThreatFox | 2026-08-24 01:25:03 UTC |
+| 58 (media) | alta | `188[.]40[.]198[.]241:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:12 UTC |
 | 58 (media) | alta | `157[.]245[.]34[.]109:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:46 UTC |
+| 57 (media) | alta | `46[.]4[.]162[.]51:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:09 UTC |
+| 57 (media) | alta | `88[.]99[.]73[.]187:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:08 UTC |
 | 57 (media) | critica | `164[.]160[.]187[.]69:443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-24 12:05:06 UTC |
 | 57 (media) | critica | `8[.]163[.]59[.]20:8000` | ip:port | Cobalt Strike | ThreatFox | 2026-08-24 07:05:05 UTC |
-| 57 (media) | media | `hxxps://hayvavillage[.]com/` | url | Unknown malware | ThreatFox | 2026-08-24 01:00:22 UTC |
-| 56 (media) | media | `hxxp://zakuiru[.]shop:9048/notifications` | url | Remus | ThreatFox | 2026-08-24 18:37:17 UTC |
-| 56 (media) | media | `hxxp://kupzovo[.]shop:7567/invoices` | url | Remus | ThreatFox | 2026-08-24 18:37:17 UTC |
-| 56 (media) | media | `hxxp://kupzovo[.]shop:7567/permissions` | url | Remus | ThreatFox | 2026-08-24 18:31:57 UTC |
-| 56 (media) | alta | `159[.]89[.]24[.]55:9035` | ip:port | Aisuru | ThreatFox | 2026-08-24 18:29:31 UTC |
-| 56 (media) | alta | `9bfndx1c[.]eng--theeloncode[.]com` | domain | ClearFake | ThreatFox | 2026-08-24 17:53:19 UTC |
-| 56 (media) | alta | `an818f37[.]en-us-en-theeloncode[.]com` | domain | ClearFake | ThreatFox | 2026-08-24 17:18:49 UTC |
-| 56 (media) | media | `hxxp://zakuiru[.]shop:9048/projects` | url | Remus | ThreatFox | 2026-08-24 12:50:37 UTC |
-| 56 (media) | media | `hxxp://zakuiru[.]shop:9048/attachments` | url | Remus | ThreatFox | 2026-08-24 12:35:26 UTC |
-| 56 (media) | critica | `209[.]200[.]246[.]194:24563` | ip:port | Cobalt Strike | ThreatFox | 2026-08-24 11:47:51 UTC |
-| 56 (media) | media | `hxxps://muhammadshakirp[.]com/` | url | Unknown malware | ThreatFox | 2026-08-24 11:30:22 UTC |
-| 56 (media) | media | `hxxp://vexdico[.]shop:8539/orders` | url | Remus | ThreatFox | 2026-08-24 11:25:23 UTC |
-| 56 (media) | alta | `z5rfxyfc[.]en-eng-geniusbrainsignal[.]com` | domain | ClearFake | ThreatFox | 2026-08-24 11:20:18 UTC |
+| 56 (media) | alta | `8[.]209[.]69[.]149:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:11 UTC |
+| 56 (media) | alta | `103[.]117[.]137[.]106:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:10 UTC |
+| 56 (media) | alta | `51[.]75[.]182[.]110:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 01:35:10 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
