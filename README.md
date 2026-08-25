@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-25 13:08 UTC · **IOCs recolectados:** 1150 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-08-25 18:58 UTC · **IOCs recolectados:** 1317 · **CVEs KEV recientes:** 14
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -125,33 +125,34 @@ python main.py
 | 75 (alta) | alta | `91[.]92[.]47[.]220:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:44 UTC |
 | 73 (alta) | alta | `103[.]253[.]244[.]145:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:36 UTC |
 | 72 (alta) | alta | `36[.]37[.]122[.]175:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:41 UTC |
-| 71 (alta) | alta | `91[.]92[.]241[.]175:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
-| 71 (alta) | alta | `91[.]92[.]42[.]50:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
-| 70 (alta) | alta | `91[.]92[.]42[.]223:443` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
-| 64 (media) | alta | `94[.]154[.]32[.]145:80` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
+| 71 (alta) | alta | `64[.]89[.]160[.]253:49158` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:09:17 UTC |
+| 71 (alta) | alta | `77[.]239[.]124[.]108:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:09:17 UTC |
+| 71 (alta) | alta | `178[.]16[.]54[.]149:5050` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:09:16 UTC |
+| 70 (alta) | alta | `179[.]43[.]175[.]47:443` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:38 UTC |
+| 70 (alta) | alta | `179[.]43[.]175[.]47:80` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:38 UTC |
 | 63 (media) | alta | `154[.]86[.]30[.]133:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:25 UTC |
 | 62 (media) | alta | `176[.]118[.]193[.]229:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:10 UTC |
+| 61 (media) | alta | `88[.]87[.]85[.]199:443` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:44 UTC |
+| 61 (media) | alta | `31[.]7[.]63[.]12:443` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:41 UTC |
+| 61 (media) | alta | `31[.]7[.]63[.]12:80` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:41 UTC |
+| 60 (media) | alta | `94[.]26[.]83[.]25:80` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:44 UTC |
 | 60 (media) | alta | `51[.]255[.]28[.]210:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:37 UTC |
-| 60 (media) | alta | `31[.]56[.]209[.]100:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:51 UTC |
-| 60 (media) | alta | `167[.]99[.]194[.]254:8080` | ip:port | Aisuru | ThreatFox | 2026-08-24 13:10:47 UTC |
+| 59 (media) | alta | `hxxp://cloudscrsolutions[.]com/v8sjh3hs8/index[.]php` | url | Amadey | ThreatFox | 2026-08-25 18:15:34 UTC |
+| 59 (media) | alta | `hxxp://atraflaxtt[.]com/g9sjh3djv/index[.]php` | url | Amadey | ThreatFox | 2026-08-25 18:15:33 UTC |
+| 59 (media) | alta | `hxxp://jazoopsloo[.]info/k92lsA3dpb/index[.]php` | url | Amadey | ThreatFox | 2026-08-25 18:15:30 UTC |
 | 59 (media) | alta | `51[.]75[.]182[.]116:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:26 UTC |
 | 58 (media) | alta | `188[.]40[.]198[.]241:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:17 UTC |
 | 58 (media) | media | `1[.]117[.]77[.]166:5173` | ip:port | Unknown malware | ThreatFox | 2026-08-25 06:05:06 UTC |
-| 58 (media) | alta | `157[.]245[.]34[.]109:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:46 UTC |
 | 57 (media) | alta | `88[.]99[.]73[.]187:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:34 UTC |
 | 57 (media) | alta | `46[.]4[.]162[.]51:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:28 UTC |
 | 57 (media) | critica | `91[.]92[.]240[.]88:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-25 06:05:07 UTC |
 | 57 (media) | media | `45[.]8[.]46[.]122:8000` | ip:port | Unknown malware | ThreatFox | 2026-08-25 06:05:06 UTC |
-| 56 (media) | alta | `159[.]89[.]24[.]55:9035` | ip:port | Aisuru | ThreatFox | 2026-08-25 06:48:59 UTC |
-| 56 (media) | alta | `103[.]117[.]137[.]106:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:28 UTC |
-| 56 (media) | alta | `51[.]75[.]182[.]110:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:27 UTC |
-| 56 (media) | alta | `8[.]209[.]69[.]149:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:21 UTC |
-| 56 (media) | alta | `hut[.]yourbodybydesign[.]me` | domain | ClearFake | ThreatFox | 2026-08-25 06:48:08 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-60004 | Gitea Gitea | 2026-08-25 | Unknown |
 | CVE-2026-21962 | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in | 2026-08-24 | Unknown |
 | CVE-2026-73570 | Synacor Zimbra Collaboration Suite (ZCS) | 2026-08-21 | Unknown |
 | CVE-2026-72530 | TrueConf Server | 2026-08-20 | Unknown |
