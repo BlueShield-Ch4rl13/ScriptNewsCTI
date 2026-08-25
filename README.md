@@ -116,14 +116,13 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-25 07:06 UTC · **IOCs recolectados:** 1047 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-08-25 13:08 UTC · **IOCs recolectados:** 1150 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 75 (alta) | alta | `91[.]92[.]47[.]220:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:44 UTC |
-| 75 (alta) | alta | `94[.]154[.]43[.]249:2327` | ip:port | Mirai | ThreatFox | 2026-08-24 07:46:06 UTC |
 | 73 (alta) | alta | `103[.]253[.]244[.]145:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:36 UTC |
 | 72 (alta) | alta | `36[.]37[.]122[.]175:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:41 UTC |
 | 71 (alta) | alta | `91[.]92[.]241[.]175:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:57 UTC |
@@ -136,7 +135,6 @@ python main.py
 | 60 (media) | alta | `31[.]56[.]209[.]100:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:51 UTC |
 | 60 (media) | alta | `167[.]99[.]194[.]254:8080` | ip:port | Aisuru | ThreatFox | 2026-08-24 13:10:47 UTC |
 | 59 (media) | alta | `51[.]75[.]182[.]116:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:26 UTC |
-| 59 (media) | alta | `95871105a8ca339c39ede4b2da1e2d30989b5a91395b808ba81f3cf9f7ed0b14` | sha256_hash | Mirai | ThreatFox | 2026-08-24 07:45:48 UTC |
 | 58 (media) | alta | `188[.]40[.]198[.]241:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:17 UTC |
 | 58 (media) | media | `1[.]117[.]77[.]166:5173` | ip:port | Unknown malware | ThreatFox | 2026-08-25 06:05:06 UTC |
 | 58 (media) | alta | `157[.]245[.]34[.]109:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-24 13:22:46 UTC |
@@ -144,9 +142,11 @@ python main.py
 | 57 (media) | alta | `46[.]4[.]162[.]51:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:28 UTC |
 | 57 (media) | critica | `91[.]92[.]240[.]88:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-25 06:05:07 UTC |
 | 57 (media) | media | `45[.]8[.]46[.]122:8000` | ip:port | Unknown malware | ThreatFox | 2026-08-25 06:05:06 UTC |
-| 57 (media) | critica | `164[.]160[.]187[.]69:443` | ip:port | AdaptixC2 | ThreatFox | 2026-08-24 12:05:06 UTC |
-| 57 (media) | critica | `8[.]163[.]59[.]20:8000` | ip:port | Cobalt Strike | ThreatFox | 2026-08-24 07:05:05 UTC |
 | 56 (media) | alta | `159[.]89[.]24[.]55:9035` | ip:port | Aisuru | ThreatFox | 2026-08-25 06:48:59 UTC |
+| 56 (media) | alta | `103[.]117[.]137[.]106:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:28 UTC |
+| 56 (media) | alta | `51[.]75[.]182[.]110:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:27 UTC |
+| 56 (media) | alta | `8[.]209[.]69[.]149:8081` | ip:port | RaspberryPiBotnet | ThreatFox | 2026-08-25 06:48:21 UTC |
+| 56 (media) | alta | `hut[.]yourbodybydesign[.]me` | domain | ClearFake | ThreatFox | 2026-08-25 06:48:08 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
