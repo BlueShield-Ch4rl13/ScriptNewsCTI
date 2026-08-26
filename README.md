@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-26 07:08 UTC · **IOCs recolectados:** 1594 · **CVEs KEV recientes:** 11
+**Última actualización:** 2026-08-26 13:14 UTC · **IOCs recolectados:** 1327 · **CVEs KEV recientes:** 11
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 74 (alta) | media | `176[.]65[.]139[.]248:10293` | ip:port | Unknown malware | ThreatFox | 2026-08-25 08:52:03 UTC |
+| 71 (alta) | media | `213[.]152[.]162[.]110:43148` | ip:port | Unknown malware | ThreatFox | 2026-08-26 07:20:19 UTC |
 | 71 (alta) | alta | `64[.]89[.]160[.]253:49158` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:09:17 UTC |
 | 71 (alta) | alta | `77[.]239[.]124[.]108:5173` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:09:17 UTC |
 | 71 (alta) | alta | `178[.]16[.]54[.]149:5050` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:09:16 UTC |
 | 70 (alta) | alta | `179[.]43[.]175[.]47:443` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:38 UTC |
 | 70 (alta) | alta | `179[.]43[.]175[.]47:80` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:38 UTC |
-| 63 (media) | media | `hxxp://146[.]158[.]4[.]238:41633/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-26 05:46:39 UTC |
-| 63 (media) | media | `hxxp://27[.]44[.]145[.]195:60512/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-08-26 05:46:29 UTC |
+| 67 (media) | media | `hxxp://cta[.]edu[.]pe/wp-content/plugins/linux[.]bin` | url | XMRIG | ThreatFox, URLhaus | 2026-08-26 12:52:31 UTC |
+| 67 (media) | alta | `91[.]92[.]42[.]99:8080` | ip:port | RatonRAT | ThreatFox | 2026-08-26 12:06:54 UTC |
+| 66 (media) | media | `hxxps://paste[.]mangsud[.]org/raw/ea2e61cc` | url | XMRIG | ThreatFox, URLhaus | 2026-08-26 12:52:04 UTC |
+| 65 (media) | media | `hxxps://repositoryserver[.]dpdns[.]org/linuxsh` | url | XMRIG | ThreatFox, URLhaus | 2026-08-26 12:52:05 UTC |
+| 65 (media) | media | `hxxps://repositoryserver[.]dpdns[.]org/cronsys` | url | XMRIG | ThreatFox, URLhaus | 2026-08-26 12:52:05 UTC |
+| 65 (media) | media | `hxxps://repositoryserver[.]dpdns[.]org/killersys` | url | XMRIG | ThreatFox, URLhaus | 2026-08-26 12:52:04 UTC |
 | 61 (media) | alta | `88[.]87[.]85[.]199:443` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:44 UTC |
 | 61 (media) | alta | `31[.]7[.]63[.]12:443` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:41 UTC |
 | 61 (media) | alta | `31[.]7[.]63[.]12:80` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:41 UTC |
+| 60 (media) | critica | `204[.]44[.]122[.]232:24444` | ip:port | Sliver | ThreatFox | 2026-08-26 12:09:25 UTC |
 | 60 (media) | alta | `167[.]99[.]194[.]254:8443` | ip:port | Aisuru | ThreatFox | 2026-08-26 05:46:17 UTC |
 | 60 (media) | alta | `94[.]26[.]83[.]25:80` | ip:port | Overlord RAT | ThreatFox | 2026-08-25 14:16:44 UTC |
+| 59 (media) | media | `remus[.]su` | domain | Remus | ThreatFox | 2026-08-26 12:43:52 UTC |
+| 59 (media) | media | `158[.]94[.]210[.]86:443` | ip:port | Unknown malware | ThreatFox | 2026-08-26 07:28:58 UTC |
 | 59 (media) | alta | `165[.]22[.]122[.]89:8443` | ip:port | Aisuru | ThreatFox | 2026-08-26 05:46:18 UTC |
 | 59 (media) | media | `185[.]242[.]3[.]178:8080` | ip:port | VShell | ThreatFox | 2026-08-26 01:05:05 UTC |
 | 59 (media) | alta | `hxxp://cloudscrsolutions[.]com/v8sjh3hs8/index[.]php` | url | Amadey | ThreatFox | 2026-08-25 18:15:34 UTC |
 | 59 (media) | alta | `hxxp://atraflaxtt[.]com/g9sjh3djv/index[.]php` | url | Amadey | ThreatFox | 2026-08-25 18:15:33 UTC |
 | 59 (media) | alta | `hxxp://jazoopsloo[.]info/k92lsA3dpb/index[.]php` | url | Amadey | ThreatFox | 2026-08-25 18:15:30 UTC |
-| 57 (media) | media | `darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid[.]onion` | domain | Unknown malware | ThreatFox | 2026-08-26 06:24:18 UTC |
-| 57 (media) | critica | `101[.]43[.]53[.]103:9999` | ip:port | Cobalt Strike | ThreatFox | 2026-08-26 06:05:05 UTC |
-| 57 (media) | critica | `113[.]31[.]113[.]209:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-26 06:05:05 UTC |
-| 57 (media) | critica | `101[.]43[.]53[.]103:111` | ip:port | Cobalt Strike | ThreatFox | 2026-08-26 06:05:04 UTC |
-| 56 (media) | alta | `2zz07wlf[.]verticalchurchfilms[.]org` | domain | ClearFake | ThreatFox | 2026-08-26 06:19:18 UTC |
-| 56 (media) | alta | `verticalchurchfilms[.]org` | domain | ClearFake | ThreatFox | 2026-08-26 06:16:22 UTC |
-| 56 (media) | media | `facturacionmexico[.]net` | domain | Unknown malware | ThreatFox | 2026-08-26 05:46:31 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
