@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-27 22:16 UTC · **IOCs recolectados:** 1042 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-08-28 11:00 UTC · **IOCs recolectados:** 1105 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 77 (alta) | alta | `94[.]154[.]43[.]60:80` | ip:port | Mirai | ThreatFox | 2026-08-27 19:47:49 UTC |
-| 75 (alta) | media | `4c58195328f5b5e4a37aa6f42b386172` | md5_hash | Termite | ThreatFox | 2026-08-27 08:01:19 UTC |
-| 75 (alta) | alta | `94[.]154[.]43[.]249:8001` | ip:port | Aisuru | ThreatFox | 2026-08-27 07:22:35 UTC |
-| 71 (alta) | alta | `2[.]27[.]203[.]59:80` | ip:port | Mirai | ThreatFox | 2026-08-27 09:45:16 UTC |
-| 69 (media) | media | `45[.]61[.]170[.]105:7443` | ip:port | Unknown malware | ThreatFox | 2026-08-27 10:05:10 UTC |
-| 65 (media) | media | `hxxp://puschl[.]langhaar-schaeferhunde[.]com/plugins/linux[.]bin` | url | XMRIG | ThreatFox, URLhaus | 2026-08-27 11:45:58 UTC |
-| 65 (media) | media | `hxxps://casasmediterraneas[.]com/wp-content/plugins/linux[.]bin` | url | XMRIG | ThreatFox, URLhaus | 2026-08-27 11:45:57 UTC |
-| 65 (media) | media | `hxxps://www[.]mediocasavolponi[.]com/wp-content/plugins/linux[.]bin` | url | XMRIG | ThreatFox, URLhaus | 2026-08-27 11:45:57 UTC |
-| 65 (media) | media | `hxxps://cloud[.]calltop[.]com[.]br/apps/web/linux[.]bin` | url | XMRIG | ThreatFox, URLhaus | 2026-08-27 11:45:56 UTC |
-| 65 (media) | media | `hxxp://0x1x2x3[.]top/` | url | XMRIG | ThreatFox, URLhaus | 2026-08-27 11:45:50 UTC |
-| 65 (media) | alta | `hxxps://odxvj-fii5[.]marysasha20520[.]workers[.]dev/` | url | TonRAT | ThreatFox, URLhaus | 2026-08-27 09:57:45 UTC |
-| 65 (media) | media | `2cae63ea97507418aec97137f6080e73` | md5_hash | Termite | ThreatFox | 2026-08-27 08:01:19 UTC |
+| 73 (alta) | media | `45[.]17[.]39[.]120:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
+| 73 (alta) | media | `80[.]15[.]193[.]156:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
+| 73 (alta) | media | `194[.]36[.]85[.]31:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
+| 73 (alta) | media | `43[.]129[.]53[.]19:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
+| 73 (alta) | media | `197[.]140[.]9[.]148:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
+| 73 (alta) | media | `106[.]13[.]46[.]38:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
+| 73 (alta) | media | `186[.]209[.]77[.]237:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
+| 73 (alta) | media | `164[.]90[.]236[.]107:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
+| 73 (alta) | media | `87[.]251[.]66[.]91:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
+| 73 (alta) | media | `103[.]176[.]64[.]36:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
+| 73 (alta) | media | `152[.]228[.]135[.]87:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
+| 73 (alta) | media | `206[.]42[.]5[.]12:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
+| 73 (alta) | media | `145[.]239[.]85[.]111:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
+| 71 (alta) | media | `194[.]59[.]31[.]78:7080` | ip:port | HypeAgent | ThreatFox | 2026-08-28 09:44:55 UTC |
+| 65 (media) | alta | `184[.]75[.]208[.]210:51088` | ip:port | Remcos | ThreatFox | 2026-08-28 06:25:12 UTC |
 | 62 (media) | critica | `85[.]17[.]180[.]206:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-27 13:05:09 UTC |
 | 62 (media) | critica | `85[.]17[.]180[.]206:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-27 13:05:08 UTC |
 | 62 (media) | critica | `85[.]17[.]180[.]206:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-27 13:05:08 UTC |
 | 62 (media) | critica | `85[.]17[.]180[.]206:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-27 13:05:07 UTC |
-| 61 (media) | media | `217[.]60[.]195[.]113:443` | ip:port | RedTail | ThreatFox | 2026-08-27 07:21:35 UTC |
 | 59 (media) | media | `176[.]65[.]139[.]140:4444` | ip:port | Bashlite | ThreatFox | 2026-08-27 15:29:15 UTC |
 | 59 (media) | alta | `185[.]157[.]163[.]138:51842` | ip:port | Remcos | ThreatFox | 2026-08-27 14:54:23 UTC |
-| 59 (media) | media | `67[.]216[.]197[.]83:8443` | ip:port | Unknown malware | ThreatFox | 2026-08-27 08:05:06 UTC |
+| 58 (media) | alta | `eaglesvalleyimportexport[.]com` | domain | Unknown Loader | ThreatFox | 2026-08-28 10:48:12 UTC |
+| 58 (media) | media | `112[.]74[.]42[.]150:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:24 UTC |
 | 57 (media) | alta | `46[.]246[.]84[.]10:8848` | ip:port | DCRat | ThreatFox | 2026-08-27 19:47:05 UTC |
-| 57 (media) | alta | `209[.]99[.]188[.]27:2404` | ip:port | Remcos | ThreatFox | 2026-08-27 14:54:24 UTC |
-| 57 (media) | alta | `kul[.]cantdown[.]su` | domain | Unknown RAT | ThreatFox | 2026-08-27 08:36:10 UTC |
-| 57 (media) | media | `49[.]235[.]130[.]208:888` | ip:port | Unknown malware | ThreatFox | 2026-08-27 08:05:09 UTC |
-| 57 (media) | critica | `47[.]109[.]23[.]77:8888` | ip:port | Cobalt Strike | ThreatFox | 2026-08-27 08:05:06 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
