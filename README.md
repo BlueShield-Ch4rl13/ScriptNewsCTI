@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-28 11:00 UTC · **IOCs recolectados:** 1105 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-08-28 22:13 UTC · **IOCs recolectados:** 1581 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 77 (alta) | alta | `94[.]154[.]43[.]60:80` | ip:port | Mirai | ThreatFox | 2026-08-27 19:47:49 UTC |
-| 73 (alta) | media | `45[.]17[.]39[.]120:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
-| 73 (alta) | media | `80[.]15[.]193[.]156:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
-| 73 (alta) | media | `194[.]36[.]85[.]31:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
-| 73 (alta) | media | `43[.]129[.]53[.]19:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
-| 73 (alta) | media | `197[.]140[.]9[.]148:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
-| 73 (alta) | media | `106[.]13[.]46[.]38:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:26 UTC |
-| 73 (alta) | media | `186[.]209[.]77[.]237:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
-| 73 (alta) | media | `164[.]90[.]236[.]107:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
-| 73 (alta) | media | `87[.]251[.]66[.]91:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
-| 73 (alta) | media | `103[.]176[.]64[.]36:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
-| 73 (alta) | media | `152[.]228[.]135[.]87:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
-| 73 (alta) | media | `206[.]42[.]5[.]12:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
-| 73 (alta) | media | `145[.]239[.]85[.]111:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:25 UTC |
+| 73 (alta) | media | `194[.]59[.]31[.]78:7443` | ip:port | HypeAgent | ThreatFox | 2026-08-28 19:44:31 UTC |
+| 73 (alta) | media | `186[.]209[.]77[.]237:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:56 UTC |
+| 73 (alta) | media | `164[.]90[.]236[.]107:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:56 UTC |
+| 73 (alta) | media | `87[.]251[.]66[.]91:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:55 UTC |
+| 73 (alta) | media | `103[.]176[.]64[.]36:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:55 UTC |
+| 73 (alta) | media | `152[.]228[.]135[.]87:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:55 UTC |
+| 73 (alta) | media | `206[.]42[.]5[.]12:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:54 UTC |
+| 73 (alta) | media | `145[.]239[.]85[.]111:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:53 UTC |
+| 73 (alta) | media | `45[.]17[.]39[.]120:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:50 UTC |
+| 73 (alta) | media | `80[.]15[.]193[.]156:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:50 UTC |
+| 73 (alta) | media | `194[.]36[.]85[.]31:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:49 UTC |
+| 73 (alta) | media | `43[.]129[.]53[.]19:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:49 UTC |
+| 73 (alta) | media | `197[.]140[.]9[.]148:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:48 UTC |
+| 73 (alta) | media | `106[.]13[.]46[.]38:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:48 UTC |
+| 71 (alta) | alta | `176[.]65[.]139[.]139:80` | ip:port | Mirai | ThreatFox | 2026-08-28 19:44:04 UTC |
 | 71 (alta) | media | `194[.]59[.]31[.]78:7080` | ip:port | HypeAgent | ThreatFox | 2026-08-28 09:44:55 UTC |
+| 65 (media) | media | `49[.]232[.]241[.]195:8084` | ip:port | VShell | ThreatFox | 2026-08-28 14:05:07 UTC |
 | 65 (media) | alta | `184[.]75[.]208[.]210:51088` | ip:port | Remcos | ThreatFox | 2026-08-28 06:25:12 UTC |
-| 62 (media) | critica | `85[.]17[.]180[.]206:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-27 13:05:09 UTC |
-| 62 (media) | critica | `85[.]17[.]180[.]206:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-27 13:05:08 UTC |
-| 62 (media) | critica | `85[.]17[.]180[.]206:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-27 13:05:08 UTC |
-| 62 (media) | critica | `85[.]17[.]180[.]206:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-27 13:05:07 UTC |
-| 59 (media) | media | `176[.]65[.]139[.]140:4444` | ip:port | Bashlite | ThreatFox | 2026-08-27 15:29:15 UTC |
-| 59 (media) | alta | `185[.]157[.]163[.]138:51842` | ip:port | Remcos | ThreatFox | 2026-08-27 14:54:23 UTC |
+| 62 (media) | alta | `141[.]98[.]10[.]129:2404` | ip:port | Remcos | ThreatFox | 2026-08-28 16:25:36 UTC |
+| 61 (media) | alta | `hxxp://111[.]185[.]147[.]232:59432/Mozi[.]m` | url | Mirai | ThreatFox, URLhaus | 2026-08-28 19:27:21 UTC |
+| 59 (media) | alta | `91[.]92[.]241[.]38:8848` | ip:port | DCRat | ThreatFox | 2026-08-28 19:46:31 UTC |
+| 58 (media) | alta | `157[.]20[.]182[.]21:1973` | ip:port | AsyncRAT | ThreatFox | 2026-08-28 19:05:12 UTC |
+| 58 (media) | media | `112[.]74[.]42[.]150:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:57 UTC |
 | 58 (media) | alta | `eaglesvalleyimportexport[.]com` | domain | Unknown Loader | ThreatFox | 2026-08-28 10:48:12 UTC |
-| 58 (media) | media | `112[.]74[.]42[.]150:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 10:38:24 UTC |
-| 57 (media) | alta | `46[.]246[.]84[.]10:8848` | ip:port | DCRat | ThreatFox | 2026-08-27 19:47:05 UTC |
+| 57 (media) | critica | `199[.]187[.]25[.]93:3306` | ip:port | Cobalt Strike | ThreatFox | 2026-08-28 13:05:09 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
