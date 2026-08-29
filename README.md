@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-28 22:13 UTC · **IOCs recolectados:** 1581 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-08-29 06:47 UTC · **IOCs recolectados:** 1409 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -139,14 +139,14 @@ python main.py
 | 71 (alta) | alta | `176[.]65[.]139[.]139:80` | ip:port | Mirai | ThreatFox | 2026-08-28 19:44:04 UTC |
 | 71 (alta) | media | `194[.]59[.]31[.]78:7080` | ip:port | HypeAgent | ThreatFox | 2026-08-28 09:44:55 UTC |
 | 65 (media) | media | `49[.]232[.]241[.]195:8084` | ip:port | VShell | ThreatFox | 2026-08-28 14:05:07 UTC |
-| 65 (media) | alta | `184[.]75[.]208[.]210:51088` | ip:port | Remcos | ThreatFox | 2026-08-28 06:25:12 UTC |
 | 62 (media) | alta | `141[.]98[.]10[.]129:2404` | ip:port | Remcos | ThreatFox | 2026-08-28 16:25:36 UTC |
 | 61 (media) | alta | `hxxp://111[.]185[.]147[.]232:59432/Mozi[.]m` | url | Mirai | ThreatFox, URLhaus | 2026-08-28 19:27:21 UTC |
+| 60 (media) | media | `46db2652a3d7c10f6d481c1d43af6b40` | md5_hash | Unknown malware | ThreatFox | 2026-08-29 05:55:02 UTC |
 | 59 (media) | alta | `91[.]92[.]241[.]38:8848` | ip:port | DCRat | ThreatFox | 2026-08-28 19:46:31 UTC |
 | 58 (media) | alta | `157[.]20[.]182[.]21:1973` | ip:port | AsyncRAT | ThreatFox | 2026-08-28 19:05:12 UTC |
 | 58 (media) | media | `112[.]74[.]42[.]150:22` | ip:port | XMRIG | ThreatFox | 2026-08-28 13:03:57 UTC |
 | 58 (media) | alta | `eaglesvalleyimportexport[.]com` | domain | Unknown Loader | ThreatFox | 2026-08-28 10:48:12 UTC |
-| 57 (media) | critica | `199[.]187[.]25[.]93:3306` | ip:port | Cobalt Strike | ThreatFox | 2026-08-28 13:05:09 UTC |
+| 57 (media) | alta | `46[.]101[.]146[.]87:9034` | ip:port | Aisuru | ThreatFox | 2026-08-29 05:55:16 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
