@@ -116,12 +116,13 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-30 16:37 UTC · **IOCs recolectados:** 681 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-08-30 20:55 UTC · **IOCs recolectados:** 678 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 71 (alta) | alta | `45[.]225[.]135[.]156:56003` | ip:port | PureRAT | ThreatFox | 2026-08-30 19:45:59 UTC |
 | 66 (media) | alta | `a1bde6f032dc7452a8e447e9750a3b14a1e5c7e3803420e8919831fe67b338b7` | sha256_hash | Vidar | ThreatFox | 2026-08-30 01:34:48 UTC |
 | 66 (media) | alta | `3dd25cbfe76db155615283f905992030468f3da9` | sha1_hash | Vidar | ThreatFox | 2026-08-30 01:34:48 UTC |
 | 66 (media) | alta | `fb472c15a793251aeeb03b38bd4a678f` | md5_hash | Vidar | ThreatFox | 2026-08-30 01:34:48 UTC |
@@ -132,21 +133,20 @@ python main.py
 | 61 (media) | alta | `167[.]99[.]194[.]254:9035` | ip:port | Aisuru | ThreatFox | 2026-08-30 07:09:26 UTC |
 | 59 (media) | media | `64[.]89[.]160[.]222:65481` | ip:port | Bashlite | ThreatFox | 2026-08-30 10:43:05 UTC |
 | 58 (media) | alta | `165[.]22[.]122[.]89:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 07:09:35 UTC |
-| 58 (media) | critica | `43[.]163[.]88[.]35:445` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 19:05:05 UTC |
 | 57 (media) | media | `106[.]53[.]172[.]234:30092` | ip:port | VShell | ThreatFox | 2026-08-30 14:05:07 UTC |
 | 57 (media) | alta | `46[.]101[.]179[.]59:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 11:55:39 UTC |
 | 57 (media) | alta | `104[.]248[.]247[.]126:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 07:09:28 UTC |
 | 57 (media) | alta | `134[.]122[.]185[.]201:6685` | ip:port | ValleyRAT | ThreatFox | 2026-08-30 04:25:13 UTC |
 | 57 (media) | alta | `134[.]122[.]185[.]201:6698` | ip:port | ValleyRAT | ThreatFox | 2026-08-30 04:25:09 UTC |
-| 56 (media) | alta | `hxxps://zca[.]12naga[.]org` | url | Vidar | ThreatFox | 2026-08-30 16:01:17 UTC |
+| 56 (media) | alta | `29l1b9y1[.]shop-aeroslim[.]us` | domain | ClearFake | ThreatFox | 2026-08-30 20:40:43 UTC |
+| 56 (media) | alta | `hxxp://cc893886[.]tw1[.]ru/L1nc0In[.]php` | url | DCRat | ThreatFox | 2026-08-30 20:05:04 UTC |
+| 56 (media) | alta | `167[.]99[.]128[.]245:8080` | ip:port | Aisuru | ThreatFox | 2026-08-30 19:52:17 UTC |
+| 56 (media) | alta | `167[.]99[.]128[.]245:8443` | ip:port | Aisuru | ThreatFox | 2026-08-30 17:39:56 UTC |
+| 56 (media) | alta | `159[.]89[.]24[.]55:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 17:39:55 UTC |
+| 56 (media) | alta | `hxxps://zca[.]12naga[.]org` | url | Vidar | ThreatFox | 2026-08-30 17:39:54 UTC |
 | 56 (media) | media | `hxxp://zonxh[.]shop:7728/reports` | url | Remus | ThreatFox | 2026-08-30 15:55:19 UTC |
 | 56 (media) | media | `hxxp://kupzovo[.]shop:7567/reports` | url | Remus | ThreatFox | 2026-08-30 15:55:16 UTC |
-| 56 (media) | alta | `159[.]89[.]24[.]55:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 14:34:00 UTC |
 | 56 (media) | critica | `121[.]127[.]253[.]146:4444` | ip:port | AdaptixC2 | ThreatFox | 2026-08-30 14:05:05 UTC |
-| 56 (media) | alta | `167[.]99[.]128[.]245:8443` | ip:port | Aisuru | ThreatFox | 2026-08-30 13:19:23 UTC |
-| 56 (media) | media | `hxxp://uiccvbk[.]click:8839/notifications` | url | Remus | ThreatFox | 2026-08-30 13:10:21 UTC |
-| 56 (media) | critica | `121[.]127[.]253[.]146:80` | ip:port | AdaptixC2 | ThreatFox | 2026-08-30 13:05:07 UTC |
-| 56 (media) | critica | `121[.]127[.]253[.]146:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-08-30 13:05:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
