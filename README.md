@@ -116,14 +116,22 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-29 20:56 UTC · **IOCs recolectados:** 349 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-08-30 05:00 UTC · **IOCs recolectados:** 635 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 66 (media) | alta | `a1bde6f032dc7452a8e447e9750a3b14a1e5c7e3803420e8919831fe67b338b7` | sha256_hash | Vidar | ThreatFox | 2026-08-30 01:34:48 UTC |
+| 66 (media) | alta | `3dd25cbfe76db155615283f905992030468f3da9` | sha1_hash | Vidar | ThreatFox | 2026-08-30 01:34:48 UTC |
+| 66 (media) | alta | `fb472c15a793251aeeb03b38bd4a678f` | md5_hash | Vidar | ThreatFox | 2026-08-30 01:34:48 UTC |
+| 66 (media) | alta | `8bbbf6e8040d137c142bbf1775be770c` | md5_hash | Vidar | ThreatFox | 2026-08-30 01:34:45 UTC |
+| 66 (media) | alta | `db4a45d88c943be3f60bf216bb6ac8a2d3b70dfa13e9669e402f11e2aaea1b74` | sha256_hash | Vidar | ThreatFox | 2026-08-30 01:34:44 UTC |
+| 66 (media) | alta | `0d5f36f78a1cbf922f9e33c348c5693e93e24c06` | sha1_hash | Vidar | ThreatFox | 2026-08-30 01:34:44 UTC |
+| 61 (media) | alta | `167[.]99[.]194[.]254:9035` | ip:port | Aisuru | ThreatFox | 2026-08-30 04:02:56 UTC |
 | 60 (media) | alta | `sound-obstacle[.]com` | domain | Unknown Loader | ThreatFox | 2026-08-29 16:00:21 UTC |
 | 60 (media) | media | `46db2652a3d7c10f6d481c1d43af6b40` | md5_hash | Unknown malware | ThreatFox | 2026-08-29 05:55:02 UTC |
+| 58 (media) | alta | `165[.]22[.]122[.]89:9034` | ip:port | Aisuru | ThreatFox | 2026-08-29 21:49:36 UTC |
 | 58 (media) | critica | `43[.]163[.]88[.]35:445` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 19:05:05 UTC |
 | 58 (media) | critica | `43[.]163[.]88[.]35:139` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 16:05:05 UTC |
 | 58 (media) | critica | `43[.]163[.]88[.]35:8443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 14:05:06 UTC |
@@ -134,19 +142,11 @@ python main.py
 | 58 (media) | critica | `151[.]245[.]230[.]21:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 11:05:05 UTC |
 | 58 (media) | critica | `151[.]245[.]230[.]21:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 10:05:06 UTC |
 | 58 (media) | critica | `144[.]172[.]117[.]108:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-08-29 09:43:41 UTC |
+| 57 (media) | alta | `134[.]122[.]185[.]201:6685` | ip:port | ValleyRAT | ThreatFox | 2026-08-30 04:25:13 UTC |
+| 57 (media) | alta | `134[.]122[.]185[.]201:6698` | ip:port | ValleyRAT | ThreatFox | 2026-08-30 04:25:09 UTC |
+| 57 (media) | alta | `104[.]248[.]247[.]126:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 01:51:56 UTC |
 | 57 (media) | alta | `46[.]101[.]146[.]87:9034` | ip:port | Aisuru | ThreatFox | 2026-08-29 05:55:16 UTC |
 | 57 (media) | alta | `43[.]129[.]180[.]120:12345` | ip:port | Aisuru | ThreatFox | 2026-08-29 05:55:11 UTC |
-| 56 (media) | alta | `saintvanityllc[.]com` | domain | ClearFake | ThreatFox | 2026-08-29 19:31:33 UTC |
-| 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/Kath19634/landowner/refs/heads/main/target` | url | ClearFake | ThreatFox | 2026-08-29 14:53:13 UTC |
-| 56 (media) | alta | `hxxps://playmounthdom[.]top/` | url | Stealc | ThreatFox | 2026-08-29 14:08:52 UTC |
-| 56 (media) | alta | `104[.]248[.]41[.]207:8080` | ip:port | Aisuru | ThreatFox | 2026-08-29 05:55:05 UTC |
-| 56 (media) | media | `45[.]61[.]136[.]135:443` | ip:port | Unknown malware | ThreatFox | 2026-08-29 05:55:00 UTC |
-| 55 (media) | alta | `gs870sms[.]nuerovera[.]com` | domain | ClearFake | ThreatFox | 2026-08-29 20:04:39 UTC |
-| 55 (media) | alta | `nuerovera[.]com` | domain | ClearFake | ThreatFox | 2026-08-29 20:03:54 UTC |
-| 55 (media) | alta | `icindh6d[.]saintvanityllc[.]com` | domain | ClearFake | ThreatFox | 2026-08-29 19:34:43 UTC |
-| 55 (media) | media | `159[.]198[.]75[.]180:7443` | ip:port | Unknown malware | ThreatFox | 2026-08-29 19:05:06 UTC |
-| 55 (media) | media | `hxxps://clickzona[.]net/embed/` | url | IClickFix | ThreatFox | 2026-08-29 19:02:46 UTC |
-| 55 (media) | alta | `3agcohuj[.]peaceinwarr[.]net` | domain | ClearFake | ThreatFox | 2026-08-29 19:02:41 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
