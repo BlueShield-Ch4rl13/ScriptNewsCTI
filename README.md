@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-30 11:50 UTC · **IOCs recolectados:** 688 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-08-30 16:37 UTC · **IOCs recolectados:** 681 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -128,25 +128,25 @@ python main.py
 | 66 (media) | alta | `8bbbf6e8040d137c142bbf1775be770c` | md5_hash | Vidar | ThreatFox | 2026-08-30 01:34:45 UTC |
 | 66 (media) | alta | `db4a45d88c943be3f60bf216bb6ac8a2d3b70dfa13e9669e402f11e2aaea1b74` | sha256_hash | Vidar | ThreatFox | 2026-08-30 01:34:44 UTC |
 | 66 (media) | alta | `0d5f36f78a1cbf922f9e33c348c5693e93e24c06` | sha1_hash | Vidar | ThreatFox | 2026-08-30 01:34:44 UTC |
+| 63 (media) | media | `160[.]250[.]128[.]197:80` | ip:port | Unknown malware | ThreatFox | 2026-08-30 14:05:08 UTC |
 | 61 (media) | alta | `167[.]99[.]194[.]254:9035` | ip:port | Aisuru | ThreatFox | 2026-08-30 07:09:26 UTC |
-| 60 (media) | alta | `sound-obstacle[.]com` | domain | Unknown Loader | ThreatFox | 2026-08-29 16:00:21 UTC |
 | 59 (media) | media | `64[.]89[.]160[.]222:65481` | ip:port | Bashlite | ThreatFox | 2026-08-30 10:43:05 UTC |
 | 58 (media) | alta | `165[.]22[.]122[.]89:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 07:09:35 UTC |
 | 58 (media) | critica | `43[.]163[.]88[.]35:445` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 19:05:05 UTC |
-| 58 (media) | critica | `43[.]163[.]88[.]35:139` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 16:05:05 UTC |
-| 58 (media) | critica | `43[.]163[.]88[.]35:8443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 14:05:06 UTC |
-| 58 (media) | critica | `43[.]163[.]88[.]35:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 14:05:05 UTC |
-| 58 (media) | critica | `151[.]245[.]230[.]21:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 12:05:06 UTC |
-| 58 (media) | critica | `151[.]245[.]230[.]21:80` | ip:port | Cobalt Strike | ThreatFox | 2026-08-29 12:05:06 UTC |
-| 57 (media) | alta | `46[.]101[.]179[.]59:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 11:16:04 UTC |
+| 57 (media) | media | `106[.]53[.]172[.]234:30092` | ip:port | VShell | ThreatFox | 2026-08-30 14:05:07 UTC |
+| 57 (media) | alta | `46[.]101[.]179[.]59:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 11:55:39 UTC |
 | 57 (media) | alta | `104[.]248[.]247[.]126:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 07:09:28 UTC |
 | 57 (media) | alta | `134[.]122[.]185[.]201:6685` | ip:port | ValleyRAT | ThreatFox | 2026-08-30 04:25:13 UTC |
 | 57 (media) | alta | `134[.]122[.]185[.]201:6698` | ip:port | ValleyRAT | ThreatFox | 2026-08-30 04:25:09 UTC |
-| 56 (media) | alta | `45[.]55[.]191[.]196:8080` | ip:port | Aisuru | ThreatFox | 2026-08-30 10:43:05 UTC |
-| 56 (media) | media | `111[.]230[.]143[.]136:8080` | ip:port | Unknown malware | ThreatFox | 2026-08-30 10:05:06 UTC |
-| 56 (media) | media | `111[.]230[.]143[.]136:80` | ip:port | Unknown malware | ThreatFox | 2026-08-30 10:05:05 UTC |
-| 56 (media) | alta | `distrosummit[.]xyz` | domain | Unknown Loader | ThreatFox | 2026-08-30 09:19:05 UTC |
-| 56 (media) | alta | `xy08z5pm[.]shop-aizenpower[.]us` | domain | ClearFake | ThreatFox | 2026-08-30 09:01:24 UTC |
+| 56 (media) | alta | `hxxps://zca[.]12naga[.]org` | url | Vidar | ThreatFox | 2026-08-30 16:01:17 UTC |
+| 56 (media) | media | `hxxp://zonxh[.]shop:7728/reports` | url | Remus | ThreatFox | 2026-08-30 15:55:19 UTC |
+| 56 (media) | media | `hxxp://kupzovo[.]shop:7567/reports` | url | Remus | ThreatFox | 2026-08-30 15:55:16 UTC |
+| 56 (media) | alta | `159[.]89[.]24[.]55:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 14:34:00 UTC |
+| 56 (media) | critica | `121[.]127[.]253[.]146:4444` | ip:port | AdaptixC2 | ThreatFox | 2026-08-30 14:05:05 UTC |
+| 56 (media) | alta | `167[.]99[.]128[.]245:8443` | ip:port | Aisuru | ThreatFox | 2026-08-30 13:19:23 UTC |
+| 56 (media) | media | `hxxp://uiccvbk[.]click:8839/notifications` | url | Remus | ThreatFox | 2026-08-30 13:10:21 UTC |
+| 56 (media) | critica | `121[.]127[.]253[.]146:80` | ip:port | AdaptixC2 | ThreatFox | 2026-08-30 13:05:07 UTC |
+| 56 (media) | critica | `121[.]127[.]253[.]146:8080` | ip:port | AdaptixC2 | ThreatFox | 2026-08-30 13:05:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
