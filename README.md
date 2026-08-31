@@ -116,22 +116,27 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-31 13:27 UTC · **IOCs recolectados:** 716 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-08-31 22:52 UTC · **IOCs recolectados:** 762 · **CVEs KEV recientes:** 22
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 72 (alta) | alta | `176[.]65[.]139[.]206:1999` | ip:port | Mirai | ThreatFox | 2026-08-31 09:15:21 UTC |
-| 71 (alta) | alta | `45[.]225[.]135[.]156:56003` | ip:port | PureRAT | ThreatFox | 2026-08-30 19:45:59 UTC |
+| 70 (alta) | alta | `91[.]92[.]42[.]115:2418` | ip:port | Remcos | ThreatFox | 2026-08-31 19:11:32 UTC |
 | 67 (media) | media | `154[.]91[.]180[.]246:18080` | ip:port | VShell | ThreatFox | 2026-08-31 09:05:09 UTC |
 | 67 (media) | media | `154[.]91[.]180[.]246:18082` | ip:port | VShell | ThreatFox | 2026-08-31 09:05:09 UTC |
-| 63 (media) | media | `160[.]250[.]128[.]197:80` | ip:port | Unknown malware | ThreatFox | 2026-08-30 14:05:08 UTC |
 | 61 (media) | alta | `167[.]99[.]194[.]254:9034` | ip:port | Aisuru | ThreatFox | 2026-08-31 07:46:58 UTC |
-| 61 (media) | media | `hxxp://124[.]94[.]244[.]212:33038/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-08-31 07:46:54 UTC |
 | 59 (media) | critica | `106[.]15[.]10[.]2:111` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 04:05:05 UTC |
 | 59 (media) | critica | `106[.]15[.]10[.]2:4369` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 04:05:05 UTC |
+| 58 (media) | alta | `134[.]209[.]176[.]36:8080` | ip:port | Aisuru | ThreatFox | 2026-08-31 21:56:43 UTC |
+| 58 (media) | alta | `07ddbbe2c71c45577a7a4fbcdba0df91` | md5_hash | ValleyRAT | ThreatFox, OTX | 2026-08-31 17:54:04 UTC |
+| 58 (media) | alta | `8a626d844943da3456b044f38deae3a2` | md5_hash | ValleyRAT | ThreatFox, OTX | 2026-08-31 17:54:03 UTC |
+| 58 (media) | alta | `c24e99f9437feacaa63766a3cde3fe3d` | md5_hash | ValleyRAT | ThreatFox, OTX | 2026-08-31 17:54:03 UTC |
+| 58 (media) | alta | `134[.]209[.]176[.]36:8001` | ip:port | Aisuru | ThreatFox | 2026-08-31 14:24:16 UTC |
 | 58 (media) | media | `1[.]117[.]77[.]166:80` | ip:port | Unknown malware | ThreatFox | 2026-08-31 13:05:08 UTC |
+| 57 (media) | alta | `178[.]128[.]201[.]199:8080` | ip:port | Aisuru | ThreatFox | 2026-08-31 22:30:33 UTC |
+| 57 (media) | critica | `137[.]220[.]151[.]95:2096` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 21:05:05 UTC |
 | 57 (media) | critica | `129[.]204[.]11[.]247:8888` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 13:05:05 UTC |
 | 57 (media) | alta | `43[.]129[.]180[.]120:5555` | ip:port | Aisuru | ThreatFox | 2026-08-31 12:58:32 UTC |
 | 57 (media) | critica | `129[.]204[.]11[.]247:22` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 12:05:06 UTC |
@@ -140,18 +145,15 @@ python main.py
 | 57 (media) | media | `117[.]72[.]202[.]93:443` | ip:port | Unknown malware | ThreatFox | 2026-08-31 03:05:07 UTC |
 | 57 (media) | media | `117[.]72[.]202[.]93:8080` | ip:port | Unknown malware | ThreatFox | 2026-08-31 03:05:07 UTC |
 | 57 (media) | media | `106[.]54[.]41[.]209:21118` | ip:port | Unknown malware | ThreatFox | 2026-08-31 03:05:07 UTC |
-| 57 (media) | media | `106[.]53[.]172[.]234:30092` | ip:port | VShell | ThreatFox | 2026-08-30 14:05:07 UTC |
-| 56 (media) | alta | `hxxps://swewart[.]sbs/api/v1/status` | url | KongTuke | ThreatFox | 2026-08-31 13:08:54 UTC |
-| 56 (media) | critica | `101[.]42[.]136[.]73:4433` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 13:05:07 UTC |
-| 56 (media) | alta | `142[.]11[.]244[.]124:443` | ip:port | DanaBot | ThreatFox | 2026-08-31 12:58:40 UTC |
-| 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/Christa6547/davidrun/refs/heads/main/pull2395` | url | ClearFake | ThreatFox | 2026-08-31 12:48:54 UTC |
-| 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/Christa6547/davidrun` | url | ClearFake | ThreatFox | 2026-08-31 12:12:41 UTC |
-| 56 (media) | alta | `pjp9p9qh[.]teamgetdsm[.]com` | domain | ClearFake | ThreatFox | 2026-08-31 11:44:33 UTC |
+| 56 (media) | media | `vitamindpi55[.]digital` | domain | IClickFix | ThreatFox | 2026-08-31 21:05:22 UTC |
+| 56 (media) | alta | `178[.]128[.]201[.]199:8001` | ip:port | Aisuru | ThreatFox | 2026-08-31 14:24:12 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-82078 | PaperCut NG/MF | 2026-08-31 | Unknown |
+| CVE-2026-81578 | PaperCut NG/MF | 2026-08-31 | Unknown |
 | CVE-2023-49105 | ownCloud ownCloud | 2026-08-27 | Unknown |
 | CVE-2026-53362 | Linux Kernel | 2026-08-27 | Unknown |
 | CVE-2026-66384 | JFrog Artifactory | 2026-08-27 | Unknown |
