@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-08-30 20:55 UTC · **IOCs recolectados:** 678 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-08-31 05:04 UTC · **IOCs recolectados:** 655 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 71 (alta) | alta | `45[.]225[.]135[.]156:56003` | ip:port | PureRAT | ThreatFox | 2026-08-30 19:45:59 UTC |
-| 66 (media) | alta | `a1bde6f032dc7452a8e447e9750a3b14a1e5c7e3803420e8919831fe67b338b7` | sha256_hash | Vidar | ThreatFox | 2026-08-30 01:34:48 UTC |
-| 66 (media) | alta | `3dd25cbfe76db155615283f905992030468f3da9` | sha1_hash | Vidar | ThreatFox | 2026-08-30 01:34:48 UTC |
-| 66 (media) | alta | `fb472c15a793251aeeb03b38bd4a678f` | md5_hash | Vidar | ThreatFox | 2026-08-30 01:34:48 UTC |
-| 66 (media) | alta | `8bbbf6e8040d137c142bbf1775be770c` | md5_hash | Vidar | ThreatFox | 2026-08-30 01:34:45 UTC |
-| 66 (media) | alta | `db4a45d88c943be3f60bf216bb6ac8a2d3b70dfa13e9669e402f11e2aaea1b74` | sha256_hash | Vidar | ThreatFox | 2026-08-30 01:34:44 UTC |
-| 66 (media) | alta | `0d5f36f78a1cbf922f9e33c348c5693e93e24c06` | sha1_hash | Vidar | ThreatFox | 2026-08-30 01:34:44 UTC |
 | 63 (media) | media | `160[.]250[.]128[.]197:80` | ip:port | Unknown malware | ThreatFox | 2026-08-30 14:05:08 UTC |
+| 61 (media) | alta | `167[.]99[.]194[.]254:9034` | ip:port | Aisuru | ThreatFox | 2026-08-31 03:49:28 UTC |
 | 61 (media) | alta | `167[.]99[.]194[.]254:9035` | ip:port | Aisuru | ThreatFox | 2026-08-30 07:09:26 UTC |
+| 59 (media) | critica | `106[.]15[.]10[.]2:111` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 04:05:05 UTC |
+| 59 (media) | critica | `106[.]15[.]10[.]2:4369` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 04:05:05 UTC |
 | 59 (media) | media | `64[.]89[.]160[.]222:65481` | ip:port | Bashlite | ThreatFox | 2026-08-30 10:43:05 UTC |
 | 58 (media) | alta | `165[.]22[.]122[.]89:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 07:09:35 UTC |
+| 57 (media) | media | `117[.]72[.]202[.]93:443` | ip:port | Unknown malware | ThreatFox | 2026-08-31 03:05:07 UTC |
+| 57 (media) | media | `117[.]72[.]202[.]93:8080` | ip:port | Unknown malware | ThreatFox | 2026-08-31 03:05:07 UTC |
+| 57 (media) | media | `106[.]54[.]41[.]209:21118` | ip:port | Unknown malware | ThreatFox | 2026-08-31 03:05:07 UTC |
 | 57 (media) | media | `106[.]53[.]172[.]234:30092` | ip:port | VShell | ThreatFox | 2026-08-30 14:05:07 UTC |
 | 57 (media) | alta | `46[.]101[.]179[.]59:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 11:55:39 UTC |
 | 57 (media) | alta | `104[.]248[.]247[.]126:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 07:09:28 UTC |
-| 57 (media) | alta | `134[.]122[.]185[.]201:6685` | ip:port | ValleyRAT | ThreatFox | 2026-08-30 04:25:13 UTC |
-| 57 (media) | alta | `134[.]122[.]185[.]201:6698` | ip:port | ValleyRAT | ThreatFox | 2026-08-30 04:25:09 UTC |
-| 56 (media) | alta | `29l1b9y1[.]shop-aeroslim[.]us` | domain | ClearFake | ThreatFox | 2026-08-30 20:40:43 UTC |
-| 56 (media) | alta | `hxxp://cc893886[.]tw1[.]ru/L1nc0In[.]php` | url | DCRat | ThreatFox | 2026-08-30 20:05:04 UTC |
-| 56 (media) | alta | `167[.]99[.]128[.]245:8080` | ip:port | Aisuru | ThreatFox | 2026-08-30 19:52:17 UTC |
-| 56 (media) | alta | `167[.]99[.]128[.]245:8443` | ip:port | Aisuru | ThreatFox | 2026-08-30 17:39:56 UTC |
-| 56 (media) | alta | `159[.]89[.]24[.]55:9034` | ip:port | Aisuru | ThreatFox | 2026-08-30 17:39:55 UTC |
-| 56 (media) | alta | `hxxps://zca[.]12naga[.]org` | url | Vidar | ThreatFox | 2026-08-30 17:39:54 UTC |
-| 56 (media) | media | `hxxp://zonxh[.]shop:7728/reports` | url | Remus | ThreatFox | 2026-08-30 15:55:19 UTC |
-| 56 (media) | media | `hxxp://kupzovo[.]shop:7567/reports` | url | Remus | ThreatFox | 2026-08-30 15:55:16 UTC |
-| 56 (media) | critica | `121[.]127[.]253[.]146:4444` | ip:port | AdaptixC2 | ThreatFox | 2026-08-30 14:05:05 UTC |
+| 56 (media) | media | `123[.]56[.]83[.]34:9999` | ip:port | VShell | ThreatFox | 2026-08-31 04:05:05 UTC |
+| 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/Christa6547/fling/refs/heads/main/scoop` | url | ClearFake | ThreatFox | 2026-08-31 03:13:17 UTC |
+| 56 (media) | alta | `dphx1pvb[.]en-us-glucotrustt-bites[.]com` | domain | ClearFake | ThreatFox | 2026-08-31 03:06:11 UTC |
+| 56 (media) | alta | `bp3mtp82[.]shop-aizenpower[.]us` | domain | ClearFake | ThreatFox | 2026-08-31 01:42:15 UTC |
+| 56 (media) | alta | `qa5c8tze[.]www-glucotrust-bites[.]com` | domain | ClearFake | ThreatFox | 2026-08-31 01:29:51 UTC |
+| 56 (media) | alta | `m3c33sfv[.]rtinaclear[.]com` | domain | ClearFake | ThreatFox | 2026-08-31 01:25:33 UTC |
+| 56 (media) | alta | `rtinaclear[.]com` | domain | ClearFake | ThreatFox | 2026-08-31 01:24:06 UTC |
+| 56 (media) | critica | `101[.]42[.]136[.]73:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 01:05:06 UTC |
+| 56 (media) | critica | `101[.]42[.]136[.]73:443` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 01:05:05 UTC |
+| 56 (media) | alta | `hxxps://jre[.]12naga[.]org` | url | Vidar | ThreatFox | 2026-08-31 01:03:53 UTC |
+| 56 (media) | alta | `353qfu36[.]en-trump-token[.]com` | domain | ClearFake | ThreatFox | 2026-08-31 01:02:38 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
