@@ -116,13 +116,14 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-01 16:33 UTC · **IOCs recolectados:** 950 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-01 21:03 UTC · **IOCs recolectados:** 769 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 75 (alta) | critica | `109[.]233[.]21[.]109:31337` | ip:port | Sliver | ThreatFox | 2026-09-01 13:37:12 UTC |
+| 73 (alta) | alta | `91[.]92[.]47[.]203:56001` | ip:port | PureRAT | ThreatFox | 2026-09-01 19:46:40 UTC |
 | 71 (alta) | media | `64[.]89[.]163[.]22:9000` | ip:port | Unknown malware | ThreatFox | 2026-09-01 05:16:22 UTC |
 | 70 (alta) | alta | `91[.]92[.]42[.]115:2418` | ip:port | Remcos | ThreatFox | 2026-09-01 05:11:52 UTC |
 | 63 (media) | alta | `ea7d601bfe326ab75da0c8f597a2f161b3b23dbc` | sha1_hash | Vidar | ThreatFox | 2026-09-01 01:41:23 UTC |
@@ -134,12 +135,11 @@ python main.py
 | 60 (media) | alta | `64[.]89[.]160[.]127:2891` | ip:port | Remcos | ThreatFox | 2026-09-01 10:52:18 UTC |
 | 59 (media) | media | `117[.]72[.]202[.]93:81` | ip:port | Unknown malware | ThreatFox | 2026-09-01 14:05:08 UTC |
 | 59 (media) | media | `218[.]244[.]142[.]4:8084` | ip:port | VShell | ThreatFox | 2026-09-01 03:05:05 UTC |
+| 58 (media) | alta | `195[.]177[.]94[.]101:995` | ip:port | AsyncRAT | ThreatFox | 2026-09-01 20:05:07 UTC |
+| 58 (media) | media | `1[.]117[.]77[.]166:8080` | ip:port | Unknown malware | ThreatFox | 2026-09-01 20:05:05 UTC |
 | 58 (media) | alta | `102[.]220[.]160[.]198:5444` | ip:port | AsyncRAT | ThreatFox | 2026-09-01 14:05:06 UTC |
 | 58 (media) | alta | `195[.]177[.]94[.]101:110` | ip:port | AsyncRAT | ThreatFox | 2026-09-01 10:05:08 UTC |
 | 58 (media) | alta | `134[.]209[.]176[.]36:8080` | ip:port | Aisuru | ThreatFox | 2026-09-01 05:11:49 UTC |
-| 58 (media) | alta | `07ddbbe2c71c45577a7a4fbcdba0df91` | md5_hash | ValleyRAT | ThreatFox, OTX | 2026-08-31 17:54:04 UTC |
-| 58 (media) | alta | `8a626d844943da3456b044f38deae3a2` | md5_hash | ValleyRAT | ThreatFox, OTX | 2026-08-31 17:54:03 UTC |
-| 58 (media) | alta | `c24e99f9437feacaa63766a3cde3fe3d` | md5_hash | ValleyRAT | ThreatFox, OTX | 2026-08-31 17:54:03 UTC |
 | 57 (media) | critica | `23[.]94[.]145[.]203:31337` | ip:port | Sliver | ThreatFox | 2026-09-01 13:38:59 UTC |
 | 57 (media) | alta | `176[.]98[.]182[.]218:12345` | ip:port | Aisuru | ThreatFox | 2026-09-01 11:33:28 UTC |
 | 57 (media) | alta | `104[.]254[.]90[.]162:28471` | ip:port | PureRAT | ThreatFox | 2026-09-01 07:22:54 UTC |
