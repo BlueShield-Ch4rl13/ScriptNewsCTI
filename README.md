@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-01 21:03 UTC · **IOCs recolectados:** 769 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-02 04:06 UTC · **IOCs recolectados:** 961 · **CVEs KEV recientes:** 17
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -126,27 +126,27 @@ python main.py
 | 73 (alta) | alta | `91[.]92[.]47[.]203:56001` | ip:port | PureRAT | ThreatFox | 2026-09-01 19:46:40 UTC |
 | 71 (alta) | media | `64[.]89[.]163[.]22:9000` | ip:port | Unknown malware | ThreatFox | 2026-09-01 05:16:22 UTC |
 | 70 (alta) | alta | `91[.]92[.]42[.]115:2418` | ip:port | Remcos | ThreatFox | 2026-09-01 05:11:52 UTC |
-| 63 (media) | alta | `ea7d601bfe326ab75da0c8f597a2f161b3b23dbc` | sha1_hash | Vidar | ThreatFox | 2026-09-01 01:41:23 UTC |
-| 63 (media) | alta | `6ff791183aa5afb344d75f98369a4612` | md5_hash | Vidar | ThreatFox | 2026-09-01 01:41:23 UTC |
-| 63 (media) | alta | `5df4e83737ada213b9d0ebd4c10cd133a51a58651eef0c16a6d855427f3f91e2` | sha256_hash | Vidar | ThreatFox | 2026-09-01 01:41:22 UTC |
-| 62 (media) | alta | `68bbb1ec14eca9697d31887f35e5d378c40294316273659f766705a7989b5f5a` | sha256_hash | Vidar | ThreatFox | 2026-09-01 01:41:22 UTC |
-| 62 (media) | alta | `c1cedc0a39636edb00504b28615cd3f7570e9ef2` | sha1_hash | Vidar | ThreatFox | 2026-09-01 01:41:22 UTC |
-| 62 (media) | alta | `71ed0c438010f5a1175e0aecf651f11f` | md5_hash | Vidar | ThreatFox | 2026-09-01 01:41:22 UTC |
 | 60 (media) | alta | `64[.]89[.]160[.]127:2891` | ip:port | Remcos | ThreatFox | 2026-09-01 10:52:18 UTC |
+| 59 (media) | alta | `54[.]37[.]128[.]55:5000` | ip:port | Remcos | ThreatFox | 2026-09-02 02:10:06 UTC |
 | 59 (media) | media | `117[.]72[.]202[.]93:81` | ip:port | Unknown malware | ThreatFox | 2026-09-01 14:05:08 UTC |
-| 59 (media) | media | `218[.]244[.]142[.]4:8084` | ip:port | VShell | ThreatFox | 2026-09-01 03:05:05 UTC |
 | 58 (media) | alta | `195[.]177[.]94[.]101:995` | ip:port | AsyncRAT | ThreatFox | 2026-09-01 20:05:07 UTC |
 | 58 (media) | media | `1[.]117[.]77[.]166:8080` | ip:port | Unknown malware | ThreatFox | 2026-09-01 20:05:05 UTC |
 | 58 (media) | alta | `102[.]220[.]160[.]198:5444` | ip:port | AsyncRAT | ThreatFox | 2026-09-01 14:05:06 UTC |
 | 58 (media) | alta | `195[.]177[.]94[.]101:110` | ip:port | AsyncRAT | ThreatFox | 2026-09-01 10:05:08 UTC |
 | 58 (media) | alta | `134[.]209[.]176[.]36:8080` | ip:port | Aisuru | ThreatFox | 2026-09-01 05:11:49 UTC |
+| 57 (media) | alta | `hxxps://46[.]225[.]104[.]177` | url | Vidar | ThreatFox | 2026-09-02 02:39:26 UTC |
 | 57 (media) | critica | `23[.]94[.]145[.]203:31337` | ip:port | Sliver | ThreatFox | 2026-09-01 13:38:59 UTC |
 | 57 (media) | alta | `176[.]98[.]182[.]218:12345` | ip:port | Aisuru | ThreatFox | 2026-09-01 11:33:28 UTC |
 | 57 (media) | alta | `104[.]254[.]90[.]162:28471` | ip:port | PureRAT | ThreatFox | 2026-09-01 07:22:54 UTC |
 | 57 (media) | alta | `178[.]128[.]201[.]199:8080` | ip:port | Aisuru | ThreatFox | 2026-09-01 05:11:46 UTC |
 | 57 (media) | alta | `178[.]128[.]201[.]199:8443` | ip:port | Aisuru | ThreatFox | 2026-09-01 05:11:40 UTC |
-| 57 (media) | media | `45[.]221[.]118[.]139:8085` | ip:port | VShell | ThreatFox | 2026-09-01 02:05:06 UTC |
-| 57 (media) | critica | `137[.]220[.]151[.]95:2096` | ip:port | Cobalt Strike | ThreatFox | 2026-08-31 21:05:05 UTC |
+| 56 (media) | alta | `wh9w824a[.]shop-dentavive[.]com` | domain | ClearFake | ThreatFox | 2026-09-02 03:47:04 UTC |
+| 56 (media) | alta | `3sri19l0[.]shop-aquaburn[.]com` | domain | ClearFake | ThreatFox | 2026-09-02 03:39:42 UTC |
+| 56 (media) | alta | `panv25do[.]prosta-fense[.]org` | domain | ClearFake | ThreatFox | 2026-09-02 03:30:23 UTC |
+| 56 (media) | media | `101[.]132[.]153[.]5:8084` | ip:port | VShell | ThreatFox | 2026-09-02 03:05:05 UTC |
+| 56 (media) | media | `hxxp://shhsift[.]click:7647/projects` | url | Remus | ThreatFox | 2026-09-01 20:49:23 UTC |
+| 56 (media) | alta | `185[.]215[.]151[.]34:8089` | ip:port | Remcos | ThreatFox | 2026-09-01 19:55:29 UTC |
+| 56 (media) | alta | `eebc669y[.]eng-us-puraboost[.]us` | domain | ClearFake | ThreatFox | 2026-09-01 15:14:46 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -169,8 +169,4 @@ python main.py
 | CVE-2026-72530 | TrueConf Server | 2026-08-20 | Unknown |
 | CVE-2026-72529 | TrueConf Server | 2026-08-20 | Unknown |
 | CVE-2026-64849 | MLflow MLflow | 2026-08-19 | Unknown |
-| CVE-2026-33824 | Microsoft Internet Key Exchange (IKE) Service Extensions | 2026-08-18 | Unknown |
-| CVE-2026-59310 | Broadcom VMware vCenter | 2026-08-18 | Unknown |
-| CVE-2026-55040 | Microsoft SharePoint | 2026-08-18 | Unknown |
-| CVE-2026-65400 | Apple macOS | 2026-08-18 | Unknown |
 <!-- CTI:END -->
