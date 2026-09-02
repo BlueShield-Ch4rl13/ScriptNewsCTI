@@ -116,15 +116,15 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-02 16:31 UTC · **IOCs recolectados:** 952 · **CVEs KEV recientes:** 17
+**Última actualización:** 2026-09-02 21:02 UTC · **IOCs recolectados:** 1156 · **CVEs KEV recientes:** 24
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 77 (alta) | alta | `94[.]154[.]43[.]69:7768` | ip:port | Mirai | ThreatFox | 2026-09-02 17:45:10 UTC |
 | 73 (alta) | media | `68[.]233[.]116[.]124:22` | ip:port | XMRIG | ThreatFox | 2026-09-02 07:10:52 UTC |
 | 73 (alta) | media | `43[.]156[.]71[.]43:22` | ip:port | XMRIG | ThreatFox | 2026-09-02 07:10:52 UTC |
-| 73 (alta) | alta | `91[.]92[.]47[.]203:56001` | ip:port | PureRAT | ThreatFox | 2026-09-01 19:46:40 UTC |
 | 72 (alta) | critica | `85[.]120[.]216[.]8:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-02 09:46:57 UTC |
 | 72 (alta) | alta | `b75ee9270008a9a46f28f0b41738b138bbb7d89cd964acb3570cffb42fc81a05` | sha256_hash | XWorm | ThreatFox | 2026-09-02 09:22:29 UTC |
 | 72 (alta) | media | `103[.]105[.]67[.]170:22` | ip:port | XMRIG | ThreatFox | 2026-09-02 07:10:51 UTC |
@@ -136,22 +136,29 @@ python main.py
 | 66 (media) | alta | `213[.]152[.]162[.]116:49006` | ip:port | Remcos | ThreatFox | 2026-09-02 07:10:46 UTC |
 | 61 (media) | alta | `91[.]193[.]7[.]186:48988` | ip:port | Unknown RAT | ThreatFox | 2026-09-02 08:12:49 UTC |
 | 59 (media) | alta | `54[.]37[.]128[.]55:5000` | ip:port | Remcos | ThreatFox | 2026-09-02 05:49:54 UTC |
-| 58 (media) | alta | `195[.]177[.]94[.]101:995` | ip:port | AsyncRAT | ThreatFox | 2026-09-01 20:05:07 UTC |
-| 58 (media) | media | `1[.]117[.]77[.]166:8080` | ip:port | Unknown malware | ThreatFox | 2026-09-01 20:05:05 UTC |
+| 57 (media) | alta | `176[.]98[.]182[.]217:5555` | ip:port | Aisuru | ThreatFox | 2026-09-02 19:46:26 UTC |
+| 57 (media) | alta | `hxxp://loveher[.]dpdns[.]org` | url | Mirai | ThreatFox | 2026-09-02 18:06:37 UTC |
 | 57 (media) | alta | `176[.]98[.]182[.]218:37215` | ip:port | Aisuru | ThreatFox | 2026-09-02 14:52:36 UTC |
 | 57 (media) | media | `43[.]155[.]168[.]253:59527` | ip:port | Unknown malware | ThreatFox | 2026-09-02 14:05:05 UTC |
 | 57 (media) | alta | `hxxps://46[.]225[.]104[.]177` | url | Vidar | ThreatFox | 2026-09-02 02:39:26 UTC |
+| 56 (media) | alta | `0n9dsmrx[.]shop-neurovera[.]us` | domain | ClearFake | ThreatFox | 2026-09-02 20:18:39 UTC |
+| 56 (media) | alta | `155[.]103[.]69[.]38:14647` | ip:port | Remcos | ThreatFox | 2026-09-02 20:10:31 UTC |
+| 56 (media) | alta | `cle[.]sm188dvlv[.]lol` | domain | Vidar | ThreatFox | 2026-09-02 19:10:24 UTC |
 | 56 (media) | alta | `ndjin7pw[.]cdn-jbgroup[.]com` | domain | ClearFake | ThreatFox | 2026-09-02 16:06:53 UTC |
 | 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/cowenrty/fidgeting/refs/heads/main/obstacle` | url | ClearFake | ThreatFox | 2026-09-02 16:00:53 UTC |
 | 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/frantario/nativity/refs/heads/main/landing` | url | ClearFake | ThreatFox | 2026-09-02 14:58:01 UTC |
-| 56 (media) | alta | `188[.]166[.]146[.]72:8443` | ip:port | Aisuru | ThreatFox | 2026-09-02 14:52:35 UTC |
-| 56 (media) | alta | `up9yrveg[.]en-trump-token[.]com` | domain | ClearFake | ThreatFox | 2026-09-02 13:49:26 UTC |
-| 56 (media) | media | `46[.]246[.]6[.]66:32722` | ip:port | Vjw0rm | ThreatFox | 2026-09-02 13:40:06 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-59822 | BerriAI LiteLLM | 2026-09-02 | Unknown |
+| CVE-2026-48710 | Kludex Starlette | 2026-09-02 | Unknown |
+| CVE-2026-49869 | Kestra Kestra OSS | 2026-09-02 | Unknown |
+| CVE-2026-82329 | JFrog Artifactory | 2026-09-02 | Unknown |
+| CVE-2026-9586 | Sangoma Switchvox | 2026-09-02 | Unknown |
+| CVE-2026-83548 | SonicWall SMA1000 Appliances | 2026-09-02 | Unknown |
+| CVE-2026-83549 | SonicWall SMA1000 Appliances | 2026-09-02 | Unknown |
 | CVE-2026-82078 | PaperCut NG/MF | 2026-08-31 | Unknown |
 | CVE-2026-81578 | PaperCut NG/MF | 2026-08-31 | Unknown |
 | CVE-2023-49105 | ownCloud ownCloud | 2026-08-27 | Unknown |
