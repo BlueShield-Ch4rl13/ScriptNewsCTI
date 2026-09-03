@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-03 04:04 UTC · **IOCs recolectados:** 1112 · **CVEs KEV recientes:** 23
+**Última actualización:** 2026-09-03 11:09 UTC · **IOCs recolectados:** 935 · **CVEs KEV recientes:** 23
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 77 (alta) | alta | `94[.]154[.]43[.]69:7768` | ip:port | Mirai | ThreatFox | 2026-09-02 17:45:10 UTC |
-| 73 (alta) | media | `68[.]233[.]116[.]124:22` | ip:port | XMRIG | ThreatFox | 2026-09-02 07:10:52 UTC |
-| 73 (alta) | media | `43[.]156[.]71[.]43:22` | ip:port | XMRIG | ThreatFox | 2026-09-02 07:10:52 UTC |
-| 72 (alta) | critica | `85[.]120[.]216[.]8:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-02 09:46:57 UTC |
-| 72 (alta) | alta | `b75ee9270008a9a46f28f0b41738b138bbb7d89cd964acb3570cffb42fc81a05` | sha256_hash | XWorm | ThreatFox | 2026-09-02 09:22:29 UTC |
-| 72 (alta) | media | `103[.]105[.]67[.]170:22` | ip:port | XMRIG | ThreatFox | 2026-09-02 07:10:51 UTC |
-| 70 (alta) | alta | `51aed28d3468de5e75addc467ba14389356afe896098e4e478efcd7bf79a65b9` | sha256_hash | Ghost RAT | ThreatFox | 2026-09-02 09:22:29 UTC |
-| 68 (media) | media | `45[.]148[.]10[.]133:443` | ip:port | Unknown malware | ThreatFox | 2026-09-02 08:18:07 UTC |
-| 67 (media) | media | `46c75a86d2493710bd827e4ff84f7d6412d53ba9d8c4fc8e844de8af338c88ee` | sha256_hash | Rozena | ThreatFox | 2026-09-02 09:22:28 UTC |
-| 67 (media) | alta | `bd113d6b2cfba5ab2780c313c01d87896c64f91376903efc62ba01a242f59327` | sha256_hash | Ghost RAT | ThreatFox | 2026-09-02 09:22:27 UTC |
-| 66 (media) | alta | `2772367ba92f56742707532f951856c2525f31c8ca0a92412e957774b7c90e21` | sha256_hash | PureLogs Stealer | ThreatFox | 2026-09-02 09:22:28 UTC |
-| 66 (media) | alta | `213[.]152[.]162[.]116:49006` | ip:port | Remcos | ThreatFox | 2026-09-02 07:10:46 UTC |
-| 61 (media) | alta | `91[.]193[.]7[.]186:48988` | ip:port | Unknown RAT | ThreatFox | 2026-09-02 08:12:49 UTC |
-| 59 (media) | alta | `217[.]60[.]195[.]33:17545` | ip:port | Remcos | ThreatFox | 2026-09-03 01:11:15 UTC |
-| 59 (media) | alta | `54[.]37[.]128[.]55:5000` | ip:port | Remcos | ThreatFox | 2026-09-02 05:49:54 UTC |
-| 57 (media) | alta | `178[.]128[.]173[.]150:9034` | ip:port | Aisuru | ThreatFox | 2026-09-03 01:41:19 UTC |
-| 57 (media) | alta | `176[.]98[.]182[.]217:5555` | ip:port | Aisuru | ThreatFox | 2026-09-02 19:46:26 UTC |
-| 57 (media) | alta | `hxxp://loveher[.]dpdns[.]org` | url | Mirai | ThreatFox | 2026-09-02 18:06:37 UTC |
+| 77 (alta) | alta | `94[.]154[.]43[.]69:7768` | ip:port | Mirai | ThreatFox | 2026-09-03 05:39:44 UTC |
+| 60 (media) | alta | `45[.]154[.]98[.]38:2004` | ip:port | AsyncRAT | ThreatFox | 2026-09-03 09:46:39 UTC |
+| 60 (media) | alta | `213[.]152[.]162[.]108:49006` | ip:port | Remcos | ThreatFox | 2026-09-03 08:49:21 UTC |
+| 59 (media) | alta | `217[.]60[.]195[.]34:18631` | ip:port | Remcos | ThreatFox | 2026-09-03 10:13:22 UTC |
+| 59 (media) | alta | `217[.]60[.]195[.]33:17545` | ip:port | Remcos | ThreatFox | 2026-09-03 05:39:11 UTC |
+| 57 (media) | alta | `hxxp://loveher[.]dpdns[.]org` | url | Mirai | ThreatFox | 2026-09-03 05:39:44 UTC |
+| 57 (media) | alta | `176[.]98[.]182[.]217:5555` | ip:port | Aisuru | ThreatFox | 2026-09-03 05:39:39 UTC |
+| 57 (media) | alta | `178[.]128[.]173[.]150:9034` | ip:port | Aisuru | ThreatFox | 2026-09-03 05:39:10 UTC |
 | 57 (media) | alta | `176[.]98[.]182[.]218:37215` | ip:port | Aisuru | ThreatFox | 2026-09-02 14:52:36 UTC |
 | 57 (media) | media | `43[.]155[.]168[.]253:59527` | ip:port | Unknown malware | ThreatFox | 2026-09-02 14:05:05 UTC |
-| 56 (media) | alta | `188[.]166[.]146[.]72:8080` | ip:port | Aisuru | ThreatFox | 2026-09-03 03:50:24 UTC |
-| 56 (media) | alta | `157[.]245[.]242[.]229:8443` | ip:port | Aisuru | ThreatFox | 2026-09-03 01:56:33 UTC |
+| 56 (media) | alta | `193[.]26[.]115[.]223:4411` | ip:port | Remcos | ThreatFox | 2026-09-03 10:13:23 UTC |
+| 56 (media) | alta | `107[.]161[.]168[.]253:7789` | ip:port | Remcos | ThreatFox | 2026-09-03 10:13:20 UTC |
+| 56 (media) | alta | `t5n2mgno[.]cdn-jbgroup[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 09:39:39 UTC |
+| 56 (media) | alta | `cle[.]sm188dvlv[.]lol` | domain | Vidar | ThreatFox | 2026-09-03 05:39:40 UTC |
+| 56 (media) | alta | `155[.]103[.]69[.]38:14647` | ip:port | Remcos | ThreatFox | 2026-09-03 05:39:39 UTC |
+| 56 (media) | alta | `hxxps://2[.]29[.]12[.]45` | url | Vidar | ThreatFox | 2026-09-03 05:39:22 UTC |
+| 56 (media) | alta | `157[.]245[.]242[.]229:8443` | ip:port | Aisuru | ThreatFox | 2026-09-03 05:39:09 UTC |
+| 56 (media) | alta | `188[.]166[.]146[.]72:8080` | ip:port | Aisuru | ThreatFox | 2026-09-03 05:39:08 UTC |
 | 56 (media) | alta | `shop-heroup[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 01:50:06 UTC |
 | 56 (media) | alta | `rpmjgjea[.]usa-denta-vive[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 01:37:52 UTC |
 | 56 (media) | alta | `usa-denta-vive[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 01:35:42 UTC |
+| 56 (media) | alta | `gr2xw9cu[.]shop-neuro-sharp[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 00:28:53 UTC |
+| 56 (media) | alta | `qh3sff5j[.]thetrumptoken[.]org` | domain | ClearFake | ThreatFox | 2026-09-02 23:46:19 UTC |
+| 56 (media) | alta | `thetrumptoken[.]org` | domain | ClearFake | ThreatFox | 2026-09-02 23:45:23 UTC |
+| 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/cowenrty/empathic/refs/heads/main/cornea` | url | ClearFake | ThreatFox | 2026-09-02 23:37:38 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
