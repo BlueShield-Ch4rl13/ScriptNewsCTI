@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-03 11:09 UTC · **IOCs recolectados:** 935 · **CVEs KEV recientes:** 23
+**Última actualización:** 2026-09-03 16:21 UTC · **IOCs recolectados:** 995 · **CVEs KEV recientes:** 23
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 77 (alta) | alta | `94[.]154[.]43[.]69:7768` | ip:port | Mirai | ThreatFox | 2026-09-03 05:39:44 UTC |
+| 76 (alta) | critica | `46[.]151[.]182[.]190:3389` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 16:05:06 UTC |
+| 76 (alta) | critica | `46[.]151[.]182[.]190:27015` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 16:05:05 UTC |
+| 76 (alta) | critica | `46[.]151[.]182[.]190:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:09 UTC |
+| 76 (alta) | critica | `46[.]151[.]182[.]190:80` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:08 UTC |
+| 76 (alta) | critica | `46[.]151[.]182[.]190:443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:07 UTC |
+| 76 (alta) | critica | `46[.]151[.]182[.]190:4443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:06 UTC |
+| 68 (media) | alta | `45[.]61[.]170[.]158:8080` | ip:port | Quasar RAT | ThreatFox | 2026-09-03 16:05:07 UTC |
 | 60 (media) | alta | `45[.]154[.]98[.]38:2004` | ip:port | AsyncRAT | ThreatFox | 2026-09-03 09:46:39 UTC |
 | 60 (media) | alta | `213[.]152[.]162[.]108:49006` | ip:port | Remcos | ThreatFox | 2026-09-03 08:49:21 UTC |
 | 59 (media) | alta | `217[.]60[.]195[.]34:18631` | ip:port | Remcos | ThreatFox | 2026-09-03 10:13:22 UTC |
 | 59 (media) | alta | `217[.]60[.]195[.]33:17545` | ip:port | Remcos | ThreatFox | 2026-09-03 05:39:11 UTC |
+| 58 (media) | alta | `102[.]220[.]160[.]198:8888` | ip:port | AsyncRAT | ThreatFox | 2026-09-03 16:05:07 UTC |
+| 57 (media) | alta | `stream[.]fernstead[.]cc` | domain | ACR Stealer | ThreatFox | 2026-09-03 15:09:36 UTC |
+| 57 (media) | alta | `176[.]98[.]182[.]177:9035` | ip:port | Aisuru | ThreatFox | 2026-09-03 14:21:33 UTC |
 | 57 (media) | alta | `hxxp://loveher[.]dpdns[.]org` | url | Mirai | ThreatFox | 2026-09-03 05:39:44 UTC |
 | 57 (media) | alta | `176[.]98[.]182[.]217:5555` | ip:port | Aisuru | ThreatFox | 2026-09-03 05:39:39 UTC |
 | 57 (media) | alta | `178[.]128[.]173[.]150:9034` | ip:port | Aisuru | ThreatFox | 2026-09-03 05:39:10 UTC |
-| 57 (media) | alta | `176[.]98[.]182[.]218:37215` | ip:port | Aisuru | ThreatFox | 2026-09-02 14:52:36 UTC |
-| 57 (media) | media | `43[.]155[.]168[.]253:59527` | ip:port | Unknown malware | ThreatFox | 2026-09-02 14:05:05 UTC |
+| 56 (media) | alta | `ram[.]sm188dvlv[.]mom` | domain | Vidar | ThreatFox | 2026-09-03 15:40:46 UTC |
+| 56 (media) | alta | `ebe5z0d5[.]en-us-en-heroup[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 14:44:16 UTC |
+| 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/frantario/shrapnel/refs/heads/main/rosy` | url | ClearFake | ThreatFox | 2026-09-03 14:23:07 UTC |
+| 56 (media) | media | `gor-trendz[.]ink` | domain | SnappyClient | ThreatFox | 2026-09-03 13:49:36 UTC |
+| 56 (media) | media | `copperlodestar[.]info` | domain | SmartApeSG | ThreatFox | 2026-09-03 13:45:47 UTC |
+| 56 (media) | media | `hxxps://copperlodestar[.]info/dashboard/beta-cache[.]js` | url | SmartApeSG | ThreatFox | 2026-09-03 13:45:22 UTC |
 | 56 (media) | alta | `193[.]26[.]115[.]223:4411` | ip:port | Remcos | ThreatFox | 2026-09-03 10:13:23 UTC |
-| 56 (media) | alta | `107[.]161[.]168[.]253:7789` | ip:port | Remcos | ThreatFox | 2026-09-03 10:13:20 UTC |
-| 56 (media) | alta | `t5n2mgno[.]cdn-jbgroup[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 09:39:39 UTC |
-| 56 (media) | alta | `cle[.]sm188dvlv[.]lol` | domain | Vidar | ThreatFox | 2026-09-03 05:39:40 UTC |
-| 56 (media) | alta | `155[.]103[.]69[.]38:14647` | ip:port | Remcos | ThreatFox | 2026-09-03 05:39:39 UTC |
-| 56 (media) | alta | `hxxps://2[.]29[.]12[.]45` | url | Vidar | ThreatFox | 2026-09-03 05:39:22 UTC |
-| 56 (media) | alta | `157[.]245[.]242[.]229:8443` | ip:port | Aisuru | ThreatFox | 2026-09-03 05:39:09 UTC |
-| 56 (media) | alta | `188[.]166[.]146[.]72:8080` | ip:port | Aisuru | ThreatFox | 2026-09-03 05:39:08 UTC |
-| 56 (media) | alta | `shop-heroup[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 01:50:06 UTC |
-| 56 (media) | alta | `rpmjgjea[.]usa-denta-vive[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 01:37:52 UTC |
-| 56 (media) | alta | `usa-denta-vive[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 01:35:42 UTC |
-| 56 (media) | alta | `gr2xw9cu[.]shop-neuro-sharp[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 00:28:53 UTC |
-| 56 (media) | alta | `qh3sff5j[.]thetrumptoken[.]org` | domain | ClearFake | ThreatFox | 2026-09-02 23:46:19 UTC |
-| 56 (media) | alta | `thetrumptoken[.]org` | domain | ClearFake | ThreatFox | 2026-09-02 23:45:23 UTC |
-| 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/cowenrty/empathic/refs/heads/main/cornea` | url | ClearFake | ThreatFox | 2026-09-02 23:37:38 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
