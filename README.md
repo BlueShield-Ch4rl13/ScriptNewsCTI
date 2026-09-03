@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-03 16:21 UTC · **IOCs recolectados:** 995 · **CVEs KEV recientes:** 23
+**Última actualización:** 2026-09-03 20:59 UTC · **IOCs recolectados:** 808 · **CVEs KEV recientes:** 23
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -129,24 +129,24 @@ python main.py
 | 76 (alta) | critica | `46[.]151[.]182[.]190:80` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:08 UTC |
 | 76 (alta) | critica | `46[.]151[.]182[.]190:443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:07 UTC |
 | 76 (alta) | critica | `46[.]151[.]182[.]190:4443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:06 UTC |
+| 75 (alta) | critica | `46[.]151[.]182[.]190:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 17:05:06 UTC |
 | 68 (media) | alta | `45[.]61[.]170[.]158:8080` | ip:port | Quasar RAT | ThreatFox | 2026-09-03 16:05:07 UTC |
+| 63 (media) | media | `12de77bef9500e41c76a2200bc6fa712e7e3fc188dfdd92a764a22c3421b7208` | sha256_hash | Unknown malware | ThreatFox | 2026-09-03 20:17:30 UTC |
+| 62 (media) | media | `c3961d2ff7197cafbe9bd4d01b550f455e21695c1cdd0800299de1313c2a449b` | sha256_hash | Unknown malware | ThreatFox | 2026-09-03 20:17:30 UTC |
+| 62 (media) | alta | `86[.]106[.]84[.]167:13309` | ip:port | Remcos | ThreatFox | 2026-09-03 20:17:23 UTC |
 | 60 (media) | alta | `45[.]154[.]98[.]38:2004` | ip:port | AsyncRAT | ThreatFox | 2026-09-03 09:46:39 UTC |
 | 60 (media) | alta | `213[.]152[.]162[.]108:49006` | ip:port | Remcos | ThreatFox | 2026-09-03 08:49:21 UTC |
 | 59 (media) | alta | `217[.]60[.]195[.]34:18631` | ip:port | Remcos | ThreatFox | 2026-09-03 10:13:22 UTC |
 | 59 (media) | alta | `217[.]60[.]195[.]33:17545` | ip:port | Remcos | ThreatFox | 2026-09-03 05:39:11 UTC |
+| 58 (media) | alta | `155[.]103[.]71[.]126:4049` | ip:port | Remcos | ThreatFox | 2026-09-03 20:27:59 UTC |
+| 58 (media) | alta | `176[.]98[.]182[.]217:9035` | ip:port | Aisuru | ThreatFox | 2026-09-03 20:17:23 UTC |
 | 58 (media) | alta | `102[.]220[.]160[.]198:8888` | ip:port | AsyncRAT | ThreatFox | 2026-09-03 16:05:07 UTC |
+| 57 (media) | alta | `176[.]98[.]182[.]177:9035` | ip:port | Aisuru | ThreatFox | 2026-09-03 20:17:33 UTC |
 | 57 (media) | alta | `stream[.]fernstead[.]cc` | domain | ACR Stealer | ThreatFox | 2026-09-03 15:09:36 UTC |
-| 57 (media) | alta | `176[.]98[.]182[.]177:9035` | ip:port | Aisuru | ThreatFox | 2026-09-03 14:21:33 UTC |
 | 57 (media) | alta | `hxxp://loveher[.]dpdns[.]org` | url | Mirai | ThreatFox | 2026-09-03 05:39:44 UTC |
 | 57 (media) | alta | `176[.]98[.]182[.]217:5555` | ip:port | Aisuru | ThreatFox | 2026-09-03 05:39:39 UTC |
 | 57 (media) | alta | `178[.]128[.]173[.]150:9034` | ip:port | Aisuru | ThreatFox | 2026-09-03 05:39:10 UTC |
-| 56 (media) | alta | `ram[.]sm188dvlv[.]mom` | domain | Vidar | ThreatFox | 2026-09-03 15:40:46 UTC |
-| 56 (media) | alta | `ebe5z0d5[.]en-us-en-heroup[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 14:44:16 UTC |
-| 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/frantario/shrapnel/refs/heads/main/rosy` | url | ClearFake | ThreatFox | 2026-09-03 14:23:07 UTC |
-| 56 (media) | media | `gor-trendz[.]ink` | domain | SnappyClient | ThreatFox | 2026-09-03 13:49:36 UTC |
-| 56 (media) | media | `copperlodestar[.]info` | domain | SmartApeSG | ThreatFox | 2026-09-03 13:45:47 UTC |
-| 56 (media) | media | `hxxps://copperlodestar[.]info/dashboard/beta-cache[.]js` | url | SmartApeSG | ThreatFox | 2026-09-03 13:45:22 UTC |
-| 56 (media) | alta | `193[.]26[.]115[.]223:4411` | ip:port | Remcos | ThreatFox | 2026-09-03 10:13:23 UTC |
+| 56 (media) | alta | `138[.]68[.]169[.]201:8443` | ip:port | Aisuru | ThreatFox | 2026-09-03 20:17:26 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
