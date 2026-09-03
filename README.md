@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-02 21:02 UTC · **IOCs recolectados:** 1156 · **CVEs KEV recientes:** 24
+**Última actualización:** 2026-09-03 04:04 UTC · **IOCs recolectados:** 1112 · **CVEs KEV recientes:** 23
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -135,18 +135,18 @@ python main.py
 | 66 (media) | alta | `2772367ba92f56742707532f951856c2525f31c8ca0a92412e957774b7c90e21` | sha256_hash | PureLogs Stealer | ThreatFox | 2026-09-02 09:22:28 UTC |
 | 66 (media) | alta | `213[.]152[.]162[.]116:49006` | ip:port | Remcos | ThreatFox | 2026-09-02 07:10:46 UTC |
 | 61 (media) | alta | `91[.]193[.]7[.]186:48988` | ip:port | Unknown RAT | ThreatFox | 2026-09-02 08:12:49 UTC |
+| 59 (media) | alta | `217[.]60[.]195[.]33:17545` | ip:port | Remcos | ThreatFox | 2026-09-03 01:11:15 UTC |
 | 59 (media) | alta | `54[.]37[.]128[.]55:5000` | ip:port | Remcos | ThreatFox | 2026-09-02 05:49:54 UTC |
+| 57 (media) | alta | `178[.]128[.]173[.]150:9034` | ip:port | Aisuru | ThreatFox | 2026-09-03 01:41:19 UTC |
 | 57 (media) | alta | `176[.]98[.]182[.]217:5555` | ip:port | Aisuru | ThreatFox | 2026-09-02 19:46:26 UTC |
 | 57 (media) | alta | `hxxp://loveher[.]dpdns[.]org` | url | Mirai | ThreatFox | 2026-09-02 18:06:37 UTC |
 | 57 (media) | alta | `176[.]98[.]182[.]218:37215` | ip:port | Aisuru | ThreatFox | 2026-09-02 14:52:36 UTC |
 | 57 (media) | media | `43[.]155[.]168[.]253:59527` | ip:port | Unknown malware | ThreatFox | 2026-09-02 14:05:05 UTC |
-| 57 (media) | alta | `hxxps://46[.]225[.]104[.]177` | url | Vidar | ThreatFox | 2026-09-02 02:39:26 UTC |
-| 56 (media) | alta | `0n9dsmrx[.]shop-neurovera[.]us` | domain | ClearFake | ThreatFox | 2026-09-02 20:18:39 UTC |
-| 56 (media) | alta | `155[.]103[.]69[.]38:14647` | ip:port | Remcos | ThreatFox | 2026-09-02 20:10:31 UTC |
-| 56 (media) | alta | `cle[.]sm188dvlv[.]lol` | domain | Vidar | ThreatFox | 2026-09-02 19:10:24 UTC |
-| 56 (media) | alta | `ndjin7pw[.]cdn-jbgroup[.]com` | domain | ClearFake | ThreatFox | 2026-09-02 16:06:53 UTC |
-| 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/cowenrty/fidgeting/refs/heads/main/obstacle` | url | ClearFake | ThreatFox | 2026-09-02 16:00:53 UTC |
-| 56 (media) | alta | `hxxps://raw[.]githubusercontent[.]com/frantario/nativity/refs/heads/main/landing` | url | ClearFake | ThreatFox | 2026-09-02 14:58:01 UTC |
+| 56 (media) | alta | `188[.]166[.]146[.]72:8080` | ip:port | Aisuru | ThreatFox | 2026-09-03 03:50:24 UTC |
+| 56 (media) | alta | `157[.]245[.]242[.]229:8443` | ip:port | Aisuru | ThreatFox | 2026-09-03 01:56:33 UTC |
+| 56 (media) | alta | `shop-heroup[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 01:50:06 UTC |
+| 56 (media) | alta | `rpmjgjea[.]usa-denta-vive[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 01:37:52 UTC |
+| 56 (media) | alta | `usa-denta-vive[.]com` | domain | ClearFake | ThreatFox | 2026-09-03 01:35:42 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -175,5 +175,4 @@ python main.py
 | CVE-2026-73570 | Synacor Zimbra Collaboration Suite (ZCS) | 2026-08-21 | Unknown |
 | CVE-2026-72530 | TrueConf Server | 2026-08-20 | Unknown |
 | CVE-2026-72529 | TrueConf Server | 2026-08-20 | Unknown |
-| CVE-2026-64849 | MLflow MLflow | 2026-08-19 | Unknown |
 <!-- CTI:END -->
