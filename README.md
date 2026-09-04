@@ -116,30 +116,26 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-04 11:09 UTC · **IOCs recolectados:** 772 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-04 16:16 UTC · **IOCs recolectados:** 740 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 76 (alta) | critica | `46[.]151[.]182[.]190:3389` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 16:05:06 UTC |
-| 76 (alta) | critica | `46[.]151[.]182[.]190:27015` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 16:05:05 UTC |
-| 76 (alta) | critica | `46[.]151[.]182[.]190:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:09 UTC |
-| 76 (alta) | critica | `46[.]151[.]182[.]190:80` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:08 UTC |
-| 76 (alta) | critica | `46[.]151[.]182[.]190:443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:07 UTC |
-| 76 (alta) | critica | `46[.]151[.]182[.]190:4443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 15:05:06 UTC |
 | 75 (alta) | critica | `46[.]151[.]182[.]190:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-03 17:05:06 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]88:4330` | ip:port | Mirai | ThreatFox | 2026-09-04 07:19:41 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]88:44321` | ip:port | Mirai | ThreatFox | 2026-09-04 07:19:40 UTC |
+| 71 (alta) | media | `94[.]154[.]43[.]107:9111` | ip:port | Unknown malware | ThreatFox | 2026-09-04 11:29:44 UTC |
 | 71 (alta) | alta | `213[.]152[.]162[.]118:49006` | ip:port | Remcos | ThreatFox | 2026-09-04 06:42:43 UTC |
 | 69 (media) | alta | `e2b4438f72c986add83c9d96d5aa46f7` | md5_hash | Agent Tesla | ThreatFox | 2026-09-04 00:46:11 UTC |
-| 68 (media) | alta | `45[.]61[.]170[.]158:8080` | ip:port | Quasar RAT | ThreatFox | 2026-09-03 16:05:07 UTC |
 | 64 (media) | alta | `ef684ef8bf90c0d89217b3373f64253dc8056dab0dd871555e5fcabe7671cbf4` | sha256_hash | Vidar | ThreatFox | 2026-09-04 00:46:12 UTC |
 | 64 (media) | alta | `ad630836facc7b850ea1b91dfda96bf1cc2f3803` | sha1_hash | Vidar | ThreatFox | 2026-09-04 00:46:12 UTC |
 | 64 (media) | alta | `afee8b1b35405c2cbf5be6ea4d515561` | md5_hash | Vidar | ThreatFox | 2026-09-04 00:46:12 UTC |
 | 63 (media) | media | `12de77bef9500e41c76a2200bc6fa712e7e3fc188dfdd92a764a22c3421b7208` | sha256_hash | Unknown malware | ThreatFox | 2026-09-03 20:17:30 UTC |
+| 62 (media) | media | `156[.]247[.]40[.]242:888` | ip:port | Unknown malware | ThreatFox | 2026-09-04 15:08:56 UTC |
 | 62 (media) | media | `c3961d2ff7197cafbe9bd4d01b550f455e21695c1cdd0800299de1313c2a449b` | sha256_hash | Unknown malware | ThreatFox | 2026-09-03 20:17:30 UTC |
 | 62 (media) | alta | `86[.]106[.]84[.]167:13309` | ip:port | Remcos | ThreatFox | 2026-09-03 20:17:23 UTC |
+| 61 (media) | media | `hxxp://39[.]88[.]200[.]53:34933/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-09-04 12:36:58 UTC |
 | 61 (media) | alta | `17c6cd29b51c34627cbccb1add64fad17909d1f1e96ac374f4573281aa5dd9a1` | sha256_hash | Vidar | ThreatFox | 2026-09-04 00:46:13 UTC |
 | 61 (media) | alta | `47d1583b884244b3f0134d7934d3a3a713001d6c` | sha1_hash | Vidar | ThreatFox | 2026-09-04 00:46:13 UTC |
 | 61 (media) | alta | `4ccdc8b931c809bbeac91f5f6c682c71` | md5_hash | Vidar | ThreatFox | 2026-09-04 00:46:13 UTC |
@@ -147,6 +143,10 @@ python main.py
 | 59 (media) | media | `immersionzone[.]info` | domain | IClickFix | ThreatFox | 2026-09-04 03:46:06 UTC |
 | 58 (media) | alta | `155[.]103[.]71[.]126:4049` | ip:port | Remcos | ThreatFox | 2026-09-03 20:27:59 UTC |
 | 58 (media) | alta | `176[.]98[.]182[.]217:9035` | ip:port | Aisuru | ThreatFox | 2026-09-03 20:17:23 UTC |
+| 57 (media) | alta | `176[.]98[.]182[.]216:12345` | ip:port | Aisuru | ThreatFox | 2026-09-04 06:42:47 UTC |
+| 57 (media) | alta | `176[.]98[.]182[.]177:9035` | ip:port | Aisuru | ThreatFox | 2026-09-03 20:17:33 UTC |
+| 56 (media) | alta | `sla[.]sm188dvlv[.]mom` | domain | Vidar | ThreatFox | 2026-09-04 15:25:45 UTC |
+| 56 (media) | alta | `sla[.]13balien[.]org` | domain | Vidar | ThreatFox | 2026-09-04 15:20:45 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
