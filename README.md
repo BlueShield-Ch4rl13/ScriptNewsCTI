@@ -116,16 +116,14 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-05 04:05 UTC · **IOCs recolectados:** 7350 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-05 10:32 UTC · **IOCs recolectados:** 7324 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 72 (alta) | alta | `94[.]154[.]43[.]88:4330` | ip:port | Mirai | ThreatFox | 2026-09-04 07:19:41 UTC |
-| 72 (alta) | alta | `94[.]154[.]43[.]88:44321` | ip:port | Mirai | ThreatFox | 2026-09-04 07:19:40 UTC |
+| 72 (alta) | alta | `94[.]154[.]43[.]107:1999` | ip:port | Mirai | ThreatFox | 2026-09-05 08:09:01 UTC |
 | 71 (alta) | media | `94[.]154[.]43[.]107:9111` | ip:port | Unknown malware | ThreatFox | 2026-09-04 11:29:44 UTC |
-| 71 (alta) | alta | `213[.]152[.]162[.]118:49006` | ip:port | Remcos | ThreatFox | 2026-09-04 06:42:43 UTC |
 | 69 (media) | media | `47[.]254[.]206[.]163:47810` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:20:41 UTC |
 | 68 (media) | media | `43[.]153[.]58[.]28:46100` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:20:41 UTC |
 | 68 (media) | media | `2[.]26[.]172[.]97:34350` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:20:06 UTC |
@@ -147,6 +145,8 @@ python main.py
 | 68 (media) | media | `65[.]20[.]158[.]10:33492` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:36 UTC |
 | 68 (media) | media | `2[.]26[.]172[.]97:48250` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:35 UTC |
 | 68 (media) | media | `2[.]26[.]172[.]97:54312` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:34 UTC |
+| 68 (media) | media | `47[.]84[.]100[.]118:59901` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:34 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:54302` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:32 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
