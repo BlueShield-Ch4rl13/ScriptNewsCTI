@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-04 20:46 UTC · **IOCs recolectados:** 798 · **CVEs KEV recientes:** 22
+**Última actualización:** 2026-09-05 04:05 UTC · **IOCs recolectados:** 7350 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -126,27 +126,27 @@ python main.py
 | 72 (alta) | alta | `94[.]154[.]43[.]88:44321` | ip:port | Mirai | ThreatFox | 2026-09-04 07:19:40 UTC |
 | 71 (alta) | media | `94[.]154[.]43[.]107:9111` | ip:port | Unknown malware | ThreatFox | 2026-09-04 11:29:44 UTC |
 | 71 (alta) | alta | `213[.]152[.]162[.]118:49006` | ip:port | Remcos | ThreatFox | 2026-09-04 06:42:43 UTC |
-| 69 (media) | alta | `e2b4438f72c986add83c9d96d5aa46f7` | md5_hash | Agent Tesla | ThreatFox | 2026-09-04 00:46:11 UTC |
-| 68 (media) | alta | `195[.]177[.]94[.]11:56001` | ip:port | PureRAT | ThreatFox | 2026-09-04 19:44:56 UTC |
-| 68 (media) | alta | `195[.]177[.]94[.]11:56002` | ip:port | PureRAT | ThreatFox | 2026-09-04 19:44:56 UTC |
-| 64 (media) | alta | `ef684ef8bf90c0d89217b3373f64253dc8056dab0dd871555e5fcabe7671cbf4` | sha256_hash | Vidar | ThreatFox | 2026-09-04 00:46:12 UTC |
-| 64 (media) | alta | `ad630836facc7b850ea1b91dfda96bf1cc2f3803` | sha1_hash | Vidar | ThreatFox | 2026-09-04 00:46:12 UTC |
-| 64 (media) | alta | `afee8b1b35405c2cbf5be6ea4d515561` | md5_hash | Vidar | ThreatFox | 2026-09-04 00:46:12 UTC |
-| 62 (media) | media | `156[.]247[.]40[.]242:888` | ip:port | Unknown malware | ThreatFox | 2026-09-04 15:08:56 UTC |
-| 61 (media) | media | `hxxp://39[.]88[.]200[.]53:34933/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-09-04 12:36:58 UTC |
-| 61 (media) | alta | `17c6cd29b51c34627cbccb1add64fad17909d1f1e96ac374f4573281aa5dd9a1` | sha256_hash | Vidar | ThreatFox | 2026-09-04 00:46:13 UTC |
-| 61 (media) | alta | `47d1583b884244b3f0134d7934d3a3a713001d6c` | sha1_hash | Vidar | ThreatFox | 2026-09-04 00:46:13 UTC |
-| 61 (media) | alta | `4ccdc8b931c809bbeac91f5f6c682c71` | md5_hash | Vidar | ThreatFox | 2026-09-04 00:46:13 UTC |
-| 60 (media) | alta | `2a132bc5b6cb45f2d5c3b12814e638c6` | md5_hash | Vidar | ThreatFox | 2026-09-04 00:46:12 UTC |
-| 59 (media) | media | `4d64c5b51a42ffca925de494bc2b1230e98f4b0d6d371554e530ce054d881cdb` | sha256_hash | RemoteAdmin | ThreatFox | 2026-09-04 19:58:30 UTC |
-| 59 (media) | media | `immersionzone[.]info` | domain | IClickFix | ThreatFox | 2026-09-04 03:46:06 UTC |
-| 57 (media) | alta | `176[.]98[.]182[.]216:12345` | ip:port | Aisuru | ThreatFox | 2026-09-04 06:42:47 UTC |
-| 56 (media) | alta | `87[.]120[.]244[.]219:2020` | ip:port | Remcos | ThreatFox | 2026-09-04 20:26:12 UTC |
-| 56 (media) | alta | `sla[.]sm188dvlv[.]mom` | domain | Vidar | ThreatFox | 2026-09-04 15:25:45 UTC |
-| 56 (media) | alta | `sla[.]13balien[.]org` | domain | Vidar | ThreatFox | 2026-09-04 15:20:45 UTC |
-| 56 (media) | alta | `r9chaxy2[.]pura--boost[.]us` | domain | ClearFake | ThreatFox | 2026-09-04 14:49:32 UTC |
-| 56 (media) | alta | `wolf[.]albaikmenuonline[.]com` | domain | ClearFake | ThreatFox | 2026-09-04 13:57:42 UTC |
-| 56 (media) | alta | `3xoi10iy[.]usen-glucotrust-bites[.]com` | domain | ClearFake | ThreatFox | 2026-09-04 10:48:26 UTC |
+| 69 (media) | media | `47[.]254[.]206[.]163:47810` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:20:41 UTC |
+| 68 (media) | media | `43[.]153[.]58[.]28:46100` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:20:41 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:34350` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:20:06 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:36220` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:20:02 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:36210` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:58 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:36208` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:55 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:36476` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:52 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:36472` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:50 UTC |
+| 68 (media) | media | `169[.]58[.]124[.]39:61609` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:50 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:36462` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:48 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:36458` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:44 UTC |
+| 68 (media) | media | `3[.]83[.]245[.]221:61234` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:43 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:48280` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:42 UTC |
+| 68 (media) | media | `64[.]62[.]197[.]95:43413` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:42 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:48266` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:40 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:48272` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:40 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:48262` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:38 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:48252` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:37 UTC |
+| 68 (media) | media | `65[.]20[.]158[.]10:33492` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:36 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:48250` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:35 UTC |
+| 68 (media) | media | `2[.]26[.]172[.]97:54312` | ip:port | Unknown malware | ThreatFox | 2026-09-05 00:19:34 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -173,5 +173,4 @@ python main.py
 | CVE-2019-1068 | Microsoft SQL Server | 2026-08-26 | Unknown |
 | CVE-2026-60004 | Gitea Gitea | 2026-08-25 | Unknown |
 | CVE-2026-21962 | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in | 2026-08-24 | Unknown |
-| CVE-2026-73570 | Synacor Zimbra Collaboration Suite (ZCS) | 2026-08-21 | Unknown |
 <!-- CTI:END -->
