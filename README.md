@@ -116,26 +116,25 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-06 15:26 UTC · **IOCs recolectados:** 1069 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-06 20:25 UTC · **IOCs recolectados:** 1830 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 73 (alta) | alta | `180[.]93[.]115[.]26:80` | ip:port | Mirai | ThreatFox | 2026-09-06 19:44:18 UTC |
 | 63 (media) | alta | `184[.]75[.]208[.]26:48988` | ip:port | Borat RAT | ThreatFox | 2026-09-06 08:20:29 UTC |
-| 62 (media) | alta | `83[.]136[.]211[.]230:56001` | ip:port | PureRAT | ThreatFox | 2026-09-05 19:46:44 UTC |
-| 61 (media) | media | `hxxp://27[.]222[.]48[.]192:43573/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-09-06 06:19:51 UTC |
 | 60 (media) | alta | `141[.]94[.]121[.]162:6672` | ip:port | DCRat | ThreatFox | 2026-09-06 01:05:07 UTC |
 | 58 (media) | media | `shadowmetric[.]buzz` | domain | IClickFix | ThreatFox | 2026-09-06 14:33:52 UTC |
 | 58 (media) | critica | `91[.]92[.]241[.]187:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-06 09:47:09 UTC |
-| 58 (media) | alta | `31[.]70[.]81[.]171:7707` | ip:port | AsyncRAT | ThreatFox | 2026-09-05 19:45:55 UTC |
+| 57 (media) | media | `45[.]130[.]147[.]57:8089` | ip:port | VShell | ThreatFox | 2026-09-06 20:05:05 UTC |
+| 57 (media) | alta | `qh88[.]es` | domain | Remcos | ThreatFox | 2026-09-06 19:50:22 UTC |
 | 57 (media) | media | `fallow-willow-diogdaiyn[.]xyz` | domain | IClickFix | ThreatFox | 2026-09-06 14:33:52 UTC |
 | 57 (media) | alta | `hxxps://46[.]62[.]138[.]14` | url | Vidar | ThreatFox | 2026-09-06 14:18:11 UTC |
 | 57 (media) | critica | `91[.]92[.]241[.]184:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-06 09:47:08 UTC |
 | 57 (media) | media | `38[.]46[.]15[.]206:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:05 UTC |
 | 57 (media) | critica | `223[.]109[.]142[.]7:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-06 01:05:05 UTC |
-| 57 (media) | media | `111[.]170[.]148[.]132:5674` | ip:port | Unknown malware | ThreatFox | 2026-09-05 19:05:04 UTC |
-| 57 (media) | alta | `58[.]181[.]61[.]142:7746` | ip:port | Ghost RAT | ThreatFox | 2026-09-05 19:00:10 UTC |
+| 56 (media) | media | `134[.]122[.]155[.]245:8085` | ip:port | VShell | ThreatFox | 2026-09-06 20:05:05 UTC |
 | 56 (media) | critica | `193[.]239[.]86[.]193:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-06 15:05:06 UTC |
 | 56 (media) | alta | `explosiondance[.]nl` | domain | ClearFake | ThreatFox | 2026-09-06 15:00:39 UTC |
 | 56 (media) | alta | `jdj3ssby[.]us-en-us-nervesoothe[.]com` | domain | ClearFake | ThreatFox | 2026-09-06 14:36:51 UTC |
@@ -147,6 +146,7 @@ python main.py
 | 56 (media) | media | `38[.]46[.]15[.]205:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:06 UTC |
 | 56 (media) | media | `38[.]46[.]15[.]203:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:06 UTC |
 | 56 (media) | media | `38[.]46[.]15[.]202:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:05 UTC |
+| 56 (media) | alta | `zad672je[.]us-theeloncode[.]com` | domain | ClearFake | ThreatFox | 2026-09-06 08:32:13 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
