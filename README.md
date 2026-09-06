@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-06 10:50 UTC · **IOCs recolectados:** 1193 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-06 15:26 UTC · **IOCs recolectados:** 1069 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 72 (alta) | alta | `94[.]154[.]43[.]107:1999` | ip:port | Mirai | ThreatFox | 2026-09-05 11:34:50 UTC |
-| 68 (media) | alta | `91[.]92[.]42[.]16:5996` | ip:port | AsyncRAT | ThreatFox | 2026-09-05 10:40:08 UTC |
-| 65 (media) | alta | `158[.]94[.]208[.]19:4782` | ip:port | Quasar RAT | ThreatFox | 2026-09-05 11:34:56 UTC |
 | 63 (media) | alta | `184[.]75[.]208[.]26:48988` | ip:port | Borat RAT | ThreatFox | 2026-09-06 08:20:29 UTC |
 | 62 (media) | alta | `83[.]136[.]211[.]230:56001` | ip:port | PureRAT | ThreatFox | 2026-09-05 19:46:44 UTC |
 | 61 (media) | media | `hxxp://27[.]222[.]48[.]192:43573/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-09-06 06:19:51 UTC |
-| 61 (media) | media | `94822534ac0175c1fa967295027dd7d4cec7bc83c4dccc377636356e0a8da45e` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:12 UTC |
-| 61 (media) | media | `7589b0489113b4b4a8a923fea0389fd20541fcf1f15000670772a2d2be839a41` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:05 UTC |
 | 60 (media) | alta | `141[.]94[.]121[.]162:6672` | ip:port | DCRat | ThreatFox | 2026-09-06 01:05:07 UTC |
-| 60 (media) | media | `869b6102fb50c5c6dcb0c03450955620f97d509dfdb57fe4d3dcfa4d3b991d69` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:11 UTC |
-| 60 (media) | media | `f8be433cb61ee5129b0dc9849536a38505a0aede4678a092c1ec7472348936cb` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:09 UTC |
-| 60 (media) | media | `a98ea13971d165450b31e3e0537eaf1c0ee13a46b1bd583d49ed89ba5ff5c778` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:08 UTC |
-| 60 (media) | media | `a59c243fff84214cd84d176348e64449b4660b7c29fe75277b63d10d70a656a7` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:08 UTC |
-| 59 (media) | media | `hxxps://jsonserv[.]biz/app-store` | url | Anubis | ThreatFox | 2026-09-05 11:34:45 UTC |
-| 59 (media) | media | `4d64c5b51a42ffca925de494bc2b1230e98f4b0d6d371554e530ce054d881cdb` | sha256_hash | RemoteAdmin | ThreatFox | 2026-09-05 11:31:58 UTC |
+| 58 (media) | media | `shadowmetric[.]buzz` | domain | IClickFix | ThreatFox | 2026-09-06 14:33:52 UTC |
 | 58 (media) | critica | `91[.]92[.]241[.]187:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-06 09:47:09 UTC |
 | 58 (media) | alta | `31[.]70[.]81[.]171:7707` | ip:port | AsyncRAT | ThreatFox | 2026-09-05 19:45:55 UTC |
-| 58 (media) | media | `df09986d46e148afe08c1e34b24ea3b81f67c1c352d387b1afcb93357e669cfb` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:12 UTC |
-| 58 (media) | media | `7ed8bb73e85b210ebf8017f86785bc221688ace4321204c3b93856c5a99bf078` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:07 UTC |
-| 58 (media) | media | `905b2b3bcd86200c62c4e9aa2b19706da6d437ac208fed930f7ea5d48cd8ab13` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:07 UTC |
+| 57 (media) | media | `fallow-willow-diogdaiyn[.]xyz` | domain | IClickFix | ThreatFox | 2026-09-06 14:33:52 UTC |
+| 57 (media) | alta | `hxxps://46[.]62[.]138[.]14` | url | Vidar | ThreatFox | 2026-09-06 14:18:11 UTC |
 | 57 (media) | critica | `91[.]92[.]241[.]184:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-06 09:47:08 UTC |
 | 57 (media) | media | `38[.]46[.]15[.]206:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:05 UTC |
 | 57 (media) | critica | `223[.]109[.]142[.]7:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-06 01:05:05 UTC |
 | 57 (media) | media | `111[.]170[.]148[.]132:5674` | ip:port | Unknown malware | ThreatFox | 2026-09-05 19:05:04 UTC |
 | 57 (media) | alta | `58[.]181[.]61[.]142:7746` | ip:port | Ghost RAT | ThreatFox | 2026-09-05 19:00:10 UTC |
+| 56 (media) | critica | `193[.]239[.]86[.]193:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-06 15:05:06 UTC |
+| 56 (media) | alta | `explosiondance[.]nl` | domain | ClearFake | ThreatFox | 2026-09-06 15:00:39 UTC |
+| 56 (media) | alta | `jdj3ssby[.]us-en-us-nervesoothe[.]com` | domain | ClearFake | ThreatFox | 2026-09-06 14:36:51 UTC |
+| 56 (media) | alta | `oo1cjsjt[.]pura--boost[.]us` | domain | ClearFake | ThreatFox | 2026-09-06 10:23:35 UTC |
+| 56 (media) | alta | `www[.]confrariacorporativa[.]com[.]br` | domain | ClearFake | ThreatFox | 2026-09-06 10:08:40 UTC |
+| 56 (media) | alta | `134[.]122[.]68[.]91:8080` | ip:port | Aisuru | ThreatFox | 2026-09-06 09:46:05 UTC |
+| 56 (media) | alta | `bl0kfp6v[.]us-en-us-nervealive[.]com` | domain | ClearFake | ThreatFox | 2026-09-06 09:33:05 UTC |
+| 56 (media) | alta | `tvdpamxr[.]us-usa-memorylift[.]com` | domain | ClearFake | ThreatFox | 2026-09-06 09:23:54 UTC |
+| 56 (media) | media | `38[.]46[.]15[.]205:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:06 UTC |
+| 56 (media) | media | `38[.]46[.]15[.]203:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:06 UTC |
+| 56 (media) | media | `38[.]46[.]15[.]202:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
