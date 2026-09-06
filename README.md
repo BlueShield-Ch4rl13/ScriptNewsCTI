@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-05 20:21 UTC · **IOCs recolectados:** 712 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-06 04:09 UTC · **IOCs recolectados:** 1046 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -129,6 +129,7 @@ python main.py
 | 61 (media) | media | `94822534ac0175c1fa967295027dd7d4cec7bc83c4dccc377636356e0a8da45e` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:12 UTC |
 | 61 (media) | media | `7589b0489113b4b4a8a923fea0389fd20541fcf1f15000670772a2d2be839a41` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:05 UTC |
 | 61 (media) | media | `hxxp://123[.]161[.]90[.]221:49111/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-09-05 11:34:42 UTC |
+| 60 (media) | alta | `141[.]94[.]121[.]162:6672` | ip:port | DCRat | ThreatFox | 2026-09-06 01:05:07 UTC |
 | 60 (media) | media | `869b6102fb50c5c6dcb0c03450955620f97d509dfdb57fe4d3dcfa4d3b991d69` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:11 UTC |
 | 60 (media) | media | `f8be433cb61ee5129b0dc9849536a38505a0aede4678a092c1ec7472348936cb` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:09 UTC |
 | 60 (media) | media | `a98ea13971d165450b31e3e0537eaf1c0ee13a46b1bd583d49ed89ba5ff5c778` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:08 UTC |
@@ -139,14 +140,13 @@ python main.py
 | 58 (media) | media | `df09986d46e148afe08c1e34b24ea3b81f67c1c352d387b1afcb93357e669cfb` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:12 UTC |
 | 58 (media) | media | `7ed8bb73e85b210ebf8017f86785bc221688ace4321204c3b93856c5a99bf078` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:07 UTC |
 | 58 (media) | media | `905b2b3bcd86200c62c4e9aa2b19706da6d437ac208fed930f7ea5d48cd8ab13` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:07 UTC |
+| 57 (media) | critica | `223[.]109[.]142[.]7:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-06 01:05:05 UTC |
 | 57 (media) | media | `111[.]170[.]148[.]132:5674` | ip:port | Unknown malware | ThreatFox | 2026-09-05 19:05:04 UTC |
 | 57 (media) | alta | `58[.]181[.]61[.]142:7746` | ip:port | Ghost RAT | ThreatFox | 2026-09-05 19:00:10 UTC |
 | 57 (media) | media | `362c814cad84799aa4516b5c7c418937e12721110af1ec186ca29f3c26aa636a` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:12 UTC |
 | 57 (media) | media | `c29966b4b4ffe0abf98da6c863b295cbfcccfd933c850980367c022e43aea421` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:08 UTC |
 | 57 (media) | media | `bb1cbf406c40cf55017199b3d6789ead0dc5d59da1e6a891a0ad87c6f1ca864c` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:06 UTC |
 | 57 (media) | media | `acd9c6c8cdd44ae683696b40a9455929e6cb7a33d5aab38aadbefa001547ff0d` | sha256_hash | Coruna | ThreatFox | 2026-09-05 13:52:05 UTC |
-| 57 (media) | alta | `176[.]98[.]182[.]218:9035` | ip:port | Aisuru | ThreatFox | 2026-09-05 11:34:44 UTC |
-| 57 (media) | alta | `hxxp://sghecc[.]com/equal/five/fre[.]php` | url | Loki Password Stealer (PWS) | ThreatFox | 2026-09-05 01:50:03 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
