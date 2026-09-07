@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-07 12:17 UTC · **IOCs recolectados:** 1797 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-07 21:33 UTC · **IOCs recolectados:** 1164 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -124,7 +124,7 @@ python main.py
 |---|---|---|---|---|---|---|
 | 77 (alta) | alta | `134[.]209[.]251[.]50:8001` | ip:port | Aisuru | ThreatFox | 2026-09-07 05:44:27 UTC |
 | 77 (alta) | alta | `134[.]209[.]251[.]50:8080` | ip:port | Aisuru | ThreatFox | 2026-09-07 05:44:26 UTC |
-| 73 (alta) | alta | `180[.]93[.]115[.]26:80` | ip:port | Mirai | ThreatFox | 2026-09-06 19:44:18 UTC |
+| 72 (alta) | alta | `94[.]154[.]43[.]38:80` | ip:port | Mirai | ThreatFox | 2026-09-07 19:47:17 UTC |
 | 71 (alta) | alta | `91[.]92[.]40[.]108:9111` | ip:port | Unknown RAT | ThreatFox | 2026-09-07 06:36:59 UTC |
 | 71 (alta) | alta | `90bbefd7f59df783c656d143564b4f7b8a7fc7d76517325127d1b3f5a51b757b` | sha256_hash | PureLogs Stealer | ThreatFox | 2026-09-07 05:44:28 UTC |
 | 68 (media) | media | `94[.]154[.]43[.]200:606` | ip:port | Unknown malware | ThreatFox | 2026-09-07 05:44:24 UTC |
@@ -134,6 +134,9 @@ python main.py
 | 61 (media) | alta | `64[.]225[.]107[.]48:8001` | ip:port | Aisuru | ThreatFox | 2026-09-07 05:44:28 UTC |
 | 60 (media) | alta | `130[.]12[.]182[.]211:2404` | ip:port | Remcos | ThreatFox | 2026-09-06 23:20:38 UTC |
 | 59 (media) | media | `144[.]225[.]137[.]26:80` | ip:port | VShell | ThreatFox | 2026-09-07 05:05:06 UTC |
+| 58 (media) | alta | `31[.]57[.]38[.]195:56001` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
+| 58 (media) | alta | `31[.]57[.]38[.]195:56002` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
+| 58 (media) | alta | `31[.]57[.]38[.]195:56003` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
 | 58 (media) | alta | `hxxps://haziranaltyapi[.]com/welcome/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:11 UTC |
 | 58 (media) | alta | `hxxps://hybridmediaworks[.]net/gplznr/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:09 UTC |
 | 58 (media) | alta | `hxxps://simecsoft[.]myscriptcase[.]com/zr/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:08 UTC |
@@ -144,9 +147,6 @@ python main.py
 | 58 (media) | alta | `09739441ed4599bac2f8159028f772f71e4b25c8badfff95574e56d7384f3dbe` | sha256_hash | CurlBack RAT | ThreatFox, OTX | 2026-09-07 09:00:38 UTC |
 | 58 (media) | alta | `12810854c8b2c391b23e2e18b013e873d0369b0637aa3cf993136c07188ba3b8` | sha256_hash | CurlBack RAT | ThreatFox, OTX | 2026-09-07 09:00:38 UTC |
 | 58 (media) | alta | `2f02b09d61d432134e994ad671258f523bbf289ae6091fd4eae192c60bd51b6f` | sha256_hash | CurlBack RAT | ThreatFox, OTX | 2026-09-07 09:00:37 UTC |
-| 58 (media) | alta | `5db1b6d52faf60b4f32d6fd0c7c938e4d05d29a14c32ded4a9668357c08b6a91` | sha256_hash | CurlBack RAT | ThreatFox, OTX | 2026-09-07 09:00:37 UTC |
-| 58 (media) | alta | `6cf1b5e92a9c0756f597a5ddefb38eba32961c52efac7ab2a0aa52c639a8fc53` | sha256_hash | CurlBack RAT | ThreatFox, OTX | 2026-09-07 09:00:37 UTC |
-| 58 (media) | alta | `7007a78d50a993cb174c685eba96eb442c9507e38fd9d8e5dffc712f613ec110` | sha256_hash | CurlBack RAT | ThreatFox, OTX | 2026-09-07 09:00:36 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
