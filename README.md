@@ -116,15 +116,20 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-06 20:25 UTC · **IOCs recolectados:** 1830 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-07 04:09 UTC · **IOCs recolectados:** 1402 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 77 (alta) | alta | `134[.]209[.]251[.]50:8080` | ip:port | Aisuru | ThreatFox | 2026-09-07 03:39:47 UTC |
+| 77 (alta) | alta | `134[.]209[.]251[.]50:8001` | ip:port | Aisuru | ThreatFox | 2026-09-07 02:36:30 UTC |
 | 73 (alta) | alta | `180[.]93[.]115[.]26:80` | ip:port | Mirai | ThreatFox | 2026-09-06 19:44:18 UTC |
+| 71 (alta) | alta | `90bbefd7f59df783c656d143564b4f7b8a7fc7d76517325127d1b3f5a51b757b` | sha256_hash | PureLogs Stealer | ThreatFox | 2026-09-07 03:27:10 UTC |
 | 63 (media) | alta | `184[.]75[.]208[.]26:48988` | ip:port | Borat RAT | ThreatFox | 2026-09-06 08:20:29 UTC |
-| 60 (media) | alta | `141[.]94[.]121[.]162:6672` | ip:port | DCRat | ThreatFox | 2026-09-06 01:05:07 UTC |
+| 61 (media) | alta | `64[.]225[.]107[.]48:8001` | ip:port | Aisuru | ThreatFox | 2026-09-07 02:36:18 UTC |
+| 60 (media) | alta | `130[.]12[.]182[.]211:2404` | ip:port | Remcos | ThreatFox | 2026-09-06 23:20:38 UTC |
+| 58 (media) | alta | `167[.]172[.]147[.]77:8001` | ip:port | Aisuru | ThreatFox | 2026-09-07 02:35:39 UTC |
 | 58 (media) | media | `shadowmetric[.]buzz` | domain | IClickFix | ThreatFox | 2026-09-06 14:33:52 UTC |
 | 58 (media) | critica | `91[.]92[.]241[.]187:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-06 09:47:09 UTC |
 | 57 (media) | media | `45[.]130[.]147[.]57:8089` | ip:port | VShell | ThreatFox | 2026-09-06 20:05:05 UTC |
@@ -133,20 +138,15 @@ python main.py
 | 57 (media) | alta | `hxxps://46[.]62[.]138[.]14` | url | Vidar | ThreatFox | 2026-09-06 14:18:11 UTC |
 | 57 (media) | critica | `91[.]92[.]241[.]184:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-06 09:47:08 UTC |
 | 57 (media) | media | `38[.]46[.]15[.]206:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:05 UTC |
-| 57 (media) | critica | `223[.]109[.]142[.]7:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-06 01:05:05 UTC |
+| 56 (media) | media | `154[.]91[.]63[.]112:8094` | ip:port | VShell | ThreatFox | 2026-09-07 03:05:09 UTC |
+| 56 (media) | media | `154[.]91[.]56[.]123:8094` | ip:port | VShell | ThreatFox | 2026-09-07 03:05:06 UTC |
+| 56 (media) | alta | `167[.]172[.]72[.]46:8001` | ip:port | Aisuru | ThreatFox | 2026-09-07 02:36:05 UTC |
+| 56 (media) | media | `140[.]210[.]136[.]68:8088` | ip:port | VShell | ThreatFox | 2026-09-07 02:05:07 UTC |
 | 56 (media) | media | `134[.]122[.]155[.]245:8085` | ip:port | VShell | ThreatFox | 2026-09-06 20:05:05 UTC |
 | 56 (media) | critica | `193[.]239[.]86[.]193:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-06 15:05:06 UTC |
 | 56 (media) | alta | `explosiondance[.]nl` | domain | ClearFake | ThreatFox | 2026-09-06 15:00:39 UTC |
 | 56 (media) | alta | `jdj3ssby[.]us-en-us-nervesoothe[.]com` | domain | ClearFake | ThreatFox | 2026-09-06 14:36:51 UTC |
 | 56 (media) | alta | `oo1cjsjt[.]pura--boost[.]us` | domain | ClearFake | ThreatFox | 2026-09-06 10:23:35 UTC |
-| 56 (media) | alta | `www[.]confrariacorporativa[.]com[.]br` | domain | ClearFake | ThreatFox | 2026-09-06 10:08:40 UTC |
-| 56 (media) | alta | `134[.]122[.]68[.]91:8080` | ip:port | Aisuru | ThreatFox | 2026-09-06 09:46:05 UTC |
-| 56 (media) | alta | `bl0kfp6v[.]us-en-us-nervealive[.]com` | domain | ClearFake | ThreatFox | 2026-09-06 09:33:05 UTC |
-| 56 (media) | alta | `tvdpamxr[.]us-usa-memorylift[.]com` | domain | ClearFake | ThreatFox | 2026-09-06 09:23:54 UTC |
-| 56 (media) | media | `38[.]46[.]15[.]205:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:06 UTC |
-| 56 (media) | media | `38[.]46[.]15[.]203:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:06 UTC |
-| 56 (media) | media | `38[.]46[.]15[.]202:4141` | ip:port | VShell | ThreatFox | 2026-09-06 09:05:05 UTC |
-| 56 (media) | alta | `zad672je[.]us-theeloncode[.]com` | domain | ClearFake | ThreatFox | 2026-09-06 08:32:13 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
