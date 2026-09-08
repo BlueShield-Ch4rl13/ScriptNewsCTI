@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-08 11:09 UTC · **IOCs recolectados:** 2127 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-09-08 16:34 UTC · **IOCs recolectados:** 2023 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -124,21 +124,19 @@ python main.py
 |---|---|---|---|---|---|---|
 | 75 (alta) | alta | `134[.]209[.]251[.]50:8443` | ip:port | Aisuru | ThreatFox | 2026-09-08 07:34:44 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]38:80` | ip:port | Mirai | ThreatFox | 2026-09-07 19:47:17 UTC |
+| 58 (media) | media | `192[.]144[.]219[.]65:8089` | ip:port | VShell | ThreatFox | 2026-09-08 15:05:05 UTC |
 | 58 (media) | alta | `31[.]57[.]38[.]195:56001` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
 | 58 (media) | alta | `31[.]57[.]38[.]195:56002` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
 | 58 (media) | alta | `31[.]57[.]38[.]195:56003` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
-| 58 (media) | alta | `hxxps://haziranaltyapi[.]com/welcome/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:11 UTC |
-| 58 (media) | alta | `hxxps://hybridmediaworks[.]net/gplznr/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:09 UTC |
-| 58 (media) | alta | `hxxps://simecsoft[.]myscriptcase[.]com/zr/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:08 UTC |
-| 58 (media) | alta | `hxxps://sportspromotion[.]mx/trackplanzer/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:05 UTC |
-| 58 (media) | alta | `hxxps://capmentor[.]vn/planzer/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:05 UTC |
-| 58 (media) | alta | `hxxps://capmentor[.]vn/plo/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:04 UTC |
+| 57 (media) | media | `hxxp://68[.]110[.]47[.]231/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-08 15:26:21 UTC |
 | 57 (media) | media | `hxxp://104[.]239[.]66[.]104:8888/1/reosmesf967rgeaveon[.]jug` | url | Unknown malware | ThreatFox | 2026-09-08 10:54:24 UTC |
-| 57 (media) | alta | `hxxps://asstace[.]com[.]br/pla/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:10 UTC |
-| 57 (media) | alta | `hxxps://terasoft[.]co[.]id/ex/planzrx/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:08 UTC |
-| 57 (media) | alta | `hxxps://capmentor[.]vn/plnzr/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:04 UTC |
-| 57 (media) | alta | `hxxps://capmentor[.]vn/cul/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:04 UTC |
-| 57 (media) | alta | `hxxps://gc-palmira[.]mx/plr/` | url | Unknown Stealer | ThreatFox | 2026-09-07 11:54:02 UTC |
+| 56 (media) | media | `134[.]122[.]155[.]243:8085` | ip:port | VShell | ThreatFox | 2026-09-08 16:05:07 UTC |
+| 56 (media) | critica | `42[.]194[.]241[.]92:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-09-08 16:05:05 UTC |
+| 56 (media) | media | `hxxp://103[.]8[.]164[.]18/Video[.]scr` | url | xmrig | ThreatFox | 2026-09-08 15:05:31 UTC |
+| 56 (media) | media | `137[.]184[.]108[.]14:9895` | ip:port | Remus | ThreatFox | 2026-09-08 15:05:31 UTC |
+| 56 (media) | critica | `42[.]194[.]241[.]92:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-08 15:05:07 UTC |
+| 56 (media) | critica | `42[.]194[.]241[.]92:443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-08 15:05:07 UTC |
+| 56 (media) | media | `marooncloister[.]info` | domain | SmartApeSG | ThreatFox | 2026-09-08 14:44:38 UTC |
 | 56 (media) | media | `154[.]91[.]59[.]118:8094` | ip:port | VShell | ThreatFox | 2026-09-08 10:05:07 UTC |
 | 56 (media) | media | `154[.]91[.]60[.]126:8094` | ip:port | VShell | ThreatFox | 2026-09-08 10:05:06 UTC |
 | 56 (media) | media | `154[.]91[.]59[.]119:8094` | ip:port | VShell | ThreatFox | 2026-09-08 10:05:06 UTC |
@@ -147,6 +145,8 @@ python main.py
 | 56 (media) | alta | `comsift[.]com` | domain | ClearFake | ThreatFox | 2026-09-08 09:08:45 UTC |
 | 56 (media) | media | `154[.]91[.]63[.]105:8094` | ip:port | VShell | ThreatFox | 2026-09-08 09:05:06 UTC |
 | 56 (media) | media | `154[.]91[.]61[.]106:8094` | ip:port | VShell | ThreatFox | 2026-09-08 09:05:05 UTC |
+| 56 (media) | media | `154[.]91[.]63[.]100:8094` | ip:port | VShell | ThreatFox | 2026-09-08 09:05:05 UTC |
+| 56 (media) | media | `hxxp://190[.]196[.]38[.]77/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-08 05:10:03 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
