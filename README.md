@@ -116,20 +116,18 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-08 16:34 UTC · **IOCs recolectados:** 2023 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-09-08 21:08 UTC · **IOCs recolectados:** 1993 · **CVEs KEV recientes:** 24
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 75 (alta) | alta | `134[.]209[.]251[.]50:8443` | ip:port | Aisuru | ThreatFox | 2026-09-08 07:34:44 UTC |
-| 72 (alta) | alta | `94[.]154[.]43[.]38:80` | ip:port | Mirai | ThreatFox | 2026-09-07 19:47:17 UTC |
 | 58 (media) | media | `192[.]144[.]219[.]65:8089` | ip:port | VShell | ThreatFox | 2026-09-08 15:05:05 UTC |
-| 58 (media) | alta | `31[.]57[.]38[.]195:56001` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
-| 58 (media) | alta | `31[.]57[.]38[.]195:56002` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
-| 58 (media) | alta | `31[.]57[.]38[.]195:56003` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
 | 57 (media) | media | `hxxp://68[.]110[.]47[.]231/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-08 15:26:21 UTC |
 | 57 (media) | media | `hxxp://104[.]239[.]66[.]104:8888/1/reosmesf967rgeaveon[.]jug` | url | Unknown malware | ThreatFox | 2026-09-08 10:54:24 UTC |
+| 56 (media) | media | `hxxp://111[.]235[.]143[.]155:8080/AV[.]scr` | url | Unknown malware | ThreatFox | 2026-09-08 20:26:48 UTC |
+| 56 (media) | media | `154[.]91[.]58[.]100:8094` | ip:port | VShell | ThreatFox | 2026-09-08 20:05:07 UTC |
 | 56 (media) | media | `134[.]122[.]155[.]243:8085` | ip:port | VShell | ThreatFox | 2026-09-08 16:05:07 UTC |
 | 56 (media) | critica | `42[.]194[.]241[.]92:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-09-08 16:05:05 UTC |
 | 56 (media) | media | `hxxp://103[.]8[.]164[.]18/Video[.]scr` | url | xmrig | ThreatFox | 2026-09-08 15:05:31 UTC |
@@ -147,11 +145,17 @@ python main.py
 | 56 (media) | media | `154[.]91[.]61[.]106:8094` | ip:port | VShell | ThreatFox | 2026-09-08 09:05:05 UTC |
 | 56 (media) | media | `154[.]91[.]63[.]100:8094` | ip:port | VShell | ThreatFox | 2026-09-08 09:05:05 UTC |
 | 56 (media) | media | `hxxp://190[.]196[.]38[.]77/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-08 05:10:03 UTC |
+| 56 (media) | media | `hxxp://200[.]14[.]250[.]72/TmpFTP/DELCACHEPRODUTOSEG/1/6011/26092024073810/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-08 05:09:59 UTC |
+| 56 (media) | media | `154[.]91[.]62[.]126:8094` | ip:port | VShell | ThreatFox | 2026-09-08 03:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-75650 | Adobe Commerce and Magento | 2026-09-08 | Unknown |
+| CVE-2026-81963 | Microsoft Windows | 2026-09-08 | Unknown |
+| CVE-2026-86218 | N-able N-central | 2026-09-08 | Unknown |
+| CVE-2026-85880 | Microsoft Windows | 2026-09-08 | Unknown |
 | CVE-2026-85046 | Google Chromium V8 | 2026-09-04 | Unknown |
 | CVE-2026-59822 | BerriAI LiteLLM | 2026-09-02 | Unknown |
 | CVE-2026-48710 | Kludex Starlette | 2026-09-02 | Unknown |
