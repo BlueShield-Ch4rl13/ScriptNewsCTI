@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-07 21:33 UTC · **IOCs recolectados:** 1164 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-08 04:10 UTC · **IOCs recolectados:** 1235 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -132,7 +132,6 @@ python main.py
 | 66 (media) | alta | `184[.]75[.]208[.]10:49006` | ip:port | Remcos | ThreatFox | 2026-09-07 08:18:08 UTC |
 | 61 (media) | alta | `64[.]225[.]107[.]48:8080` | ip:port | Aisuru | ThreatFox | 2026-09-07 09:41:48 UTC |
 | 61 (media) | alta | `64[.]225[.]107[.]48:8001` | ip:port | Aisuru | ThreatFox | 2026-09-07 05:44:28 UTC |
-| 60 (media) | alta | `130[.]12[.]182[.]211:2404` | ip:port | Remcos | ThreatFox | 2026-09-06 23:20:38 UTC |
 | 59 (media) | media | `144[.]225[.]137[.]26:80` | ip:port | VShell | ThreatFox | 2026-09-07 05:05:06 UTC |
 | 58 (media) | alta | `31[.]57[.]38[.]195:56001` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
 | 58 (media) | alta | `31[.]57[.]38[.]195:56002` | ip:port | PureRAT | ThreatFox | 2026-09-07 19:46:08 UTC |
@@ -147,6 +146,7 @@ python main.py
 | 58 (media) | alta | `09739441ed4599bac2f8159028f772f71e4b25c8badfff95574e56d7384f3dbe` | sha256_hash | CurlBack RAT | ThreatFox, OTX | 2026-09-07 09:00:38 UTC |
 | 58 (media) | alta | `12810854c8b2c391b23e2e18b013e873d0369b0637aa3cf993136c07188ba3b8` | sha256_hash | CurlBack RAT | ThreatFox, OTX | 2026-09-07 09:00:38 UTC |
 | 58 (media) | alta | `2f02b09d61d432134e994ad671258f523bbf289ae6091fd4eae192c60bd51b6f` | sha256_hash | CurlBack RAT | ThreatFox, OTX | 2026-09-07 09:00:37 UTC |
+| 58 (media) | alta | `5db1b6d52faf60b4f32d6fd0c7c938e4d05d29a14c32ded4a9668357c08b6a91` | sha256_hash | CurlBack RAT | ThreatFox, OTX | 2026-09-07 09:00:37 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -172,5 +172,4 @@ python main.py
 | CVE-2026-8452 | Citrix NetScaler ADC and NetScaler Gateway | 2026-08-26 | Unknown |
 | CVE-2019-1068 | Microsoft SQL Server | 2026-08-26 | Unknown |
 | CVE-2026-60004 | Gitea Gitea | 2026-08-25 | Unknown |
-| CVE-2026-21962 | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in | 2026-08-24 | Unknown |
 <!-- CTI:END -->
