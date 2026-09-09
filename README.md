@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-08 21:08 UTC · **IOCs recolectados:** 1993 · **CVEs KEV recientes:** 24
+**Última actualización:** 2026-09-09 04:17 UTC · **IOCs recolectados:** 2063 · **CVEs KEV recientes:** 23
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -126,6 +126,11 @@ python main.py
 | 58 (media) | media | `192[.]144[.]219[.]65:8089` | ip:port | VShell | ThreatFox | 2026-09-08 15:05:05 UTC |
 | 57 (media) | media | `hxxp://68[.]110[.]47[.]231/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-08 15:26:21 UTC |
 | 57 (media) | media | `hxxp://104[.]239[.]66[.]104:8888/1/reosmesf967rgeaveon[.]jug` | url | Unknown malware | ThreatFox | 2026-09-08 10:54:24 UTC |
+| 56 (media) | media | `154[.]91[.]59[.]125:8094` | ip:port | VShell | ThreatFox | 2026-09-09 04:05:09 UTC |
+| 56 (media) | media | `154[.]91[.]59[.]123:8094` | ip:port | VShell | ThreatFox | 2026-09-09 04:05:07 UTC |
+| 56 (media) | media | `154[.]91[.]62[.]105:8094` | ip:port | VShell | ThreatFox | 2026-09-09 04:05:05 UTC |
+| 56 (media) | critica | `113[.]250[.]188[.]15:6784` | ip:port | Cobalt Strike | ThreatFox | 2026-09-09 03:47:24 UTC |
+| 56 (media) | alta | `sefs9gfo[.]zen-zensulin[.]com` | domain | ClearFake | ThreatFox | 2026-09-09 03:20:25 UTC |
 | 56 (media) | media | `hxxp://111[.]235[.]143[.]155:8080/AV[.]scr` | url | Unknown malware | ThreatFox | 2026-09-08 20:26:48 UTC |
 | 56 (media) | media | `154[.]91[.]58[.]100:8094` | ip:port | VShell | ThreatFox | 2026-09-08 20:05:07 UTC |
 | 56 (media) | media | `134[.]122[.]155[.]243:8085` | ip:port | VShell | ThreatFox | 2026-09-08 16:05:07 UTC |
@@ -142,11 +147,6 @@ python main.py
 | 56 (media) | alta | `dwzc4sh2[.]comsift[.]com` | domain | ClearFake | ThreatFox | 2026-09-08 09:10:19 UTC |
 | 56 (media) | alta | `comsift[.]com` | domain | ClearFake | ThreatFox | 2026-09-08 09:08:45 UTC |
 | 56 (media) | media | `154[.]91[.]63[.]105:8094` | ip:port | VShell | ThreatFox | 2026-09-08 09:05:06 UTC |
-| 56 (media) | media | `154[.]91[.]61[.]106:8094` | ip:port | VShell | ThreatFox | 2026-09-08 09:05:05 UTC |
-| 56 (media) | media | `154[.]91[.]63[.]100:8094` | ip:port | VShell | ThreatFox | 2026-09-08 09:05:05 UTC |
-| 56 (media) | media | `hxxp://190[.]196[.]38[.]77/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-08 05:10:03 UTC |
-| 56 (media) | media | `hxxp://200[.]14[.]250[.]72/TmpFTP/DELCACHEPRODUTOSEG/1/6011/26092024073810/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-08 05:09:59 UTC |
-| 56 (media) | media | `154[.]91[.]62[.]126:8094` | ip:port | VShell | ThreatFox | 2026-09-08 03:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -175,5 +175,4 @@ python main.py
 | CVE-2022-0995 | Linux Kernel | 2026-08-26 | Unknown |
 | CVE-2026-8452 | Citrix NetScaler ADC and NetScaler Gateway | 2026-08-26 | Unknown |
 | CVE-2019-1068 | Microsoft SQL Server | 2026-08-26 | Unknown |
-| CVE-2026-60004 | Gitea Gitea | 2026-08-25 | Unknown |
 <!-- CTI:END -->
