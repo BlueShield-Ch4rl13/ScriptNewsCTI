@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-09 04:17 UTC · **IOCs recolectados:** 2063 · **CVEs KEV recientes:** 23
+**Última actualización:** 2026-09-09 11:14 UTC · **IOCs recolectados:** 951 · **CVEs KEV recientes:** 23
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 75 (alta) | alta | `134[.]209[.]251[.]50:8443` | ip:port | Aisuru | ThreatFox | 2026-09-08 07:34:44 UTC |
+| 73 (alta) | media | `279d04c0cfd700c8bcb9acbed528131d3ffef8e25d12713e8649772739aecb92` | sha256_hash | Amatera | ThreatFox, OTX | 2026-09-09 10:14:34 UTC |
+| 70 (alta) | media | `bd36f4c15fe0acb6748da5ed12e45dcc37d412385812c078d1e4f04730e9f69b` | sha256_hash | Amatera | ThreatFox, OTX | 2026-09-09 10:14:33 UTC |
+| 69 (media) | media | `1819827e17f31e72d456158b6b9c90af25a65945f6f05d04a060da9f24179b25` | sha256_hash | Amatera | ThreatFox, OTX | 2026-09-09 10:14:34 UTC |
+| 61 (media) | alta | `165[.]227[.]142[.]229:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 08:47:35 UTC |
+| 60 (media) | media | `hxxp://158[.]94[.]211[.]92/enterprise/my_sss[.]bin` | url | Unknown malware | ThreatFox | 2026-09-09 10:59:52 UTC |
+| 59 (media) | alta | `64[.]225[.]102[.]231:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 10:14:37 UTC |
+| 58 (media) | media | `643ef35536ff9273fb84b8504467b1a5645cd3ffd5476d64b99244b02131b205` | sha256_hash | Amatera | ThreatFox, OTX | 2026-09-09 10:14:35 UTC |
+| 58 (media) | alta | `164[.]92[.]207[.]173:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 09:05:21 UTC |
 | 58 (media) | media | `192[.]144[.]219[.]65:8089` | ip:port | VShell | ThreatFox | 2026-09-08 15:05:05 UTC |
-| 57 (media) | media | `hxxp://68[.]110[.]47[.]231/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-08 15:26:21 UTC |
-| 57 (media) | media | `hxxp://104[.]239[.]66[.]104:8888/1/reosmesf967rgeaveon[.]jug` | url | Unknown malware | ThreatFox | 2026-09-08 10:54:24 UTC |
+| 57 (media) | media | `hxxp://136[.]233[.]149[.]66:8001/sshd` | url | Unknown malware | ThreatFox | 2026-09-09 10:14:32 UTC |
+| 57 (media) | media | `hxxp://68[.]110[.]47[.]231/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-09 07:14:23 UTC |
+| 56 (media) | alta | `hxxps://telegram[.]me/goof0r` | url | Vidar | ThreatFox | 2026-09-09 10:59:27 UTC |
+| 56 (media) | alta | `159[.]65[.]59[.]117:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 10:14:38 UTC |
+| 56 (media) | media | `hxxp://151[.]80[.]76[.]67:1224/api/checkStatus` | url | BeaverTail | ThreatFox | 2026-09-09 10:14:36 UTC |
+| 56 (media) | media | `hxxps://a5lab[.]co/api/settings/linux` | url | BeaverTail | ThreatFox | 2026-09-09 10:14:36 UTC |
+| 56 (media) | media | `154[.]91[.]62[.]102:8094` | ip:port | VShell | ThreatFox | 2026-09-09 10:05:06 UTC |
+| 56 (media) | media | `154[.]91[.]56[.]100:8094` | ip:port | VShell | ThreatFox | 2026-09-09 10:05:05 UTC |
+| 56 (media) | alta | `209[.]38[.]225[.]90:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 08:47:35 UTC |
+| 56 (media) | media | `hxxp://111[.]235[.]143[.]155:8080/AV[.]scr` | url | Unknown malware | ThreatFox | 2026-09-09 07:14:10 UTC |
+| 56 (media) | media | `marooncloister[.]info` | domain | SmartApeSG | ThreatFox | 2026-09-09 05:49:19 UTC |
 | 56 (media) | media | `154[.]91[.]59[.]125:8094` | ip:port | VShell | ThreatFox | 2026-09-09 04:05:09 UTC |
 | 56 (media) | media | `154[.]91[.]59[.]123:8094` | ip:port | VShell | ThreatFox | 2026-09-09 04:05:07 UTC |
 | 56 (media) | media | `154[.]91[.]62[.]105:8094` | ip:port | VShell | ThreatFox | 2026-09-09 04:05:05 UTC |
 | 56 (media) | critica | `113[.]250[.]188[.]15:6784` | ip:port | Cobalt Strike | ThreatFox | 2026-09-09 03:47:24 UTC |
 | 56 (media) | alta | `sefs9gfo[.]zen-zensulin[.]com` | domain | ClearFake | ThreatFox | 2026-09-09 03:20:25 UTC |
-| 56 (media) | media | `hxxp://111[.]235[.]143[.]155:8080/AV[.]scr` | url | Unknown malware | ThreatFox | 2026-09-08 20:26:48 UTC |
-| 56 (media) | media | `154[.]91[.]58[.]100:8094` | ip:port | VShell | ThreatFox | 2026-09-08 20:05:07 UTC |
-| 56 (media) | media | `134[.]122[.]155[.]243:8085` | ip:port | VShell | ThreatFox | 2026-09-08 16:05:07 UTC |
-| 56 (media) | critica | `42[.]194[.]241[.]92:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-09-08 16:05:05 UTC |
-| 56 (media) | media | `hxxp://103[.]8[.]164[.]18/Video[.]scr` | url | xmrig | ThreatFox | 2026-09-08 15:05:31 UTC |
-| 56 (media) | media | `137[.]184[.]108[.]14:9895` | ip:port | Remus | ThreatFox | 2026-09-08 15:05:31 UTC |
-| 56 (media) | critica | `42[.]194[.]241[.]92:22` | ip:port | Cobalt Strike | ThreatFox | 2026-09-08 15:05:07 UTC |
-| 56 (media) | critica | `42[.]194[.]241[.]92:443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-08 15:05:07 UTC |
-| 56 (media) | media | `marooncloister[.]info` | domain | SmartApeSG | ThreatFox | 2026-09-08 14:44:38 UTC |
-| 56 (media) | media | `154[.]91[.]59[.]118:8094` | ip:port | VShell | ThreatFox | 2026-09-08 10:05:07 UTC |
-| 56 (media) | media | `154[.]91[.]60[.]126:8094` | ip:port | VShell | ThreatFox | 2026-09-08 10:05:06 UTC |
-| 56 (media) | media | `154[.]91[.]59[.]119:8094` | ip:port | VShell | ThreatFox | 2026-09-08 10:05:06 UTC |
-| 56 (media) | media | `rug[.]betweenthebunz[.]co` | domain | IClickFix | ThreatFox | 2026-09-08 09:21:24 UTC |
-| 56 (media) | alta | `dwzc4sh2[.]comsift[.]com` | domain | ClearFake | ThreatFox | 2026-09-08 09:10:19 UTC |
-| 56 (media) | alta | `comsift[.]com` | domain | ClearFake | ThreatFox | 2026-09-08 09:08:45 UTC |
-| 56 (media) | media | `154[.]91[.]63[.]105:8094` | ip:port | VShell | ThreatFox | 2026-09-08 09:05:06 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
