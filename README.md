@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-09 11:14 UTC · **IOCs recolectados:** 951 · **CVEs KEV recientes:** 23
+**Última actualización:** 2026-09-09 16:30 UTC · **IOCs recolectados:** 1094 · **CVEs KEV recientes:** 23
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 73 (alta) | media | `279d04c0cfd700c8bcb9acbed528131d3ffef8e25d12713e8649772739aecb92` | sha256_hash | Amatera | ThreatFox, OTX | 2026-09-09 10:14:34 UTC |
-| 70 (alta) | media | `bd36f4c15fe0acb6748da5ed12e45dcc37d412385812c078d1e4f04730e9f69b` | sha256_hash | Amatera | ThreatFox, OTX | 2026-09-09 10:14:33 UTC |
-| 69 (media) | media | `1819827e17f31e72d456158b6b9c90af25a65945f6f05d04a060da9f24179b25` | sha256_hash | Amatera | ThreatFox, OTX | 2026-09-09 10:14:34 UTC |
+| 66 (media) | media | `hxxps://loop-lumen[.]com/zxc/app[.]zip` | url | AMOS | ThreatFox, URLhaus | 2026-09-09 15:58:25 UTC |
+| 66 (media) | media | `hxxps://loop-lumen[.]com/zxc/apptwo[.]zip` | url | AMOS | ThreatFox, URLhaus | 2026-09-09 15:58:25 UTC |
+| 66 (media) | media | `hxxps://loop-lumen[.]com/zxc/appex[.]zip` | url | AMOS | ThreatFox, URLhaus | 2026-09-09 15:58:25 UTC |
+| 63 (media) | media | `279d04c0cfd700c8bcb9acbed528131d3ffef8e25d12713e8649772739aecb92` | sha256_hash | Amatera | ThreatFox | 2026-09-09 10:14:34 UTC |
+| 61 (media) | alta | `31[.]13[.]190[.]58:9559` | ip:port | Remcos | ThreatFox | 2026-09-09 15:40:01 UTC |
+| 61 (media) | alta | `31[.]13[.]190[.]58:32635` | ip:port | Remcos | ThreatFox | 2026-09-09 15:26:29 UTC |
 | 61 (media) | alta | `165[.]227[.]142[.]229:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 08:47:35 UTC |
+| 60 (media) | alta | `31[.]13[.]190[.]58:9441` | ip:port | Remcos | ThreatFox | 2026-09-09 15:18:19 UTC |
+| 60 (media) | alta | `31[.]13[.]190[.]58:9442` | ip:port | Remcos | ThreatFox | 2026-09-09 15:18:18 UTC |
 | 60 (media) | media | `hxxp://158[.]94[.]211[.]92/enterprise/my_sss[.]bin` | url | Unknown malware | ThreatFox | 2026-09-09 10:59:52 UTC |
+| 60 (media) | media | `bd36f4c15fe0acb6748da5ed12e45dcc37d412385812c078d1e4f04730e9f69b` | sha256_hash | Amatera | ThreatFox | 2026-09-09 10:14:33 UTC |
+| 59 (media) | alta | `155[.]103[.]71[.]126:4142` | ip:port | Remcos | ThreatFox | 2026-09-09 16:13:07 UTC |
+| 59 (media) | alta | `93[.]127[.]160[.]86:9559` | ip:port | Remcos | ThreatFox | 2026-09-09 15:26:28 UTC |
+| 59 (media) | alta | `64[.]225[.]102[.]231:8443` | ip:port | Aisuru | ThreatFox | 2026-09-09 11:07:22 UTC |
 | 59 (media) | alta | `64[.]225[.]102[.]231:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 10:14:37 UTC |
-| 58 (media) | media | `643ef35536ff9273fb84b8504467b1a5645cd3ffd5476d64b99244b02131b205` | sha256_hash | Amatera | ThreatFox, OTX | 2026-09-09 10:14:35 UTC |
+| 59 (media) | media | `1819827e17f31e72d456158b6b9c90af25a65945f6f05d04a060da9f24179b25` | sha256_hash | Amatera | ThreatFox | 2026-09-09 10:14:34 UTC |
 | 58 (media) | alta | `164[.]92[.]207[.]173:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 09:05:21 UTC |
-| 58 (media) | media | `192[.]144[.]219[.]65:8089` | ip:port | VShell | ThreatFox | 2026-09-08 15:05:05 UTC |
+| 57 (media) | alta | `hxxps://elizmasmuts[.]co[.]za/wp-content/plugins/zaw/planzer/payment[.]php` | url | Unknown Stealer | ThreatFox | 2026-09-09 15:40:06 UTC |
+| 57 (media) | alta | `hxxps://planzr[.]vercel[.]app/` | url | Unknown Stealer | ThreatFox | 2026-09-09 15:40:02 UTC |
+| 57 (media) | media | `hxxp://141[.]134[.]214[.]217:8003/sshd` | url | Unknown malware | ThreatFox | 2026-09-09 15:40:00 UTC |
+| 57 (media) | media | `103[.]244[.]227[.]157:443` | ip:port | Unknown malware | ThreatFox | 2026-09-09 12:05:06 UTC |
 | 57 (media) | media | `hxxp://136[.]233[.]149[.]66:8001/sshd` | url | Unknown malware | ThreatFox | 2026-09-09 10:14:32 UTC |
 | 57 (media) | media | `hxxp://68[.]110[.]47[.]231/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-09 07:14:23 UTC |
-| 56 (media) | alta | `hxxps://telegram[.]me/goof0r` | url | Vidar | ThreatFox | 2026-09-09 10:59:27 UTC |
-| 56 (media) | alta | `159[.]65[.]59[.]117:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 10:14:38 UTC |
-| 56 (media) | media | `hxxp://151[.]80[.]76[.]67:1224/api/checkStatus` | url | BeaverTail | ThreatFox | 2026-09-09 10:14:36 UTC |
-| 56 (media) | media | `hxxps://a5lab[.]co/api/settings/linux` | url | BeaverTail | ThreatFox | 2026-09-09 10:14:36 UTC |
-| 56 (media) | media | `154[.]91[.]62[.]102:8094` | ip:port | VShell | ThreatFox | 2026-09-09 10:05:06 UTC |
-| 56 (media) | media | `154[.]91[.]56[.]100:8094` | ip:port | VShell | ThreatFox | 2026-09-09 10:05:05 UTC |
-| 56 (media) | alta | `209[.]38[.]225[.]90:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 08:47:35 UTC |
-| 56 (media) | media | `hxxp://111[.]235[.]143[.]155:8080/AV[.]scr` | url | Unknown malware | ThreatFox | 2026-09-09 07:14:10 UTC |
-| 56 (media) | media | `marooncloister[.]info` | domain | SmartApeSG | ThreatFox | 2026-09-09 05:49:19 UTC |
-| 56 (media) | media | `154[.]91[.]59[.]125:8094` | ip:port | VShell | ThreatFox | 2026-09-09 04:05:09 UTC |
-| 56 (media) | media | `154[.]91[.]59[.]123:8094` | ip:port | VShell | ThreatFox | 2026-09-09 04:05:07 UTC |
-| 56 (media) | media | `154[.]91[.]62[.]105:8094` | ip:port | VShell | ThreatFox | 2026-09-09 04:05:05 UTC |
-| 56 (media) | critica | `113[.]250[.]188[.]15:6784` | ip:port | Cobalt Strike | ThreatFox | 2026-09-09 03:47:24 UTC |
-| 56 (media) | alta | `sefs9gfo[.]zen-zensulin[.]com` | domain | ClearFake | ThreatFox | 2026-09-09 03:20:25 UTC |
+| 56 (media) | media | `shelternode18[.]com` | domain | AMOS | ThreatFox | 2026-09-09 15:58:27 UTC |
+| 56 (media) | media | `jadeleap15[.]com` | domain | AMOS | ThreatFox | 2026-09-09 15:58:27 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
