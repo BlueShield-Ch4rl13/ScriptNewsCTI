@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-09 16:30 UTC · **IOCs recolectados:** 1094 · **CVEs KEV recientes:** 23
+**Última actualización:** 2026-09-09 20:56 UTC · **IOCs recolectados:** 1132 · **CVEs KEV recientes:** 27
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -133,25 +133,29 @@ python main.py
 | 60 (media) | alta | `31[.]13[.]190[.]58:9442` | ip:port | Remcos | ThreatFox | 2026-09-09 15:18:18 UTC |
 | 60 (media) | media | `hxxp://158[.]94[.]211[.]92/enterprise/my_sss[.]bin` | url | Unknown malware | ThreatFox | 2026-09-09 10:59:52 UTC |
 | 60 (media) | media | `bd36f4c15fe0acb6748da5ed12e45dcc37d412385812c078d1e4f04730e9f69b` | sha256_hash | Amatera | ThreatFox | 2026-09-09 10:14:33 UTC |
-| 59 (media) | alta | `155[.]103[.]71[.]126:4142` | ip:port | Remcos | ThreatFox | 2026-09-09 16:13:07 UTC |
+| 59 (media) | media | `192[.]241[.]151[.]6:8443` | ip:port | Evilginx | ThreatFox | 2026-09-09 19:44:56 UTC |
+| 59 (media) | alta | `155[.]103[.]71[.]126:4142` | ip:port | Remcos | ThreatFox | 2026-09-09 16:43:01 UTC |
 | 59 (media) | alta | `93[.]127[.]160[.]86:9559` | ip:port | Remcos | ThreatFox | 2026-09-09 15:26:28 UTC |
 | 59 (media) | alta | `64[.]225[.]102[.]231:8443` | ip:port | Aisuru | ThreatFox | 2026-09-09 11:07:22 UTC |
 | 59 (media) | alta | `64[.]225[.]102[.]231:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 10:14:37 UTC |
 | 59 (media) | media | `1819827e17f31e72d456158b6b9c90af25a65945f6f05d04a060da9f24179b25` | sha256_hash | Amatera | ThreatFox | 2026-09-09 10:14:34 UTC |
 | 58 (media) | alta | `164[.]92[.]207[.]173:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 09:05:21 UTC |
+| 57 (media) | media | `hxxps://178[.]16[.]52[.]221/Bin/ScreenConnect[.]ClientSetup[.]exe` | url | Unknown malware | ThreatFox | 2026-09-09 20:27:27 UTC |
 | 57 (media) | alta | `hxxps://elizmasmuts[.]co[.]za/wp-content/plugins/zaw/planzer/payment[.]php` | url | Unknown Stealer | ThreatFox | 2026-09-09 15:40:06 UTC |
 | 57 (media) | alta | `hxxps://planzr[.]vercel[.]app/` | url | Unknown Stealer | ThreatFox | 2026-09-09 15:40:02 UTC |
 | 57 (media) | media | `hxxp://141[.]134[.]214[.]217:8003/sshd` | url | Unknown malware | ThreatFox | 2026-09-09 15:40:00 UTC |
 | 57 (media) | media | `103[.]244[.]227[.]157:443` | ip:port | Unknown malware | ThreatFox | 2026-09-09 12:05:06 UTC |
 | 57 (media) | media | `hxxp://136[.]233[.]149[.]66:8001/sshd` | url | Unknown malware | ThreatFox | 2026-09-09 10:14:32 UTC |
 | 57 (media) | media | `hxxp://68[.]110[.]47[.]231/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-09 07:14:23 UTC |
-| 56 (media) | media | `shelternode18[.]com` | domain | AMOS | ThreatFox | 2026-09-09 15:58:27 UTC |
-| 56 (media) | media | `jadeleap15[.]com` | domain | AMOS | ThreatFox | 2026-09-09 15:58:27 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-19490 | Citrix NetScaler | 2026-09-09 | Unknown |
+| CVE-2025-25249 | Fortinet Multiple Products | 2026-09-09 | Unknown |
+| CVE-2026-87491 | Google Chromium V8 | 2026-09-09 | Unknown |
+| CVE-2026-20079 | Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 2026-09-09 | Unknown |
 | CVE-2026-75650 | Adobe Commerce and Magento | 2026-09-08 | Unknown |
 | CVE-2026-81963 | Microsoft Windows | 2026-09-08 | Unknown |
 | CVE-2026-86218 | N-able N-central | 2026-09-08 | Unknown |
@@ -173,6 +177,4 @@ python main.py
 | CVE-2015-3246 | Red Hat Libuser | 2026-08-26 | Unknown |
 | CVE-2015-5287 | Red Hat Automatic Bug Reporting Tool | 2026-08-26 | Unknown |
 | CVE-2022-0995 | Linux Kernel | 2026-08-26 | Unknown |
-| CVE-2026-8452 | Citrix NetScaler ADC and NetScaler Gateway | 2026-08-26 | Unknown |
-| CVE-2019-1068 | Microsoft SQL Server | 2026-08-26 | Unknown |
 <!-- CTI:END -->
