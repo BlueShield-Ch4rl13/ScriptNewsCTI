@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-10 16:21 UTC · **IOCs recolectados:** 4544 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-10 20:51 UTC · **IOCs recolectados:** 5171 · **CVEs KEV recientes:** 23
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -144,14 +144,16 @@ python main.py
 | 60 (media) | alta | `hxxp://91[.]92[.]242[.]236/files-129312398/files/file_b584670f7ec2f317[.]exe` | url | Stealc | ThreatFox | 2026-09-10 05:13:03 UTC |
 | 59 (media) | alta | `hxxp://beautynams[.]com/nweke/fre[.]php` | url | Loki Password Stealer (PWS) | ThreatFox | 2026-09-10 10:45:06 UTC |
 | 59 (media) | critica | `38[.]54[.]97[.]169:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-10 09:46:39 UTC |
-| 59 (media) | media | `192[.]241[.]151[.]6:8443` | ip:port | Evilginx | ThreatFox | 2026-09-09 19:44:56 UTC |
-| 59 (media) | alta | `155[.]103[.]71[.]126:4142` | ip:port | Remcos | ThreatFox | 2026-09-09 16:43:01 UTC |
 | 57 (media) | media | `hxxp://139[.]95[.]24[.]51:8081/?h=139[.]95[.]24[.]51&p=8081&t=tcp&a=w64&stage=true` | url | Rozena | ThreatFox | 2026-09-10 11:07:58 UTC |
+| 57 (media) | alta | `hxxps://update-microsoft-data[.]services` | url | Stealc | ThreatFox | 2026-09-10 10:40:32 UTC |
+| 57 (media) | critica | `144[.]172[.]65[.]54:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-10 09:43:48 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-86060 | MikroTik RouterOS | 2026-09-10 | Unknown |
+| CVE-2026-67277 | MikroTik RouterOS | 2026-09-10 | Unknown |
 | CVE-2026-19490 | Citrix NetScaler | 2026-09-09 | Unknown |
 | CVE-2025-25249 | Fortinet Multiple Products | 2026-09-09 | Unknown |
 | CVE-2026-87491 | Google Chromium V8 | 2026-09-09 | Unknown |
