@@ -116,19 +116,23 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-09 20:56 UTC · **IOCs recolectados:** 1132 · **CVEs KEV recientes:** 27
+**Última actualización:** 2026-09-10 04:15 UTC · **IOCs recolectados:** 1422 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 71 (alta) | media | `176[.]65[.]139[.]206:11121` | ip:port | Unknown malware | ThreatFox | 2026-09-10 02:03:33 UTC |
+| 71 (alta) | alta | `176[.]65[.]139[.]206:80` | ip:port | Mirai | ThreatFox | 2026-09-10 01:31:50 UTC |
 | 66 (media) | media | `hxxps://loop-lumen[.]com/zxc/app[.]zip` | url | AMOS | ThreatFox, URLhaus | 2026-09-09 15:58:25 UTC |
 | 66 (media) | media | `hxxps://loop-lumen[.]com/zxc/apptwo[.]zip` | url | AMOS | ThreatFox, URLhaus | 2026-09-09 15:58:25 UTC |
 | 66 (media) | media | `hxxps://loop-lumen[.]com/zxc/appex[.]zip` | url | AMOS | ThreatFox, URLhaus | 2026-09-09 15:58:25 UTC |
 | 63 (media) | media | `279d04c0cfd700c8bcb9acbed528131d3ffef8e25d12713e8649772739aecb92` | sha256_hash | Amatera | ThreatFox | 2026-09-09 10:14:34 UTC |
+| 61 (media) | alta | `hxxp://91[.]92[.]242[.]236/files-129312398/files/file_c0d2eb6a8b73120b[.]exe` | url | Vidar | ThreatFox | 2026-09-10 02:26:37 UTC |
 | 61 (media) | alta | `31[.]13[.]190[.]58:9559` | ip:port | Remcos | ThreatFox | 2026-09-09 15:40:01 UTC |
 | 61 (media) | alta | `31[.]13[.]190[.]58:32635` | ip:port | Remcos | ThreatFox | 2026-09-09 15:26:29 UTC |
 | 61 (media) | alta | `165[.]227[.]142[.]229:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 08:47:35 UTC |
+| 60 (media) | alta | `hxxp://91[.]92[.]242[.]236/files-129312398/files/file_b584670f7ec2f317[.]exe` | url | Stealc | ThreatFox | 2026-09-10 02:26:40 UTC |
 | 60 (media) | alta | `31[.]13[.]190[.]58:9441` | ip:port | Remcos | ThreatFox | 2026-09-09 15:18:19 UTC |
 | 60 (media) | alta | `31[.]13[.]190[.]58:9442` | ip:port | Remcos | ThreatFox | 2026-09-09 15:18:18 UTC |
 | 60 (media) | media | `hxxp://158[.]94[.]211[.]92/enterprise/my_sss[.]bin` | url | Unknown malware | ThreatFox | 2026-09-09 10:59:52 UTC |
@@ -140,13 +144,9 @@ python main.py
 | 59 (media) | alta | `64[.]225[.]102[.]231:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 10:14:37 UTC |
 | 59 (media) | media | `1819827e17f31e72d456158b6b9c90af25a65945f6f05d04a060da9f24179b25` | sha256_hash | Amatera | ThreatFox | 2026-09-09 10:14:34 UTC |
 | 58 (media) | alta | `164[.]92[.]207[.]173:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 09:05:21 UTC |
+| 57 (media) | alta | `102[.]220[.]161[.]94:80` | ip:port | AsyncRAT | ThreatFox | 2026-09-10 02:40:03 UTC |
+| 57 (media) | media | `154[.]91[.]63[.]98:8074` | ip:port | VShell | ThreatFox | 2026-09-10 02:05:05 UTC |
 | 57 (media) | media | `hxxps://178[.]16[.]52[.]221/Bin/ScreenConnect[.]ClientSetup[.]exe` | url | Unknown malware | ThreatFox | 2026-09-09 20:27:27 UTC |
-| 57 (media) | alta | `hxxps://elizmasmuts[.]co[.]za/wp-content/plugins/zaw/planzer/payment[.]php` | url | Unknown Stealer | ThreatFox | 2026-09-09 15:40:06 UTC |
-| 57 (media) | alta | `hxxps://planzr[.]vercel[.]app/` | url | Unknown Stealer | ThreatFox | 2026-09-09 15:40:02 UTC |
-| 57 (media) | media | `hxxp://141[.]134[.]214[.]217:8003/sshd` | url | Unknown malware | ThreatFox | 2026-09-09 15:40:00 UTC |
-| 57 (media) | media | `103[.]244[.]227[.]157:443` | ip:port | Unknown malware | ThreatFox | 2026-09-09 12:05:06 UTC |
-| 57 (media) | media | `hxxp://136[.]233[.]149[.]66:8001/sshd` | url | Unknown malware | ThreatFox | 2026-09-09 10:14:32 UTC |
-| 57 (media) | media | `hxxp://68[.]110[.]47[.]231/info[.]zip` | url | Unknown malware | ThreatFox | 2026-09-09 07:14:23 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -173,8 +173,4 @@ python main.py
 | CVE-2023-49105 | ownCloud ownCloud | 2026-08-27 | Unknown |
 | CVE-2026-53362 | Linux Kernel | 2026-08-27 | Unknown |
 | CVE-2026-66384 | JFrog Artifactory | 2026-08-27 | Unknown |
-| CVE-2021-23758 | Ajax.NET Professional Ajax.NET Professional | 2026-08-26 | Unknown |
-| CVE-2015-3246 | Red Hat Libuser | 2026-08-26 | Unknown |
-| CVE-2015-5287 | Red Hat Automatic Bug Reporting Tool | 2026-08-26 | Unknown |
-| CVE-2022-0995 | Linux Kernel | 2026-08-26 | Unknown |
 <!-- CTI:END -->
