@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-10 04:15 UTC · **IOCs recolectados:** 1422 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-10 11:10 UTC · **IOCs recolectados:** 1294 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 71 (alta) | media | `176[.]65[.]139[.]206:11121` | ip:port | Unknown malware | ThreatFox | 2026-09-10 02:03:33 UTC |
-| 71 (alta) | alta | `176[.]65[.]139[.]206:80` | ip:port | Mirai | ThreatFox | 2026-09-10 01:31:50 UTC |
-| 66 (media) | media | `hxxps://loop-lumen[.]com/zxc/app[.]zip` | url | AMOS | ThreatFox, URLhaus | 2026-09-09 15:58:25 UTC |
-| 66 (media) | media | `hxxps://loop-lumen[.]com/zxc/apptwo[.]zip` | url | AMOS | ThreatFox, URLhaus | 2026-09-09 15:58:25 UTC |
-| 66 (media) | media | `hxxps://loop-lumen[.]com/zxc/appex[.]zip` | url | AMOS | ThreatFox, URLhaus | 2026-09-09 15:58:25 UTC |
-| 63 (media) | media | `279d04c0cfd700c8bcb9acbed528131d3ffef8e25d12713e8649772739aecb92` | sha256_hash | Amatera | ThreatFox | 2026-09-09 10:14:34 UTC |
-| 61 (media) | alta | `hxxp://91[.]92[.]242[.]236/files-129312398/files/file_c0d2eb6a8b73120b[.]exe` | url | Vidar | ThreatFox | 2026-09-10 02:26:37 UTC |
+| 71 (alta) | alta | `176[.]65[.]139[.]206:80` | ip:port | Mirai | ThreatFox | 2026-09-10 05:13:47 UTC |
+| 71 (alta) | media | `176[.]65[.]139[.]206:11121` | ip:port | Unknown malware | ThreatFox | 2026-09-10 05:12:59 UTC |
+| 61 (media) | alta | `64[.]225[.]107[.]48:8443` | ip:port | Aisuru | ThreatFox | 2026-09-10 10:35:07 UTC |
+| 61 (media) | alta | `hxxp://91[.]92[.]242[.]236/files-129312398/files/file_c0d2eb6a8b73120b[.]exe` | url | Vidar | ThreatFox | 2026-09-10 05:13:01 UTC |
+| 61 (media) | media | `144[.]172[.]65[.]54:80` | ip:port | VShell | ThreatFox | 2026-09-10 05:05:07 UTC |
 | 61 (media) | alta | `31[.]13[.]190[.]58:9559` | ip:port | Remcos | ThreatFox | 2026-09-09 15:40:01 UTC |
 | 61 (media) | alta | `31[.]13[.]190[.]58:32635` | ip:port | Remcos | ThreatFox | 2026-09-09 15:26:29 UTC |
-| 61 (media) | alta | `165[.]227[.]142[.]229:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 08:47:35 UTC |
-| 60 (media) | alta | `hxxp://91[.]92[.]242[.]236/files-129312398/files/file_b584670f7ec2f317[.]exe` | url | Stealc | ThreatFox | 2026-09-10 02:26:40 UTC |
+| 60 (media) | alta | `hxxp://91[.]92[.]242[.]236/files-129312398/files/file_b584670f7ec2f317[.]exe` | url | Stealc | ThreatFox | 2026-09-10 05:13:03 UTC |
 | 60 (media) | alta | `31[.]13[.]190[.]58:9441` | ip:port | Remcos | ThreatFox | 2026-09-09 15:18:19 UTC |
 | 60 (media) | alta | `31[.]13[.]190[.]58:9442` | ip:port | Remcos | ThreatFox | 2026-09-09 15:18:18 UTC |
 | 60 (media) | media | `hxxp://158[.]94[.]211[.]92/enterprise/my_sss[.]bin` | url | Unknown malware | ThreatFox | 2026-09-09 10:59:52 UTC |
-| 60 (media) | media | `bd36f4c15fe0acb6748da5ed12e45dcc37d412385812c078d1e4f04730e9f69b` | sha256_hash | Amatera | ThreatFox | 2026-09-09 10:14:33 UTC |
+| 59 (media) | alta | `hxxp://beautynams[.]com/nweke/fre[.]php` | url | Loki Password Stealer (PWS) | ThreatFox | 2026-09-10 10:45:06 UTC |
+| 59 (media) | critica | `38[.]54[.]97[.]169:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-10 09:46:39 UTC |
 | 59 (media) | media | `192[.]241[.]151[.]6:8443` | ip:port | Evilginx | ThreatFox | 2026-09-09 19:44:56 UTC |
 | 59 (media) | alta | `155[.]103[.]71[.]126:4142` | ip:port | Remcos | ThreatFox | 2026-09-09 16:43:01 UTC |
 | 59 (media) | alta | `93[.]127[.]160[.]86:9559` | ip:port | Remcos | ThreatFox | 2026-09-09 15:26:28 UTC |
 | 59 (media) | alta | `64[.]225[.]102[.]231:8443` | ip:port | Aisuru | ThreatFox | 2026-09-09 11:07:22 UTC |
-| 59 (media) | alta | `64[.]225[.]102[.]231:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 10:14:37 UTC |
-| 59 (media) | media | `1819827e17f31e72d456158b6b9c90af25a65945f6f05d04a060da9f24179b25` | sha256_hash | Amatera | ThreatFox | 2026-09-09 10:14:34 UTC |
-| 58 (media) | alta | `164[.]92[.]207[.]173:8001` | ip:port | Aisuru | ThreatFox | 2026-09-09 09:05:21 UTC |
+| 57 (media) | alta | `hxxps://update-microsoft-data[.]services` | url | Stealc | ThreatFox | 2026-09-10 10:40:32 UTC |
+| 57 (media) | media | `hxxp://139[.]95[.]24[.]51:8081/?h=139[.]95[.]24[.]51&p=8081&t=tcp&a=w64&stage=true` | url | Rozena | ThreatFox | 2026-09-10 10:26:45 UTC |
+| 57 (media) | critica | `144[.]172[.]65[.]54:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-09-10 09:43:48 UTC |
+| 57 (media) | media | `hxxps://178[.]16[.]52[.]221/Bin/ScreenConnect[.]ClientSetup[.]exe` | url | Unknown malware | ThreatFox | 2026-09-10 05:14:17 UTC |
 | 57 (media) | alta | `102[.]220[.]161[.]94:80` | ip:port | AsyncRAT | ThreatFox | 2026-09-10 02:40:03 UTC |
 | 57 (media) | media | `154[.]91[.]63[.]98:8074` | ip:port | VShell | ThreatFox | 2026-09-10 02:05:05 UTC |
-| 57 (media) | media | `hxxps://178[.]16[.]52[.]221/Bin/ScreenConnect[.]ClientSetup[.]exe` | url | Unknown malware | ThreatFox | 2026-09-09 20:27:27 UTC |
+| 57 (media) | alta | `hxxps://elizmasmuts[.]co[.]za/wp-content/plugins/zaw/planzer/payment[.]php` | url | Unknown Stealer | ThreatFox | 2026-09-09 15:40:06 UTC |
+| 57 (media) | alta | `hxxps://planzr[.]vercel[.]app/` | url | Unknown Stealer | ThreatFox | 2026-09-09 15:40:02 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
