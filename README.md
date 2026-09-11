@@ -116,13 +116,14 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-11 16:24 UTC · **IOCs recolectados:** 2078 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-09-11 20:57 UTC · **IOCs recolectados:** 1811 · **CVEs KEV recientes:** 24
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 74 (alta) | media | `63a406d6fb2be2206a48d451ecd67e3ef9199dec0e0cff60583e713fd4401df5` | sha256_hash | VShell | ThreatFox | 2026-09-11 05:26:04 UTC |
+| 73 (alta) | alta | `5[.]175[.]222[.]230:80` | ip:port | Mirai | ThreatFox | 2026-09-11 19:46:57 UTC |
 | 73 (alta) | media | `7085ab2e2e21bf54635088d37a25f05bf6a8e338c8917b3ed00923ee447a915c` | sha256_hash | VShell | ThreatFox | 2026-09-11 05:26:05 UTC |
 | 73 (alta) | media | `b0f048d712bec3be0aea8d6e2e5d54ec8d0d5350e3f389a2b4ac477b79c819e5` | sha256_hash | VShell | ThreatFox | 2026-09-11 05:26:05 UTC |
 | 73 (alta) | media | `c887d8e750abfa0312f20cc0f54314e36352ab9ac0cbbdcd108a9c63fda4bd0d` | sha256_hash | VShell | ThreatFox | 2026-09-11 05:25:56 UTC |
@@ -132,6 +133,7 @@ python main.py
 | 72 (alta) | alta | `440cb05dbc1425d4e40e70c260ac1aed00152c2d348ecb7c87aa7a8198cd9eae` | sha256_hash | Unknown Stealer | ThreatFox | 2026-09-11 05:26:01 UTC |
 | 72 (alta) | media | `1f2160b814d7cb02c38b535077ff03202ed67144e37211dbf027e38fb1959257` | sha256_hash | VShell | ThreatFox | 2026-09-11 05:25:57 UTC |
 | 72 (alta) | media | `d74ee8bb9337b8dd250ce28e0e8607680f83719a28906f6410aa4a6addbd720c` | sha256_hash | VShell | ThreatFox | 2026-09-11 05:25:56 UTC |
+| 71 (alta) | media | `150[.]242[.]14[.]129:9050` | ip:port | Unknown malware | ThreatFox | 2026-09-11 17:31:46 UTC |
 | 71 (alta) | alta | `f270a80b90acb4302bb29b2f4c7436f6d7eedc4738ca63351f59f22bd59ce28d` | sha256_hash | Vidar | ThreatFox | 2026-09-11 05:26:12 UTC |
 | 71 (alta) | alta | `ffb3eacf4164d66a8d5e591c043f3f86d599e8d39384417d6fdf78796ae18a84` | sha256_hash | Unknown Stealer | ThreatFox | 2026-09-11 05:26:10 UTC |
 | 71 (alta) | media | `a04ac6d98ad989312783d4fe3456c53730b212c79a426fb215708b6c6daa3de3` | sha256_hash | Hajime | ThreatFox | 2026-09-11 05:26:07 UTC |
@@ -145,13 +147,15 @@ python main.py
 | 71 (alta) | alta | `a7f769752ef7b9cf61caa6b9e8ed72d1338c298bbcfa41fe76a54751d63b92cc` | sha256_hash | Mirai | ThreatFox | 2026-09-11 05:25:55 UTC |
 | 70 (alta) | media | `4c8056feafdea02cf45cec2af9fc9dac10df6f7fc7af0170440a18fce0a98b88` | sha256_hash | Bashlite | ThreatFox | 2026-09-11 05:26:12 UTC |
 | 70 (alta) | media | `9e49107ff23ff55bb0b32bc0bec57094e51b7033118c135d1d26b9e0ad9519f4` | sha256_hash | Bashlite | ThreatFox | 2026-09-11 05:26:02 UTC |
-| 70 (alta) | alta | `cda83543753c272fe863864f34ac08d58683728775e23e012e95c6444330cb27` | sha256_hash | Mirai | ThreatFox | 2026-09-11 05:13:07 UTC |
-| 70 (alta) | media | `8d411d1ec4327e5a10b8ffddaacdac17a0a6acab43db81202119604b35c7317b` | sha256_hash | Tsunami | ThreatFox | 2026-09-11 05:13:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-84869 | ConnectWise ScreenConnect | 2026-09-11 | Unknown |
+| CVE-2026-42016 | JFrog Artifactory | 2026-09-11 | Unknown |
+| CVE-2026-42018 | JFrog Artifactory | 2026-09-11 | Unknown |
+| CVE-2026-85706 | GitLab Community Edition and Enterprise Edition | 2026-09-11 | Unknown |
 | CVE-2026-86060 | MikroTik RouterOS | 2026-09-10 | Unknown |
 | CVE-2026-67277 | MikroTik RouterOS | 2026-09-10 | Unknown |
 | CVE-2026-19490 | Citrix NetScaler | 2026-09-09 | Unknown |
