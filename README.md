@@ -116,16 +116,17 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-14 12:33 UTC · **IOCs recolectados:** 1377 · **CVEs KEV recientes:** 24
+**Última actualización:** 2026-09-14 21:53 UTC · **IOCs recolectados:** 1444 · **CVEs KEV recientes:** 25
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 75 (alta) | alta | `130[.]12[.]181[.]118:7000` | ip:port | XWorm | ThreatFox | 2026-09-14 13:59:39 UTC |
 | 73 (alta) | media | `9d24316bd0f8af89c590f6c37070f905cb60a15745fbe748b525e67d2a05b640` | sha256_hash | VShell | ThreatFox | 2026-09-14 06:00:00 UTC |
 | 73 (alta) | media | `07a7afd2a891cbd8b1600d0327a6832d596b655011b9fc79265c7e068bc8fc85` | sha256_hash | VShell | ThreatFox | 2026-09-14 05:59:52 UTC |
-| 71 (alta) | media | `160[.]119[.]66[.]206:80` | ip:port | Unknown malware | ThreatFox | 2026-09-14 05:59:53 UTC |
-| 71 (alta) | alta | `2[.]27[.]248[.]149:11121` | ip:port | Mirai | ThreatFox | 2026-09-13 18:45:45 UTC |
+| 72 (alta) | alta | `74a28581cdc96b69d58c1b2f640c2f3c6932d11eb4b53fb5bf9cf2e89ac30dd4` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-14 21:28:11 UTC |
+| 70 (alta) | media | `052f0caff530a67f9a17df5795806d9b01a551f309e434cd4eb92fba8e024051` | sha256_hash | GCleaner | ThreatFox | 2026-09-14 21:28:11 UTC |
 | 70 (alta) | alta | `4f92f1b658856b2662100c26dcd5f81525a74482b4fdebb16923ec27234f0a7e` | sha256_hash | Unknown Stealer | ThreatFox | 2026-09-14 06:00:01 UTC |
 | 70 (alta) | alta | `6478842eda7a2fa9a6a9c51ea58a6b33b08863b9d499aa2c3d7fe49233667873` | sha256_hash | Mirai | ThreatFox | 2026-09-14 05:59:58 UTC |
 | 70 (alta) | alta | `e0a2c9631991fd3b5a5b4fddc8cb9075c1f3d9823c6975fc4a5de9c3ec3cafbf` | sha256_hash | Mirai | ThreatFox | 2026-09-14 05:59:56 UTC |
@@ -138,20 +139,20 @@ python main.py
 | 69 (media) | alta | `1b647683b7fc5ee58b643bea788b28f03b236791e5737ab41896f6c15c32cc01` | sha256_hash | Mirai | ThreatFox | 2026-09-14 05:59:54 UTC |
 | 69 (media) | alta | `c277e70f886e3172f2e8b8bd6a83313552cceb29f949cc4c2afa1a0e19ac2ce9` | sha256_hash | Mirai | ThreatFox | 2026-09-14 05:59:53 UTC |
 | 69 (media) | media | `2921c54b7d2c0a8a9dd0789cce72cdc55e58366d1fa064d44c059a2cb87d5657` | sha256_hash | VShell | ThreatFox | 2026-09-14 05:59:51 UTC |
+| 68 (media) | media | `hxxps://hashedsolver[.]icu/update1[.]ps1` | url | Unknown malware | ThreatFox, URLhaus | 2026-09-14 21:21:05 UTC |
 | 68 (media) | critica | `45[.]38[.]20[.]151:31337` | ip:port | Sliver | ThreatFox | 2026-09-14 11:13:56 UTC |
-| 62 (media) | media | `144[.]172[.]65[.]54:8081` | ip:port | VShell | ThreatFox | 2026-09-13 16:05:09 UTC |
-| 60 (media) | critica | `130[.]94[.]92[.]169:31337` | ip:port | Sliver | ThreatFox | 2026-09-14 11:13:53 UTC |
-| 58 (media) | alta | `147[.]124[.]212[.]137:34214` | ip:port | Remcos | ThreatFox | 2026-09-14 12:03:48 UTC |
-| 58 (media) | alta | `hxxps://digitalisonesapps[.]com/savess/downloads[.]php` | url | Unknown RAT | ThreatFox, URLhaus | 2026-09-14 11:35:41 UTC |
-| 58 (media) | media | `hashedsolver[.]icu` | domain | IClickFix | ThreatFox | 2026-09-14 06:00:25 UTC |
-| 58 (media) | alta | `43[.]229[.]114[.]114:6669` | ip:port | ValleyRAT | ThreatFox | 2026-09-14 02:15:09 UTC |
-| 57 (media) | critica | `165[.]227[.]32[.]223:31337` | ip:port | Sliver | ThreatFox | 2026-09-14 11:13:56 UTC |
-| 57 (media) | alta | `167[.]172[.]147[.]77:34567` | ip:port | Aisuru | ThreatFox | 2026-09-14 06:00:13 UTC |
+| 68 (media) | media | `115[.]190[.]149[.]134:3333` | ip:port | Unknown malware | ThreatFox | 2026-09-14 11:13:11 UTC |
+| 68 (media) | media | `160[.]119[.]66[.]206:80` | ip:port | Unknown malware | ThreatFox | 2026-09-14 05:59:53 UTC |
+| 66 (media) | alta | `159[.]203[.]178[.]139:8001` | ip:port | Aisuru | ThreatFox | 2026-09-14 19:24:06 UTC |
+| 61 (media) | alta | `134[.]209[.]223[.]192:8001` | ip:port | Aisuru | ThreatFox | 2026-09-14 19:24:06 UTC |
+| 61 (media) | media | `hxxp://208[.]84[.]102[.]192/kw0rker` | url | XMRIG | ThreatFox, URLhaus | 2026-09-14 16:57:30 UTC |
+| 61 (media) | media | `hxxp://minpop[.]com/sk12pack/idents[.]php` | url | XMRIG | ThreatFox, URLhaus | 2026-09-14 16:57:29 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-76461 | Cisco Secure Email Gateway | 2026-09-14 | Unknown |
 | CVE-2026-84869 | ConnectWise ScreenConnect | 2026-09-11 | Unknown |
 | CVE-2026-42016 | JFrog Artifactory | 2026-09-11 | Unknown |
 | CVE-2026-42018 | JFrog Artifactory | 2026-09-11 | Unknown |
