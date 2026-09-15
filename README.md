@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-14 21:53 UTC · **IOCs recolectados:** 1444 · **CVEs KEV recientes:** 25
+**Última actualización:** 2026-09-15 04:33 UTC · **IOCs recolectados:** 1571 · **CVEs KEV recientes:** 23
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -130,6 +130,7 @@ python main.py
 | 70 (alta) | alta | `4f92f1b658856b2662100c26dcd5f81525a74482b4fdebb16923ec27234f0a7e` | sha256_hash | Unknown Stealer | ThreatFox | 2026-09-14 06:00:01 UTC |
 | 70 (alta) | alta | `6478842eda7a2fa9a6a9c51ea58a6b33b08863b9d499aa2c3d7fe49233667873` | sha256_hash | Mirai | ThreatFox | 2026-09-14 05:59:58 UTC |
 | 70 (alta) | alta | `e0a2c9631991fd3b5a5b4fddc8cb9075c1f3d9823c6975fc4a5de9c3ec3cafbf` | sha256_hash | Mirai | ThreatFox | 2026-09-14 05:59:56 UTC |
+| 69 (media) | alta | `b9956521c3fb26cfb49791e6c3b29faae02ab8ac12314c2207f4f1301534df90` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-15 03:28:38 UTC |
 | 69 (media) | media | `46f4cd435ca39c8fc2f1814fd9740a7ee9716207f5351d21008672ab466149eb` | sha256_hash | VShell | ThreatFox | 2026-09-14 06:00:03 UTC |
 | 69 (media) | media | `54e27f31669d1d0c56514ceb76cf62bfa5c606ad3ec24cfef430837d2a01f071` | sha256_hash | VShell | ThreatFox | 2026-09-14 05:59:59 UTC |
 | 69 (media) | alta | `2201104c6a6b96a0c44738a7c6b6c4d1e0a6c1b5a6c5849d7dc6fc1131d46c1f` | sha256_hash | Mirai | ThreatFox | 2026-09-14 05:59:56 UTC |
@@ -143,10 +144,9 @@ python main.py
 | 68 (media) | critica | `45[.]38[.]20[.]151:31337` | ip:port | Sliver | ThreatFox | 2026-09-14 11:13:56 UTC |
 | 68 (media) | media | `115[.]190[.]149[.]134:3333` | ip:port | Unknown malware | ThreatFox | 2026-09-14 11:13:11 UTC |
 | 68 (media) | media | `160[.]119[.]66[.]206:80` | ip:port | Unknown malware | ThreatFox | 2026-09-14 05:59:53 UTC |
+| 66 (media) | alta | `159[.]203[.]178[.]139:8080` | ip:port | Aisuru | ThreatFox | 2026-09-14 22:47:03 UTC |
 | 66 (media) | alta | `159[.]203[.]178[.]139:8001` | ip:port | Aisuru | ThreatFox | 2026-09-14 19:24:06 UTC |
-| 61 (media) | alta | `134[.]209[.]223[.]192:8001` | ip:port | Aisuru | ThreatFox | 2026-09-14 19:24:06 UTC |
-| 61 (media) | media | `hxxp://208[.]84[.]102[.]192/kw0rker` | url | XMRIG | ThreatFox, URLhaus | 2026-09-14 16:57:30 UTC |
-| 61 (media) | media | `hxxp://minpop[.]com/sk12pack/idents[.]php` | url | XMRIG | ThreatFox, URLhaus | 2026-09-14 16:57:29 UTC |
+| 61 (media) | alta | `134[.]209[.]223[.]192:8080` | ip:port | Aisuru | ThreatFox | 2026-09-14 22:47:02 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -175,6 +175,4 @@ python main.py
 | CVE-2026-9586 | Sangoma Switchvox | 2026-09-02 | Unknown |
 | CVE-2026-83548 | SonicWall SMA1000 Appliances | 2026-09-02 | Unknown |
 | CVE-2026-83549 | SonicWall SMA1000 Appliances | 2026-09-02 | Unknown |
-| CVE-2026-82078 | PaperCut NG/MF | 2026-08-31 | Unknown |
-| CVE-2026-81578 | PaperCut NG/MF | 2026-08-31 | Unknown |
 <!-- CTI:END -->
