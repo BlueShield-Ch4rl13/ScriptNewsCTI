@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-16 16:44 UTC · **IOCs recolectados:** 1055 · **CVEs KEV recientes:** 24
+**Última actualización:** 2026-09-16 21:17 UTC · **IOCs recolectados:** 990 · **CVEs KEV recientes:** 26
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -126,7 +126,8 @@ python main.py
 | 72 (alta) | alta | `f959a8494f2a1c4e11f346ae8e3099593f156be2a5c8010d1747e4466a11316a` | sha256_hash | Venom RAT | ThreatFox | 2026-09-16 11:47:22 UTC |
 | 72 (alta) | alta | `f6f7dbd6561e7ee6ba7e6abffdb1e5de01bf511318aade34825d888e99db645f` | sha256_hash | AsyncRAT | ThreatFox | 2026-09-16 11:47:21 UTC |
 | 72 (alta) | alta | `9b1d38cd728ec1a478db668e86f7445ab5f0335b388feefc15502931cdcad704` | sha256_hash | Venom RAT | ThreatFox | 2026-09-16 06:24:41 UTC |
-| 71 (alta) | alta | `dc834c0c0982771016202f3ca1808d3bba329379eba79e1d04db31cafb1f43e1` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-16 16:29:20 UTC |
+| 71 (alta) | alta | `143[.]20[.]185[.]213:80` | ip:port | Mirai | ThreatFox | 2026-09-16 19:43:45 UTC |
+| 71 (alta) | alta | `dc834c0c0982771016202f3ca1808d3bba329379eba79e1d04db31cafb1f43e1` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-16 16:43:51 UTC |
 | 70 (alta) | media | `277b73d7981302c0da84c9656c8c5e132929d433aa8485b288ba7c5397b4b469` | sha256_hash | Unknown malware | ThreatFox | 2026-09-16 11:47:11 UTC |
 | 69 (media) | alta | `5f5a6a53fa0a869da21d3cce44be8b718f256ca7d68ca8dd8faf25e9fd9c7a44` | sha256_hash | Vidar | ThreatFox | 2026-09-16 13:45:36 UTC |
 | 69 (media) | alta | `8dc068b65b5ad95760d6f3cf58b4f7f9d8d21ed4` | sha1_hash | Vidar | ThreatFox | 2026-09-16 13:45:36 UTC |
@@ -136,23 +137,24 @@ python main.py
 | 67 (media) | media | `hxxps://windowsdiagnostics[.]st/api/static/python` | url | Unknown malware | ThreatFox, URLhaus | 2026-09-16 11:47:16 UTC |
 | 67 (media) | media | `hxxps://windowsdiagnostics[.]st/api/static/index[.]js` | url | Unknown malware | ThreatFox, URLhaus | 2026-09-16 11:47:15 UTC |
 | 66 (media) | media | `ef1c7270096b4d0dffb394d09416320d12aa24b9d9b70f89998d90e42ac63098` | sha256_hash | Unknown malware | ThreatFox | 2026-09-16 11:47:10 UTC |
-| 65 (media) | alta | `159[.]203[.]178[.]139:8443` | ip:port | Aisuru | ThreatFox | 2026-09-15 17:23:24 UTC |
 | 63 (media) | media | `afbf107cfd4f658e80941e2de5348b872330cb4b` | sha1_hash | NetWire RC | ThreatFox | 2026-09-16 13:45:34 UTC |
 | 62 (media) | media | `5a74607697701830113d1ac3f61174e6` | md5_hash | NetWire RC | ThreatFox | 2026-09-16 13:45:35 UTC |
 | 62 (media) | alta | `164[.]92[.]207[.]173:8443` | ip:port | Aisuru | ThreatFox | 2026-09-16 11:47:06 UTC |
 | 62 (media) | alta | `134[.]209[.]223[.]192:9034` | ip:port | Aisuru | ThreatFox | 2026-09-16 06:24:39 UTC |
-| 62 (media) | alta | `31[.]76[.]125[.]3:443` | ip:port | PureRAT | ThreatFox | 2026-09-15 19:46:09 UTC |
-| 62 (media) | alta | `31[.]76[.]125[.]3:56001` | ip:port | PureRAT | ThreatFox | 2026-09-15 19:46:09 UTC |
-| 62 (media) | alta | `31[.]76[.]125[.]3:56003` | ip:port | PureRAT | ThreatFox | 2026-09-15 19:46:09 UTC |
 | 61 (media) | alta | `164[.]92[.]207[.]173:8080` | ip:port | Aisuru | ThreatFox | 2026-09-16 09:15:45 UTC |
 | 61 (media) | alta | `f65d4ddf2d769eb6dd9cc7021845458f7cb49be01f1859328f62407924a7d7ac` | sha256_hash | Vidar | ThreatFox | 2026-09-16 00:33:55 UTC |
-| 59 (media) | alta | `di-il[.]com` | domain | ClearFake | ThreatFox | 2026-09-15 17:23:25 UTC |
+| 59 (media) | media | `130[.]94[.]30[.]168:8090` | ip:port | VShell | ThreatFox | 2026-09-16 21:05:08 UTC |
+| 58 (media) | media | `hxxps://yewanthology[.]co/rate/settings-compiler[.]js` | url | SmartApeSG | ThreatFox | 2026-09-16 16:28:58 UTC |
+| 58 (media) | media | `store[.]purestack[.]lol` | domain | Unknown malware | ThreatFox | 2026-09-16 16:08:16 UTC |
+| 58 (media) | media | `hxxps://windowsdiagnostics[.]st/api/static/loading` | url | Unknown malware | ThreatFox | 2026-09-16 11:47:17 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
 | CVE-2026-58704 | Google Pixel | 2026-09-16 | Unknown |
+| CVE-2026-76460 | Cisco Identity Services Engine | 2026-09-16 | Unknown |
+| CVE-2026-87886 | Acronis Backup | 2026-09-16 | Unknown |
 | CVE-2026-76461 | Cisco Secure Email Gateway | 2026-09-14 | Unknown |
 | CVE-2026-84869 | ConnectWise ScreenConnect | 2026-09-11 | Unknown |
 | CVE-2026-42016 | JFrog Artifactory | 2026-09-11 | Unknown |
@@ -175,5 +177,4 @@ python main.py
 | CVE-2026-82329 | JFrog Artifactory | 2026-09-02 | Unknown |
 | CVE-2026-9586 | Sangoma Switchvox | 2026-09-02 | Unknown |
 | CVE-2026-83548 | SonicWall SMA1000 Appliances | 2026-09-02 | Unknown |
-| CVE-2026-83549 | SonicWall SMA1000 Appliances | 2026-09-02 | Unknown |
 <!-- CTI:END -->
