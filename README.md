@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-15 21:16 UTC · **IOCs recolectados:** 2816 · **CVEs KEV recientes:** 23
+**Última actualización:** 2026-09-16 04:28 UTC · **IOCs recolectados:** 2837 · **CVEs KEV recientes:** 23
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 75 (alta) | media | `178[.]16[.]54[.]148:8081` | ip:port | Unknown malware | ThreatFox | 2026-09-15 07:05:48 UTC |
+| 72 (alta) | alta | `9b1d38cd728ec1a478db668e86f7445ab5f0335b388feefc15502931cdcad704` | sha256_hash | Venom RAT | ThreatFox | 2026-09-16 01:27:51 UTC |
 | 72 (alta) | alta | `74a28581cdc96b69d58c1b2f640c2f3c6932d11eb4b53fb5bf9cf2e89ac30dd4` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-15 06:05:07 UTC |
 | 70 (alta) | media | `052f0caff530a67f9a17df5795806d9b01a551f309e434cd4eb92fba8e024051` | sha256_hash | GCleaner | ThreatFox | 2026-09-15 06:05:07 UTC |
 | 69 (media) | alta | `b9956521c3fb26cfb49791e6c3b29faae02ab8ac12314c2207f4f1301534df90` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-15 06:04:28 UTC |
 | 66 (media) | alta | `159[.]203[.]178[.]139:8001` | ip:port | Aisuru | ThreatFox | 2026-09-15 06:05:17 UTC |
 | 66 (media) | alta | `159[.]203[.]178[.]139:8080` | ip:port | Aisuru | ThreatFox | 2026-09-15 06:04:55 UTC |
 | 65 (media) | alta | `159[.]203[.]178[.]139:8443` | ip:port | Aisuru | ThreatFox | 2026-09-15 17:23:24 UTC |
+| 62 (media) | alta | `134[.]209[.]223[.]192:9034` | ip:port | Aisuru | ThreatFox | 2026-09-16 02:41:33 UTC |
 | 62 (media) | alta | `31[.]76[.]125[.]3:443` | ip:port | PureRAT | ThreatFox | 2026-09-15 19:46:09 UTC |
 | 62 (media) | alta | `31[.]76[.]125[.]3:56001` | ip:port | PureRAT | ThreatFox | 2026-09-15 19:46:09 UTC |
 | 62 (media) | alta | `31[.]76[.]125[.]3:56003` | ip:port | PureRAT | ThreatFox | 2026-09-15 19:46:09 UTC |
+| 61 (media) | alta | `f65d4ddf2d769eb6dd9cc7021845458f7cb49be01f1859328f62407924a7d7ac` | sha256_hash | Vidar | ThreatFox | 2026-09-16 00:33:55 UTC |
 | 61 (media) | alta | `134[.]209[.]223[.]192:8443` | ip:port | Aisuru | ThreatFox | 2026-09-15 12:19:52 UTC |
 | 61 (media) | media | `hxxp://36[.]27[.]76[.]223:37201/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-09-15 12:19:50 UTC |
 | 61 (media) | alta | `134[.]209[.]223[.]192:8001` | ip:port | Aisuru | ThreatFox | 2026-09-15 06:05:17 UTC |
 | 61 (media) | alta | `134[.]209[.]223[.]192:8080` | ip:port | Aisuru | ThreatFox | 2026-09-15 06:04:59 UTC |
 | 59 (media) | alta | `di-il[.]com` | domain | ClearFake | ThreatFox | 2026-09-15 17:23:25 UTC |
 | 59 (media) | alta | `155[.]103[.]71[.]126:4144` | ip:port | Remcos | ThreatFox | 2026-09-15 15:18:03 UTC |
-| 59 (media) | media | `111[.]229[.]248[.]198:8084` | ip:port | VShell | ThreatFox | 2026-09-15 04:05:07 UTC |
+| 58 (media) | media | `111[.]228[.]26[.]26:7777` | ip:port | VShell | ThreatFox | 2026-09-16 03:05:05 UTC |
+| 58 (media) | critica | `5[.]104[.]86[.]108:8890` | ip:port | Cobalt Strike | ThreatFox | 2026-09-16 01:05:09 UTC |
 | 58 (media) | media | `leezainternational[.]com` | domain | IClickFix | ThreatFox | 2026-09-15 20:39:51 UTC |
 | 58 (media) | alta | `195[.]177[.]94[.]94:56003` | ip:port | PureRAT | ThreatFox | 2026-09-15 19:44:56 UTC |
 | 58 (media) | critica | `137[.]220[.]205[.]196:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-09-15 16:05:05 UTC |
 | 58 (media) | critica | `137[.]220[.]205[.]196:443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-15 15:05:09 UTC |
-| 58 (media) | critica | `137[.]220[.]205[.]196:80` | ip:port | Cobalt Strike | ThreatFox | 2026-09-15 15:05:09 UTC |
-| 58 (media) | critica | `5[.]104[.]86[.]108:8090` | ip:port | Cobalt Strike | ThreatFox | 2026-09-15 15:05:06 UTC |
-| 58 (media) | alta | `46[.]151[.]182[.]34:7007` | ip:port | XWorm | ThreatFox | 2026-09-15 13:06:10 UTC |
-| 58 (media) | critica | `5[.]104[.]86[.]108:8891` | ip:port | Cobalt Strike | ThreatFox | 2026-09-15 11:05:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
