@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-16 21:17 UTC · **IOCs recolectados:** 990 · **CVEs KEV recientes:** 26
+**Última actualización:** 2026-09-17 04:34 UTC · **IOCs recolectados:** 936 · **CVEs KEV recientes:** 19
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -133,20 +133,20 @@ python main.py
 | 69 (media) | alta | `8dc068b65b5ad95760d6f3cf58b4f7f9d8d21ed4` | sha1_hash | Vidar | ThreatFox | 2026-09-16 13:45:36 UTC |
 | 69 (media) | alta | `da168c3ff95c749beec0a2f29a1e6b82` | md5_hash | Vidar | ThreatFox | 2026-09-16 13:45:36 UTC |
 | 68 (media) | media | `0216f9324eb9a952adad9e8d182c45f10b4655ecd80d966115feea68ab2f9c0b` | sha256_hash | Unknown malware | ThreatFox | 2026-09-16 16:08:16 UTC |
-| 67 (media) | media | `hxxps://windowsdiagnostics[.]st/api/static/exodus[.]asar` | url | Unknown malware | ThreatFox, URLhaus | 2026-09-16 11:47:16 UTC |
-| 67 (media) | media | `hxxps://windowsdiagnostics[.]st/api/static/python` | url | Unknown malware | ThreatFox, URLhaus | 2026-09-16 11:47:16 UTC |
-| 67 (media) | media | `hxxps://windowsdiagnostics[.]st/api/static/index[.]js` | url | Unknown malware | ThreatFox, URLhaus | 2026-09-16 11:47:15 UTC |
 | 66 (media) | media | `ef1c7270096b4d0dffb394d09416320d12aa24b9d9b70f89998d90e42ac63098` | sha256_hash | Unknown malware | ThreatFox | 2026-09-16 11:47:10 UTC |
 | 63 (media) | media | `afbf107cfd4f658e80941e2de5348b872330cb4b` | sha1_hash | NetWire RC | ThreatFox | 2026-09-16 13:45:34 UTC |
+| 62 (media) | media | `217[.]60[.]195[.]6:8443` | ip:port | CECbot | ThreatFox | 2026-09-17 00:56:02 UTC |
 | 62 (media) | media | `5a74607697701830113d1ac3f61174e6` | md5_hash | NetWire RC | ThreatFox | 2026-09-16 13:45:35 UTC |
 | 62 (media) | alta | `164[.]92[.]207[.]173:8443` | ip:port | Aisuru | ThreatFox | 2026-09-16 11:47:06 UTC |
 | 62 (media) | alta | `134[.]209[.]223[.]192:9034` | ip:port | Aisuru | ThreatFox | 2026-09-16 06:24:39 UTC |
+| 61 (media) | critica | `22ae11d4d8971b1b1bc2c80b7a70e59dadd6112bc1ecfce750093d1d5f87e27f` | sha256_hash | PoshC2 | ThreatFox | 2026-09-17 02:48:38 UTC |
 | 61 (media) | alta | `164[.]92[.]207[.]173:8080` | ip:port | Aisuru | ThreatFox | 2026-09-16 09:15:45 UTC |
-| 61 (media) | alta | `f65d4ddf2d769eb6dd9cc7021845458f7cb49be01f1859328f62407924a7d7ac` | sha256_hash | Vidar | ThreatFox | 2026-09-16 00:33:55 UTC |
 | 59 (media) | media | `130[.]94[.]30[.]168:8090` | ip:port | VShell | ThreatFox | 2026-09-16 21:05:08 UTC |
+| 58 (media) | alta | `hxxp://91[.]92[.]242[.]57/` | url | Stealc | ThreatFox | 2026-09-17 04:00:10 UTC |
 | 58 (media) | media | `hxxps://yewanthology[.]co/rate/settings-compiler[.]js` | url | SmartApeSG | ThreatFox | 2026-09-16 16:28:58 UTC |
 | 58 (media) | media | `store[.]purestack[.]lol` | domain | Unknown malware | ThreatFox | 2026-09-16 16:08:16 UTC |
 | 58 (media) | media | `hxxps://windowsdiagnostics[.]st/api/static/loading` | url | Unknown malware | ThreatFox | 2026-09-16 11:47:17 UTC |
+| 57 (media) | media | `49[.]235[.]130[.]208:18081` | ip:port | Unknown malware | ThreatFox | 2026-09-17 02:05:07 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -171,10 +171,4 @@ python main.py
 | CVE-2026-86218 | N-able N-central | 2026-09-08 | Unknown |
 | CVE-2026-85880 | Microsoft Windows | 2026-09-08 | Unknown |
 | CVE-2026-85046 | Google Chromium V8 | 2026-09-04 | Unknown |
-| CVE-2026-59822 | BerriAI LiteLLM | 2026-09-02 | Unknown |
-| CVE-2026-48710 | Kludex Starlette | 2026-09-02 | Unknown |
-| CVE-2026-49869 | Kestra Kestra OSS | 2026-09-02 | Unknown |
-| CVE-2026-82329 | JFrog Artifactory | 2026-09-02 | Unknown |
-| CVE-2026-9586 | Sangoma Switchvox | 2026-09-02 | Unknown |
-| CVE-2026-83548 | SonicWall SMA1000 Appliances | 2026-09-02 | Unknown |
 <!-- CTI:END -->
