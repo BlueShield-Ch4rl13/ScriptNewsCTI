@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-17 11:33 UTC · **IOCs recolectados:** 2260 · **CVEs KEV recientes:** 19
+**Última actualización:** 2026-09-17 16:50 UTC · **IOCs recolectados:** 2366 · **CVEs KEV recientes:** 19
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 73 (alta) | alta | `9109d9bd117f540aed9afa6f293c1396cc18ed979056eadca97c69e3f957c14d` | sha256_hash | AsyncRAT | ThreatFox | 2026-09-16 11:47:22 UTC |
-| 72 (alta) | alta | `f959a8494f2a1c4e11f346ae8e3099593f156be2a5c8010d1747e4466a11316a` | sha256_hash | Venom RAT | ThreatFox | 2026-09-16 11:47:22 UTC |
-| 72 (alta) | alta | `f6f7dbd6561e7ee6ba7e6abffdb1e5de01bf511318aade34825d888e99db645f` | sha256_hash | AsyncRAT | ThreatFox | 2026-09-16 11:47:21 UTC |
+| 74 (alta) | alta | `217[.]60[.]195[.]161:8001` | ip:port | Aisuru | ThreatFox | 2026-09-17 14:13:39 UTC |
 | 71 (alta) | alta | `143[.]20[.]185[.]213:80` | ip:port | Mirai | ThreatFox | 2026-09-16 19:43:45 UTC |
 | 71 (alta) | alta | `dc834c0c0982771016202f3ca1808d3bba329379eba79e1d04db31cafb1f43e1` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-16 16:43:51 UTC |
-| 70 (alta) | media | `277b73d7981302c0da84c9656c8c5e132929d433aa8485b288ba7c5397b4b469` | sha256_hash | Unknown malware | ThreatFox | 2026-09-16 11:47:11 UTC |
-| 69 (media) | alta | `5f5a6a53fa0a869da21d3cce44be8b718f256ca7d68ca8dd8faf25e9fd9c7a44` | sha256_hash | Vidar | ThreatFox | 2026-09-16 13:45:36 UTC |
-| 69 (media) | alta | `8dc068b65b5ad95760d6f3cf58b4f7f9d8d21ed4` | sha1_hash | Vidar | ThreatFox | 2026-09-16 13:45:36 UTC |
-| 69 (media) | alta | `da168c3ff95c749beec0a2f29a1e6b82` | md5_hash | Vidar | ThreatFox | 2026-09-16 13:45:36 UTC |
-| 68 (media) | media | `0216f9324eb9a952adad9e8d182c45f10b4655ecd80d966115feea68ab2f9c0b` | sha256_hash | Unknown malware | ThreatFox | 2026-09-16 16:08:16 UTC |
-| 66 (media) | media | `ef1c7270096b4d0dffb394d09416320d12aa24b9d9b70f89998d90e42ac63098` | sha256_hash | Unknown malware | ThreatFox | 2026-09-16 11:47:10 UTC |
-| 63 (media) | media | `afbf107cfd4f658e80941e2de5348b872330cb4b` | sha1_hash | NetWire RC | ThreatFox | 2026-09-16 13:45:34 UTC |
 | 62 (media) | media | `217[.]60[.]195[.]6:8443` | ip:port | CECbot | ThreatFox | 2026-09-17 05:41:43 UTC |
-| 62 (media) | media | `5a74607697701830113d1ac3f61174e6` | md5_hash | NetWire RC | ThreatFox | 2026-09-16 13:45:35 UTC |
-| 62 (media) | alta | `164[.]92[.]207[.]173:8443` | ip:port | Aisuru | ThreatFox | 2026-09-16 11:47:06 UTC |
-| 61 (media) | media | `hxxp://123[.]185[.]245[.]118:47609/Mozi[.]a` | url | Mozi | ThreatFox, URLhaus | 2026-09-17 05:41:47 UTC |
+| 61 (media) | media | `hxxps://miamipcsupport[.]com/curl/57133df069b129caa0380eff96eb60ccfb5c58eb19f2d9dc8447618a1898b76a` | url | MacSync | ThreatFox | 2026-09-17 16:31:37 UTC |
 | 61 (media) | critica | `22ae11d4d8971b1b1bc2c80b7a70e59dadd6112bc1ecfce750093d1d5f87e27f` | sha256_hash | PoshC2 | ThreatFox | 2026-09-17 05:41:37 UTC |
+| 60 (media) | media | `hxxps://olympiapetemergency[.]com/curl/5b7250991558c1089d217b180d9418df77886996c22f8f319d7f640895e03381` | url | MacSync | ThreatFox | 2026-09-17 16:31:37 UTC |
+| 60 (media) | media | `hxxps://customroofingcontractors[.]com/curl/b42a0ed9d1ecb72e42d6034502c304845d98805481d99cea4e259359f9ab206e` | url | MacSync | ThreatFox | 2026-09-17 16:31:35 UTC |
+| 59 (media) | media | `hxxps://premierrentalpurchase[.]com/curl/5b7250991558c1089d217b180d9418df77886996c22f8f319d7f640895e03381` | url | MacSync | ThreatFox | 2026-09-17 16:31:38 UTC |
+| 59 (media) | media | `hxxps://dallasirrigationservices[.]com/curl/fa90319c89e7a0272c859f9f1403c6c2f12793281d3a295ce283d6018d5dd1c3` | url | MacSync | ThreatFox | 2026-09-17 16:31:36 UTC |
+| 59 (media) | media | `hxxps://elitefenceanddeck[.]com/curl/5b7250991558c1089d217b180d9418df77886996c22f8f319d7f640895e03381` | url | MacSync | ThreatFox | 2026-09-17 16:31:36 UTC |
+| 59 (media) | media | `hxxps://cincycarpetcleaning[.]com/curl/6e2d25066bc1db68a10d55189c7c0bae6443d5178fd4310808270e261236ce30` | url | MacSync | ThreatFox | 2026-09-17 16:31:35 UTC |
+| 59 (media) | media | `hxxps://byrnewealthmanagement[.]com/curl/5b7250991558c1089d217b180d9418df77886996c22f8f319d7f640895e03381` | url | MacSync | ThreatFox | 2026-09-17 16:31:34 UTC |
+| 59 (media) | media | `hxxps://aidevmaster[.]com/curl/5b7250991558c1089d217b180d9418df77886996c22f8f319d7f640895e03381` | url | MacSync | ThreatFox | 2026-09-17 16:31:33 UTC |
+| 59 (media) | media | `hxxps://alabamarecoverycenter[.]com/curl/b42a0ed9d1ecb72e42d6034502c304845d98805481d99cea4e259359f9ab206e` | url | MacSync | ThreatFox | 2026-09-17 16:31:33 UTC |
 | 59 (media) | media | `130[.]94[.]30[.]168:8090` | ip:port | VShell | ThreatFox | 2026-09-16 21:05:08 UTC |
-| 58 (media) | media | `tharposts[.]com` | domain | IClickFix | ThreatFox | 2026-09-17 11:19:53 UTC |
-| 58 (media) | alta | `hxxp://91[.]92[.]242[.]57/` | url | Stealc | ThreatFox | 2026-09-17 05:41:36 UTC |
-| 58 (media) | media | `hxxps://yewanthology[.]co/rate/settings-compiler[.]js` | url | SmartApeSG | ThreatFox | 2026-09-16 16:28:58 UTC |
-| 58 (media) | media | `store[.]purestack[.]lol` | domain | Unknown malware | ThreatFox | 2026-09-16 16:08:16 UTC |
-| 58 (media) | media | `hxxps://windowsdiagnostics[.]st/api/static/loading` | url | Unknown malware | ThreatFox | 2026-09-16 11:47:17 UTC |
-| 57 (media) | media | `49[.]235[.]130[.]208:18081` | ip:port | Unknown malware | ThreatFox | 2026-09-17 02:05:07 UTC |
-| 57 (media) | critica | `158[.]247[.]202[.]60:1080` | ip:port | Havoc | ThreatFox | 2026-09-16 21:05:05 UTC |
+| 58 (media) | media | `hxxps://legacybuilderscolorado[.]com/curl/499a828191d39ffd2cf302b35184c87696d5e1325bc40406a88bc7d213ec83df` | url | MacSync | ThreatFox | 2026-09-17 16:31:37 UTC |
+| 58 (media) | media | `hxxps://legacybuilderscolorado[.]com/curl/720e1e04c2690ac14874d54823354d6bd06336b23e8458debaffeb2b18f5be6a` | url | MacSync | ThreatFox | 2026-09-17 16:31:37 UTC |
+| 58 (media) | media | `hxxps://legacybuilderscolorado[.]com/curl/eaed253ce468efe4a95d739c882b9694ad635169136238a4a5849734f5fd1bb8` | url | MacSync | ThreatFox | 2026-09-17 16:31:37 UTC |
+| 58 (media) | media | `hxxps://oregoninteriors[.]com/curl/85cb26206d920216eee0c5f67e8de516b4d55bd1752025bb3c08a069a44fdbdf` | url | MacSync | ThreatFox | 2026-09-17 16:31:37 UTC |
+| 58 (media) | media | `hxxps://hybridcustomhomes[.]com/curl/720e1e04c2690ac14874d54823354d6bd06336b23e8458debaffeb2b18f5be6a` | url | MacSync | ThreatFox | 2026-09-17 16:31:36 UTC |
+| 58 (media) | media | `hxxps://criminallawyerpr[.]com/curl/720e1e04c2690ac14874d54823354d6bd06336b23e8458debaffeb2b18f5be6a` | url | MacSync | ThreatFox | 2026-09-17 16:31:35 UTC |
+| 58 (media) | media | `hxxps://criminallawyerpr[.]com/curl/85cb26206d920216eee0c5f67e8de516b4d55bd1752025bb3c08a069a44fdbdf` | url | MacSync | ThreatFox | 2026-09-17 16:31:35 UTC |
+| 58 (media) | media | `hxxps://criminallawyerpr[.]com/curl/8e92ee3f0bccc8211145e3aee82c34e9ae67058e9abf154e4b335a6575f97833` | url | MacSync | ThreatFox | 2026-09-17 16:31:35 UTC |
+| 58 (media) | media | `hxxps://atlantaairporttaxiservice[.]com/curl/8e92ee3f0bccc8211145e3aee82c34e9ae67058e9abf154e4b335a6575f97833` | url | MacSync | ThreatFox | 2026-09-17 16:31:34 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
