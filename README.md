@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-17 21:20 UTC · **IOCs recolectados:** 2412 · **CVEs KEV recientes:** 19
+**Última actualización:** 2026-09-18 04:18 UTC · **IOCs recolectados:** 2544 · **CVEs KEV recientes:** 19
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -144,9 +144,9 @@ python main.py
 | 59 (media) | media | `hxxps://dallasirrigationservices[.]com/curl/fa90319c89e7a0272c859f9f1403c6c2f12793281d3a295ce283d6018d5dd1c3` | url | MacSync | ThreatFox | 2026-09-17 16:42:01 UTC |
 | 59 (media) | media | `hxxps://elitefenceanddeck[.]com/curl/5b7250991558c1089d217b180d9418df77886996c22f8f319d7f640895e03381` | url | MacSync | ThreatFox | 2026-09-17 16:42:00 UTC |
 | 59 (media) | media | `hxxps://premierrentalpurchase[.]com/curl/5b7250991558c1089d217b180d9418df77886996c22f8f319d7f640895e03381` | url | MacSync | ThreatFox | 2026-09-17 16:41:56 UTC |
-| 58 (media) | alta | `vla[.]tcptunnel[.]su` | domain | XWorm | ThreatFox | 2026-09-17 20:54:50 UTC |
-| 58 (media) | alta | `www[.]sunwin28[.]bz` | domain | Quasar RAT | ThreatFox | 2026-09-17 20:53:26 UTC |
-| 58 (media) | media | `hxxps://atlantaairporttaxiservice[.]com/curl/8e92ee3f0bccc8211145e3aee82c34e9ae67058e9abf154e4b335a6575f97833` | url | MacSync | ThreatFox | 2026-09-17 16:42:10 UTC |
+| 58 (media) | critica | `154[.]219[.]101[.]56:18881` | ip:port | Cobalt Strike | ThreatFox | 2026-09-18 04:05:07 UTC |
+| 58 (media) | critica | `154[.]219[.]101[.]56:8443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-18 04:05:06 UTC |
+| 58 (media) | critica | `154[.]219[.]101[.]56:8056` | ip:port | Cobalt Strike | ThreatFox | 2026-09-18 04:05:05 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
