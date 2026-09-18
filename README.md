@@ -116,20 +116,18 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-18 04:18 UTC · **IOCs recolectados:** 2544 · **CVEs KEV recientes:** 19
+**Última actualización:** 2026-09-18 11:07 UTC · **IOCs recolectados:** 1067 · **CVEs KEV recientes:** 19
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 74 (alta) | alta | `217[.]60[.]195[.]161:8001` | ip:port | Aisuru | ThreatFox | 2026-09-17 14:13:39 UTC |
-| 65 (media) | media | `hxxps://roptik[.]com/curl/b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42` | url | MacSync | ThreatFox, URLhaus | 2026-09-17 16:29:40 UTC |
-| 65 (media) | media | `hxxps://roptik[.]com/dynamic?txd=b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42` | url | MacSync | ThreatFox, URLhaus | 2026-09-17 16:29:40 UTC |
-| 62 (media) | media | `217[.]60[.]195[.]6:8443` | ip:port | CECbot | ThreatFox | 2026-09-17 05:41:43 UTC |
+| 71 (alta) | alta | `176[.]65[.]139[.]219:9111` | ip:port | Mirai | ThreatFox | 2026-09-18 06:18:42 UTC |
+| 61 (media) | alta | `164[.]92[.]207[.]173:9034` | ip:port | Aisuru | ThreatFox | 2026-09-18 05:04:35 UTC |
 | 61 (media) | alta | `36[.]255[.]97[.]7:4445` | ip:port | XWorm | ThreatFox | 2026-09-17 20:54:43 UTC |
 | 61 (media) | media | `hxxps://miamipcsupport[.]com/curl/57133df069b129caa0380eff96eb60ccfb5c58eb19f2d9dc8447618a1898b76a` | url | MacSync | ThreatFox | 2026-09-17 16:41:57 UTC |
-| 61 (media) | critica | `22ae11d4d8971b1b1bc2c80b7a70e59dadd6112bc1ecfce750093d1d5f87e27f` | sha256_hash | PoshC2 | ThreatFox | 2026-09-17 05:41:37 UTC |
-| 60 (media) | media | `138[.]226[.]247[.]152:80` | ip:port | OtterCookie | ThreatFox | 2026-09-17 19:50:46 UTC |
+| 60 (media) | media | `138[.]226[.]247[.]152:80` | ip:port | OtterCookie | ThreatFox | 2026-09-18 05:05:38 UTC |
 | 60 (media) | media | `hxxps://customroofingcontractors[.]com/curl/b42a0ed9d1ecb72e42d6034502c304845d98805481d99cea4e259359f9ab206e` | url | MacSync | ThreatFox | 2026-09-17 16:42:04 UTC |
 | 60 (media) | media | `hxxps://olympiapetemergency[.]com/curl/5b7250991558c1089d217b180d9418df77886996c22f8f319d7f640895e03381` | url | MacSync | ThreatFox | 2026-09-17 16:41:57 UTC |
 | 59 (media) | alta | `sddfgdqw45tj-35300[.]portmap[.]host` | domain | XWorm | ThreatFox | 2026-09-17 20:54:36 UTC |
@@ -144,9 +142,11 @@ python main.py
 | 59 (media) | media | `hxxps://dallasirrigationservices[.]com/curl/fa90319c89e7a0272c859f9f1403c6c2f12793281d3a295ce283d6018d5dd1c3` | url | MacSync | ThreatFox | 2026-09-17 16:42:01 UTC |
 | 59 (media) | media | `hxxps://elitefenceanddeck[.]com/curl/5b7250991558c1089d217b180d9418df77886996c22f8f319d7f640895e03381` | url | MacSync | ThreatFox | 2026-09-17 16:42:00 UTC |
 | 59 (media) | media | `hxxps://premierrentalpurchase[.]com/curl/5b7250991558c1089d217b180d9418df77886996c22f8f319d7f640895e03381` | url | MacSync | ThreatFox | 2026-09-17 16:41:56 UTC |
+| 58 (media) | media | `62[.]60[.]226[.]111:443` | ip:port | CECbot | ThreatFox | 2026-09-18 10:13:38 UTC |
 | 58 (media) | critica | `154[.]219[.]101[.]56:18881` | ip:port | Cobalt Strike | ThreatFox | 2026-09-18 04:05:07 UTC |
 | 58 (media) | critica | `154[.]219[.]101[.]56:8443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-18 04:05:06 UTC |
 | 58 (media) | critica | `154[.]219[.]101[.]56:8056` | ip:port | Cobalt Strike | ThreatFox | 2026-09-18 04:05:05 UTC |
+| 58 (media) | critica | `154[.]219[.]101[.]56:443` | ip:port | Cobalt Strike | ThreatFox | 2026-09-18 03:05:08 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
