@@ -116,14 +116,13 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-19 10:50 UTC · **IOCs recolectados:** 840 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-19 15:53 UTC · **IOCs recolectados:** 900 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 75 (alta) | media | `63b0475bd58c48b4fe32f23515816550b6bb20455725b703e12d3428b3e7bedf` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:47 UTC |
-| 75 (alta) | media | `141[.]98[.]10[.]26:6969` | ip:port | CECbot | ThreatFox | 2026-09-18 11:06:17 UTC |
 | 74 (alta) | media | `77a90a2dd2aeef925b0198b39a788c9ff5183044bdfa398c75889c74750fe407` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:46 UTC |
 | 73 (alta) | media | `6fa80698d7268f6e88aa88c06fb27ee99e1bcee747c2e76911e6206a5b1aeeb3` | sha256_hash | xmrig | ThreatFox | 2026-09-19 05:52:28 UTC |
 | 72 (alta) | alta | `176[.]65[.]132[.]207:80` | ip:port | Mirai | ThreatFox | 2026-09-18 19:44:14 UTC |
@@ -144,9 +143,10 @@ python main.py
 | 69 (media) | media | `d5634b7f71b704851628e6a8e93e31a6044f0cffea2316f454cf0efd8f640de8` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:43 UTC |
 | 69 (media) | media | `91c8498add9ef05e7b20983dff07eff8d23a70bad7093990b23761f89a4800eb` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:42 UTC |
 | 69 (media) | media | `18f59334aaa3e6fee325946df9c1571d06f0e41ce38dd19221f8b6d1f121bb03` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:42 UTC |
+| 68 (media) | alta | `188[.]166[.]158[.]18:8443` | ip:port | Aisuru | ThreatFox | 2026-09-19 14:10:07 UTC |
+| 68 (media) | alta | `188[.]166[.]158[.]18:8001` | ip:port | Aisuru | ThreatFox | 2026-09-19 12:50:57 UTC |
 | 68 (media) | alta | `06d41e963ea49632f199c7bd18d7d939dc9d8dc6c02cf7ce714b7c24fef4868e` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-19 05:52:23 UTC |
 | 68 (media) | alta | `b98fc9f0dbc61810287e77ea978665a0b762dceea927bbffceb63fb7005149b3` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-19 05:52:23 UTC |
-| 68 (media) | alta | `d15cea4f9adf09fac25e8073340f59adec3d9da2aaaac7fd2cc24979f683b915` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-18 17:23:50 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
