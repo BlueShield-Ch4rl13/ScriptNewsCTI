@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-18 20:53 UTC · **IOCs recolectados:** 984 · **CVEs KEV recientes:** 22
+**Última actualización:** 2026-09-19 04:16 UTC · **IOCs recolectados:** 787 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -125,6 +125,7 @@ python main.py
 | 75 (alta) | media | `63b0475bd58c48b4fe32f23515816550b6bb20455725b703e12d3428b3e7bedf` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:47 UTC |
 | 75 (alta) | media | `141[.]98[.]10[.]26:6969` | ip:port | CECbot | ThreatFox | 2026-09-18 11:06:17 UTC |
 | 74 (alta) | media | `77a90a2dd2aeef925b0198b39a788c9ff5183044bdfa398c75889c74750fe407` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:46 UTC |
+| 73 (alta) | media | `6fa80698d7268f6e88aa88c06fb27ee99e1bcee747c2e76911e6206a5b1aeeb3` | sha256_hash | xmrig | ThreatFox | 2026-09-19 00:45:14 UTC |
 | 72 (alta) | alta | `176[.]65[.]132[.]207:80` | ip:port | Mirai | ThreatFox | 2026-09-18 19:44:14 UTC |
 | 72 (alta) | alta | `af23e31dddd570b2747feff467157e265c1a6627be0649d51ed9b71383053eea` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-18 17:23:52 UTC |
 | 72 (alta) | media | `e401bb0221be358e9639b552e367cf7cc2d6ce9b9c8cf2721a0ac877fbd2ecaa` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:45 UTC |
@@ -133,6 +134,7 @@ python main.py
 | 70 (alta) | media | `bf22312e3e995c77f4f8234f230bf5bb4ba5c609d9e8f68c303d5a5cd0503cce` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:46 UTC |
 | 70 (alta) | media | `a6b9e11dd7457c49ef440964ef625cb34762d94b894e05925f92fc14d1e2b714` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:46 UTC |
 | 70 (alta) | media | `7eb1acc29ed9cdd6dbc9ff1ffcea397ec5119e752b8ee7cf662925d5aa132cc3` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:44 UTC |
+| 69 (media) | alta | `d04c03df654d5cb80cd95be199b2e43337ea2f9de68addf4708fe8b73a03640f` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-19 01:28:57 UTC |
 | 69 (media) | alta | `9eb7a6a0199d37909f2d682d9dff839cc6e335d173680e8f056c0bf606d3351d` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-18 17:23:52 UTC |
 | 69 (media) | alta | `1f423c42e631e5b57350566821bc0561f9105ec4e9eb055f29f44d0cb5d9aff3` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-18 17:23:52 UTC |
 | 69 (media) | alta | `a33181af9e44bf83c799f1fcf422f2b9145c41d49b20cca569e33243476056c4` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-18 17:23:51 UTC |
@@ -143,10 +145,8 @@ python main.py
 | 69 (media) | media | `d5634b7f71b704851628e6a8e93e31a6044f0cffea2316f454cf0efd8f640de8` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:43 UTC |
 | 69 (media) | media | `91c8498add9ef05e7b20983dff07eff8d23a70bad7093990b23761f89a4800eb` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:42 UTC |
 | 69 (media) | media | `18f59334aaa3e6fee325946df9c1571d06f0e41ce38dd19221f8b6d1f121bb03` | sha256_hash | VShell | ThreatFox | 2026-09-18 17:23:42 UTC |
-| 68 (media) | alta | `d15cea4f9adf09fac25e8073340f59adec3d9da2aaaac7fd2cc24979f683b915` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-18 17:23:50 UTC |
-| 68 (media) | alta | `816556069e5e24f3ae05c036aa28bef5392117afac7340a343e151c95970ea30` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-18 17:23:49 UTC |
-| 65 (media) | media | `hxxps://genovaw[.]com/curl/001e07c934e19b9d10f621c6b7546b43b2fb1c7b8fce2625fc7b767dfb626336` | url | MacSync | ThreatFox, URLhaus | 2026-09-18 17:23:25 UTC |
-| 65 (media) | media | `hxxps://genovaw[.]com/loader/agent/001e07c934e19b9d10f621c6b7546b43b2fb1c7b8fce2625fc7b767dfb626336` | url | MacSync | ThreatFox, URLhaus | 2026-09-18 17:23:24 UTC |
+| 68 (media) | alta | `06d41e963ea49632f199c7bd18d7d939dc9d8dc6c02cf7ce714b7c24fef4868e` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-19 01:28:58 UTC |
+| 68 (media) | alta | `b98fc9f0dbc61810287e77ea978665a0b762dceea927bbffceb63fb7005149b3` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-19 01:28:58 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -173,5 +173,4 @@ python main.py
 | CVE-2026-81963 | Microsoft Windows | 2026-09-08 | Unknown |
 | CVE-2026-86218 | N-able N-central | 2026-09-08 | Unknown |
 | CVE-2026-85880 | Microsoft Windows | 2026-09-08 | Unknown |
-| CVE-2026-85046 | Google Chromium V8 | 2026-09-04 | Unknown |
 <!-- CTI:END -->
