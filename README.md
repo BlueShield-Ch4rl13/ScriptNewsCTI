@@ -116,12 +116,13 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-20 15:59 UTC · **IOCs recolectados:** 1597 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-09-20 20:46 UTC · **IOCs recolectados:** 1665 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 74 (alta) | alta | `46[.]151[.]182[.]67:443` | ip:port | PureRAT | ThreatFox | 2026-09-20 19:46:41 UTC |
 | 74 (alta) | media | `b659aea8be65b89f3579b7e8f2941b1a481f4c8c72db7c17c30ad929dc87a28d` | sha256_hash | VShell | ThreatFox | 2026-09-20 14:52:24 UTC |
 | 73 (alta) | media | `dac96bc408b9ce098910dea7b359d0a5089081f42a84087b2ca6b724d660810d` | sha256_hash | VShell | ThreatFox | 2026-09-20 14:52:24 UTC |
 | 73 (alta) | alta | `3610fcc54a204281b09095004f02b674cd75bdd83996a1428fdef85645eff3e1` | sha256_hash | AsyncRAT | ThreatFox | 2026-09-20 09:46:39 UTC |
@@ -142,11 +143,10 @@ python main.py
 | 70 (alta) | media | `c63795af3f664de95aacf2a1829805c5d04be7e79524f511b15f6a85453aa6f0` | sha256_hash | VShell | ThreatFox | 2026-09-20 05:32:29 UTC |
 | 70 (alta) | media | `e46795ecf21f16b7ff23f8a5b06cbdb560255df8d7a5d083f6434dcdd3fc6628` | sha256_hash | VShell | ThreatFox | 2026-09-20 05:32:29 UTC |
 | 70 (alta) | media | `d4a1d31071219e052098223e88b0bc28bb78cc47fb0b6aa8cddf4ceff36ef556` | sha256_hash | VShell | ThreatFox | 2026-09-20 05:32:28 UTC |
+| 69 (media) | media | `185[.]218[.]86[.]24:443` | ip:port | Unknown malware | ThreatFox | 2026-09-20 18:32:30 UTC |
 | 69 (media) | media | `fffe3d53b69069600316d95da7141188c232111549832e053cdc26756f92315a` | sha256_hash | VShell | ThreatFox | 2026-09-20 14:52:28 UTC |
 | 69 (media) | media | `9ced5fc61e2b93800be8938382d7c9db7d53ae80ac81fbe9aad82fe0ec7efced` | sha256_hash | VShell | ThreatFox | 2026-09-20 14:52:27 UTC |
 | 69 (media) | media | `35e1673c95baa0a8f0ebb5714253420ee450f1280a61d2c17bd2e71a55beb0fc` | sha256_hash | VShell | ThreatFox | 2026-09-20 14:52:27 UTC |
-| 69 (media) | media | `5b9d71bb2865c9af13147a50584c6b44deb1a87a17e9e64c85af69fdd59670de` | sha256_hash | VShell | ThreatFox | 2026-09-20 14:52:27 UTC |
-| 69 (media) | media | `1954b7ea05ea3e449d750c7e7b6d2f2e1c531f04ad1b47ee4f51a389508c1138` | sha256_hash | VShell | ThreatFox | 2026-09-20 14:52:26 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
