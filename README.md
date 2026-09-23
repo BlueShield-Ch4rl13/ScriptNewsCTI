@@ -116,23 +116,30 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-22 21:17 UTC · **IOCs recolectados:** 1360 · **CVEs KEV recientes:** 26
+**Última actualización:** 2026-09-23 04:25 UTC · **IOCs recolectados:** 1588 · **CVEs KEV recientes:** 22
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 75 (alta) | media | `221[.]236[.]125[.]241:23` | ip:port | Unknown malware | ThreatFox | 2026-09-22 01:05:05 UTC |
-| 75 (alta) | media | `221[.]236[.]125[.]241:2222` | ip:port | Unknown malware | ThreatFox | 2026-09-22 01:05:05 UTC |
-| 75 (alta) | media | `221[.]236[.]125[.]241:22` | ip:port | Unknown malware | ThreatFox | 2026-09-22 00:05:09 UTC |
-| 75 (alta) | media | `221[.]236[.]125[.]241:21` | ip:port | Unknown malware | ThreatFox | 2026-09-22 00:05:08 UTC |
-| 75 (alta) | media | `221[.]236[.]125[.]241:60000` | ip:port | Unknown malware | ThreatFox | 2026-09-21 22:05:06 UTC |
-| 75 (alta) | media | `221[.]236[.]125[.]241:9192` | ip:port | Unknown malware | ThreatFox | 2026-09-21 22:05:05 UTC |
+| 74 (alta) | critica | `81[.]70[.]21[.]163:8899` | ip:port | Cobalt Strike | ThreatFox | 2026-09-23 04:05:19 UTC |
 | 72 (alta) | critica | `81[.]70[.]21[.]163:389` | ip:port | Cobalt Strike | ThreatFox | 2026-09-22 20:05:08 UTC |
 | 72 (alta) | critica | `81[.]70[.]21[.]163:8888` | ip:port | Cobalt Strike | ThreatFox | 2026-09-22 19:05:06 UTC |
 | 71 (alta) | media | `80[.]87[.]206[.]86:18082` | ip:port | Unknown malware | ThreatFox | 2026-09-22 17:57:26 UTC |
 | 71 (alta) | alta | `94[.]154[.]43[.]12:33` | ip:port | Mirai | ThreatFox | 2026-09-22 05:29:45 UTC |
+| 70 (alta) | alta | `9017f68b9ef0c1f5954e3b50c1984d88e1e49449f1b7afd220b6931fecfe0430` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:24 UTC |
 | 70 (alta) | alta | `4deefc89b2046999f1a6ea578950dab891579dfa5032b6d1d534f88aa000b7e5` | sha256_hash | Mirai | ThreatFox | 2026-09-22 04:58:02 UTC |
+| 69 (media) | alta | `5e6582e44fa8f5f671f8ed5c83e9c20f91c8ef1a44cbaef06e9c1f65c890d6ff` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:25 UTC |
+| 69 (media) | alta | `fd66a2fe2fe980c283d6efe8209d075a4f0bc1e4c684757c58f12b1ad7189550` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:25 UTC |
+| 69 (media) | alta | `cb7e46569d44d677abacb2e7725f585a92d026b75136d3c912b6edeaf4a7bc42` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:23 UTC |
+| 69 (media) | alta | `b144e93c2a241f85346f7f2ed54c61d43d3d054e34383452bc94e4ae96dafccf` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:21 UTC |
+| 69 (media) | media | `8c17745d754c000fc2bf4aed9ed42aa414cd11c473c2fc8d3c72c6593ea2f371` | sha256_hash | Bashlite | ThreatFox | 2026-09-23 03:37:20 UTC |
+| 69 (media) | alta | `2f516e833a42b768ed8121ab74dd589f5513dd9531eaa8a5432ff49557bd4472` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:19 UTC |
+| 69 (media) | alta | `504cb139bbc3d10dc2febee86d854db2b59c5aa55c6a5c49619dea4d37e1fc11` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:18 UTC |
+| 69 (media) | alta | `0e8d4bbbe9ded46090848a1a755e655f7c2771d48426b0bceecc9eb31d53ffa1` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:17 UTC |
+| 69 (media) | alta | `bb08fd9ce1f3508bc30a33646aeb66df3024e5c7da843cabd09ed19ae07bd8d1` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:16 UTC |
+| 69 (media) | alta | `1b9afb8283c6396129ffd23aa89cc0321b7a12e995eaf0f98d4d478afb84e2ce` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:15 UTC |
+| 69 (media) | alta | `dcda5ec54ae2a736249894992a6cab2c5cfe65acd07c9e59c92d86fbd0564ce4` | sha256_hash | Mirai | ThreatFox | 2026-09-23 03:37:14 UTC |
 | 69 (media) | alta | `526e532170acbc980bf41c48d1886b592a871c852d5ea86f98db4296bbbe85b6` | sha256_hash | KrBanker | ThreatFox | 2026-09-22 04:58:01 UTC |
 | 69 (media) | media | `586960df8bf559ffbba600f11917a99baed4a875cb7faa5eabc060bcde67277b` | sha256_hash | Bashlite | ThreatFox | 2026-09-22 04:57:58 UTC |
 | 69 (media) | alta | `bcfbd1d0c98844ddd4795a6df4e6431a494a0320c72413f188b50140cd30f506` | sha256_hash | Mirai | ThreatFox | 2026-09-22 04:57:58 UTC |
@@ -140,13 +147,6 @@ python main.py
 | 69 (media) | media | `7aac36e30a811f7463cfb882ee6ff76834a60428c436b0b3fa15ff8f94b8db51` | sha256_hash | Bashlite | ThreatFox | 2026-09-22 04:57:57 UTC |
 | 69 (media) | media | `f407f10ce043dce0f4a8aeed21912f20f21f613ec0fe495394451097dc8ced0b` | sha256_hash | Bashlite | ThreatFox | 2026-09-22 04:57:55 UTC |
 | 69 (media) | media | `3a37758233921a3022659d0e1dfc62d61c990cd8e787512939dad90bb443203b` | sha256_hash | Bashlite | ThreatFox | 2026-09-22 04:57:54 UTC |
-| 69 (media) | alta | `32dcfd588d0602147330508b7f35e5f4424abf20a4459150c56a08e5ebb1693c` | sha256_hash | Mirai | ThreatFox | 2026-09-22 04:57:53 UTC |
-| 69 (media) | alta | `01c895e125b6c2214f509b0d0c94b81b29b34d3da3ec52d2014eeb4c19bd1086` | sha256_hash | Mirai | ThreatFox | 2026-09-22 04:57:52 UTC |
-| 69 (media) | alta | `6f518952f4f490993c223f25892dc70f35467c20aaffead61113de95161a78d4` | sha256_hash | Mirai | ThreatFox | 2026-09-22 04:57:52 UTC |
-| 69 (media) | alta | `a2a6d8a0b14a5c8108e8a0678ce60b43fff05f5d5ac8088482895746e645b18e` | sha256_hash | Mirai | ThreatFox | 2026-09-22 04:57:51 UTC |
-| 68 (media) | media | `134[.]33[.]66[.]210:443` | ip:port | Unknown malware | ThreatFox | 2026-09-22 11:40:48 UTC |
-| 68 (media) | alta | `0f525163359e877881bd5a2ed6c231f829c2ff23d3c00f6105f9d860a6ed95cb` | sha256_hash | Mirai | ThreatFox | 2026-09-22 04:57:51 UTC |
-| 67 (media) | alta | `b9533ce8e428f16f3d0e1946f19a6f756ff11a532d0b7e61ae402837f46c678e` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-22 04:58:00 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -174,7 +174,4 @@ python main.py
 | CVE-2025-25249 | Fortinet Multiple Products | 2026-09-09 | Unknown |
 | CVE-2026-87491 | Google Chromium V8 | 2026-09-09 | Unknown |
 | CVE-2026-20079 | Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 2026-09-09 | Unknown |
-| CVE-2026-75650 | Adobe Commerce and Magento | 2026-09-08 | Unknown |
-| CVE-2026-81963 | Microsoft Windows | 2026-09-08 | Unknown |
-| CVE-2026-86218 | N-able N-central | 2026-09-08 | Unknown |
 <!-- CTI:END -->
