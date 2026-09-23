@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-23 11:23 UTC · **IOCs recolectados:** 2554 · **CVEs KEV recientes:** 22
+**Última actualización:** 2026-09-23 16:44 UTC · **IOCs recolectados:** 3568 · **CVEs KEV recientes:** 22
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -126,6 +126,7 @@ python main.py
 | 74 (alta) | critica | `81[.]70[.]21[.]163:8899` | ip:port | Cobalt Strike | ThreatFox | 2026-09-23 04:05:19 UTC |
 | 72 (alta) | critica | `81[.]70[.]21[.]163:389` | ip:port | Cobalt Strike | ThreatFox | 2026-09-22 20:05:08 UTC |
 | 72 (alta) | critica | `81[.]70[.]21[.]163:8888` | ip:port | Cobalt Strike | ThreatFox | 2026-09-22 19:05:06 UTC |
+| 71 (alta) | critica | `81[.]70[.]21[.]163:5985` | ip:port | Cobalt Strike | ThreatFox | 2026-09-23 13:05:06 UTC |
 | 71 (alta) | alta | `156[.]225[.]17[.]60:113` | ip:port | Ghost RAT | ThreatFox | 2026-09-23 08:22:50 UTC |
 | 71 (alta) | alta | `156[.]225[.]17[.]60:2014` | ip:port | Ghost RAT | ThreatFox | 2026-09-23 08:22:50 UTC |
 | 71 (alta) | critica | `81[.]70[.]21[.]163:8012` | ip:port | Cobalt Strike | ThreatFox | 2026-09-23 07:05:05 UTC |
@@ -143,10 +144,9 @@ python main.py
 | 69 (media) | alta | `5e6582e44fa8f5f671f8ed5c83e9c20f91c8ef1a44cbaef06e9c1f65c890d6ff` | sha256_hash | Mirai | ThreatFox | 2026-09-23 06:34:15 UTC |
 | 69 (media) | alta | `fd66a2fe2fe980c283d6efe8209d075a4f0bc1e4c684757c58f12b1ad7189550` | sha256_hash | Mirai | ThreatFox | 2026-09-23 06:34:15 UTC |
 | 68 (media) | alta | `704dcac75a1ac1d08bc97d3c837a9cd4dc5f7b3ba84056b2557dcf4063638640` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-23 06:34:25 UTC |
-| 68 (media) | media | `134[.]33[.]66[.]210:443` | ip:port | Unknown malware | ThreatFox | 2026-09-22 11:40:48 UTC |
-| 59 (media) | alta | `155[.]103[.]69[.]239:4550` | ip:port | Remcos | ThreatFox | 2026-09-23 10:53:01 UTC |
-| 59 (media) | alta | `217[.]60[.]195[.]168:2022` | ip:port | Remcos | ThreatFox | 2026-09-22 11:18:31 UTC |
-| 58 (media) | alta | `adecoco[.]us` | domain | Unknown Loader | ThreatFox | 2026-09-22 16:39:18 UTC |
+| 65 (media) | media | `hxxps://journeylake11[.]com/curl/fh3ddf2xv6k/hilhg0wgie4tsjo9vi[.]txt` | url | AMOS | ThreatFox, URLhaus | 2026-09-23 15:55:13 UTC |
+| 65 (media) | media | `hxxps://journeylake11[.]com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/DANTE/update` | url | AMOS | ThreatFox, URLhaus | 2026-09-23 15:55:13 UTC |
+| 64 (media) | media | `c4dc171f2513fcaf9d5ecc815a94aee4063b213ab380f80bd3ac422dee5205a7` | sha256_hash | Logedrut | ThreatFox, OTX | 2026-09-23 15:02:27 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
