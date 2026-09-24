@@ -116,13 +116,16 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-24 17:04 UTC · **IOCs recolectados:** 1805 · **CVEs KEV recientes:** 18
+**Última actualización:** 2026-09-24 21:32 UTC · **IOCs recolectados:** 1617 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 73 (alta) | critica | `81[.]70[.]21[.]163:18080` | ip:port | Cobalt Strike | ThreatFox | 2026-09-23 20:05:09 UTC |
+| 74 (alta) | alta | `91[.]92[.]40[.]117:443` | ip:port | PureRAT | ThreatFox | 2026-09-24 19:47:32 UTC |
+| 74 (alta) | alta | `91[.]92[.]40[.]117:56001` | ip:port | PureRAT | ThreatFox | 2026-09-24 19:47:32 UTC |
+| 74 (alta) | alta | `91[.]92[.]40[.]117:56002` | ip:port | PureRAT | ThreatFox | 2026-09-24 19:47:32 UTC |
+| 74 (alta) | alta | `91[.]92[.]40[.]117:56003` | ip:port | PureRAT | ThreatFox | 2026-09-24 19:47:32 UTC |
 | 72 (alta) | media | `138[.]197[.]31[.]70:7443` | ip:port | Unknown malware | ThreatFox | 2026-09-24 09:43:38 UTC |
 | 71 (alta) | critica | `81[.]70[.]21[.]163:4444` | ip:port | Cobalt Strike | ThreatFox | 2026-09-24 13:05:05 UTC |
 | 71 (alta) | critica | `81[.]70[.]21[.]163:8088` | ip:port | Cobalt Strike | ThreatFox | 2026-09-24 13:05:05 UTC |
@@ -144,14 +147,13 @@ python main.py
 | 69 (media) | media | `a7682d1edc81925c3d7d2738db2283c742144d8321cfaf1888cdb66c1cd6ae83` | sha256_hash | Tsunami | ThreatFox | 2026-09-24 04:56:32 UTC |
 | 69 (media) | alta | `517164c29c0e178b1bb4613d3d5ceb552329c9596791624d8277f2dc5ba37c50` | sha256_hash | Mirai | ThreatFox | 2026-09-24 04:56:32 UTC |
 | 69 (media) | media | `ccb05e8e1b680a6766c9cfffe71e5543f0b9b0432d2ea10d8f4661188ec5b951` | sha256_hash | Meterpreter | ThreatFox | 2026-09-24 04:56:30 UTC |
-| 68 (media) | alta | `f9b09befb30866b099222758b9dced1e58540c87` | sha1_hash | ValleyRAT | ThreatFox | 2026-09-24 14:33:22 UTC |
-| 68 (media) | alta | `c9dd06b54122a3c7b27299720b403a92` | md5_hash | ValleyRAT | ThreatFox | 2026-09-24 14:33:22 UTC |
-| 68 (media) | alta | `b709d2521e36fb30edbddffff27e7a09a0aa2766cd98c6aea38c92bd1f953176` | sha256_hash | ValleyRAT | ThreatFox | 2026-09-24 14:33:21 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-5430 | WSO2 Multiple Products | 2026-09-24 | Unknown |
+| CVE-2026-71362 | Adobe Commerce and Magento  | 2026-09-24 | Unknown |
 | CVE-2026-93952 | Arista VeloCloud Orchestrator | 2026-09-22 | Unknown |
 | CVE-2026-94127 | F5 BIG-IP APM | 2026-09-22 | Unknown |
 | CVE-2026-93616 | Check Point Multiple Products | 2026-09-22 | Unknown |
