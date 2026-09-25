@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-25 11:44 UTC · **IOCs recolectados:** 769 · **CVEs KEV recientes:** 18
+**Última actualización:** 2026-09-25 17:07 UTC · **IOCs recolectados:** 1986 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -127,11 +127,6 @@ python main.py
 | 74 (alta) | alta | `91[.]92[.]40[.]117:56001` | ip:port | PureRAT | ThreatFox | 2026-09-24 19:47:32 UTC |
 | 74 (alta) | alta | `91[.]92[.]40[.]117:56002` | ip:port | PureRAT | ThreatFox | 2026-09-24 19:47:32 UTC |
 | 74 (alta) | alta | `91[.]92[.]40[.]117:56003` | ip:port | PureRAT | ThreatFox | 2026-09-24 19:47:32 UTC |
-| 71 (alta) | critica | `81[.]70[.]21[.]163:4444` | ip:port | Cobalt Strike | ThreatFox | 2026-09-24 13:05:05 UTC |
-| 71 (alta) | critica | `81[.]70[.]21[.]163:8088` | ip:port | Cobalt Strike | ThreatFox | 2026-09-24 13:05:05 UTC |
-| 70 (alta) | alta | `2c760321782a419ada907cb66b2653f6e16ff17f` | sha1_hash | ValleyRAT | ThreatFox | 2026-09-24 14:33:07 UTC |
-| 70 (alta) | alta | `cd4247e33148b91be70282885447f757` | md5_hash | ValleyRAT | ThreatFox | 2026-09-24 14:33:07 UTC |
-| 70 (alta) | alta | `a58f5fe338e416dbc8cf88b0b3cabebc5ba2f6ae632e50e703127519331660fc` | sha256_hash | ValleyRAT | ThreatFox | 2026-09-24 14:33:06 UTC |
 | 69 (media) | alta | `494aec19883cb5454d5d8e84953ceed65b83af99ff8a9cbf049544105e2b5e18` | sha256_hash | Mirai | ThreatFox | 2026-09-25 06:27:30 UTC |
 | 69 (media) | alta | `3b6786813f55f4f49a2ea1bac64413b94523bc4468ab02f403c6912cbb703377` | sha256_hash | Mirai | ThreatFox | 2026-09-25 03:37:42 UTC |
 | 69 (media) | alta | `8738d60030156b9cd03f939bad1257e7cd34de4adda9c84841564995353df593` | sha256_hash | Mirai | ThreatFox | 2026-09-25 03:37:37 UTC |
@@ -147,11 +142,18 @@ python main.py
 | 68 (media) | alta | `ac534a13006b72805cc12ea91ff2e06ab843c3806eca0e21e81f163dbd5212c6` | sha256_hash | Mirai | ThreatFox | 2026-09-25 03:37:39 UTC |
 | 68 (media) | alta | `c754338f9ebacd78d7582f28729705d4e61c0ef05f9b8e13a71a6a0f05438dab` | sha256_hash | Mirai | ThreatFox | 2026-09-25 03:37:38 UTC |
 | 68 (media) | alta | `939a999e03e1f80f3eb8e4e04b93c42339261e463e16582c2cccda1a28b57a8a` | sha256_hash | Mirai | ThreatFox | 2026-09-25 03:37:35 UTC |
+| 66 (media) | critica | `45[.]227[.]253[.]132:56225` | ip:port | Cobalt Strike | ThreatFox | 2026-09-25 03:47:23 UTC |
+| 57 (media) | alta | `vrdx99th[.]bet313[.]org` | domain | ClearFake | ThreatFox | 2026-09-25 16:50:55 UTC |
+| 57 (media) | media | `de5b4c6411938c0660f01d6933fd21e40ea7a2b6a141ff552d9dc39c931f6345` | sha256_hash | AMOS | ThreatFox | 2026-09-25 16:50:17 UTC |
+| 57 (media) | media | `hxxp://211[.]101[.]233[.]147:8080/` | url | Unknown malware | ThreatFox | 2026-09-25 11:47:17 UTC |
+| 57 (media) | media | `hxxp://211[.]101[.]233[.]147:8080/?a=w64&h=211[.]101[.]233[.]147&t=ws_&p=8080` | url | Unknown malware | ThreatFox | 2026-09-25 11:47:16 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-67279 | MikroTik RouterOS | 2026-09-25 | Unknown |
+| CVE-2026-65660 | Microsoft SharePoint | 2026-09-25 | Unknown |
 | CVE-2026-5430 | WSO2 Multiple Products | 2026-09-24 | Unknown |
 | CVE-2026-71362 | Adobe Commerce and Magento  | 2026-09-24 | Unknown |
 | CVE-2026-93952 | Arista VeloCloud Orchestrator | 2026-09-22 | Unknown |
