@@ -116,12 +116,13 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-27 21:21 UTC · **IOCs recolectados:** 4808 · **CVEs KEV recientes:** 17
+**Última actualización:** 2026-09-28 04:58 UTC · **IOCs recolectados:** 5328 · **CVEs KEV recientes:** 19
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 73 (alta) | media | `99a9b6e21b5ef54733a1385425e3d58f56e285d609eea91432963aa4ca3d076c` | sha256_hash | VShell | ThreatFox | 2026-09-28 04:45:04 UTC |
 | 73 (alta) | media | `c66d2b77b9e85c53391891212413ad9a99eb66f4b11c6a431e78884a5b2651e5` | sha256_hash | Coinminer | ThreatFox | 2026-09-27 06:38:28 UTC |
 | 71 (alta) | media | `5479dcd030b2c9fd2d990dbab36ceda46570890afa19da42a8f0c6e57b1b39be` | sha256_hash | Coinminer | ThreatFox | 2026-09-27 14:05:23 UTC |
 | 71 (alta) | alta | `14b2ac356ed75d10ef40bbaaa48e7dd9fff7de9719c2a43ad123fe843dd4e4e2` | sha256_hash | Unknown Loader | ThreatFox | 2026-09-27 06:38:29 UTC |
@@ -134,6 +135,10 @@ python main.py
 | 70 (alta) | media | `1bc86fd3843315475b6519bb4e62ff3574ea5f2dbefc7a906717226f8712838a` | sha256_hash | VShell | ThreatFox | 2026-09-27 14:05:19 UTC |
 | 70 (alta) | alta | `8220c8b6785864f587a492d44176ed986fb30ef10c459c3068b183e7d20033a2` | sha256_hash | Mirai | ThreatFox | 2026-09-27 06:43:57 UTC |
 | 70 (alta) | media | `e0d6a02ee294d46c2b57a151797eb88fce1add4571a00a746837052059e41ffa` | sha256_hash | VShell | ThreatFox | 2026-09-27 06:38:31 UTC |
+| 69 (media) | media | `af1311d7cf8a15a8a9457a9d27bff4f17857c7492eb54d926884b5eb61bb0f8d` | sha256_hash | VShell | ThreatFox | 2026-09-28 04:45:14 UTC |
+| 69 (media) | media | `8137187c5c9266b90bb5db000ff7e50cb25214dd8fb3236653abbddb468081ea` | sha256_hash | VShell | ThreatFox | 2026-09-28 04:45:12 UTC |
+| 69 (media) | media | `a43565efdc71fc93f0267a6937a22d8ec0598bf666a329299436401c619e5f6b` | sha256_hash | VShell | ThreatFox | 2026-09-28 04:45:10 UTC |
+| 69 (media) | media | `bc4633b53ce18d54ef98e80e72f0e53a63398dab48c01c3eb1a49f7ec57e0af8` | sha256_hash | VShell | ThreatFox | 2026-09-28 04:45:08 UTC |
 | 69 (media) | alta | `884d4aed509b9eba0c7b7cb4e0d98153707dcba323c95a28cbc38629e23d5de6` | sha256_hash | Mirai | ThreatFox | 2026-09-27 20:45:11 UTC |
 | 69 (media) | alta | `fcab81e2c0113441109eb1ca852b80105bd18f50b0eb4fb49d79c64b5daed784` | sha256_hash | Mirai | ThreatFox | 2026-09-27 17:05:05 UTC |
 | 69 (media) | alta | `70b4932caeb92c33fbe1a8ad33aa73eb9ee2d7b3e32eab0cc0c7f5e8ec97678a` | sha256_hash | Vidar | ThreatFox | 2026-09-27 17:05:04 UTC |
@@ -142,16 +147,13 @@ python main.py
 | 69 (media) | alta | `7f2877c0400dcaf354e7de2848461abd959ad5d56f86d0e69fa7644ffa1287da` | sha256_hash | Mirai | ThreatFox | 2026-09-27 06:44:18 UTC |
 | 69 (media) | alta | `74456a082d851e2c92d2173f2a116af8cebda7911ebdcaa63c4709692fd037bc` | sha256_hash | Mirai | ThreatFox | 2026-09-27 06:43:58 UTC |
 | 69 (media) | alta | `d8af3f2541124c25bd8bca1970eea9283229fb67adbed45a2bb9e368c30ea45f` | sha256_hash | Mirai | ThreatFox | 2026-09-27 06:43:56 UTC |
-| 69 (media) | alta | `c4cc7a3fe27bcc65b103b7fbdbf461bf23c3ab77385dd70d1f03aad58e24aa79` | sha256_hash | Mirai | ThreatFox | 2026-09-27 06:43:55 UTC |
-| 69 (media) | media | `5e8b77073c07a0212fe33de5ade94058fd9e60211535841d739a2b39821c2594` | sha256_hash | VShell | ThreatFox | 2026-09-27 06:38:30 UTC |
-| 68 (media) | media | `5e7a1b9857320e185d0dc8724dac6944bfceb01951a03b0f6c99f929020be862` | sha256_hash | Coinminer | ThreatFox | 2026-09-27 20:45:07 UTC |
-| 68 (media) | media | `9e00b52b02d6e760b7cee84151b4b229e8b8f0b07f014d30f3db41d0b67feb44` | sha256_hash | Coinminer | ThreatFox | 2026-09-27 20:45:05 UTC |
-| 68 (media) | alta | `c458e443759ea633cde8929b4337726136675141d82251158f973f54008e20ac` | sha256_hash | Mirai | ThreatFox | 2026-09-27 06:44:18 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-88772 | Citrix NetScaler | 2026-09-27 | Unknown |
+| CVE-2026-88771 | Citrix NetScaler | 2026-09-27 | Unknown |
 | CVE-2026-67279 | MikroTik RouterOS | 2026-09-25 | Unknown |
 | CVE-2026-65660 | Microsoft SharePoint | 2026-09-25 | Unknown |
 | CVE-2026-87902 | WordPress Core | 2026-09-25 | Unknown |
