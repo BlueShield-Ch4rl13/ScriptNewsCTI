@@ -116,26 +116,30 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-09-30 12:27 UTC · **IOCs recolectados:** 1441 · **CVEs KEV recientes:** 19
+**Última actualización:** 2026-09-30 22:15 UTC · **IOCs recolectados:** 1487 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 75 (alta) | media | `94[.]154[.]43[.]84:8900` | ip:port | Unknown malware | ThreatFox | 2026-09-30 14:49:48 UTC |
+| 75 (alta) | media | `94[.]154[.]43[.]84:7000` | ip:port | Unknown malware | ThreatFox | 2026-09-30 14:49:47 UTC |
+| 75 (alta) | media | `94[.]154[.]43[.]84:9000` | ip:port | Unknown malware | ThreatFox | 2026-09-30 14:49:47 UTC |
 | 75 (alta) | critica | `158[.]94[.]209[.]12:8444` | ip:port | AdaptixC2 | ThreatFox | 2026-09-30 06:02:27 UTC |
-| 72 (alta) | media | `0f4f26d4e4b73735e19f147751fb0cc3678aa74b2113f8f1405f3ab0145238fd` | sha256_hash | VShell | ThreatFox | 2026-09-30 11:45:21 UTC |
-| 72 (alta) | media | `hxxp://178[.]16[.]54[.]109/solopada` | url | Phorpiex | ThreatFox, URLhaus | 2026-09-30 11:08:10 UTC |
+| 72 (alta) | alta | `209[.]126[.]103[.]97:1791` | ip:port | Mirai | ThreatFox | 2026-09-30 14:49:39 UTC |
+| 72 (alta) | media | `0f4f26d4e4b73735e19f147751fb0cc3678aa74b2113f8f1405f3ab0145238fd` | sha256_hash | VShell | ThreatFox | 2026-09-30 12:21:51 UTC |
 | 70 (alta) | alta | `3797d5082f3612a2493ce6430ed09a61922573f6871401f95b0d2e735a12ada1` | sha256_hash | Remcos | ThreatFox | 2026-09-30 11:08:14 UTC |
 | 69 (media) | media | `d135fd8610833b6961936ba31f8feb2fd97efd1a0f5b6d4e333301e94531a3ba` | sha256_hash | VShell | ThreatFox | 2026-09-30 11:08:12 UTC |
 | 69 (media) | alta | `3fd8de4fd28f7bdc4b5d428693f45d2a867bb6177e9b0f5c6f59cc8a71c75363` | sha256_hash | Mirai | ThreatFox | 2026-09-30 05:48:40 UTC |
 | 69 (media) | alta | `6d31b81e8cc94e6598e6bf13781df7bc13901ab3b0fc24fef12d4d71162a37ce` | sha256_hash | Mirai | ThreatFox | 2026-09-30 05:48:39 UTC |
-| 69 (media) | critica | `c1e184615241fe69db3bf4093a22c7c0bf5d6072d2f51e558142b844e871084f` | sha256_hash | Sliver | ThreatFox | 2026-09-29 20:57:07 UTC |
-| 69 (media) | critica | `d146f59f4dcfe845fe28ed91b3eed530e78947a8` | sha1_hash | Sliver | ThreatFox | 2026-09-29 20:57:07 UTC |
-| 69 (media) | critica | `76d2b36de3696996b07353c29a06698a` | md5_hash | Sliver | ThreatFox | 2026-09-29 20:57:07 UTC |
-| 68 (media) | alta | `02c05faa97ebc77db971a14b06fd99ec004e669b662a55d520031b1bed808199` | sha256_hash | Mirai | ThreatFox | 2026-09-30 11:45:26 UTC |
-| 68 (media) | alta | `a6a9d179d50a8102d277da718045535cf59dc5e7f48420403ac34c2f08fb5e35` | sha256_hash | Mirai | ThreatFox | 2026-09-30 11:45:25 UTC |
-| 68 (media) | alta | `4d79178fa6d7f0627caef122e3c29a0a95a0802ba5a050041660f4d6e11adbfd` | sha256_hash | Mirai | ThreatFox | 2026-09-30 11:45:24 UTC |
-| 68 (media) | alta | `b882d7626ff89aa52514fdb06a9333db386e98b31937d0184d65c8ba70474eed` | sha256_hash | Mirai | ThreatFox | 2026-09-30 11:45:23 UTC |
+| 68 (media) | alta | `e216b69e4e2e4faebaee321cb343e17dbf2b62449b072d66ac557ba2a88199a6` | sha256_hash | Mirai | ThreatFox | 2026-09-30 21:46:01 UTC |
+| 68 (media) | alta | `962a11883caa14e1a181908e7da277d155a77747632b0dbd823277c362a722ec` | sha256_hash | Mirai | ThreatFox | 2026-09-30 21:46:00 UTC |
+| 68 (media) | alta | `b95e693c051c1c73a76d970e639ffde3bfa388dac2faccf57169c44c360100fa` | sha256_hash | Mirai | ThreatFox | 2026-09-30 21:45:59 UTC |
+| 68 (media) | alta | `04fac8188c7906b441c173d7a377ea939227bbf0063a8bc681dcec53cb046b70` | sha256_hash | Mirai | ThreatFox | 2026-09-30 21:45:52 UTC |
+| 68 (media) | alta | `b882d7626ff89aa52514fdb06a9333db386e98b31937d0184d65c8ba70474eed` | sha256_hash | Mirai | ThreatFox | 2026-09-30 12:21:51 UTC |
+| 68 (media) | alta | `4d79178fa6d7f0627caef122e3c29a0a95a0802ba5a050041660f4d6e11adbfd` | sha256_hash | Mirai | ThreatFox | 2026-09-30 12:21:50 UTC |
+| 68 (media) | alta | `a6a9d179d50a8102d277da718045535cf59dc5e7f48420403ac34c2f08fb5e35` | sha256_hash | Mirai | ThreatFox | 2026-09-30 12:21:50 UTC |
+| 68 (media) | alta | `02c05faa97ebc77db971a14b06fd99ec004e669b662a55d520031b1bed808199` | sha256_hash | Mirai | ThreatFox | 2026-09-30 12:21:50 UTC |
 | 68 (media) | alta | `a49bba3715642957c6abde3d3ce3784bd3e5c3cc9d77936746e75d68fd62e9d0` | sha256_hash | Mirai | ThreatFox | 2026-09-30 11:08:13 UTC |
 | 68 (media) | alta | `a28f193f95de3465f9dca27f2cb47329dc397cc6eae9670a9391d8dbcaa473b1` | sha256_hash | Mirai | ThreatFox | 2026-09-30 11:08:11 UTC |
 | 68 (media) | alta | `208fd8397429bf71c97ece08b94d94d9787bb31f9830e41f18132f34de87986f` | sha256_hash | Mirai | ThreatFox | 2026-09-30 11:08:10 UTC |
@@ -143,15 +147,12 @@ python main.py
 | 68 (media) | alta | `4e3e766423891ef7c8b09f7c2d02636ea15aac18ef5c028acc3ef08e2643b1ab` | sha256_hash | Mirai | ThreatFox | 2026-09-30 05:49:41 UTC |
 | 68 (media) | alta | `2c64c6270c6cb3caa16e6f5051102f25dfec903eb1017de5976fae422024553a` | sha256_hash | Mirai | ThreatFox | 2026-09-30 05:49:40 UTC |
 | 68 (media) | alta | `8b2cbc92f4a2a878304edd1560ba40a644e8fd55b46ef5d36f0cd0764d3c6e53` | sha256_hash | Mirai | ThreatFox | 2026-09-30 05:49:40 UTC |
-| 68 (media) | alta | `68de31e7ab680594337c3f74c8bef5cf993d2c7a49bc7ef4a029b483d8f337fc` | sha256_hash | Mirai | ThreatFox | 2026-09-30 05:48:41 UTC |
-| 68 (media) | alta | `0cf26764fb6640c09a25bc5a0e877ef690ef8237b9bbc35feadfd27254ed288c` | sha256_hash | Mirai | ThreatFox | 2026-09-30 05:48:39 UTC |
-| 68 (media) | alta | `b5ca5ab2333aa186807dd398a0f666bd8ab39fd88606cc0942084a7c9bf68afd` | sha256_hash | Mirai | ThreatFox | 2026-09-30 05:48:38 UTC |
-| 68 (media) | media | `a201f7f81277e28c0bdd680427b979aee70e42e8a98c67f11e7c83d02f8fe7ae` | sha256_hash | WeControl | ThreatFox | 2026-09-29 20:57:11 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-76504 | Cisco Catalyst SD-WAN Manager | 2026-09-30 | Unknown |
 | CVE-2026-86950 | Apple Multiple Products | 2026-09-29 | Unknown |
 | CVE-2026-88772 | Citrix NetScaler | 2026-09-27 | Unknown |
 | CVE-2026-88771 | Citrix NetScaler | 2026-09-27 | Unknown |
