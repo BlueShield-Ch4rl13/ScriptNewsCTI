@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-03 16:12 UTC · **IOCs recolectados:** 3623 · **CVEs KEV recientes:** 17
+**Última actualización:** 2026-10-03 21:02 UTC · **IOCs recolectados:** 3529 · **CVEs KEV recientes:** 17
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -125,12 +125,18 @@ python main.py
 | 75 (alta) | media | `94[.]154[.]43[.]117:2222` | ip:port | Unknown malware | ThreatFox | 2026-10-03 10:41:35 UTC |
 | 75 (alta) | alta | `94[.]154[.]43[.]138:48101` | ip:port | Mirai | ThreatFox | 2026-10-03 10:13:38 UTC |
 | 75 (alta) | alta | `94[.]26[.]68[.]68:2404` | ip:port | Remcos | ThreatFox | 2026-10-03 06:04:01 UTC |
+| 72 (alta) | alta | `178[.]132[.]198[.]200:443` | ip:port | Mirai | ThreatFox | 2026-10-03 19:09:02 UTC |
 | 72 (alta) | media | `088f624bf51e8c9db46a345c3a85df89f5729a226da1846f70aae91b9b44ffe7` | sha256_hash | Bashlite | ThreatFox | 2026-10-02 21:46:54 UTC |
+| 71 (alta) | media | `94[.]154[.]43[.]214:1420` | ip:port | Unknown malware | ThreatFox | 2026-10-03 18:44:28 UTC |
+| 71 (alta) | media | `103[.]77[.]246[.]150:9999` | ip:port | Unknown malware | ThreatFox | 2026-10-03 18:44:26 UTC |
+| 71 (alta) | media | `176[.]65[.]134[.]121:6881` | ip:port | Bashlite | ThreatFox | 2026-10-03 18:44:26 UTC |
 | 71 (alta) | media | `7b254af99efa15b124d9133e32d22244c57076c9bcfdfb01b155d369e0d47aa1` | sha256_hash | GCleaner | ThreatFox | 2026-10-03 15:46:24 UTC |
 | 71 (alta) | alta | `73b7ca405b8005fd5d2533f2ac288ec0e37d47c8836c34ddab14c25b4b02927b` | sha256_hash | Mirai | ThreatFox | 2026-10-03 15:46:18 UTC |
 | 70 (alta) | alta | `2babd1fc3d1a79ff0d296740c1b833a7f80bf86c483c47defa5910871b7a4d94` | sha256_hash | Mirai | ThreatFox | 2026-10-03 15:46:19 UTC |
 | 70 (alta) | alta | `6d7a05a732e07fb850e0097395fa87c73287a06b0868e783c29f4f5fbeb3deaa` | sha256_hash | Mirai | ThreatFox | 2026-10-03 15:46:15 UTC |
 | 70 (alta) | alta | `77820b9edff723a4c6ad8752c1cc5b443fccf57aaca82944598e28a847508286` | sha256_hash | Mirai | ThreatFox | 2026-10-02 21:46:43 UTC |
+| 69 (media) | alta | `2317a73814d8e77d392377e7779963a10e283e50bb66a4d7428e833560d62292` | sha256_hash | Mirai | ThreatFox | 2026-10-03 20:46:52 UTC |
+| 69 (media) | alta | `699848a33a1808fe612ce4e2e1f1bb292546509b3939c56b6842e315ad02d731` | sha256_hash | Mirai | ThreatFox | 2026-10-03 20:46:51 UTC |
 | 69 (media) | alta | `a574397f2edd591ba6a55abe63323f5022bd26996bd3fbecb36cc946215abce1` | sha256_hash | Mirai | ThreatFox | 2026-10-03 15:46:14 UTC |
 | 69 (media) | alta | `d835a7b69e2a5554b9390fbc03fe175f47e0c47b64dcce8b1bf5ca6fc6d9c134` | sha256_hash | Mirai | ThreatFox | 2026-10-03 10:46:48 UTC |
 | 69 (media) | alta | `fad87a2968c7eb2470e1587d11a16d260fac7f381e131c1d53e39def1be20845` | sha256_hash | Mirai | ThreatFox | 2026-10-02 21:46:55 UTC |
@@ -138,15 +144,9 @@ python main.py
 | 69 (media) | alta | `15612d87e4b1d45699cdfdba08d1ce405e87c95757c6bdac4d819f9d5d99c777` | sha256_hash | Mirai | ThreatFox | 2026-10-02 21:46:47 UTC |
 | 69 (media) | alta | `baf99548f2c0e47d6234bcc964d387184a59e5d4acdbf8af79a736d817730a2e` | sha256_hash | Mirai | ThreatFox | 2026-10-02 21:46:36 UTC |
 | 69 (media) | alta | `3ee840bc79a034e38e1f4d42a19fbdc7cf50bea0581bbcdbd92149b6009fbf90` | sha256_hash | Mirai | ThreatFox | 2026-10-02 21:46:27 UTC |
+| 68 (media) | media | `9c5df1b39c69a9c04580b92bf77540eccc07c2ffa221edfaa52301375aaa5ce8` | sha256_hash | Bashlite | ThreatFox | 2026-10-03 20:46:46 UTC |
+| 68 (media) | alta | `e7a9f44542e8665d4b0710821ea3705fc46ffcd74b2e43b1f19f6943de8545b4` | sha256_hash | Mirai | ThreatFox | 2026-10-03 20:46:29 UTC |
 | 68 (media) | alta | `80d85d205aba7bdd4abd3fc9b91aed17d16fb5538a78b7241382fc5eb1e3f27f` | sha256_hash | Mirai | ThreatFox | 2026-10-03 15:46:13 UTC |
-| 68 (media) | alta | `735f14c236dd7e57e6ca760988694db7911af7b05712f2665875567c7259ddea` | sha256_hash | Mirai | ThreatFox | 2026-10-03 15:46:12 UTC |
-| 68 (media) | alta | `ccc3cd3605d7c033a1c17030e047bcafd0f33cac1cc9276740c46dc4228f2070` | sha256_hash | Mirai | ThreatFox | 2026-10-03 10:46:51 UTC |
-| 68 (media) | alta | `1494e1fbe094a19ccf07ed68425128e124e48852c496ef1f9c2e380c06140c35` | sha256_hash | Mirai | ThreatFox | 2026-10-03 10:46:46 UTC |
-| 68 (media) | alta | `de83746bf75a7dbdad061ec4b82e9c403eec44b1441cc4b207ddbe21cd787575` | sha256_hash | Mirai | ThreatFox | 2026-10-03 10:46:42 UTC |
-| 68 (media) | alta | `f46e36db293f62f037e5442b11868018c2d82ee028b8c8b63cbf4bcad977fea3` | sha256_hash | Mirai | ThreatFox | 2026-10-03 10:46:39 UTC |
-| 68 (media) | alta | `459aeb312e7e083130ad6983dfd27cedcc0e73a46d55383a6bddbd1dbb2bec9a` | sha256_hash | Mirai | ThreatFox | 2026-10-03 10:46:37 UTC |
-| 68 (media) | alta | `7780fb81a5342b747a9796b6ba6a401c0259faad077cf9ca739ef70e14e75c7c` | sha256_hash | Mirai | ThreatFox | 2026-10-03 10:46:33 UTC |
-| 68 (media) | alta | `5edf7cb9422a1b24892a23b207c9d5c18040963c5577b80ecef7e84c46abac63` | sha256_hash | AsyncRAT | ThreatFox | 2026-10-03 04:01:00 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
