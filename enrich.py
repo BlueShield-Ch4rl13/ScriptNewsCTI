@@ -39,6 +39,7 @@ import ipaddress
 import json
 import logging
 import os
+import re
 import tempfile
 import time
 from datetime import datetime, timedelta, timezone
@@ -73,8 +74,11 @@ SEV_CRITICA = (
     "lockbit", "blackcat", "alphv", "akira", "ransomhub", "clop", "cl0p",
     "medusa", "black basta", "blackbasta", "ransom",
     "cobalt strike", "cobaltstrike", "sliver", "havoc", "brute ratel", "mythic",
-    "adaptix", "c2",  # frameworks C2: cualquier familia con "c2" en el nombre
+    "adaptix",
 )
+# "c2" se comprueba como palabra completa, no como subcadena: así "Redline C2"
+# es crítica pero "SomeC2thing" no (evita el sobre-emparejamiento).
+_SEV_C2_RE = re.compile(r"\bc2\b")
 SEV_ALTA = (
     "asyncrat", "remcos", "quasar", "njrat", "dcrat", "venomrat", "xworm",
     "nanocore", "lumma", "redline", "vidar", "stealc", "raccoon",
@@ -196,7 +200,7 @@ def classify_severity(threat: str, vt: dict | None) -> str:
     baja     sin familia identificada ni señal externa
     """
     t = (threat or "").lower()
-    if any(k in t for k in SEV_CRITICA):
+    if any(k in t for k in SEV_CRITICA) or _SEV_C2_RE.search(t):
         return "critica"
     if any(k in t for k in SEV_ALTA):
         return "alta"

@@ -1,4 +1,4 @@
-"""Utilidades: defang, deduplicado, exportación y README autogenerado."""
+"""Utilidades: defang, exportación y README autogenerado."""
 import csv
 import json
 import logging
@@ -19,17 +19,6 @@ def defang(value: str) -> str:
         return ""
     v = value.replace("https://", "hxxps://").replace("http://", "hxxp://")
     return v.replace(".", "[.]")
-
-
-def dedupe(iocs: list[dict]) -> list[dict]:
-    """Elimina duplicados conservando la primera aparición de cada valor."""
-    seen, unique = set(), []
-    for i in iocs:
-        v = i.get("value")
-        if v and v not in seen:
-            seen.add(v)
-            unique.append(i)
-    return unique
 
 
 def save_outputs(iocs: list[dict], kev: list[dict]) -> None:
