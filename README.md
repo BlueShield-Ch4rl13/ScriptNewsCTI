@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-07 05:32 UTC · **IOCs recolectados:** 292 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-10-07 13:13 UTC · **IOCs recolectados:** 1797 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 44 (media) | media | `hxxp://95[.]9[.]35[.]137:40441/i` | url | malware_download | URLhaus | 2026-10-07 04:55:51 UTC |
-| 44 (media) | media | `hxxp://123[.]12[.]245[.]227:36522/bin[.]sh` | url | malware_download | URLhaus | 2026-10-07 04:41:16 UTC |
-| 43 (media) | media | `hxxp://185[.]89[.]156[.]101:35112/bin[.]sh` | url | malware_download | URLhaus | 2026-10-07 04:55:36 UTC |
-| 42 (media) | media | `hxxps://stellaspicy[.]org/2026scrill/client[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:53 UTC |
-| 42 (media) | media | `hxxps://donutclients[.]st/Shulker_Box_Tooltip-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:31 UTC |
-| 42 (media) | media | `hxxp://182[.]121[.]16[.]69:49873/Mozi[.]m` | url | malware_download | URLhaus | 2026-10-07 04:41:28 UTC |
-| 42 (media) | media | `hxxps://donutclients[.]st/Mouse_Tweaks-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:13 UTC |
-| 42 (media) | media | `hxxps://donutclients[.]st/appleskin-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:12 UTC |
-| 42 (media) | media | `hxxps://donutclients[.]st/ZincAddons-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:11 UTC |
-| 42 (media) | media | `hxxps://donutclients[.]st/Sodium-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:11 UTC |
-| 42 (media) | media | `hxxps://donutdupe[.]com/DonutDupe-1[.]21[.]11[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:10 UTC |
-| 41 (media) | media | `hxxp://119[.]187[.]197[.]115:57303/i` | url | malware_download | URLhaus | 2026-10-07 05:02:35 UTC |
-| 41 (media) | media | `hxxp://123[.]9[.]200[.]156:42154/i` | url | malware_download | URLhaus | 2026-10-07 05:02:35 UTC |
-| 41 (media) | media | `hxxps://donutclients[.]st/TotemCounter-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:55:41 UTC |
-| 41 (media) | media | `hxxp://115[.]62[.]186[.]251:52572/i` | url | malware_download | URLhaus | 2026-10-07 04:55:39 UTC |
-| 41 (media) | media | `hxxp://154[.]242[.]13[.]34:43259/i` | url | malware_download | URLhaus | 2026-10-07 04:55:39 UTC |
-| 41 (media) | media | `hxxp://115[.]55[.]229[.]99:46995/i` | url | malware_download | URLhaus | 2026-10-07 04:55:38 UTC |
-| 41 (media) | media | `hxxps://xiazailianjie[.]com/WPS_Setup_X64[.]zip` | url | malware_download | URLhaus | 2026-10-07 04:49:18 UTC |
-| 41 (media) | media | `hxxps://donutclients[.]st/alycone-client-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:31 UTC |
-| 41 (media) | media | `hxxps://donutclients[.]st/radium-client-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:31 UTC |
-| 41 (media) | media | `hxxps://donutclients[.]st/krypton-client-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:31 UTC |
-| 41 (media) | media | `hxxps://stellaspicy[.]org/2026scrill/RuneLite[.]exe` | url | malware_download | URLhaus | 2026-10-07 04:41:31 UTC |
-| 41 (media) | media | `hxxp://23[.]254[.]195[.]48:8099/beacon_x` | url | malware_download | URLhaus | 2026-10-07 04:41:31 UTC |
-| 41 (media) | media | `hxxps://donutclients[.]st/gamble-rig-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:30 UTC |
-| 41 (media) | media | `hxxps://donutclients[.]st/Radon-Client-26[.]2[.]jar` | url | malware_download | URLhaus | 2026-10-07 04:41:22 UTC |
+| 76 (alta) | media | `89[.]32[.]41[.]19:7193` | ip:port | Potassium | ThreatFox | 2026-10-06 21:19:56 UTC |
+| 75 (alta) | media | `89[.]32[.]41[.]19:42061` | ip:port | Potassium | ThreatFox | 2026-10-07 06:28:53 UTC |
+| 75 (alta) | media | `89[.]32[.]41[.]19:38429` | ip:port | Potassium | ThreatFox | 2026-10-07 03:26:54 UTC |
+| 75 (alta) | media | `89[.]32[.]41[.]19:27651` | ip:port | Potassium | ThreatFox | 2026-10-07 02:29:02 UTC |
+| 75 (alta) | media | `89[.]32[.]41[.]19:23789` | ip:port | Potassium | ThreatFox | 2026-10-07 00:24:39 UTC |
+| 75 (alta) | media | `89[.]32[.]41[.]19:49376` | ip:port | Potassium | ThreatFox | 2026-10-06 23:21:55 UTC |
+| 75 (alta) | media | `89[.]32[.]41[.]19:15987` | ip:port | Potassium | ThreatFox | 2026-10-06 16:57:12 UTC |
+| 75 (alta) | media | `89[.]32[.]41[.]49:7193` | ip:port | Potassium | ThreatFox | 2026-10-06 16:03:36 UTC |
+| 74 (alta) | media | `89[.]32[.]41[.]43:23789` | ip:port | Potassium | ThreatFox | 2026-10-07 08:33:30 UTC |
+| 74 (alta) | media | `89[.]32[.]41[.]43:7193` | ip:port | Potassium | ThreatFox | 2026-10-07 07:22:50 UTC |
+| 72 (alta) | alta | `139[.]162[.]5[.]254:3778` | ip:port | Mirai | ThreatFox | 2026-10-06 14:30:45 UTC |
+| 64 (media) | media | `89[.]32[.]41[.]128:27651` | ip:port | Potassium | ThreatFox | 2026-10-07 06:28:52 UTC |
+| 64 (media) | media | `89[.]32[.]41[.]128:7193` | ip:port | Potassium | ThreatFox | 2026-10-07 03:45:22 UTC |
+| 64 (media) | critica | `45[.]227[.]253[.]132:8080` | ip:port | Cobalt Strike | ThreatFox | 2026-10-06 15:05:05 UTC |
+| 64 (media) | critica | `45[.]227[.]253[.]132:443` | ip:port | Cobalt Strike | ThreatFox | 2026-10-06 15:05:04 UTC |
+| 64 (media) | critica | `45[.]227[.]253[.]132:80` | ip:port | Cobalt Strike | ThreatFox | 2026-10-06 15:05:04 UTC |
+| 60 (media) | media | `91[.]92[.]242[.]19:7193` | ip:port | Potassium | ThreatFox | 2026-10-06 15:17:46 UTC |
+| 60 (media) | critica | `45[.]227[.]253[.]132:32775` | ip:port | Cobalt Strike | ThreatFox | 2026-10-06 13:45:58 UTC |
+| 59 (media) | media | `6111a10b82cc1bf6bac1082bc8ffa36e9f3123f0feb811aac281278a7fe63e13` | sha256_hash | AMOS | ThreatFox | 2026-10-07 11:44:51 UTC |
+| 59 (media) | media | `49f19199c38499498aa4dead3e19102c6679192fe282e72ec024b19191d8ae63` | sha256_hash | AMOS | ThreatFox | 2026-10-07 11:08:02 UTC |
+| 59 (media) | media | `ext-checkedin[.]vercel[.]app` | domain | ContagiousDrop | ThreatFox | 2026-10-07 10:38:35 UTC |
+| 59 (media) | media | `tailwind-version-4[.]vercel[.]app` | domain | ContagiousDrop | ThreatFox | 2026-10-07 10:38:34 UTC |
+| 59 (media) | media | `thopywork[.]vercel[.]app` | domain | ContagiousDrop | ThreatFox | 2026-10-07 10:38:34 UTC |
+| 59 (media) | media | `vscode-bootstrapper[.]vercel[.]app` | domain | ContagiousDrop | ThreatFox | 2026-10-07 10:38:33 UTC |
+| 59 (media) | media | `vscode-config-setting[.]vercel[.]app` | domain | ContagiousDrop | ThreatFox | 2026-10-07 10:38:33 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
