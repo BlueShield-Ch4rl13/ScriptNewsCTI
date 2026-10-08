@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-07 23:07 UTC · **IOCs recolectados:** 1113 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-10-08 05:41 UTC · **IOCs recolectados:** 1156 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 77 (alta) | alta | `178[.]16[.]53[.]56:8443` | ip:port | Aisuru | ThreatFox | 2026-10-07 21:58:13 UTC |
+| 75 (alta) | alta | `178[.]16[.]53[.]59:34567` | ip:port | Aisuru | ThreatFox | 2026-10-08 03:42:31 UTC |
+| 75 (alta) | alta | `62[.]212[.]79[.]67:2404` | ip:port | Remcos | ThreatFox | 2026-10-08 03:22:36 UTC |
+| 75 (alta) | alta | `178[.]16[.]53[.]59:9034` | ip:port | Aisuru | ThreatFox | 2026-10-08 01:07:17 UTC |
+| 75 (alta) | alta | `178[.]16[.]53[.]56:34567` | ip:port | Aisuru | ThreatFox | 2026-10-08 01:06:32 UTC |
 | 75 (alta) | alta | `178[.]16[.]53[.]59:8443` | ip:port | Aisuru | ThreatFox | 2026-10-07 20:55:48 UTC |
 | 75 (alta) | alta | `178[.]16[.]53[.]56:8080` | ip:port | Aisuru | ThreatFox | 2026-10-07 18:20:17 UTC |
 | 75 (alta) | alta | `178[.]16[.]53[.]56:8001` | ip:port | Aisuru | ThreatFox | 2026-10-07 17:40:53 UTC |
 | 75 (alta) | alta | `178[.]16[.]53[.]59:8001` | ip:port | Aisuru | ThreatFox | 2026-10-07 17:40:53 UTC |
 | 75 (alta) | media | `89[.]32[.]41[.]19:42061` | ip:port | Potassium | ThreatFox | 2026-10-07 06:28:53 UTC |
-| 75 (alta) | media | `89[.]32[.]41[.]19:38429` | ip:port | Potassium | ThreatFox | 2026-10-07 03:26:54 UTC |
-| 75 (alta) | media | `89[.]32[.]41[.]19:27651` | ip:port | Potassium | ThreatFox | 2026-10-07 02:29:02 UTC |
-| 75 (alta) | media | `89[.]32[.]41[.]19:23789` | ip:port | Potassium | ThreatFox | 2026-10-07 00:24:39 UTC |
-| 75 (alta) | media | `89[.]32[.]41[.]19:49376` | ip:port | Potassium | ThreatFox | 2026-10-06 23:21:55 UTC |
+| 74 (alta) | alta | `45[.]9[.]149[.]168:8001` | ip:port | Mirai | ThreatFox | 2026-10-08 03:43:05 UTC |
 | 74 (alta) | media | `89[.]32[.]41[.]43:15987` | ip:port | Potassium | ThreatFox | 2026-10-07 16:57:30 UTC |
 | 74 (alta) | media | `89[.]32[.]41[.]43:23789` | ip:port | Potassium | ThreatFox | 2026-10-07 08:33:30 UTC |
 | 74 (alta) | media | `89[.]32[.]41[.]43:7193` | ip:port | Potassium | ThreatFox | 2026-10-07 07:22:50 UTC |
 | 65 (media) | critica | `80[.]94[.]92[.]180:3389` | ip:port | AdaptixC2 | ThreatFox | 2026-10-07 19:45:22 UTC |
 | 64 (media) | media | `89[.]32[.]41[.]128:27651` | ip:port | Potassium | ThreatFox | 2026-10-07 06:28:52 UTC |
-| 64 (media) | media | `89[.]32[.]41[.]128:7193` | ip:port | Potassium | ThreatFox | 2026-10-07 03:45:22 UTC |
 | 62 (media) | alta | `160[.]119[.]76[.]118:56001` | ip:port | PureRAT | ThreatFox | 2026-10-07 19:43:41 UTC |
 | 62 (media) | alta | `160[.]119[.]76[.]118:56002` | ip:port | PureRAT | ThreatFox | 2026-10-07 19:43:41 UTC |
 | 62 (media) | alta | `160[.]119[.]76[.]118:56003` | ip:port | PureRAT | ThreatFox | 2026-10-07 19:43:41 UTC |
 | 61 (media) | alta | `198[.]251[.]89[.]220:443` | ip:port | Unknown Stealer | ThreatFox | 2026-10-07 20:35:44 UTC |
+| 60 (media) | alta | `101[.]99[.]95[.]124:1312` | ip:port | Mirai | ThreatFox | 2026-10-08 03:58:39 UTC |
 | 60 (media) | alta | `198[.]135[.]49[.]110:4489` | ip:port | Remcos | ThreatFox | 2026-10-07 19:53:43 UTC |
+| 59 (media) | alta | `138[.]68[.]135[.]200:8080` | ip:port | Aisuru | ThreatFox | 2026-10-08 02:47:39 UTC |
 | 59 (media) | media | `1b564478966dea1b542c33b6076f7b1c14eed16c558e8b25e3d9f3b84286a4ec` | sha256_hash | AMOS | ThreatFox | 2026-10-07 22:40:20 UTC |
 | 59 (media) | media | `f05eea5f3134477c4b892677aea0600255b3351e9b69211f023f3d366b0b12f6` | sha256_hash | AMOS | ThreatFox | 2026-10-07 21:20:06 UTC |
-| 59 (media) | media | `6111a10b82cc1bf6bac1082bc8ffa36e9f3123f0feb811aac281278a7fe63e13` | sha256_hash | AMOS | ThreatFox | 2026-10-07 11:44:51 UTC |
-| 59 (media) | media | `49f19199c38499498aa4dead3e19102c6679192fe282e72ec024b19191d8ae63` | sha256_hash | AMOS | ThreatFox | 2026-10-07 11:08:02 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
