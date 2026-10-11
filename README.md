@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-11 12:39 UTC · **IOCs recolectados:** 975 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-10-11 21:54 UTC · **IOCs recolectados:** 1029 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 77 (alta) | alta | `178[.]16[.]53[.]59:8080` | ip:port | Aisuru | ThreatFox | 2026-10-11 07:02:53 UTC |
-| 73 (alta) | media | `cf03c5920933f4c0f79c71e52edb28d238bb8396e71558ecc9b33a595fc0a9ae` | sha256_hash | Coinminer | ThreatFox | 2026-10-10 21:09:12 UTC |
-| 73 (alta) | media | `0c77484252a50e76e06efd8d53cbec7a71397c2e` | sha1_hash | Coinminer | ThreatFox | 2026-10-10 21:09:12 UTC |
-| 73 (alta) | media | `31525df166ed1ca0a0da57f68b2fbb3e` | md5_hash | Coinminer | ThreatFox | 2026-10-10 21:09:12 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]37:1999` | ip:port | Mirai | ThreatFox | 2026-10-11 07:02:52 UTC |
 | 71 (alta) | alta | `130[.]12[.]180[.]212:80` | ip:port | Mirai | ThreatFox | 2026-10-11 08:17:05 UTC |
 | 71 (alta) | alta | `38[.]253[.]224[.]56:8080` | ip:port | Mirai | ThreatFox | 2026-10-11 08:17:04 UTC |
 | 71 (alta) | media | `176[.]65[.]139[.]231:4444` | ip:port | Unknown malware | ThreatFox | 2026-10-11 07:02:43 UTC |
 | 71 (alta) | media | `38[.]253[.]224[.]56:3778` | ip:port | Bashlite | ThreatFox | 2026-10-11 07:02:42 UTC |
-| 71 (alta) | alta | `ae5ed7c741695e76561ef0b66b1792fc95a5d1d4` | sha1_hash | DeltaStealer | ThreatFox | 2026-10-10 21:09:20 UTC |
-| 71 (alta) | alta | `2ce0c7b067339c33da3ae88154d0a6b2` | md5_hash | DeltaStealer | ThreatFox | 2026-10-10 21:09:20 UTC |
-| 71 (alta) | alta | `d61419108785340e5b48fb4ef5fec85f46bbeaa86636bdfa9706b7df16a2e0f4` | sha256_hash | DeltaStealer | ThreatFox | 2026-10-10 21:09:19 UTC |
-| 71 (alta) | critica | `94[.]154[.]43[.]64:4321` | ip:port | AdaptixC2 | ThreatFox | 2026-10-10 19:45:55 UTC |
-| 70 (alta) | media | `d2b5f4ff9ccf98b4ebff54c8bf85e242bcf2b6387c10c451fe8c21d73c5d24fc` | sha256_hash | MoriAgent | ThreatFox | 2026-10-10 21:09:07 UTC |
-| 70 (alta) | media | `8d925835f2eb0d742d098b2a4ed92f8d19f1ba41` | sha1_hash | MoriAgent | ThreatFox | 2026-10-10 21:09:07 UTC |
-| 70 (alta) | media | `f0af25e9b2ac985a1ba4eba7ca321806` | md5_hash | MoriAgent | ThreatFox | 2026-10-10 21:09:07 UTC |
 | 69 (media) | alta | `2def5f3586564612e03fa8b57bf3e8f2c4aede6f3be47001890c472b87ff79ee` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 11:12:45 UTC |
-| 69 (media) | alta | `c4bb3e578b038fdd3986e5edb6b9a09e475c2cdf` | sha1_hash | Venus Stealer | ThreatFox | 2026-10-10 21:09:09 UTC |
-| 69 (media) | alta | `fc2f1cdd2fbb4061a8f9e909c64b7f54` | md5_hash | Venus Stealer | ThreatFox | 2026-10-10 21:09:09 UTC |
-| 69 (media) | alta | `9fe84328554e02c9aae80f9fda0fb6c06e8b16bde91f6070a991a619bfc61238` | sha256_hash | Venus Stealer | ThreatFox | 2026-10-10 21:09:08 UTC |
-| 69 (media) | media | `82967b6c24f52664a3b9399f853ea812` | md5_hash | Coinminer | ThreatFox | 2026-10-10 21:09:06 UTC |
-| 69 (media) | media | `fedaf63f737fd855505e9c11fb0458f765df4fa5` | sha1_hash | TinyMet | ThreatFox | 2026-10-10 21:09:05 UTC |
-| 69 (media) | media | `8c37e43091ae6750e9dd459f81f0f32c` | md5_hash | TinyMet | ThreatFox | 2026-10-10 21:09:05 UTC |
-| 69 (media) | media | `064e83897c545f71f2f6a879ea0845f6d23ec9b9` | sha1_hash | Coinminer | ThreatFox | 2026-10-10 21:09:05 UTC |
+| 68 (media) | critica | `176[.]65[.]148[.]54:31337` | ip:port | Sliver | ThreatFox | 2026-10-11 17:19:39 UTC |
 | 68 (media) | alta | `365d1b01cd5e605f6e7d39b192aaf56040176f2bce6eaec0fc11584850793a83` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 11:12:47 UTC |
+| 68 (media) | media | `hxxp://110[.]42[.]232[.]120:8897/?h=110[.]42[.]232[.]120&p=8897&t=tcp&a=a64&stage=true&k=b41bfef6tcp` | url | VShell | ThreatFox, URLhaus | 2026-10-11 07:02:37 UTC |
+| 68 (media) | alta | `ad7ae1df63dc9f6ee4eabbeb4e9c0f98b2a1b1d69ad8bde9b564e998678310c4` | sha256_hash | HijackLoader | ThreatFox | 2026-10-11 07:02:28 UTC |
+| 67 (media) | alta | `57d5c2569a10c07529ed7fb18699095a53d9be342f612b8230e39a48312a6281` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 12:12:46 UTC |
+| 67 (media) | alta | `d069c2eae59a5c7ad0c5de361220ff91ff228137812ed5cfd465df1a120ac3ea` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 12:12:43 UTC |
+| 66 (media) | alta | `bd6fc7755b14d207046e4edf7a455ea8bc40b514bfc9257b925a8b08cb3677d0` | sha256_hash | Mirai | ThreatFox | 2026-10-11 21:12:45 UTC |
+| 66 (media) | media | `162[.]243[.]162[.]107:443` | ip:port | Unknown malware | ThreatFox | 2026-10-11 16:57:16 UTC |
+| 66 (media) | alta | `5ce83f99eff295ab626b8f6dacc18a34708a30ac9a95fd23067d71b820283a71` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 12:12:45 UTC |
+| 66 (media) | alta | `3ab5ae6e34d35977cf218c785b184425851f94202092d1bcfb1a2cc44a30bfe5` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 12:12:42 UTC |
+| 66 (media) | alta | `103[.]170[.]217[.]170:1312` | ip:port | Mirai | ThreatFox | 2026-10-11 07:02:52 UTC |
+| 66 (media) | media | `c9dc947b793d13c3b66c34de9e3a791d96e34639c5de1e968fb95ea46bd52c23` | sha256_hash | VShell | ThreatFox | 2026-10-11 07:02:34 UTC |
+| 65 (media) | media | `hxxps://feed-delta[.]com/f/qus5n9iecneukfdd5bqagg/8d5wkyb6` | url | AMOS | ThreatFox, URLhaus | 2026-10-11 18:33:07 UTC |
+| 65 (media) | media | `hxxps://feed-delta[.]com/curl/18r59ofv/fxv1t3fowzox6ghlb[.]txt` | url | AMOS | ThreatFox, URLhaus | 2026-10-11 18:33:06 UTC |
+| 65 (media) | media | `hxxp://110[.]42[.]232[.]120:8897/?h=110[.]42[.]232[.]120&p=8897&t=tcp&a=a32&stage=true&k=b41bfef6tcp` | url | VShell | ThreatFox, URLhaus | 2026-10-11 07:02:36 UTC |
+| 64 (media) | alta | `e64483a5f953057ef6abfee14c0b08c999a22925f34dea32a21559e8aa7daedb` | sha256_hash | Mirai | ThreatFox | 2026-10-11 21:12:43 UTC |
+| 63 (media) | media | `85dfe92b43734f2573a30e0f295a602111cbcecffc8260534a2f41386a6025d9` | sha256_hash | Unknown malware | ThreatFox | 2026-10-11 07:02:29 UTC |
+| 61 (media) | alta | `hxxps://getoutofthebackseat[.]com/HashManager64[.]zip` | url | HijackLoader | ThreatFox, URLhaus | 2026-10-11 18:27:42 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
