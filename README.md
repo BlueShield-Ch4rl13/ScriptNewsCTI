@@ -116,22 +116,29 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-11 21:54 UTC · **IOCs recolectados:** 1029 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-10-12 05:33 UTC · **IOCs recolectados:** 1196 · **CVEs KEV recientes:** 11
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 78 (alta) | alta | `71[.]15[.]96[.]217:23` | ip:port | Mirai | ThreatFox | 2026-10-12 04:18:46 UTC |
+| 77 (alta) | alta | `178[.]16[.]53[.]56:9034` | ip:port | Aisuru | ThreatFox | 2026-10-12 05:02:09 UTC |
 | 77 (alta) | alta | `178[.]16[.]53[.]59:8080` | ip:port | Aisuru | ThreatFox | 2026-10-11 07:02:53 UTC |
+| 76 (alta) | alta | `211[.]43[.]97[.]233:23` | ip:port | Mirai | ThreatFox | 2026-10-12 04:18:50 UTC |
+| 75 (alta) | alta | `34[.]22[.]226[.]31:23` | ip:port | Mirai | ThreatFox | 2026-10-12 04:18:54 UTC |
+| 75 (alta) | media | `31[.]59[.]220[.]26:5900` | ip:port | DarkVNC | ThreatFox | 2026-10-12 04:18:39 UTC |
+| 75 (alta) | media | `165[.]245[.]171[.]220:5900` | ip:port | DarkVNC | ThreatFox | 2026-10-12 04:18:32 UTC |
+| 75 (alta) | media | `165[.]245[.]160[.]178:5900` | ip:port | DarkVNC | ThreatFox | 2026-10-12 04:16:22 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]37:1999` | ip:port | Mirai | ThreatFox | 2026-10-11 07:02:52 UTC |
 | 71 (alta) | alta | `130[.]12[.]180[.]212:80` | ip:port | Mirai | ThreatFox | 2026-10-11 08:17:05 UTC |
 | 71 (alta) | alta | `38[.]253[.]224[.]56:8080` | ip:port | Mirai | ThreatFox | 2026-10-11 08:17:04 UTC |
 | 71 (alta) | media | `176[.]65[.]139[.]231:4444` | ip:port | Unknown malware | ThreatFox | 2026-10-11 07:02:43 UTC |
 | 71 (alta) | media | `38[.]253[.]224[.]56:3778` | ip:port | Bashlite | ThreatFox | 2026-10-11 07:02:42 UTC |
+| 69 (media) | alta | `113[.]254[.]122[.]139:23` | ip:port | Mirai | ThreatFox | 2026-10-12 04:18:43 UTC |
 | 69 (media) | alta | `2def5f3586564612e03fa8b57bf3e8f2c4aede6f3be47001890c472b87ff79ee` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 11:12:45 UTC |
 | 68 (media) | critica | `176[.]65[.]148[.]54:31337` | ip:port | Sliver | ThreatFox | 2026-10-11 17:19:39 UTC |
 | 68 (media) | alta | `365d1b01cd5e605f6e7d39b192aaf56040176f2bce6eaec0fc11584850793a83` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 11:12:47 UTC |
-| 68 (media) | media | `hxxp://110[.]42[.]232[.]120:8897/?h=110[.]42[.]232[.]120&p=8897&t=tcp&a=a64&stage=true&k=b41bfef6tcp` | url | VShell | ThreatFox, URLhaus | 2026-10-11 07:02:37 UTC |
 | 68 (media) | alta | `ad7ae1df63dc9f6ee4eabbeb4e9c0f98b2a1b1d69ad8bde9b564e998678310c4` | sha256_hash | HijackLoader | ThreatFox | 2026-10-11 07:02:28 UTC |
 | 67 (media) | alta | `57d5c2569a10c07529ed7fb18699095a53d9be342f612b8230e39a48312a6281` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 12:12:46 UTC |
 | 67 (media) | alta | `d069c2eae59a5c7ad0c5de361220ff91ff228137812ed5cfd465df1a120ac3ea` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 12:12:43 UTC |
@@ -140,13 +147,6 @@ python main.py
 | 66 (media) | alta | `5ce83f99eff295ab626b8f6dacc18a34708a30ac9a95fd23067d71b820283a71` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 12:12:45 UTC |
 | 66 (media) | alta | `3ab5ae6e34d35977cf218c785b184425851f94202092d1bcfb1a2cc44a30bfe5` | sha256_hash | SmartLoader | ThreatFox | 2026-10-11 12:12:42 UTC |
 | 66 (media) | alta | `103[.]170[.]217[.]170:1312` | ip:port | Mirai | ThreatFox | 2026-10-11 07:02:52 UTC |
-| 66 (media) | media | `c9dc947b793d13c3b66c34de9e3a791d96e34639c5de1e968fb95ea46bd52c23` | sha256_hash | VShell | ThreatFox | 2026-10-11 07:02:34 UTC |
-| 65 (media) | media | `hxxps://feed-delta[.]com/f/qus5n9iecneukfdd5bqagg/8d5wkyb6` | url | AMOS | ThreatFox, URLhaus | 2026-10-11 18:33:07 UTC |
-| 65 (media) | media | `hxxps://feed-delta[.]com/curl/18r59ofv/fxv1t3fowzox6ghlb[.]txt` | url | AMOS | ThreatFox, URLhaus | 2026-10-11 18:33:06 UTC |
-| 65 (media) | media | `hxxp://110[.]42[.]232[.]120:8897/?h=110[.]42[.]232[.]120&p=8897&t=tcp&a=a32&stage=true&k=b41bfef6tcp` | url | VShell | ThreatFox, URLhaus | 2026-10-11 07:02:36 UTC |
-| 64 (media) | alta | `e64483a5f953057ef6abfee14c0b08c999a22925f34dea32a21559e8aa7daedb` | sha256_hash | Mirai | ThreatFox | 2026-10-11 21:12:43 UTC |
-| 63 (media) | media | `85dfe92b43734f2573a30e0f295a602111cbcecffc8260534a2f41386a6025d9` | sha256_hash | Unknown malware | ThreatFox | 2026-10-11 07:02:29 UTC |
-| 61 (media) | alta | `hxxps://getoutofthebackseat[.]com/HashManager64[.]zip` | url | HijackLoader | ThreatFox, URLhaus | 2026-10-11 18:27:42 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -163,6 +163,4 @@ python main.py
 | CVE-2026-104286 | Fortinet FortiMail | 2026-10-01 | Unknown |
 | CVE-2026-76504 | Cisco Catalyst SD-WAN Manager | 2026-09-30 | Unknown |
 | CVE-2026-86950 | Apple Multiple Products | 2026-09-29 | Unknown |
-| CVE-2026-88772 | Citrix NetScaler | 2026-09-27 | Unknown |
-| CVE-2026-88771 | Citrix NetScaler | 2026-09-27 | Unknown |
 <!-- CTI:END -->
