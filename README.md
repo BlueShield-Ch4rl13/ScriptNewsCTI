@@ -116,19 +116,18 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-13 14:06 UTC · **IOCs recolectados:** 1751 · **CVEs KEV recientes:** 11
+**Última actualización:** 2026-10-13 22:40 UTC · **IOCs recolectados:** 2410 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 75 (alta) | alta | `103[.]170[.]217[.]170:3912` | ip:port | Mirai | ThreatFox | 2026-10-13 05:21:24 UTC |
-| 72 (alta) | alta | `176[.]65[.]139[.]76:1999` | ip:port | Mirai | ThreatFox | 2026-10-12 18:10:03 UTC |
 | 71 (alta) | critica | `206[.]0[.]29[.]250:1332` | ip:port | AdaptixC2 | ThreatFox | 2026-10-13 09:44:35 UTC |
+| 70 (alta) | alta | `176[.]65[.]139[.]41:8001` | ip:port | Aisuru | ThreatFox | 2026-10-13 14:12:26 UTC |
+| 65 (media) | media | `hxxps://willow-13[.]com/curl/3q6bi119bmh/hta33q8o8pnbdlzpyl4v7e[.]dat` | url | AMOS | ThreatFox, URLhaus | 2026-10-13 16:35:55 UTC |
+| 65 (media) | media | `hxxps://willow-13[.]com/f/4nsri1yksbqlneewnevynq/cvfo3thd` | url | AMOS | ThreatFox, URLhaus | 2026-10-13 16:35:55 UTC |
 | 65 (media) | alta | `64[.]89[.]160[.]185:8001` | ip:port | Aisuru | ThreatFox | 2026-10-13 10:10:31 UTC |
-| 62 (media) | media | `176[.]65[.]139[.]166:54321` | ip:port | Unknown malware | ThreatFox | 2026-10-12 18:29:40 UTC |
-| 62 (media) | alta | `176[.]65[.]139[.]40:80` | ip:port | Mirai | ThreatFox | 2026-10-12 18:10:00 UTC |
-| 61 (media) | alta | `6507fe13084e475016874e40bb8a5b404ee9d5aaab5a99bd9d369e411be6e212` | sha256_hash | Mirai | ThreatFox | 2026-10-12 14:53:05 UTC |
 | 60 (media) | alta | `236809733e2fa25d24db2a92ec21c02f1346b248f164809a5641ff7d8a636125` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:18 UTC |
 | 60 (media) | alta | `82d73a45f4319ce7f0ef05cabb6e9c786d3199ee9e200deedc86c277f639da14` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:17 UTC |
 | 60 (media) | alta | `9fa42ae1ade9a75405c53e51da8de114d5570c2c9bc91cdf85b1df4bbc7cc660` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:16 UTC |
@@ -137,21 +136,24 @@ python main.py
 | 60 (media) | alta | `9506ad006b7e16a7369ebfef676132054547788714f1cfad2b7ebe7c0e6de7bf` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:10 UTC |
 | 60 (media) | alta | `775dd595995abc0b4571ceafdad653a34538f448eb2a90ef1578f7ca4785953b` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:09 UTC |
 | 60 (media) | media | `stormfangridge[.]top` | domain | magecart | ThreatFox | 2026-10-13 13:43:06 UTC |
-| 60 (media) | alta | `e7ae78e8f568c7af08a5fa663ed3063ad09918bbdc9fe033324cfa80363290e3` | sha256_hash | Mirai | ThreatFox | 2026-10-12 14:53:08 UTC |
-| 60 (media) | alta | `1ad0d5bb014ddffbd73e450ba2a63285598aad9865c216e2eff6660b3e53056d` | sha256_hash | Mirai | ThreatFox | 2026-10-12 14:53:02 UTC |
-| 59 (media) | alta | `1af15fdefb4fbc3a7ccb106ddfdde5b4e3403fb8dcf7523916fb5c465fce1a0b` | sha256_hash | Mirai | ThreatFox | 2026-10-12 14:53:09 UTC |
-| 59 (media) | alta | `1b0cb2d4e1ffc97846aa6d5eb409b1c6dcc57630e84fe1276358cf49760d52e6` | sha256_hash | Mirai | ThreatFox | 2026-10-12 14:53:07 UTC |
-| 59 (media) | alta | `f0b45c1dd302ab38ad5a11a613d480eca18c69fcfce7ea037ea55c19edca7c24` | sha256_hash | Mirai | ThreatFox | 2026-10-12 14:53:03 UTC |
+| 59 (media) | alta | `167[.]99[.]179[.]106:8001` | ip:port | Aisuru | ThreatFox | 2026-10-13 18:58:58 UTC |
+| 58 (media) | media | `b539c4cc58ba6c54d126e46c391a98f6619a97c859468abb4c5c299ce14d5bd8` | sha256_hash | AMOS | ThreatFox | 2026-10-13 22:27:59 UTC |
+| 58 (media) | alta | `publisher99[.]com` | domain | WARDENStealer | ThreatFox | 2026-10-13 22:16:16 UTC |
+| 58 (media) | alta | `129[.]212[.]235[.]74:8001` | ip:port | Aisuru | ThreatFox | 2026-10-13 18:58:58 UTC |
 | 58 (media) | alta | `aa4e6306ce10387cf4ac4c73f61ebdafccf6dae68d7e4be977a2c5894a17b0e9` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:14 UTC |
 | 58 (media) | alta | `f8eb3bac88cab21a3664703cfe1331e01bfffbda908761656dc03e8f73a6fc17` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:13 UTC |
 | 58 (media) | alta | `217[.]60[.]195[.]216:2017` | ip:port | Remcos | ThreatFox | 2026-10-13 04:15:19 UTC |
-| 58 (media) | alta | `19759d74097bd3fcc37d439ff819456e4d03f56ceb1da2bee5f706012b806cc6` | sha256_hash | Mirai | ThreatFox | 2026-10-12 14:53:10 UTC |
-| 58 (media) | alta | `4bbd00eb36b547113b85346bdaf8f77c44288cb62b002ff88239eb4614565884` | sha256_hash | Mirai | ThreatFox | 2026-10-12 14:53:04 UTC |
+| 57 (media) | alta | `skibidistealer[.]team` | domain | WARDENStealer | ThreatFox | 2026-10-13 22:16:16 UTC |
+| 57 (media) | alta | `snacky-time[.]club` | domain | WARDENStealer | ThreatFox | 2026-10-13 22:16:16 UTC |
+| 56 (media) | alta | `luqiuid91[.]com` | domain | WARDENStealer | ThreatFox | 2026-10-13 22:16:19 UTC |
+| 56 (media) | alta | `backtoblack7[.]com` | domain | WARDENStealer | ThreatFox | 2026-10-13 22:16:18 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-104935 | Ivanti Connect Secure | 2026-10-13 | Unknown |
+| CVE-2026-96951 | Microsoft Windows | 2026-10-13 | Unknown |
 | CVE-2015-5477 | ISC BIND | 2026-10-08 | Unknown |
 | CVE-2016-3081 | Apache Struts | 2026-10-08 | Unknown |
 | CVE-2023-22894 | Strapi Strapi | 2026-10-08 | Unknown |
