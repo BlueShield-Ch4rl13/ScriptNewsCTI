@@ -116,7 +116,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-12 15:11 UTC · **IOCs recolectados:** 1362 · **CVEs KEV recientes:** 11
+**Última actualización:** 2026-10-13 00:32 UTC · **IOCs recolectados:** 1451 · **CVEs KEV recientes:** 11
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -125,17 +125,17 @@ python main.py
 | 78 (alta) | alta | `71[.]15[.]96[.]217:23` | ip:port | Mirai | ThreatFox | 2026-10-12 06:11:07 UTC |
 | 77 (alta) | alta | `178[.]16[.]53[.]56:9034` | ip:port | Aisuru | ThreatFox | 2026-10-12 05:02:09 UTC |
 | 76 (alta) | alta | `211[.]43[.]97[.]233:23` | ip:port | Mirai | ThreatFox | 2026-10-12 06:11:06 UTC |
+| 75 (alta) | alta | `103[.]170[.]217[.]170:3912` | ip:port | Mirai | ThreatFox | 2026-10-12 23:44:42 UTC |
 | 75 (alta) | media | `165[.]245[.]160[.]178:5900` | ip:port | DarkVNC | ThreatFox | 2026-10-12 06:11:09 UTC |
 | 75 (alta) | media | `165[.]245[.]171[.]220:5900` | ip:port | DarkVNC | ThreatFox | 2026-10-12 06:11:09 UTC |
 | 75 (alta) | media | `31[.]59[.]220[.]26:5900` | ip:port | DarkVNC | ThreatFox | 2026-10-12 06:11:09 UTC |
 | 75 (alta) | alta | `34[.]22[.]226[.]31:23` | ip:port | Mirai | ThreatFox | 2026-10-12 06:11:06 UTC |
+| 72 (alta) | alta | `176[.]65[.]139[.]76:1999` | ip:port | Mirai | ThreatFox | 2026-10-12 18:10:03 UTC |
 | 71 (alta) | alta | `45[.]198[.]224[.]34:80` | ip:port | Mirai | ThreatFox | 2026-10-12 10:46:34 UTC |
 | 69 (media) | alta | `113[.]254[.]122[.]139:23` | ip:port | Mirai | ThreatFox | 2026-10-12 06:11:07 UTC |
-| 68 (media) | critica | `176[.]65[.]148[.]54:31337` | ip:port | Sliver | ThreatFox | 2026-10-11 17:19:39 UTC |
-| 66 (media) | alta | `bd6fc7755b14d207046e4edf7a455ea8bc40b514bfc9257b925a8b08cb3677d0` | sha256_hash | Mirai | ThreatFox | 2026-10-11 21:12:45 UTC |
-| 66 (media) | media | `162[.]243[.]162[.]107:443` | ip:port | Unknown malware | ThreatFox | 2026-10-11 16:57:16 UTC |
-| 64 (media) | alta | `e64483a5f953057ef6abfee14c0b08c999a22925f34dea32a21559e8aa7daedb` | sha256_hash | Mirai | ThreatFox | 2026-10-11 21:12:43 UTC |
 | 63 (media) | media | `45[.]207[.]157[.]28:9999` | ip:port | Unknown malware | ThreatFox | 2026-10-12 06:11:20 UTC |
+| 62 (media) | media | `176[.]65[.]139[.]166:54321` | ip:port | Unknown malware | ThreatFox | 2026-10-12 18:29:40 UTC |
+| 62 (media) | alta | `176[.]65[.]139[.]40:80` | ip:port | Mirai | ThreatFox | 2026-10-12 18:10:00 UTC |
 | 61 (media) | alta | `6507fe13084e475016874e40bb8a5b404ee9d5aaab5a99bd9d369e411be6e212` | sha256_hash | Mirai | ThreatFox | 2026-10-12 14:53:05 UTC |
 | 61 (media) | alta | `eae1f8de417d97e96c8bdf8c171b4275e042e7e0482b38619516e93e2f3f201d` | sha256_hash | Mirai | ThreatFox | 2026-10-12 04:53:04 UTC |
 | 61 (media) | alta | `b930b4978b1a7408240781988f7c634f8c36d9e5dfb4f58967abe065d6553c55` | sha256_hash | Mirai | ThreatFox | 2026-10-12 04:53:00 UTC |
