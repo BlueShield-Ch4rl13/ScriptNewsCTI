@@ -116,42 +116,46 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-14 17:06 UTC · **IOCs recolectados:** 2528 · **CVEs KEV recientes:** 12
+**Última actualización:** 2026-10-14 21:39 UTC · **IOCs recolectados:** 2137 · **CVEs KEV recientes:** 16
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 75 (alta) | media | `103[.]170[.]217[.]170:80` | ip:port | Unknown malware | ThreatFox | 2026-10-14 21:06:34 UTC |
 | 74 (alta) | media | `89[.]32[.]41[.]49:23789` | ip:port | Potassium | ThreatFox | 2026-10-14 03:51:56 UTC |
+| 73 (alta) | alta | `159[.]203[.]28[.]151:8001` | ip:port | Aisuru | ThreatFox | 2026-10-14 20:09:39 UTC |
+| 72 (alta) | critica | `2[.]27[.]248[.]209:31337` | ip:port | Sliver | ThreatFox | 2026-10-14 20:54:14 UTC |
 | 72 (alta) | alta | `94[.]154[.]43[.]127:1999` | ip:port | Mirai | ThreatFox | 2026-10-14 05:40:37 UTC |
 | 71 (alta) | media | `45[.]198[.]224[.]158:17691` | ip:port | MooBot | ThreatFox | 2026-10-14 09:22:42 UTC |
 | 68 (media) | alta | `176[.]65[.]139[.]40:21` | ip:port | Mirai | ThreatFox | 2026-10-14 05:42:45 UTC |
 | 68 (media) | alta | `176[.]65[.]139[.]40:44565` | ip:port | Mirai | ThreatFox | 2026-10-14 05:40:42 UTC |
+| 66 (media) | alta | `158[.]94[.]211[.]251:443` | ip:port | AsyncRAT | ThreatFox | 2026-10-14 19:43:44 UTC |
+| 65 (media) | alta | `157[.]230[.]108[.]74:8001` | ip:port | Aisuru | ThreatFox | 2026-10-14 20:09:39 UTC |
 | 64 (media) | critica | `158[.]94[.]208[.]218:31337` | ip:port | Sliver | ThreatFox | 2026-10-14 15:38:46 UTC |
 | 64 (media) | media | `89[.]32[.]41[.]128:23789` | ip:port | Potassium | ThreatFox | 2026-10-14 03:51:56 UTC |
 | 63 (media) | alta | `64[.]89[.]160[.]185:80` | ip:port | Mirai | ThreatFox | 2026-10-14 15:38:09 UTC |
 | 63 (media) | media | `159[.]203[.]20[.]34:443` | ip:port | Jackskid | ThreatFox | 2026-10-14 14:04:51 UTC |
 | 63 (media) | alta | `64[.]89[.]160[.]185:8060` | ip:port | Mirai | ThreatFox | 2026-10-14 05:40:54 UTC |
 | 63 (media) | media | `89[.]32[.]41[.]128:15987` | ip:port | Potassium | ThreatFox | 2026-10-13 23:50:29 UTC |
+| 61 (media) | alta | `213[.]152[.]162[.]19:25674` | ip:port | Remcos | ThreatFox | 2026-10-14 21:10:20 UTC |
 | 61 (media) | alta | `176[.]65[.]139[.]196:80` | ip:port | Mirai | ThreatFox | 2026-10-14 15:38:09 UTC |
 | 61 (media) | alta | `192[.]145[.]124[.]6:62927` | ip:port | Remcos | ThreatFox | 2026-10-14 09:03:49 UTC |
 | 61 (media) | alta | `216[.]9[.]224[.]115:1246` | ip:port | AsyncRAT | ThreatFox | 2026-10-14 06:05:06 UTC |
 | 60 (media) | media | `68[.]183[.]26[.]138:443` | ip:port | Jackskid | ThreatFox | 2026-10-14 14:04:52 UTC |
+| 59 (media) | alta | `185[.]157[.]163[.]135:51842` | ip:port | Remcos | ThreatFox | 2026-10-14 17:19:45 UTC |
+| 59 (media) | alta | `167[.]99[.]179[.]106:8443` | ip:port | Aisuru | ThreatFox | 2026-10-14 16:57:00 UTC |
 | 59 (media) | alta | `167[.]99[.]179[.]106:8080` | ip:port | Aisuru | ThreatFox | 2026-10-14 15:10:57 UTC |
 | 59 (media) | alta | `167[.]99[.]179[.]106:34567` | ip:port | Aisuru | ThreatFox | 2026-10-14 14:05:42 UTC |
-| 59 (media) | alta | `167[.]99[.]179[.]106:8001` | ip:port | Aisuru | ThreatFox | 2026-10-13 18:58:58 UTC |
-| 58 (media) | alta | `129[.]212[.]235[.]74:8443` | ip:port | Aisuru | ThreatFox | 2026-10-14 16:21:14 UTC |
-| 58 (media) | media | `68[.]183[.]82[.]1:443` | ip:port | Jackskid | ThreatFox | 2026-10-14 14:04:52 UTC |
-| 58 (media) | media | `137[.]184[.]17[.]100:443` | ip:port | Jackskid | ThreatFox | 2026-10-14 14:04:51 UTC |
-| 58 (media) | alta | `216[.]9[.]224[.]115:1244` | ip:port | AsyncRAT | ThreatFox | 2026-10-14 09:44:52 UTC |
-| 58 (media) | alta | `publisher99[.]com` | domain | WARDENStealer | ThreatFox | 2026-10-14 05:42:06 UTC |
-| 58 (media) | media | `b539c4cc58ba6c54d126e46c391a98f6619a97c859468abb4c5c299ce14d5bd8` | sha256_hash | AMOS | ThreatFox | 2026-10-14 05:41:12 UTC |
-| 58 (media) | alta | `129[.]212[.]235[.]74:8001` | ip:port | Aisuru | ThreatFox | 2026-10-13 18:58:58 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-105134 | Ahsay AhsayCBS | 2026-10-14 | Unknown |
+| CVE-2026-76519 | Cisco Secure Email Gateway | 2026-10-14 | Unknown |
+| CVE-2026-105133 | Ahsay AhsayCBS | 2026-10-14 | Unknown |
+| CVE-2026-0322 | Palo Alto Networks PAN-OS | 2026-10-14 | Unknown |
 | CVE-2026-104935 | Ivanti Connect Secure | 2026-10-13 | Unknown |
 | CVE-2026-96951 | Microsoft Windows | 2026-10-13 | Unknown |
 | CVE-2015-5477 | ISC BIND | 2026-10-08 | Unknown |
