@@ -116,18 +116,23 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-13 22:40 UTC · **IOCs recolectados:** 2410 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-10-14 04:33 UTC · **IOCs recolectados:** 2594 · **CVEs KEV recientes:** 12
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 75 (alta) | alta | `103[.]170[.]217[.]170:3912` | ip:port | Mirai | ThreatFox | 2026-10-13 05:21:24 UTC |
+| 74 (alta) | media | `89[.]32[.]41[.]49:23789` | ip:port | Potassium | ThreatFox | 2026-10-14 03:51:56 UTC |
+| 72 (alta) | alta | `94[.]154[.]43[.]127:1999` | ip:port | Mirai | ThreatFox | 2026-10-14 02:09:02 UTC |
 | 71 (alta) | critica | `206[.]0[.]29[.]250:1332` | ip:port | AdaptixC2 | ThreatFox | 2026-10-13 09:44:35 UTC |
 | 70 (alta) | alta | `176[.]65[.]139[.]41:8001` | ip:port | Aisuru | ThreatFox | 2026-10-13 14:12:26 UTC |
-| 65 (media) | media | `hxxps://willow-13[.]com/curl/3q6bi119bmh/hta33q8o8pnbdlzpyl4v7e[.]dat` | url | AMOS | ThreatFox, URLhaus | 2026-10-13 16:35:55 UTC |
-| 65 (media) | media | `hxxps://willow-13[.]com/f/4nsri1yksbqlneewnevynq/cvfo3thd` | url | AMOS | ThreatFox, URLhaus | 2026-10-13 16:35:55 UTC |
+| 68 (media) | alta | `176[.]65[.]139[.]40:44565` | ip:port | Mirai | ThreatFox | 2026-10-14 00:45:00 UTC |
+| 68 (media) | alta | `176[.]65[.]139[.]40:21` | ip:port | Mirai | ThreatFox | 2026-10-13 22:50:46 UTC |
 | 65 (media) | alta | `64[.]89[.]160[.]185:8001` | ip:port | Aisuru | ThreatFox | 2026-10-13 10:10:31 UTC |
+| 64 (media) | media | `89[.]32[.]41[.]128:23789` | ip:port | Potassium | ThreatFox | 2026-10-14 03:51:56 UTC |
+| 63 (media) | alta | `64[.]89[.]160[.]185:8060` | ip:port | Mirai | ThreatFox | 2026-10-14 00:28:42 UTC |
+| 63 (media) | media | `89[.]32[.]41[.]128:15987` | ip:port | Potassium | ThreatFox | 2026-10-13 23:50:29 UTC |
 | 60 (media) | alta | `236809733e2fa25d24db2a92ec21c02f1346b248f164809a5641ff7d8a636125` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:18 UTC |
 | 60 (media) | alta | `82d73a45f4319ce7f0ef05cabb6e9c786d3199ee9e200deedc86c277f639da14` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:17 UTC |
 | 60 (media) | alta | `9fa42ae1ade9a75405c53e51da8de114d5570c2c9bc91cdf85b1df4bbc7cc660` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:16 UTC |
@@ -142,11 +147,6 @@ python main.py
 | 58 (media) | alta | `129[.]212[.]235[.]74:8001` | ip:port | Aisuru | ThreatFox | 2026-10-13 18:58:58 UTC |
 | 58 (media) | alta | `aa4e6306ce10387cf4ac4c73f61ebdafccf6dae68d7e4be977a2c5894a17b0e9` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:14 UTC |
 | 58 (media) | alta | `f8eb3bac88cab21a3664703cfe1331e01bfffbda908761656dc03e8f73a6fc17` | sha256_hash | Mirai | ThreatFox | 2026-10-13 13:53:13 UTC |
-| 58 (media) | alta | `217[.]60[.]195[.]216:2017` | ip:port | Remcos | ThreatFox | 2026-10-13 04:15:19 UTC |
-| 57 (media) | alta | `skibidistealer[.]team` | domain | WARDENStealer | ThreatFox | 2026-10-13 22:16:16 UTC |
-| 57 (media) | alta | `snacky-time[.]club` | domain | WARDENStealer | ThreatFox | 2026-10-13 22:16:16 UTC |
-| 56 (media) | alta | `luqiuid91[.]com` | domain | WARDENStealer | ThreatFox | 2026-10-13 22:16:19 UTC |
-| 56 (media) | alta | `backtoblack7[.]com` | domain | WARDENStealer | ThreatFox | 2026-10-13 22:16:18 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -164,5 +164,4 @@ python main.py
 | CVE-2026-102489 | Zammad GmbH Zammad | 2026-10-02 | Unknown |
 | CVE-2026-104286 | Fortinet FortiMail | 2026-10-01 | Unknown |
 | CVE-2026-76504 | Cisco Catalyst SD-WAN Manager | 2026-09-30 | Unknown |
-| CVE-2026-86950 | Apple Multiple Products | 2026-09-29 | Unknown |
 <!-- CTI:END -->
