@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-16 04:11 UTC · **IOCs recolectados:** 2561 · **CVEs KEV recientes:** 15
+**Última actualización:** 2026-10-16 11:16 UTC · **IOCs recolectados:** 2320 · **CVEs KEV recientes:** 15
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 75 (alta) | alta | `85[.]137[.]54[.]178:443` | ip:port | Mirai | ThreatFox | 2026-10-15 08:21:17 UTC |
-| 71 (alta) | media | `216[.]9[.]225[.]228:8765` | ip:port | Unknown malware | ThreatFox | 2026-10-15 23:59:42 UTC |
-| 71 (alta) | alta | `91[.]92[.]43[.]221:80` | ip:port | Mirai | ThreatFox | 2026-10-15 21:50:53 UTC |
-| 66 (media) | alta | `157[.]230[.]108[.]74:8443` | ip:port | Aisuru | ThreatFox | 2026-10-15 09:36:26 UTC |
-| 66 (media) | alta | `157[.]230[.]108[.]74:9034` | ip:port | Aisuru | ThreatFox | 2026-10-15 06:11:42 UTC |
-| 64 (media) | critica | `107[.]172[.]22[.]3:31337` | ip:port | Sliver | ThreatFox | 2026-10-16 03:36:06 UTC |
-| 63 (media) | critica | `64[.]227[.]97[.]214:31337` | ip:port | Sliver | ThreatFox | 2026-10-16 03:36:15 UTC |
-| 62 (media) | critica | `23[.]254[.]149[.]27:8317` | ip:port | Havoc | ThreatFox | 2026-10-15 06:05:04 UTC |
-| 62 (media) | critica | `23[.]254[.]149[.]27:2087` | ip:port | Havoc | ThreatFox | 2026-10-15 04:05:06 UTC |
-| 62 (media) | critica | `23[.]254[.]149[.]27:2096` | ip:port | Havoc | ThreatFox | 2026-10-15 04:05:06 UTC |
-| 62 (media) | critica | `23[.]254[.]149[.]27:443` | ip:port | Havoc | ThreatFox | 2026-10-15 04:05:05 UTC |
-| 62 (media) | critica | `23[.]254[.]149[.]27:22` | ip:port | Havoc | ThreatFox | 2026-10-15 04:05:04 UTC |
+| 77 (alta) | alta | `72[.]167[.]43[.]61:23` | ip:port | Mirai | ThreatFox | 2026-10-16 10:49:11 UTC |
+| 77 (alta) | alta | `103[.]18[.]14[.]157:23` | ip:port | Mirai | ThreatFox | 2026-10-16 10:49:09 UTC |
+| 76 (alta) | alta | `220[.]74[.]36[.]3:23` | ip:port | Mirai | ThreatFox | 2026-10-16 10:49:12 UTC |
+| 76 (alta) | alta | `142[.]93[.]140[.]36:23` | ip:port | Mirai | ThreatFox | 2026-10-16 10:49:11 UTC |
+| 76 (alta) | alta | `143[.]110[.]153[.]215:23` | ip:port | Mirai | ThreatFox | 2026-10-16 10:49:09 UTC |
+| 75 (alta) | alta | `92[.]232[.]113[.]29:23` | ip:port | Mirai | ThreatFox | 2026-10-16 10:49:11 UTC |
+| 71 (alta) | alta | `45[.]153[.]34[.]235:8765` | ip:port | Mirai | ThreatFox | 2026-10-16 09:45:09 UTC |
+| 71 (alta) | alta | `91[.]92[.]43[.]221:80` | ip:port | Mirai | ThreatFox | 2026-10-16 06:10:48 UTC |
+| 71 (alta) | media | `216[.]9[.]225[.]228:8765` | ip:port | Unknown malware | ThreatFox | 2026-10-16 06:10:41 UTC |
+| 65 (media) | media | `hxxps://haven-post[.]com/curl/3evg00amsb/jx4r0tn568o5n8sm58[.]json` | url | AMOS | ThreatFox, URLhaus | 2026-10-16 08:48:37 UTC |
+| 65 (media) | media | `hxxps://haven-post[.]com/f/zh2s2xptaamrnzpdyiq0ng/vj1ury4s` | url | AMOS | ThreatFox, URLhaus | 2026-10-16 08:48:37 UTC |
+| 64 (media) | critica | `107[.]172[.]22[.]3:31337` | ip:port | Sliver | ThreatFox | 2026-10-16 06:10:35 UTC |
+| 63 (media) | critica | `64[.]227[.]97[.]214:31337` | ip:port | Sliver | ThreatFox | 2026-10-16 06:10:33 UTC |
+| 62 (media) | media | `104[.]248[.]206[.]134:7061` | ip:port | Drifter | ThreatFox | 2026-10-16 06:48:51 UTC |
+| 62 (media) | media | `104[.]248[.]206[.]134:25632` | ip:port | Drifter | ThreatFox | 2026-10-16 06:35:25 UTC |
+| 61 (media) | alta | `153[.]218[.]25[.]149:23` | ip:port | Mirai | ThreatFox | 2026-10-16 10:49:10 UTC |
+| 61 (media) | media | `46[.]101[.]249[.]247:7061` | ip:port | Drifter | ThreatFox | 2026-10-16 06:48:52 UTC |
+| 61 (media) | media | `46[.]101[.]249[.]247:32505` | ip:port | Drifter | ThreatFox | 2026-10-16 06:35:26 UTC |
 | 61 (media) | media | `102[.]220[.]161[.]63:10213` | ip:port | CECbot | ThreatFox | 2026-10-15 13:04:58 UTC |
-| 59 (media) | media | `185[.]165[.]171[.]21:8888` | ip:port | Unknown malware | ThreatFox | 2026-10-15 22:10:03 UTC |
-| 59 (media) | media | `185[.]165[.]171[.]21:8898` | ip:port | Unknown malware | ThreatFox | 2026-10-15 22:10:03 UTC |
-| 59 (media) | media | `35b1308baa0c0a79f8431aca3988c4389c0e0f9fa3ecd4243295cd1707f53683` | sha256_hash | AMOS | ThreatFox | 2026-10-15 07:09:30 UTC |
-| 59 (media) | media | `eb5a4df6986f8534413178add3444a5fe58af16e8f500ab122b3096eb24646de` | sha256_hash | AMOS | ThreatFox | 2026-10-15 07:09:30 UTC |
-| 59 (media) | media | `1de24789010bcf294a1fa3c8a982d924ba5d212ada16a30dc8e16532293886c9` | sha256_hash | AMOS | ThreatFox | 2026-10-15 07:09:29 UTC |
-| 59 (media) | media | `a9cd105e5cdf8b3cafb0fe9ffb886ab7becd7dbafa7c4cf0ce214d2d5e5686c8` | sha256_hash | AMOS | ThreatFox | 2026-10-15 07:09:29 UTC |
-| 58 (media) | alta | `167[.]99[.]179[.]106:9034` | ip:port | Aisuru | ThreatFox | 2026-10-16 00:43:36 UTC |
-| 58 (media) | media | `hxxps://lavendertome[.]co/trace/acl-render[.]js` | url | SmartApeSG | ThreatFox | 2026-10-15 16:21:52 UTC |
-| 58 (media) | media | `43[.]111[.]235[.]219:16667` | ip:port | VShell | ThreatFox | 2026-10-15 10:55:14 UTC |
-| 58 (media) | media | `43[.]111[.]235[.]219:5555` | ip:port | VShell | ThreatFox | 2026-10-15 10:55:14 UTC |
-| 57 (media) | media | `6ee8d6f5c3f2a582f738d047f16608f3ad4dee277f2580da6028afe370b3aa40` | sha256_hash | AMOS | ThreatFox | 2026-10-16 03:21:45 UTC |
-| 57 (media) | media | `1728e932ee72f007f031c0a6647c1c109aa86e87e810bad5a90af79a875d6434` | sha256_hash | AMOS | ThreatFox | 2026-10-15 18:37:39 UTC |
+| 60 (media) | media | `b4a2106375c183c4c88d831e5e836096958458c0a2c8831ed5f6d61ffb9b3790` | sha256_hash | Coinminer | ThreatFox | 2026-10-16 10:49:15 UTC |
+| 60 (media) | media | `138[.]68[.]134[.]9:7061` | ip:port | Drifter | ThreatFox | 2026-10-16 06:48:52 UTC |
+| 60 (media) | media | `138[.]68[.]134[.]9:32505` | ip:port | Drifter | ThreatFox | 2026-10-16 06:35:25 UTC |
+| 59 (media) | media | `185[.]165[.]171[.]21:8888` | ip:port | Unknown malware | ThreatFox | 2026-10-16 06:10:46 UTC |
+| 59 (media) | media | `185[.]165[.]171[.]21:8898` | ip:port | Unknown malware | ThreatFox | 2026-10-16 06:10:46 UTC |
+| 58 (media) | alta | `tribot[.]co[.]uk` | domain | Unknown Stealer | ThreatFox | 2026-10-16 10:49:14 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
