@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-15 21:20 UTC · **IOCs recolectados:** 2736 · **CVEs KEV recientes:** 16
+**Última actualización:** 2026-10-16 04:11 UTC · **IOCs recolectados:** 2561 · **CVEs KEV recientes:** 15
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 75 (alta) | alta | `85[.]137[.]54[.]178:443` | ip:port | Mirai | ThreatFox | 2026-10-15 08:21:17 UTC |
-| 75 (alta) | media | `103[.]170[.]217[.]170:80` | ip:port | Unknown malware | ThreatFox | 2026-10-15 00:52:45 UTC |
-| 73 (alta) | alta | `159[.]203[.]28[.]151:8443` | ip:port | Aisuru | ThreatFox | 2026-10-14 22:28:18 UTC |
+| 71 (alta) | media | `216[.]9[.]225[.]228:8765` | ip:port | Unknown malware | ThreatFox | 2026-10-15 23:59:42 UTC |
+| 71 (alta) | alta | `91[.]92[.]43[.]221:80` | ip:port | Mirai | ThreatFox | 2026-10-15 21:50:53 UTC |
 | 66 (media) | alta | `157[.]230[.]108[.]74:8443` | ip:port | Aisuru | ThreatFox | 2026-10-15 09:36:26 UTC |
 | 66 (media) | alta | `157[.]230[.]108[.]74:9034` | ip:port | Aisuru | ThreatFox | 2026-10-15 06:11:42 UTC |
-| 63 (media) | alta | `1fb0b0a0efd6dac97031183a16a3c1ffb7dbf4a77912280d741cd6fca29c47c5` | sha256_hash | Agent Tesla | ThreatFox | 2026-10-15 03:53:25 UTC |
+| 64 (media) | critica | `107[.]172[.]22[.]3:31337` | ip:port | Sliver | ThreatFox | 2026-10-16 03:36:06 UTC |
+| 63 (media) | critica | `64[.]227[.]97[.]214:31337` | ip:port | Sliver | ThreatFox | 2026-10-16 03:36:15 UTC |
 | 62 (media) | critica | `23[.]254[.]149[.]27:8317` | ip:port | Havoc | ThreatFox | 2026-10-15 06:05:04 UTC |
-| 62 (media) | critica | `23[.]254[.]149[.]27:2096` | ip:port | Havoc | ThreatFox | 2026-10-15 04:05:06 UTC |
 | 62 (media) | critica | `23[.]254[.]149[.]27:2087` | ip:port | Havoc | ThreatFox | 2026-10-15 04:05:06 UTC |
+| 62 (media) | critica | `23[.]254[.]149[.]27:2096` | ip:port | Havoc | ThreatFox | 2026-10-15 04:05:06 UTC |
 | 62 (media) | critica | `23[.]254[.]149[.]27:443` | ip:port | Havoc | ThreatFox | 2026-10-15 04:05:05 UTC |
 | 62 (media) | critica | `23[.]254[.]149[.]27:22` | ip:port | Havoc | ThreatFox | 2026-10-15 04:05:04 UTC |
 | 61 (media) | media | `102[.]220[.]161[.]63:10213` | ip:port | CECbot | ThreatFox | 2026-10-15 13:04:58 UTC |
-| 61 (media) | alta | `213[.]152[.]162[.]19:25674` | ip:port | Remcos | ThreatFox | 2026-10-14 21:10:20 UTC |
-| 59 (media) | media | `eb5a4df6986f8534413178add3444a5fe58af16e8f500ab122b3096eb24646de` | sha256_hash | AMOS | ThreatFox | 2026-10-15 07:09:30 UTC |
+| 59 (media) | media | `185[.]165[.]171[.]21:8888` | ip:port | Unknown malware | ThreatFox | 2026-10-15 22:10:03 UTC |
+| 59 (media) | media | `185[.]165[.]171[.]21:8898` | ip:port | Unknown malware | ThreatFox | 2026-10-15 22:10:03 UTC |
 | 59 (media) | media | `35b1308baa0c0a79f8431aca3988c4389c0e0f9fa3ecd4243295cd1707f53683` | sha256_hash | AMOS | ThreatFox | 2026-10-15 07:09:30 UTC |
-| 59 (media) | media | `a9cd105e5cdf8b3cafb0fe9ffb886ab7becd7dbafa7c4cf0ce214d2d5e5686c8` | sha256_hash | AMOS | ThreatFox | 2026-10-15 07:09:29 UTC |
+| 59 (media) | media | `eb5a4df6986f8534413178add3444a5fe58af16e8f500ab122b3096eb24646de` | sha256_hash | AMOS | ThreatFox | 2026-10-15 07:09:30 UTC |
 | 59 (media) | media | `1de24789010bcf294a1fa3c8a982d924ba5d212ada16a30dc8e16532293886c9` | sha256_hash | AMOS | ThreatFox | 2026-10-15 07:09:29 UTC |
+| 59 (media) | media | `a9cd105e5cdf8b3cafb0fe9ffb886ab7becd7dbafa7c4cf0ce214d2d5e5686c8` | sha256_hash | AMOS | ThreatFox | 2026-10-15 07:09:29 UTC |
+| 58 (media) | alta | `167[.]99[.]179[.]106:9034` | ip:port | Aisuru | ThreatFox | 2026-10-16 00:43:36 UTC |
 | 58 (media) | media | `hxxps://lavendertome[.]co/trace/acl-render[.]js` | url | SmartApeSG | ThreatFox | 2026-10-15 16:21:52 UTC |
-| 58 (media) | media | `43[.]111[.]235[.]219:5555` | ip:port | VShell | ThreatFox | 2026-10-15 10:55:14 UTC |
 | 58 (media) | media | `43[.]111[.]235[.]219:16667` | ip:port | VShell | ThreatFox | 2026-10-15 10:55:14 UTC |
-| 57 (media) | media | `3c722bf15f408ae9a8c5e51986642c605364851d5c7c6a70158e8a71ce65470d` | sha256_hash | AMOS | ThreatFox | 2026-10-15 18:37:39 UTC |
+| 58 (media) | media | `43[.]111[.]235[.]219:5555` | ip:port | VShell | ThreatFox | 2026-10-15 10:55:14 UTC |
+| 57 (media) | media | `6ee8d6f5c3f2a582f738d047f16608f3ad4dee277f2580da6028afe370b3aa40` | sha256_hash | AMOS | ThreatFox | 2026-10-16 03:21:45 UTC |
 | 57 (media) | media | `1728e932ee72f007f031c0a6647c1c109aa86e87e810bad5a90af79a875d6434` | sha256_hash | AMOS | ThreatFox | 2026-10-15 18:37:39 UTC |
-| 57 (media) | media | `113[.]45[.]28[.]96:8878` | ip:port | VShell | ThreatFox | 2026-10-15 10:55:14 UTC |
-| 56 (media) | alta | `hxxps://q[.]71k[.]org/x` | url | Vidar | ThreatFox | 2026-10-15 21:00:57 UTC |
-| 56 (media) | alta | `hxxps://be[.]86idn[.]com/ox/` | url | Vidar | ThreatFox | 2026-10-15 21:00:49 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -167,5 +167,4 @@ python main.py
 | CVE-2026-88779 | Citrix NetScaler | 2026-10-04 | Unknown |
 | CVE-2026-102490 | Zammad GmbH Zammad | 2026-10-02 | Unknown |
 | CVE-2026-102489 | Zammad GmbH Zammad | 2026-10-02 | Unknown |
-| CVE-2026-104286 | Fortinet FortiMail | 2026-10-01 | Unknown |
 <!-- CTI:END -->
