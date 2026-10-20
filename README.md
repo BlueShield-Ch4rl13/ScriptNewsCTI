@@ -116,18 +116,20 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-20 16:49 UTC · **IOCs recolectados:** 1869 · **CVEs KEV recientes:** 14
+**Última actualización:** 2026-10-20 21:36 UTC · **IOCs recolectados:** 2088 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 75 (alta) | media | `77[.]239[.]124[.]135:9111` | ip:port | Unknown malware | ThreatFox | 2026-10-20 20:00:47 UTC |
 | 73 (alta) | media | `45[.]115[.]26[.]23:8012` | ip:port | Unknown malware | ThreatFox | 2026-10-20 05:10:55 UTC |
 | 73 (alta) | media | `45[.]115[.]26[.]23:4455` | ip:port | Unknown malware | ThreatFox | 2026-10-20 05:10:54 UTC |
 | 73 (alta) | media | `45[.]115[.]26[.]23:4457` | ip:port | Unknown malware | ThreatFox | 2026-10-20 05:10:53 UTC |
 | 65 (media) | media | `103[.]97[.]176[.]121:8098` | ip:port | Unknown malware | ThreatFox | 2026-10-20 05:11:07 UTC |
 | 63 (media) | alta | `76d4f71afaa6e81b07c3e634e7d2a29540179fd7e096f4bb7fd16c2272c56ea4` | sha256_hash | Mirai | ThreatFox | 2026-10-19 21:54:19 UTC |
 | 63 (media) | alta | `f1146624e0dddb086a1e1ddaf134a663241988c9c756a8f79b65606670665980` | sha256_hash | Mirai | ThreatFox | 2026-10-19 21:54:15 UTC |
+| 62 (media) | alta | `fd5418a9e34037f9b64da8cc72650c12cf303f2e39f783b76f7dd2e7f576aac2` | sha256_hash | Mirai | ThreatFox | 2026-10-20 20:54:24 UTC |
 | 62 (media) | alta | `c53e6d86609593c0e0afeb913924c007f970cb5be07aff5cc414e7f9ef542a1c` | sha256_hash | Mirai | ThreatFox | 2026-10-20 03:54:18 UTC |
 | 62 (media) | alta | `4d3c088902e6631935c374dfa71fe2ed9ed561502ee1cc8b2947659ebfb3f439` | sha256_hash | Mirai | ThreatFox | 2026-10-19 21:54:17 UTC |
 | 61 (media) | alta | `c3d01526c311b65c845dece58818c16c445c942e9dbc41795d7516d8f0e52ab3` | sha256_hash | Mirai | ThreatFox | 2026-10-19 21:54:18 UTC |
@@ -136,22 +138,26 @@ python main.py
 | 60 (media) | alta | `c018650f7847d0566d56933e5953bdd5227133f645cba35d3c1e69879b455924` | sha256_hash | Unknown Loader | ThreatFox | 2026-10-20 03:54:21 UTC |
 | 60 (media) | alta | `f5da783380784216a5979a7ac7285792a4ca2e04a4a7c3bd921ef9a7f5eaa3a0` | sha256_hash | Unknown Loader | ThreatFox | 2026-10-20 03:54:20 UTC |
 | 60 (media) | alta | `9208a826c900f6a2677b2943b28c6f7016e06bfcc605e2c054a4a124ac027666` | sha256_hash | Unknown Loader | ThreatFox | 2026-10-20 03:54:19 UTC |
-| 60 (media) | alta | `138[.]68[.]170[.]147:8443` | ip:port | Aisuru | ThreatFox | 2026-10-19 17:24:33 UTC |
-| 60 (media) | alta | `138[.]68[.]170[.]147:9035` | ip:port | Aisuru | ThreatFox | 2026-10-19 16:51:45 UTC |
+| 59 (media) | alta | `2d29b6ca233a505d01e7d48bd0055a7cd2fd8c590d7e9bd132b8e9b55891c826` | sha256_hash | Unknown Loader | ThreatFox | 2026-10-20 20:54:25 UTC |
+| 58 (media) | media | `hxxp://netulse[.]sbs:5621/articles` | url | Remus | ThreatFox | 2026-10-20 21:21:07 UTC |
 | 58 (media) | media | `hxxp://popeak[.]biz:8312/products` | url | Remus | ThreatFox | 2026-10-20 16:17:07 UTC |
 | 58 (media) | media | `hxxp://echjho[.]biz:7713/tokens` | url | Remus | ThreatFox | 2026-10-20 16:12:27 UTC |
 | 58 (media) | alta | `82[.]165[.]60[.]187:8080` | ip:port | Mirai | ThreatFox | 2026-10-20 05:13:46 UTC |
-| 57 (media) | media | `8c9e3f6569498056139621c2305beaf8b257d6e60f9e35bd9420554a10a1a47f` | sha256_hash | AMOS | ThreatFox | 2026-10-20 16:35:30 UTC |
-| 57 (media) | media | `19dae42087c116ebc870e69bd2d99c8204240d161ccb0aced3f8be86023170c5` | sha256_hash | AMOS | ThreatFox | 2026-10-20 16:32:46 UTC |
-| 57 (media) | media | `3bfd884a8d270ae7f42f4b149bbd57c9cc83868b2f7208a8f1d196527a8bd633` | sha256_hash | AMOS | ThreatFox | 2026-10-20 16:21:59 UTC |
-| 57 (media) | media | `hxxp://finter28[.]help:5621/settings` | url | Remus | ThreatFox | 2026-10-20 16:17:37 UTC |
-| 57 (media) | media | `05e9554b32dbe4b907f85ac3ac22f8d4c09b5554b13ccbde64b34a6ef6e456bb` | sha256_hash | AMOS | ThreatFox | 2026-10-20 10:06:08 UTC |
-| 57 (media) | media | `d3f3f3d8a4a8a1e5973646bfb2f0f09c899d8fc6530bc67ab509e62002e11deb` | sha256_hash | AMOS | ThreatFox | 2026-10-20 10:02:22 UTC |
+| 57 (media) | media | `hxxp://darcy19[.]my:8312/imports` | url | Remus | ThreatFox | 2026-10-20 21:25:39 UTC |
+| 57 (media) | media | `302e2722d8f679e32e7760e922ae46b887a769ed4975283946308a701f5e6748` | sha256_hash | AMOS | ThreatFox | 2026-10-20 21:24:50 UTC |
+| 57 (media) | media | `1c45e83f214fc193d3c643fdd08bac440e1c25cec08f5e9abb0b113390a8afb2` | sha256_hash | AMOS | ThreatFox | 2026-10-20 21:22:21 UTC |
+| 57 (media) | media | `hxxp://tool01[.]art:7713/transactions` | url | Remus | ThreatFox | 2026-10-20 21:21:37 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-106931 | EG Secure Solutions SiteGuard Server Edition | 2026-10-20 | Unknown |
+| CVE-2026-96656 | Plex Media Server | 2026-10-20 | Unknown |
+| CVE-2026-96655 | Plex Media Server | 2026-10-20 | Unknown |
+| CVE-2026-96654 | Plex Media Server | 2026-10-20 | Unknown |
+| CVE-2026-96652 | Plex Media Server | 2026-10-20 | Unknown |
+| CVE-2026-110936 | Siemens Software Center | 2026-10-20 | Unknown |
 | CVE-2026-102764 | BeyondTrust Remote Support | 2026-10-16 | Unknown |
 | CVE-2025-61624 | Fortinet Multiple Products | 2026-10-16 | Unknown |
 | CVE-2026-21589 | Atlassian Multiple Products | 2026-10-15 | Unknown |
