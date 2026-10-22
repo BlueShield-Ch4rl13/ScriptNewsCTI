@@ -25,7 +25,7 @@ Plataforma ligera de **Cyber Threat Intelligence** que se actualiza sola cada 6 
 ```
 feeds públicos ──> collectors.py ──> fusión multi-fuente (enrich.py)
                                              │
-                            estado histórico (data/ioc_state.json)
+              estado histórico (data/ioc_state.json, en la caché de Actions)
                                              │
               enriquecimiento: GeoIP · VirusTotal · AbuseIPDB (caché + presupuesto)
                                              │
@@ -47,7 +47,11 @@ Cada IOC recibe un score de 0 a 100 combinando señales del propio feed y valida
 | Confianza del feed | `confidence` × 0,15 (hasta +15) |
 | AbuseIPDB | `abuseConfidenceScore` × 0,20 (hasta +20) |
 | VirusTotal | ratio de detecciones × 25 (hasta +25) |
+| Frescura | ×1,0 ≤7 días · ×0,85 ≤30 · ×0,6 ≤90 · ×0,3 resto, contando desde el `first_seen` del feed |
 
+Sin claves de VirusTotal ni AbuseIPDB, el score refleja sobre todo la fuente y la confianza que da el propio feed, así que la mayoría de los IOCs quedan en la franja 40-59: la diferencia real la ponen las validaciones externas.
+
+Antes de fusionar, cada indicador se normaliza: `1.2.3.4` y `1.2.3.4:443` cuentan como el mismo (y suman la bonificación multi-fuente), los tipos se unifican (`sha256_hash` y `FileHash-SHA256` → `filehash-sha256`), los CVE salen de la lista de IOCs (van en la lista KEV), los dominios de grandes proveedores (google.com, microsoft.com…) se descartan y los PTR de máquinas de Google Cloud se convierten en su IP.
 
 Niveles: **alta** ≥70 · **media** 40–69 · **baja** <40.
 
@@ -58,20 +62,31 @@ Dimensión independiente del score: el score mide *cuánto fiarse del indicador*
 | Gravedad | Criterio |
 |---|---|
 | **crítica** | ransomware (LockBit, Akira, RansomHub…) y frameworks C2 (Cobalt Strike, Sliver, Havoc, AdaptixC2…) |
-| **alta** | RATs, stealers, loaders y botnets — familias conocidas o categoría genérica en el nombre («X Stealer», «Unknown RAT»…) |
+| **alta** | RATs, stealers, loaders y botnets — familias conocidas o categoría genérica como palabra completa en el nombre («X Stealer», «Unknown RAT»…; «Operation» ya no cuenta como «rat») |
 | **media** | resto de amenazas identificadas, o desconocidas con ratio de detecciones VT ≥ 0,3 |
 | **baja** | sin familia identificada ni señal externa |
 
 Las listas viven en `SEV_CRITICA` / `SEV_ALTA` / `SEV_ALTA_GENERICAS` de `enrich.py` y se amplían según aparecen familias nuevas en los feeds.
+
+En OTX la amenaza sale de las familias de malware del pulse. Si el pulse no tiene ninguna y solo queda su título, la gravedad se limita a **media**: el título describe la campaña, no cada uno de sus indicadores.
 
 ## Enriquecimiento externo y límites
 
 - **GeoIP**: base [DB-IP Country Lite](https://db-ip.com) (CC BY 4.0), sin registro ni clave. Se descarga bajo demanda (~10 MB) al directorio temporal del runner y los lookups son offline: sin límites, cubre todas las IPs.
 - **VirusTotal** (4 req/min · 500/día en plan gratuito): 40 lookups por ejecución con pausa de 15,5 s.
 - **AbuseIPDB** (1.000 checks/día): 150 IPs por ejecución.
-- Los resultados se **cachean 7 días** en `data/ioc_state.json` y siempre se prioriza lo nuevo. Sin claves, el pipeline sigue funcionando con fusión + confianza del feed + frescura + gravedad + GeoIP.
+- Los resultados se **cachean 7 días** en `data/ioc_state.json`, que vive en la caché de GitHub Actions y no en el repositorio (subirlo en cada ejecución hacía crecer el repo ~100 MB al año). Siempre se prioriza lo nuevo. Sin claves, el pipeline sigue funcionando con fusión + confianza del feed + frescura + gravedad + GeoIP.
 
-Ajustable vía variables de entorno en el workflow: `VT_BUDGET`, `ABUSEIPDB_BUDGET`, `CTI_RECHECK_DAYS`, `CTI_RETENTION_DAYS`, `CTI_MAX_STATE`.
+Ajustable vía variables de entorno en el workflow: `VT_BUDGET`, `ABUSEIPDB_BUDGET`, `CTI_RECHECK_DAYS`, `CTI_RETENTION_DAYS`, `CTI_MAX_STATE`. `CTI_MAX_STATE` (6.000) es el tope del **estado** interno; lo que se publica en cada ejecución son los IOCs de las últimas 24 h de los feeds, normalmente unos 2.000.
+
+### Seguridad del workflow
+
+- Dos jobs: `generar` ejecuta el pipeline con permisos de solo lectura y sin el token de GitHub en el runner (`persist-credentials: false`); `publicar` solo copia los ficheros generados y hace commit.
+- Acciones fijadas por SHA y dependencias instaladas con `--require-hashes` (`requirements.txt` sale de `requirements.in` con `pip-compile --generate-hashes`).
+
+### Licencias de los datos
+
+El código es MIT (`LICENSE`). Los datos republicados tienen sus propias condiciones: abuse.ch (ThreatFox, URLhaus) y CISA KEV permiten la redistribución; DB-IP Country Lite exige atribución (CC BY 4.0); **AlienVault OTX, VirusTotal y AbuseIPDB tienen términos de uso propios que hay que revisar antes de republicar sus resultados** (en particular, el plan gratuito de VirusTotal no permite uso comercial).
 
 ## Puesta en marcha
 
@@ -92,7 +107,7 @@ Ajustable vía variables de entorno en el workflow: `VT_BUDGET`, `ABUSEIPDB_BUDG
 ### Ejecución local
 
 ```bash
-pip install -r requirements.txt
+pip install --require-hashes -r requirements.txt
 export ABUSECH_API_KEY="tu_clave"
 export OTX_API_KEY="tu_clave"          # opcional
 export VT_API_KEY="tu_clave"           # opcional
@@ -103,13 +118,14 @@ python main.py
 ## Estructura
 
 ```
-├── .github/workflows/cti-update.yml   # cron + auto-commit (concurrency + rebase anti-carreras)
+├── .github/workflows/cti-update.yml   # cron: generar (solo lectura) + publicar (commit)
 ├── main.py                            # orquestador
 ├── collectors.py                      # un colector por feed
 ├── enrich.py                          # fusión, estado histórico, GeoIP, reputación, score y gravedad
 ├── utils.py                           # defang, export JSON/CSV, README autogenerado
 ├── index.html + assets/               # dashboard estático (Cloudflare Pages)
-└── data/                              # iocs_latest.json / .csv + ioc_state.json (estado)
+├── tests/                             # pruebas de fusión, edad, gravedad y depuración
+└── data/                              # iocs_latest.json / .csv (el estado va en la caché de Actions)
 ```
 ---
 
