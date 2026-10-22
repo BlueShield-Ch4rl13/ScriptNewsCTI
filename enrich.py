@@ -23,6 +23,8 @@ Modelo de scoring (0-100), también documentado en el README:
     AbuseIPDB            abuseConfidenceScore * 0.20     (hasta +20)
     VirusTotal           (malicious / total) * 25        (hasta +25)
     frescura             x1.0 ≤7d · x0.85 ≤30d · x0.6 ≤90d · x0.3 resto
+                         (edad desde el first_seen del feed, o desde la
+                         primera vez que lo vimos si el feed no lo trae)
 
 Niveles: alta ≥70 · media 40-69 · baja <40.
 
@@ -89,11 +91,37 @@ SEV_ALTA = (
     "clearfake", "kongtuke", "aisuru",
 )
 # Categorías genéricas: si la familia no está en las listas pero su nombre
-# delata el tipo de malware, también es gravedad alta
+# delata el tipo de malware, también es gravedad alta. Como PALABRA completa:
+# con subcadenas, "rat" casaba con "Operation" o "Strategic".
 SEV_ALTA_GENERICAS = (
     "stealer", "rat", "loader", "backdoor", "keylogger", "botnet",
     "banker", "spyware",
 )
+_SEV_ALTA_GEN_RE = re.compile(r"\b(?:" + "|".join(SEV_ALTA_GENERICAS) + r")s?\b")
+
+# Tipos con el nombre que entienden los consumidores (Detection-lab y
+# ResponseLab): ThreatFox y OTX llaman distinto a lo mismo, y el panel salía
+# con "sha256_hash" y "filehash-sha256" como dos tipos.
+TIPOS = {
+    "sha256_hash": "filehash-sha256", "filehash-sha256": "filehash-sha256",
+    "sha1_hash": "filehash-sha1", "filehash-sha1": "filehash-sha1",
+    "md5_hash": "filehash-md5", "filehash-md5": "filehash-md5",
+    "ipv4": "ipv4", "ip": "ipv4", "ip:port": "ip:port", "ipv6": "ipv6",
+    "domain": "domain", "hostname": "domain", "url": "url", "uri": "url",
+}
+# Lo que no es un indicador de compromiso: un CVE es una vulnerabilidad (va en
+# la lista KEV), no algo que buscar en los logs.
+TIPOS_EXCLUIDOS = {"cve", "yara", "mutex", "email-address"}
+# Dominios registrables que nunca son un IOC por sí mismos (las URLs concretas
+# en ellos sí se conservan): bloquearlos en un SIEM corta el servicio.
+DOMINIOS_BENIGNOS = (
+    "google.com", "googleapis.com", "gstatic.com", "youtube.com", "microsoft.com",
+    "windows.com", "windows.net", "office.com", "live.com", "apple.com", "icloud.com",
+    "github.com", "githubusercontent.com", "cloudflare.com", "amazon.com", "amazonaws.com",
+    "akamai.net", "akamaiedge.net", "digicert.com", "mozilla.org", "wikipedia.org",
+)
+# PTR de máquinas en la nube: el indicador es la IP, no el nombre del proveedor
+_PTR_GCP_RE = re.compile(r"^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.bc\.googleusercontent\.com$")
 
 GEO_PATH = os.path.join(tempfile.gettempdir(), "dbip-country-lite.mmdb")
 GEO_URL = "https://download.db-ip.com/free/dbip-country-lite-{ym}.mmdb.gz"
@@ -103,6 +131,21 @@ _geo_db = None
 # ---------------------------------------------------------------- utilidades
 def _now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _fecha_feed(texto) -> str | None:
+    """first_seen de los feeds ("2026-10-22 10:00:00 UTC", "2026-10-21T12:34:56.789")
+    a ISO propio, o None."""
+    if not texto:
+        return None
+    t = str(texto).strip().replace("T", " ")[:19]
+    try:
+        return datetime.strptime(t, "%Y-%m-%d %H:%M:%S").strftime("%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        try:
+            return datetime.strptime(t[:10], "%Y-%m-%d").strftime("%Y-%m-%dT%H:%M:%SZ")
+        except ValueError:
+            return None
 
 
 def _age_days(iso: str) -> int | None:
@@ -204,7 +247,7 @@ def classify_severity(threat: str, vt: dict | None) -> str:
         return "critica"
     if any(k in t for k in SEV_ALTA):
         return "alta"
-    if any(k in t for k in SEV_ALTA_GENERICAS):
+    if _SEV_ALTA_GEN_RE.search(t):
         return "alta"
     if t and t != "unknown":
         return "media"
@@ -213,6 +256,49 @@ def classify_severity(threat: str, vt: dict | None) -> str:
 
 
 # ------------------------------------------------------------ fusión de feeds
+def clave(value: str, ioc_type: str) -> str:
+    """Forma canónica para fusionar: 1.2.3.4 y 1.2.3.4:443 son el mismo
+    indicador; un dominio no distingue mayúsculas ni el punto final."""
+    t = (ioc_type or "").lower()
+    v = (value or "").strip()
+    ip = _extract_ip(v, t)
+    if ip:
+        return ip
+    if t in ("domain", "hostname"):
+        return v.lower().rstrip(".")
+    if t.startswith(("filehash", "sha", "md5")):
+        return v.lower()
+    return v
+
+
+def _dominio_benigno(dominio: str) -> bool:
+    d = dominio.lower().rstrip(".")
+    return any(d == b or d.endswith("." + b) for b in DOMINIOS_BENIGNOS)
+
+
+def depurar(iocs: list[dict]) -> list[dict]:
+    """Normaliza los tipos y quita lo que no es un IOC: CVEs, dominios de
+    grandes proveedores y PTRs de la nube (se convierten en su IP)."""
+    salida, quitados = [], {"no_ioc": 0, "benigno": 0}
+    for i in iocs:
+        t = (i.get("type") or "").lower()
+        if t in TIPOS_EXCLUIDOS:
+            quitados["no_ioc"] += 1
+            continue
+        i = dict(i, type=TIPOS.get(t, t))
+        if i["type"] == "domain":
+            m = _PTR_GCP_RE.match((i.get("value") or "").lower())
+            if m:
+                i["value"], i["type"] = ".".join(reversed(m.groups())), "ipv4"
+            elif _dominio_benigno(i.get("value") or ""):
+                quitados["benigno"] += 1
+                continue
+        salida.append(i)
+    log.info("Depuración: %d entradas que no son IOCs (CVE...) y %d dominios benignos descartados",
+             quitados["no_ioc"], quitados["benigno"])
+    return salida
+
+
 def merge_sources(iocs: list[dict]) -> list[dict]:
     """Fusiona IOCs duplicados entre feeds conservando la información más rica.
 
@@ -221,24 +307,34 @@ def merge_sources(iocs: list[dict]) -> list[dict]:
     referencia/amenaza no vacía.
     """
     merged: dict[str, dict] = {}
-    for i in iocs:
+    for i in depurar(iocs):
         v = i.get("value")
         if not v:
             continue
-        m = merged.get(v)
+        k = clave(v, i.get("type"))
+        m = merged.get(k)
         if m is None:
             m = dict(i)
             m["sources"] = [i["source"]] if i.get("source") else []
-            merged[v] = m
+            m["variants"] = [v]
+            merged[k] = m
             continue
+        if v not in m["variants"]:
+            m["variants"].append(v)
+        # Si una fuente da la IP sola y otra con puerto, se publica la IP sola
+        if m.get("type") == "ip:port" and i.get("type") == "ipv4":
+            m["value"], m["type"] = v, "ipv4"
         s = i.get("source")
         if s and s not in m["sources"]:
             m["sources"].append(s)
         c = i.get("confidence")
         if c is not None and (m.get("confidence") is None or c > m["confidence"]):
             m["confidence"] = c
-        if m.get("threat") in (None, "", "unknown") and i.get("threat"):
+        # Una familia de un feed de malware vale más que el título de un pulse de OTX
+        if i.get("threat") and (m.get("threat") in (None, "", "unknown")
+                                or (m.get("threat_from_title") and not i.get("threat_from_title"))):
             m["threat"] = i["threat"]
+            m["threat_from_title"] = i.get("threat_from_title", False)
         if not m.get("reference") and i.get("reference"):
             m["reference"] = i["reference"]
         if not m.get("first_seen") and i.get("first_seen"):
@@ -408,7 +504,9 @@ def compute_score(ioc: dict, entry: dict) -> tuple[int, str, int]:
 
     raw = min(100.0, base + multi + feed_conf + abuse_pts + vt_pts)
 
-    age = _age_days(entry.get("last_seen_local"))
+    # Antes se medía desde last_seen_local, que se pone a "ahora" en cada
+    # ejecución: todos los IOCs tenían edad 0 y el decaimiento no actuaba nunca.
+    age = _age_days(_fecha_feed(ioc.get("first_seen")) or entry.get("first_seen_local"))
     age = 0 if age is None else age
     freshness = 1.0 if age <= 7 else 0.85 if age <= 30 else 0.6 if age <= 90 else 0.3
 
@@ -433,6 +531,10 @@ def enrich(iocs: list[dict]) -> list[dict]:
         abuse = entry.get("abuse") or {}
         vt = entry.get("vt") or {}
         severity = classify_severity(i.get("threat"), vt or None)
+        if i.get("threat_from_title") and severity in ("critica", "alta"):
+            # El título de un pulse de OTX describe la campaña, no cada indicador:
+            # no basta para marcar como crítico cada uno de sus 66 IOCs.
+            severity = "media"
         ip = _extract_ip(i.get("value"), i.get("type"))
         country = (_geo_lookup(ip) if ip else "") or abuse.get("country") or ""
         sources = i.get("sources") or ([i["source"]] if i.get("source") else [])
