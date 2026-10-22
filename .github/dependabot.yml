@@ -1,11 +1,13 @@
-# Actualizaciones automaticas de dependencias y de las GitHub Actions.
+# Actualizaciones de dependencias una vez al mes. Dependabot regenera
+# requirements.txt (con hashes) desde requirements.in, y actualiza los SHA de
+# las acciones del workflow.
 version: 2
 updates:
   - package-ecosystem: pip
     directory: /
-    schedule:
-      interval: weekly
+    schedule: {interval: monthly}
+    groups: {python: {patterns: ["*"]}}
   - package-ecosystem: github-actions
     directory: /
-    schedule:
-      interval: weekly
+    schedule: {interval: monthly}
+    groups: {actions: {patterns: ["*"]}}
