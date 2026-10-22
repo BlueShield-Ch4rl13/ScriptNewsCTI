@@ -116,37 +116,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-22 11:41 UTC · **IOCs recolectados:** 2059 · **CVEs KEV recientes:** 20
+**Última actualización:** 2026-10-22 17:07 UTC · **IOCs recolectados:** 2268 · **CVEs KEV recientes:** 20
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 76 (alta) | alta | `5[.]175[.]222[.]236:777` | ip:port | Mirai | ThreatFox | 2026-10-21 16:15:17 UTC |
 | 73 (alta) | alta | `164[.]152[.]105[.]37:443` | ip:port | Mirai | ThreatFox | 2026-10-21 18:10:30 UTC |
 | 73 (alta) | alta | `163[.]192[.]114[.]50:443` | ip:port | Mirai | ThreatFox | 2026-10-21 18:10:30 UTC |
+| 71 (alta) | media | `89[.]32[.]41[.]49:15987` | ip:port | Potassium | ThreatFox | 2026-10-22 12:02:52 UTC |
 | 71 (alta) | alta | `85[.]215[.]73[.]250:80` | ip:port | Mirai | ThreatFox | 2026-10-22 01:18:15 UTC |
 | 70 (alta) | alta | `159[.]203[.]28[.]151:8080` | ip:port | Aisuru | ThreatFox | 2026-10-21 21:07:33 UTC |
-| 68 (media) | alta | `176[.]65[.]139[.]232:1995` | ip:port | Mirai | ThreatFox | 2026-10-21 15:20:06 UTC |
-| 68 (media) | alta | `14[.]242[.]243[.]212:1995` | ip:port | Mirai | ThreatFox | 2026-10-21 15:19:30 UTC |
-| 65 (media) | alta | `213[.]152[.]176[.]152:35339` | ip:port | Remcos | ThreatFox | 2026-10-21 16:02:44 UTC |
+| 68 (media) | media | `89[.]32[.]41[.]43:27651` | ip:port | Potassium | ThreatFox | 2026-10-22 13:08:20 UTC |
+| 66 (media) | media | `144[.]172[.]103[.]188:40517` | ip:port | Unknown malware | ThreatFox | 2026-10-22 15:43:03 UTC |
+| 66 (media) | media | `144[.]172[.]103[.]188:44831` | ip:port | Unknown malware | ThreatFox | 2026-10-22 15:43:03 UTC |
+| 66 (media) | media | `144[.]172[.]103[.]188:49343` | ip:port | Unknown malware | ThreatFox | 2026-10-22 15:43:02 UTC |
+| 66 (media) | media | `144[.]172[.]103[.]188:53827` | ip:port | Unknown malware | ThreatFox | 2026-10-22 15:43:02 UTC |
+| 66 (media) | media | `144[.]172[.]103[.]188:57409` | ip:port | Unknown malware | ThreatFox | 2026-10-22 15:43:02 UTC |
+| 65 (media) | alta | `545dd5cba264bf242bc837330ca34247e202f7ac25f03eec63bf5842357519f1` | sha256_hash | Unknown Stealer | ThreatFox | 2026-10-22 16:54:49 UTC |
+| 65 (media) | alta | `hxxp://92[.]118[.]112[.]100/nfs` | url | Mirai | ThreatFox, URLhaus | 2026-10-22 15:43:25 UTC |
+| 65 (media) | media | `hxxp://93[.]152[.]213[.]151/52662` | url | IClickFix | ThreatFox, URLhaus | 2026-10-22 14:00:10 UTC |
 | 64 (media) | alta | `f9ac4db474eba1dce783f2753a2882f3bc70e72208f1154baa710ed28ee60424` | sha256_hash | Mirai | ThreatFox | 2026-10-22 10:54:47 UTC |
 | 64 (media) | alta | `400d22f6ea66e0f002936ce5cfaaf46e9d279d7b3bf04e37810ef34a18a8b298` | sha256_hash | Mirai | ThreatFox | 2026-10-22 03:54:45 UTC |
 | 64 (media) | alta | `4537002cbc3e7711a5878d880ffa6ac5cf0a2cfd8735d6be41da38d1a623ab78` | sha256_hash | Mirai | ThreatFox | 2026-10-22 03:54:44 UTC |
+| 61 (media) | media | `209[.]200[.]246[.]18:40517` | ip:port | Unknown malware | ThreatFox | 2026-10-22 15:42:56 UTC |
+| 61 (media) | media | `209[.]200[.]246[.]18:44831` | ip:port | Unknown malware | ThreatFox | 2026-10-22 15:42:55 UTC |
+| 61 (media) | media | `209[.]200[.]246[.]18:49343` | ip:port | Unknown malware | ThreatFox | 2026-10-22 15:42:55 UTC |
+| 61 (media) | media | `209[.]200[.]246[.]18:53827` | ip:port | Unknown malware | ThreatFox | 2026-10-22 15:42:55 UTC |
+| 61 (media) | media | `209[.]200[.]246[.]18:57409` | ip:port | Unknown malware | ThreatFox | 2026-10-22 15:42:54 UTC |
 | 61 (media) | alta | `217[.]60[.]242[.]28:80` | ip:port | Mirai | ThreatFox | 2026-10-22 09:45:07 UTC |
 | 60 (media) | alta | `67ad72d026647fe417abb534b1cd6dadf618968e30d53c59dbf0b76464e68723` | sha256_hash | Mirai | ThreatFox | 2026-10-22 03:54:46 UTC |
-| 59 (media) | alta | `217[.]60[.]195[.]220:8080` | ip:port | Unknown RAT | ThreatFox | 2026-10-22 09:58:46 UTC |
-| 59 (media) | alta | `5f35f015791950b625f9727f8e8a39e699c695477c35dc80095d405035584d0c` | sha256_hash | Mirai | ThreatFox | 2026-10-21 16:54:33 UTC |
-| 58 (media) | media | `a6ce2ff8840ec0b914294a5cdcf464fdc12423fecb26efbe2d0ba5711c6c79bf` | sha256_hash | AMOS | ThreatFox | 2026-10-22 11:27:45 UTC |
-| 58 (media) | media | `66f050d2f58c36b47c38cc134f055eb0a8797385a0777ca3cdd7f62de905b174` | sha256_hash | AMOS | ThreatFox | 2026-10-22 11:24:49 UTC |
-| 58 (media) | media | `e57cf701208d768c025c7e68414dd7501fff2659e93051c7efcc5c8890d0f3cc` | sha256_hash | AMOS | ThreatFox | 2026-10-22 11:13:41 UTC |
-| 58 (media) | media | `714bcd6630429bf24dcb1c58910b34e020c56b9b9c82249e3c1250417810dc87` | sha256_hash | AMOS | ThreatFox | 2026-10-22 11:04:55 UTC |
-| 58 (media) | media | `56f700822e32a22d20a255cd6df0c90d5b98f35c03286d1cdf0ba09811abaf3a` | sha256_hash | AMOS | ThreatFox | 2026-10-22 10:55:33 UTC |
-| 58 (media) | media | `ce1741c0eb3532a5336b3b6fbec7f9f17a74b9378a2b708f332e65d6aa647e63` | sha256_hash | AMOS | ThreatFox | 2026-10-22 10:52:38 UTC |
-| 58 (media) | media | `hxxps://gfisoda[.]biz/02/291852674dc0c735` | url | Unknown malware | ThreatFox | 2026-10-22 10:48:22 UTC |
-| 58 (media) | media | `018a8b6ccfcc5a46286583b4e2f1f6c8f61970727f2d983507f5174c6952a2aa` | sha256_hash | AMOS | ThreatFox | 2026-10-22 10:41:10 UTC |
-| 58 (media) | media | `28b961f955fe52c16a240e8526bb29f00f46c75931518fd3116883755897da41` | sha256_hash | AMOS | ThreatFox | 2026-10-22 03:43:23 UTC |
-| 58 (media) | media | `81cebf383b544f9b5a968b16a091a049f4862d6b4e9a20840b3a87356594dc21` | sha256_hash | AMOS | ThreatFox | 2026-10-22 03:30:17 UTC |
+| 59 (media) | alta | `217[.]60[.]195[.]220:8080` | ip:port | Unknown RAT | ThreatFox | 2026-10-22 12:10:50 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
