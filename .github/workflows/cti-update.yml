@@ -5,8 +5,9 @@ on:
     - cron: "0 */6 * * *"   # cada 6 horas (UTC)
   workflow_dispatch:          # permite lanzarlo a mano
 
+# Por defecto, solo lectura. Solo el job que publica puede escribir.
 permissions:
-  contents: write
+  contents: read
 
 # Nunca dos ejecuciones a la vez: evita carreras al hacer push
 concurrency:
@@ -14,17 +15,36 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update:
+  # Ejecuta el pipeline con las API keys pero SIN credenciales de escritura:
+  # el token de GitHub no está en el runner mientras corre main.py y sus
+  # dependencias, así que un paquete comprometido no puede empujar al repo.
+  generar:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v5
+      # Acciones fijadas por SHA (la etiqueta se puede mover; el SHA no)
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5
+        with:
+          persist-credentials: false
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6
         with:
           python-version: "3.12"
 
+      # requirements.txt lleva el hash de cada paquete (pip-compile --generate-hashes)
       - name: Instalar dependencias
-        run: pip install -r requirements.txt
+        run: pip install --require-hashes -r requirements.txt
+
+      # El estado (caché de VirusTotal/AbuseIPDB y primeras apariciones) vive en
+      # la caché de Actions, no en el repositorio: subirlo en cada ejecución
+      # hacía crecer el repo unos 100 MB al año.
+      - name: Restaurar el estado
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830  # v4
+        with:
+          path: data/ioc_state.json
+          key: cti-estado-${{ github.run_id }}
+          restore-keys: cti-estado-
 
       - name: Ejecutar pipeline CTI
         env:
@@ -34,11 +54,39 @@ jobs:
           ABUSEIPDB_API_KEY: ${{ secrets.ABUSEIPDB_API_KEY }}
         run: python main.py
 
+      - name: Pruebas
+        run: |
+          pip install pytest==9.1.1
+          python -m pytest -q tests
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
+        with:
+          name: publicacion
+          retention-days: 1
+          path: |
+            data/iocs_latest.json
+            data/iocs_latest.csv
+            README.md
+
+  # Solo copia los ficheros generados y hace commit: no ejecuta código del repo.
+  publicar:
+    needs: generar
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5
+
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093  # v4
+        with:
+          name: publicacion
+          path: .
+
       - name: Commit y push de cambios
         run: |
           git config user.name "cti-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/ README.md
+          git add data/iocs_latest.json data/iocs_latest.csv README.md
           if git diff --cached --quiet; then
             echo "Sin cambios que publicar"
             exit 0
