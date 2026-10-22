@@ -111,18 +111,24 @@ def otx_pulses(limit: int = 10, max_indicators: int = 200) -> list[dict]:
         pulses = r.json().get("results") or []
         iocs = []
         for p in pulses:
+            # La amenaza de cada indicador sale de las familias de malware del
+            # pulse; solo si no hay ninguna se usa el título, y se marca: el
+            # título describe la campaña, no cada indicador.
+            familias = [f.get("display_name") for f in p.get("malware_families") or []
+                        if isinstance(f, dict) and f.get("display_name")]
+            amenaza = ", ".join(familias) if familias else p.get("name")
             for ind in p.get("indicators") or []:
-                iocs.append(
-                    _norm(
-                        ind.get("indicator"),
-                        (ind.get("type") or "").lower(),
-                        p.get("name"),
-                        None,
-                        ind.get("created"),
-                        "OTX",
-                        f"https://otx.alienvault.com/pulse/{p.get('id')}",
-                    )
+                ioc = _norm(
+                    ind.get("indicator"),
+                    (ind.get("type") or "").lower(),
+                    amenaza,
+                    None,
+                    ind.get("created"),
+                    "OTX",
+                    f"https://otx.alienvault.com/pulse/{p.get('id')}",
                 )
+                ioc["threat_from_title"] = not familias
+                iocs.append(ioc)
                 if len(iocs) >= max_indicators:
                     break
             if len(iocs) >= max_indicators:
