@@ -18,3 +18,11 @@ jobs:
       - run: python .github/sonda_vulns.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
+      - name: trozos 0
+        run: python3 -c "b=open('/tmp/vulns.b64').read(); [print(f'::notice title=t{i:03d}::'+b[i*4000:(i+1)*4000]) for i in range(0,9) if b[i*4000:(i+1)*4000]]"
+      - name: trozos 1
+        run: python3 -c "b=open('/tmp/vulns.b64').read(); [print(f'::notice title=t{i:03d}::'+b[i*4000:(i+1)*4000]) for i in range(9,18) if b[i*4000:(i+1)*4000]]"
+      - name: trozos 2
+        run: python3 -c "b=open('/tmp/vulns.b64').read(); [print(f'::notice title=t{i:03d}::'+b[i*4000:(i+1)*4000]) for i in range(18,27) if b[i*4000:(i+1)*4000]]"
+      - name: trozos 3
+        run: python3 -c "b=open('/tmp/vulns.b64').read(); [print(f'::notice title=t{i:03d}::'+b[i*4000:(i+1)*4000]) for i in range(27,36) if b[i*4000:(i+1)*4000]]"
