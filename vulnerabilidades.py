@@ -56,28 +56,62 @@ ECOSISTEMAS = {
     "actions": ("GitHub Actions", "Marketplace"),
 }
 
-# Sistemas: categoría, nombre visible y patrón (sobre fabricante, producto y el
-# principio de la descripción). Orden importa: lo más específico, antes.
+# El propio lenguaje (intérprete, compilador, runtime), por (fabricante, producto)
+# de KEV o del CPE de NVD. Solo con fabricante y producto: en la descripción,
+# «PHP» o «Python» aparecen en miles de CVE que no son del lenguaje.
+RUNTIMES = {
+    "pip": ("Python", r"^(python|python software foundation)\|(python|cpython)$"),
+    "npm": ("Node.js", r"^(nodejs|node\.js|openjs foundation)\|node\.?js$"),
+    "maven": ("Java (JDK)", r"^(oracle|openjdk|eclipse adoptium)\|(jdk|jre|java se|java|openjdk|graalvm)( .*)?$"),
+    "nuget": (".NET", r"^microsoft\|(\.net|\.net framework|\.net core|asp\.net core)$"),
+    "composer": ("PHP", r"^(php|php group|the php group)\|php$"),
+    "go": ("Go", r"^(golang|google)\|go$"),
+    "rust": ("Rust", r"^(rust-lang|rust)\|rust$"),
+    "rubygems": ("Ruby", r"^(ruby-lang|ruby)\|ruby$"),
+    "erlang": ("Erlang/OTP", r"^(erlang|ericsson)\|(erlang/otp|otp|erlang)$"),
+    "swift": ("Swift", r"^(apple|swift)\|swift$"),
+    "pub": ("Dart", r"^(dart|google)\|dart( sdk)?$"),
+}
+_RUNTIMES = {eco: re.compile(rx, re.I) for eco, (_, rx) in RUNTIMES.items()}
+
+
+def runtime_de(fabricante: str, producto: str) -> str | None:
+    clave = f"{(fabricante or '').strip()}|{(producto or '').strip()}"
+    return next((eco for eco, rx in _RUNTIMES.items() if rx.match(clave)), None)
+
+
+# Sistemas: categoría, nombre visible y patrón. Primero se busca en fabricante y
+# producto (KEV, CPE o CNA) y solo si no hay suerte, en la descripción. El orden
+# importa: lo más específico, antes («Cisco IOS» es red, no Apple).
 CATEGORIAS = [
     ("android", "Android", r"\bandroid\b"),
-    ("navegadores", "Navegadores", r"\bchrom(e|ium)\b|\bfirefox\b|\bthunderbird\b|\bwebkit\b|\bsafari\b|\bmicrosoft edge\b|\bv8\b"),
-    ("microsoft", "Windows y Microsoft", r"\bmicrosoft\b|\bwindows\b|\bexchange server\b|\bsharepoint\b|\bazure\b|\b\.net\b|\bhyper-v\b"),
-    ("apple", "Apple (macOS · iOS)", r"\bapple\b|\bmacos\b|\bipados\b|\bios\b|\bwatchos\b|\bvisionos\b|\btvos\b"),
-    ("linux", "Linux", r"\blinux\b|\bred ?hat\b|\bubuntu\b|\bdebian\b|\bsuse\b|\bcanonical\b|\bfedora\b"),
+    ("navegadores", "Navegadores",
+     r"\bchrom(e|ium)\b|\bfirefox\b|\bthunderbird\b|\bmozilla\b|\bwebkit\b|\bsafari\b|\bmicrosoft edge\b|\bv8\b"),
+    ("microsoft", "Windows y Microsoft", r"\bmicrosoft\b|\bwindows\b|\bexchange server\b|\bsharepoint\b|\bazure\b|\bhyper-v\b"),
     ("red", "Red, VPN y firewalls",
      r"\bcisco\b|\bfortinet\b|\bforti\w+|\bpalo ?alto\b|\bpan-os\b|\bivanti\b|\bcitrix\b|\bnetscaler\b|\bjuniper\b"
-     r"|\bjunos\b|\bsonicwall\b|\bf5\b|\bbig-ip\b|\bcheck ?point\b|\bzyxel\b|\btp-link\b|\bd-link\b|\bnetgear\b"
-     r"|\bmikrotik\b|\bubiquiti\b|\bdraytek\b|\bsophos\b|\bwatchguard\b|\bbarracuda\b|\baruba\b|\bopenvpn\b|\btenda\b"),
+     r"|\bjunos\b|\bsonicwall\b|\bf5\b|\bbig-ip\b|\bcheck ?point\b|\bzyxel\b|\bmikrotik\b|\bubiquiti\b|\bdraytek\b"
+     r"|\bsophos\b|\bwatchguard\b|\bbarracuda\b|\baruba\b|\baos-\d+\b|\barista\b|\bvelocloud\b|\bopenvpn\b|\bpulse secure\b"),
+    ("iot", "Routers domésticos, IoT y cámaras",
+     r"\btotolink\b|\bwavlink\b|\btenda\b|\btp-link\b|\bd-link\b|\bnetgear\b|\blinksys\b|\bhikvision\b|\bdahua\b"
+     r"|\bedimax\b|\btrendnet\b|\bunitree\b|\brouter\b|\bboa\b|\bdvr\b|\bnvr\b|\bip camera\b|\bwi-?fi extender\b"),
+    ("apple", "Apple (macOS · iOS)", r"\bapple\b|\bmacos\b|\bipados\b|(?<!cisco )\bios\b(?! xe| xr)|\bwatchos\b|\bvisionos\b|\btvos\b"),
+    ("linux", "Linux", r"\blinux\b|\bred ?hat\b|\bubuntu\b|\bdebian\b|\bsuse\b|\bcanonical\b|\bfedora\b"),
     ("virtualizacion", "Virtualización y nube",
      r"\bvmware\b|\bbroadcom\b|\besxi\b|\bvcenter\b|\bkubernetes\b|\bdocker\b|\bcontainerd\b|\bopenshift\b|\bproxmox\b|\bxen\b"),
-    ("web", "Web y CMS", r"\bwordpress\b|\bdrupal\b|\bjoomla\b|\bmagento\b|\bprestashop\b|\bwoocommerce\b|\bplugin\b"),
     ("ics", "Industrial (OT · ICS)",
      r"\bsiemens\b|\bschneider\b|\brockwell\b|\babb\b|\bhoneywell\b|\bmitsubishi electric\b|\bomron\b|\bscada\b|\bplc\b"),
     ("empresarial", "Software empresarial",
      r"\boracle\b|\bsap\b|\bibm\b|\batlassian\b|\bconfluence\b|\bjira\b|\bsolarwinds\b|\badobe\b|\bservicenow\b"
-     r"|\bjenkins\b|\bgitlab\b|\bapache\b|\bveeam\b|\bsalesforce\b"),
+     r"|\bjenkins\b|\bgitlab\b|\bapache\b|\bveeam\b|\bsalesforce\b|\bfinereport\b"),
+    ("web", "Aplicaciones web y CMS",
+     r"\bwordpress\b|\bdrupal\b|\bjoomla\b|\bmagento\b|\bprestashop\b|\bwoocommerce\b|\bplugin\b"),
 ]
-NOMBRE_CATEGORIA = {c: n for c, n, _ in CATEGORIAS} | {"oss": "Librerías de código abierto", "otros": "Otros"}
+# Solo en la descripción, como último recurso: señales típicas de aplicación web
+WEB_DESC = re.compile(r"\.php\b|\bcross-site scripting\b|\bsql injection\b|\bweb (interface|application|panel)\b"
+                      r"|\bcontrol panel\b|\bcms\b|/api/|/admin/", re.I)
+NOMBRE_CATEGORIA = {c: n for c, n, _ in CATEGORIAS} | {
+    "runtimes": "Lenguajes y entornos de ejecución", "oss": "Librerías de código abierto", "otros": "Otros"}
 _PATRONES = [(c, re.compile(p, re.I)) for c, _, p in CATEGORIAS]
 
 # CNA (quien publica el CVE) -> fabricante. Muchos CVE nuevos aún no tienen CPE en
@@ -262,8 +296,8 @@ def github_avisos(ecosistema: str, tipo: str, dias: int = 7, max_paginas: int = 
 
 
 def _aviso(a: dict, ecosistema: str) -> dict:
-    paquetes = [v.get("package", {}).get("name") for v in a.get("vulnerabilities") or []
-                if (v.get("package") or {}).get("ecosystem") == ecosistema]
+    paquetes = list(dict.fromkeys(v.get("package", {}).get("name") for v in a.get("vulnerabilities") or []
+                                  if (v.get("package") or {}).get("ecosystem") == ecosistema))
     parcheada = next((v.get("first_patched_version") for v in a.get("vulnerabilities") or []
                       if v.get("first_patched_version")), None)
     ghsa = a.get("ghsa_id") if GHSA_RE.match(a.get("ghsa_id") or "") else None
@@ -275,17 +309,38 @@ def _aviso(a: dict, ecosistema: str) -> dict:
             "epss": e.get("percentage"), "corregido_en": parcheada, "publicado": (a.get("published_at") or "")[:10]}
 
 
-def lenguajes(dias: int = 7) -> list[dict]:
-    """Estado por lenguaje: paquetes maliciosos y vulnerabilidades revisadas en sus registros."""
+def _runtime(eco: str, cves: list[dict], kev_cat: list[dict], dias_kev: int = 90) -> dict | None:
+    """CVE del propio lenguaje esta semana y los que CISA da por explotados (90 días)."""
+    if eco not in RUNTIMES:
+        return None
+    corte = (_ahora() - timedelta(days=dias_kev)).date().isoformat()
+    propios = [c for c in cves if c.get("runtime") == eco]
+    explotados = sorted(({"cve": k.get("cveID"), "anadido": k.get("dateAdded"), "nombre": k.get("vulnerabilityName"),
+                          "ransomware": k.get("knownRansomwareCampaignUse") == "Known"}
+                         for k in kev_cat if (k.get("dateAdded") or "") >= corte
+                         and runtime_de(k.get("vendorProject"), k.get("product")) == eco),
+                        key=lambda x: x["anadido"] or "", reverse=True)
+    return {"nombre": RUNTIMES[eco][0], "cves": len(propios),
+            "ejemplos": [{k: c.get(k) for k in ("cve", "cvss", "epss", "prioridad")} for c in sorted(propios, key=_orden)[:3]],
+            "explotados": explotados[:MAX_EJEMPLOS], "explotados_total": len(explotados)}
+
+
+def lenguajes(dias: int = 7, cves: list[dict] | None = None, kev_cat: list[dict] | None = None) -> list[dict]:
+    """Estado por lenguaje: el propio lenguaje (CVE y explotación) y sus registros
+    de paquetes (paquetes maliciosos y vulnerabilidades revisadas)."""
     salida = []
+    corte30 = (_ahora() - timedelta(days=30)).date().isoformat()
     for eco, (lenguaje, registro) in ECOSISTEMAS.items():
-        fila = {"ecosistema": eco, "lenguaje": lenguaje, "registro": registro, "error": None}
+        rt = _runtime(eco, cves or [], kev_cat or [])
+        fila = {"ecosistema": eco, "lenguaje": lenguaje, "registro": registro, "error": None, "runtime": rt}
         try:
             mal, mal_mas = github_avisos(eco, "malware", dias)
             rev, rev_mas = github_avisos(eco, "reviewed", dias, max_paginas=3)
         except Exception as exc:          # una caída de la API no tumba el resto
             log.error("GitHub Advisory (%s) falló: %s", eco, exc)
             fila["error"] = "fuente no disponible"
+            if rt and any((x["anadido"] or "") >= corte30 for x in rt["explotados"]):
+                fila["estado"] = "runtime_explotado"
             salida.append(fila)
             continue
         sev = Counter(a.get("severity") for a in rev)
@@ -299,7 +354,9 @@ def lenguajes(dias: int = 7) -> list[dict]:
             "ejemplos_maliciosos": [_aviso(a, eco) for a in mal[:MAX_EJEMPLOS]],
             "ejemplos_graves": [_aviso(a, eco) for a in graves[:MAX_EJEMPLOS]],
         })
-        fila["estado"] = ("maliciosos" if fila["maliciosos"] else
+        runtime_explotado = bool(rt and any((x["anadido"] or "") >= corte30 for x in rt["explotados"]))
+        fila["estado"] = ("runtime_explotado" if runtime_explotado else
+                          "maliciosos" if fila["maliciosos"] else
                           "critico" if fila["criticos"] else
                           "alto" if fila["altos"] else "sin_alertas")
         salida.append(fila)
@@ -308,21 +365,30 @@ def lenguajes(dias: int = 7) -> list[dict]:
 
 
 # ── clasificación y prioridad ────────────────────────────────────────────────
-def clasificar(c: dict, kev: dict | None = None) -> tuple[str, str]:
-    """(categoría, fabricante) de un CVE: KEV > CPE de NVD > CNA > descripción."""
-    fabricante = producto = ""
+def fabricante_producto(c: dict, kev: dict | None = None) -> tuple[str, str]:
+    """De quién es: KEV > CPE de NVD > CNA que lo publica."""
     if kev:
-        fabricante, producto = kev.get("vendorProject") or "", kev.get("product") or ""
-    elif c.get("cpe_fabricante"):
-        fabricante, producto = c["cpe_fabricante"].title(), c.get("cpe_producto") or ""
-    elif c.get("cna") in CNA_FABRICANTE:
-        fabricante = CNA_FABRICANTE[c["cna"]]
-    texto = f"{fabricante} {producto} {(c.get('descripcion') or '')[:160]}"
+        return kev.get("vendorProject") or "", kev.get("product") or ""
+    if c.get("cpe_fabricante"):
+        return c["cpe_fabricante"].title(), c.get("cpe_producto") or ""
+    return CNA_FABRICANTE.get(c.get("cna"), ""), ""
+
+
+def clasificar(c: dict, kev: dict | None = None) -> tuple[str, str]:
+    """(categoría, fabricante) de un CVE: patrones sobre el fabricante y el
+    producto y, si no, sobre la descripción."""
+    fabricante, producto = fabricante_producto(c, kev)
+    if runtime_de(fabricante, producto):
+        return "runtimes", fabricante
     if c.get("cna") == "security-advisories@github.com" and not kev:
         return "oss", fabricante or "Código abierto (GitHub)"
-    for cat, rx in _PATRONES:
-        if rx.search(texto):
-            return cat, fabricante or rx.search(texto).group(0).title()
+    for texto in (f"{fabricante} {producto}", (c.get("descripcion") or "")[:200]):
+        for cat, rx in _PATRONES:
+            m = rx.search(texto)
+            if m:
+                return cat, fabricante or m.group(0).title()
+    if WEB_DESC.search(c.get("descripcion") or ""):
+        return "web", fabricante
     return "otros", fabricante
 
 
@@ -417,11 +483,12 @@ def construir(dias: int = 7, kev_cat: list[dict] | None = None) -> dict:
         c["kev"] = bool(k) or c.pop("kev_nvd", False)
         c.pop("kev_nvd", None)
         c["categoria"], c["fabricante"] = clasificar(c, k)
+        c["runtime"] = runtime_de(*fabricante_producto(c, k))
         c["prioridad"] = prioridad(c)
     cves.sort(key=_orden)
 
     try:
-        lengs = lenguajes(dias)
+        lengs = lenguajes(dias, cves, kev_cat)
         fuentes["github_advisories"] = "ok" if not all(x.get("error") for x in lengs) else "error"
     except Exception as exc:
         log.error("GitHub Advisory falló: %s", exc)
