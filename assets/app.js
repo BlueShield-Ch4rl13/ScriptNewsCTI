@@ -178,6 +178,252 @@
     renderKev(kev);
   }
 
+  /* ── Vulnerabilidades (data/vulns_latest.json) ───────────────────────────
+     Un fallo aquí no afecta a los IOCs: cada bloque carga su propio fichero. */
+  var CVE_RE = /^CVE-\d{4}-\d{4,}$/;
+  var GHSA_RE = /^GHSA(-[23456789cfghjmpqrvwx]{4}){3}$/;
+  var PRIO = { explotada: "explotada", urgente: "urgente", alta: "alta", media: "media", baja: "baja" };
+  var PRIO_SEV = { explotada: "critica", urgente: "critica", alta: "alta", media: "media", baja: "baja" };
+  var EST_SIS = {
+    explotacion_activa: ["Explotación activa", "critica"],
+    riesgo_alto: ["Riesgo alto", "alta"],
+    vigilar: ["Vigilar", "media"]
+  };
+  var EST_LEN = {
+    runtime_explotado: ["El lenguaje se explota", "critica"],
+    maliciosos: ["Paquetes maliciosos", "critica"],
+    critico: ["Avisos críticos", "alta"],
+    alto: ["Avisos altos", "media"],
+    sin_alertas: ["Sin alertas", "baja"]
+  };
+  var vstate = { cves: [], nombres: {}, filtrados: [], mostrar: 25 };
+  var PASO = 25;
+  // Nombre corto de cada sistema para la tabla (las tarjetas usan el largo)
+  var CORTO = {
+    microsoft: "Microsoft", linux: "Linux", apple: "Apple", android: "Android", navegadores: "Navegador",
+    red: "Red / VPN", iot: "Router / IoT", virtualizacion: "Virtual. / nube", ia: "IA / LLM",
+    servidores: "Servidor", ics: "OT / ICS", empresarial: "Empresarial", web: "Web / CMS",
+    runtimes: "Lenguaje", oss: "Código abierto", otros: "Otros"
+  };
+
+  function pct(e) {
+    if (e === null || e === undefined) return "\u2014";
+    var v = e * 100;
+    return (v < 1 ? v.toFixed(2) : v.toFixed(1)) + " %";
+  }
+
+  function enlace(texto, url) {
+    var a = el("a", null, texto);
+    a.href = url;
+    a.rel = "noopener noreferrer";
+    return a;
+  }
+
+  function cveNodo(id) {
+    return CVE_RE.test(id || "") ? enlace(id, "https://nvd.nist.gov/vuln/detail/" + id) : el("span", null, id || "\u2014");
+  }
+
+  function chip(texto, sev) { return el("span", "sev-chip sev-" + sev, texto); }
+
+  function metrica(valor, etiqueta) {
+    var d = el("div", "metrica");
+    d.appendChild(el("b", null, valor));
+    d.appendChild(el("small", null, etiqueta));
+    return d;
+  }
+
+  function renderTiles(r) {
+    var t = $("vuln-tiles");
+    t.textContent = "";
+    [[r.cves, "CVE nuevos (7 d)"], [r.explotados, "Ya explotados"], [r.urgentes, "Urgentes"],
+     [r.criticos, "CVSS \u2265 9"], [r.epss_10, "EPSS \u2265 10 %"], [r.paquetes_maliciosos, "Paquetes maliciosos"]]
+      .forEach(function (x) { t.appendChild(metrica(x[0] || 0, x[1])); });
+  }
+
+  function renderSistemas(lista) {
+    var g = $("sis-grid");
+    g.textContent = "";
+    $("sis-empty").hidden = lista.length > 0;
+    lista.forEach(function (s) {
+      var est = EST_SIS[s.estado] || ["\u2014", "baja"];
+      var card = el("article", "estado-card est-" + est[1]);
+      var head = el("div", "estado-head");
+      head.appendChild(el("h3", null, s.nombre));
+      head.appendChild(chip(est[0], est[1]));
+      card.appendChild(head);
+      var m = el("div", "metricas");
+      m.appendChild(metrica(s.cves, "CVE nuevos"));
+      m.appendChild(metrica(s.criticos, "CVSS \u2265 9"));
+      m.appendChild(metrica(s.kev_recientes_total, "Explotados (30 d)"));
+      card.appendChild(m);
+      if (s.fabricantes && s.fabricantes.length) card.appendChild(el("p", "estado-fab", s.fabricantes.join(" \u00b7 ")));
+      var ul = el("ul", "estado-lista");
+      (s.kev_recientes || []).slice(0, 3).forEach(function (k) {
+        var li = el("li");
+        li.appendChild(cveNodo(k.cve));
+        li.appendChild(el("span", null, " " + [k.fabricante, k.producto].filter(Boolean).join(" ")));
+        if (k.ransomware) li.appendChild(el("span", "badge-ransom mini", "RANSOMWARE"));
+        ul.appendChild(li);
+      });
+      if (!ul.childNodes.length) {
+        (s.destacados || []).slice(0, 3).forEach(function (c) {
+          var li = el("li");
+          li.appendChild(cveNodo(c.cve));
+          li.appendChild(el("span", null, " " + (c.fabricante || "") + " \u00b7 CVSS " + (c.cvss !== null && c.cvss !== undefined ? c.cvss : "\u2014") + " \u00b7 EPSS " + pct(c.epss)));
+          ul.appendChild(li);
+        });
+      }
+      if (ul.childNodes.length) card.appendChild(ul);
+      g.appendChild(card);
+    });
+  }
+
+  function renderLenguajes(lista) {
+    var g = $("len-grid");
+    g.textContent = "";
+    $("len-empty").hidden = lista.length > 0;
+    lista.forEach(function (x) {
+      var est = EST_LEN[x.estado] || (x.error ? ["Sin datos", "baja"] : ["\u2014", "baja"]);
+      var card = el("article", "estado-card est-" + est[1]);
+      var head = el("div", "estado-head");
+      var h = el("h3", null, x.lenguaje);
+      h.appendChild(el("span", "registro", " \u00b7 " + x.registro));
+      head.appendChild(h);
+      head.appendChild(chip(est[0], est[1]));
+      card.appendChild(head);
+      var rt = x.runtime;
+      if (rt && (rt.explotados_total || rt.cves)) {
+        var linea = el("p", "estado-rt" + (rt.explotados_total ? " rt-explotado" : ""));
+        linea.appendChild(el("b", null, "El propio " + rt.nombre + ": "));
+        linea.appendChild(el("span", null, (rt.explotados_total ? rt.explotados_total + " CVE explotados (CISA KEV, 90 d)" : "") +
+          (rt.explotados_total && rt.cves ? " \u00b7 " : "") + (rt.cves ? rt.cves + " CVE nuevos esta semana" : "")));
+        card.appendChild(linea);
+        if (rt.explotados && rt.explotados.length) {
+          var ulr = el("ul", "estado-lista");
+          rt.explotados.slice(0, 3).forEach(function (k) {
+            var li = el("li");
+            li.appendChild(cveNodo(k.cve));
+            li.appendChild(el("span", "muted", " " + (k.nombre || "") + " \u00b7 a\u00f1adido " + (k.anadido || "")));
+            if (k.ransomware) li.appendChild(el("span", "badge-ransom mini", "RANSOMWARE"));
+            ulr.appendChild(li);
+          });
+          card.appendChild(ulr);
+        }
+      }
+      if (x.error) { card.appendChild(el("p", "estado-fab", "El registro de paquetes no respondió en esta actualización.")); g.appendChild(card); return; }
+      var m = el("div", "metricas");
+      m.appendChild(metrica(x.maliciosos + (x.maliciosos_mas ? "+" : ""), "Paquetes maliciosos"));
+      m.appendChild(metrica(x.criticos, "Avisos críticos"));
+      m.appendChild(metrica(x.altos, "Avisos altos"));
+      card.appendChild(m);
+      var ul = el("ul", "estado-lista");
+      (x.ejemplos_maliciosos || []).slice(0, 3).forEach(function (a) {
+        var li = el("li");
+        li.appendChild(el("span", "pkg", a.paquete || "?"));
+        li.appendChild(el("span", "muted", " malicioso \u00b7 " + (a.publicado || "")));
+        ul.appendChild(li);
+      });
+      (x.ejemplos_graves || []).slice(0, 2).forEach(function (a) {
+        var li = el("li");
+        li.appendChild(GHSA_RE.test(a.ghsa || "") ? enlace(a.paquete || a.ghsa, "https://github.com/advisories/" + a.ghsa) : el("span", "pkg", a.paquete || "?"));
+        li.appendChild(el("span", "muted", " " + (a.gravedad || "") + (a.corregido_en ? " \u00b7 corregido en " + a.corregido_en : " \u00b7 sin versión corregida")));
+        ul.appendChild(li);
+      });
+      if (ul.childNodes.length) card.appendChild(ul);
+      g.appendChild(card);
+    });
+  }
+
+  function aplicarFiltrosVulns() {
+    var q = $("v-search").value.trim().toLowerCase();
+    var prio = $("v-prio").value;
+    var cat = $("v-cat").value;
+    var lista = vstate.cves.filter(function (c) {
+      if (prio && c.prioridad !== prio) return false;
+      if (cat && c.categoria !== cat) return false;
+      if (q) {
+        var hay = (c.cve + " " + (c.fabricante || "") + " " + (c.descripcion || "")).toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+    vstate.mostrar = PASO;
+    renderCves(lista);
+  }
+
+  function renderCves(lista) {
+    vstate.filtrados = lista;
+    var tbody = $("v-rows");
+    tbody.textContent = "";
+    var shown = lista.slice(0, vstate.mostrar);
+    shown.forEach(function (c) {
+      var tr = document.createElement("tr");
+      var td = el("td");
+      td.appendChild(chip(PRIO[c.prioridad] || c.prioridad, PRIO_SEV[c.prioridad] || "baja"));
+      tr.appendChild(td);
+      var tdc = el("td", "cve-id");
+      tdc.appendChild(cveNodo(c.cve));
+      if (c.kev) tdc.appendChild(el("span", "badge-kev", "KEV"));
+      tr.appendChild(tdc);
+      var tds = el("td", "sis");
+      var tchip = el("span", "type-chip", CORTO[c.categoria] || c.categoria || "?");
+      tchip.title = vstate.nombres[c.categoria] || "";
+      tds.appendChild(tchip);
+      if (c.fabricante) tds.appendChild(el("span", "fab", c.fabricante));
+      tr.appendChild(tds);
+      tr.appendChild(el("td", "num", c.cvss !== null && c.cvss !== undefined ? c.cvss : "\u2014"));
+      tr.appendChild(el("td", "num", pct(c.epss)));
+      tr.appendChild(el("td", "num", c.publicado || "\u2014"));
+      var tdd = el("td", "desc", c.descripcion || "");
+      tdd.title = (c.cwe || []).join(", ");
+      tr.appendChild(tdd);
+      tbody.appendChild(tr);
+    });
+    $("v-count").textContent = lista.length ? "Mostrando " + shown.length + " de " + lista.length + " CVE" : "";
+    $("v-mas").hidden = shown.length >= lista.length;
+    $("v-empty").hidden = lista.length > 0;
+    if (!lista.length) $("v-empty-msg").textContent = "Sin CVE con estos filtros.";
+  }
+
+  function initVulns(d) {
+    var r = d.resumen || {};
+    setStat("stat-cves", r.cves || 0);
+    renderTiles(r);
+    (d.sistemas || []).forEach(function (s) { vstate.nombres[s.categoria] = s.nombre; });
+    renderSistemas(d.sistemas || []);
+    renderLenguajes(d.lenguajes || []);
+    vstate.cves = d.cves || [];
+    var cats = [];
+    vstate.cves.forEach(function (c) { if (c.categoria && cats.indexOf(c.categoria) === -1) cats.push(c.categoria); });
+    cats.sort().forEach(function (c) {
+      var opt = el("option", null, vstate.nombres[c] || c);
+      opt.value = c;
+      $("v-cat").appendChild(opt);
+    });
+    ["v-search", "v-prio", "v-cat"].forEach(function (id) { $(id).addEventListener("input", aplicarFiltrosVulns); });
+    $("v-mas").addEventListener("click", function () { vstate.mostrar += PASO; renderCves(vstate.filtrados); });
+    renderCves(vstate.cves);
+    var caidas = Object.keys(d.fuentes || {}).filter(function (k) { return d.fuentes[k] !== "ok"; });
+    $("v-fuentes").textContent = "Actualizado " + (d.generado_utc || "\u2014") + " UTC \u00b7 " +
+      (r.cves || 0) + " CVE en " + (d.ventana_dias || 7) + " d\u00edas (la tabla muestra los " + (d.cves_publicados || 0) + " m\u00e1s prioritarios)" +
+      (caidas.length ? " \u00b7 sin respuesta en esta actualizaci\u00f3n: " + caidas.join(", ") : "");
+  }
+
+  function sinVulns() {
+    $("sis-empty").hidden = false;
+    $("len-empty").hidden = false;
+    $("v-empty").hidden = false;
+    $("v-empty-msg").textContent = "Las vulnerabilidades aparecerán tras la próxima ejecución del pipeline.";
+  }
+
+  fetch("data/vulns_latest.json", { cache: "no-store" })
+    .then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    })
+    .then(initVulns)
+    .catch(sinVulns);
+
   fetch("data/iocs_latest.json", { cache: "no-store" })
     .then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);

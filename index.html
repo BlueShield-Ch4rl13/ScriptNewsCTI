@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NEWS CTI · BlueShield</title>
-<meta name="description" content="Panel de inteligencia de amenazas con actualización automática cada 6 horas: IOCs de ThreatFox, URLhaus y OTX, más CVEs del CISA KEV.">
+<meta name="description" content="Panel de inteligencia de amenazas que se actualiza cada 6 horas: CVE de la semana priorizados por explotación real (CISA KEV, EPSS, SSVC), paquetes maliciosos por lenguaje, sistemas en riesgo e IOCs de ThreatFox, URLhaus y OTX.">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" type="image/x-icon" href="assets/red-global.png">
 </head>
@@ -26,6 +26,8 @@
   <p class="syncline-label">Última sincronización</p>
   <p class="syncline-value"><span id="sync-time">—</span> <span class="utc">UTC</span></p>
   <p class="syncline-meta">
+    <span><b id="stat-cves">0</b> CVE nuevos (7 d)</span>
+    <span class="sep">·</span>
     <span><b id="stat-kev">0</b> CVEs en KEV</span>
     <span class="sep">·</span>
     <span><b id="stat-iocs">0</b> IOCs</span>
@@ -35,6 +37,27 @@
 </section>
 
 <main>
+
+  <!-- ===== Vulnerabilidades: sistemas, lenguajes y CVE priorizados (data/vulns_latest.json) ===== -->
+  <section class="panel" aria-labelledby="sis-title">
+    <div class="panel-head">
+      <h2 id="sis-title">¿Está en riesgo mi sistema?</h2>
+      <p class="panel-note">CVE publicados en los últimos 7 días y explotación activa (CISA KEV, 30 días), por tipo de sistema</p>
+    </div>
+    <div class="vuln-tiles" id="vuln-tiles"></div>
+    <div class="estado-grid" id="sis-grid"></div>
+    <div class="empty" id="sis-empty" hidden><p>Sin datos de vulnerabilidades todavía.</p></div>
+  </section>
+
+  <section class="panel" aria-labelledby="len-title">
+    <div class="panel-head">
+      <h2 id="len-title">¿Está comprometido mi lenguaje?</h2>
+      <p class="panel-note">Paquetes maliciosos y vulnerabilidades revisadas en cada registro (GitHub Advisory Database, últimos 7 días)</p>
+    </div>
+    <div class="estado-grid" id="len-grid"></div>
+    <div class="empty" id="len-empty" hidden><p>Sin datos de los registros de paquetes.</p></div>
+  </section>
+
   <section class="panel" aria-labelledby="kev-title">
     <div class="panel-head">
       <h2 id="kev-title">Explotación activa · CISA KEV</h2>
@@ -43,7 +66,44 @@
     <div class="kev-grid" id="kev-grid"></div>
     <div class="empty" id="kev-empty" hidden><p>Sin CVEs nuevos en la ventana actual.</p></div>
   </section>
-  
+
+  <section class="panel" aria-labelledby="cves-title">
+    <div class="panel-head">
+      <h2 id="cves-title">CVE de la semana, por prioridad real</h2>
+      <p class="panel-note">Primero lo que ya se explota (CISA KEV o SSVC «active»), después lo que más probablemente se explotará (EPSS) y, por último, la gravedad (CVSS). Descripción de NVD, en español cuando NVD la tiene traducida.</p>
+    </div>
+
+    <div class="filters">
+      <label class="visually-hidden" for="v-search">Buscar CVE, fabricante o producto</label>
+      <input id="v-search" type="search" placeholder="Buscar CVE, fabricante o producto…" autocomplete="off">
+      <label class="visually-hidden" for="v-prio">Filtrar por prioridad</label>
+      <select id="v-prio">
+        <option value="">Todas las prioridades</option>
+        <option value="explotada">Explotada</option>
+        <option value="urgente">Urgente</option>
+        <option value="alta">Alta</option>
+        <option value="media">Media</option>
+        <option value="baja">Baja</option>
+      </select>
+      <label class="visually-hidden" for="v-cat">Filtrar por sistema</label>
+      <select id="v-cat"><option value="">Todos los sistemas</option></select>
+    </div>
+
+    <p class="result-count" id="v-count"></p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Prioridad</th><th>CVE</th><th>Sistema</th><th>CVSS</th><th>EPSS</th><th>Publicado</th><th>Descripción</th></tr>
+        </thead>
+        <tbody id="v-rows"></tbody>
+      </table>
+    </div>
+    <div class="empty" id="v-empty" hidden><p id="v-empty-msg">Cargando vulnerabilidades…</p></div>
+    <p class="mas-wrap"><button type="button" class="btn-mas" id="v-mas" hidden>Mostrar 25 más</button></p>
+    <p class="panel-note fuentes-nota" id="v-fuentes"></p>
+  </section>
+
   <section class="panel" aria-labelledby="iocs-title">
     <div class="panel-head">
       <h2 id="iocs-title">Indicadores de compromiso</h2>
@@ -92,7 +152,8 @@
 </main>
 
 <footer>
-  <p>Uso exclusivamente defensivo · Fuentes: ThreatFox, URLhaus, AlienVault OTX, CISA KEV · GeoIP: <a href="https://db-ip.com" rel="noopener">DB-IP</a> (CC BY 4.0)</p>
+  <p>Uso exclusivamente defensivo · IOCs: ThreatFox, URLhaus, AlienVault OTX · Vulnerabilidades: NVD, FIRST EPSS, CISA KEV, GitHub Advisory Database · GeoIP: <a href="https://db-ip.com" rel="noopener">DB-IP</a> (CC BY 4.0)</p>
+  <p>Este producto usa datos de la API de NVD pero no está avalado ni certificado por NVD.</p>
   <p>Pipeline: Python · GitHub Actions · Cloudflare Pages — <a href="https://github.com/BlueShield-Ch4rl13" rel="noopener">BlueShield-Ch4rl13</a></p>
 </footer>
 

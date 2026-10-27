@@ -2,7 +2,13 @@
 
 ![CTI Update](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI/actions/workflows/cti-update.yml/badge.svg)
 
-Plataforma ligera de **Cyber Threat Intelligence** que se actualiza sola cada 6 horas mediante GitHub Actions. Recolecta IOCs de feeds públicos, los **fusiona entre fuentes**, los enriquece (GeoIP, VirusTotal, AbuseIPDB), calcula un **score de confianza** y una **gravedad** por indicador, y publica los resultados en un dashboard estático, en este README y en `data/` (JSON + CSV).
+Plataforma ligera de **Cyber Threat Intelligence** que se actualiza sola cada 6 horas mediante GitHub Actions. Responde a tres preguntas:
+
+- **¿Qué CVE nuevos importan?** Los de la última semana (NVD), ordenados por **explotación real** y no solo por CVSS: primero lo que ya se explota (CISA KEV, SSVC de CISA), después lo que más probablemente se explotará (FIRST EPSS) y por último la gravedad.
+- **¿Está en riesgo mi sistema?** Por tipo de sistema (Windows, Linux, Apple, Android, navegadores, red y VPN, routers e IoT, virtualización y nube, IA y agentes, industrial…): CVE nuevos, críticos y explotación activa en los últimos 30 días.
+- **¿Está comprometido mi lenguaje?** Por lenguaje (JavaScript, Python, Java, .NET, PHP, Go, Rust, Ruby…): si **el propio lenguaje** (intérprete o runtime) tiene CVE explotados, y cuántos **paquetes maliciosos** y avisos graves han aparecido en su registro (npm, PyPI, Maven…).
+
+Además recolecta IOCs de feeds públicos, los **fusiona entre fuentes**, los enriquece (GeoIP, VirusTotal, AbuseIPDB) y calcula un **score de confianza** y una **gravedad** por indicador. Todo se publica en un dashboard estático, en este README y en `data/` (JSON + CSV).
 
 🌐 **Dashboard en vivo:** https://cti.carlosvillalbalagos.com
 
@@ -15,7 +21,10 @@ Plataforma ligera de **Cyber Threat Intelligence** que se actualiza sola cada 6 
 | ThreatFox (abuse.ch) | IOCs de malware (IP, dominios, URLs, hashes) | Gratuita, obligatoria |
 | URLhaus (abuse.ch) | URLs de distribución de malware | Gratuita, obligatoria |
 | AlienVault OTX | Indicadores de pulses suscritos | Gratuita, opcional |
-| CISA KEV | CVEs explotados activamente | No requiere |
+| CISA KEV | CVEs explotados activamente (catálogo completo) | No requiere |
+| NVD API 2.0 | CVE publicados en los últimos 7 días: CVSS, CWE, CPE y SSVC de CISA | Gratuita, opcional (`NVD_API_KEY`: 50 peticiones/30 s en vez de 5) |
+| FIRST EPSS | Probabilidad de explotación en los próximos 30 días de cada CVE | No requiere |
+| GitHub Advisory Database | Paquetes maliciosos y avisos revisados por ecosistema (npm, PyPI, Maven, NuGet, Packagist, Go, crates.io, RubyGems, Hex, pub.dev, SwiftPM, Actions) | El `GITHUB_TOKEN` de solo lectura del propio workflow |
 | VirusTotal | Reputación de hashes, dominios, URLs e IPs | Gratuita, opcional |
 | AbuseIPDB | Reputación, país e ISP de IPs | Gratuita, opcional |
 | DB-IP Country Lite | GeoIP offline para todas las IPs | No requiere |
@@ -34,7 +43,26 @@ feeds públicos ──> collectors.py ──> fusión multi-fuente (enrich.py)
 GitHub Actions (cron 6h) <── main.py ──> data/*.json|csv + README + dashboard
 ```
 
-El frontend no realiza ninguna llamada externa: todo el enriquecimiento ocurre en el backend del pipeline y el dashboard solo lee `data/iocs_latest.json`.
+El frontend no realiza ninguna llamada externa: todo el enriquecimiento ocurre en el backend del pipeline y el dashboard solo lee `data/iocs_latest.json` y `data/vulns_latest.json`.
+
+## Vulnerabilidades: cómo se prioriza
+
+`vulnerabilidades.py` genera `data/vulns_latest.json`. Cada CVE de la semana recibe una prioridad:
+
+| Prioridad | Criterio |
+|---|---|
+| **explotada** | Está en CISA KEV o CISA lo marca con SSVC *exploitation: active* |
+| **urgente** | EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o con prueba de concepto pública (SSVC *poc*) |
+| **alta** | CVSS ≥ 7, percentil EPSS ≥ 90 o prueba de concepto |
+| **media / baja** | CVSS ≥ 4 / el resto |
+
+Dentro de cada prioridad se ordena por EPSS y después por CVSS: un 7.5 que ya se explota va antes que un 9.8 que nadie ataca. Se usa la puntuación de NVD si la hay y, si el CVE aún espera análisis, la del CNA que lo publica.
+
+**El fabricante** sale del catálogo KEV, del CPE de NVD o del CNA (Oracle, Google Chrome, Apple, Microsoft…), y la **categoría de sistema** de patrones sobre fabricante y producto o, si no hay, sobre la descripción. Muchos CVE nuevos aún no tienen CPE en NVD, así que una parte cae en «Otros».
+
+**El propio lenguaje** solo se reconoce por fabricante y producto exactos (p. ej. *PHP Group / PHP*, *python / python*, *Oracle / Java SE*), nunca por la descripción: «PHP» o «Python» aparecen en miles de CVE que no son del lenguaje. Si CISA da por explotado el intérprete en los últimos 30 días, el lenguaje sale como **«El lenguaje se explota»**, por encima de los paquetes maliciosos.
+
+La tabla del panel muestra los 600 CVE más prioritarios; las cifras cuentan todos. Si una fuente no responde, se anota en `fuentes` y se publica el resto.
 
 ## Score de confianza
 
