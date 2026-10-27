@@ -98,14 +98,22 @@ CATEGORIAS = [
     ("apple", "Apple (macOS · iOS)", r"\bapple\b|\bmacos\b|\bipados\b|(?<!cisco )\bios\b(?! xe| xr)|\bwatchos\b|\bvisionos\b|\btvos\b"),
     ("linux", "Linux", r"\blinux\b|\bred ?hat\b|\bubuntu\b|\bdebian\b|\bsuse\b|\bcanonical\b|\bfedora\b"),
     ("virtualizacion", "Virtualización y nube",
-     r"\bvmware\b|\bbroadcom\b|\besxi\b|\bvcenter\b|\bkubernetes\b|\bdocker\b|\bcontainerd\b|\bopenshift\b|\bproxmox\b|\bxen\b"),
+     r"\bvmware\b|\bbroadcom\b|\besxi\b|\bvcenter\b|\bkubernetes\b|\bdocker\b|\bcontainerd\b|\bopenshift\b|\bproxmox\b|\bxen\b"
+     r"|\baws\b|\bamazon\b|\bterraform\b|\bgoogle cloud\b"),
+    ("ia", "IA y agentes (LLM · MCP)",
+     r"\bllm\b|\bmcp\b|\bmodel context protocol\b|\blangchain\b|\bollama\b|\bmindsdb\b|\bagentic\w*\b|\bai agent\b"
+     r"|\bopenai\b|\bhugging ?face\b|\bcomfyui\b"),
+    ("servidores", "Servidores y servicios",
+     r"\bhaproxy\b|\bnginx\b|\bopenssh\b|\bsamba\b|\bexim\b|\bpostfix\b|\bdovecot\b|\bplex\b|\bmedia server\b"
+     r"|\bsquid\b|\bopenssl\b|\bgstreamer\b|\bffmpeg\b"),
     ("ics", "Industrial (OT · ICS)",
      r"\bsiemens\b|\bschneider\b|\brockwell\b|\babb\b|\bhoneywell\b|\bmitsubishi electric\b|\bomron\b|\bscada\b|\bplc\b"),
     ("empresarial", "Software empresarial",
      r"\boracle\b|\bsap\b|\bibm\b|\batlassian\b|\bconfluence\b|\bjira\b|\bsolarwinds\b|\badobe\b|\bservicenow\b"
      r"|\bjenkins\b|\bgitlab\b|\bapache\b|\bveeam\b|\bsalesforce\b|\bfinereport\b"),
     ("web", "Aplicaciones web y CMS",
-     r"\bwordpress\b|\bdrupal\b|\bjoomla\b|\bmagento\b|\bprestashop\b|\bwoocommerce\b|\bplugin\b"),
+     r"\bwordpress\b|\bdrupal\b|\bjoomla\b|\bmagento\b|\bprestashop\b|\bwoocommerce\b|\bplugin\b|\broundcube\b"
+     r"|\bwebmail\b|\bfroxlor\b|\baapanel\b|\bcollabora\b|\be-cology\b|\bnexopos\b"),
 ]
 # Solo en la descripción, como último recurso: señales típicas de aplicación web
 WEB_DESC = re.compile(r"\.php\b|\bcross-site scripting\b|\bsql injection\b|\bweb (interface|application|panel)\b"
@@ -113,6 +121,20 @@ WEB_DESC = re.compile(r"\.php\b|\bcross-site scripting\b|\bsql injection\b|\bweb
 NOMBRE_CATEGORIA = {c: n for c, n, _ in CATEGORIAS} | {
     "runtimes": "Lenguajes y entornos de ejecución", "oss": "Librerías de código abierto", "otros": "Otros"}
 _PATRONES = [(c, re.compile(p, re.I)) for c, _, p in CATEGORIAS]
+# Palabras que identifican la categoría pero no son un fabricante
+_GENERICAS = {"router", "plugin", "scada", "plc", "dvr", "nvr", "ip camera", "boa", "cms", "llm", "mcp",
+              "webmail", "media server", "ai agent", "v8", "wi-fi extender", "wifi extender"}
+
+
+def _marca(texto: str) -> str:
+    t = texto.lower()
+    if t.startswith("aos-"):
+        return "HPE Aruba"
+    if t in _GENERICAS or t.startswith("agentic"):
+        return ""
+    return {"ios": "Apple", "macos": "Apple", "webkit": "WebKit", "pan-os": "Palo Alto Networks",
+            "big-ip": "F5", "netscaler": "Citrix", "junos": "Juniper", "esxi": "VMware", "vcenter": "VMware",
+            "totolink": "TOTOLINK", "tp-link": "TP-Link", "d-link": "D-Link", "aws": "AWS"}.get(t, texto.title())
 
 # CNA (quien publica el CVE) -> fabricante. Muchos CVE nuevos aún no tienen CPE en
 # NVD ("Awaiting Analysis"); el CNA dice de quién es el producto.
@@ -384,9 +406,9 @@ def clasificar(c: dict, kev: dict | None = None) -> tuple[str, str]:
         return "oss", fabricante or "Código abierto (GitHub)"
     for texto in (f"{fabricante} {producto}", (c.get("descripcion") or "")[:200]):
         for cat, rx in _PATRONES:
-            m = rx.search(texto)
-            if m:
-                return cat, fabricante or m.group(0).title()
+            marcas = [_marca(m.group(0)) for m in rx.finditer(texto)]
+            if marcas:
+                return cat, fabricante or next((x for x in marcas if x), "")
     if WEB_DESC.search(c.get("descripcion") or ""):
         return "web", fabricante
     return "otros", fabricante
