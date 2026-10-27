@@ -132,20 +132,23 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-27 17:58 UTC · **IOCs recolectados:** 1998 · **CVEs KEV recientes:** 19
+**Última actualización:** 2026-10-27 22:10 UTC · **IOCs recolectados:** 2211 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 75 (alta) | media | `185[.]177[.]72[.]24:80` | ip:port | Unknown malware | ThreatFox | 2026-10-27 20:12:39 UTC |
+| 75 (alta) | media | `185[.]177[.]72[.]38:80` | ip:port | Unknown malware | ThreatFox | 2026-10-27 20:12:39 UTC |
+| 75 (alta) | media | `176[.]234[.]231[.]136:80` | ip:port | Unknown malware | ThreatFox | 2026-10-27 20:12:39 UTC |
 | 75 (alta) | alta | `94[.]154[.]43[.]102:35343` | ip:port | Mirai | ThreatFox | 2026-10-27 13:01:42 UTC |
-| 75 (alta) | media | `176[.]65[.]139[.]201:9145` | ip:port | Unknown malware | ThreatFox | 2026-10-26 18:20:47 UTC |
+| 71 (alta) | alta | `157[.]66[.]225[.]224:6606` | ip:port | AsyncRAT | ThreatFox | 2026-10-27 19:43:40 UTC |
 | 71 (alta) | alta | `176[.]65[.]139[.]156:8080` | ip:port | Mirai | ThreatFox | 2026-10-27 15:27:40 UTC |
 | 71 (alta) | alta | `176[.]65[.]139[.]79:9111` | ip:port | Mirai | ThreatFox | 2026-10-27 05:56:58 UTC |
 | 68 (media) | critica | `162[.]33[.]177[.]93:31337` | ip:port | Sliver | ThreatFox | 2026-10-27 06:11:34 UTC |
 | 68 (media) | media | `34[.]48[.]126[.]18` | ipv4 | php.shin_webshell | ThreatFox | 2026-10-26 22:28:47 UTC |
-| 68 (media) | media | `89[.]32[.]41[.]43:32876` | ip:port | Potassium | ThreatFox | 2026-10-26 18:46:59 UTC |
 | 66 (media) | media | `34[.]18[.]53[.]129` | ipv4 | php.shin_webshell | ThreatFox | 2026-10-27 11:41:40 UTC |
+| 62 (media) | alta | `fb16a7b6bac257b6f3e5bca7ccc0ebf083efc5aa8fd8e736521b81220a3f0e94` | filehash-sha256 | Mirai | ThreatFox | 2026-10-27 21:55:42 UTC |
 | 61 (media) | alta | `5f3ebb3a003a6de99681f12da237bacdcf1e795bb5803310dad72787ac313d2a` | filehash-sha256 | Mirai | ThreatFox | 2026-10-27 17:19:01 UTC |
 | 61 (media) | alta | `f3c774928f70f5c925cee89372bd178e45340e72e980f17f4b320628f012404c` | filehash-sha256 | Mirai | ThreatFox | 2026-10-27 17:19:01 UTC |
 | 61 (media) | alta | `04bb54b68600cdb6e6949cdcdfa54284ec629dc1cff910bed7b3c663fdc9a7a6` | filehash-sha256 | Mirai | ThreatFox | 2026-10-27 17:19:01 UTC |
@@ -160,14 +163,13 @@ python main.py
 | 60 (media) | alta | `1b387e71de84b6e3645d14282f80732b97c61999bfc1cbbd78b146b9c40c80c2` | filehash-sha256 | Mirai | ThreatFox | 2026-10-27 17:19:01 UTC |
 | 60 (media) | alta | `3343bc0e390fd74b53966ea235970de4fcb3bfc9166fdc9d1843fbddce5c359d` | filehash-sha256 | Mirai | ThreatFox | 2026-10-27 17:19:01 UTC |
 | 60 (media) | alta | `deb0cdd422ff5a4736f32d0f1fe8cb7593bc63c26cdc0748801e7edc9e6dbe79` | filehash-sha256 | Mirai | ThreatFox | 2026-10-27 17:19:01 UTC |
-| 60 (media) | alta | `e4c06ccb0fbba7ac6282769c7cff777426006981d615c9b4f48df6b70570050e` | filehash-sha256 | Mirai | ThreatFox | 2026-10-27 17:19:01 UTC |
-| 60 (media) | media | `e94edc0f0ae04c514d3fd35eea66262440f6a626ebd2a49fa28a10f2e43f6759` | filehash-sha256 | Unknown malware | ThreatFox | 2026-10-27 05:43:28 UTC |
-| 60 (media) | media | `eb48967f0df9cf5c4865901a51ecb135e0743e7e92907fffcb20075293739523` | filehash-sha256 | Unknown malware | ThreatFox | 2026-10-27 05:43:27 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2026-48356 | Adobe Commerce and Magento | 2026-10-27 | Unknown |
+| CVE-2026-111497 | Google Brotli | 2026-10-27 | Unknown |
 | CVE-2026-109618 | PHP Group PHP | 2026-10-26 | Unknown |
 | CVE-2026-109619 | PHP Group PHP | 2026-10-26 | Unknown |
 | CVE-2026-114625 | Arista VeloCloud Orchestrator | 2026-10-23 | Unknown |
