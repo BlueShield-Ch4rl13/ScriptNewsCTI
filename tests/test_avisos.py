@@ -107,6 +107,11 @@ def test_cves_sin_repetir_y_en_orden():
     ("Cisco Expressway Series Security Hardening Release: October 2026",
      "A vulnerability could allow unauthenticated attackers to exploit the device remotely."),
     ("SSA-887643: Account Hijacking Vulnerability in Mendix SAML module", "could allow attackers to hijack accounts"),
+    ("Cisco Unified Communications Products Security Hardening Release",
+     "This vulnerability could be exploited by an attacker. The Cisco PSIRT is not aware of any public announcements"
+     " or exploitation in the wild of the vulnerabilities that are described in this advisory."),
+    ("Vulnerabilidad en Apache Tika", "No se tiene constancia de que esté siendo explotada activamente."),
+    ("Ivanti EPMM", "We are not aware of any customers being exploited in the wild at the time of disclosure."),
 ])
 def test_la_formula_hipotetica_del_fabricante_no_es_explotacion(titulo, cuerpo):
     assert not A.senal_explotada(titulo, cuerpo)
@@ -118,6 +123,8 @@ def test_la_formula_hipotetica_del_fabricante_no_es_explotacion(titulo, cuerpo):
     ("Google is aware that an exploit for CVE-2026-118306 exists in the wild.", True, True, False),
     ("Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch", True, False, False),
     ("China-Linked Hackers Exploit PHP2Shell to Root Firewalls", True, False, False),
+    ("Fortinet warns of FortiWeb flaw exploited in attacks", True, False, False),
+    ("Not a zero-day. Patched last year.", False, False, False),
     ("Explotación efectiva de PHP2Shell confirmada", True, False, False),
     ("Vulnerabilidad explotada activamente en Fortinet", True, False, False),
     ("Une vulnérabilité activement exploitée dans Ivanti", True, False, False),
@@ -127,7 +134,7 @@ def test_la_formula_hipotetica_del_fabricante_no_es_explotacion(titulo, cuerpo):
 ])
 def test_senales(texto, explotada, cero, parche):
     assert A.senal_explotada(texto) is explotada
-    assert bool(A.DIA_CERO_RE.search(texto)) is cero
+    assert A._afirma(A.DIA_CERO_RE, texto) is cero
     assert bool(A.SIN_PARCHE_RE.search(texto)) is parche
 
 

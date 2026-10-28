@@ -87,7 +87,7 @@ FUENTES = [
     {"id": "exploitdb", "nombre": "Exploit-DB", "tipo": "exploit", "idioma": "en", "filtro": "todo",
      "url": "https://www.exploit-db.com/rss.xml"},
     {"id": "projectzero", "nombre": "Google Project Zero", "tipo": "exploit", "idioma": "en", "filtro": "todo",
-     "url": "https://googleprojectzero.blogspot.com/feeds/posts/default?max-results=5"},   # entradas enteras: 5 bastan
+     "url": "https://googleprojectzero.blogspot.com/feeds/posts/summary?max-results=10"},   # el feed completo pasa de 8 MB
     {"id": "wordfence", "nombre": "Wordfence (WordPress)", "tipo": "exploit", "idioma": "en", "filtro": "vuln",
      "url": "https://www.wordfence.com/feed/"},
     # Noticias de vulnerabilidades (solo titulares que hablan de una)
@@ -109,9 +109,10 @@ CVE_RE = re.compile(r"^CVE-\d{4}-\d{4,}$")
 # significa explotada (ZDI llama «0Day» a lo que publica sin parche): para
 # «explotada» hace falta que el texto lo diga o que el CVE esté en KEV.
 EXPLOTADA_RE = re.compile(
-    r"exploited in the wild|in[- ]the[- ]wild|actively exploited|active(?:ly)? exploitation"
-    r"|under (?:active )?exploitation|being exploited|known to be exploited|exploited (?:as|by|in)\b"
+    r"exploited in the wild|exploit(?:ation)? in the wild|in-the-wild|actively exploited|active(?:ly)? exploitation"
+    r"|under (?:active )?exploitation|being exploited|known to be exploited"
     r"|exploitation (?:has been |was |is )?(?:observed|detected|reported|confirmed)"
+    r"|exploit for cve-\d{4}-\d+ exists in the wild|exploits? (?:\w+ ){0,3}exists? in the wild"
     r"|exploit(?:s|ed|ing)? (?:a |an |the |\w+ )?(?:zero[- ]day|0[- ]?day)|zero[- ]day (?:exploit|attack)"
     r"|explotad[ao]s? activamente|explotaci[oó]n (?:activa|efectiva|confirmada)|est[aá]n? siendo explotad"
     r"|explotad[ao]s? en (?:ataques|la naturaleza)|activement exploit|exploit[ée]+e?s? activement"
@@ -120,7 +121,12 @@ EXPLOTADA_RE = re.compile(
 # aviso de fabricante es la fórmula hipotética («could allow attackers to exploit»).
 EXPLOTADA_TITULAR_RE = re.compile(
     r"\b(?:hackers|attackers|threat actors|ransomware(?: gangs?)?|apt\d*|[\w-]+-linked hackers)\s+"
-    r"(?:\w+\s+){0,2}(?:exploit|target|abus|hijack|weaponi[sz])", re.I)
+    r"(?:\w+\s+){0,2}(?:exploit|target|abus|hijack|weaponi[sz])|\bexploited (?:as|by|in)\b", re.I)
+# «No tenemos constancia de que se explote», «not aware of any exploitation in the
+# wild»: la frase de explotación negada en la misma oración no cuenta.
+NEGACION_RE = re.compile(
+    r"(?:\b(?:not|no|never|unaware|nor|without)\b|no (?:tenemos|se tiene|hay) constancia|sin (?:evidencias?|constancia)"
+    r"|\bni\b|n'a pas|aucune?)[^.!?]{0,90}$", re.I)
 DIA_CERO_RE = re.compile(r"zero[- ]day|(?<!\()\b0[- ]?day\b(?!\))|d[ií]a cero|exists in the wild", re.I)
 # ZDI marca «(0Day)» lo que publica porque el fabricante no lo ha corregido a tiempo
 SIN_PARCHE_RE = re.compile(r"\(0day\)|no (?:patch|fix) (?:is )?(?:yet )?available|\bunpatched\b|sin parche"
@@ -248,8 +254,13 @@ def cves_de(*textos: str) -> list[str]:
     return list(vistos)
 
 
+def _afirma(rx: re.Pattern, texto: str) -> bool:
+    """Alguna coincidencia de `rx` que no esté negada en la misma oración."""
+    return any(not NEGACION_RE.search(texto[max(0, m.start() - 120):m.start()]) for m in rx.finditer(texto))
+
+
 def senal_explotada(titulo: str, cuerpo: str = "") -> bool:
-    return bool(EXPLOTADA_RE.search(f"{titulo} {cuerpo}") or EXPLOTADA_TITULAR_RE.search(titulo))
+    return _afirma(EXPLOTADA_RE, titulo) or _afirma(EXPLOTADA_RE, cuerpo) or _afirma(EXPLOTADA_TITULAR_RE, titulo)
 
 
 def pasa_filtro(filtro: str, titulo: str, cves: list[str]) -> bool:
@@ -277,7 +288,7 @@ def aviso(fuente: dict, e: dict) -> dict | None:
         "cves_total": len(cves),
         "texto_explotada": senal_explotada(e["titulo"], e["texto"]),
         "texto_critica": bool(CRITICA_RE.search(e["titulo"])),
-        "dia_cero": bool(DIA_CERO_RE.search(texto)),
+        "dia_cero": _afirma(DIA_CERO_RE, texto),
         "sin_parche": bool(SIN_PARCHE_RE.search(texto)),
     }
 
