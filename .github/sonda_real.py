@@ -10,12 +10,13 @@ import vulnerabilidades as v
 
 t = time.time()
 kev = v.kev_catalogo()
-vul = v.construir(dias=7, kev_cat=kev)
-avs = A.construir(dias=7, kev_cat=kev, vulns=vul, previos=[], epss_fn=v.epss)
+edb = v.exploitdb()
+vul = v.construir(dias=7, kev_cat=kev, edb=edb)
+avs = A.construir(dias=7, kev_cat=kev, vulns=vul, previos=[], epss_fn=v.epss, exploits=edb)
 A.anotar(vul, avs)
 obj = vul if sys.argv[1] == "vulns" else avs
 extra = {}
-if sys.argv[1] == "avisos":
+if False:
     desde = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
     for nombre, url in {"search": f"https://euvdservices.enisa.europa.eu/api/search?exploited=true&fromDate={desde}&size=100",
                         "search_sin_fecha": "https://euvdservices.enisa.europa.eu/api/search?exploited=true&size=100"}.items():
@@ -32,4 +33,4 @@ if sys.argv[1] == "avisos":
 blob = base64.b64encode(gzip.compress(json.dumps(obj, ensure_ascii=False).encode(), 9)).decode()
 open("/tmp/sonda.b64", "w").write(blob)
 print("::notice title=resumen::" + json.dumps({"seg": round(time.time() - t), "trozos": -(-len(blob) // 4000),
-      "fuentes_vulns": vul["fuentes"], "resumen_avisos": avs["resumen"], "euvd": extra}, ensure_ascii=False)[:3900])
+      "fuentes_vulns": vul["fuentes"], "resumen_avisos": avs["resumen"], "errores": {f["id"]: f.get("detalle") for f in avs["fuentes"] if f["estado"] != "ok"}}, ensure_ascii=False)[:3900])

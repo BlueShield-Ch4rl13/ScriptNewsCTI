@@ -471,7 +471,7 @@
     var t = $("av-tiles");
     t.textContent = "";
     [[r.avisos, "Avisos (7 d)"], [r.explotados, "De algo ya explotado"], [r.dia_cero, "D\u00eda cero"],
-     [r.sin_parche, "Sin parche"], [r.criticos, "Cr\u00edticos"],
+     [r.sin_parche, "Sin parche"], [r.criticos, "Cr\u00edticos"], [r.exploit_publico, "Con exploit p\u00fablico"],
      [(r.fuentes_ok || 0) + "/" + (r.fuentes_total || 0), "Fuentes que responden"]]
       .forEach(function (x) { t.appendChild(metrica(x[0] || 0, x[1])); });
   }
@@ -527,7 +527,16 @@
       var cab = el("div", "aviso-cab");
       cab.appendChild(el("span", "fuente-chip t-" + (fu.tipo || "otro"), fu.nombre));
       cab.appendChild(titulo(el("span", "aviso-hora", hace(a.fecha)), (a.fecha || "").replace("T", " ").replace("Z", " UTC")));
-      SENAL.forEach(function (s_) { if (a[s_[0]]) cab.appendChild(chip(s_[1], s_[2])); });
+      SENAL.forEach(function (s_) {
+        if (!a[s_[0]]) return;
+        if (s_[0] === "exploit_publico" && /^\d+$/.test(String(a.exploitdb))) {
+          var x = enlace(s_[1], "https://www.exploit-db.com/exploits/" + a.exploitdb);
+          x.className = "sev-chip sev-" + s_[2];
+          cab.appendChild(titulo(x, "Exploit-DB EDB-" + a.exploitdb));
+        } else {
+          cab.appendChild(chip(s_[1], s_[2]));
+        }
+      });
       li.appendChild(cab);
       var h = el("p", "aviso-titulo");
       h.appendChild(url ? enlace(a.titulo, url) : el("span", null, a.titulo));

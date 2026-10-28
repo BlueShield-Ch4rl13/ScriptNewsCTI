@@ -2,9 +2,10 @@
 
 ![CTI Update](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI/actions/workflows/cti-update.yml/badge.svg)
 
-Plataforma ligera de **Cyber Threat Intelligence** que se actualiza sola cada 6 horas mediante GitHub Actions. Responde a tres preguntas:
+Plataforma ligera de **Cyber Threat Intelligence** que se actualiza sola cada 3 horas mediante GitHub Actions. Responde a cuatro preguntas:
 
-- **¿Qué CVE nuevos importan?** Los de la última semana (NVD), ordenados por **explotación real** y no solo por CVSS: primero lo que ya se explota (CISA KEV, SSVC de CISA), después lo que más probablemente se explotará (FIRST EPSS) y por último la gravedad.
+- **¿Qué fallos de seguridad están saliendo?** Los avisos de los últimos 7 días de **26 fuentes**: fabricantes (Microsoft, Cisco, Fortinet, Palo Alto, Ivanti, Chrome, Siemens…), CERT y gobiernos (**INCIBE-CERT**, CISA, CERT-EU, CERT-FR, CERT/CC), exploits e investigación (Zero Day Initiative, Exploit-DB, Project Zero, Wordfence) y noticias de vulnerabilidades (Una al Día, Segu-Info, The Hacker News…). Cada aviso se cruza con CISA KEV y EPSS y se marca si ya se explota, si es de día cero o si sale sin parche.
+- **¿Qué CVE nuevos importan?** Los de la última semana (NVD), ordenados por **explotación real** y no solo por CVSS: primero lo que ya se explota (CISA KEV, SSVC de CISA), después lo que más probablemente se explotará (FIRST EPSS, o un exploit publicado en Exploit-DB) y por último la gravedad. Cada CVE dice si tiene exploit público, si lo usa el ransomware, si se explotó desde el primer día y qué avisos lo citan.
 - **¿Está en riesgo mi sistema?** Por tipo de sistema (Windows, Linux, Apple, Android, navegadores, red y VPN, routers e IoT, virtualización y nube, IA y agentes, industrial…): CVE nuevos, críticos y explotación activa en los últimos 30 días.
 - **¿Está comprometido mi lenguaje?** Por lenguaje (JavaScript, Python, Java, .NET, PHP, Go, Rust, Ruby…): si **el propio lenguaje** (intérprete o runtime) tiene CVE explotados, y cuántos **paquetes maliciosos** y avisos graves han aparecido en su registro (npm, PyPI, Maven…).
 
@@ -25,6 +26,9 @@ Además recolecta IOCs de feeds públicos, los **fusiona entre fuentes**, los en
 | NVD API 2.0 | CVE publicados en los últimos 7 días: CVSS, CWE, CPE y SSVC de CISA | Gratuita, opcional (`NVD_API_KEY`: 50 peticiones/30 s en vez de 5) |
 | FIRST EPSS | Probabilidad de explotación en los próximos 30 días de cada CVE | No requiere |
 | GitHub Advisory Database | Paquetes maliciosos y avisos revisados por ecosistema (npm, PyPI, Maven, NuGet, Packagist, Go, crates.io, RubyGems, Hex, pub.dev, SwiftPM, Actions) | El `GITHUB_TOKEN` de solo lectura del propio workflow |
+| Exploit-DB | Exploits públicos por CVE (`files_exploits.csv` completo, desde GitLab) | No requiere |
+| PoC-in-GitHub (nomi-sec) | CVE con prueba de concepto en GitHub (sin verificar) | El mismo `GITHUB_TOKEN` |
+| 26 feeds RSS/Atom de avisos | Fabricantes, CERT, exploits y noticias: ver [Avisos](#avisos-qué-fallos-van-saliendo) | No requiere |
 | VirusTotal | Reputación de hashes, dominios, URLs e IPs | Gratuita, opcional |
 | AbuseIPDB | Reputación, país e ISP de IPs | Gratuita, opcional |
 | DB-IP Country Lite | GeoIP offline para todas las IPs | No requiere |
@@ -40,10 +44,14 @@ feeds públicos ──> collectors.py ──> fusión multi-fuente (enrich.py)
                                              │
                               score de confianza + gravedad
                                              │
-GitHub Actions (cron 6h) <── main.py ──> data/*.json|csv + README + dashboard
+GitHub Actions (cron 3h) <── main.py ──> data/*.json|csv + README + dashboard
+                              │
+     vulnerabilidades.py: NVD + EPSS + KEV + GitHub Advisory + Exploit-DB + PoC-in-GitHub
+                              │
+     avisos.py: 26 feeds de avisos, cruzados con lo anterior y con la ejecución previa
 ```
 
-El frontend no realiza ninguna llamada externa: todo el enriquecimiento ocurre en el backend del pipeline y el dashboard solo lee `data/iocs_latest.json` y `data/vulns_latest.json`.
+El frontend no realiza ninguna llamada externa: todo el enriquecimiento ocurre en el backend del pipeline y el dashboard solo lee `data/iocs_latest.json`, `data/vulns_latest.json` y `data/avisos_latest.json`.
 
 ## Vulnerabilidades: cómo se prioriza
 
@@ -52,7 +60,7 @@ El frontend no realiza ninguna llamada externa: todo el enriquecimiento ocurre e
 | Prioridad | Criterio |
 |---|---|
 | **explotada** | Está en CISA KEV o CISA lo marca con SSVC *exploitation: active* |
-| **urgente** | EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o con prueba de concepto pública (SSVC *poc*) |
+| **urgente** | EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o con prueba de concepto pública (SSVC *poc* o exploit en Exploit-DB) |
 | **alta** | CVSS ≥ 7, percentil EPSS ≥ 90 o prueba de concepto |
 | **media / baja** | CVSS ≥ 4 / el resto |
 
@@ -62,7 +70,33 @@ Dentro de cada prioridad se ordena por EPSS y después por CVSS: un 7.5 que ya s
 
 **El propio lenguaje** solo se reconoce por fabricante y producto exactos (p. ej. *PHP Group / PHP*, *python / python*, *Oracle / Java SE*), nunca por la descripción: «PHP» o «Python» aparecen en miles de CVE que no son del lenguaje. Si CISA da por explotado el intérprete en los últimos 30 días, el lenguaje sale como **«El lenguaje se explota»**, por encima de los paquetes maliciosos.
 
+**Señales de cada CVE:** *EXPLOIT* (hay exploit en Exploit-DB, enlazado), *PoC* (hay una prueba de concepto en GitHub según PoC-in-GitHub: sin verificar, puede ser falsa o llevar malware, así que no cambia la prioridad ni se enlaza), *RANSOMWARE* (CISA KEV: usada en campañas de ransomware) y *DÍA 0* (CISA la metió en KEV antes, el mismo día o al día siguiente de publicarse). Debajo de la descripción, los avisos de la semana que lo citan.
+
 La tabla del panel muestra los 600 CVE más prioritarios; las cifras cuentan todos. Si una fuente no responde, se anota en `fuentes` y se publica el resto.
+
+## Avisos: qué fallos van saliendo
+
+`avisos.py` genera `data/avisos_latest.json` con los avisos de los últimos 7 días de estas fuentes:
+
+| Tipo | Fuentes |
+|---|---|
+| CERT y gobiernos | INCIBE-CERT (general e industrial), CISA (incluye los de ICS), CERT-EU, CERT-FR (alertas y avisos), CERT/CC |
+| Fabricantes | Microsoft (MSRC), Cisco, Fortinet, Palo Alto Networks, Ivanti, Google Chrome, Siemens ProductCERT, GitLab, Ubuntu, Debian |
+| Exploits e investigación | Zero Day Initiative, Exploit-DB, Google Project Zero, Wordfence |
+| Noticias | Una al Día (Hispasec), Segu-Info, The Hacker News, BleepingComputer, SecurityWeek (solo titulares que hablan de una vulnerabilidad) |
+
+De cada aviso se publica **solo el titular, el enlace, la fecha y los CVE que cita**; el texto es de su autor y solo se lee para sacar los CVE y las señales. Las señales:
+
+| Señal | Cuándo |
+|---|---|
+| **Ya se explota** | Alguno de sus CVE está en CISA KEV, o el texto lo dice (*exploited in the wild*, *actively exploited*, *explotada activamente*, *activement exploitée*…) |
+| **Día cero** | El texto habla de *zero-day* / *día cero*, o Chrome avisa de que el exploit *exists in the wild* |
+| **Sin parche** | ZDI lo publica como *(0Day)* (el fabricante no lo corrigió a tiempo) o el texto dice que no hay parche |
+| **Crítica** | El titular lo dice, o alguno de sus CVE tiene CVSS ≥ 9 |
+
+«De qué se habla» lista los CVE que citan a la vez **varias fuentes distintas** (tres avisos de Siemens cuentan como una). Como algunos feeds solo traen sus últimas 10 entradas (INCIBE, Ubuntu…), cada ejecución conserva los avisos de la anterior que siguen dentro de la semana (hasta 60 por fuente), y una fuente que hoy no responde mantiene los suyos. Cada feed se descarga con un tope de 8 MB, se rechaza si declara entidades XML y solo se aceptan enlaces `http(s)`.
+
+CCN-CERT no está porque su web rechaza las descargas automáticas (HTTP 403 desde GitHub Actions).
 
 ## Score de confianza
 
@@ -102,7 +136,7 @@ En OTX la amenaza sale de las familias de malware del pulse. Si el pulse no tien
 
 - **GeoIP**: base [DB-IP Country Lite](https://db-ip.com) (CC BY 4.0), sin registro ni clave. Se descarga bajo demanda (~10 MB) al directorio temporal del runner y los lookups son offline: sin límites, cubre todas las IPs.
 - **VirusTotal** (4 req/min · 500/día en plan gratuito): 40 lookups por ejecución con pausa de 15,5 s.
-- **AbuseIPDB** (1.000 checks/día): 150 IPs por ejecución.
+- **AbuseIPDB** (1.000 checks/día): 120 IPs por ejecución (8 ejecuciones al día = 960).
 - Los resultados se **cachean 7 días** en `data/ioc_state.json`, que vive en la caché de GitHub Actions y no en el repositorio (subirlo en cada ejecución hacía crecer el repo ~100 MB al año). Siempre se prioriza lo nuevo. Sin claves, el pipeline sigue funcionando con fusión + confianza del feed + frescura + gravedad + GeoIP.
 
 Ajustable vía variables de entorno en el workflow: `VT_BUDGET`, `ABUSEIPDB_BUDGET`, `CTI_RECHECK_DAYS`, `CTI_RETENTION_DAYS`, `CTI_MAX_STATE`. `CTI_MAX_STATE` (6.000) es el tope del **estado** interno; lo que se publica en cada ejecución son los IOCs de las últimas 24 h de los feeds, normalmente unos 2.000.
@@ -130,7 +164,7 @@ El código es MIT (`LICENSE`). Los datos republicados tienen sus propias condici
    - `VT_API_KEY` (opcional)
    - `ABUSEIPDB_API_KEY` (opcional)
 4. Pestaña **Actions** → workflow *CTI Update* → **Run workflow** para la primera ejecución manual.
-5. Listo: el cron lo ejecutará cada 6 h (hora UTC) y el bot hará commit de los cambios.
+5. Listo: el cron lo ejecutará cada 3 h (hora UTC) y el bot hará commit de los cambios.
 
 ### Ejecución local
 
@@ -150,10 +184,12 @@ python main.py
 ├── main.py                            # orquestador
 ├── collectors.py                      # un colector por feed
 ├── enrich.py                          # fusión, estado histórico, GeoIP, reputación, score y gravedad
+├── vulnerabilidades.py                # CVE de la semana: NVD, EPSS, KEV, GitHub Advisory, Exploit-DB, PoC-in-GitHub
+├── avisos.py                          # avisos de fabricantes, CERT, exploits y noticias (26 feeds)
 ├── utils.py                           # defang, export JSON/CSV, README autogenerado
 ├── index.html + assets/               # dashboard estático (Cloudflare Pages)
-├── tests/                             # pruebas de fusión, edad, gravedad y depuración
-└── data/                              # iocs_latest.json / .csv (el estado va en la caché de Actions)
+├── tests/                             # fusión, gravedad, prioridad de CVE, lectura de feeds y señales
+└── data/                              # iocs, vulns y avisos (_latest.json) + CSV (el estado va en la caché de Actions)
 ```
 ---
 

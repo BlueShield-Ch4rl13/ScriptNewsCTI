@@ -110,13 +110,17 @@ CVE_RE = re.compile(r"^CVE-\d{4}-\d{4,}$")
 # «explotada» hace falta que el texto lo diga o que el CVE esté en KEV.
 EXPLOTADA_RE = re.compile(
     r"exploited in the wild|in[- ]the[- ]wild|actively exploited|active(?:ly)? exploitation"
-    r"|under (?:active )?exploitation|being exploited|known to be exploited|exploited (?:as|by|in|to)\b"
+    r"|under (?:active )?exploitation|being exploited|known to be exploited|exploited (?:as|by|in)\b"
     r"|exploitation (?:has been |was |is )?(?:observed|detected|reported|confirmed)"
     r"|exploit(?:s|ed|ing)? (?:a |an |the |\w+ )?(?:zero[- ]day|0[- ]?day)|zero[- ]day (?:exploit|attack)"
-    r"|(?:hackers|attackers|threat actors|ransomware gangs?)\s+(?:\w+\s+){0,2}(?:exploit|target|abus|hijack)"
     r"|explotad[ao]s? activamente|explotaci[oó]n (?:activa|efectiva|confirmada)|est[aá]n? siendo explotad"
     r"|explotad[ao]s? en (?:ataques|la naturaleza)|activement exploit|exploit[ée]+e?s? activement"
     r"|en cours d'exploitation", re.I)
+# «Hackers exploit…», «Attackers target…»: solo en el titular. En el cuerpo de un
+# aviso de fabricante es la fórmula hipotética («could allow attackers to exploit»).
+EXPLOTADA_TITULAR_RE = re.compile(
+    r"\b(?:hackers|attackers|threat actors|ransomware(?: gangs?)?|apt\d*|[\w-]+-linked hackers)\s+"
+    r"(?:\w+\s+){0,2}(?:exploit|target|abus|hijack|weaponi[sz])", re.I)
 DIA_CERO_RE = re.compile(r"zero[- ]day|(?<!\()\b0[- ]?day\b(?!\))|d[ií]a cero|exists in the wild", re.I)
 # ZDI marca «(0Day)» lo que publica porque el fabricante no lo ha corregido a tiempo
 SIN_PARCHE_RE = re.compile(r"\(0day\)|no (?:patch|fix) (?:is )?(?:yet )?available|\bunpatched\b|sin parche"
@@ -244,6 +248,10 @@ def cves_de(*textos: str) -> list[str]:
     return list(vistos)
 
 
+def senal_explotada(titulo: str, cuerpo: str = "") -> bool:
+    return bool(EXPLOTADA_RE.search(f"{titulo} {cuerpo}") or EXPLOTADA_TITULAR_RE.search(titulo))
+
+
 def pasa_filtro(filtro: str, titulo: str, cves: list[str]) -> bool:
     if filtro == "cve":
         return bool(cves)
@@ -267,7 +275,7 @@ def aviso(fuente: dict, e: dict) -> dict | None:
         "fecha": e["fecha"].strftime("%Y-%m-%dT%H:%MZ"),
         "cves": cves[:MAX_CVES_POR_AVISO],
         "cves_total": len(cves),
-        "texto_explotada": bool(EXPLOTADA_RE.search(texto)),
+        "texto_explotada": senal_explotada(e["titulo"], e["texto"]),
         "texto_critica": bool(CRITICA_RE.search(e["titulo"])),
         "dia_cero": bool(DIA_CERO_RE.search(texto)),
         "sin_parche": bool(SIN_PARCHE_RE.search(texto)),
@@ -329,9 +337,12 @@ def fusionar(previos: list, nuevos: list[dict], desde: datetime) -> list[dict]:
 
 
 # ── cruce con lo que ya sabe el panel ────────────────────────────────────────
-def cruzar(avisos: list[dict], kev: set[str], info_cve: dict[str, dict], epss: dict[str, tuple]) -> None:
+def cruzar(avisos: list[dict], kev: set[str], info_cve: dict[str, dict], epss: dict[str, tuple],
+           exploits: dict | None = None) -> None:
     """Explotado si el aviso lo dice o si alguno de sus CVE está en KEV; crítico si
-    lo dice el título o algún CVE tiene CVSS >= 9; EPSS, el más alto de sus CVE."""
+    lo dice el título o algún CVE tiene CVSS >= 9; EPSS, el más alto de sus CVE;
+    exploit público si alguno de sus CVE (de esta semana o anterior) está en Exploit-DB."""
+    exploits = exploits or {}
     for a in avisos:
         en_kev = [c for c in a["cves"] if c in kev]
         cvss = [info_cve[c]["cvss"] for c in a["cves"] if (info_cve.get(c) or {}).get("cvss") is not None]
@@ -341,7 +352,10 @@ def cruzar(avisos: list[dict], kev: set[str], info_cve: dict[str, dict], epss: d
         a["critica"] = a["texto_critica"] or any(x >= 9.0 for x in cvss)
         a["cvss_max"] = max(cvss) if cvss else None
         a["epss_max"] = round(max(puntos), 4) if puntos else None
-        a["exploit_publico"] = any((info_cve.get(c) or {}).get("exploit_publico") == "exploitdb" for c in a["cves"])
+        edb = next((exploits[c]["edb"] for c in a["cves"] if c in exploits), None) or \
+            next((info_cve[c].get("exploitdb") for c in a["cves"] if (info_cve.get(c) or {}).get("exploitdb")), None)
+        a["exploit_publico"] = bool(edb)
+        a["exploitdb"] = edb
 
 
 def citas_por_cve(avisos: list[dict]) -> dict[str, list[dict]]:
@@ -377,15 +391,16 @@ def anotar(vulns: dict, bloque: dict, max_por_cve: int = 3) -> None:
 
 
 def construir(dias: int = 7, kev_cat: list[dict] | None = None, vulns: dict | None = None,
-              previos: list | None = None, epss_fn=None) -> dict:
+              previos: list | None = None, epss_fn=None, exploits: dict | None = None) -> dict:
     """Todo el bloque de avisos, listo para data/avisos_latest.json.
 
     `vulns` es lo que ya calculó vulnerabilidades.construir(): de ahí salen el CVSS,
     el EPSS y los exploits públicos de los CVE de la semana. Para los CVE más
     antiguos que citen los avisos, `epss_fn` (vulnerabilidades.epss) trae su EPSS
-    en una sola tanda. `previos` son los avisos publicados en la ejecución anterior."""
+    en una sola tanda. `previos` son los avisos publicados en la ejecución anterior y
+    `exploits`, el mapa de Exploit-DB que ya descargó vulnerabilidades.exploitdb()."""
     desde = _ahora() - timedelta(days=dias)
-    nuevos, estado = [], {}
+    nuevos, estado, detalle = [], {}, {}
     for f in FUENTES:
         try:
             de_esta = de_fuente(f, desde)
@@ -394,6 +409,7 @@ def construir(dias: int = 7, kev_cat: list[dict] | None = None, vulns: dict | No
         except Exception as exc:            # una fuente caída no tumba el resto
             log.warning("Avisos %s falló: %s", f["id"], exc)
             estado[f["id"]] = "error"
+            detalle[f["id"]] = f"{type(exc).__name__}: {exc}"[:160]
     avisos = fusionar(previos or [], nuevos, desde)
 
     info_cve = {c["cve"]: c for c in (vulns or {}).get("cves") or []}
@@ -405,12 +421,13 @@ def construir(dias: int = 7, kev_cat: list[dict] | None = None, vulns: dict | No
             epss |= epss_fn(sin_epss)
         except Exception as exc:
             log.warning("EPSS de los CVE de avisos falló: %s", exc)
-    cruzar(avisos, kev, info_cve, epss)
+    cruzar(avisos, kev, info_cve, epss, exploits)
 
     tipo_de = {f["id"]: f["tipo"] for f in FUENTES}
     cuantos = Counter(a["fuente"] for a in avisos)
     fuentes = [{k: f[k] for k in ("id", "nombre", "tipo", "idioma", "url")}
-               | {"estado": estado.get(f["id"], "error"), "avisos": cuantos.get(f["id"], 0)} for f in FUENTES]
+               | {"estado": estado.get(f["id"], "error"), "avisos": cuantos.get(f["id"], 0)}
+               | ({"detalle": detalle[f["id"]]} if f["id"] in detalle else {}) for f in FUENTES]
     citas = citas_por_cve(avisos)
     log.info("Avisos: %d en %d días (%d nuevos en esta ejecución) de %d fuentes, %d con error", len(avisos),
              dias, len(nuevos), len(FUENTES), sum(v == "error" for v in estado.values()))
@@ -426,6 +443,7 @@ def construir(dias: int = 7, kev_cat: list[dict] | None = None, vulns: dict | No
             "dia_cero": sum(a["dia_cero"] for a in avisos),
             "sin_parche": sum(a["sin_parche"] for a in avisos),
             "criticos": sum(a["critica"] for a in avisos),
+            "exploit_publico": sum(a["exploit_publico"] for a in avisos),
             "cves_citados": len(citas),
             "fuentes_ok": sum(f["estado"] == "ok" for f in fuentes),
             "fuentes_total": len(fuentes),

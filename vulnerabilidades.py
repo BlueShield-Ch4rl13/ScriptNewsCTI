@@ -553,8 +553,11 @@ def sistemas(cves: list[dict], kev_cat: list[dict], dias_kev: int = 30) -> list[
     return salida
 
 
-def construir(dias: int = 7, kev_cat: list[dict] | None = None) -> dict:
-    """Todo el bloque de vulnerabilidades, listo para data/vulns_latest.json."""
+def construir(dias: int = 7, kev_cat: list[dict] | None = None, edb: dict | None = None) -> dict:
+    """Todo el bloque de vulnerabilidades, listo para data/vulns_latest.json.
+
+    `edb` es el mapa de Exploit-DB si ya se descargó (main.py lo reutiliza para los
+    avisos); si no, se descarga aquí."""
     fuentes = {}
     try:
         cves = nvd_recientes(dias)
@@ -575,12 +578,15 @@ def construir(dias: int = 7, kev_cat: list[dict] | None = None) -> dict:
         log.error("EPSS falló: %s", exc)
         puntos, fuentes["epss"] = {}, "error"
 
-    try:
-        edb = exploitdb()
-        fuentes["exploitdb"] = "ok"
-    except Exception as exc:
-        log.error("Exploit-DB falló: %s", exc)
-        edb, fuentes["exploitdb"] = {}, "error"
+    if edb is None:
+        try:
+            edb = exploitdb()
+            fuentes["exploitdb"] = "ok"
+        except Exception as exc:
+            log.error("Exploit-DB falló: %s", exc)
+            edb, fuentes["exploitdb"] = {}, "error"
+    else:
+        fuentes["exploitdb"] = "ok" if edb else "error"
     try:
         pocs = poc_github({c["cve"][4:8] for c in cves}) if cves else set()
         fuentes["poc_github"] = "ok"

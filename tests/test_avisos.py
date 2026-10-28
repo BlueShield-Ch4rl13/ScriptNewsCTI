@@ -103,11 +103,21 @@ def test_cves_sin_repetir_y_en_orden():
 
 
 # ── señales ──────────────────────────────────────────────────────────────────
+@pytest.mark.parametrize("titulo, cuerpo", [
+    ("Cisco Expressway Series Security Hardening Release: October 2026",
+     "A vulnerability could allow unauthenticated attackers to exploit the device remotely."),
+    ("SSA-887643: Account Hijacking Vulnerability in Mendix SAML module", "could allow attackers to hijack accounts"),
+])
+def test_la_formula_hipotetica_del_fabricante_no_es_explotacion(titulo, cuerpo):
+    assert not A.senal_explotada(titulo, cuerpo)
+
+
 @pytest.mark.parametrize("texto, explotada, cero, parche", [
     ("ZDI-26-829: (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Heap-based Buffer Overflow", False, False, True),
     ("Google fixes Chrome zero-day exploited in attacks", True, True, False),
     ("Google is aware that an exploit for CVE-2026-118306 exists in the wild.", True, True, False),
     ("Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch", True, False, False),
+    ("China-Linked Hackers Exploit PHP2Shell to Root Firewalls", True, False, False),
     ("Explotación efectiva de PHP2Shell confirmada", True, False, False),
     ("Vulnerabilidad explotada activamente en Fortinet", True, False, False),
     ("Une vulnérabilité activement exploitée dans Ivanti", True, False, False),
@@ -116,7 +126,7 @@ def test_cves_sin_repetir_y_en_orden():
     ("Multiples vulnérabilités dans Google Chrome", False, False, False),
 ])
 def test_senales(texto, explotada, cero, parche):
-    assert bool(A.EXPLOTADA_RE.search(texto)) is explotada
+    assert A.senal_explotada(texto) is explotada
     assert bool(A.DIA_CERO_RE.search(texto)) is cero
     assert bool(A.SIN_PARCHE_RE.search(texto)) is parche
 
@@ -171,11 +181,17 @@ def test_fusionar_limita_cada_fuente():
 def test_cruzar_con_kev_cvss_y_epss():
     a = guardado(cves=["CVE-2026-0001", "CVE-2026-0002"])
     b = guardado(cves=["CVE-2026-0003"], texto_critica=True)
-    info = {"CVE-2026-0002": {"cvss": 9.8, "exploit_publico": "exploitdb"}, "CVE-2026-0003": {"cvss": 4.0}}
-    A.cruzar([a, b], {"CVE-2026-0001"}, info, {"CVE-2026-0001": (0.4, 0.99), "CVE-2026-0002": (0.01, 0.5)})
+    c = guardado(cves=["CVE-2024-4577"])
+    info = {"CVE-2026-0002": {"cvss": 9.8, "exploit_publico": "exploitdb", "exploitdb": 52704},
+            "CVE-2026-0003": {"cvss": 4.0, "exploit_publico": "github"}}
+    A.cruzar([a, b, c], {"CVE-2026-0001"}, info, {"CVE-2026-0001": (0.4, 0.99), "CVE-2026-0002": (0.01, 0.5)},
+             exploits={"CVE-2024-4577": {"edb": 52047}})
     assert a["explotada"] and a["kev"] == ["CVE-2026-0001"], "explotada porque su CVE está en KEV"
-    assert a["critica"] and a["cvss_max"] == 9.8 and a["epss_max"] == 0.4 and a["exploit_publico"]
+    assert a["critica"] and a["cvss_max"] == 9.8 and a["epss_max"] == 0.4
+    assert a["exploit_publico"] and a["exploitdb"] == 52704
     assert not b["explotada"] and b["critica"], "crítico porque lo dice el título"
+    assert not b["exploit_publico"], "una PoC de GitHub no es un exploit público verificado"
+    assert c["exploit_publico"] and c["exploitdb"] == 52047, "CVE antiguo (fuera de la semana) con exploit en Exploit-DB"
 
 
 def test_mas_citados_cuenta_fuentes_distintas():
