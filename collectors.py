@@ -140,18 +140,13 @@ def otx_pulses(limit: int = 10, max_indicators: int = 200) -> list[dict]:
         return []
 
 
-def cisa_kev(days: int = 14, catalogo: list[dict] | None = None) -> list[dict]:
-    """CVEs explotados activamente (CISA KEV) añadidos en los últimos N días. Sin API key.
-
-    `catalogo`: el catálogo ya descargado (vulnerabilidades.py lo usa entero), para
-    no bajarlo dos veces."""
+def cisa_kev(days: int = 14) -> list[dict]:
+    """CVEs explotados activamente (CISA KEV) añadidos en los últimos N días. Sin API key."""
     url = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     try:
-        if catalogo is None:
-            r = requests.get(url, timeout=TIMEOUT)
-            r.raise_for_status()
-            catalogo = r.json().get("vulnerabilities") or []
-        vulns = catalogo
+        r = requests.get(url, timeout=TIMEOUT)
+        r.raise_for_status()
+        vulns = r.json().get("vulnerabilities") or []
         cutoff = datetime.now(timezone.utc).date() - timedelta(days=days)
         recent = []
         for v in vulns:
