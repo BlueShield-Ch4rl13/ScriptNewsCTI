@@ -29,7 +29,8 @@ TIMEOUT = 30
 UA = {"User-Agent": "ScriptNewsCTI (+https://cti.carlosvillalbalagos.com)",
       "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"}
 MAX_BYTES = 8 * 1024 * 1024        # un feed más grande que esto no es un feed
-MAX_POR_FUENTE = 40
+MAX_POR_FUENTE = 40              # de cada descarga
+MAX_POR_FUENTE_VENTANA = 60      # de cada fuente en la semana, sumando ejecuciones anteriores
 MAX_CVES_POR_AVISO = 12
 
 TIPOS = {
@@ -49,12 +50,14 @@ FUENTES = [
      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed"},
     {"id": "incibe_sci", "nombre": "INCIBE-CERT · industrial", "tipo": "cert", "idioma": "es", "filtro": "todo",
      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/feed"},
-    {"id": "cisa", "nombre": "CISA", "tipo": "cert", "idioma": "en", "filtro": "todo",
+    {"id": "cisa", "nombre": "CISA", "tipo": "cert", "idioma": "en", "filtro": "todo",       # incluye los ICS
      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"},
     {"id": "cert_eu", "nombre": "CERT-EU", "tipo": "cert", "idioma": "en", "filtro": "todo",
      "url": "https://cert.europa.eu/publications/security-advisories-rss"},
     {"id": "cert_fr", "nombre": "CERT-FR · alertas", "tipo": "cert", "idioma": "fr", "filtro": "todo",
      "url": "https://www.cert.ssi.gouv.fr/alerte/feed/"},
+    {"id": "cert_fr_avis", "nombre": "CERT-FR · avisos", "tipo": "cert", "idioma": "fr", "filtro": "todo",
+     "url": "https://www.cert.ssi.gouv.fr/avis/feed/"},
     {"id": "certcc", "nombre": "CERT/CC", "tipo": "cert", "idioma": "en", "filtro": "todo",
      "url": "https://www.kb.cert.org/vuls/atomfeed/"},
     # Fabricantes
@@ -66,6 +69,8 @@ FUENTES = [
      "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml"},
     {"id": "paloalto", "nombre": "Palo Alto Networks", "tipo": "fabricante", "idioma": "en", "filtro": "todo",
      "url": "https://security.paloaltonetworks.com/rss.xml"},
+    {"id": "ivanti", "nombre": "Ivanti", "tipo": "fabricante", "idioma": "en", "filtro": "todo",
+     "url": "https://www.ivanti.com/blog/topics/security-advisory/rss"},
     {"id": "chrome", "nombre": "Google Chrome", "tipo": "fabricante", "idioma": "en", "filtro": "cve",
      "url": "https://chromereleases.googleblog.com/feeds/posts/default"},
     {"id": "siemens", "nombre": "Siemens ProductCERT", "tipo": "fabricante", "idioma": "en", "filtro": "todo",
@@ -82,10 +87,14 @@ FUENTES = [
     {"id": "exploitdb", "nombre": "Exploit-DB", "tipo": "exploit", "idioma": "en", "filtro": "todo",
      "url": "https://www.exploit-db.com/rss.xml"},
     {"id": "projectzero", "nombre": "Google Project Zero", "tipo": "exploit", "idioma": "en", "filtro": "todo",
-     "url": "https://googleprojectzero.blogspot.com/feeds/posts/default"},
+     "url": "https://googleprojectzero.blogspot.com/feeds/posts/default?max-results=5"},   # entradas enteras: 5 bastan
+    {"id": "wordfence", "nombre": "Wordfence (WordPress)", "tipo": "exploit", "idioma": "en", "filtro": "vuln",
+     "url": "https://www.wordfence.com/feed/"},
     # Noticias de vulnerabilidades (solo titulares que hablan de una)
     {"id": "unaaldia", "nombre": "Una al Día (Hispasec)", "tipo": "noticia", "idioma": "es", "filtro": "vuln",
      "url": "https://unaaldia.hispasec.com/feed"},
+    {"id": "seguinfo", "nombre": "Segu-Info", "tipo": "noticia", "idioma": "es", "filtro": "vuln",
+     "url": "https://blog.segu-info.com.ar/feeds/posts/default"},
     {"id": "thehackernews", "nombre": "The Hacker News", "tipo": "noticia", "idioma": "en", "filtro": "vuln",
      "url": "https://feeds.feedburner.com/TheHackersNews"},
     {"id": "bleeping", "nombre": "BleepingComputer", "tipo": "noticia", "idioma": "en", "filtro": "vuln",
@@ -96,15 +105,22 @@ FUENTES = [
 
 CVE_TXT = re.compile(r"\bCVE-(\d{4})-(\d{4,7})\b", re.I)
 CVE_RE = re.compile(r"^CVE-\d{4}-\d{4,}$")
-# Señales de que ya se explota, en los idiomas de las fuentes
+# Señales en el texto, en los idiomas de las fuentes. «Zero-day» sola no
+# significa explotada (ZDI llama «0Day» a lo que publica sin parche): para
+# «explotada» hace falta que el texto lo diga o que el CVE esté en KEV.
 EXPLOTADA_RE = re.compile(
-    r"exploited in the wild|actively exploited|under active exploitation|being exploited|exploited as a zero"
-    r"|known to be exploited|exploitation (?:has been |was )?(?:observed|detected|reported)"
-    r"|exploit for cve-\d{4}-\d+ exists in the wild|in-the-wild exploit"
-    r"|zero[- ]day|\b0[- ]?day\b"
-    r"|explotad[ao]s? activamente|explotaci[oó]n activa|est[aá]n? siendo explotad|d[ií]a cero"
-    r"|activement exploit|exploit[ée]+e?s? activement|en cours d'exploitation", re.I)
-DIA_CERO_RE = re.compile(r"zero[- ]day|\b0[- ]?day\b|d[ií]a cero|exists in the wild|exploited as a zero", re.I)
+    r"exploited in the wild|in[- ]the[- ]wild|actively exploited|active(?:ly)? exploitation"
+    r"|under (?:active )?exploitation|being exploited|known to be exploited|exploited (?:as|by|in|to)\b"
+    r"|exploitation (?:has been |was |is )?(?:observed|detected|reported|confirmed)"
+    r"|exploit(?:s|ed|ing)? (?:a |an |the |\w+ )?(?:zero[- ]day|0[- ]?day)|zero[- ]day (?:exploit|attack)"
+    r"|(?:hackers|attackers|threat actors|ransomware gangs?)\s+(?:\w+\s+){0,2}(?:exploit|target|abus|hijack)"
+    r"|explotad[ao]s? activamente|explotaci[oó]n (?:activa|efectiva|confirmada)|est[aá]n? siendo explotad"
+    r"|explotad[ao]s? en (?:ataques|la naturaleza)|activement exploit|exploit[ée]+e?s? activement"
+    r"|en cours d'exploitation", re.I)
+DIA_CERO_RE = re.compile(r"zero[- ]day|(?<!\()\b0[- ]?day\b(?!\))|d[ií]a cero|exists in the wild", re.I)
+# ZDI marca «(0Day)» lo que publica porque el fabricante no lo ha corregido a tiempo
+SIN_PARCHE_RE = re.compile(r"\(0day\)|no (?:patch|fix) (?:is )?(?:yet )?available|\bunpatched\b|sin parche"
+                           r"|without (?:a )?(?:patch|fix)|pas de correctif|sin corregir", re.I)
 CRITICA_RE = re.compile(r"\bcritical\b|\bcr[ií]tic[ao]s?\b|\bcritique\b", re.I)
 VULN_RE = re.compile(
     r"vulnerab|\bcve-\d|zero[- ]day|\b0[- ]?day\b|exploit|\bpatch|parche|\bfallos?\b|\bflaws?\b|\brce\b"
@@ -251,9 +267,10 @@ def aviso(fuente: dict, e: dict) -> dict | None:
         "fecha": e["fecha"].strftime("%Y-%m-%dT%H:%MZ"),
         "cves": cves[:MAX_CVES_POR_AVISO],
         "cves_total": len(cves),
-        "explotada_texto": bool(EXPLOTADA_RE.search(texto)),
+        "texto_explotada": bool(EXPLOTADA_RE.search(texto)),
+        "texto_critica": bool(CRITICA_RE.search(e["titulo"])),
         "dia_cero": bool(DIA_CERO_RE.search(texto)),
-        "critica_texto": bool(CRITICA_RE.search(e["titulo"])),
+        "sin_parche": bool(SIN_PARCHE_RE.search(texto)),
     }
 
 
@@ -271,6 +288,46 @@ def de_fuente(fuente: dict, desde: datetime) -> list[dict]:
     return out
 
 
+# ── lo de ejecuciones anteriores ─────────────────────────────────────────────
+FECHA_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}Z$")
+
+
+def _limpio(a) -> dict | None:
+    """Un aviso de data/avisos_latest.json, revalidado: ese fichero se lee de vuelta
+    y no se confía en él más que en un feed."""
+    if not isinstance(a, dict) or not isinstance(a.get("titulo"), str) or not FECHA_RE.match(str(a.get("fecha"))):
+        return None
+    enlace = enlace_seguro(a.get("enlace") if isinstance(a.get("enlace"), str) else "")
+    cves = [c for c in a.get("cves") or [] if isinstance(c, str) and CVE_RE.match(c)]
+    if not enlace or not a["titulo"].strip():
+        return None
+    return {"fuente": a.get("fuente"), "titulo": a["titulo"][:300], "enlace": enlace, "fecha": a["fecha"],
+            "cves": cves[:MAX_CVES_POR_AVISO], "cves_total": max(len(cves), int(a.get("cves_total") or 0)),
+            **{k: bool(a.get(k)) for k in ("texto_explotada", "texto_critica", "dia_cero", "sin_parche")}}
+
+
+def fusionar(previos: list, nuevos: list[dict], desde: datetime) -> list[dict]:
+    """Lo descargado ahora manda; de lo publicado antes se queda lo que sigue en la
+    ventana y ya no sale en el feed (INCIBE, por ejemplo, solo trae sus 10 últimos).
+    Así una fuente que hoy no responde no desaparece del panel."""
+    ids = {f["id"] for f in FUENTES}
+    corte = desde.strftime("%Y-%m-%dT%H:%MZ")
+    vistos = {(a["fuente"], a["enlace"]) for a in nuevos}
+    todos = list(nuevos)
+    for a in map(_limpio, previos if isinstance(previos, list) else []):
+        if a and a["fuente"] in ids and a["fecha"] >= corte and (a["fuente"], a["enlace"]) not in vistos:
+            vistos.add((a["fuente"], a["enlace"]))
+            todos.append(a)
+    todos.sort(key=lambda a: a["fecha"], reverse=True)
+    por_fuente: Counter = Counter()
+    salida = []
+    for a in todos:
+        por_fuente[a["fuente"]] += 1
+        if por_fuente[a["fuente"]] <= MAX_POR_FUENTE_VENTANA:
+            salida.append(a)
+    return salida
+
+
 # ── cruce con lo que ya sabe el panel ────────────────────────────────────────
 def cruzar(avisos: list[dict], kev: set[str], info_cve: dict[str, dict], epss: dict[str, tuple]) -> None:
     """Explotado si el aviso lo dice o si alguno de sus CVE está en KEV; crítico si
@@ -278,34 +335,66 @@ def cruzar(avisos: list[dict], kev: set[str], info_cve: dict[str, dict], epss: d
     for a in avisos:
         en_kev = [c for c in a["cves"] if c in kev]
         cvss = [info_cve[c]["cvss"] for c in a["cves"] if (info_cve.get(c) or {}).get("cvss") is not None]
-        puntos = [epss[c][0] for c in a["cves"] if c in epss]
+        puntos = [epss[c][0] for c in a["cves"] if c in epss and epss[c][0] is not None]
         a["kev"] = en_kev
-        a["explotada"] = bool(en_kev) or a.pop("explotada_texto")
-        a["critica"] = a.pop("critica_texto") or any(x >= 9.0 for x in cvss)
+        a["explotada"] = bool(en_kev) or a["texto_explotada"]
+        a["critica"] = a["texto_critica"] or any(x >= 9.0 for x in cvss)
         a["cvss_max"] = max(cvss) if cvss else None
         a["epss_max"] = round(max(puntos), 4) if puntos else None
-        a["exploit_publico"] = any((info_cve.get(c) or {}).get("exploit_publico") for c in a["cves"])
+        a["exploit_publico"] = any((info_cve.get(c) or {}).get("exploit_publico") == "exploitdb" for c in a["cves"])
+
+
+def citas_por_cve(avisos: list[dict]) -> dict[str, list[dict]]:
+    """{CVE: [avisos que lo citan, del más reciente al más antiguo]}."""
+    out: dict[str, list[dict]] = {}
+    for a in sorted(avisos, key=lambda a: a["fecha"], reverse=True):
+        for c in a["cves"]:
+            out.setdefault(c, []).append(a)
+    return out
+
+
+def mas_citados(citas: dict[str, list[dict]], kev: set[str], info_cve: dict, epss: dict, n: int = 12) -> list[dict]:
+    filas = []
+    for c, avs in citas.items():
+        fuentes = sorted({a["fuente"] for a in avs})
+        if len(fuentes) >= 2:
+            filas.append({"cve": c, "fuentes": fuentes, "avisos": len(avs), "kev": c in kev,
+                          "cvss": (info_cve.get(c) or {}).get("cvss"), "epss": (epss.get(c) or (None,))[0],
+                          "ultimo": avs[0]["fecha"]})
+    filas.sort(key=lambda f: (-len(f["fuentes"]), -f["avisos"], f["cve"]))
+    return filas[:n]
+
+
+def anotar(vulns: dict, bloque: dict, max_por_cve: int = 3) -> None:
+    """En la tabla de CVE, qué avisos de esta semana citan cada uno (enlace y fuente)."""
+    citas = citas_por_cve(bloque.get("avisos") or [])
+    nombre = {f["id"]: f["nombre"] for f in FUENTES}
+    for c in (vulns or {}).get("cves") or []:
+        avs = citas.get(c["cve"]) or []
+        c["avisos"] = [{"fuente": a["fuente"], "nombre": nombre.get(a["fuente"], a["fuente"]), "enlace": a["enlace"]}
+                       for a in avs[:max_por_cve]]
+        c["avisos_total"] = len(avs)
 
 
 def construir(dias: int = 7, kev_cat: list[dict] | None = None, vulns: dict | None = None,
-              epss_fn=None) -> dict:
+              previos: list | None = None, epss_fn=None) -> dict:
     """Todo el bloque de avisos, listo para data/avisos_latest.json.
 
-    `vulns` es lo que ya calculó vulnerabilidades.construir(): de ahí salen el CVSS
-    y el EPSS de los CVE de la semana. Para los CVE más antiguos que citen los
-    avisos, `epss_fn` (vulnerabilidades.epss) trae su EPSS en una sola tanda."""
+    `vulns` es lo que ya calculó vulnerabilidades.construir(): de ahí salen el CVSS,
+    el EPSS y los exploits públicos de los CVE de la semana. Para los CVE más
+    antiguos que citen los avisos, `epss_fn` (vulnerabilidades.epss) trae su EPSS
+    en una sola tanda. `previos` son los avisos publicados en la ejecución anterior."""
     desde = _ahora() - timedelta(days=dias)
-    avisos, estado = [], []
+    nuevos, estado = [], {}
     for f in FUENTES:
-        fila = {k: f[k] for k in ("id", "nombre", "tipo", "idioma")} | {"url": f["url"]}
         try:
-            nuevos = de_fuente(f, desde)
-            fila |= {"estado": "ok", "avisos": len(nuevos)}
-            avisos += nuevos
+            de_esta = de_fuente(f, desde)
+            estado[f["id"]] = "ok"
+            nuevos += de_esta
         except Exception as exc:            # una fuente caída no tumba el resto
             log.warning("Avisos %s falló: %s", f["id"], exc)
-            fila |= {"estado": "error", "avisos": 0}
-        estado.append(fila)
+            estado[f["id"]] = "error"
+    avisos = fusionar(previos or [], nuevos, desde)
 
     info_cve = {c["cve"]: c for c in (vulns or {}).get("cves") or []}
     kev = {k.get("cveID") for k in kev_cat or []}
@@ -317,30 +406,31 @@ def construir(dias: int = 7, kev_cat: list[dict] | None = None, vulns: dict | No
         except Exception as exc:
             log.warning("EPSS de los CVE de avisos falló: %s", exc)
     cruzar(avisos, kev, info_cve, epss)
-    avisos.sort(key=lambda a: a["fecha"], reverse=True)
 
-    por_tipo = Counter(next(f["tipo"] for f in FUENTES if f["id"] == a["fuente"]) for a in avisos)
-    menciones = Counter(c for a in avisos for c in a["cves"])
-    log.info("Avisos: %d en %d días de %d fuentes (%d con error)", len(avisos), dias,
-             len(FUENTES), sum(f["estado"] == "error" for f in estado))
+    tipo_de = {f["id"]: f["tipo"] for f in FUENTES}
+    cuantos = Counter(a["fuente"] for a in avisos)
+    fuentes = [{k: f[k] for k in ("id", "nombre", "tipo", "idioma", "url")}
+               | {"estado": estado.get(f["id"], "error"), "avisos": cuantos.get(f["id"], 0)} for f in FUENTES]
+    citas = citas_por_cve(avisos)
+    log.info("Avisos: %d en %d días (%d nuevos en esta ejecución) de %d fuentes, %d con error", len(avisos),
+             dias, len(nuevos), len(FUENTES), sum(v == "error" for v in estado.values()))
     return {
         "generado_utc": _ahora().strftime("%Y-%m-%d %H:%M"),
         "ventana_dias": dias,
         "tipos": TIPOS,
-        "fuentes": estado,
+        "fuentes": fuentes,
         "resumen": {
             "avisos": len(avisos),
-            "por_tipo": dict(por_tipo),
+            "por_tipo": dict(Counter(tipo_de[a["fuente"]] for a in avisos)),
             "explotados": sum(a["explotada"] for a in avisos),
             "dia_cero": sum(a["dia_cero"] for a in avisos),
+            "sin_parche": sum(a["sin_parche"] for a in avisos),
             "criticos": sum(a["critica"] for a in avisos),
-            "cves_citados": len(menciones),
-            "fuentes_ok": sum(f["estado"] == "ok" for f in estado),
-            "fuentes_total": len(estado),
+            "cves_citados": len(citas),
+            "fuentes_ok": sum(f["estado"] == "ok" for f in fuentes),
+            "fuentes_total": len(fuentes),
         },
-        # Los CVE de los que más se habla esta semana, con quién los cita
-        "mas_citados": [{"cve": c, "avisos": n, "kev": c in kev,
-                         "fuentes": sorted({a["fuente"] for a in avisos if c in a["cves"]})}
-                        for c, n in menciones.most_common(10) if n > 1],
+        # De qué se habla esta semana: los CVE que citan a la vez varias fuentes distintas
+        "mas_citados": mas_citados(citas, kev, info_cve, epss),
         "avisos": avisos,
     }

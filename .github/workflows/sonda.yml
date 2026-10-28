@@ -1,4 +1,4 @@
-name: Sonda de avisos (temporal)
+name: Sonda real (temporal)
 on:
   push:
     branches: [sonda-fuentes]
@@ -6,6 +6,9 @@ permissions:
   contents: read
 jobs:
   sonda:
+    strategy:
+      matrix:
+        que: [vulns, avisos]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5
@@ -15,7 +18,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install --require-hashes -r requirements.txt
-      - run: python .github/sonda_avisos.py
+      - run: python .github/sonda_real.py ${{ matrix.que }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: trozos 0
@@ -28,5 +31,3 @@ jobs:
         run: python3 -c "b=open('/tmp/sonda.b64').read(); [print(f'::notice title=t{i:03d}::'+b[i*4000:(i+1)*4000]) for i in range(27,36) if b[i*4000:(i+1)*4000]]"
       - name: trozos 4
         run: python3 -c "b=open('/tmp/sonda.b64').read(); [print(f'::notice title=t{i:03d}::'+b[i*4000:(i+1)*4000]) for i in range(36,45) if b[i*4000:(i+1)*4000]]"
-      - name: trozos 5
-        run: python3 -c "b=open('/tmp/sonda.b64').read(); [print(f'::notice title=t{i:03d}::'+b[i*4000:(i+1)*4000]) for i in range(45,54) if b[i*4000:(i+1)*4000]]"
