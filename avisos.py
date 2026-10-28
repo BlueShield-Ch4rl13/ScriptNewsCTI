@@ -127,10 +127,13 @@ EXPLOTADA_TITULAR_RE = re.compile(
 NEGACION_RE = re.compile(
     r"(?:\b(?:not|no|never|unaware|nor|without)\b|no (?:tenemos|se tiene|hay) constancia|sin (?:evidencias?|constancia)"
     r"|\bni\b|n'a pas|aucune?)[^.!?]{0,90}$", re.I)
-DIA_CERO_RE = re.compile(r"zero[- ]day|(?<!\()\b0[- ]?day\b(?!\))|d[ií]a cero|exists in the wild", re.I)
-# ZDI marca «(0Day)» lo que publica porque el fabricante no lo ha corregido a tiempo
-SIN_PARCHE_RE = re.compile(r"\(0day\)|no (?:patch|fix) (?:is )?(?:yet )?available|\bunpatched\b|sin parche"
-                           r"|without (?:a )?(?:patch|fix)|pas de correctif|sin corregir", re.I)
+DIA_CERO_RE = re.compile(r"zero[- ]day|d[ií]a cero|exists in the wild", re.I)
+# «0day» a secas es la etiqueta de lo que se publica sin parche: ZDI lo pone en el
+# título, «(0Day)», e INCIBE como etiqueta cuando el fabricante no ha corregido.
+SIN_PARCHE_RE = re.compile(
+    r"\b0[- ]?day\b|no (?:patch|fix) (?:is )?(?:yet )?available|\bunpatched\b|sin parche|without (?:a )?(?:patch|fix)"
+    r"|pas de correctif|sin corregir|no se ha (?:comunicado|publicado) (?:un |ning[uú]n )?parche"
+    r"|no (?:hay|existe) (?:parche|soluci[oó]n)|sin soluci[oó]n", re.I)
 CRITICA_RE = re.compile(r"\bcritical\b|\bcr[ií]tic[ao]s?\b|\bcritique\b", re.I)
 VULN_RE = re.compile(
     r"vulnerab|\bcve-\d|zero[- ]day|\b0[- ]?day\b|exploit|\bpatch|parche|\bfallos?\b|\bflaws?\b|\brce\b"

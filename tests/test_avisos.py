@@ -129,6 +129,8 @@ def test_la_formula_hipotetica_del_fabricante_no_es_explotacion(titulo, cuerpo):
     ("Vulnerabilidad explotada activamente en Fortinet", True, False, False),
     ("Une vulnérabilité activement exploitée dans Ivanti", True, False, False),
     ("New zero-day in WinRAR, no patch available", False, True, True),
+    ("Múltiples vulnerabilidades en Cloud BI Platform de Sisense. Etiquetas: 0day", False, False, True),
+    ("Solución: No se ha comunicado un parche para estos comportamientos.", False, False, True),
     ("Stable Channel Update for Desktop", False, False, False),
     ("Multiples vulnérabilités dans Google Chrome", False, False, False),
 ])
