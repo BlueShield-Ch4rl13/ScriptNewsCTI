@@ -2,7 +2,7 @@ name: CTI Update
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # cada 6 horas (UTC)
+    - cron: "0 */3 * * *"   # cada 3 horas (UTC): los avisos de los fabricantes y CERT salen a lo largo del día
   workflow_dispatch:          # permite lanzarlo a mano
 
 # Por defecto, solo lectura. Solo el job que publica puede escribir.
@@ -55,6 +55,9 @@ jobs:
           ABUSEIPDB_API_KEY: ${{ secrets.ABUSEIPDB_API_KEY }}
           # Opcional: con clave, NVD deja 50 peticiones cada 30 s en vez de 5
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          # 8 ejecuciones al día: 120 IPs x 8 = 960, dentro de los 1.000 checks/día
+          # gratuitos de AbuseIPDB (VirusTotal: 40 x 8 = 320 de 500)
+          ABUSEIPDB_BUDGET: "120"
           # Solo lectura (permissions: contents: read): 5000 consultas/h a la
           # GitHub Advisory Database en vez de 60
           GITHUB_TOKEN: ${{ github.token }}
@@ -73,6 +76,7 @@ jobs:
             data/iocs_latest.json
             data/iocs_latest.csv
             data/vulns_latest.json
+            data/avisos_latest.json
             README.md
 
   # Solo copia los ficheros generados y hace commit: no ejecuta código del repo.
@@ -93,7 +97,7 @@ jobs:
         run: |
           git config user.name "cti-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/iocs_latest.json data/iocs_latest.csv data/vulns_latest.json README.md
+          git add data/iocs_latest.json data/iocs_latest.csv data/vulns_latest.json data/avisos_latest.json README.md
           if git diff --cached --quiet; then
             echo "Sin cambios que publicar"
             exit 0

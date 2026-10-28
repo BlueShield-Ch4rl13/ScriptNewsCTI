@@ -39,8 +39,8 @@ def nvd_cve(cid, cna="disclosure@vulncheck.com", desc="Missing authorization in 
 
 
 class Resp:
-    def __init__(self, data, link=""):
-        self._data, self.headers, self.status_code = data, {"Link": link}, 200
+    def __init__(self, data, link="", content=b""):
+        self._data, self.headers, self.status_code, self.content = data, {"Link": link}, 200, content
 
     def json(self):
         return self._data
@@ -78,6 +78,32 @@ def test_cpe_da_fabricante_y_producto():
 ])
 def test_prioridad(datos, esperada):
     assert v.prioridad(datos) == esperada
+
+
+@pytest.mark.parametrize("datos, esperada", [
+    ({"cvss": 7.5, "exploit_publico": "exploitdb"}, "alta"),
+    ({"cvss": 9.1, "exploit_publico": "exploitdb"}, "urgente"),
+    ({"cvss": 5.0, "exploit_publico": "github"}, "media"),
+    ({"cvss": 9.1, "exploit_publico": "github"}, "alta"),
+])
+def test_exploit_db_cuenta_como_poc_y_github_no(datos, esperada):
+    assert v.prioridad(datos) == esperada
+
+
+@pytest.mark.parametrize("publicado, anadido, esperado", [
+    ("2026-10-20", "2026-10-20", True), ("2026-10-20", "2026-10-21", True), ("2026-10-20", "2026-10-15", True),
+    ("2026-10-20", "2026-10-23", False), ("2026-10-20", None, False), ("", "2026-10-20", False),
+])
+def test_dia_cero(publicado, anadido, esperado):
+    assert v.dia_cero(publicado, anadido) is esperado
+
+
+def test_exploitdb_y_poc_github(monkeypatch):
+    fuentes_falsas(monkeypatch)
+    edb = v.exploitdb()
+    assert set(edb) == {"CVE-2026-1501"}, "la fila con id roto y la que no tiene CVE no cuentan"
+    assert edb["CVE-2026-1501"] == {"edb": 52705, "fecha": "2026-10-23", "verificado": True}
+    assert v.poc_github({"2026", "2019"}) == {"CVE-2026-1501", "CVE-2026-1502"}, "años sin carpeta se saltan"
 
 
 def test_un_7_5_explotado_va_antes_que_un_9_8_que_nadie_ataca():
@@ -147,6 +173,31 @@ def test_identificadores_raros_no_salen_como_enlace():
 
 
 # ── todo junto, con una fuente caída ─────────────────────────────────────────
+# Formato real de files_exploits.csv (cabecera completa, filas recortadas)
+CSV_EXPLOITDB = (
+    "id,file,description,date_published,author,type,platform,port,date_added,date_updated,verified,codes,tags,"
+    "aliases,screenshot_url,application_url,source_url\n"
+    "52704,exploits/php/webapps/52704.py,PHP2Shell - RCE,2026-10-22,x,webapps,php,,2026-10-22,2026-10-22,0,"
+    "CVE-2026-1501;OSVDB-1,,,,,\n"
+    "52705,exploits/php/webapps/52705.py,PHP2Shell - RCE (2),2026-10-23,x,webapps,php,,2026-10-23,2026-10-23,1,"
+    "CVE-2026-1501,,,,,\n"
+    "52706,exploits/x/52706.txt,sin CVE,2026-10-23,x,webapps,php,,2026-10-23,2026-10-23,1,,,,,,\n"
+    "abc,exploits/x/rota.txt,fila rota,,,,,,,,,CVE-2026-9999,,,,,\n"
+).encode()
+
+
+def arbol_poc(url):
+    """API de git de nomi-sec/PoC-in-GitHub: repo, raíz (una carpeta por año) y el árbol de un año."""
+    if url == v.POC_REPO:
+        return {"default_branch": "master"}
+    if url.endswith("/git/trees/master"):
+        return {"tree": [{"path": "2026", "type": "tree", "sha": "a2026"}, {"path": "README.md", "type": "blob"}]}
+    if url.endswith("/git/trees/a2026"):
+        return {"tree": [{"path": "CVE-2026-1502.json", "type": "blob"}, {"path": "CVE-2026-1501.json", "type": "blob"},
+                         {"path": "no-es-un-cve.json", "type": "blob"}]}
+    raise AssertionError(url)
+
+
 def fuentes_falsas(monkeypatch, nvd_cae=False):
     kev = [{"cveID": "CVE-2026-1500", "vendorProject": "Fortinet", "product": "FortiOS", "vulnerabilityName": "x",
             "dateAdded": str(HOY - timedelta(days=3)), "shortDescription": "Fortinet FortiOS", "knownRansomwareCampaignUse": "Known"},
@@ -164,6 +215,10 @@ def fuentes_falsas(monkeypatch, nvd_cae=False):
             return Resp({"totalResults": 4, "vulnerabilities": vulns})
         if url == v.EPSS_URL:
             return Resp({"data": [{"cve": "CVE-2026-1502", "epss": "0.31", "percentile": "0.99", "date": str(HOY)}]})
+        if url == v.EXPLOITDB_CSV:
+            return Resp(None, content=CSV_EXPLOITDB)
+        if url.startswith(v.POC_REPO):
+            return Resp(arbol_poc(url))
         if url == v.GH_URL:
             if params["type"] == "malware":
                 return Resp([aviso("GHSA-g457-v22r-g8j3", eco=params["ecosystem"])] if params["ecosystem"] in ("npm", "pip") else [])
@@ -179,9 +234,18 @@ def fuentes_falsas(monkeypatch, nvd_cae=False):
 def test_construir(monkeypatch):
     kev = fuentes_falsas(monkeypatch)
     out = v.construir(dias=7, kev_cat=kev)
-    assert out["fuentes"] == {"nvd": "ok", "kev": "ok", "epss": "ok", "github_advisories": "ok"}
+    assert out["fuentes"] == {"nvd": "ok", "kev": "ok", "epss": "ok", "exploitdb": "ok", "poc_github": "ok",
+                              "github_advisories": "ok"}
     assert [c["cve"] for c in out["cves"]] == ["CVE-2026-1500", "CVE-2026-1502", "CVE-2026-1501"], \
-        "explotada (KEV) > urgente (EPSS 31 %) > alta (9.8 sin explotar); el rechazado no sale"
+        "explotada (KEV) > urgente (EPSS 31 %) > urgente (9.8 con exploit, menos EPSS); el rechazado no sale"
+    por_cve = {c["cve"]: c for c in out["cves"]}
+    assert por_cve["CVE-2026-1501"]["prioridad"] == "urgente", "CVSS 9.8 con exploit en Exploit-DB"
+    assert por_cve["CVE-2026-1501"]["exploit_publico"] == "exploitdb" and por_cve["CVE-2026-1501"]["exploitdb"] == 52705, \
+        "si hay varios, el verificado"
+    assert por_cve["CVE-2026-1502"]["exploit_publico"] == "github", "PoC de GitHub solo cuando no hay Exploit-DB"
+    assert por_cve["CVE-2026-1500"]["ransomware"], "KEV: knownRansomwareCampaignUse = Known"
+    assert por_cve["CVE-2026-1500"]["dia_cero"], "CISA lo metió en KEV 3 días antes de que NVD lo publicara"
+    assert out["resumen"]["exploit_publico"] == 1 and out["resumen"]["poc_github"] == 1
     assert out["resumen"]["explotados"] == 1 and out["resumen"]["paquetes_maliciosos"] == 2
     lengs = {x["ecosistema"]: x for x in out["lenguajes"]}
     assert lengs["npm"]["estado"] == "maliciosos" and lengs["maven"]["estado"] == "alto"

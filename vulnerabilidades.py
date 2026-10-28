@@ -7,12 +7,18 @@ Fuentes (todas gratuitas):
   - CISA KEV: los CVE que ya se están explotando (catálogo completo).
   - GitHub Advisory Database: por ecosistema (npm, PyPI, Maven…), los paquetes
     maliciosos publicados y los avisos de vulnerabilidad revisados.
+  - Exploit-DB (CSV completo en GitLab): si hay un exploit público para el CVE.
+  - PoC-in-GitHub: si alguien ha publicado una prueba de concepto en GitHub. Ahí
+    también hay repositorios falsos (y alguno con malware), así que se muestra
+    como señal sin verificar y no cambia la prioridad.
 
 La prioridad no es el CVSS: un 7.5 que ya se explota va antes que un 9.8 que nadie
 ataca. Cada fuente que falla se anota en `fuentes` y el resto se publica igual.
 """
 from __future__ import annotations
 
+import csv
+import io
 import logging
 import os
 import re
@@ -32,6 +38,8 @@ NVD_PAGINA = 2000
 EPSS_URL = "https://api.first.org/data/v1/epss"
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 GH_URL = "https://api.github.com/advisories"
+EXPLOITDB_CSV = "https://gitlab.com/exploit-database/exploitdb/-/raw/main/files_exploits.csv"
+POC_REPO = "https://api.github.com/repos/nomi-sec/PoC-in-GitHub"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 
 MAX_CVES_PUBLICADOS = 600      # filas de la tabla (las más prioritarias); las cifras cuentan todas
@@ -294,6 +302,61 @@ def kev_catalogo() -> list[dict]:
     return vulns
 
 
+# ── exploits públicos ───────────────────────────────────────────────────────
+def exploitdb() -> dict[str, dict]:
+    """{CVE: exploit de Exploit-DB}. Si hay varios, el verificado y, entre esos, el primero."""
+    r = _get(EXPLOITDB_CSV, pausa=3.0)
+    out: dict[str, dict] = {}
+    for f in csv.DictReader(io.StringIO(r.content.decode("utf-8", "replace"))):
+        if not (f.get("id") or "").isdigit():
+            continue
+        x = {"edb": int(f["id"]), "fecha": (f.get("date_published") or "")[:10], "verificado": f.get("verified") == "1"}
+        for code in (f.get("codes") or "").split(";"):
+            code = code.strip().upper()
+            if CVE_RE.match(code):
+                prev = out.get(code)
+                if prev is None or (not prev["verificado"], prev["edb"]) > (not x["verificado"], x["edb"]):
+                    out[code] = x
+    log.info("Exploit-DB: %d CVE con exploit público", len(out))
+    return out
+
+
+def _gh_cab() -> dict:
+    cab = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
+    if GITHUB_TOKEN:
+        cab["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+    return cab
+
+
+def poc_github(anios) -> set[str]:
+    """CVE con prueba de concepto en nomi-sec/PoC-in-GitHub: una carpeta por año con
+    un JSON por CVE. Se leen los árboles de git (una consulta por año), no los ficheros."""
+    cab = _gh_cab()
+    rama = _get(POC_REPO, headers=cab, pausa=3.0).json().get("default_branch") or "master"
+    raiz = _get(f"{POC_REPO}/git/trees/{rama}", headers=cab, pausa=3.0).json()
+    carpetas = {e["path"]: e["sha"] for e in raiz.get("tree") or [] if e.get("type") == "tree"}
+    out = set()
+    for anio in sorted({str(a) for a in anios}):
+        if anio not in carpetas:
+            continue
+        arbol = _get(f"{POC_REPO}/git/trees/{carpetas[anio]}", headers=cab, pausa=3.0).json()
+        out |= {n[:-5].upper() for n in (e.get("path") or "" for e in arbol.get("tree") or [])
+                if n.endswith(".json") and CVE_RE.match(n[:-5].upper())}
+    log.info("PoC-in-GitHub: %d CVE con prueba de concepto (%s)", len(out), ", ".join(sorted(map(str, anios))))
+    return out
+
+
+def dia_cero(publicado: str, anadido_kev: str | None) -> bool:
+    """Explotada desde el principio: CISA la metió en KEV antes, el mismo día o al
+    día siguiente de que se publicara el CVE."""
+    try:
+        pub = datetime.fromisoformat((publicado or "")[:10]).date()
+        kev = datetime.fromisoformat((anadido_kev or "")[:10]).date()
+    except ValueError:
+        return False
+    return (kev - pub).days <= 1
+
+
 # ── GitHub Advisory Database ─────────────────────────────────────────────────
 def _siguiente(link: str) -> str | None:
     m = re.search(r'<([^>]+)>;\s*rel="next"', link or "")
@@ -303,9 +366,7 @@ def _siguiente(link: str) -> str | None:
 def github_avisos(ecosistema: str, tipo: str, dias: int = 7, max_paginas: int = 10) -> tuple[list[dict], bool]:
     """Avisos publicados en los últimos días. Devuelve (avisos, hay_mas_de_los_leidos)."""
     desde = (_ahora() - timedelta(days=dias)).strftime("%Y-%m-%d")
-    cab = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
-    if GITHUB_TOKEN:
-        cab["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+    cab = _gh_cab()
     url, params, avisos = GH_URL, {"type": tipo, "ecosystem": ecosistema, "published": f">={desde}",
                                    "per_page": 100, "sort": "published", "direction": "desc"}, []
     for _ in range(max_paginas):
@@ -427,14 +488,18 @@ def clasificar(c: dict, kev: dict | None = None) -> tuple[str, str]:
 
 
 def prioridad(c: dict) -> str:
-    """explotada > urgente > alta > media > baja."""
+    """explotada > urgente > alta > media > baja.
+
+    Un exploit publicado en Exploit-DB cuenta como la prueba de concepto de SSVC.
+    Una PoC de GitHub no: puede ser falsa."""
     e, pct, cvss = c.get("epss") or 0.0, c.get("epss_percentil") or 0.0, c.get("cvss") or 0.0
     explot = (c.get("ssvc") or {}).get("exploitation")
+    poc = explot == "poc" or c.get("exploit_publico") == "exploitdb"
     if c.get("kev") or explot == "active":
         return "explotada"
-    if e >= 0.10 or (cvss >= 9.0 and (e >= 0.01 or explot == "poc")):
+    if e >= 0.10 or (cvss >= 9.0 and (e >= 0.01 or poc)):
         return "urgente"
-    if cvss >= 7.0 or pct >= 0.90 or explot == "poc":
+    if cvss >= 7.0 or pct >= 0.90 or poc:
         return "alta"
     return "media" if cvss >= 4.0 else "baja"
 
@@ -488,8 +553,11 @@ def sistemas(cves: list[dict], kev_cat: list[dict], dias_kev: int = 30) -> list[
     return salida
 
 
-def construir(dias: int = 7, kev_cat: list[dict] | None = None) -> dict:
-    """Todo el bloque de vulnerabilidades, listo para data/vulns_latest.json."""
+def construir(dias: int = 7, kev_cat: list[dict] | None = None, edb: dict | None = None) -> dict:
+    """Todo el bloque de vulnerabilidades, listo para data/vulns_latest.json.
+
+    `edb` es el mapa de Exploit-DB si ya se descargó (main.py lo reutiliza para los
+    avisos); si no, se descarga aquí."""
     fuentes = {}
     try:
         cves = nvd_recientes(dias)
@@ -510,12 +578,33 @@ def construir(dias: int = 7, kev_cat: list[dict] | None = None) -> dict:
         log.error("EPSS falló: %s", exc)
         puntos, fuentes["epss"] = {}, "error"
 
+    if edb is None:
+        try:
+            edb = exploitdb()
+            fuentes["exploitdb"] = "ok"
+        except Exception as exc:
+            log.error("Exploit-DB falló: %s", exc)
+            edb, fuentes["exploitdb"] = {}, "error"
+    else:
+        fuentes["exploitdb"] = "ok" if edb else "error"
+    try:
+        pocs = poc_github({c["cve"][4:8] for c in cves}) if cves else set()
+        fuentes["poc_github"] = "ok"
+    except Exception as exc:
+        log.error("PoC-in-GitHub falló: %s", exc)
+        pocs, fuentes["poc_github"] = set(), "error"
+
     kev_por_cve = {k.get("cveID"): k for k in kev_cat}
     for c in cves:
         c["epss"], c["epss_percentil"] = puntos.get(c["cve"], (None, None))
         k = kev_por_cve.get(c["cve"])
         c["kev"] = bool(k) or c.pop("kev_nvd", False)
         c.pop("kev_nvd", None)
+        x = edb.get(c["cve"])
+        c["exploit_publico"] = "exploitdb" if x else ("github" if c["cve"] in pocs else None)
+        c["exploitdb"] = x["edb"] if x else None
+        c["ransomware"] = bool(k) and k.get("knownRansomwareCampaignUse") == "Known"
+        c["dia_cero"] = bool(k) and dia_cero(c["publicado"], k.get("dateAdded"))
         c["categoria"], c["fabricante"] = clasificar(c, k)
         c["runtime"] = runtime_de(*fabricante_producto(c, k))
         c["prioridad"] = prioridad(c)
@@ -533,7 +622,8 @@ def construir(dias: int = 7, kev_cat: list[dict] | None = None) -> dict:
     for c in cves[:MAX_CVES_PUBLICADOS]:
         publicados.append({**{k: c.get(k) for k in (
             "cve", "publicado", "prioridad", "cvss", "gravedad", "epss", "epss_percentil", "kev",
-            "categoria", "fabricante", "cwe", "estado_nvd")},
+            "categoria", "fabricante", "cwe", "estado_nvd", "exploit_publico", "exploitdb", "ransomware",
+            "dia_cero")},
             "explotacion_ssvc": (c.get("ssvc") or {}).get("exploitation"),
             "descripcion": c["descripcion"][:280] + ("…" if len(c["descripcion"]) > 280 else "")})
     return {
@@ -549,6 +639,10 @@ def construir(dias: int = 7, kev_cat: list[dict] | None = None) -> dict:
             "sin_puntuar": sum(c.get("cvss") is None for c in cves),
             "por_prioridad": dict(por_prioridad),
             "paquetes_maliciosos": sum(x.get("maliciosos") or 0 for x in lengs),
+            "exploit_publico": sum(c.get("exploit_publico") == "exploitdb" for c in cves),
+            "poc_github": sum(c.get("exploit_publico") == "github" for c in cves),
+            "ransomware": sum(bool(c.get("ransomware")) for c in cves),
+            "dia_cero": sum(bool(c.get("dia_cero")) for c in cves),
         },
         "cves": publicados,
         "cves_publicados": len(publicados),

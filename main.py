@@ -1,10 +1,11 @@
 """Orquestador: recolecta feeds, fusiona fuentes, enriquece con scoring y publica."""
 import logging
 
+import avisos
 from collectors import cisa_kev, otx_pulses, threatfox, urlhaus
 from enrich import enrich, merge_sources
-from utils import save_outputs, save_vulns, update_readme
-from vulnerabilidades import construir, kev_catalogo
+from utils import load_previous_avisos, save_avisos, save_outputs, save_vulns, update_readme
+from vulnerabilidades import construir, epss, exploitdb, kev_catalogo
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("cti")
@@ -29,13 +30,31 @@ def main() -> None:
     # Vulnerabilidades: CVE de la última semana priorizados (KEV, EPSS, CVSS, SSVC),
     # lenguajes (paquetes maliciosos y avisos) y sistemas. Va aparte de los IOCs:
     # si alguna de sus fuentes cae, los IOCs se publican igual.
-    vulns = construir(dias=7, kev_cat=kev_cat)
+    # Exploit-DB se descarga una vez (~10 MB) y sirve para los CVE y para los avisos
+    try:
+        edb = exploitdb()
+    except Exception as exc:
+        log.error("Exploit-DB falló: %s", exc)
+        edb = {}
+    vulns = construir(dias=7, kev_cat=kev_cat, edb=edb)
 
-    log.info("Total publicado: %d IOCs · %d CVEs KEV · %d CVE nuevos", len(iocs), len(kev),
-             vulns["resumen"]["cves"])
+    # Avisos de fabricantes, CERT, exploits y noticias, cruzados con lo anterior.
+    # Si algo falla aquí, se conserva el fichero de la ejecución anterior.
+    try:
+        avs = avisos.construir(dias=7, kev_cat=kev_cat, vulns=vulns, previos=load_previous_avisos(), epss_fn=epss,
+                               exploits=edb)
+        avisos.anotar(vulns, avs)
+    except Exception as exc:
+        log.error("Avisos falló entero: %s", exc)
+        avs = None
+
+    log.info("Total publicado: %d IOCs · %d CVEs KEV · %d CVE nuevos · %s avisos", len(iocs), len(kev),
+             vulns["resumen"]["cves"], avs["resumen"]["avisos"] if avs else "sin")
     save_outputs(iocs, kev)
     save_vulns(vulns)
-    update_readme(iocs, kev, vulns)
+    if avs:
+        save_avisos(avs)
+    update_readme(iocs, kev, vulns, avisos=avs)
 
 
 if __name__ == "__main__":

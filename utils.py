@@ -66,7 +66,28 @@ def save_vulns(vulns: dict) -> None:
              vulns.get("cves_publicados", 0), r.get("cves", 0), len(vulns.get("lenguajes", [])), DATA_DIR)
 
 
-ESTADO_LENGUAJE = {"maliciosos": "🔴 paquetes maliciosos", "critico": "🟠 avisos críticos",
+def load_previous_avisos() -> list:
+    """Avisos publicados en la ejecución anterior (data/avisos_latest.json), para no
+    perder los que ya no salen en feeds cortos. avisos.fusionar() los revalida."""
+    try:
+        with open(os.path.join(DATA_DIR, "avisos_latest.json"), encoding="utf-8") as f:
+            datos = json.load(f)
+        return datos.get("avisos") or [] if isinstance(datos, dict) else []
+    except (OSError, ValueError):
+        return []
+
+
+def save_avisos(avisos: dict) -> None:
+    """Guarda data/avisos_latest.json (avisos de fabricantes, CERT, exploits y noticias)."""
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(os.path.join(DATA_DIR, "avisos_latest.json"), "w", encoding="utf-8") as f:
+        json.dump(avisos, f, indent=1, ensure_ascii=False)
+    r = avisos.get("resumen", {})
+    log.info("Guardados %d avisos (%d/%d fuentes) en %s/avisos_latest.json", r.get("avisos", 0),
+             r.get("fuentes_ok", 0), r.get("fuentes_total", 0), DATA_DIR)
+
+
+ESTADO_LENGUAJE = {"runtime_explotado": "🔴 el lenguaje se explota", "maliciosos": "🔴 paquetes maliciosos", "critico": "🟠 avisos críticos",
                    "alto": "🟡 avisos altos", "sin_alertas": "🟢 sin alertas"}
 ESTADO_SISTEMA = {"explotacion_activa": "🔴 explotación activa", "riesgo_alto": "🟠 riesgo alto",
                   "vigilar": "🟢 vigilar"}
@@ -81,10 +102,13 @@ def _bloque_vulns(vulns: dict, max_rows: int) -> list[str]:
         "",
         f"**{r.get('cves', 0)}** CVE publicados · **{r.get('explotados', 0)}** ya explotados · "
         f"**{r.get('urgentes', 0)}** urgentes · **{r.get('criticos', 0)}** con CVSS ≥ 9 · "
-        f"**{r.get('paquetes_maliciosos', 0)}** paquetes maliciosos en los registros",
+        f"**{r.get('paquetes_maliciosos', 0)}** paquetes maliciosos en los registros · "
+        f"**{r.get('exploit_publico', 0)}** con exploit en Exploit-DB · "
+        f"**{r.get('dia_cero', 0)}** explotados desde el primer día",
         "",
         "Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 %"
-        " o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC).",
+        " o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC). Un exploit de Exploit-DB"
+        " cuenta como prueba de concepto.",
         "",
         "| Prioridad | CVE | Fabricante | CVSS | EPSS | Publicado |",
         "|---|---|---|---|---|---|",
@@ -112,12 +136,40 @@ def _bloque_vulns(vulns: dict, max_rows: int) -> list[str]:
     return lines
 
 
+def _bloque_avisos(avisos: dict, max_rows: int) -> list[str]:
+    r = avisos.get("resumen") or {}
+    nombres = {f["id"]: f["nombre"] for f in avisos.get("fuentes") or []}
+    lines = [
+        "",
+        f"### Avisos de seguridad de los últimos {avisos.get('ventana_dias', 7)} días",
+        "",
+        f"**{r.get('avisos', 0)}** avisos de {r.get('fuentes_ok', 0)}/{r.get('fuentes_total', 0)} fuentes "
+        f"(fabricantes, CERT, exploits y noticias) · **{r.get('explotados', 0)}** de algo que ya se explota · "
+        f"**{r.get('dia_cero', 0)}** de día cero · **{r.get('sin_parche', 0)}** sin parche",
+        "",
+    ]
+    citados = avisos.get("mas_citados") or []
+    if citados:
+        lines += ["**Lo más citado:** " + " · ".join(
+            f"{_md(c['cve'])} ({len(c['fuentes'])} fuentes{', KEV' if c.get('kev') else ''})" for c in citados[:8]), ""]
+    lines += ["| Fecha | Fuente | Aviso | Señales |", "|---|---|---|---|"]
+    graves = [a for a in avisos.get("avisos") or [] if a.get("explotada") or a.get("dia_cero") or a.get("critica")]
+    for a in graves[:max_rows]:
+        senales = ", ".join(n for n, k in (("explotada", "explotada"), ("día cero", "dia_cero"),
+                                            ("sin parche", "sin_parche"), ("crítica", "critica")) if a.get(k))
+        titulo = _md(a["titulo"][:110]).replace("[", "\\[").replace("]", "\\]")
+        lines.append(f"| {_md(a['fecha'][:10])} | {_md(nombres.get(a['fuente'], a['fuente']))} "
+                     f"| [{titulo}]({_md(a['enlace']).replace('(', '%28').replace(')', '%29')}) | {senales} |")
+    return lines
+
+
 def _md(value) -> str:
     """Escapa pipes para tablas markdown."""
     return str(value if value is not None else "").replace("|", "\\|")
 
 
-def update_readme(iocs: list[dict], kev: list[dict], vulns: dict | None = None, max_rows: int = 25) -> None:
+def update_readme(iocs: list[dict], kev: list[dict], vulns: dict | None = None, max_rows: int = 25,
+                  avisos: dict | None = None) -> None:
     """Reescribe la sección entre los marcadores CTI:START/END del README."""
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     lines = [
@@ -152,6 +204,8 @@ def update_readme(iocs: list[dict], kev: list[dict], vulns: dict | None = None, 
             f"| {_md(v.get('date_added'))} | {_md(v.get('ransomware'))} |"
         )
 
+    if avisos:
+        lines += _bloque_avisos(avisos, max_rows)
     if vulns:
         lines += _bloque_vulns(vulns, max_rows)
 

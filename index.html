@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NEWS CTI · BlueShield</title>
-<meta name="description" content="Panel de inteligencia de amenazas que se actualiza cada 6 horas: CVE de la semana priorizados por explotación real (CISA KEV, EPSS, SSVC), paquetes maliciosos por lenguaje, sistemas en riesgo e IOCs de ThreatFox, URLhaus y OTX.">
+<meta name="description" content="Panel de inteligencia de amenazas que se actualiza cada 3 horas: avisos de seguridad de fabricantes y CERT (INCIBE, CISA, CERT-EU…), CVE de la semana priorizados por explotación real (CISA KEV, EPSS, SSVC, Exploit-DB), paquetes maliciosos por lenguaje, sistemas en riesgo e IOCs de ThreatFox, URLhaus y OTX.">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" type="image/x-icon" href="assets/red-global.png">
 </head>
@@ -26,6 +26,8 @@
   <p class="syncline-label">Última sincronización</p>
   <p class="syncline-value"><span id="sync-time">—</span> <span class="utc">UTC</span></p>
   <p class="syncline-meta">
+    <span><b id="stat-avisos">0</b> avisos (7 d)</span>
+    <span class="sep">·</span>
     <span><b id="stat-cves">0</b> CVE nuevos (7 d)</span>
     <span class="sep">·</span>
     <span><b id="stat-kev">0</b> CVEs en KEV</span>
@@ -58,6 +60,41 @@
     <div class="empty" id="len-empty" hidden><p>Sin datos de los registros de paquetes.</p></div>
   </section>
 
+  <!-- ===== Avisos que van saliendo: fabricantes, CERT, exploits y noticias (data/avisos_latest.json) ===== -->
+  <section class="panel" aria-labelledby="av-title">
+    <div class="panel-head">
+      <h2 id="av-title">Fallos de seguridad que van saliendo</h2>
+      <p class="panel-note">Avisos de fabricantes, CERT y gobiernos (INCIBE, CISA, CERT-EU, CERT-FR…), exploits publicados y noticias de vulnerabilidades de los últimos 7 días, del más reciente al más antiguo. Cada aviso se cruza con CISA KEV y EPSS: si alguno de sus CVE ya se explota, se marca aunque el aviso no lo diga.</p>
+    </div>
+    <div class="vuln-tiles" id="av-tiles"></div>
+    <div class="citados" id="av-citados" hidden>
+      <h3 class="citados-title">De qué se habla: CVE que citan varias fuentes a la vez</h3>
+      <ul class="citados-lista" id="av-citados-lista"></ul>
+    </div>
+
+    <div class="filters">
+      <label class="visually-hidden" for="a-search">Buscar en los avisos</label>
+      <input id="a-search" type="search" placeholder="Buscar producto, fabricante o CVE…" autocomplete="off">
+      <label class="visually-hidden" for="a-fuente">Filtrar por fuente</label>
+      <select id="a-fuente"><option value="">Todas las fuentes</option></select>
+      <label class="visually-hidden" for="a-senal">Filtrar por señal</label>
+      <select id="a-senal">
+        <option value="">Todas las señales</option>
+        <option value="explotada">Ya se explota</option>
+        <option value="dia_cero">Día cero</option>
+        <option value="sin_parche">Sin parche</option>
+        <option value="critica">Crítica</option>
+        <option value="exploit_publico">Con exploit público</option>
+      </select>
+    </div>
+
+    <p class="result-count" id="a-count"></p>
+    <ol class="avisos" id="a-lista"></ol>
+    <div class="empty" id="a-empty" hidden><p id="a-empty-msg">Cargando avisos…</p></div>
+    <p class="mas-wrap"><button type="button" class="btn-mas" id="a-mas" hidden>Mostrar 25 más</button></p>
+    <p class="panel-note fuentes-nota" id="a-fuentes"></p>
+  </section>
+
   <section class="panel" aria-labelledby="kev-title">
     <div class="panel-head">
       <h2 id="kev-title">Explotación activa · CISA KEV</h2>
@@ -70,7 +107,7 @@
   <section class="panel" aria-labelledby="cves-title">
     <div class="panel-head">
       <h2 id="cves-title">CVE de la semana, por prioridad real</h2>
-      <p class="panel-note">Primero lo que ya se explota (CISA KEV o SSVC «active»), después lo que más probablemente se explotará (EPSS) y, por último, la gravedad (CVSS). Descripción de NVD, en español cuando NVD la tiene traducida.</p>
+      <p class="panel-note">Primero lo que ya se explota (CISA KEV o SSVC «active»), después lo que más probablemente se explotará (EPSS, o un exploit publicado en Exploit-DB) y, por último, la gravedad (CVSS). Descripción de NVD, en español cuando NVD la tiene traducida.</p>
     </div>
 
     <div class="filters">
@@ -87,6 +124,15 @@
       </select>
       <label class="visually-hidden" for="v-cat">Filtrar por sistema</label>
       <select id="v-cat"><option value="">Todos los sistemas</option></select>
+      <label class="visually-hidden" for="v-senal">Filtrar por señal</label>
+      <select id="v-senal">
+        <option value="">Todas las señales</option>
+        <option value="exploitdb">Exploit en Exploit-DB</option>
+        <option value="github">PoC en GitHub</option>
+        <option value="ransomware">Usada por ransomware</option>
+        <option value="dia_cero">Explotada desde el día 0</option>
+        <option value="avisos">Citada en avisos</option>
+      </select>
     </div>
 
     <p class="result-count" id="v-count"></p>
@@ -107,7 +153,7 @@
   <section class="panel" aria-labelledby="iocs-title">
     <div class="panel-head">
       <h2 id="iocs-title">Indicadores de compromiso</h2>
-      <p class="panel-note">Defangueados · fusionados multi-fuente · scoring propio · recolección cada 6 h vía GitHub Actions</p>
+      <p class="panel-note">Defangueados · fusionados multi-fuente · scoring propio · recolección cada 3 h vía GitHub Actions</p>
     </div>
 
     <div class="filters">
@@ -152,7 +198,7 @@
 </main>
 
 <footer>
-  <p>Uso exclusivamente defensivo · IOCs: ThreatFox, URLhaus, AlienVault OTX · Vulnerabilidades: NVD, FIRST EPSS, CISA KEV, GitHub Advisory Database · GeoIP: <a href="https://db-ip.com" rel="noopener">DB-IP</a> (CC BY 4.0)</p>
+  <p>Uso exclusivamente defensivo · IOCs: ThreatFox, URLhaus, AlienVault OTX · Vulnerabilidades: NVD, FIRST EPSS, CISA KEV, GitHub Advisory Database, Exploit-DB, PoC-in-GitHub · Avisos: los feeds públicos de cada fabricante, CERT y medio (solo titular y enlace; el texto es de cada autor) · GeoIP: <a href="https://db-ip.com" rel="noopener">DB-IP</a> (CC BY 4.0)</p>
   <p>Este producto usa datos de la API de NVD pero no está avalado ni certificado por NVD.</p>
   <p>Pipeline: Python · GitHub Actions · Cloudflare Pages — <a href="https://github.com/BlueShield-Ch4rl13" rel="noopener">BlueShield-Ch4rl13</a></p>
 </footer>
