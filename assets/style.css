@@ -276,3 +276,15 @@ td.desc .citado { display: block; margin-top: 5px; font-size: 11.5px; color: var
 .fuente-chip.t-fabricante { border-color: rgba(143, 178, 255, 0.55); color: #A9C1FF; }
 .fuente-chip.t-exploit { border-color: rgba(255, 180, 84, 0.55); color: #FFB454; }
 .fuente-chip.t-noticia { color: var(--muted); }
+
+/* ---- Sin saltos al cargar: hueco reservado mientras llegan los datos ---- */
+#vuln-tiles:empty { min-height: 170px; }
+#sis-grid:empty { min-height: 100vh; }
+
+/* ---- Enlaces táctiles de al menos 24 px de alto (WCAG 2.5.8) ---- */
+.aviso-titulo a, .aviso-cves a, .citados-lista a, td.cve-id > a, .estado-lista a, td.desc .citado a {
+  display: inline-block; min-height: 24px; padding: 3px 0; line-height: 18px;
+}
+.aviso-cves a { margin-right: 4px; }
+/* Enlaces dentro de un párrafo: subrayados, no solo de otro color (WCAG 1.4.1) */
+footer a { text-decoration: underline; text-underline-offset: 2px; }

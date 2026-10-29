@@ -140,8 +140,12 @@
   }
 
   function showError() {
-    $("status-dot").classList.add("err");
-    $("sync-time").textContent = "sin datos";
+    // Si vulnerabilidades o avisos ya han llegado, la sincronización existe:
+    // solo faltan los IOCs y lo dice su propia sección
+    if ($("sync-time").textContent === "\u2014") {
+      $("status-dot").classList.add("err");
+      $("sync-time").textContent = "sin datos";
+    }
     $("empty-state").hidden = false;
     $("empty-msg").textContent =
       "No hay datos todavía. Ejecuta el workflow \u201CCTI Update\u201D en GitHub Actions y recarga la página.";
@@ -419,7 +423,16 @@
     if (!lista.length) $("v-empty-msg").textContent = "Sin CVE con estos filtros.";
   }
 
+  // La hora de la última sincronización la da el primer fichero que llegue
+  // (los tres salen de la misma ejecución del pipeline)
+  function marcarSincronizado(utc) {
+    if (!utc || $("sync-time").textContent !== "\u2014") return;
+    $("sync-time").textContent = utc;
+    $("status-dot").classList.add("ok");
+  }
+
   function initVulns(d) {
+    marcarSincronizado(d.generado_utc);
     var r = d.resumen || {};
     setStat("stat-cves", r.cves || 0);
     renderTiles(r);
@@ -560,6 +573,7 @@
   }
 
   function initAvisos(d) {
+    marcarSincronizado(d.generado_utc);
     var r = d.resumen || {};
     setStat("stat-avisos", r.avisos || 0);
     renderAvTiles(r);
@@ -613,11 +627,29 @@
     .then(initVulns)
     .catch(sinVulns);
 
-  fetch("data/iocs_latest.json", { cache: "no-store" })
-    .then(function (r) {
-      if (!r.ok) throw new Error("HTTP " + r.status);
-      return r.json();
-    })
-    .then(init)
-    .catch(showError);
+  /* Los IOCs (~1,7 MB) son lo último de la página: se piden cuando la sección
+     de KEV se acerca a la pantalla o, como tarde, 2,5 s después de cargar. Así
+     no compiten con lo primero que se ve, sobre todo en el móvil. */
+  var iocsPedidos = false;
+  function cargarIocs() {
+    if (iocsPedidos) return;
+    iocsPedidos = true;
+    fetch("data/iocs_latest.json", { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(init)
+      .catch(showError);
+  }
+  var seccionKev = document.querySelector('section[aria-labelledby="kev-title"]');
+  if ("IntersectionObserver" in window && seccionKev) {
+    var vigia = new IntersectionObserver(function (entradas) {
+      if (entradas.some(function (e) { return e.isIntersecting; })) { vigia.disconnect(); cargarIocs(); }
+    }, { rootMargin: "1500px 0px" });
+    vigia.observe(seccionKev);
+    window.addEventListener("load", function () { setTimeout(cargarIocs, 2500); });
+  } else {
+    cargarIocs();
+  }
 })();
