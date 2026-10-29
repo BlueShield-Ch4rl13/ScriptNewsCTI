@@ -9,7 +9,7 @@ Plataforma ligera de **Cyber Threat Intelligence** que se actualiza sola cada 3 
 - **¿Está en riesgo mi sistema?** Por tipo de sistema (Windows, Linux, Apple, Android, navegadores, red y VPN, routers e IoT, virtualización y nube, IA y agentes, industrial…): CVE nuevos, críticos y explotación activa en los últimos 30 días.
 - **¿Está comprometido mi lenguaje?** Por lenguaje (JavaScript, Python, Java, .NET, PHP, Go, Rust, Ruby…): si **el propio lenguaje** (intérprete o runtime) tiene CVE explotados, y cuántos **paquetes maliciosos** y avisos graves han aparecido en su registro (npm, PyPI, Maven…).
 
-Además recolecta IOCs de feeds públicos, los **fusiona entre fuentes**, los enriquece (GeoIP, VirusTotal, AbuseIPDB) y calcula un **score de confianza** y una **gravedad** por indicador. Todo se publica en un dashboard estático, en este README y en `data/` (JSON + CSV).
+Además recolecta IOCs de feeds públicos, los **fusiona entre fuentes**, los enriquece (GeoIP, VirusTotal, AbuseIPDB) y calcula un **score de confianza** y una **gravedad** por indicador. Todo se publica en un dashboard estático, en este README y en `data/` (JSON + CSV), y sale también hacia otras herramientas: **feed Atom** de los avisos importantes, **feed de MISP** con los IOCs, **alertas** a un webhook (n8n → Telegram) y un **histórico diario** con gráficas de tendencia. En el panel, cada visitante puede guardar su **lista de vigilancia** (productos y fabricantes) y ver qué avisos y CVE de la semana la citan.
 
 🌐 **Dashboard en vivo:** https://cti.carlosvillalbalagos.com
 
@@ -98,6 +98,26 @@ De cada aviso se publica **solo el titular, el enlace, la fecha y los CVE que ci
 
 CCN-CERT no está porque su web rechaza las descargas automáticas (HTTP 403 desde GitHub Actions).
 
+## Feeds, alertas y lista de vigilancia
+
+`exportar.py` se ejecuta al final de cada actualización; si falla, lo demás se publica igual.
+
+| Salida | Dónde | Para qué |
+|---|---|---|
+| Feed Atom | `https://cti.carlosvillalbalagos.com/data/avisos.xml` | Los avisos que ya se explotan, de día cero o críticos (60 como máximo), para un lector de feeds, Outlook, Teams o n8n |
+| Feed de MISP | `https://cti.carlosvillalbalagos.com/data/misp` | Los IOCs en formato «MISP Feed»: `manifest.json`, un evento por día y `hashes.csv`. El evento del día suma los IOCs de cada ejecución sin repetir; los de más de 7 días se retiran. `ip:port` → `ip-dst\|port`; los hashes → `md5`/`sha1`/`sha256`; `to_ids` si el score es ≥ 50 |
+| Histórico | `data/historico.json` | Una fila por día (la última ejecución del día) con IOCs, KEV, CVE y avisos: las gráficas de «Tendencia». Arranca con 109 días sacados del historial de git |
+| Alertas | El webhook de `N8N_WEBHOOK_URL` | Los avisos **nuevos en esta ejecución** que ya se explotan, son de día cero o citan algo de `CTI_VIGILAR`. La primera ejecución no avisa de nada (mandaría la semana entera) |
+
+**Añadir el feed a MISP:** *Sync Actions → Feeds → Add Feed*, con URL `https://cti.carlosvillalbalagos.com/data/misp`, *Source Format* «MISP Feed» e *Input Source* «Network». Después, *Fetch and store all feed data*.
+
+**Alertas a Telegram con n8n:**
+1. En n8n, un flujo con un nodo **Webhook** (POST, autenticación por cabecera `Authorization: Bearer <token>`) y un nodo **Telegram** que envía `{{$json.body.texto}}` a tu chat. El cuerpo trae también `novedades` (título, enlace, fuente, CVE, KEV, señales, EPSS) por si quieres darle otro formato.
+2. En el repo, *Settings → Secrets and variables → Actions*: los secretos `N8N_WEBHOOK_URL` (la URL de producción del webhook, `https://…`) y `N8N_WEBHOOK_TOKEN`; y, en la pestaña *Variables*, `CTI_VIGILAR` con lo que quieras vigilar separado por comas (`Fortinet, Splunk, Wazuh`).
+3. Sin `N8N_WEBHOOK_URL` no se envía nada. La URL nunca se escribe en el log.
+
+**Lista de vigilancia en el panel:** cada visitante añade sus productos o fabricantes y el panel marca, cuenta y filtra los avisos y CVE de la semana que los citan (por palabra completa: «SAP» no casa con «sapphire»). Se guarda solo en su navegador (`localStorage`); no sale de ahí.
+
 ## Score de confianza
 
 Cada IOC recibe un score de 0 a 100 combinando señales del propio feed y validación externa, con decaimiento por antigüedad:
@@ -163,6 +183,8 @@ El código es MIT (`LICENSE`). Los datos republicados tienen sus propias condici
    - `OTX_API_KEY` (opcional)
    - `VT_API_KEY` (opcional)
    - `ABUSEIPDB_API_KEY` (opcional)
+   - `NVD_API_KEY` (opcional, gratis en nvd.nist.gov: NVD tarda segundos en vez de minutos)
+   - `N8N_WEBHOOK_URL` y `N8N_WEBHOOK_TOKEN` (opcionales: alertas, ver arriba)
 4. Pestaña **Actions** → workflow *CTI Update* → **Run workflow** para la primera ejecución manual.
 5. Listo: el cron lo ejecutará cada 3 h (hora UTC) y el bot hará commit de los cambios.
 
@@ -186,10 +208,11 @@ python main.py
 ├── enrich.py                          # fusión, estado histórico, GeoIP, reputación, score y gravedad
 ├── vulnerabilidades.py                # CVE de la semana: NVD, EPSS, KEV, GitHub Advisory, Exploit-DB, PoC-in-GitHub
 ├── avisos.py                          # avisos de fabricantes, CERT, exploits y noticias (26 feeds)
+├── exportar.py                        # feed Atom, feed de MISP, histórico diario y alertas al webhook
 ├── utils.py                           # defang, export JSON/CSV, README autogenerado
 ├── index.html + assets/               # dashboard estático (Cloudflare Pages)
-├── tests/                             # fusión, gravedad, prioridad de CVE, lectura de feeds y señales
-└── data/                              # iocs, vulns y avisos (_latest.json) + CSV (el estado va en la caché de Actions)
+├── tests/                             # fusión, gravedad, prioridad de CVE, feeds, señales, MISP y alertas
+└── data/                              # iocs, vulns y avisos (_latest.json), CSV, avisos.xml, historico.json y misp/
 ```
 ---
 
