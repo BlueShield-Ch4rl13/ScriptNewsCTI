@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-29 23:01",
+ "generado_utc": "2026-10-29 23:13",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -123,7 +123,7 @@
    "idioma": "en",
    "url": "https://chromereleases.googleblog.com/feeds/posts/default",
    "estado": "ok",
-   "avisos": 3
+   "avisos": 4
   },
   {
    "id": "siemens",
@@ -244,10 +244,10 @@
   }
  ],
  "resumen": {
-  "avisos": 293,
+  "avisos": 294,
   "por_tipo": {
    "exploit": 60,
-   "fabricante": 85,
+   "fabricante": 86,
    "noticia": 56,
    "cert": 92
   },
@@ -256,7 +256,7 @@
   "sin_parche": 34,
   "criticos": 20,
   "exploit_publico": 25,
-  "cves_citados": 228,
+  "cves_citados": 240,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -449,6 +449,38 @@
    "sin_parche": true,
    "kev": [],
    "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "chrome",
+   "titulo": "Stable Channel Update for Desktop",
+   "enlace": "http://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02107719452.html",
+   "fecha": "2026-10-29T21:26Z",
+   "cves": [
+    "CVE-2026-76024",
+    "CVE-2026-76025",
+    "CVE-2026-76026",
+    "CVE-2026-76027",
+    "CVE-2026-76028",
+    "CVE-2026-76029",
+    "CVE-2026-76030",
+    "CVE-2026-76031",
+    "CVE-2026-119260",
+    "CVE-2026-119261",
+    "CVE-2026-119262",
+    "CVE-2026-119263"
+   ],
+   "cves_total": 21,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
    "critica": false,
    "cvss_max": null,
    "epss_max": null,

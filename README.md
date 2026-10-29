@@ -196,7 +196,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-29 23:01 UTC · **IOCs recolectados:** 2515 · **CVEs KEV recientes:** 19
+**Última actualización:** 2026-10-29 23:13 UTC · **IOCs recolectados:** 2510 · **CVEs KEV recientes:** 19
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -222,11 +222,11 @@ python main.py
 | 57 (media) | media | `152[.]42[.]135[.]240:34532` | ip:port | Drifter | ThreatFox | 2026-10-29 13:48:45 UTC |
 | 57 (media) | media | `8[.]138[.]27[.]20:8084` | ip:port | VShell | ThreatFox | 2026-10-29 12:05:04 UTC |
 | 57 (media) | media | `119[.]42[.]148[.]189:2333` | ip:port | VShell | ThreatFox | 2026-10-29 05:05:07 UTC |
+| 56 (media) | alta | `hxxps://c[.]bb69[.]org/m/` | url | Vidar | ThreatFox | 2026-10-29 23:00:49 UTC |
 | 56 (media) | alta | `hxxps://c[.]bb69[.]org/o/` | url | Vidar | ThreatFox | 2026-10-29 22:30:48 UTC |
 | 56 (media) | alta | `hxxps://fastly[.]jsdelivr[.]net/gh/sdedyk172/ad8f6908-5019-42ff-a88e-b8279bfaed84/9cc8ac42-ee34-4250-bfee-d893438a3b3b` | url | ClearFake | ThreatFox | 2026-10-29 12:08:30 UTC |
 | 56 (media) | media | `hxxp://45[.]225[.]135[.]233/2/config[.]json` | url | XMRIG | ThreatFox | 2026-10-29 06:11:51 UTC |
 | 56 (media) | media | `89[.]32[.]41[.]114:23789` | ip:port | Potassium | ThreatFox | 2026-10-29 03:49:51 UTC |
-| 56 (media) | media | `89[.]32[.]41[.]146:32876` | ip:port | Potassium | ThreatFox | 2026-10-29 03:49:51 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -254,7 +254,7 @@ python main.py
 
 ### Avisos de seguridad de los últimos 7 días
 
-**293** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **66** de algo que ya se explota · **7** de día cero · **34** sin parche
+**294** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **66** de algo que ya se explota · **7** de día cero · **34** sin parche
 
 **Lo más citado:** CVE-2026-109618 (9 fuentes, KEV) · CVE-2026-111497 (9 fuentes, KEV) · CVE-2026-109619 (8 fuentes, KEV) · CVE-2026-76418 (5 fuentes, KEV) · CVE-2026-105482 (4 fuentes) · CVE-2026-105483 (4 fuentes) · CVE-2026-106069 (4 fuentes) · CVE-2026-115560 (2 fuentes)
 
