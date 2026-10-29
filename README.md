@@ -196,37 +196,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-29 22:49 UTC · **IOCs recolectados:** 2512 · **CVEs KEV recientes:** 19
+**Última actualización:** 2026-10-29 23:01 UTC · **IOCs recolectados:** 2515 · **CVEs KEV recientes:** 19
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 80 (alta) | media | `85[.]137[.]54[.]178:18082` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
+| 78 (alta) | media | `80[.]87[.]206[.]86:443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
+| 76 (alta) | media | `176[.]123[.]7[.]7:443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
 | 75 (alta) | media | `160[.]119[.]71[.]27:80` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:48:12 UTC |
-| 75 (alta) | media | `80[.]87[.]206[.]86:80` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
-| 75 (alta) | media | `85[.]137[.]54[.]178:8081` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
-| 75 (alta) | media | `176[.]123[.]7[.]7:80` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
 | 71 (alta) | media | `146[.]190[.]103[.]76:443` | ip:port | Jackskid | ThreatFox | 2026-10-29 06:33:19 UTC |
 | 68 (media) | alta | `157[.]66[.]225[.]224:7707` | ip:port | AsyncRAT | ThreatFox | 2026-10-29 05:19:21 UTC |
 | 66 (media) | alta | `159[.]203[.]28[.]151:8002` | ip:port | Aisuru | ThreatFox | 2026-10-29 16:54:41 UTC |
 | 62 (media) | media | `104[.]248[.]206[.]134:36275` | ip:port | Drifter | ThreatFox | 2026-10-29 16:51:42 UTC |
 | 61 (media) | media | `46[.]101[.]249[.]247:36275` | ip:port | Drifter | ThreatFox | 2026-10-29 13:48:46 UTC |
+| 59 (media) | media | `130[.]254[.]45[.]8:443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 17:28:19 UTC |
 | 59 (media) | media | `138[.]68[.]134[.]9:36275` | ip:port | Drifter | ThreatFox | 2026-10-29 13:48:45 UTC |
-| 58 (media) | media | `130[.]254[.]45[.]8:8443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 17:28:19 UTC |
 | 58 (media) | media | `157[.]230[.]122[.]72:32505` | ip:port | Drifter | ThreatFox | 2026-10-29 16:51:42 UTC |
 | 58 (media) | media | `38[.]127[.]244[.]12:18081` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
 | 58 (media) | media | `103[.]39[.]79[.]102:8443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 05:05:06 UTC |
+| 57 (media) | media | `156[.]246[.]90[.]214:443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 17:28:20 UTC |
+| 57 (media) | media | `178[.]83[.]206[.]213:443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 17:28:20 UTC |
+| 57 (media) | media | `135[.]136[.]191[.]231:2222` | ip:port | Unknown malware | ThreatFox | 2026-10-29 17:28:19 UTC |
 | 57 (media) | media | `152[.]42[.]135[.]240:34532` | ip:port | Drifter | ThreatFox | 2026-10-29 13:48:45 UTC |
 | 57 (media) | media | `8[.]138[.]27[.]20:8084` | ip:port | VShell | ThreatFox | 2026-10-29 12:05:04 UTC |
 | 57 (media) | media | `119[.]42[.]148[.]189:2333` | ip:port | VShell | ThreatFox | 2026-10-29 05:05:07 UTC |
 | 56 (media) | alta | `hxxps://c[.]bb69[.]org/o/` | url | Vidar | ThreatFox | 2026-10-29 22:30:48 UTC |
 | 56 (media) | alta | `hxxps://fastly[.]jsdelivr[.]net/gh/sdedyk172/ad8f6908-5019-42ff-a88e-b8279bfaed84/9cc8ac42-ee34-4250-bfee-d893438a3b3b` | url | ClearFake | ThreatFox | 2026-10-29 12:08:30 UTC |
 | 56 (media) | media | `hxxp://45[.]225[.]135[.]233/2/config[.]json` | url | XMRIG | ThreatFox | 2026-10-29 06:11:51 UTC |
-| 56 (media) | media | `89[.]32[.]41[.]59:23789` | ip:port | Potassium | ThreatFox | 2026-10-29 03:49:51 UTC |
-| 56 (media) | media | `89[.]32[.]41[.]146:32876` | ip:port | Potassium | ThreatFox | 2026-10-29 03:49:51 UTC |
 | 56 (media) | media | `89[.]32[.]41[.]114:23789` | ip:port | Potassium | ThreatFox | 2026-10-29 03:49:51 UTC |
-| 56 (media) | media | `121[.]43[.]102[.]230:80` | ip:port | VShell | ThreatFox | 2026-10-29 02:05:04 UTC |
-| 55 (media) | alta | `hxxps://d5[.]ajuna88[.]org/t4/` | url | Vidar | ThreatFox | 2026-10-29 22:35:48 UTC |
+| 56 (media) | media | `89[.]32[.]41[.]146:32876` | ip:port | Potassium | ThreatFox | 2026-10-29 03:49:51 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
