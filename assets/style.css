@@ -288,3 +288,41 @@ td.desc .citado { display: block; margin-top: 5px; font-size: 11.5px; color: var
 .aviso-cves a { margin-right: 4px; }
 /* Enlaces dentro de un párrafo: subrayados, no solo de otro color (WCAG 1.4.1) */
 footer a { text-decoration: underline; text-underline-offset: 2px; }
+
+/* ---- Lista de vigilancia ---- */
+.vigia-form { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+.vigia-form input { flex: 1 1 220px; background: var(--ink); color: var(--text); border: 1px solid var(--line);
+  border-radius: 4px; padding: 8px 10px; font-family: var(--mono); font-size: 13px; }
+.vigia-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 8px; padding: 0; list-style: none; min-height: 4px; }
+.vigia-chip { display: inline-flex; align-items: center; gap: 4px; font-family: var(--mono); font-size: 12px;
+  border: 1px solid rgba(186, 140, 255, 0.55); color: #D3BCFF; border-radius: 3px; padding: 2px 4px 2px 8px; }
+.vigia-quitar { background: none; border: 0; color: inherit; cursor: pointer; font-size: 15px; line-height: 1;
+  min-width: 24px; min-height: 24px; }
+.vigia-quitar:hover { color: #fff; }
+.vigia-resumen { margin: 0; font-size: 12.5px; color: var(--muted); }
+.sev-chip.sev-vigia { color: #D3BCFF; border-color: rgba(186, 140, 255, 0.55); background: rgba(186, 140, 255, 0.08); }
+.badge-kev.b-vigia { color: #D3BCFF; border-color: rgba(186, 140, 255, 0.6); }
+.aviso.av-vigilado { box-shadow: inset 3px 0 0 #BA8CFF; }
+tr.fila-vigilada td { background: rgba(186, 140, 255, 0.05); }
+
+/* ---- Tendencia ---- */
+.tend-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.tend-card { border: 1px solid var(--line); border-radius: 5px; padding: 10px 12px; background: var(--ink); }
+.tend-card h3 { margin: 0 0 4px; font-family: var(--mono); font-size: 10.5px; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--muted); }
+.tend-cifra { margin: 0 0 6px; }
+.tend-cifra b { font-family: var(--mono); font-size: 20px; font-weight: 600; }
+.tend-cifra small { color: var(--muted); font-size: 11.5px; }
+.spark { display: block; width: 100%; height: 48px; }
+.spark-linea { fill: none; stroke: var(--teal); stroke-width: 1.6; vector-effect: non-scaling-stroke; }
+.spark-area { fill: rgba(79, 214, 196, 0.10); stroke: none; }
+.tend-pie { margin: 6px 0 0; font-family: var(--mono); font-size: 10.5px; color: var(--muted); }
+.feeds-nota { margin-top: 6px; overflow-wrap: anywhere; }
+.feeds-nota code { font-family: var(--mono); font-size: 11.5px; color: var(--text); }
+
+/* Las cifras de la línea de sincronización ocupan desde el principio lo que
+   ocuparán con datos: si no, en el móvil la línea pasa de 2 a 3 renglones al
+   cargar y empuja toda la página */
+.syncline-meta b { display: inline-block; min-width: 4ch; text-align: right; font-variant-numeric: tabular-nums; }
+@media (max-width: 700px) { #vuln-tiles:empty { min-height: 380px; } }
+.feeds-nota a { text-decoration: underline; text-underline-offset: 2px; }
