@@ -181,6 +181,8 @@ python main.py
 
 ```
 ├── .github/workflows/cti-update.yml   # cron: generar (solo lectura) + publicar (commit)
+├── .github/workflows/pruebas.yml      # ruff + pytest en cada PR y push de código
+├── .github/workflows/codeql.yml       # análisis de seguridad (Python, JS, Actions), semanal y en cada PR
 ├── main.py                            # orquestador
 ├── collectors.py                      # un colector por feed
 ├── enrich.py                          # fusión, estado histórico, GeoIP, reputación, score y gravedad
