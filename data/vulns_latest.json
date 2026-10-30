@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-30 17:58",
+ "generado_utc": "2026-10-30 22:03",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3251,
-  "criticos": 226,
+  "cves": 3402,
+  "criticos": 248,
   "explotados": 1,
-  "urgentes": 22,
+  "urgentes": 27,
   "epss_10": 0,
-  "sin_puntuar": 849,
+  "sin_puntuar": 800,
   "por_prioridad": {
    "explotada": 1,
-   "urgente": 22,
-   "alta": 1159,
-   "media": 1070,
-   "baja": 999
+   "urgente": 27,
+   "alta": 1253,
+   "media": 1160,
+   "baja": 961
   },
-  "paquetes_maliciosos": 266,
+  "paquetes_maliciosos": 279,
   "exploit_publico": 0,
-  "poc_github": 53,
+  "poc_github": 57,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -523,7 +523,7 @@
    "cwe": [
     "CWE-287"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -554,6 +554,102 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "A vulnerability was determined in 2K Games Civilization V 1.0.3.144. Impacted is the function loadstring of the component Lua Sandbox. Executing a manipulation can lead to type confusion. The attack may be performed from remote. The exploit has been publicly disclosed and may be …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-107034",
+   "publicado": "2026-10-29",
+   "prioridad": "urgente",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.00174,
+   "epss_percentil": 0.06871,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Insecure permissions in LeafPad / Leaf Note v1.21 (versionCode 21) allows unauthorized attackers to arbitrarily read another user's note data.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-107017",
+   "publicado": "2026-10-29",
+   "prioridad": "urgente",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.00166,
+   "epss_percentil": 0.05895,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Insecure permissions in the ShortcutDispatchActivity component of canvoki versionCode 14 allows unauthorized attackers to arbitrarily trigger another user's configured automated actions.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-107028",
+   "publicado": "2026-10-29",
+   "prioridad": "urgente",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.00166,
+   "epss_percentil": 0.05899,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Insecure permissions in wbpxre150 Shopping List v11.0 (versionCode 11) allows unauthorized attackers to invoke an exported component, leading to manipulation of the shopping-list data.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-107060",
+   "publicado": "2026-10-29",
+   "prioridad": "urgente",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.00157,
+   "epss_percentil": 0.04799,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-732"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Insecure permissions in Tailscale versionCode 297862600 allows unauthorized attackers to make arbitrary changes to another user's VPN configurations and preferences.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -602,6 +698,30 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "InternLM LMDeploy 0.9.0 through 0.18.0 contains an unauthenticated remote code execution vulnerability that allows remote attackers to run OS commands by sending pickled data to the /update_weights endpoint. Attackers can submit a base64-encoded crafted pickle in serialized_named…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-55598",
+   "publicado": "2026-10-30",
+   "prioridad": "urgente",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": null,
+   "epss_percentil": null,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "PinePods is a complete, self-hosted podcast management system written in Rust. Prior to 0.9.0, an authenticated user can subscribe to an attacker-controlled RSS feed through `POST /api/data/add_podcast` in `rust-api/src/handlers/podcasts.rs`. `get_podcast_values` and `add_episode…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1301,7 +1421,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 22.8-cert3, an authenticated attacker with read-only permissions for the `Asterisk REST Interface (ARI)` may, under certain conditi…",
    "avisos": [],
    "avisos_total": 0
@@ -1661,7 +1781,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated Remote Code Execution (RCE) in AjaxLoadMore Cache <= 3.1.1 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -1902,7 +2022,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, a stack buffer overflow in the H.323 `ooTrace()` trace-logging function can occur when unbounded `vsprintf…",
    "avisos": [],
    "avisos_total": 0
@@ -2549,7 +2669,7 @@
    "cwe": [
     "CWE-23"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -3514,7 +3634,7 @@
    "cwe": [
     "CWE-416"
    ],
-   "estado_nvd": "Awaiting Analysis",
+   "estado_nvd": "Undergoing Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -4069,31 +4189,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-115778",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.0054,
-   "epss_percentil": 0.45449,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-400",
-    "CWE-770"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Twisted is an event-based framework for internet applications, supporting Python 3.6+. Prior to 26.10.0rc1, twisted.conch.telnet.Telnet.dataReceived appends every byte received after IAC SB to a persistent subnegotiation buffer until IAC SE is received, without applying a maximum…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-61564",
    "publicado": "2026-10-28",
    "prioridad": "alta",
@@ -4366,30 +4461,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-115812",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00529,
-   "epss_percentil": 0.44734,
-   "kev": false,
-   "categoria": "virtualizacion",
-   "fabricante": "Amazon",
-   "cwe": [
-    "CWE-23"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "Relative path traversal during model archive extraction in Amazon Web Services Multi Model Server 1.1.11 and earlier might allow remote actors to execute arbitrary code via a crafted model archive. Multi Model Server is end of life and no fixed version is available. Users should …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-119195",
    "publicado": "2026-10-29",
    "prioridad": "alta",
@@ -4475,7 +4546,7 @@
    "cwe": [
     "CWE-502"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -4577,7 +4648,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, an authenticated attacker may cause a stack buffer overflow in `res_xmpp` `XMPP namespace prefix` handling…",
    "avisos": [],
    "avisos_total": 0
@@ -4604,31 +4675,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "A vulnerability was identified in smg-project smg 1.7.0/1.8.0/1.9.0/1.10.0/1.10.1. Affected is the function jpeg_turbo::decode_jpeg_rgb of the file crates/multimodal/src/jpeg_turbo.rs of the component llm-multimodal. The manipulation leads to uncontrolled memory allocation. The a…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115774",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 4.9,
-   "gravedad": "medium",
-   "epss": 0.0052,
-   "epss_percentil": 0.44184,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-400",
-    "CWE-835"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Twisted is an event-based framework for internet applications, supporting Python 3.6+. Prior to 26.10.0rc1, twisted.mail.imap4.IMAP4Server reaches twisted.mail.imap4.parseNestedParens with a negative literal size in an authenticated SEARCH command after the client enters the sele…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -4891,7 +4937,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Legal Stone <= 1.2.11 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -5100,31 +5146,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-115776",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00501,
-   "epss_percentil": 0.42899,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-400",
-    "CWE-770"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Twisted is an event-based framework for internet applications, supporting Python 3.6+. Prior to 26.10.0rc1, twisted.words.protocols.irc.IRC.dataReceived retains all bytes received without a line feed in its per-connection buffer and applies no maximum line length. The twisted.wor…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-116634",
    "publicado": "2026-10-26",
    "prioridad": "alta",
@@ -5186,7 +5207,7 @@
    "cwe": [
     "CWE-1284"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -5283,7 +5304,7 @@
     "CWE-1284",
     "CWE-400"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -5456,7 +5477,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in RexCoin <= 1.2.6 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -5480,7 +5501,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Quirky <= 1.23 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -5528,7 +5549,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Ozisti <= 1.1.10 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -5600,7 +5621,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "poc",
    "descripcion": "GraphQL Scalars is a library of custom GraphQL scalars for creating precise type-safe GraphQL schemas. From 1.24.1 until 2.0.1, GraphQLPhoneNumber in src/scalars/PhoneNumber.ts uses ambiguous nested digit quantifiers that backtrack exponentially when a PhoneNumber value contains …",
    "avisos": [],
    "avisos_total": 0
@@ -5870,7 +5891,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Le Truffe <= 1.1.7 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -5964,7 +5985,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "poc",
    "descripcion": "Happy DOM is a JavaScript implementation of a web browser without its graphical user interface. From 17.0.0 until 21.0.4, packages/happy-dom/src/module/ECMAScriptModuleCompiler.ts accepts a named ESM import alias without validating that it is a JavaScript binding identifier befor…",
    "avisos": [],
    "avisos_total": 0
@@ -6160,7 +6181,7 @@
    "cwe": [
     "CWE-1333"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -7066,7 +7087,7 @@
    "cwe": [
     "CWE-502"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -7095,7 +7116,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "dd-trace is the Datadog APM client for Node.js. From 2.0.0 until 5.131.1 and 6.20.1, the default DD_TRACE_OBFUSCATION_QUERY_STRING_REGEXP can perform excessive backtracking on attacker-controlled URL query strings. The expression is applied synchronously while recording HTTP URL …",
    "avisos": [],
    "avisos_total": 0
@@ -7225,31 +7246,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "There is a SQL injection vulnerability in Esri ArcGIS Server versions 12.1 and earlier on Windows and Linux that may allow a remote attacker with privileges to access the service (which could, depending on the service being configured in a non-default access configuration “public…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115775",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00444,
-   "epss_percentil": 0.38601,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-400",
-    "CWE-770"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Twisted is an event-based framework for internet applications, supporting Python 3.6+. Prior to 26.10.0rc1, the twisted.words.xish.domish ExpatElementStream parser allows an unauthenticated remote peer to keep a container element open while continuously adding child elements. The…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -7464,7 +7460,7 @@
    "cwe": [
     "CWE-732"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -7648,7 +7644,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Echo is a Go web framework. From 4.0.0 until 4.16.1 and 5.4.1, Echo's Proxy middleware selects a raw tunnel from a client WebSocket upgrade request before verifying that the configured upstream accepted the upgrade. If the upstream rejects the upgrade with an ordinary keep-alive …",
    "avisos": [],
    "avisos_total": 0
@@ -7890,7 +7886,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Filmax <= 1.1.11 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -7914,7 +7910,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in EmojiNation <= 1.0.12 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -8199,7 +8195,7 @@
     "CWE-400",
     "CWE-401"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -8411,7 +8407,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Highcharts JS is a JavaScript charting library based on SVG. From 1.0.0 until 4.2.3, Highcharts Dashboards edit-mode sidebar parses component language strings as HTML rather than inserting them as text. An attacker who controls the Dashboards language configuration can provide ma…",
    "avisos": [],
    "avisos_total": 0
@@ -8826,7 +8822,7 @@
    "cwe": [
     "CWE-1333"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -8874,7 +8870,7 @@
    "cwe": [
     "CWE-434"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -8906,55 +8902,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "A vulnerability was found in GiantappMan LiveWallPaper 2.6.8.0 on Windows. This issue affects some unknown processing of the file /LiveWallpaper/UploadFile of the component SignalR Hub. Performing a manipulation results in missing authentication. The attack is possible to be carr…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115580",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 7.1,
-   "gravedad": "high",
-   "epss": 0.0041,
-   "epss_percentil": 0.35228,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-834"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.2, an attacker can craft a PDF with a standard cross-reference table whose declared entry count exceeds what the file can contain, causing excessive processing and long runtimes when the file is opened. This i…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115585",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 7.1,
-   "gravedad": "high",
-   "epss": 0.0041,
-   "epss_percentil": 0.35228,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-400",
-    "CWE-407"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.2, an incomplete remediation for repeated malformed cross-reference entries in GHSA-55h5-xmcq-c37v could still trigger a complete PDF stream reload during each recovery attempt even when a recovery cache was p…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -9289,7 +9236,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Mission <= 1.22 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -9313,7 +9260,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Motorix <= 1.11 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -9337,7 +9284,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Muzicon <= 1.15 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -9361,7 +9308,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Avventure <= 1.1.12 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -9385,7 +9332,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Bonbon <= 1.11 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -9409,7 +9356,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Gamezone <= 1.1.11 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -9433,7 +9380,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Gamic <= 1.19 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -9724,7 +9671,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "The Formidable Forms – WordPress Form Builder for Contact Forms, Calculators, Quizzes & More plugin for WordPress is vulnerable to Arbitrary Plugin Installation in all versions up to, and including, 6.35 via the 'file_url' parameter parameter. This is due to insufficient URL pref…",
    "avisos": [],
    "avisos_total": 0
@@ -9748,7 +9695,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Subscriber PHP Object Injection in News Kit Elementor Addons <= 1.5.0 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -10019,7 +9966,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in GEO my WordPress <= 4.5.5.3 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -10110,7 +10057,7 @@
    "cwe": [
     "CWE-200"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -10145,7 +10092,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Subscriber SQL Injection in MLS On The Fly <= 1.8.1.5 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -10315,12 +10262,12 @@
    "cwe": [
     "CWE-829"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A remote code execution (RCE) vulnerability was identified in the FlexNet Publisher lmadmin web user interface. This vulnerability is addressed in the FlexNet Publisher 2023 R2 (11.19.4.0) release.",
    "avisos": [],
    "avisos_total": 0
@@ -10371,30 +10318,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "A flaw has been found in Fusion Creators Studio SCP Containment Breach Multiplayer up to 1.295. This issue affects the function BlitzBanks of the component Skynet++ Virtual Machine. Executing a manipulation can lead to out-of-bounds write. The attack can be executed remotely. The…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115570",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 7.4,
-   "gravedad": "high",
-   "epss": 0.00377,
-   "epss_percentil": 0.31703,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-299"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Electron is a framework for writing cross-platform desktop applications using JavaScript, HTML and CSS. Prior to 42.11.16, 43.8.1, 44.9.1, and 45.0.0-beta.6, Electron does not block compromised eMudhra intermediate certificates in Chromium networking, Node.js tls, Node.js https, …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10493,30 +10416,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "Tanium addressed a denial of service vulnerability in Provision.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115572",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 7.1,
-   "gravedad": "high",
-   "epss": 0.00375,
-   "epss_percentil": 0.31478,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-400"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.2, an attacker can craft a PDF that repeatedly references the same nonexistent indirect object, causing relevant file parts such as pages to trigger repeated full-file recovery loads and long runtimes when acc…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10708,7 +10607,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Echo is a Go web framework. From 4.0.0 until 4.16.1, Echo v4's opt-in BodyDump middleware reads complete request bodies into memory before handlers run and retains complete response bodies for the dump callback without capture limits. An unauthenticated client that can reach a ro…",
    "avisos": [],
    "avisos_total": 0
@@ -10878,7 +10777,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Shop manager PHP Object Injection in YayMail <= 4.4.6 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -11347,7 +11246,7 @@
     "CWE-681",
     "CWE-787"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -11642,7 +11541,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Subscriber Privilege Escalation in Buddyboss Platform <= 3.5.0 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -11793,7 +11692,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A remote attacker who knows a valid account's enrolled SSH public key can terminate the shared SSH service in Progress Software WS_FTP Server versions prior to 2024.0.7 and 2025.0.4 on Windows.",
    "avisos": [],
    "avisos_total": 0
@@ -12036,7 +11935,7 @@
    "cwe": [
     "CWE-276"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -12472,7 +12371,7 @@
     "CWE-306"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -13153,7 +13052,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Highcharts JS is a JavaScript charting library based on SVG. From 12.0.0 until 12.6.1 and 13.1.0, Highcharts falls back to assigning raw markup to innerHTML when DOMParser cannot return a document, before its allow-list is applied. In Chromium, the Trusted Types callback can thro…",
    "avisos": [],
    "avisos_total": 0
@@ -13256,7 +13155,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Kubeflow Pipelines enables users to build and deploy portable, scalable machine learning workflows. Prior to 2.18.0, the API server's GET /apis/v1alpha1/runs/{run_id}/nodes/{node_id}/log handler retrieved logs without authorizing the caller against the selected run. A caller who …",
    "avisos": [],
    "avisos_total": 0
@@ -13395,7 +13294,7 @@
    "cwe": [
     "CWE-201"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -14378,7 +14277,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Zoho Flow <= 2.14.5 versions.",
    "avisos": [],
    "avisos_total": 0
@@ -14748,6 +14647,102 @@
    "descripcion": "Grav from 1.7.53.3 before 1.7.53.6 contains an authorization bypass in Debugger::isDebuggerRequestAuthorized() that allows unauthenticated visitors to read /__clockwork/ profiler data via a loopback REMOTE_ADDR fallback. Behind a same-host reverse proxy, remote requests appear as…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-8822",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00307,
+   "epss_percentil": 0.23583,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-787"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "A memory corruption vulnerability exists in the vtkDEMReader ReadProfiles functionality of vtk (version(s): 9.6.1). A specially crafted USGS DEM can lead to a buffer overflow. An attacker can provide a malicious file to trigger this vulnerability.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-8824",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00307,
+   "epss_percentil": 0.23583,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-787"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "A memory corruption vulnerability exists in the vtkBMPReader ExecuteDataWithInformation functionality of vtk (version(s): 9.6.1). A specially crafted .bmp file can lead to a buffer overflow. An attacker can provide a malicious file to trigger this vulnerability.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-9536",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00307,
+   "epss_percentil": 0.23583,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "A heap-based buffer overflow vulnerability exists in the vtkWindBladeReader FindVariableOffsets functionality of vtk (version(s): 9.6.1). A specially crafted .wind can lead to a buffer overflow. An attacker can provide a malicious file to trigger this vulnerability.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-110662",
+   "publicado": "2026-10-28",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00307,
+   "epss_percentil": 0.23497,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The MxChat – AI Chatbot & Content Generation for WordPress plugin for WordPress is vulnerable to Stored DOM-Based Cross-Site Scripting via the 'feedback' parameter in all versions up to, and including, 3.2.25 due to insufficient input sanitization and output escaping. This makes …",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14764,7 +14759,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 221,
+   "maliciosos": 234,
    "maliciosos_mas": false,
    "avisos": 102,
    "avisos_mas": false,
@@ -14772,10 +14767,10 @@
    "altos": 51,
    "ejemplos_maliciosos": [
     {
-     "ghsa": "GHSA-367q-mf84-m8j3",
+     "ghsa": "GHSA-w4v4-fj9q-cfj5",
      "cve": null,
-     "paquete": "neuralwhatsapp",
-     "resumen": "Malware in neuralwhatsapp",
+     "paquete": "@pcb-dp/qa-commons",
+     "resumen": "Malware in @pcb-dp/qa-commons",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14783,10 +14778,10 @@
      "publicado": "2026-10-30"
     },
     {
-     "ghsa": "GHSA-5vmf-xjrj-jqhh",
+     "ghsa": "GHSA-x4jx-pc3h-93v6",
      "cve": null,
-     "paquete": "wrangler-deploy",
-     "resumen": "Malware in wrangler-deploy",
+     "paquete": "@sxm-content-creators/tools-ds",
+     "resumen": "Malware in @sxm-content-creators/tools-ds",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14794,10 +14789,10 @@
      "publicado": "2026-10-30"
     },
     {
-     "ghsa": "GHSA-5qgv-v3j9-f64g",
+     "ghsa": "GHSA-v8fw-jm5x-fgg2",
      "cve": null,
-     "paquete": "ourin-baileys",
-     "resumen": "Malware in ourin-baileys",
+     "paquete": "vas-tops2-reportingui",
+     "resumen": "Malware in vas-tops2-reportingui",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14805,10 +14800,10 @@
      "publicado": "2026-10-30"
     },
     {
-     "ghsa": "GHSA-gm35-cprq-hwp5",
+     "ghsa": "GHSA-7r8m-hmch-q36r",
      "cve": null,
-     "paquete": "apex-fetch",
-     "resumen": "Malware in apex-fetch",
+     "paquete": "vas-tops2-core-clients-search",
+     "resumen": "Malware in vas-tops2-core-clients-search",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14816,10 +14811,10 @@
      "publicado": "2026-10-30"
     },
     {
-     "ghsa": "GHSA-7vq2-mvjp-g5gf",
+     "ghsa": "GHSA-8j2v-vwh4-x2hm",
      "cve": null,
-     "paquete": "grizzly-baileys",
-     "resumen": "Malware in grizzly-baileys",
+     "paquete": "vas-tops2-core-client-cleanup-ui",
+     "resumen": "Malware in vas-tops2-core-client-cleanup-ui",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15148,10 +15143,10 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 13,
+   "avisos": 14,
    "avisos_mas": false,
    "criticos": 1,
-   "altos": 7,
+   "altos": 8,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
@@ -15454,13 +15449,25 @@
    "runtime": null,
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 0,
+   "avisos": 1,
    "avisos_mas": false,
-   "criticos": 0,
+   "criticos": 1,
    "altos": 0,
    "ejemplos_maliciosos": [],
-   "ejemplos_graves": [],
-   "estado": "sin_alertas"
+   "ejemplos_graves": [
+    {
+     "ghsa": "GHSA-5xjx-3w67-w9x9",
+     "cve": null,
+     "paquete": "pypa/gh-action-pypi-publish",
+     "resumen": "pypi-publish action revocation of CA in the chain that Sigstore uses in Trusted Publishing and Digital Attestations for PyPI",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": "1.14.3",
+     "publicado": "2026-10-30"
+    }
+   ],
+   "estado": "critico"
   }
  ],
  "sistemas": [
@@ -15468,9 +15475,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 818,
-   "criticos": 63,
-   "altos": 184,
+   "cves": 896,
+   "criticos": 70,
+   "altos": 214,
    "urgentes": 3,
    "epss_max": 0.0235,
    "fabricantes": [
@@ -15541,7 +15548,7 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 99,
+   "cves": 100,
    "criticos": 16,
    "altos": 21,
    "urgentes": 2,
@@ -15630,9 +15637,9 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 82,
-   "criticos": 9,
-   "altos": 38,
+   "cves": 85,
+   "criticos": 10,
+   "altos": 41,
    "urgentes": 2,
    "epss_max": 0.0149,
    "fabricantes": [
@@ -15792,7 +15799,7 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 175,
+   "cves": 179,
    "criticos": 2,
    "altos": 11,
    "urgentes": 0,
@@ -15845,10 +15852,10 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-110975",
+     "cve": "CVE-2026-92092",
      "fabricante": "Red Hat",
      "cvss": 7.4,
-     "epss": 0.00246,
+     "epss": 0.0024,
      "prioridad": "alta"
     }
    ]
@@ -15857,9 +15864,9 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 30,
-   "criticos": 4,
-   "altos": 12,
+   "cves": 28,
+   "criticos": 3,
+   "altos": 13,
    "urgentes": 0,
    "epss_max": 0.0091,
    "fabricantes": [
@@ -15889,13 +15896,6 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-115812",
-     "fabricante": "Amazon",
-     "cvss": 9.3,
-     "epss": 0.00529,
-     "prioridad": "alta"
-    },
-    {
      "cve": "CVE-2026-93328",
      "fabricante": "Google Cloud",
      "cvss": 9.3,
@@ -15914,6 +15914,13 @@
      "fabricante": "Docker",
      "cvss": 6.9,
      "epss": 0.0037,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-119119",
+     "fabricante": "Docker",
+     "cvss": 7.5,
+     "epss": 0.00359,
      "prioridad": "alta"
     }
    ]
@@ -16074,15 +16081,15 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1051,
-   "criticos": 80,
-   "altos": 341,
-   "urgentes": 9,
+   "cves": 1068,
+   "criticos": 89,
+   "altos": 360,
+   "urgentes": 13,
    "epss_max": 0.0284,
    "fabricantes": [
-    "Zephyr RTOS",
     "Rclone",
     "Vllm",
+    "Zephyr RTOS",
     "Elastic",
     "Eclipse"
    ],
@@ -16171,7 +16178,7 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 25,
+   "cves": 23,
    "criticos": 6,
    "altos": 6,
    "urgentes": 4,
@@ -16180,8 +16187,8 @@
     "TOTOLINK",
     "TP-Link",
     "Linksys",
-    "Tenda",
-    "Unitree"
+    "Unitree",
+    "D-Link"
    ],
    "kev_recientes": [],
    "kev_recientes_total": 0,
@@ -16227,10 +16234,10 @@
    "categoria": "oss",
    "nombre": "Librerías de código abierto",
    "estado": "riesgo_alto",
-   "cves": 314,
-   "criticos": 25,
-   "altos": 140,
-   "urgentes": 2,
+   "cves": 365,
+   "criticos": 31,
+   "altos": 163,
+   "urgentes": 3,
    "epss_max": 0.0196,
    "fabricantes": [
     "Código abierto (GitHub)",
@@ -16254,6 +16261,13 @@
      "prioridad": "urgente"
     },
     {
+     "cve": "CVE-2026-55598",
+     "fabricante": "Código abierto (GitHub)",
+     "cvss": 9.1,
+     "epss": null,
+     "prioridad": "urgente"
+    },
+    {
      "cve": "CVE-2026-59177",
      "fabricante": "Código abierto (GitHub)",
      "cvss": 8.8,
@@ -16265,13 +16279,6 @@
      "fabricante": "Código abierto (GitHub)",
      "cvss": 9.9,
      "epss": 0.0099,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-57200",
-     "fabricante": "Código abierto (GitHub)",
-     "cvss": 7.5,
-     "epss": 0.00879,
      "prioridad": "alta"
     }
    ]
@@ -16336,9 +16343,9 @@
    "categoria": "apple",
    "nombre": "Apple (macOS · iOS)",
    "estado": "vigilar",
-   "cves": 337,
+   "cves": 336,
    "criticos": 0,
-   "altos": 24,
+   "altos": 25,
    "urgentes": 0,
    "epss_max": 0.0073,
    "fabricantes": [
@@ -16388,15 +16395,15 @@
    "categoria": "ia",
    "nombre": "IA y agentes (LLM · MCP)",
    "estado": "vigilar",
-   "cves": 26,
+   "cves": 27,
    "criticos": 0,
-   "altos": 17,
+   "altos": 18,
    "urgentes": 0,
    "epss_max": 0.0139,
    "fabricantes": [
     "NVIDIA",
-    "Langflow",
-    "Langchain"
+    "Langchain",
+    "Langflow"
    ],
    "kev_recientes": [],
    "kev_recientes_total": 0,
@@ -16442,7 +16449,7 @@
    "categoria": "android",
    "nombre": "Android",
    "estado": "vigilar",
-   "cves": 6,
+   "cves": 7,
    "criticos": 0,
    "altos": 2,
    "urgentes": 0,
