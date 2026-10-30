@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-29 23:13",
+ "generado_utc": "2026-10-30 04:09",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,20 +10,20 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3246,
-  "criticos": 241,
+  "cves": 3273,
+  "criticos": 239,
   "explotados": 1,
   "urgentes": 19,
   "epss_10": 0,
-  "sin_puntuar": 870,
+  "sin_puntuar": 901,
   "por_prioridad": {
    "explotada": 1,
    "urgente": 19,
-   "alta": 1210,
-   "media": 998,
-   "baja": 1018
+   "alta": 1202,
+   "media": 1000,
+   "baja": 1051
   },
-  "paquetes_maliciosos": 334,
+  "paquetes_maliciosos": 254,
   "exploit_publico": 0,
   "poc_github": 58,
   "ransomware": 0,
@@ -3732,30 +3732,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-19677",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00533,
-   "epss_percentil": 0.44964,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-306"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "An authentication bypass vulnerability in the public onPhase/ frevvo registration form version 11.0.14 allows an unauthenticated remote attacker to authenticate as an arbitrary tenant user, obtain TenantAdmin and Designer privileges, and execute arbitrary operating system command…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-57197",
    "publicado": "2026-10-27",
    "prioridad": "alta",
@@ -4301,54 +4277,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "This issue was addressed with improved access restrictions. This issue is fixed in macOS Golden Gate 27.2. Unpacking a maliciously crafted archive may lead to unexpected app termination or arbitrary code execution.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-107861",
-   "publicado": "2026-10-22",
-   "prioridad": "alta",
-   "cvss": 9.4,
-   "gravedad": "critical",
-   "epss": 0.00512,
-   "epss_percentil": 0.43561,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The system control service on affected Kiloview E3 NDI encoder firmware fails to sanitize the hostname parameter accepted by its device naming endpoint, passing it unquoted into a shell command. An authenticated web user with access to this function can embed characters to execut…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-110243",
-   "publicado": "2026-10-22",
-   "prioridad": "alta",
-   "cvss": 9.4,
-   "gravedad": "critical",
-   "epss": 0.00512,
-   "epss_percentil": 0.4356,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The network management service on affected Kiloview E3 NDI encoder firmware fails to validate the network interface name accepted by its link maintenance address configuration endpoint before passing it to a shell command, unlike sibling handlers that perform the same validation.…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -7348,30 +7276,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-110825",
-   "publicado": "2026-10-22",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00413,
-   "epss_percentil": 0.35586,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-306"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The ONVIF device service on affected Kiloview E3 NDI encoder firmware accepts hostname, DNS, and NTP configuration write operations without requiring authentication, regardless of the device's configured authentication setting for this service. A remote, unauthenticated attacker …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-114704",
    "publicado": "2026-10-24",
    "prioridad": "alta",
@@ -8602,30 +8506,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-19678",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00386,
-   "epss_percentil": 0.32612,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Apache",
-   "cwe": [
-    "CWE-918"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "A server-side request forgery (SSRF) vulnerability in the unauthenticated form service in version 11.0.14 in onPhase Forms allows an unauthenticated remote attacker to access sensitive internal Apache Solr data via an attacker-controlled URL supplied to a publicly accessible form…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-116808",
    "publicado": "2026-10-27",
    "prioridad": "alta",
@@ -8965,30 +8845,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "PraisonAI is a multi-agent teams system. From version 4.5.2 to before version 4.6.59, praisonai.bots.HTTPApproval renders pending tool approval arguments directly into the approval dashboard HTML. An attacker-controlled tool argument can inject JavaScript into that page. When a h…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92450",
-   "publicado": "2026-10-22",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00375,
-   "epss_percentil": 0.31449,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-798"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "The authentication framework used by affected Kiloview E3 NDI encoder firmware signs session JSON Web Tokens using an HMAC-SHA256 secret hardcoded as a static string within the firmware image, identical across all deployed devices. An attacker with access to the publicly distribu…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10964,31 +10820,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-115534",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 2.1,
-   "gravedad": "low",
-   "epss": 0.00342,
-   "epss_percentil": 0.27636,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-79",
-    "CWE-94"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was determined in gedelumbung HospitalManagement up to c2d45543789a3887067d3915f69d44cfc2cf76a8. Impacted is the function kirim of the file application/modules/web/controllers/contact.php of the component Contact Form. Executing a manipulation of the argument nama…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-103799",
    "publicado": "2026-10-28",
    "prioridad": "alta",
@@ -11929,30 +11760,6 @@
     }
    ],
    "avisos_total": 1
-  },
-  {
-   "cve": "CVE-2026-115537",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 2.1,
-   "gravedad": "low",
-   "epss": 0.00324,
-   "epss_percentil": 0.25375,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-601"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A weakness has been identified in gedelumbung HospitalManagement up to c2d45543789a3887067d3915f69d44cfc2cf76a8. This affects the function simpan of the file application/modules/admin/controllers/routing_pages.php of the component URL Validation. This manipulation of the argument…",
-   "avisos": [],
-   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-116262",
@@ -14804,6 +14611,210 @@
     }
    ],
    "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-117494",
+   "publicado": "2026-10-27",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00284,
+   "epss_percentil": 0.20886,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Cross-Site Scripting (XSS) in the processing of SVG images submitted to the /api/v2/ai/sessions API in the format data:image/svg+xml;base64. Script tags embedded in the SVG are processed when the content is rendered in the assistant window, allowing JavaScript to be executed and …",
+   "avisos": [
+    {
+     "fuente": "incibe",
+     "nombre": "INCIBE-CERT",
+     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-cloud-bi-platform-de-sisense"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-118357",
+   "publicado": "2026-10-27",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00283,
+   "epss_percentil": 0.20788,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in FileSystem in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [
+    {
+     "fuente": "chrome",
+     "nombre": "Google Chrome",
+     "enlace": "http://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-118359",
+   "publicado": "2026-10-27",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00283,
+   "epss_percentil": 0.20788,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-119"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Memory corruption in V8 in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116163",
+   "publicado": "2026-10-25",
+   "prioridad": "alta",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.00282,
+   "epss_percentil": 0.20674,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-287"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Parse Server before 8.6.102 and 9.0.0 before 9.10.5-alpha.2 contains an authentication bypass because the validateSetUp, validateLogin, and validateUpdate methods of custom adapters subclassing AuthAdapter are never called, and an inherited default that accepts any authData is us…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-118510",
+   "publicado": "2026-10-28",
+   "prioridad": "alta",
+   "cvss": 7.7,
+   "gravedad": "high",
+   "epss": 0.00282,
+   "epss_percentil": 0.20744,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-843"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "A type-handling flaw in the relationship query building of this MongoDB integration library can cause a check for the absence of a related record to be compiled with an identifier of the wrong data type. In an application that relies on such a check to decide which documents a re…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-106174",
+   "publicado": "2026-10-27",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00282,
+   "epss_percentil": 0.20727,
+   "kev": false,
+   "categoria": "red",
+   "fabricante": "Fortinet",
+   "cwe": [
+    "CWE-667"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "A improper locking vulnerability in Fortinet FortiOS 8.0.0, FortiOS 7.6.4 through 7.6.6 may allow an unauthenticated attacker with network access to the device to cause a denial of service of the HTTPS management interface via crafted HTTP requests.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-109936",
+   "publicado": "2026-10-23",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00282,
+   "epss_percentil": 0.20686,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "Wordpress",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The Otter Blocks WordPress plugin before 3.2.8 does not correctly bound a pattern it uses to rewrite its dynamic-content tokens while rendering blocks, so the pattern can consume the quote that closes an HTML attribute and pull adjacent unescaped data into the markup as new attri…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-61569",
+   "publicado": "2026-10-28",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00282,
+   "epss_percentil": 0.20756,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-89"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "AVideo is a video-sharing Platform. Prior to 8.1.0, the unauthenticated streamer login at `objects/login.json.php` passes the `user` parameter to `Streamer::get` in `objects/Streamer.php`, where it is interpolated into a single-quoted MariaDB SELECT without parameterization or es…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14820,12 +14831,12 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 244,
+   "maliciosos": 211,
    "maliciosos_mas": false,
-   "avisos": 130,
+   "avisos": 100,
    "avisos_mas": false,
-   "criticos": 7,
-   "altos": 57,
+   "criticos": 3,
+   "altos": 49,
    "ejemplos_maliciosos": [
     {
      "ghsa": "GHSA-cjmr-6xg2-vf8h",
@@ -14885,17 +14896,6 @@
    ],
    "ejemplos_graves": [
     {
-     "ghsa": "GHSA-mchm-gjx6-7h55",
-     "cve": "CVE-2026-114139",
-     "paquete": "@sentry/nextjs",
-     "resumen": "Sentry-Javascript: Middleware Bypass when using Tunnel route",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": 0.0051,
-     "corregido_en": "9.47.2",
-     "publicado": "2026-10-22"
-    },
-    {
      "ghsa": "GHSA-965c-763c-88jm",
      "cve": "CVE-2026-114607",
      "paquete": "better-auth",
@@ -14918,26 +14918,37 @@
      "publicado": "2026-10-23"
     },
     {
-     "ghsa": "GHSA-673q-mjm6-r5xr",
-     "cve": null,
-     "paquete": "next",
-     "resumen": "Next.js: Unauthenticated Remote Code Execution in `use cache` functions returning typed arrays",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": "16.4.1",
-     "publicado": "2026-10-22"
+     "ghsa": "GHSA-jwc4-922r-f2rw",
+     "cve": "CVE-2026-106764",
+     "paquete": "@rog0x/mcp-git-tools",
+     "resumen": "@rog0x/mcp-git-tools executes arbitrary code via the resolveBaseBranch function",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": 0.00524,
+     "corregido_en": null,
+     "publicado": "2026-10-23"
     },
     {
-     "ghsa": "GHSA-cg2g-xh64-v4q7",
-     "cve": null,
-     "paquete": "dompurify",
-     "resumen": "DOMPurify SAFE_FOR_TEMPLATES bypass: split template expressions survive in attached shadow root content on DOM output modes",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": "3.4.17",
-     "publicado": "2026-10-22"
+     "ghsa": "GHSA-2vq3-mpmf-9xgr",
+     "cve": "CVE-2026-106763",
+     "paquete": "@justice8096/sagemath-mcp-server",
+     "resumen": "@justice8096/sagemath-mcp-server: executes arbitrary code via the escapeShellString and sanitizeCode functions",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": 0.00503,
+     "corregido_en": null,
+     "publicado": "2026-10-23"
+    },
+    {
+     "ghsa": "GHSA-rh54-vffm-5fvp",
+     "cve": "CVE-2026-116688",
+     "paquete": "ckeditor5, @ckeditor/ckeditor5-engine",
+     "resumen": "CKEditor: Cross-site scripting (XSS) in the engine package",
+     "gravedad": "high",
+     "cvss": 8.1,
+     "epss": 0.00497,
+     "corregido_en": "47.7.4",
+     "publicado": "2026-10-27"
     }
    ],
    "estado": "maliciosos"
@@ -14954,13 +14965,35 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 89,
+   "maliciosos": 43,
    "maliciosos_mas": false,
-   "avisos": 145,
+   "avisos": 116,
    "avisos_mas": false,
-   "criticos": 9,
-   "altos": 59,
+   "criticos": 6,
+   "altos": 41,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-9wjc-g5vf-3m22",
+     "cve": null,
+     "paquete": "test-01-rafamarrara-learning-dc",
+     "resumen": "Malicious code in test-01-rafamarrara-learning-dc (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-10-30"
+    },
+    {
+     "ghsa": "GHSA-w3jr-q4jr-xq95",
+     "cve": null,
+     "paquete": "twitter-request-diagnostics",
+     "resumen": "Malicious code in twitter-request-diagnostics (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-10-30"
+    },
     {
      "ghsa": "GHSA-9r7r-h4fq-xj8p",
      "cve": null,
@@ -14993,42 +15026,9 @@
      "epss": null,
      "corregido_en": null,
      "publicado": "2026-10-29"
-    },
-    {
-     "ghsa": "GHSA-rm9p-x4m7-hxmp",
-     "cve": null,
-     "paquete": "trajmetrics",
-     "resumen": "Malicious code in trajmetrics (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-10-28"
-    },
-    {
-     "ghsa": "GHSA-g9fj-q87h-6h4c",
-     "cve": null,
-     "paquete": "numprint",
-     "resumen": "Malicious code in numprint (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-10-27"
     }
    ],
    "ejemplos_graves": [
-    {
-     "ghsa": "GHSA-9v8h-qqgm-4m35",
-     "cve": "CVE-2026-111497",
-     "paquete": "brotli, brotlicffi",
-     "resumen": "Brotli: Out-of-bounds write in the Brotli decoder (\"Node2Shell\") also affects the PyPI Brotli package",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": 0.87988,
-     "corregido_en": "1.2.1",
-     "publicado": "2026-10-22"
-    },
     {
      "ghsa": "GHSA-m4w4-3r8h-jw98",
      "cve": "CVE-2026-35002",
@@ -15063,15 +15063,26 @@
      "publicado": "2026-10-23"
     },
     {
-     "ghsa": "GHSA-v9pv-5gc8-w2m6",
-     "cve": "CVE-2026-96639",
-     "paquete": "Pillow",
-     "resumen": "Pillow multi-frame loaders can reuse stale native image storage after mode transitions",
+     "ghsa": "GHSA-6v38-4h7w-rj9h",
+     "cve": "CVE-2026-96760",
+     "paquete": "authlib",
+     "resumen": "Authlib: empty signatures validation in JWS JSON deserialization",
      "gravedad": "critical",
-     "cvss": 9.8,
-     "epss": 0.00659,
-     "corregido_en": "13.0.0",
-     "publicado": "2026-10-22"
+     "cvss": 9.1,
+     "epss": 0.00433,
+     "corregido_en": "1.9.0",
+     "publicado": "2026-10-27"
+    },
+    {
+     "ghsa": "GHSA-6jp4-8v48-cc5v",
+     "cve": "CVE-2026-117601",
+     "paquete": "electrum",
+     "resumen": "Electrum: Malicious server can replace a just-broadcast tx and try to trick user into RBF-ing it",
+     "gravedad": "critical",
+     "cvss": 7.5,
+     "epss": 0.00176,
+     "corregido_en": "4.8.3",
+     "publicado": "2026-10-28"
     }
    ],
    "estado": "maliciosos"
@@ -15295,7 +15306,7 @@
      "resumen": "Echo: Rejected WebSocket upgrades can bypass Echo route-level access controls",
      "gravedad": "critical",
      "cvss": null,
-     "epss": null,
+     "epss": 0.0043,
      "corregido_en": "4.16.1",
      "publicado": "2026-10-23"
     },
@@ -15333,15 +15344,15 @@
      "publicado": "2026-10-27"
     },
     {
-     "ghsa": "GHSA-vg84-c5mg-76xh",
-     "cve": "CVE-2026-116683",
-     "paquete": "github.com/ctfer-io/terraform-provider-ctfd, github.com/ctfer-io/terraform-provider-ctfd/v2",
-     "resumen": "CTFer.io's CTFd Terraform Provider allows a local or remote attacker to read team passwords in state as non sensitive values",
+     "ghsa": "GHSA-375p-5qhx-8wq4",
+     "cve": "CVE-2026-118650",
+     "paquete": "github.com/labstack/echo/v5, github.com/labstack/echo/v4",
+     "resumen": "Echo's middleware.Static: `%2F`-encoded path bypasses route/group middleware guarding a statically-served path",
      "gravedad": "high",
-     "cvss": null,
-     "epss": 0.00379,
-     "corregido_en": "2.8.2",
-     "publicado": "2026-10-27"
+     "cvss": 7.5,
+     "epss": 0.00396,
+     "corregido_en": "5.4.0",
+     "publicado": "2026-10-28"
     }
    ],
    "estado": "critico"
@@ -15360,10 +15371,10 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 19,
+   "avisos": 17,
    "avisos_mas": false,
    "criticos": 3,
-   "altos": 5,
+   "altos": 4,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
@@ -15387,17 +15398,6 @@
      "epss": 0.0032,
      "corregido_en": "9.0.5",
      "publicado": "2026-10-28"
-    },
-    {
-     "ghsa": "GHSA-cpvr-w4j5-2mpg",
-     "cve": "CVE-2026-96889",
-     "paquete": "librsvg",
-     "resumen": "Librsvg: Use-after-free when XML includes have duplicated entities",
-     "gravedad": "high",
-     "cvss": 7.8,
-     "epss": 0.00529,
-     "corregido_en": "2.57.5",
-     "publicado": "2026-10-22"
     },
     {
      "ghsa": "GHSA-q54r-jf2p-rfr2",
@@ -15425,25 +15425,13 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 1,
+   "maliciosos": 0,
    "maliciosos_mas": false,
    "avisos": 5,
    "avisos_mas": false,
    "criticos": 0,
    "altos": 1,
-   "ejemplos_maliciosos": [
-    {
-     "ghsa": "GHSA-86pf-258h-xmh8",
-     "cve": null,
-     "paquete": "zzhelloworld_socktest",
-     "resumen": "Malicious code in zzhelloworld_socktest (RubyGems)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-10-22"
-    }
-   ],
+   "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
      "ghsa": "GHSA-6j52-38f8-qhxr",
@@ -15457,7 +15445,7 @@
      "publicado": "2026-10-29"
     }
    ],
-   "estado": "maliciosos"
+   "estado": "alto"
   },
   {
    "ecosistema": "erlang",
@@ -15547,7 +15535,7 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 695,
+   "cves": 691,
    "criticos": 75,
    "altos": 175,
    "urgentes": 3,
@@ -15620,9 +15608,9 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 99,
+   "cves": 98,
    "criticos": 17,
-   "altos": 21,
+   "altos": 20,
    "urgentes": 1,
    "epss_max": 0.013,
    "fabricantes": [
@@ -15806,9 +15794,9 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 379,
+   "cves": 382,
    "criticos": 4,
-   "altos": 61,
+   "altos": 59,
    "urgentes": 0,
    "epss_max": 0.0065,
    "fabricantes": [
@@ -15866,73 +15854,12 @@
    ]
   },
   {
-   "categoria": "apple",
-   "nombre": "Apple (macOS · iOS)",
-   "estado": "explotacion_activa",
-   "cves": 335,
-   "criticos": 0,
-   "altos": 24,
-   "urgentes": 0,
-   "epss_max": 0.0071,
-   "fabricantes": [
-    "Apple"
-   ],
-   "kev_recientes": [
-    {
-     "cve": "CVE-2026-86950",
-     "fabricante": "Apple",
-     "producto": "Multiple Products",
-     "nombre": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
-     "anadido": "2026-09-29",
-     "ransomware": false
-    }
-   ],
-   "kev_recientes_total": 1,
-   "destacados": [
-    {
-     "cve": "CVE-2026-112438",
-     "fabricante": "Apple",
-     "cvss": 8.8,
-     "epss": 0.00713,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-112427",
-     "fabricante": "Apple",
-     "cvss": 8.1,
-     "epss": 0.00688,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-86929",
-     "fabricante": "Apple",
-     "cvss": 8.8,
-     "epss": 0.00653,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-112688",
-     "fabricante": "Apple",
-     "cvss": 8.8,
-     "epss": 0.00635,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-112655",
-     "fabricante": "Apple",
-     "cvss": 8.8,
-     "epss": 0.00593,
-     "prioridad": "alta"
-    }
-   ]
-  },
-  {
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 76,
-   "criticos": 8,
-   "altos": 34,
+   "cves": 79,
+   "criticos": 9,
+   "altos": 36,
    "urgentes": 0,
    "epss_max": 0.0077,
    "fabricantes": [
@@ -16194,9 +16121,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 959,
-   "criticos": 85,
-   "altos": 322,
+   "cves": 961,
+   "criticos": 82,
+   "altos": 321,
    "urgentes": 8,
    "epss_max": 0.0284,
    "fabricantes": [
@@ -16400,7 +16327,7 @@
    "categoria": "navegadores",
    "nombre": "Navegadores",
    "estado": "riesgo_alto",
-   "cves": 232,
+   "cves": 253,
    "criticos": 12,
    "altos": 37,
    "urgentes": 0,
@@ -16510,7 +16437,7 @@
    "categoria": "android",
    "nombre": "Android",
    "estado": "riesgo_alto",
-   "cves": 11,
+   "cves": 12,
    "criticos": 1,
    "altos": 6,
    "urgentes": 0,
@@ -16554,6 +16481,58 @@
      "fabricante": "Android",
      "cvss": 7.0,
      "epss": 0.00155,
+     "prioridad": "alta"
+    }
+   ]
+  },
+  {
+   "categoria": "apple",
+   "nombre": "Apple (macOS · iOS)",
+   "estado": "vigilar",
+   "cves": 337,
+   "criticos": 0,
+   "altos": 24,
+   "urgentes": 0,
+   "epss_max": 0.0071,
+   "fabricantes": [
+    "Apple"
+   ],
+   "kev_recientes": [],
+   "kev_recientes_total": 0,
+   "destacados": [
+    {
+     "cve": "CVE-2026-112438",
+     "fabricante": "Apple",
+     "cvss": 8.8,
+     "epss": 0.00713,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-112427",
+     "fabricante": "Apple",
+     "cvss": 8.1,
+     "epss": 0.00688,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-86929",
+     "fabricante": "Apple",
+     "cvss": 8.8,
+     "epss": 0.00653,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-112688",
+     "fabricante": "Apple",
+     "cvss": 8.8,
+     "epss": 0.00635,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-112655",
+     "fabricante": "Apple",
+     "cvss": 8.8,
+     "epss": 0.00593,
      "prioridad": "alta"
     }
    ]
