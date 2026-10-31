@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-30 22:03",
+ "generado_utc": "2026-10-31 03:51",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -297,7 +297,7 @@
    "kev": true,
    "cvss": null,
    "epss": 0.82641,
-   "ultimo": "2026-10-30T19:55Z"
+   "ultimo": "2026-10-31T03:15Z"
   },
   {
    "cve": "CVE-2026-109619",
@@ -435,10 +435,33 @@
  ],
  "avisos": [
   {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-111497",
+   "fecha": "2026-10-31T03:15Z",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": true,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-111497"
+   ],
+   "explotada": true,
+   "critica": true,
+   "cvss_max": null,
+   "epss_max": 0.8264,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "debian",
    "titulo": "DSA-6597-1 dpdk - security update",
    "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00516.html",
-   "fecha": "2026-10-30T22:03Z",
+   "fecha": "2026-10-31T00:00Z",
    "cves": [],
    "cves_total": 0,
    "texto_explotada": false,
@@ -1390,6 +1413,25 @@
    "exploitdb": null
   },
   {
+   "fuente": "debian",
+   "titulo": "DSA-6598-1 thunderbird - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00517.html",
+   "fecha": "2026-10-30T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "paloalto",
    "titulo": "CVE-2026-109618 Impact of Critical Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Palo Alto Networks Products (Severity: CRITICAL)",
    "enlace": "https://security.paloaltonetworks.com/CVE-2026-109618",
@@ -2175,29 +2217,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-111497",
-   "fecha": "2026-10-29T05:30Z",
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111497"
-   ],
-   "explotada": true,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": 0.8264,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6984,25 +7003,6 @@
    "critica": true,
    "cvss_max": null,
    "epss_max": 0.7331,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6583-1 libheif - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00499.html",
-   "fecha": "2026-10-24T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   }

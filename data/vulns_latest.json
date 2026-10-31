@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-30 22:03",
+ "generado_utc": "2026-10-31 03:50",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3402,
-  "criticos": 248,
+  "cves": 3425,
+  "criticos": 246,
   "explotados": 1,
-  "urgentes": 27,
+  "urgentes": 29,
   "epss_10": 0,
-  "sin_puntuar": 800,
+  "sin_puntuar": 799,
   "por_prioridad": {
    "explotada": 1,
-   "urgente": 27,
-   "alta": 1253,
-   "media": 1160,
-   "baja": 961
+   "urgente": 29,
+   "alta": 1288,
+   "media": 1149,
+   "baja": 958
   },
-  "paquetes_maliciosos": 279,
+  "paquetes_maliciosos": 235,
   "exploit_publico": 0,
-  "poc_github": 57,
+  "poc_github": 58,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -69,31 +69,6 @@
     }
    ],
    "avisos_total": 6
-  },
-  {
-   "cve": "CVE-2026-116505",
-   "publicado": "2026-10-26",
-   "prioridad": "urgente",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.02741,
-   "epss_percentil": 0.86149,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "TOTOLINK",
-   "cwe": [
-    "CWE-74",
-    "CWE-77"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function getDeviceInfo of the file /var/lib/misc/udhcpd.leases of the component device-information Handler. The manipulation of the argument MAC address results in command injection. The attack …",
-   "avisos": [],
-   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-116485",
@@ -436,6 +411,31 @@
    "avisos_total": 0
   },
   {
+   "cve": "CVE-2026-116508",
+   "publicado": "2026-10-26",
+   "prioridad": "urgente",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": 0.00609,
+   "epss_percentil": 0.49109,
+   "kev": false,
+   "categoria": "iot",
+   "fabricante": "TOTOLINK",
+   "cwe": [
+    "CWE-119",
+    "CWE-121"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this issue is the function sub_402340 of the file infostat.cgi of the component Device-Information CGI. Performing a manipulation of the argument CONTENT_LENGTH results in stack-based buffe…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
    "cve": "CVE-2026-63190",
    "publicado": "2026-10-28",
    "prioridad": "urgente",
@@ -530,6 +530,55 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "An issue in Shelter versionCode 445 allows attackers to register their own auth_key and execute a takeover of another user's binder service API and preference state.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-102649",
+   "publicado": "2026-10-26",
+   "prioridad": "urgente",
+   "cvss": 9.9,
+   "gravedad": "critical",
+   "epss": 0.00458,
+   "epss_percentil": 0.39703,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-306",
+    "CWE-863"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Burrito is a Terraform Automation Collaboration Software (TACoS) Kubernetes operator. Prior to 0.13.0, `POST /api/webhook` accepts unsigned GitHub and GitLab events when a `TerraformRepository`'s credentials omit `webhookSecret` or set it to an empty value, including credentials …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-78845",
+   "publicado": "2026-10-27",
+   "prioridad": "urgente",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00327,
+   "epss_percentil": 0.25763,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-94"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Aidot products Linkind Matter Smart Plug 1.01.32, OREiN Matter Smart Light Bulb 3.15.21, and Linkind Wi-Fi Smart Light Bulb 3.30.17 are vulnerable to Remote Code Execution (RCE) via UPnP root description parsing.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -750,6 +799,31 @@
    "avisos_total": 0
   },
   {
+   "cve": "CVE-2026-116505",
+   "publicado": "2026-10-26",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.02741,
+   "epss_percentil": 0.86149,
+   "kev": false,
+   "categoria": "iot",
+   "fabricante": "TOTOLINK",
+   "cwe": [
+    "CWE-74",
+    "CWE-77"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function getDeviceInfo of the file /var/lib/misc/udhcpd.leases of the component device-information Handler. The manipulation of the argument MAC address results in command injection. The attack …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
    "cve": "CVE-2026-112351",
    "publicado": "2026-10-27",
    "prioridad": "alta",
@@ -873,7 +947,7 @@
    "cve": "CVE-2026-116219",
    "publicado": "2026-10-26",
    "prioridad": "alta",
-   "cvss": 7.2,
+   "cvss": 8.6,
    "gravedad": "high",
    "epss": 0.02078,
    "epss_percentil": 0.81469,
@@ -888,7 +962,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Dolibarr ERP CRM before 24.0.0 contains an OS command injection vulnerability in htdocs/admin/tools/export.php that lets authenticated administrators bypass the restrict_os_commands allowlist. Attackers can submit a mysqldump value chaining commands with & characters around an al…",
    "avisos": [],
    "avisos_total": 0
@@ -1116,7 +1190,7 @@
    "cve": "CVE-2026-116748",
    "publicado": "2026-10-26",
    "prioridad": "alta",
-   "cvss": 8.8,
+   "cvss": 8.7,
    "gravedad": "high",
    "epss": 0.01246,
    "epss_percentil": 0.6928,
@@ -1131,7 +1205,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Transmission 4.0.0 before 4.1.3 contains a permissive CORS vulnerability in handle_request() in rpc-server.cc that exposes the X-Transmission-Session-Id anti-CSRF token to any web origin. Malicious web pages can read the token from the 409 handshake response and replay it to issu…",
    "avisos": [],
    "avisos_total": 0
@@ -1302,30 +1376,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The BPMN System REST APIs do not sufficiently validate input parameters, allowing authenticated users to submit crafted requests that can lead to the execution of arbitrary commands on the server. An authenticated user can leverage this vulnerability to execute arbitrary commands…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115893",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.0099,
-   "epss_percentil": 0.62478,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-691"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Wasmtime is a runtime for WebAssembly. Prior to 36.0.19, 48.0.7, and 49.0.4, the Cranelift compiler backend on aarch64 can compile a Wasm br_table instruction with more than approximately 256,000 targets so that it has an incorrect conditional branch target. The branch can then j…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1921,7 +1971,7 @@
     "CWE-434"
    ],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -2361,31 +2411,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, the `PostgreSQL` and `TDS/MSSQL` Channel Event Log backends `cel_pgsql` and `cel_tds` may permit arbitrary…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115886",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 6.5,
-   "gravedad": "medium",
-   "epss": 0.00676,
-   "epss_percentil": 0.52212,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-470",
-    "CWE-918"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. From 3.12.0rc0 until 3.17.0, the scorer invoke, register, and GenAI evaluate endpoints, including unauthenticated POST /ajax-api/3.0/mlflow/scorer/invoke, accept seria…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -2875,8 +2900,8 @@
    "cve": "CVE-2026-116257",
    "publicado": "2026-10-26",
    "prioridad": "alta",
-   "cvss": 7.3,
-   "gravedad": "high",
+   "cvss": 5.5,
+   "gravedad": "medium",
    "epss": 0.00627,
    "epss_percentil": 0.50008,
    "kev": false,
@@ -2891,7 +2916,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "poc",
    "descripcion": "A vulnerability was determined in BillaBear up to 2025.01.03. Affected by this issue is the function processInstall of the file src/BillaBear/Controller/InstallController.php of the component Installation Handler. This manipulation causes missing authentication. Remote exploitati…",
    "avisos": [],
    "avisos_total": 0
@@ -3032,37 +3057,12 @@
     "CWE-434"
    ],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The Checkout Files Upload for WooCommerce WordPress plugin before 2.4.0 does not validate uploaded file types when its accepted file types setting is left empty, which it documents as the way to accept all files, allowing unauthenticated users to upload arbitrary files, including…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-116508",
-   "publicado": "2026-10-26",
-   "prioridad": "alta",
-   "cvss": 10.0,
-   "gravedad": "critical",
-   "epss": 0.00609,
-   "epss_percentil": 0.49109,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "TOTOLINK",
-   "cwe": [
-    "CWE-119",
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this issue is the function sub_402340 of the file infostat.cgi of the component Device-Information CGI. Performing a manipulation of the argument CONTENT_LENGTH results in stack-based buffe…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -3629,12 +3629,12 @@
    "epss": 0.00585,
    "epss_percentil": 0.47946,
    "kev": false,
-   "categoria": "microsoft",
+   "categoria": "navegadores",
    "fabricante": "Microsoft",
    "cwe": [
     "CWE-416"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -5366,7 +5366,7 @@
    "cve": "CVE-2026-116811",
    "publicado": "2026-10-27",
    "prioridad": "alta",
-   "cvss": 8.8,
+   "cvss": 8.7,
    "gravedad": "high",
    "epss": 0.00494,
    "epss_percentil": 0.42379,
@@ -5381,7 +5381,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "poc",
    "descripcion": "OpenPanel before 3.0.0 contains a sandbox escape vulnerability in the js-runtime validator that allows a project member to bypass the AST allowlist by aliasing the Function constructor. Attackers with write access can read payload.constructor.constructor into a local and call it …",
    "avisos": [],
    "avisos_total": 0
@@ -5603,30 +5603,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-115887",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00487,
-   "epss_percentil": 0.41907,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-1333"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "GraphQL Scalars is a library of custom GraphQL scalars for creating precise type-safe GraphQL schemas. From 1.24.1 until 2.0.1, GraphQLPhoneNumber in src/scalars/PhoneNumber.ts uses ambiguous nested digit quantifiers that backtrack exponentially when a PhoneNumber value contains …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-118683",
    "publicado": "2026-10-28",
    "prioridad": "alta",
@@ -5647,31 +5623,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "MONAI from 1.2.0 before 1.6.1 contains a remote code execution vulnerability in ConfigWorkflow.__init__, which passes a bundle's configs/logging.conf to logging.config.fileConfig that eval()s handler class and args fields. Attackers can publish a malicious bundle whose logging.co…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115931",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.00485,
-   "epss_percentil": 0.41728,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-470",
-    "CWE-73"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "Postiz lets a signed-in user ask the backend to run a function on one of their connected channels. The backend did not restrict which functions can be requested, so a user could call internal helper functions that were never meant to be reachable from the web interface. One of th…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -5967,30 +5918,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-115895",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00473,
-   "epss_percentil": 0.40933,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Happy DOM is a JavaScript implementation of a web browser without its graphical user interface. From 17.0.0 until 21.0.4, packages/happy-dom/src/module/ECMAScriptModuleCompiler.ts accepts a named ESM import alias without validating that it is a JavaScript binding identifier befor…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-86384",
    "publicado": "2026-10-28",
    "prioridad": "alta",
@@ -6033,7 +5960,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Syncplify Server! before 8.8.0 contains an access control bypass vulnerability that allows authenticated SFTP users to evade per-path permission overrides by exploiting case-insensitive filesystem path resolution and 8.3 short names. Attackers can address a protected directory us…",
    "avisos": [],
    "avisos_total": 0
@@ -6091,6 +6018,30 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The Frontend Dashboard WordPress plugin before 3.0.5, ProfileGrid WordPress plugin before 6.0.0.5 do not prevent an unauthenticated user from storing a serialized PHP object in user metadata that is deserialized when a public profile is viewed, allowing PHP object injection that …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116602",
+   "publicado": "2026-10-26",
+   "prioridad": "alta",
+   "cvss": 5.5,
+   "gravedad": "medium",
+   "epss": 0.00469,
+   "epss_percentil": 0.40611,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A vulnerability was detected in SourceCodester Online Food Ordering System 1.0. This issue affects the function unlink of the file admin/delete.php. Performing a manipulation of the argument image_name results in path traversal. The attack is possible to be carried out remotely. …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6321,31 +6272,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-116233",
-   "publicado": "2026-10-26",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00461,
-   "epss_percentil": 0.39949,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-74",
-    "CWE-93"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "A security vulnerability has been detected in Oray Pugongying X5 Pro 7.6.1. This impacts an unknown function of the component Dnsmasq. The manipulation of the argument rent_time leads to crlf injection. The attack can be initiated remotely. The exploit has been disclosed publicly…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-116234",
    "publicado": "2026-10-26",
    "prioridad": "alta",
@@ -6367,6 +6293,31 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "A vulnerability was detected in Oray Pugongying X5 Pro 7.6.1. Affected is an unknown function of the file /etc/ipsec.conf of the component IPsec Policy Handler. The manipulation of the argument secproto results in crlf injection. The attack can be launched remotely. The exploit i…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116233",
+   "publicado": "2026-10-26",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00461,
+   "epss_percentil": 0.39949,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-74",
+    "CWE-93"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A security vulnerability has been detected in Oray Pugongying X5 Pro 7.6.1. This impacts an unknown function of the component Dnsmasq. The manipulation of the argument rent_time leads to crlf injection. The attack can be initiated remotely. The exploit has been disclosed publicly…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6440,31 +6391,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "netty-tcnative 2.0.66.Final before 2.0.84.Final built against OpenSSL 3.x contains a use-after-free vulnerability in ssl_tlsext_ticket_key_cb during session ticket key rotation. Remote clients performing TLS handshakes while setSessionTicketKeys0 frees the shared key array cause …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-102649",
-   "publicado": "2026-10-26",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.00458,
-   "epss_percentil": 0.39703,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-306",
-    "CWE-863"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "Burrito is a Terraform Automation Collaboration Software (TACoS) Kubernetes operator. Prior to 0.13.0, `POST /api/webhook` accepts unsigned GitHub and GitLab events when a `TerraformRepository`'s credentials omit `webhookSecret` or set it to an empty value, including credentials …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6612,31 +6538,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "Out-of-bounds Write Vulnerability in JP1 Products. This issue affects JP1/Integrated Management 3 - Manager: from 13-00 before 13-50-31; JP1/Automatic Job Management System 3 - Manager: from 13-00 before 13-50-31; JP1/Automatic Job Management System 3 - Agent: from 13-00 before 1…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115889",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.00454,
-   "epss_percentil": 0.39415,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-197",
-    "CWE-843"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Wasmtime is a runtime for WebAssembly. Prior to 36.0.19 and 43.0.0, the Cranelift compiler backend bit-packs SSA value indices in a way that can silently overflow in release builds when compiling a sufficiently large or specially crafted Wasm function with many SSA values. The ov…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6948,7 +6849,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Seroval facilitates JavaScript value stringification, including complex structures beyond JSON.stringify capabilities. Prior to 1.6.8, fromJSON and fromCrossJSON do not validate a sequence node's done index. A crafted done index can create an iterator that never finishes when app…",
    "avisos": [],
    "avisos_total": 0
@@ -7925,12 +7826,12 @@
    "epss_percentil": 0.36799,
    "kev": false,
    "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
+   "fabricante": "Digitalbazaar",
    "cwe": [
     "CWE-400",
     "CWE-674"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -8769,11 +8670,11 @@
    "epss_percentil": 0.35398,
    "kev": false,
    "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
+   "fabricante": "Digitalbazaar",
    "cwe": [
     "CWE-674"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -9550,7 +9451,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "poc",
    "descripcion": "Rembg is a tool to remove images background. Prior to 2.0.82, the public /api/remove endpoint passes attacker-controlled extras.sam_model through rembg/commands/s_command.py to rembg/sessions/sam.py, where it is interpolated into SAM filenames and GitHub download URLs passed to p…",
    "avisos": [],
    "avisos_total": 0
@@ -9583,7 +9484,7 @@
    "cve": "CVE-2026-116236",
    "publicado": "2026-10-26",
    "prioridad": "alta",
-   "cvss": 7.2,
+   "cvss": 7.3,
    "gravedad": "high",
    "epss": 0.00394,
    "epss_percentil": 0.33603,
@@ -9599,7 +9500,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "poc",
    "descripcion": "A vulnerability has been found in Oray Pugongying X5 Pro 7.6.1. Affected by this issue is the function plugin_init of the file /tmp/upload_files of the component PPPoE WAN Setting Handler. Such manipulation of the argument pppd_options leads to unrestricted upload. The attack may…",
    "avisos": [],
    "avisos_total": 0
@@ -9848,8 +9749,8 @@
    "cve": "CVE-2026-116623",
    "publicado": "2026-10-27",
    "prioridad": "alta",
-   "cvss": 7.3,
-   "gravedad": "high",
+   "cvss": 5.5,
+   "gravedad": "medium",
    "epss": 0.00388,
    "epss_percentil": 0.32923,
    "kev": false,
@@ -9864,7 +9765,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "poc",
    "descripcion": "A vulnerability was detected in code-projects Simple Content Management System 1.0. Impacted is an unknown function of the file /web/admin/welcome.php of the component Admin Interface. The manipulation of the argument addnews results in missing authorization. The attack can be la…",
    "avisos": [],
    "avisos_total": 0
@@ -10588,6 +10489,30 @@
    "avisos_total": 0
   },
   {
+   "cve": "CVE-2026-116488",
+   "publicado": "2026-10-26",
+   "prioridad": "alta",
+   "cvss": 7.0,
+   "gravedad": "high",
+   "epss": 0.00374,
+   "epss_percentil": 0.31394,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": "github",
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "NXP MCUXpresso SDK USB middleware (mcuxsdk-middleware-usb) before 2.13.0 contains a heap buffer overflow in host audio, video and CDC class drivers that trust device-supplied bNumEndpoints and bLength values. A malicious USB device can supply crafted descriptors that write endpoi…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
    "cve": "CVE-2026-118260",
    "publicado": "2026-10-28",
    "prioridad": "alta",
@@ -10914,54 +10839,6 @@
     }
    ],
    "avisos_total": 1
-  },
-  {
-   "cve": "CVE-2026-115935",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00369,
-   "epss_percentil": 0.30792,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "The app/process-api-response-headers action accepts fake Craft API response headers from any authenticated control panel user. A non-admin user with only accessCp can place newline characters in X-Craft-Plugin-Licenses. Craft passes this value to its .env writer without removing …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115938",
-   "publicado": "2026-10-23",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00369,
-   "epss_percentil": 0.30792,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1336"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "Craft CMS allows any authenticated control panel user to submit an element-search condition whose element selector is evaluated as a sandboxed Twig object template. Craft’s allowed column filter delegates property lookup to Yii ArrayHelper, outside Twig’s SecurityPolicy. Repeated…",
-   "avisos": [],
-   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-118668",
@@ -11922,6 +11799,30 @@
    "avisos_total": 0
   },
   {
+   "cve": "CVE-2026-116872",
+   "publicado": "2026-10-27",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00354,
+   "epss_percentil": 0.29114,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-407"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Semantic MediaWiki from 3.0.0 before 7.3.1 contains an algorithmic complexity vulnerability in TermParser::normalize_compact_form() that allows unauthenticated attackers to cause quadratic CPU consumption. Attackers can submit long search terms with many distinct in:(...) or has:…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
    "cve": "CVE-2026-107052",
    "publicado": "2026-10-29",
    "prioridad": "alta",
@@ -11942,30 +11843,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "Insecure permissions in the AIDL interface of ProjectMAXS MAXS Module FileRead versionCode 27 allows unauthorized attackers to arbitrarily reead files outside of the sandbox via providing an absolute path.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-116872",
-   "publicado": "2026-10-27",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00354,
-   "epss_percentil": 0.29114,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-407"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "Semantic MediaWiki from 3.0.0 before 7.3.1 contains an algorithmic complexity vulnerability in TermParser::normalize_compact_form() that allows unauthenticated attackers to cause quadratic CPU consumption. Attackers can submit long search terms with many distinct in:(...) or has:…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13449,8 +13326,32 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Datadog dd-trace-py is the Datadog Python APM client. From 3.13.0 until 4.15.5, the IAST string-processing instrumentation does not properly handle certain internal errors while old-style % string formatting processes attacker-controlled input. An unhandled error can terminate th…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116740",
+   "publicado": "2026-10-26",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00327,
+   "epss_percentil": 0.25816,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-476"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "libcss through 0.9.2 contains a NULL pointer dereference vulnerability in mq_parse_media_query() that allows remote attackers to crash consumers by supplying media lists ending in a comma. Attackers can serve a stylesheet whose @media or @import media list has a trailing comma, c…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13701,31 +13602,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "identrail is a machine identity security platform for AWS, GitHub/OIDC, and Kubernetes. Prior to 1.0.2, the default-on `POST /v1/workspaces/:workspace_id/projects/:project_id/github/connect/complete` endpoint in `internal/api/router.go` accepts `installation_id` from the request …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-119209",
-   "publicado": "2026-10-29",
-   "prioridad": "alta",
-   "cvss": 7.1,
-   "gravedad": "high",
-   "epss": 0.00319,
-   "epss_percentil": 0.24862,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-400",
-    "CWE-770"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.3, pypdf can consume excessive memory while opening a crafted PDF containing cross-reference streams that declare very large entry counts. Highly compressible streams and /Prev chains can multiply the number o…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14743,6 +14619,126 @@
    "descripcion": "The MxChat – AI Chatbot & Content Generation for WordPress plugin for WordPress is vulnerable to Stored DOM-Based Cross-Site Scripting via the 'feedback' parameter in all versions up to, and including, 3.2.25 due to insufficient input sanitization and output escaping. This makes …",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119144",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00305,
+   "epss_percentil": 0.23325,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-1336"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Frappe Framework before 15.111.0 and 16.x before 16.21.0 contains a server-side template injection vulnerability because user-controlled message fields are rendered as templates without neutralization. An authenticated attacker holding a common operational role can inject templat…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-75891",
+   "publicado": "2026-10-27",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00305,
+   "epss_percentil": 0.23302,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-502"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The Kirki plugin for WordPress is vulnerable to Privilege Escalation via PHP Object Injection in all versions up to, and including, 6.2.5 via deserialization of untrusted input through the 'get-single-symbol' branch of the kirki_post_apis() AJAX dispatcher due to a missing capabi…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-118242",
+   "publicado": "2026-10-28",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00305,
+   "epss_percentil": 0.23296,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Highcharts JS is a JavaScript charting library based on SVG. From 2.3.0 until 3.2.0, Highcharts Grid creates SVG path elements from rendering.icons object definitions and previously copied every child key with setAttribute. An attacker who controls Grid configuration can supply e…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-39736",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00305,
+   "epss_percentil": 0.23328,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-89"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Crocoblock JetEngine jet-engine allows SQL Injection.This issue affects JetEngine: from n/a through 3.9.0.1.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119203",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00304,
+   "epss_percentil": 0.23181,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-835"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.4, pypdf can enter an infinite loop while opening a crafted incomplete PDF whose standard cross-reference table reaches the end of the file without a trailer. The trailer search can repeatedly rewind to the sa…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14759,12 +14755,12 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 234,
+   "maliciosos": 215,
    "maliciosos_mas": false,
-   "avisos": 102,
+   "avisos": 91,
    "avisos_mas": false,
-   "criticos": 3,
-   "altos": 51,
+   "criticos": 2,
+   "altos": 47,
    "ejemplos_maliciosos": [
     {
      "ghsa": "GHSA-w4v4-fj9q-cfj5",
@@ -14835,48 +14831,48 @@
      "publicado": "2026-10-27"
     },
     {
-     "ghsa": "GHSA-84c9-qqpq-2pq5",
-     "cve": "CVE-2026-77366",
-     "paquete": "obsidian-tc",
-     "resumen": "obsidian-tc tokens can access arbitrary configured vaults",
+     "ghsa": "GHSA-4xm8-rg9h-jhq2",
+     "cve": null,
+     "paquete": "signalk-server, @signalk/resources-provider",
+     "resumen": "Signal K resources API path traversal can disclose the JWT signing secret and enable remote code execution",
      "gravedad": "critical",
-     "cvss": 9.9,
-     "epss": 0.00309,
-     "corregido_en": "1.3.1",
-     "publicado": "2026-10-23"
+     "cvss": 9.8,
+     "epss": null,
+     "corregido_en": "2.34.0",
+     "publicado": "2026-10-30"
     },
     {
-     "ghsa": "GHSA-jwc4-922r-f2rw",
-     "cve": "CVE-2026-106764",
-     "paquete": "@rog0x/mcp-git-tools",
-     "resumen": "@rog0x/mcp-git-tools executes arbitrary code via the resolveBaseBranch function",
+     "ghsa": "GHSA-7wch-p9px-956x",
+     "cve": "CVE-2026-118779",
+     "paquete": "node-forge",
+     "resumen": "Forge: Regular expression denial of service in PEM decoding (pem.decode)",
      "gravedad": "high",
      "cvss": 7.5,
-     "epss": 0.00524,
-     "corregido_en": null,
-     "publicado": "2026-10-23"
+     "epss": 0.00556,
+     "corregido_en": "1.4.1",
+     "publicado": "2026-10-30"
     },
     {
-     "ghsa": "GHSA-fq6x-j3g6-xx83",
-     "cve": "CVE-2026-106765",
-     "paquete": "@rog0x/mcp-docker-tools",
-     "resumen": "@rog0x/mcp-docker-tools: executes arbitrary code via the handleImageList function",
+     "ghsa": "GHSA-rh54-vffm-5fvp",
+     "cve": "CVE-2026-116688",
+     "paquete": "ckeditor5, @ckeditor/ckeditor5-engine",
+     "resumen": "CKEditor: Cross-site scripting (XSS) in the engine package",
      "gravedad": "high",
-     "cvss": 7.5,
-     "epss": 0.00503,
-     "corregido_en": null,
-     "publicado": "2026-10-23"
+     "cvss": 8.1,
+     "epss": 0.00497,
+     "corregido_en": "47.7.4",
+     "publicado": "2026-10-27"
     },
     {
-     "ghsa": "GHSA-2vq3-mpmf-9xgr",
-     "cve": "CVE-2026-106763",
-     "paquete": "@justice8096/sagemath-mcp-server",
-     "resumen": "@justice8096/sagemath-mcp-server: executes arbitrary code via the escapeShellString and sanitizeCode functions",
+     "ghsa": "GHSA-x8rm-f576-gq67",
+     "cve": "CVE-2026-115887",
+     "paquete": "graphql-scalars",
+     "resumen": "graphql-scalars PhoneNumber scalar is vulnerable to regular expression denial of service",
      "gravedad": "high",
      "cvss": 7.5,
-     "epss": 0.00503,
-     "corregido_en": null,
-     "publicado": "2026-10-23"
+     "epss": 0.00487,
+     "corregido_en": "2.0.1",
+     "publicado": "2026-10-28"
     }
    ],
    "estado": "maliciosos"
@@ -14893,12 +14889,12 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 45,
+   "maliciosos": 20,
    "maliciosos_mas": false,
-   "avisos": 118,
+   "avisos": 99,
    "avisos_mas": false,
-   "criticos": 6,
-   "altos": 42,
+   "criticos": 5,
+   "altos": 43,
    "ejemplos_maliciosos": [
     {
      "ghsa": "GHSA-gm8f-99q4-fpjh",
@@ -14964,7 +14960,7 @@
      "resumen": "Agno: Arbitrary code execution via `eval()` on `field_type` in `FunctionCall`",
      "gravedad": "critical",
      "cvss": 9.8,
-     "epss": 0.00842,
+     "epss": 0.00856,
      "corregido_en": "2.3.24",
      "publicado": "2026-10-27"
     },
@@ -14978,17 +14974,6 @@
      "epss": 0.00704,
      "corregido_en": "3.17.0",
      "publicado": "2026-10-27"
-    },
-    {
-     "ghsa": "GHSA-5x8w-8jj5-q52h",
-     "cve": "CVE-2026-112398",
-     "paquete": "pillow",
-     "resumen": "Pillow: Heap buffer overflow in FlashPix (FPX) JPEG decoding leads to code execution",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": 0.00696,
-     "corregido_en": "13.0.0",
-     "publicado": "2026-10-23"
     },
     {
      "ghsa": "GHSA-6v38-4h7w-rj9h",
@@ -15011,6 +14996,17 @@
      "epss": 0.00176,
      "corregido_en": "4.8.3",
      "publicado": "2026-10-28"
+    },
+    {
+     "ghsa": "GHSA-6hp3-vr39-rqw8",
+     "cve": "CVE-2026-48705",
+     "paquete": "monai",
+     "resumen": "MONAILabel Server Crash and Silent Inference Corruption via Crafted DICOM (pydicom DS/IS Validation Bypass)",
+     "gravedad": "critical",
+     "cvss": 9.3,
+     "epss": null,
+     "corregido_en": "1.6.1",
+     "publicado": "2026-10-27"
     }
    ],
    "estado": "maliciosos"
@@ -15029,7 +15025,7 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 10,
+   "avisos": 16,
    "avisos_mas": false,
    "criticos": 0,
    "altos": 5,
@@ -15143,31 +15139,20 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 14,
+   "avisos": 18,
    "avisos_mas": false,
-   "criticos": 1,
-   "altos": 8,
+   "criticos": 0,
+   "altos": 12,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
-     "ghsa": "GHSA-f9x3-7vq9-cph6",
-     "cve": "CVE-2026-114509",
-     "paquete": "laravel/framework",
-     "resumen": "Laravel TokenGuard authentication bypass through non-string API credentials",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": 0.00777,
-     "corregido_en": "13.29.0",
-     "publicado": "2026-10-23"
-    },
-    {
-     "ghsa": "GHSA-3x94-m842-937c",
-     "cve": "CVE-2026-108358",
+     "ghsa": "GHSA-j2w7-387v-m2rq",
+     "cve": "CVE-2026-108359",
      "paquete": "phpoffice/phpspreadsheet",
-     "resumen": "PhpSpreadsheet: XmlScanner Bypass via ISO-2022 Escape Sequences Allows XXE and Denial of Service",
+     "resumen": "PhpSpreadsheet ODS Reader: Unbounded number-rows-repeated → CPU & Memory Exhaustion (DoS)",
      "gravedad": "high",
      "cvss": null,
-     "epss": 0.00483,
+     "epss": 0.0066,
      "corregido_en": "5.10.0",
      "publicado": "2026-10-27"
     },
@@ -15203,6 +15188,17 @@
      "epss": 0.00349,
      "corregido_en": "8.9.3",
      "publicado": "2026-10-27"
+    },
+    {
+     "ghsa": "GHSA-6vfx-w7q3-42gq",
+     "cve": "CVE-2026-96633",
+     "paquete": "adminneo-org/adminneo",
+     "resumen": "AdminNeo SQLite Database-List Drop Arbitrary File Deletion",
+     "gravedad": "high",
+     "cvss": 8.1,
+     "epss": null,
+     "corregido_en": "5.5.1",
+     "publicado": "2026-10-30"
     }
    ],
    "estado": "runtime_explotado"
@@ -15221,33 +15217,22 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 38,
+   "avisos": 33,
    "avisos_mas": false,
    "criticos": 1,
    "altos": 13,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
-     "ghsa": "GHSA-cxf3-9h37-7rr8",
-     "cve": "CVE-2026-118264",
-     "paquete": "github.com/labstack/echo/v4, github.com/labstack/echo/v5",
-     "resumen": "Echo: Rejected WebSocket upgrades can bypass Echo route-level access controls",
+     "ghsa": "GHSA-hff9-5pqw-6w9f",
+     "cve": null,
+     "paquete": "github.com/imgproxy/imgproxy/v3, github.com/imgproxy/imgproxy/v2, y 1 más",
+     "resumen": "imgproxy has integer overflow in imgproxy ICO loader that causes denial of service and may permit remote code execution",
      "gravedad": "critical",
-     "cvss": null,
-     "epss": 0.0043,
-     "corregido_en": "4.16.1",
-     "publicado": "2026-10-23"
-    },
-    {
-     "ghsa": "GHSA-c8w8-3pqp-wr83",
-     "cve": "CVE-2026-73054",
-     "paquete": "github.com/siyuan-note/siyuan/kernel",
-     "resumen": "SiYuan: A parser differential between the WebSocket keepalive exemption and the session quarantine allows unauthenticated access to the broadcast event stream",
-     "gravedad": "high",
-     "cvss": 7.5,
-     "epss": 0.00539,
-     "corregido_en": "0.0.0-20260731131820-67bc300b6ea6",
-     "publicado": "2026-10-23"
+     "cvss": 9.8,
+     "epss": null,
+     "corregido_en": "4.0.16",
+     "publicado": "2026-10-30"
     },
     {
      "ghsa": "GHSA-mgqf-5mf5-prfj",
@@ -15259,6 +15244,17 @@
      "epss": 0.00536,
      "corregido_en": "0.0.0-20260814233832-4126edeb07a0",
      "publicado": "2026-10-27"
+    },
+    {
+     "ghsa": "GHSA-8fmv-6rg5-5924",
+     "cve": "CVE-2026-118761",
+     "paquete": "github.com/kubeflow/pipelines",
+     "resumen": "Kubeflow Pipelines: Pipeline archive upload allows decompression bomb to exhaust server memory",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": 0.00495,
+     "corregido_en": "0.0.0-20260831164314-ba9ae72cc860",
+     "publicado": "2026-10-30"
     },
     {
      "ghsa": "GHSA-rjh2-4xgw-p2hj",
@@ -15299,9 +15295,9 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 17,
+   "avisos": 16,
    "avisos_mas": false,
-   "criticos": 3,
+   "criticos": 2,
    "altos": 4,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
@@ -15328,15 +15324,15 @@
      "publicado": "2026-10-28"
     },
     {
-     "ghsa": "GHSA-q54r-jf2p-rfr2",
-     "cve": null,
-     "paquete": "gix",
-     "resumen": "gitoxide gix: untrusted .git/config disables filesystem .git-protection path checks via unfiltered protect_options()",
+     "ghsa": "GHSA-vp5q-ff62-jwqv",
+     "cve": "CVE-2026-116794",
+     "paquete": "russh",
+     "resumen": "russh: Agent server never calls `Agent::confirm`, so keys added with the confirm constraint (`ssh-add -c`) sign without confirmation",
      "gravedad": "high",
-     "cvss": 7.3,
-     "epss": null,
-     "corregido_en": "0.90.0",
-     "publicado": "2026-10-23"
+     "cvss": null,
+     "epss": 0.00156,
+     "corregido_en": "0.65",
+     "publicado": "2026-10-30"
     }
    ],
    "estado": "critico"
@@ -15476,8 +15472,8 @@
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
    "cves": 896,
-   "criticos": 70,
-   "altos": 214,
+   "criticos": 69,
+   "altos": 213,
    "urgentes": 3,
    "epss_max": 0.0235,
    "fabricantes": [
@@ -15531,7 +15527,7 @@
     {
      "cve": "CVE-2026-116219",
      "fabricante": "",
-     "cvss": 7.2,
+     "cvss": 8.6,
      "epss": 0.02078,
      "prioridad": "alta"
     },
@@ -15637,9 +15633,9 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 85,
+   "cves": 83,
    "criticos": 10,
-   "altos": 41,
+   "altos": 40,
    "urgentes": 2,
    "epss_max": 0.0149,
    "fabricantes": [
@@ -15756,7 +15752,7 @@
      "ransomware": false
     }
    ],
-   "kev_recientes_total": 11,
+   "kev_recientes_total": 10,
    "destacados": [
     {
      "cve": "CVE-2026-76418",
@@ -16012,7 +16008,7 @@
    "estado": "explotacion_activa",
    "cves": 2,
    "criticos": 0,
-   "altos": 0,
+   "altos": 1,
    "urgentes": 0,
    "epss_max": 0.0026,
    "fabricantes": [
@@ -16033,9 +16029,9 @@
     {
      "cve": "CVE-2026-89209",
      "fabricante": "Siemens",
-     "cvss": 6.8,
+     "cvss": 7.6,
      "epss": 0.00259,
-     "prioridad": "media"
+     "prioridad": "alta"
     },
     {
      "cve": "CVE-2026-115803",
@@ -16083,8 +16079,8 @@
    "estado": "explotacion_activa",
    "cves": 1068,
    "criticos": 89,
-   "altos": 360,
-   "urgentes": 13,
+   "altos": 364,
+   "urgentes": 14,
    "epss_max": 0.0284,
    "fabricantes": [
     "Rclone",
@@ -16175,73 +16171,19 @@
    ]
   },
   {
-   "categoria": "iot",
-   "nombre": "Routers domésticos, IoT y cámaras",
-   "estado": "riesgo_alto",
-   "cves": 23,
-   "criticos": 6,
-   "altos": 6,
-   "urgentes": 4,
-   "epss_max": 0.0274,
-   "fabricantes": [
-    "TOTOLINK",
-    "TP-Link",
-    "Linksys",
-    "Unitree",
-    "D-Link"
-   ],
-   "kev_recientes": [],
-   "kev_recientes_total": 0,
-   "destacados": [
-    {
-     "cve": "CVE-2026-116505",
-     "fabricante": "TOTOLINK",
-     "cvss": 9.1,
-     "epss": 0.02741,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-116506",
-     "fabricante": "TOTOLINK",
-     "cvss": 9.9,
-     "epss": 0.0188,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-115995",
-     "fabricante": "Unitree",
-     "cvss": 9.4,
-     "epss": 0.01377,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-97854",
-     "fabricante": "",
-     "cvss": 9.3,
-     "epss": 0.01369,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2013-20007",
-     "fabricante": "Linksys",
-     "cvss": 7.2,
-     "epss": 0.02004,
-     "prioridad": "alta"
-    }
-   ]
-  },
-  {
    "categoria": "oss",
    "nombre": "Librerías de código abierto",
    "estado": "riesgo_alto",
-   "cves": 365,
-   "criticos": 31,
-   "altos": 163,
-   "urgentes": 3,
+   "cves": 387,
+   "criticos": 30,
+   "altos": 174,
+   "urgentes": 4,
    "epss_max": 0.0196,
    "fabricantes": [
     "Código abierto (GitHub)",
-    "Vllm"
+    "Vllm",
+    "Digitalbazaar",
+    "Pypdf Project"
    ],
    "kev_recientes": [],
    "kev_recientes_total": 0,
@@ -16251,6 +16193,13 @@
      "fabricante": "Código abierto (GitHub)",
      "cvss": 9.4,
      "epss": 0.00544,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-102649",
+     "fabricante": "Código abierto (GitHub)",
+     "cvss": 9.9,
+     "epss": 0.00458,
      "prioridad": "urgente"
     },
     {
@@ -16273,68 +16222,61 @@
      "cvss": 8.8,
      "epss": 0.01168,
      "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-115893",
-     "fabricante": "Código abierto (GitHub)",
-     "cvss": 9.9,
-     "epss": 0.0099,
-     "prioridad": "alta"
     }
    ]
   },
   {
-   "categoria": "navegadores",
-   "nombre": "Navegadores",
+   "categoria": "iot",
+   "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 253,
-   "criticos": 16,
-   "altos": 53,
-   "urgentes": 0,
-   "epss_max": 0.004,
+   "cves": 23,
+   "criticos": 5,
+   "altos": 7,
+   "urgentes": 4,
+   "epss_max": 0.0274,
    "fabricantes": [
-    "Mozilla",
-    "Google",
-    "Google Chrome",
-    "Chromium",
-    "Chrome"
+    "TOTOLINK",
+    "TP-Link",
+    "Linksys",
+    "Unitree",
+    "D-Link"
    ],
    "kev_recientes": [],
    "kev_recientes_total": 0,
    "destacados": [
     {
-     "cve": "CVE-2026-118328",
-     "fabricante": "Google",
-     "cvss": 8.8,
-     "epss": 0.00401,
-     "prioridad": "alta"
+     "cve": "CVE-2026-116506",
+     "fabricante": "TOTOLINK",
+     "cvss": 9.9,
+     "epss": 0.0188,
+     "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-118329",
-     "fabricante": "Google",
-     "cvss": 8.8,
-     "epss": 0.00388,
-     "prioridad": "alta"
+     "cve": "CVE-2026-115995",
+     "fabricante": "Unitree",
+     "cvss": 9.4,
+     "epss": 0.01377,
+     "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-118305",
-     "fabricante": "Google",
-     "cvss": 9.6,
-     "epss": 0.00369,
-     "prioridad": "alta"
+     "cve": "CVE-2026-97854",
+     "fabricante": "",
+     "cvss": 9.3,
+     "epss": 0.01369,
+     "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-118306",
-     "fabricante": "Google",
-     "cvss": 9.6,
-     "epss": 0.00369,
-     "prioridad": "alta"
+     "cve": "CVE-2026-116508",
+     "fabricante": "TOTOLINK",
+     "cvss": 9.3,
+     "epss": 0.00609,
+     "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-118358",
-     "fabricante": "Google",
-     "cvss": 8.8,
-     "epss": 0.00358,
+     "cve": "CVE-2026-116505",
+     "fabricante": "TOTOLINK",
+     "cvss": 8.5,
+     "epss": 0.02741,
      "prioridad": "alta"
     }
    ]
@@ -16342,9 +16284,9 @@
   {
    "categoria": "apple",
    "nombre": "Apple (macOS · iOS)",
-   "estado": "vigilar",
-   "cves": 336,
-   "criticos": 0,
+   "estado": "riesgo_alto",
+   "cves": 337,
+   "criticos": 1,
    "altos": 25,
    "urgentes": 0,
    "epss_max": 0.0073,
@@ -16387,6 +16329,62 @@
      "fabricante": "Apple",
      "cvss": 8.8,
      "epss": 0.00593,
+     "prioridad": "alta"
+    }
+   ]
+  },
+  {
+   "categoria": "navegadores",
+   "nombre": "Navegadores",
+   "estado": "riesgo_alto",
+   "cves": 255,
+   "criticos": 16,
+   "altos": 54,
+   "urgentes": 0,
+   "epss_max": 0.0059,
+   "fabricantes": [
+    "Mozilla",
+    "Google",
+    "Microsoft",
+    "Google Chrome",
+    "Chromium"
+   ],
+   "kev_recientes": [],
+   "kev_recientes_total": 0,
+   "destacados": [
+    {
+     "cve": "CVE-2026-96192",
+     "fabricante": "Microsoft",
+     "cvss": 8.8,
+     "epss": 0.00585,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-118328",
+     "fabricante": "Google",
+     "cvss": 8.8,
+     "epss": 0.00401,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-118329",
+     "fabricante": "Google",
+     "cvss": 8.8,
+     "epss": 0.00388,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-118305",
+     "fabricante": "Google",
+     "cvss": 9.6,
+     "epss": 0.00369,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-118306",
+     "fabricante": "Google",
+     "cvss": 9.6,
+     "epss": 0.00369,
      "prioridad": "alta"
     }
    ]
