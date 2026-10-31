@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-31 03:51",
+ "generado_utc": "2026-10-31 11:43",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -222,7 +222,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 35
+   "avisos": 34
   },
   {
    "id": "bleeping",
@@ -244,19 +244,19 @@
   }
  ],
  "resumen": {
-  "avisos": 312,
+  "avisos": 311,
   "por_tipo": {
+   "noticia": 64,
    "fabricante": 90,
-   "noticia": 65,
    "cert": 98,
    "exploit": 59
   },
-  "explotados": 75,
+  "explotados": 74,
   "dia_cero": 7,
   "sin_parche": 31,
-  "criticos": 21,
+  "criticos": 19,
   "exploit_publico": 26,
-  "cves_citados": 229,
+  "cves_citados": 228,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -293,7 +293,7 @@
     "thehackernews",
     "ubuntu"
    ],
-   "avisos": 18,
+   "avisos": 17,
    "kev": true,
    "cvss": null,
    "epss": 0.82641,
@@ -397,6 +397,18 @@
    "ultimo": "2026-10-28T12:48Z"
   },
   {
+   "cve": "CVE-2026-111357",
+   "fuentes": [
+    "cisa",
+    "thehackernews"
+   ],
+   "avisos": 2,
+   "kev": true,
+   "cvss": null,
+   "epss": 0.00316,
+   "ultimo": "2026-10-31T08:27Z"
+  },
+  {
    "cve": "CVE-2026-114595",
    "fuentes": [
     "cisa",
@@ -419,21 +431,32 @@
    "cvss": null,
    "epss": 0.0026,
    "ultimo": "2026-10-28T09:05Z"
-  },
-  {
-   "cve": "CVE-2026-114597",
-   "fuentes": [
-    "cisa",
-    "incibe_sci"
-   ],
-   "avisos": 2,
-   "kev": false,
-   "cvss": null,
-   "epss": 0.00298,
-   "ultimo": "2026-10-28T09:05Z"
   }
  ],
  "avisos": [
+  {
+   "fuente": "thehackernews",
+   "titulo": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "enlace": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "fecha": "2026-10-31T08:27Z",
+   "cves": [
+    "CVE-2026-111357"
+   ],
+   "cves_total": 1,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-111357"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0032,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "paloalto",
    "titulo": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
@@ -1669,8 +1692,8 @@
    "sin_parche": true,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 9.8,
+   "critica": false,
+   "cvss_max": 8.8,
    "epss_max": 0.0077,
    "exploit_publico": false,
    "exploitdb": null
@@ -6957,52 +6980,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.0036,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-   "enlace": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-   "fecha": "2026-10-24T11:09Z",
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111497"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.8264,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-   "enlace": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-   "fecha": "2026-10-24T06:25Z",
-   "cves": [
-    "CVE-2026-110447"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-110447"
-   ],
-   "explotada": true,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": 0.7331,
    "exploit_publico": false,
    "exploitdb": null
   }

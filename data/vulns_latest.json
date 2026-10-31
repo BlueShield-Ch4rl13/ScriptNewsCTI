@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-31 03:50",
+ "generado_utc": "2026-10-31 11:43",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3425,
-  "criticos": 246,
+  "cves": 3469,
+  "criticos": 247,
   "explotados": 1,
   "urgentes": 29,
   "epss_10": 0,
-  "sin_puntuar": 799,
+  "sin_puntuar": 810,
   "por_prioridad": {
    "explotada": 1,
    "urgente": 29,
-   "alta": 1288,
-   "media": 1149,
-   "baja": 958
+   "alta": 1308,
+   "media": 1164,
+   "baja": 967
   },
-  "paquetes_maliciosos": 235,
+  "paquetes_maliciosos": 236,
   "exploit_publico": 0,
-  "poc_github": 58,
+  "poc_github": 60,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -3428,30 +3428,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-113673",
-   "publicado": "2026-10-24",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00595,
-   "epss_percentil": 0.4842,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Wordpress",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The GeoDirectory WordPress plugin before 2.8.194 does not properly escape administrator-defined text before writing it into a generated PHP file in its own folder, allowing high privilege users such as a subsite administrator on a multisite network, who cannot otherwise run code,…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-112655",
    "publicado": "2026-10-26",
    "prioridad": "alta",
@@ -4109,36 +4085,6 @@
    "descripcion": "A security vulnerability has been identified in the WolfProt interface implementation. Insufficient neutralization of user-controlled input could allow an unauthenticated attacker with network access to a vulnerable service to execute operating-system commands with the privileges…",
    "avisos": [],
    "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115806",
-   "publicado": "2026-10-24",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00549,
-   "epss_percentil": 0.4595,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Prime Mover – Backup and Migration plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.2.1 via deserialization of untrusted input in the migration search-and-replace routine (recursiveUnserializeReplace()). An unauthenticated att…",
-   "avisos": [
-    {
-     "fuente": "wordfence",
-     "nombre": "Wordfence (WordPress)",
-     "enlace": "https://www.wordfence.com/blog/2026/10/wordfence-intelligence-weekly-wordpress-vulnerability-report-october-19-2026-to-october-25-2026/"
-    }
-   ],
-   "avisos_total": 1
   },
   {
    "cve": "CVE-2026-112637",
@@ -6879,30 +6825,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-114196",
-   "publicado": "2026-10-24",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00449,
-   "epss_percentil": 0.39039,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Deserialization of Untrusted Data vulnerability in paytiumsupport Paytium paytium allows Object Injection.This issue affects Paytium: from n/a through 5.0.5.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-62013",
    "publicado": "2026-10-29",
    "prioridad": "alta",
@@ -6947,30 +6869,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Unauthenticated PHP Object Injection in Gunslinger <= 1.11 versions.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-94075",
-   "publicado": "2026-10-24",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00449,
-   "epss_percentil": 0.39039,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Deserialization of Untrusted Data vulnerability in Tribulant Software Newsletters newsletters-lite allows Object Injection.This issue affects Newsletters: from n/a through 4.18.1.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -11376,30 +11274,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-110956",
-   "publicado": "2026-10-24",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.0036,
-   "epss_percentil": 0.29845,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Wordpress",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The asVereinbase WordPress plugin before 1.1.8 does not require a valid password or a genuine second factor before authenticating a user, treating an empty stored value as a match, so an unauthenticated attacker can log in as any user, including an administrator.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-118082",
    "publicado": "2026-10-29",
    "prioridad": "alta",
@@ -11524,30 +11398,6 @@
     }
    ],
    "avisos_total": 1
-  },
-  {
-   "cve": "CVE-2026-112866",
-   "publicado": "2026-10-24",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00356,
-   "epss_percentil": 0.29304,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WPFactory Product Filter by WBW woo-product-filter allows Blind SQL Injection.This issue affects Product Filter by WBW: from n/a through 3.4.6.",
-   "avisos": [],
-   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-90869",
@@ -12086,30 +11936,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "rtl_433 through 25.12 contains a stack-based buffer overflow vulnerability in proflame2_mc() that allows nearby attackers to write past a 7-byte stack buffer by sending more than seven valid Manchester-coded words. Attackers can transmit a crafted OOK radio signal or supply a cra…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-111402",
-   "publicado": "2026-10-24",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00349,
-   "epss_percentil": 0.28513,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Tribulant Software Newsletters newsletters-lite allows SQL Injection.This issue affects Newsletters: from n/a through 4.18.1.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14739,6 +14565,177 @@
    "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.4, pypdf can enter an infinite loop while opening a crafted incomplete PDF whose standard cross-reference table reaches the end of the file without a trailer. The trailer search can repeatedly rewind to the sa…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119204",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00304,
+   "epss_percentil": 0.2318,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-400"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.4, pypdf can consume excessive memory while parsing a crafted PDF page tree containing many shared resources. Page-tree flattening copies page dictionary and inherited resource entries without a document-wide …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119205",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00304,
+   "epss_percentil": 0.23182,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-835"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.4, pypdf can enter an infinite loop when cloning or duplicating a crafted cyclic DictionaryObject. Clone traversal checked generated destination references rather than the original source references, allowing …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119206",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00304,
+   "epss_percentil": 0.23181,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-400"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.3, pypdf can take excessive time to retrieve page labels from a crafted PDF containing a flat page-label number tree with many ranges. The page_labels property resolves each page independently and repeatedly s…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119207",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00304,
+   "epss_percentil": 0.23181,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-400",
+    "CWE-405"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.3, pypdf can consume excessive memory when strict mode loads a crafted invalid PDF dictionary. Nested parsing failures add repeated exception text to newly raised errors, allowing a small malformed dictionary …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119208",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00304,
+   "epss_percentil": 0.23181,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-400"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "pypdf is a free and open-source pure-python PDF library. Prior to 6.21.3, pypdf can consume excessive time and memory when an application accesses the page count of a crafted encrypted PDF whose page tree declares a forged /Count value. Even after successful decryption, page-coun…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115970",
+   "publicado": "2026-10-24",
+   "prioridad": "alta",
+   "cvss": 5.5,
+   "gravedad": "medium",
+   "epss": 0.00304,
+   "epss_percentil": 0.23249,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-74",
+    "CWE-94"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A vulnerability has been found in Travisun Opptrix 0.4.0. This impacts an unknown function of the file /api/system-update/import of the component Import Endpoint. Such manipulation leads to code injection. It is possible to launch the attack remotely. The exploit has been disclos…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116620",
+   "publicado": "2026-10-27",
+   "prioridad": "alta",
+   "cvss": 5.5,
+   "gravedad": "medium",
+   "epss": 0.00304,
+   "epss_percentil": 0.23207,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-119",
+    "CWE-125"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A security vulnerability has been detected in Tencent RapidJSON up to 1.1.0. This issue affects the function GenericStringStream<UTF8<char>>::Take in the library include/rapidjson/stream.h of the component Regex Parser. The manipulation leads to out-of-bounds read. The attack can…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14755,13 +14752,24 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 215,
+   "maliciosos": 216,
    "maliciosos_mas": false,
    "avisos": 91,
    "avisos_mas": false,
    "criticos": 2,
    "altos": 47,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-7j62-5j84-72fv",
+     "cve": null,
+     "paquete": "local-commander-agent",
+     "resumen": "Malware in local-commander-agent",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-10-31"
+    },
     {
      "ghsa": "GHSA-w4v4-fj9q-cfj5",
      "cve": null,
@@ -14800,17 +14808,6 @@
      "cve": null,
      "paquete": "vas-tops2-core-clients-search",
      "resumen": "Malware in vas-tops2-core-clients-search",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-10-30"
-    },
-    {
-     "ghsa": "GHSA-8j2v-vwh4-x2hm",
-     "cve": null,
-     "paquete": "vas-tops2-core-client-cleanup-ui",
-     "resumen": "Malware in vas-tops2-core-client-cleanup-ui",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15471,9 +15468,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 896,
-   "criticos": 69,
-   "altos": 213,
+   "cves": 940,
+   "criticos": 70,
+   "altos": 229,
    "urgentes": 3,
    "epss_max": 0.0235,
    "fabricantes": [
@@ -15544,9 +15541,9 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 100,
+   "cves": 99,
    "criticos": 16,
-   "altos": 21,
+   "altos": 20,
    "urgentes": 2,
    "epss_max": 0.0226,
    "fabricantes": [
@@ -15795,9 +15792,9 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 179,
+   "cves": 184,
    "criticos": 2,
-   "altos": 11,
+   "altos": 16,
    "urgentes": 0,
    "epss_max": 0.0065,
    "fabricantes": [
@@ -16006,7 +16003,7 @@
    "categoria": "ics",
    "nombre": "Industrial (OT · ICS)",
    "estado": "explotacion_activa",
-   "cves": 2,
+   "cves": 1,
    "criticos": 0,
    "altos": 1,
    "urgentes": 0,
@@ -16032,13 +16029,6 @@
      "cvss": 7.6,
      "epss": 0.00259,
      "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-115803",
-     "fabricante": "",
-     "cvss": 2.1,
-     "epss": 0.00223,
-     "prioridad": "baja"
     }
    ]
   },
@@ -16077,7 +16067,7 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1068,
+   "cves": 1066,
    "criticos": 89,
    "altos": 364,
    "urgentes": 14,
@@ -16337,7 +16327,7 @@
    "categoria": "navegadores",
    "nombre": "Navegadores",
    "estado": "riesgo_alto",
-   "cves": 255,
+   "cves": 254,
    "criticos": 16,
    "altos": 54,
    "urgentes": 0,
