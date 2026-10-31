@@ -196,7 +196,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-31 16:51 UTC · **IOCs recolectados:** 1682 · **CVEs KEV recientes:** 18
+**Última actualización:** 2026-10-31 21:04 UTC · **IOCs recolectados:** 1931 · **CVEs KEV recientes:** 18
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -213,7 +213,6 @@ python main.py
 | 67 (media) | alta | `fd9b86c1466e2ac93dc5f5dde51b1c7a6e4d0c04967635a953ccab1e2c89da11` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:52 UTC |
 | 67 (media) | alta | `7579b9734ff6c0cf05d055f70d0eede6c5428831703519daa1ef6fac4100b78b` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:47 UTC |
 | 67 (media) | alta | `6a753c1d0daaf28d23778ad5afaff6301e7738c11448abfc1e862738fcdc368b` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:46 UTC |
-| 67 (media) | media | `34[.]13[.]62[.]71` | ipv4 | php.shin_webshell | ThreatFox | 2026-10-30 19:58:24 UTC |
 | 66 (media) | alta | `d9c52734e371cb3457be89df7ffe90e19c4d853f9ee965e5849954d2a1387cf4` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:44 UTC |
 | 66 (media) | alta | `4f4abfe2db64294c67144a47ccd28ba63e37602e48d9a241978612d4ffa1d9b9` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:42 UTC |
 | 66 (media) | alta | `141[.]98[.]10[.]160:8001` | ip:port | Aisuru | ThreatFox | 2026-10-31 06:33:33 UTC |
@@ -227,6 +226,7 @@ python main.py
 | 64 (media) | alta | `4b0d6457b837f31be491735b4ad42ea895f8e117bfcb66e3ec8091fc779730a1` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:54 UTC |
 | 64 (media) | alta | `1c6b1fb46834368ae879088f776a625f7808e8800955bde0e60e45870cb9ade8` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:45 UTC |
 | 64 (media) | alta | `c68ef1d51fd204380ad5feb0dbc149e12f053efa2ae2a5c9d38f022f31b1eff7` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:40 UTC |
+| 64 (media) | alta | `48dee25a48201f5fb08e7ed80976de33b3074bd84e0bf012c00a849dcba0f7c5` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:36 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -253,12 +253,15 @@ python main.py
 
 ### Avisos de seguridad de los últimos 7 días
 
-**313** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **74** de algo que ya se explota · **7** de día cero · **32** sin parche
+**329** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **74** de algo que ya se explota · **7** de día cero · **32** sin parche
 
 **Lo más citado:** CVE-2026-109618 (9 fuentes, KEV) · CVE-2026-111497 (9 fuentes, KEV) · CVE-2026-109619 (8 fuentes, KEV) · CVE-2026-76418 (5 fuentes, KEV) · CVE-2026-105482 (3 fuentes) · CVE-2026-105483 (3 fuentes) · CVE-2026-106069 (3 fuentes) · CVE-2026-97229 (3 fuentes, KEV)
 
 | Fecha | Fuente | Aviso | Señales |
 |---|---|---|---|
+| 2026-10-31 | Microsoft | [Chromium: CVE-2026-118305 Memory corruption in Turbolev](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118305) | crítica |
+| 2026-10-31 | Microsoft | [Chromium: CVE-2026-118306 Memory corruption in FileSystem](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118306) | crítica |
+| 2026-10-31 | Microsoft | [Chromium: CVE-2026-118340 Memory corruption in Skia](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118340) | crítica |
 | 2026-10-31 | The Hacker News | [Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access](https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html) | explotada |
 | 2026-10-31 | Palo Alto Networks | [CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Produ](https://security.paloaltonetworks.com/CVE-2026-111497) | explotada, crítica |
 | 2026-10-30 | BleepingComputer | [Critical Linux kernel flaw allows remote root attacks on MPTCP servers](https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/) | crítica |
@@ -281,13 +284,10 @@ python main.py
 | 2026-10-30 | Siemens ProductCERT | [SSA-443410 V1.0: Node2Shell Vulnerability in Industrial Edge Management Applications](https://cert-portal.siemens.com/productcert/html/ssa-443410.html) | explotada |
 | 2026-10-29 | Palo Alto Networks | [CVE-2026-109618 Impact of Critical Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Palo Alto Netw](https://security.paloaltonetworks.com/CVE-2026-109618) | explotada, crítica |
 | 2026-10-29 | Wordfence (WordPress) | [WordPress 7.1.4 Patches Unauthenticated Upgrade-Window RCE; Exploitation Attempts Detected After Release](https://www.wordfence.com/blog/2026/10/wordpress-7-1-4-security-release-rce/) | explotada, sin parche |
-| 2026-10-29 | The Hacker News | [ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories](https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html) | crítica |
-| 2026-10-29 | BleepingComputer | [Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/) | explotada |
-| 2026-10-29 | Ubuntu | [USN-8958-1: .NET vulnerabilities](https://ubuntu.com/security/notices/USN-8958-1) | explotada |
 
 ### Vulnerabilidades de los últimos 7 días
 
-**3454** CVE publicados · **1** ya explotados · **30** urgentes · **245** con CVSS ≥ 9 · **242** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
+**3462** CVE publicados · **1** ya explotados · **30** urgentes · **246** con CVSS ≥ 9 · **242** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
 
 Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC). Un exploit de Exploit-DB cuenta como prueba de concepto.
 
@@ -340,16 +340,16 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 
 | Sistema | Estado | CVE nuevos | CVSS ≥ 9 | En KEV (30 días) |
 |---|---|---|---|---|
-| Aplicaciones web y CMS | 🔴 explotación activa | 934 | 70 | 2 |
-| Software empresarial | 🔴 explotación activa | 99 | 16 | 4 |
-| Windows y Microsoft | 🔴 explotación activa | 83 | 10 | 1 |
+| Aplicaciones web y CMS | 🔴 explotación activa | 931 | 70 | 2 |
+| Software empresarial | 🔴 explotación activa | 98 | 15 | 4 |
+| Windows y Microsoft | 🔴 explotación activa | 84 | 10 | 1 |
 | Red, VPN y firewalls | 🔴 explotación activa | 29 | 5 | 10 |
 | Linux | 🔴 explotación activa | 184 | 4 | 1 |
 | Virtualización y nube | 🔴 explotación activa | 28 | 3 | 1 |
-| Servidores y servicios | 🔴 explotación activa | 4 | 0 | 4 |
+| Servidores y servicios | 🔴 explotación activa | 5 | 0 | 4 |
 | Industrial (OT · ICS) | 🔴 explotación activa | 1 | 0 | 1 |
 | Lenguajes y entornos de ejecución | 🔴 explotación activa | 0 | 0 | 2 |
-| Otros | 🔴 explotación activa | 1059 | 85 | 10 |
+| Otros | 🔴 explotación activa | 1069 | 87 | 10 |
 | Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 23 | 5 | 0 |
 | Librerías de código abierto | 🟠 riesgo alto | 387 | 30 | 0 |
 | Apple (macOS · iOS) | 🟠 riesgo alto | 335 | 1 | 0 |

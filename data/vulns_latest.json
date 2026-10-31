@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-31 16:50",
+ "generado_utc": "2026-10-31 21:04",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,8 +10,8 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3454,
-  "criticos": 245,
+  "cves": 3462,
+  "criticos": 246,
   "explotados": 1,
   "urgentes": 30,
   "epss_10": 0,
@@ -19,13 +19,13 @@
   "por_prioridad": {
    "explotada": 1,
    "urgente": 30,
-   "alta": 1325,
-   "media": 1159,
+   "alta": 1328,
+   "media": 1164,
    "baja": 939
   },
   "paquetes_maliciosos": 242,
   "exploit_publico": 0,
-  "poc_github": 58,
+  "poc_github": 61,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -5799,7 +5799,7 @@
     "CWE-502"
    ],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -10809,8 +10809,14 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Improper input validation in WebRTC in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-   "avisos": [],
-   "avisos_total": 0
+   "avisos": [
+    {
+     "fuente": "msrc",
+     "nombre": "Microsoft",
+     "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118328"
+    }
+   ],
+   "avisos_total": 1
   },
   {
    "cve": "CVE-2026-107743",
@@ -11871,8 +11877,14 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Improper input validation in ANGLE in Google Chrome on on Mac prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-   "avisos": [],
-   "avisos_total": 0
+   "avisos": [
+    {
+     "fuente": "msrc",
+     "nombre": "Microsoft",
+     "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118329"
+    }
+   ],
+   "avisos_total": 1
   },
   {
    "cve": "CVE-2026-102800",
@@ -12898,30 +12910,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-115971",
-   "publicado": "2026-10-24",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00372,
-   "epss_percentil": 0.31212,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-404"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was found in Travisun Opptrix 0.4.0. Affected is the function Buffer.concat of the file /api/channels/webhook/ of the component preParsing handler. Performing a manipulation results in denial of service. The attack can be initiated remotely. The exploit has been m…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-119597",
    "publicado": "2026-10-30",
    "prioridad": "alta",
@@ -13162,12 +13150,17 @@
    "descripcion": "Memory corruption in Turbolev in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "avisos": [
     {
+     "fuente": "msrc",
+     "nombre": "Microsoft",
+     "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118305"
+    },
+    {
      "fuente": "chrome",
      "nombre": "Google Chrome",
      "enlace": "http://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
     }
    ],
-   "avisos_total": 1
+   "avisos_total": 2
   },
   {
    "cve": "CVE-2026-118306",
@@ -13192,12 +13185,17 @@
    "descripcion": "Memory corruption in FileSystem in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
    "avisos": [
     {
+     "fuente": "msrc",
+     "nombre": "Microsoft",
+     "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118306"
+    },
+    {
      "fuente": "chrome",
      "nombre": "Google Chrome",
      "enlace": "http://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html"
     }
    ],
-   "avisos_total": 1
+   "avisos_total": 2
   },
   {
    "cve": "CVE-2026-61730",
@@ -14350,8 +14348,14 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Memory corruption in Skia in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-   "avisos": [],
-   "avisos_total": 0
+   "avisos": [
+    {
+     "fuente": "msrc",
+     "nombre": "Microsoft",
+     "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118340"
+    }
+   ],
+   "avisos_total": 1
   },
   {
    "cve": "CVE-2026-115967",
@@ -14665,6 +14669,31 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Privilege escalation in the DOM: Navigation component. This vulnerability was fixed in Firefox 159 and Thunderbird 159.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-63344",
+   "publicado": "2026-10-30",
+   "prioridad": "alta",
+   "cvss": 8.6,
+   "gravedad": "high",
+   "epss": 0.0035,
+   "epss_percentil": 0.28708,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-116",
+    "CWE-94"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Refitter is a tool for generating a C# REST API client using the Refit library. Prior to 2.1.2, content-type keys in the content maps of `requestBody/responses` are emitted verbatim into a Refit `[Headers(\"Accept: <ct>\", \"Content-Type: <ct>\")]` attribute string without escaping q…",
    "avisos": [],
    "avisos_total": 0
   }
@@ -15399,9 +15428,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 934,
+   "cves": 931,
    "criticos": 70,
-   "altos": 225,
+   "altos": 226,
    "urgentes": 3,
    "epss_max": 0.0248,
    "fabricantes": [
@@ -15472,8 +15501,8 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 99,
-   "criticos": 16,
+   "cves": 98,
+   "criticos": 15,
    "altos": 20,
    "urgentes": 2,
    "epss_max": 0.0218,
@@ -15561,9 +15590,9 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 83,
+   "cves": 84,
    "criticos": 10,
-   "altos": 40,
+   "altos": 41,
    "urgentes": 2,
    "epss_max": 0.0149,
    "fabricantes": [
@@ -15853,16 +15882,16 @@
    "categoria": "servidores",
    "nombre": "Servidores y servicios",
    "estado": "explotacion_activa",
-   "cves": 4,
+   "cves": 5,
    "criticos": 0,
    "altos": 2,
    "urgentes": 0,
    "epss_max": 0.0053,
    "fabricantes": [
+    "Ffmpeg",
     "Openssl",
     "Gstreamer",
-    "Postfix",
-    "Ffmpeg"
+    "Postfix"
    ],
    "kev_recientes": [
     {
@@ -15919,6 +15948,13 @@
      "fabricante": "Postfix",
      "cvss": 5.5,
      "epss": 0.00157,
+     "prioridad": "media"
+    },
+    {
+     "cve": "CVE-2026-120210",
+     "fabricante": "Ffmpeg",
+     "cvss": 4.3,
+     "epss": null,
      "prioridad": "media"
     },
     {
@@ -15998,9 +16034,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1059,
-   "criticos": 85,
-   "altos": 364,
+   "cves": 1069,
+   "criticos": 87,
+   "altos": 367,
    "urgentes": 14,
    "epss_max": 0.0284,
    "fabricantes": [
