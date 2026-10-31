@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-31 11:43",
+ "generado_utc": "2026-10-31 16:51",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -213,7 +213,7 @@
    "idioma": "es",
    "url": "https://blog.segu-info.com.ar/feeds/posts/default",
    "estado": "ok",
-   "avisos": 4
+   "avisos": 5
   },
   {
    "id": "thehackernews",
@@ -231,7 +231,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 12
+   "avisos": 13
   },
   {
    "id": "securityweek",
@@ -244,19 +244,19 @@
   }
  ],
  "resumen": {
-  "avisos": 311,
+  "avisos": 313,
   "por_tipo": {
-   "noticia": 64,
+   "noticia": 66,
    "fabricante": 90,
    "cert": 98,
    "exploit": 59
   },
   "explotados": 74,
   "dia_cero": 7,
-  "sin_parche": 31,
-  "criticos": 19,
+  "sin_parche": 32,
+  "criticos": 18,
   "exploit_publico": 26,
-  "cves_citados": 228,
+  "cves_citados": 229,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -329,7 +329,7 @@
    "avisos": 6,
    "kev": true,
    "cvss": 8.6,
-   "epss": 0.0091,
+   "epss": 0.00821,
    "ultimo": "2026-10-29T12:00Z"
   },
   {
@@ -381,7 +381,7 @@
    "avisos": 4,
    "kev": true,
    "cvss": null,
-   "epss": 0.26569,
+   "epss": 0.273,
    "ultimo": "2026-10-30T09:32Z"
   },
   {
@@ -405,7 +405,7 @@
    "avisos": 2,
    "kev": true,
    "cvss": null,
-   "epss": 0.00316,
+   "epss": 0.00533,
    "ultimo": "2026-10-31T08:27Z"
   },
   {
@@ -435,6 +435,46 @@
  ],
  "avisos": [
   {
+   "fuente": "bleeping",
+   "titulo": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "enlace": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "fecha": "2026-10-31T15:35Z",
+   "cves": [
+    "CVE-2026-58882"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": true,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "seguinfo",
+   "titulo": "Sitios JavaScript comprometidos atacan a los administradores de WordPress para implementar una puerta trasera PHP persistente.",
+   "enlace": "http://blog.segu-info.com.ar/2026/10/sitios-javascript-comprometidos-atacan.html",
+   "fecha": "2026-10-31T14:16Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "thehackernews",
    "titulo": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
    "enlace": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
@@ -453,7 +493,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0032,
+   "epss_max": 0.0053,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -681,7 +721,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0043,
+   "epss_max": 0.0032,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -723,7 +763,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": null,
+   "epss_max": 0.0025,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -805,7 +845,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0032,
+   "epss_max": 0.0053,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -885,7 +925,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.2657,
+   "epss_max": 0.273,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1045,8 +1085,8 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.2,
-   "epss_max": 0.0038,
+   "cvss_max": null,
+   "epss_max": 0.0029,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1067,7 +1107,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": null,
-   "epss_max": 0.0022,
+   "epss_max": 0.0031,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1090,7 +1130,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.2657,
+   "epss_max": 0.273,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1495,8 +1535,8 @@
    "kev": [],
    "explotada": true,
    "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
+   "cvss_max": 8.1,
+   "epss_max": 0.006,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1528,7 +1568,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0024,
+   "epss_max": 0.003,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1662,7 +1702,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0044,
+   "epss_max": 0.0046,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1693,7 +1733,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.8,
+   "cvss_max": null,
    "epss_max": 0.0077,
    "exploit_publico": false,
    "exploitdb": null
@@ -1793,7 +1833,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0044,
+   "epss_max": 0.0046,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1883,7 +1923,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": 8.6,
-   "epss_max": 0.2657,
+   "epss_max": 0.273,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1944,7 +1984,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": 8.6,
-   "epss_max": 0.0091,
+   "epss_max": 0.0082,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2005,7 +2045,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.2657,
+   "epss_max": 0.273,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2636,7 +2676,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": 8.6,
-   "epss_max": 0.0091,
+   "epss_max": 0.0082,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2834,7 +2874,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.003,
+   "epss_max": 0.004,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2960,8 +3000,8 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 9.6,
+   "critica": false,
+   "cvss_max": 8.8,
    "epss_max": 0.0036,
    "exploit_publico": false,
    "exploitdb": null
@@ -2985,7 +3025,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": 8.6,
-   "epss_max": 0.0091,
+   "epss_max": 0.0082,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4494,7 +4534,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.8,
+   "cvss_max": null,
    "epss_max": 0.0034,
    "exploit_publico": false,
    "exploitdb": null
@@ -4578,7 +4618,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.8,
+   "cvss_max": null,
    "epss_max": 0.0034,
    "exploit_publico": false,
    "exploitdb": null
@@ -5381,7 +5421,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.8,
+   "cvss_max": null,
    "epss_max": 0.0032,
    "exploit_publico": false,
    "exploitdb": null
