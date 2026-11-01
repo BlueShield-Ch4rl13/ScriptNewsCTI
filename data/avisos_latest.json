@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-01 12:41",
+ "generado_utc": "2026-11-01 19:31",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -158,8 +158,9 @@
    "tipo": "fabricante",
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
-   "estado": "ok",
-   "avisos": 15
+   "estado": "error",
+   "avisos": 15,
+   "detalle": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   {
    "id": "zdi",
@@ -176,8 +177,9 @@
    "tipo": "exploit",
    "idioma": "en",
    "url": "https://www.exploit-db.com/rss.xml",
-   "estado": "ok",
-   "avisos": 0
+   "estado": "error",
+   "avisos": 0,
+   "detalle": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.exploit-db.com/rss.xml"
   },
   {
    "id": "projectzero",
@@ -213,7 +215,7 @@
    "idioma": "es",
    "url": "https://blog.segu-info.com.ar/feeds/posts/default",
    "estado": "ok",
-   "avisos": 5
+   "avisos": 4
   },
   {
    "id": "thehackernews",
@@ -222,7 +224,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 35
+   "avisos": 33
   },
   {
    "id": "bleeping",
@@ -231,7 +233,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 13
+   "avisos": 14
   },
   {
    "id": "securityweek",
@@ -244,20 +246,20 @@
   }
  ],
  "resumen": {
-  "avisos": 329,
+  "avisos": 327,
   "por_tipo": {
-   "noticia": 67,
+   "noticia": 65,
    "fabricante": 105,
    "cert": 98,
    "exploit": 59
   },
   "explotados": 74,
   "dia_cero": 7,
-  "sin_parche": 32,
+  "sin_parche": 31,
   "criticos": 21,
   "exploit_publico": 26,
   "cves_citados": 227,
-  "fuentes_ok": 26,
+  "fuentes_ok": 24,
   "fuentes_total": 26
  },
  "mas_citados": [
@@ -434,6 +436,25 @@
   }
  ],
  "avisos": [
+  {
+   "fuente": "bleeping",
+   "titulo": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+   "enlace": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+   "fecha": "2026-11-01T15:11Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "thehackernews",
    "titulo": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
@@ -1638,8 +1659,8 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
+   "cvss_max": 7.4,
+   "epss_max": 0.0061,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -7285,63 +7306,6 @@
    "titulo": "Vulnérabilité dans Mattermost Server (26 octobre 2026)",
    "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1380/",
    "fecha": "2026-10-26T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-   "enlace": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-   "fecha": "2026-10-25T17:44Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-   "enlace": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-   "fecha": "2026-10-25T17:19Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "seguinfo",
-   "titulo": "Observación de una explotación tipo PHP2Shell con evidencia real de RCE",
-   "enlace": "http://blog.segu-info.com.ar/2026/10/observacion-de-una-explotacion-tipo.html",
-   "fecha": "2026-10-25T15:08Z",
    "cves": [],
    "cves_total": 0,
    "texto_explotada": false,
