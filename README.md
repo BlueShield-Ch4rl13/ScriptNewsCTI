@@ -196,7 +196,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-31 21:04 UTC · **IOCs recolectados:** 1931 · **CVEs KEV recientes:** 18
+**Última actualización:** 2026-11-01 00:06 UTC · **IOCs recolectados:** 1948 · **CVEs KEV recientes:** 18
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -253,7 +253,7 @@ python main.py
 
 ### Avisos de seguridad de los últimos 7 días
 
-**329** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **74** de algo que ya se explota · **7** de día cero · **32** sin parche
+**328** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **74** de algo que ya se explota · **7** de día cero · **32** sin parche
 
 **Lo más citado:** CVE-2026-109618 (9 fuentes, KEV) · CVE-2026-111497 (9 fuentes, KEV) · CVE-2026-109619 (8 fuentes, KEV) · CVE-2026-76418 (5 fuentes, KEV) · CVE-2026-105482 (3 fuentes) · CVE-2026-105483 (3 fuentes) · CVE-2026-106069 (3 fuentes) · CVE-2026-97229 (3 fuentes, KEV)
 
@@ -287,7 +287,7 @@ python main.py
 
 ### Vulnerabilidades de los últimos 7 días
 
-**3462** CVE publicados · **1** ya explotados · **30** urgentes · **246** con CVSS ≥ 9 · **242** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
+**3461** CVE publicados · **1** ya explotados · **29** urgentes · **246** con CVSS ≥ 9 · **238** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
 
 Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC). Un exploit de Exploit-DB cuenta como prueba de concepto.
 
@@ -298,7 +298,6 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 | urgente | CVE-2026-93680 | Langflow | 9.8 | 2.2 % | 2026-10-29 |
 | urgente | CVE-2026-116506 | TOTOLINK | 9.9 | 1.9 % | 2026-10-26 |
 | urgente | CVE-2026-90868 | Windows | 9.9 | 1.5 % | 2026-10-29 |
-| urgente | CVE-2026-115995 | Unitree | 9.4 | 1.4 % | 2026-10-24 |
 | urgente | CVE-2026-97854 | — | 9.3 | 1.4 % | 2026-10-29 |
 | urgente | CVE-2025-31704 | Dahua | 9.8 | 1.4 % | 2026-10-30 |
 | urgente | CVE-2026-112352 | — | 9.1 | 1.3 % | 2026-10-27 |
@@ -318,12 +317,13 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 | urgente | CVE-2026-107032 | — | 9.1 | 0.5 % | 2026-10-29 |
 | urgente | CVE-2026-107058 | — | 9.8 | 0.5 % | 2026-10-29 |
 | urgente | CVE-2026-102649 | Código abierto (GitHub) | 9.9 | 0.5 % | 2026-10-26 |
+| urgente | CVE-2026-107034 | — | 9.1 | 0.4 % | 2026-10-29 |
 
 ### Lenguajes (registros de paquetes, últimos 7 días)
 
 | Lenguaje | Estado | Paquetes maliciosos | Avisos críticos / altos |
 |---|---|---|---|
-| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 217 | 2 / 47 |
+| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 213 | 2 / 47 |
 | Python (PyPI) | 🔴 paquetes maliciosos | 25 | 5 / 43 |
 | Java / Kotlin (Maven) | 🟡 avisos altos | 0 | 0 / 5 |
 | .NET (C#) (NuGet) | 🟡 avisos altos | 0 | 0 / 1 |
@@ -340,18 +340,18 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 
 | Sistema | Estado | CVE nuevos | CVSS ≥ 9 | En KEV (30 días) |
 |---|---|---|---|---|
-| Aplicaciones web y CMS | 🔴 explotación activa | 931 | 70 | 2 |
-| Software empresarial | 🔴 explotación activa | 98 | 15 | 4 |
+| Aplicaciones web y CMS | 🔴 explotación activa | 930 | 70 | 2 |
+| Software empresarial | 🔴 explotación activa | 100 | 16 | 4 |
 | Windows y Microsoft | 🔴 explotación activa | 84 | 10 | 1 |
-| Red, VPN y firewalls | 🔴 explotación activa | 29 | 5 | 10 |
+| Red, VPN y firewalls | 🔴 explotación activa | 29 | 5 | 9 |
 | Linux | 🔴 explotación activa | 184 | 4 | 1 |
 | Virtualización y nube | 🔴 explotación activa | 28 | 3 | 1 |
 | Servidores y servicios | 🔴 explotación activa | 5 | 0 | 4 |
 | Industrial (OT · ICS) | 🔴 explotación activa | 1 | 0 | 1 |
 | Lenguajes y entornos de ejecución | 🔴 explotación activa | 0 | 0 | 2 |
 | Otros | 🔴 explotación activa | 1069 | 87 | 10 |
-| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 23 | 5 | 0 |
 | Librerías de código abierto | 🟠 riesgo alto | 387 | 30 | 0 |
+| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 21 | 4 | 0 |
 | Apple (macOS · iOS) | 🟠 riesgo alto | 335 | 1 | 0 |
 | Navegadores | 🟠 riesgo alto | 254 | 16 | 0 |
 | IA y agentes (LLM · MCP) | 🟢 vigilar | 27 | 0 | 0 |

@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-31 21:04",
+ "generado_utc": "2026-11-01 00:06",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -159,7 +159,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 16
+   "avisos": 15
   },
   {
    "id": "zdi",
@@ -244,10 +244,10 @@
   }
  ],
  "resumen": {
-  "avisos": 329,
+  "avisos": 328,
   "por_tipo": {
    "noticia": 66,
-   "fabricante": 106,
+   "fabricante": 105,
    "cert": 98,
    "exploit": 59
   },
@@ -256,7 +256,7 @@
   "sin_parche": 32,
   "criticos": 21,
   "exploit_publico": 26,
-  "cves_citados": 229,
+  "cves_citados": 227,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -1357,6 +1357,25 @@
    "critica": true,
    "cvss_max": null,
    "epss_max": 0.8264,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6599-1 nss - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00518.html",
+   "fecha": "2026-10-31T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -7315,47 +7334,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6585-1 thunderbird - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00503.html",
-   "fecha": "2026-10-25T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6584-1 varnish - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00502.html",
-   "fecha": "2026-10-25T00:00Z",
-   "cves": [
-    "CVE-2026-34475",
-    "CVE-2026-93894"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0036,
    "exploit_publico": false,
    "exploitdb": null
   }

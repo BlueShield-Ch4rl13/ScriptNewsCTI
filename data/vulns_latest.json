@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-10-31 21:04",
+ "generado_utc": "2026-11-01 00:05",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,20 +10,20 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3462,
+  "cves": 3461,
   "criticos": 246,
   "explotados": 1,
-  "urgentes": 30,
+  "urgentes": 29,
   "epss_10": 0,
   "sin_puntuar": 783,
   "por_prioridad": {
    "explotada": 1,
-   "urgente": 30,
+   "urgente": 29,
    "alta": 1328,
    "media": 1164,
    "baja": 939
   },
-  "paquetes_maliciosos": 242,
+  "paquetes_maliciosos": 238,
   "exploit_publico": 0,
   "poc_github": 61,
   "ransomware": 0,
@@ -165,31 +165,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "An OS command injection vulnerability in Progress Software WS_FTP Server versions prior to 2024.0.7 and 2025.0.4 on Windows could allow arbitrary command execution under certain configurations.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115995",
-   "publicado": "2026-10-24",
-   "prioridad": "urgente",
-   "cvss": 9.4,
-   "gravedad": "critical",
-   "epss": 0.01377,
-   "epss_percentil": 0.72072,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Unitree",
-   "cwe": [
-    "CWE-77",
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A security vulnerability has been detected in Unitree Robotics Unitree Go2 up to 1.1.11.4. The impacted element is the function set_volume of the file gpt_thread.py of the component chat_go. Such manipulation of the argument Value leads to os command injection. The attack can be …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14696,6 +14671,31 @@
    "descripcion": "Refitter is a tool for generating a C# REST API client using the Refit library. Prior to 2.1.2, content-type keys in the content maps of `requestBody/responses` are emitted verbatim into a Refit `[Headers(\"Accept: <ct>\", \"Content-Type: <ct>\")]` attribute string without escaping q…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-63345",
+   "publicado": "2026-10-30",
+   "prioridad": "alta",
+   "cvss": 8.6,
+   "gravedad": "high",
+   "epss": 0.0035,
+   "epss_percentil": 0.28708,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-1116",
+    "CWE-94"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Refitter is a tool for generating a C# REST API client using the Refit library. Prior to 2.1.2, OpenAPI `paths`-object keys are emitted verbatim into Refit route attributes such as `[Get(\"<path>\")]` without escaping quotation marks or restricting characters. An attacker-influence…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14712,7 +14712,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 217,
+   "maliciosos": 213,
    "maliciosos_mas": false,
    "avisos": 91,
    "avisos_mas": false,
@@ -15428,7 +15428,7 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 931,
+   "cves": 930,
    "criticos": 70,
    "altos": 226,
    "urgentes": 3,
@@ -15501,14 +15501,14 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 98,
-   "criticos": 15,
-   "altos": 20,
+   "cves": 100,
+   "criticos": 16,
+   "altos": 21,
    "urgentes": 2,
    "epss_max": 0.0218,
    "fabricantes": [
-    "Langflow",
     "Apache",
+    "Langflow",
     "Jenkins",
     "Adobe",
     "Servicenow"
@@ -15709,7 +15709,7 @@
      "ransomware": false
     }
    ],
-   "kev_recientes_total": 10,
+   "kev_recientes_total": 9,
    "destacados": [
     {
      "cve": "CVE-2026-76418",
@@ -16128,62 +16128,6 @@
    ]
   },
   {
-   "categoria": "iot",
-   "nombre": "Routers domésticos, IoT y cámaras",
-   "estado": "riesgo_alto",
-   "cves": 23,
-   "criticos": 5,
-   "altos": 7,
-   "urgentes": 5,
-   "epss_max": 0.0274,
-   "fabricantes": [
-    "TOTOLINK",
-    "TP-Link",
-    "Linksys",
-    "Unitree",
-    "Dahua"
-   ],
-   "kev_recientes": [],
-   "kev_recientes_total": 0,
-   "destacados": [
-    {
-     "cve": "CVE-2026-116506",
-     "fabricante": "TOTOLINK",
-     "cvss": 9.9,
-     "epss": 0.0188,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-115995",
-     "fabricante": "Unitree",
-     "cvss": 9.4,
-     "epss": 0.01377,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-97854",
-     "fabricante": "",
-     "cvss": 9.3,
-     "epss": 0.01369,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2025-31704",
-     "fabricante": "Dahua",
-     "cvss": 9.8,
-     "epss": 0.01364,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-116508",
-     "fabricante": "TOTOLINK",
-     "cvss": 9.3,
-     "epss": 0.00609,
-     "prioridad": "urgente"
-    }
-   ]
-  },
-  {
    "categoria": "oss",
    "nombre": "Librerías de código abierto",
    "estado": "riesgo_alto",
@@ -16234,6 +16178,62 @@
      "fabricante": "Código abierto (GitHub)",
      "cvss": 8.8,
      "epss": 0.01168,
+     "prioridad": "alta"
+    }
+   ]
+  },
+  {
+   "categoria": "iot",
+   "nombre": "Routers domésticos, IoT y cámaras",
+   "estado": "riesgo_alto",
+   "cves": 21,
+   "criticos": 4,
+   "altos": 7,
+   "urgentes": 4,
+   "epss_max": 0.0274,
+   "fabricantes": [
+    "TOTOLINK",
+    "TP-Link",
+    "Linksys",
+    "Dahua",
+    "Tenda"
+   ],
+   "kev_recientes": [],
+   "kev_recientes_total": 0,
+   "destacados": [
+    {
+     "cve": "CVE-2026-116506",
+     "fabricante": "TOTOLINK",
+     "cvss": 9.9,
+     "epss": 0.0188,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-97854",
+     "fabricante": "",
+     "cvss": 9.3,
+     "epss": 0.01369,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2025-31704",
+     "fabricante": "Dahua",
+     "cvss": 9.8,
+     "epss": 0.01364,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-116508",
+     "fabricante": "TOTOLINK",
+     "cvss": 9.3,
+     "epss": 0.00609,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-116505",
+     "fabricante": "TOTOLINK",
+     "cvss": 8.5,
+     "epss": 0.02741,
      "prioridad": "alta"
     }
    ]
