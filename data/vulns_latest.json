@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-01 03:57",
+ "generado_utc": "2026-11-01 12:41",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3472,
-  "criticos": 247,
+  "cves": 3474,
+  "criticos": 252,
   "explotados": 1,
   "urgentes": 29,
   "epss_10": 0,
-  "sin_puntuar": 784,
+  "sin_puntuar": 810,
   "por_prioridad": {
    "explotada": 1,
    "urgente": 29,
-   "alta": 1328,
-   "media": 1174,
-   "baja": 940
+   "alta": 1319,
+   "media": 1162,
+   "baja": 963
   },
-  "paquetes_maliciosos": 239,
+  "paquetes_maliciosos": 243,
   "exploit_publico": 0,
-  "poc_github": 59,
+  "poc_github": 62,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -1111,30 +1111,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-116067",
-   "publicado": "2026-10-25",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.01689,
-   "epss_percentil": 0.77052,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Paisa before 0.7.8 contains a path traversal vulnerability in the GetFile, GetSheet, DeleteBackups, and DeleteSheetBackups handlers that lets unauthenticated attackers read files and delete backups through ../ sequences in file names. Attackers can send crafted names to the edito…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-117511",
    "publicado": "2026-10-27",
    "prioridad": "alta",
@@ -1783,30 +1759,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "SQLite command-line shell through 3.54.1 contains a command injection vulnerability in the .recover command that emits attacker-planted dot-commands stored in sqlite_schema.sql values verbatim. Attackers can craft a database whose schema holds a valid CREATE statement followed by…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-116006",
-   "publicado": "2026-10-25",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00834,
-   "epss_percentil": 0.57676,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was detected in YunaiV/zhijiantianya ruoyi-vue-pro up to 2026.09. The affected element is an unknown function of the file AuthController.java of the component SMS Code Verification. The manipulation of the argument mobile/code results in improper authentication. T…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -4588,7 +4540,7 @@
     "CWE-522"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -4738,30 +4690,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 27.2, iOS 27.2 and iPadOS 27.2, macOS Golden Gate 27.2, tvOS 27.2, visionOS 27.2, watchOS 27.2. Processing maliciously crafted web content may lead to arbitrary code execution.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-116070",
-   "publicado": "2026-10-25",
-   "prioridad": "alta",
-   "cvss": 6.9,
-   "gravedad": "medium",
-   "epss": 0.00544,
-   "epss_percentil": 0.45697,
-   "kev": false,
-   "categoria": "virtualizacion",
-   "fabricante": "Docker",
-   "cwe": [
-    "CWE-306"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Docker-Proxy through 5.1.9 contains a missing authentication vulnerability in the hubcmdui routes/config.js that allows unauthenticated attackers to read and overwrite configuration via /api/config. Attackers can retrieve the WeChat webhook URL and Telegram bot token, and overwri…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10517,7 +10445,7 @@
    "ransomware": false,
    "dia_cero": false,
    "explotacion_ssvc": "none",
-   "descripcion": "Unauthenticated PHP Object Injection in FunnelKit Automations <= 3.8.6.1 versions.",
+   "descripcion": "Deserialization of Untrusted Data vulnerability in Aman FunnelKit Automations wp-marketing-automations allows Object Injection.This issue affects FunnelKit Automations: from n/a through 3.8.6.1.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13054,31 +12982,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-116007",
-   "publicado": "2026-10-25",
-   "prioridad": "alta",
-   "cvss": 2.9,
-   "gravedad": "low",
-   "epss": 0.0037,
-   "epss_percentil": 0.30977,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-307",
-    "CWE-799"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A flaw has been found in YunaiV/zhijiantianya ruoyi-vue-pro up to 2026.09. The impacted element is the function SmsCodeServiceImpl.validateSmsCode0 of the file /service/sms/SmsCodeServiceImpl.java of the component SMS Code Verification. This manipulation causes improper restricti…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-103792",
    "publicado": "2026-10-28",
    "prioridad": "alta",
@@ -14696,6 +14599,104 @@
    "descripcion": "Refitter is a tool for generating a C# REST API client using the Refit library. Prior to 2.1.2, OpenAPI `paths`-object keys are emitted verbatim into Refit route attributes such as `[Get(\"<path>\")]` without escaping quotation marks or restricting characters. An attacker-influence…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-63346",
+   "publicado": "2026-10-30",
+   "prioridad": "alta",
+   "cvss": 8.6,
+   "gravedad": "high",
+   "epss": 0.0035,
+   "epss_percentil": 0.28709,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-116",
+    "CWE-94"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Refitter is a tool for generating a C# REST API client using the Refit library. Prior to 2.1.2, the header parameter name in `parameters[].name` with `in: header` is emitted verbatim into a Refit `[Header(\"<name>\")]` attribute string without escaping quotation marks. An attacker-…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115907",
+   "publicado": "2026-10-26",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.0035,
+   "epss_percentil": 0.28697,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-400",
+    "CWE-789"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "zip is a zip library for Rust that supports reading and writing simple ZIP files. From 5.1.0 until 9.0.0, applications built with the legacy-zip feature can reserve output capacity from an attacker-controlled ZIP64 uncompressed size before validating the compressed stream. The Sh…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-117609",
+   "publicado": "2026-10-28",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.0035,
+   "epss_percentil": 0.2865,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-121"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "rtl_433 through 25.12 contains a stack-based buffer overflow vulnerability in proflame2_mc() that allows nearby attackers to write past a 7-byte stack buffer by sending more than seven valid Manchester-coded words. Attackers can transmit a crafted OOK radio signal or supply a cra…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116386",
+   "publicado": "2026-10-30",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00349,
+   "epss_percentil": 0.28574,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-266"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Unauthenticated Privilege Escalation in SMS Alert Order Notifications <= 4.0.2 versions.",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14712,13 +14713,35 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 213,
+   "maliciosos": 215,
    "maliciosos_mas": false,
    "avisos": 91,
    "avisos_mas": false,
    "criticos": 2,
    "altos": 47,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-mmpx-xm69-xmv9",
+     "cve": null,
+     "paquete": "hs-framework",
+     "resumen": "Malicious code in hs-framework (npm)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-01"
+    },
+    {
+     "ghsa": "GHSA-jh68-cxw4-pfj2",
+     "cve": null,
+     "paquete": "@axon-web/icons",
+     "resumen": "Malicious code in @axon-web/icons (npm)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-01"
+    },
     {
      "ghsa": "GHSA-fg5w-8hhw-8j6h",
      "cve": null,
@@ -14746,28 +14769,6 @@
      "cve": null,
      "paquete": "@pcb-dp/qa-commons",
      "resumen": "Malware in @pcb-dp/qa-commons",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-10-30"
-    },
-    {
-     "ghsa": "GHSA-x4jx-pc3h-93v6",
-     "cve": null,
-     "paquete": "@sxm-content-creators/tools-ds",
-     "resumen": "Malware in @sxm-content-creators/tools-ds",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-10-30"
-    },
-    {
-     "ghsa": "GHSA-v8fw-jm5x-fgg2",
-     "cve": null,
-     "paquete": "vas-tops2-reportingui",
-     "resumen": "Malware in vas-tops2-reportingui",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14846,13 +14847,24 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 26,
+   "maliciosos": 27,
    "maliciosos_mas": false,
    "avisos": 99,
    "avisos_mas": false,
    "criticos": 5,
    "altos": 43,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-45w4-c62g-5g5v",
+     "cve": null,
+     "paquete": "privacypass-py",
+     "resumen": "Malicious code in privacypass-py (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-01"
+    },
     {
      "ghsa": "GHSA-f93h-mc69-274w",
      "cve": null,
@@ -14891,17 +14903,6 @@
      "cve": null,
      "paquete": "doctreelstm",
      "resumen": "Malicious code in doctreelstm (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-10-31"
-    },
-    {
-     "ghsa": "GHSA-76h8-w3px-47hx",
-     "cve": null,
-     "paquete": "is-it-ai",
-     "resumen": "Malicious code in is-it-ai (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15306,13 +15307,25 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 0,
+   "maliciosos": 1,
    "maliciosos_mas": false,
    "avisos": 5,
    "avisos_mas": false,
    "criticos": 0,
    "altos": 1,
-   "ejemplos_maliciosos": [],
+   "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-625f-xj7r-qh7w",
+     "cve": null,
+     "paquete": "macs-shoaibs-pro17",
+     "resumen": "Malicious code in macs-shoaibs-pro17 (RubyGems)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-01"
+    }
+   ],
    "ejemplos_graves": [
     {
      "ghsa": "GHSA-6j52-38f8-qhxr",
@@ -15326,7 +15339,7 @@
      "publicado": "2026-10-29"
     }
    ],
-   "estado": "alto"
+   "estado": "maliciosos"
   },
   {
    "ecosistema": "erlang",
@@ -15428,15 +15441,15 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 930,
-   "criticos": 70,
-   "altos": 226,
+   "cves": 924,
+   "criticos": 69,
+   "altos": 225,
    "urgentes": 3,
    "epss_max": 0.0248,
    "fabricantes": [
     "WordPress (plugins)",
-    "Wordpress",
     "Drupal",
+    "Wordpress",
     "Woocommerce",
     "Semantic-Mediawiki"
    ],
@@ -15590,7 +15603,7 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 84,
+   "cves": 85,
    "criticos": 10,
    "altos": 41,
    "urgentes": 2,
@@ -15817,7 +15830,7 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 28,
+   "cves": 27,
    "criticos": 3,
    "altos": 13,
    "urgentes": 0,
@@ -15841,13 +15854,6 @@
    ],
    "kev_recientes_total": 1,
    "destacados": [
-    {
-     "cve": "CVE-2026-116070",
-     "fabricante": "Docker",
-     "cvss": 6.9,
-     "epss": 0.00544,
-     "prioridad": "alta"
-    },
     {
      "cve": "CVE-2026-93328",
      "fabricante": "Google Cloud",
@@ -15874,6 +15880,13 @@
      "fabricante": "Docker",
      "cvss": 6.9,
      "epss": 0.0037,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-119119",
+     "fabricante": "Docker",
+     "cvss": 7.5,
+     "epss": 0.00359,
      "prioridad": "alta"
     }
    ]
@@ -16034,9 +16047,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1074,
-   "criticos": 87,
-   "altos": 368,
+   "cves": 1079,
+   "criticos": 89,
+   "altos": 364,
    "urgentes": 14,
    "epss_max": 0.0284,
    "fabricantes": [
@@ -16186,17 +16199,17 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 22,
-   "criticos": 5,
+   "cves": 26,
+   "criticos": 9,
    "altos": 7,
    "urgentes": 4,
    "epss_max": 0.0274,
    "fabricantes": [
     "TOTOLINK",
     "TP-Link",
+    "Wavlink",
     "Linksys",
-    "D-Link",
-    "Dahua"
+    "D-Link"
    ],
    "kev_recientes": [],
    "kev_recientes_total": 0,
@@ -16350,7 +16363,7 @@
    "categoria": "ia",
    "nombre": "IA y agentes (LLM · MCP)",
    "estado": "vigilar",
-   "cves": 27,
+   "cves": 26,
    "criticos": 0,
    "altos": 18,
    "urgentes": 0,
