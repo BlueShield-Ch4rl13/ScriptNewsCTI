@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-01 00:05",
+ "generado_utc": "2026-11-01 03:57",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3461,
-  "criticos": 246,
+  "cves": 3472,
+  "criticos": 247,
   "explotados": 1,
   "urgentes": 29,
   "epss_10": 0,
-  "sin_puntuar": 783,
+  "sin_puntuar": 784,
   "por_prioridad": {
    "explotada": 1,
    "urgente": 29,
    "alta": 1328,
-   "media": 1164,
-   "baja": 939
+   "media": 1174,
+   "baja": 940
   },
-  "paquetes_maliciosos": 238,
+  "paquetes_maliciosos": 239,
   "exploit_publico": 0,
-  "poc_github": 61,
+  "poc_github": 59,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -14846,13 +14846,24 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 25,
+   "maliciosos": 26,
    "maliciosos_mas": false,
    "avisos": 99,
    "avisos_mas": false,
    "criticos": 5,
    "altos": 43,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-f93h-mc69-274w",
+     "cve": null,
+     "paquete": "pystr-codec",
+     "resumen": "Malicious code in pystr-codec (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-01"
+    },
     {
      "ghsa": "GHSA-r92r-m9r8-78vj",
      "cve": null,
@@ -14891,17 +14902,6 @@
      "cve": null,
      "paquete": "is-it-ai",
      "resumen": "Malicious code in is-it-ai (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-10-31"
-    },
-    {
-     "ghsa": "GHSA-vh26-86vj-f72g",
-     "cve": null,
-     "paquete": "multi-convert",
-     "resumen": "Malicious code in multi-convert (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15114,6 +15114,17 @@
      "publicado": "2026-10-27"
     },
     {
+     "ghsa": "GHSA-jm85-8cpp-9cjc",
+     "cve": "CVE-2026-59978",
+     "paquete": "adminneo-org/adminneo",
+     "resumen": "AdminNeo: version-cache array injection causes persistent denial of service",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": 0.00646,
+     "corregido_en": "5.5.0",
+     "publicado": "2026-10-30"
+    },
+    {
      "ghsa": "GHSA-r925-mgvr-h9cc",
      "cve": "CVE-2026-108082",
      "paquete": "symfony/http-foundation, symfony/symfony",
@@ -15145,17 +15156,6 @@
      "epss": 0.00349,
      "corregido_en": "8.9.3",
      "publicado": "2026-10-27"
-    },
-    {
-     "ghsa": "GHSA-6vfx-w7q3-42gq",
-     "cve": "CVE-2026-96633",
-     "paquete": "adminneo-org/adminneo",
-     "resumen": "AdminNeo SQLite Database-List Drop Arbitrary File Deletion",
-     "gravedad": "high",
-     "cvss": 8.1,
-     "epss": null,
-     "corregido_en": "5.5.1",
-     "publicado": "2026-10-30"
     }
    ],
    "estado": "runtime_explotado"
@@ -15225,15 +15225,15 @@
      "publicado": "2026-10-27"
     },
     {
-     "ghsa": "GHSA-375p-5qhx-8wq4",
-     "cve": "CVE-2026-118650",
-     "paquete": "github.com/labstack/echo/v5, github.com/labstack/echo/v4",
-     "resumen": "Echo's middleware.Static: `%2F`-encoded path bypasses route/group middleware guarding a statically-served path",
+     "ghsa": "GHSA-rhj7-vh3v-mcq6",
+     "cve": "CVE-2026-62160",
+     "paquete": "github.com/daptin/daptin",
+     "resumen": "Daptin: ParseAcceptLanguage `_` separator bypass enables >250x CPU amplification via Accept-Language header in LanguageMiddleware",
      "gravedad": "high",
-     "cvss": 7.5,
-     "epss": 0.00396,
-     "corregido_en": "5.4.0",
-     "publicado": "2026-10-28"
+     "cvss": null,
+     "epss": 0.00417,
+     "corregido_en": null,
+     "publicado": "2026-10-29"
     }
    ],
    "estado": "critico"
@@ -15321,7 +15321,7 @@
      "resumen": "Shopify App: Token exchange shop context confusion may allow cross-shop authorization bypass in affected apps",
      "gravedad": "high",
      "cvss": null,
-     "epss": null,
+     "epss": 0.00549,
      "corregido_en": "23.0.3",
      "publicado": "2026-10-29"
     }
@@ -15882,7 +15882,7 @@
    "categoria": "servidores",
    "nombre": "Servidores y servicios",
    "estado": "explotacion_activa",
-   "cves": 5,
+   "cves": 10,
    "criticos": 0,
    "altos": 2,
    "urgentes": 0,
@@ -15951,18 +15951,18 @@
      "prioridad": "media"
     },
     {
-     "cve": "CVE-2026-120210",
+     "cve": "CVE-2026-120243",
      "fabricante": "Ffmpeg",
-     "cvss": 4.3,
+     "cvss": 5.5,
      "epss": null,
      "prioridad": "media"
     },
     {
-     "cve": "CVE-2026-114523",
+     "cve": "CVE-2026-120244",
      "fabricante": "Ffmpeg",
-     "cvss": null,
-     "epss": 0.00527,
-     "prioridad": "baja"
+     "cvss": 5.5,
+     "epss": null,
+     "prioridad": "media"
     }
    ]
   },
@@ -16034,9 +16034,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1069,
+   "cves": 1074,
    "criticos": 87,
-   "altos": 367,
+   "altos": 368,
    "urgentes": 14,
    "epss_max": 0.0284,
    "fabricantes": [
@@ -16186,8 +16186,8 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 21,
-   "criticos": 4,
+   "cves": 22,
+   "criticos": 5,
    "altos": 7,
    "urgentes": 4,
    "epss_max": 0.0274,
@@ -16195,8 +16195,8 @@
     "TOTOLINK",
     "TP-Link",
     "Linksys",
-    "Dahua",
-    "Tenda"
+    "D-Link",
+    "Dahua"
    ],
    "kev_recientes": [],
    "kev_recientes_total": 0,

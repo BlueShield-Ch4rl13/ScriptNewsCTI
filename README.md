@@ -196,7 +196,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-11-01 00:06 UTC · **IOCs recolectados:** 1948 · **CVEs KEV recientes:** 18
+**Última actualización:** 2026-11-01 03:57 UTC · **IOCs recolectados:** 1796 · **CVEs KEV recientes:** 18
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -206,6 +206,7 @@ python main.py
 | 75 (alta) | media | `85[.]11[.]167[.]7:11941` | ip:port | XMRIG | ThreatFox | 2026-10-31 07:38:03 UTC |
 | 75 (alta) | media | `176[.]65[.]149[.]174:34843` | ip:port | XMRIG | ThreatFox | 2026-10-31 07:38:02 UTC |
 | 70 (alta) | alta | `141[.]98[.]10[.]172:8001` | ip:port | Aisuru | ThreatFox | 2026-10-31 06:33:33 UTC |
+| 68 (media) | media | `34[.]97[.]167[.]85` | ipv4 | php.shin_webshell | ThreatFox | 2026-11-01 00:09:17 UTC |
 | 68 (media) | alta | `9b151f4ffa47622d8b0823c33dfb2471af4b619f1ef6296fbdb9089c076d5abf` | filehash-sha256 | Quasar RAT | ThreatFox | 2026-10-31 16:16:27 UTC |
 | 68 (media) | alta | `491b3c90fcde895c6b06705bbec66d05fe7e1a90c255f8075c26607755ae6851` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-10-31 15:56:56 UTC |
 | 68 (media) | critica | `179[.]43[.]150[.]26:31337` | ip:port | Sliver | ThreatFox | 2026-10-31 07:32:20 UTC |
@@ -226,7 +227,6 @@ python main.py
 | 64 (media) | alta | `4b0d6457b837f31be491735b4ad42ea895f8e117bfcb66e3ec8091fc779730a1` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:54 UTC |
 | 64 (media) | alta | `1c6b1fb46834368ae879088f776a625f7808e8800955bde0e60e45870cb9ade8` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:45 UTC |
 | 64 (media) | alta | `c68ef1d51fd204380ad5feb0dbc149e12f053efa2ae2a5c9d38f022f31b1eff7` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:40 UTC |
-| 64 (media) | alta | `48dee25a48201f5fb08e7ed80976de33b3074bd84e0bf012c00a849dcba0f7c5` | filehash-sha256 | Mirai | ThreatFox | 2026-10-31 15:56:36 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -287,7 +287,7 @@ python main.py
 
 ### Vulnerabilidades de los últimos 7 días
 
-**3461** CVE publicados · **1** ya explotados · **29** urgentes · **246** con CVSS ≥ 9 · **238** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
+**3472** CVE publicados · **1** ya explotados · **29** urgentes · **247** con CVSS ≥ 9 · **239** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
 
 Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC). Un exploit de Exploit-DB cuenta como prueba de concepto.
 
@@ -324,7 +324,7 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 | Lenguaje | Estado | Paquetes maliciosos | Avisos críticos / altos |
 |---|---|---|---|
 | JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 213 | 2 / 47 |
-| Python (PyPI) | 🔴 paquetes maliciosos | 25 | 5 / 43 |
+| Python (PyPI) | 🔴 paquetes maliciosos | 26 | 5 / 43 |
 | Java / Kotlin (Maven) | 🟡 avisos altos | 0 | 0 / 5 |
 | .NET (C#) (NuGet) | 🟡 avisos altos | 0 | 0 / 1 |
 | PHP (Packagist) | 🔴 el lenguaje se explota | 0 | 0 / 12 |
@@ -346,12 +346,12 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 | Red, VPN y firewalls | 🔴 explotación activa | 29 | 5 | 9 |
 | Linux | 🔴 explotación activa | 184 | 4 | 1 |
 | Virtualización y nube | 🔴 explotación activa | 28 | 3 | 1 |
-| Servidores y servicios | 🔴 explotación activa | 5 | 0 | 4 |
+| Servidores y servicios | 🔴 explotación activa | 10 | 0 | 4 |
 | Industrial (OT · ICS) | 🔴 explotación activa | 1 | 0 | 1 |
 | Lenguajes y entornos de ejecución | 🔴 explotación activa | 0 | 0 | 2 |
-| Otros | 🔴 explotación activa | 1069 | 87 | 10 |
+| Otros | 🔴 explotación activa | 1074 | 87 | 10 |
 | Librerías de código abierto | 🟠 riesgo alto | 387 | 30 | 0 |
-| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 21 | 4 | 0 |
+| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 22 | 5 | 0 |
 | Apple (macOS · iOS) | 🟠 riesgo alto | 335 | 1 | 0 |
 | Navegadores | 🟠 riesgo alto | 254 | 16 | 0 |
 | IA y agentes (LLM · MCP) | 🟢 vigilar | 27 | 0 | 0 |
