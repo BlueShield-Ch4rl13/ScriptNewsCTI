@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-02 00:19",
+ "generado_utc": "2026-11-02 10:38",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -24,7 +24,7 @@
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/feed",
    "estado": "ok",
-   "avisos": 14
+   "avisos": 8
   },
   {
    "id": "cisa",
@@ -96,7 +96,7 @@
    "idioma": "en",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "estado": "ok",
-   "avisos": 1
+   "avisos": 0
   },
   {
    "id": "paloalto",
@@ -168,7 +168,7 @@
    "idioma": "en",
    "url": "https://www.zerodayinitiative.com/rss/published/",
    "estado": "ok",
-   "avisos": 57
+   "avisos": 38
   },
   {
    "id": "exploitdb",
@@ -231,7 +231,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 14
+   "avisos": 15
   },
   {
    "id": "securityweek",
@@ -240,23 +240,23 @@
    "idioma": "en",
    "url": "https://www.securityweek.com/feed/",
    "estado": "ok",
-   "avisos": 14
+   "avisos": 15
   }
  ],
  "resumen": {
-  "avisos": 318,
+  "avisos": 294,
   "por_tipo": {
-   "noticia": 65,
-   "fabricante": 104,
-   "cert": 90,
-   "exploit": 59
+   "noticia": 67,
+   "fabricante": 103,
+   "cert": 84,
+   "exploit": 40
   },
-  "explotados": 74,
-  "dia_cero": 7,
-  "sin_parche": 31,
+  "explotados": 69,
+  "dia_cero": 9,
+  "sin_parche": 30,
   "criticos": 21,
-  "exploit_publico": 26,
-  "cves_citados": 239,
+  "exploit_publico": 20,
+  "cves_citados": 231,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -274,30 +274,11 @@
     "siemens",
     "thehackernews"
    ],
-   "avisos": 24,
+   "avisos": 18,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
    "ultimo": "2026-10-30T19:24Z"
-  },
-  {
-   "cve": "CVE-2026-111497",
-   "fuentes": [
-    "cisa",
-    "cisco",
-    "fortinet",
-    "incibe",
-    "paloalto",
-    "seguinfo",
-    "siemens",
-    "thehackernews",
-    "ubuntu"
-   ],
-   "avisos": 17,
-   "kev": true,
-   "cvss": null,
-   "epss": 0.82641,
-   "ultimo": "2026-10-31T03:15Z"
   },
   {
    "cve": "CVE-2026-109619",
@@ -311,11 +292,29 @@
     "seguinfo",
     "siemens"
    ],
-   "avisos": 22,
+   "avisos": 16,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
    "ultimo": "2026-10-30T19:24Z"
+  },
+  {
+   "cve": "CVE-2026-111497",
+   "fuentes": [
+    "cisa",
+    "cisco",
+    "incibe",
+    "paloalto",
+    "seguinfo",
+    "siemens",
+    "thehackernews",
+    "ubuntu"
+   ],
+   "avisos": 16,
+   "kev": true,
+   "cvss": null,
+   "epss": 0.82641,
+   "ultimo": "2026-10-31T03:15Z"
   },
   {
    "cve": "CVE-2026-76418",
@@ -333,45 +332,6 @@
    "ultimo": "2026-10-29T12:00Z"
   },
   {
-   "cve": "CVE-2026-105482",
-   "fuentes": [
-    "cisco",
-    "fortinet",
-    "incibe"
-   ],
-   "avisos": 4,
-   "kev": false,
-   "cvss": null,
-   "epss": 0.00468,
-   "ultimo": "2026-10-30T19:55Z"
-  },
-  {
-   "cve": "CVE-2026-105483",
-   "fuentes": [
-    "cisco",
-    "fortinet",
-    "incibe"
-   ],
-   "avisos": 4,
-   "kev": false,
-   "cvss": null,
-   "epss": 0.00304,
-   "ultimo": "2026-10-30T19:55Z"
-  },
-  {
-   "cve": "CVE-2026-106069",
-   "fuentes": [
-    "cisco",
-    "fortinet",
-    "incibe"
-   ],
-   "avisos": 4,
-   "kev": false,
-   "cvss": null,
-   "epss": 0.00304,
-   "ultimo": "2026-10-30T19:55Z"
-  },
-  {
    "cve": "CVE-2026-97229",
    "fuentes": [
     "cisa",
@@ -383,6 +343,55 @@
    "cvss": null,
    "epss": 0.273,
    "ultimo": "2026-10-30T09:32Z"
+  },
+  {
+   "cve": "CVE-2026-111357",
+   "fuentes": [
+    "cisa",
+    "securityweek",
+    "thehackernews"
+   ],
+   "avisos": 3,
+   "kev": true,
+   "cvss": null,
+   "epss": 0.00533,
+   "ultimo": "2026-11-02T07:57Z"
+  },
+  {
+   "cve": "CVE-2026-105482",
+   "fuentes": [
+    "cisco",
+    "incibe"
+   ],
+   "avisos": 3,
+   "kev": false,
+   "cvss": null,
+   "epss": 0.00468,
+   "ultimo": "2026-10-30T19:55Z"
+  },
+  {
+   "cve": "CVE-2026-105483",
+   "fuentes": [
+    "cisco",
+    "incibe"
+   ],
+   "avisos": 3,
+   "kev": false,
+   "cvss": null,
+   "epss": 0.00304,
+   "ultimo": "2026-10-30T19:55Z"
+  },
+  {
+   "cve": "CVE-2026-106069",
+   "fuentes": [
+    "cisco",
+    "incibe"
+   ],
+   "avisos": 3,
+   "kev": false,
+   "cvss": null,
+   "epss": 0.00304,
+   "ultimo": "2026-10-30T19:55Z"
   },
   {
    "cve": "CVE-2026-118331",
@@ -419,21 +428,53 @@
    "cvss": null,
    "epss": 0.00614,
    "ultimo": "2026-10-28T12:48Z"
-  },
-  {
-   "cve": "CVE-2026-111357",
-   "fuentes": [
-    "cisa",
-    "thehackernews"
-   ],
-   "avisos": 2,
-   "kev": true,
-   "cvss": null,
-   "epss": 0.00533,
-   "ultimo": "2026-10-31T08:27Z"
   }
  ],
  "avisos": [
+  {
+   "fuente": "bleeping",
+   "titulo": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+   "enlace": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+   "fecha": "2026-11-02T09:33Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "securityweek",
+   "titulo": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+   "enlace": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+   "fecha": "2026-11-02T07:57Z",
+   "cves": [
+    "CVE-2026-111357",
+    "CVE-2026-118527"
+   ],
+   "cves_total": 2,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-111357",
+    "CVE-2026-118527"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0053,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "bleeping",
    "titulo": "Alpine Linux rebuilds GitLab after attempted RCE attack",
@@ -6612,553 +6653,6 @@
    "epss_max": 1.0,
    "exploit_publico": true,
    "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en productos de Hikvision",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-hikvision-1",
-   "fecha": "2026-10-26T10:19Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en RUGGEDCOM APE1808 de Siemens",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-ruggedcom-ape1808-de-siemens",
-   "fecha": "2026-10-26T10:14Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en Netbiter de HMS Networks",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-netbiter-de-hms-networks",
-   "fecha": "2026-10-26T10:09Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en productos de Wibu-Systems",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-wibu-systems",
-   "fecha": "2026-10-26T10:05Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en APROL de B&R",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-aprol-de-br",
-   "fecha": "2026-10-26T09:59Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en MES de ABB",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mes-de-abb",
-   "fecha": "2026-10-26T09:35Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "fortinet",
-   "titulo": "Node2Shell CVEs",
-   "enlace": "https://fortiguard.fortinet.com/psirt/FG-IR-26-187",
-   "fecha": "2026-10-26T07:00Z",
-   "cves": [
-    "CVE-2026-105482",
-    "CVE-2026-105483",
-    "CVE-2026-106069",
-    "CVE-2026-111497",
-    "CVE-2026-105481",
-    "CVE-2026-106072",
-    "CVE-2026-106074",
-    "CVE-2026-106070",
-    "CVE-2026-106071",
-    "CVE-2026-106073"
-   ],
-   "cves_total": 10,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111497"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.8264,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-809: Meta FAIRChem dense_eval dft-targets Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-809/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-808: Meta FAIRChem run_validation Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-808/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-807: Meta FAIRChem get_computational_df_to_predict Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-807/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-806: Meta FAIRChem write_top_k_vasp Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-806/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-805: Meta FAIRChem Adsorbate Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-805/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-804: Meta FAIRChem Bulk Class Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-804/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-803: Meta FAIRChem AdsorbMLRunner Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-803/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-802: Meta FAIRChem process_mlrs Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-802/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-801: Meta FAIRChem Slab Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-801/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-800: Meta FAIRChem OMolRunner Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-800/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-799: Meta FAIRChem Solvent Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-799/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-798: Meta FAIRChem dense_eval results-file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-798/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-797: Meta FAIRChem dense_eval dft-compute Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-797/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-796: Meta FAIRChem reaction adsorbate_db_path Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-796/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-795: Meta FAIRChem reaction_db_path Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-795/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-794: Meta FAIRChem ion_db_path Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-794/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-793: Meta FAIRChem load_and_preprocess_data Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-793/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-792: libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-792/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [
-    "CVE-2026-114550"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-791: Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-791/",
-   "fecha": "2026-10-26T05:00Z",
-   "cves": [
-    "CVE-2026-92211"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
   }
  ]
 }
