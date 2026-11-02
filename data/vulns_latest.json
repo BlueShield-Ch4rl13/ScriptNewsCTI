@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-01 19:30",
+ "generado_utc": "2026-11-02 00:18",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,8 +10,8 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3413,
-  "criticos": 263,
+  "cves": 3428,
+  "criticos": 265,
   "explotados": 1,
   "urgentes": 34,
   "epss_10": 0,
@@ -19,13 +19,13 @@
   "por_prioridad": {
    "explotada": 1,
    "urgente": 34,
-   "alta": 1291,
-   "media": 1152,
-   "baja": 935
+   "alta": 1296,
+   "media": 1158,
+   "baja": 939
   },
-  "paquetes_maliciosos": 244,
+  "paquetes_maliciosos": 197,
   "exploit_publico": 0,
-  "poc_github": 61,
+  "poc_github": 62,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -5499,31 +5499,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Asterisk is an open source private branch exchange and telephony toolkit. Prior to Asterisk 20.20.1, 21.12.3, 22.10.1, 23.4.1 and Certified Asterisk 20.7-cert11, 22.8-cert3, an authenticated attacker may cause a stack buffer overflow in `res_xmpp` `XMPP namespace prefix` handling…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-116095",
-   "publicado": "2026-10-25",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00521,
-   "epss_percentil": 0.44224,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-400",
-    "CWE-789"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was identified in smg-project smg 1.7.0/1.8.0/1.9.0/1.10.0/1.10.1. Affected is the function jpeg_turbo::decode_jpeg_rgb of the file crates/multimodal/src/jpeg_turbo.rs of the component llm-multimodal. The manipulation leads to uncontrolled memory allocation. The a…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -12666,31 +12641,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-116099",
-   "publicado": "2026-10-26",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00378,
-   "epss_percentil": 0.31818,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Fcs-Ex",
-   "cwe": [
-    "CWE-119",
-    "CWE-787"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A flaw has been found in Fusion Creators Studio SCP Containment Breach Multiplayer up to 1.295. This issue affects the function BlitzBanks of the component Skynet++ Virtual Machine. Executing a manipulation can lead to out-of-bounds write. The attack can be executed remotely. The…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-61729",
    "publicado": "2026-10-30",
    "prioridad": "alta",
@@ -14297,30 +14247,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-116094",
-   "publicado": "2026-10-25",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00356,
-   "epss_percentil": 0.29298,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-918"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was determined in EyouCMS up to 1.8.3. This impacts the function remote_file_to_local of the file application/function.php. Executing a manipulation can lead to server-side request forgery. It is possible to launch the attack remotely. The exploit has been publicl…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-49142",
    "publicado": "2026-10-29",
    "prioridad": "alta",
@@ -14696,6 +14622,78 @@
    "descripcion": "Chamilo LMS is an open-source learning management system. Prior to 2.0.1, `public/main/inc/lib/career.lib.php` and `public/main/cron/import_csv.php` call PHP's native `unserialize()` on `user_career.extra_data` retrieved from the database without the `allowed_classes: false` safe…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120203",
+   "publicado": "2026-10-31",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00352,
+   "epss_percentil": 0.28839,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-94"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "ShowDoc 2.8.14 before 3.9.6 contains a code injection vulnerability in its Mock feature that allows authenticated users to execute shell commands through mockjs templates. Attackers can store a template via MockController::add with escaped parentheses that mockjs evaluates with e…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-84294",
+   "publicado": "2026-10-29",
+   "prioridad": "alta",
+   "cvss": 7.7,
+   "gravedad": "high",
+   "epss": 0.00352,
+   "epss_percentil": 0.289,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Windows",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Improper limitation of pathname in the Ad Hoc Transfer component of Progress Software WS_FTP Server versions prior to 2024.0.6 and 2025.0.3 on Windows could allow an authenticated user to access files outside intended directories.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-112457",
+   "publicado": "2026-10-26",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00352,
+   "epss_percentil": 0.28906,
+   "kev": false,
+   "categoria": "apple",
+   "fabricante": "Apple",
+   "cwe": [
+    "CWE-415"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "A double free issue was addressed with improved memory management. This issue is fixed in macOS Golden Gate 27.2, macOS Sequoia 15.8.2, macOS Tahoe 26.7.2. An attacker on the local network may be able to cause unexpected system termination or corrupt process memory.",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14712,13 +14710,24 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 216,
+   "maliciosos": 172,
    "maliciosos_mas": false,
    "avisos": 91,
    "avisos_mas": false,
    "criticos": 2,
    "altos": 47,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-6f53-8jrf-3x9j",
+     "cve": null,
+     "paquete": "dsh-screenshot-native",
+     "resumen": "Malware in dsh-screenshot-native",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-01"
+    },
     {
      "ghsa": "GHSA-vj43-6r45-847h",
      "cve": null,
@@ -14757,17 +14766,6 @@
      "cve": null,
      "paquete": "@mamans2973/maman",
      "resumen": "Malware in @mamans2973/maman",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-10-31"
-    },
-    {
-     "ghsa": "GHSA-7j62-5j84-72fv",
-     "cve": null,
-     "paquete": "local-commander-agent",
-     "resumen": "Malware in local-commander-agent",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14846,7 +14844,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 27,
+   "maliciosos": 24,
    "maliciosos_mas": false,
    "avisos": 99,
    "avisos_mas": false,
@@ -15440,7 +15438,7 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 909,
+   "cves": 907,
    "criticos": 70,
    "altos": 224,
    "urgentes": 3,
@@ -15513,9 +15511,9 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 100,
+   "cves": 119,
    "criticos": 16,
-   "altos": 21,
+   "altos": 30,
    "urgentes": 2,
    "epss_max": 0.0218,
    "fabricantes": [
@@ -16046,9 +16044,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1026,
+   "cves": 1021,
    "criticos": 91,
-   "altos": 347,
+   "altos": 345,
    "urgentes": 14,
    "epss_max": 0.0284,
    "fabricantes": [
@@ -16100,7 +16098,7 @@
      "ransomware": false
     }
    ],
-   "kev_recientes_total": 10,
+   "kev_recientes_total": 8,
    "destacados": [
     {
      "cve": "CVE-2026-112352",
@@ -16143,8 +16141,8 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 33,
-   "criticos": 16,
+   "cves": 36,
+   "criticos": 18,
    "altos": 7,
    "urgentes": 9,
    "epss_max": 0.0274,
