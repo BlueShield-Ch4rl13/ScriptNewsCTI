@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-03 20:55",
+ "generado_utc": "2026-11-04 01:11",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -33,7 +33,7 @@
    "idioma": "en",
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
    "estado": "ok",
-   "avisos": 7
+   "avisos": 8
   },
   {
    "id": "cert_eu",
@@ -60,7 +60,7 @@
    "idioma": "fr",
    "url": "https://www.cert.ssi.gouv.fr/avis/feed/",
    "estado": "ok",
-   "avisos": 51
+   "avisos": 39
   },
   {
    "id": "certcc",
@@ -123,7 +123,7 @@
    "idioma": "en",
    "url": "https://chromereleases.googleblog.com/feeds/posts/default",
    "estado": "ok",
-   "avisos": 2
+   "avisos": 4
   },
   {
    "id": "siemens",
@@ -132,7 +132,7 @@
    "idioma": "en",
    "url": "https://cert-portal.siemens.com/productcert/rss/advisories.atom",
    "estado": "ok",
-   "avisos": 6
+   "avisos": 5
   },
   {
    "id": "gitlab",
@@ -150,7 +150,7 @@
    "idioma": "en",
    "url": "https://ubuntu.com/security/notices/rss.xml",
    "estado": "ok",
-   "avisos": 22
+   "avisos": 21
   },
   {
    "id": "debian",
@@ -159,7 +159,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 17
+   "avisos": 14
   },
   {
    "id": "zdi",
@@ -168,7 +168,7 @@
    "idioma": "en",
    "url": "https://www.zerodayinitiative.com/rss/published/",
    "estado": "ok",
-   "avisos": 39
+   "avisos": 57
   },
   {
    "id": "exploitdb",
@@ -213,7 +213,7 @@
    "idioma": "es",
    "url": "https://blog.segu-info.com.ar/feeds/posts/default",
    "estado": "ok",
-   "avisos": 5
+   "avisos": 4
   },
   {
    "id": "thehackernews",
@@ -231,7 +231,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 17
+   "avisos": 18
   },
   {
    "id": "securityweek",
@@ -244,19 +244,19 @@
   }
  ],
  "resumen": {
-  "avisos": 325,
+  "avisos": 329,
   "por_tipo": {
-   "fabricante": 119,
    "noticia": 73,
-   "cert": 91,
-   "exploit": 42
+   "fabricante": 116,
+   "cert": 80,
+   "exploit": 60
   },
-  "explotados": 77,
+  "explotados": 76,
   "dia_cero": 9,
   "sin_parche": 30,
-  "criticos": 22,
-  "exploit_publico": 23,
-  "cves_citados": 274,
+  "criticos": 19,
+  "exploit_publico": 21,
+  "cves_citados": 308,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -268,13 +268,12 @@
     "incibe",
     "incibe_sci",
     "paloalto",
-    "seguinfo",
     "siemens",
     "thehackernews",
     "ubuntu",
     "wordfence"
    ],
-   "avisos": 16,
+   "avisos": 15,
    "kev": true,
    "cvss": null,
    "epss": 0.82641,
@@ -283,7 +282,6 @@
   {
    "cve": "CVE-2026-109618",
    "fuentes": [
-    "cert_fr_avis",
     "cisco",
     "incibe",
     "incibe_sci",
@@ -291,7 +289,7 @@
     "seguinfo",
     "siemens"
    ],
-   "avisos": 20,
+   "avisos": 18,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
@@ -300,7 +298,6 @@
   {
    "cve": "CVE-2026-109619",
    "fuentes": [
-    "cert_fr_avis",
     "cisco",
     "incibe",
     "incibe_sci",
@@ -308,7 +305,7 @@
     "seguinfo",
     "siemens"
    ],
-   "avisos": 19,
+   "avisos": 18,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
@@ -418,7 +415,7 @@
    "ultimo": "2026-10-28T12:48Z"
   },
   {
-   "cve": "CVE-2026-118307",
+   "cve": "CVE-2026-118306",
    "fuentes": [
     "chrome",
     "msrc"
@@ -426,11 +423,94 @@
    "avisos": 2,
    "kev": false,
    "cvss": null,
-   "epss": 0.0033,
-   "ultimo": "2026-10-31T14:00Z"
+   "epss": 0.00369,
+   "ultimo": "2026-11-03T18:47Z"
   }
  ],
  "avisos": [
+  {
+   "fuente": "bleeping",
+   "titulo": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+   "enlace": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+   "fecha": "2026-11-03T22:18Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "chrome",
+   "titulo": "Stable Channel Update for Desktop",
+   "enlace": "http://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop.html",
+   "fecha": "2026-11-03T20:38Z",
+   "cves": [
+    "CVE-2026-121156",
+    "CVE-2026-121229",
+    "CVE-2026-121246",
+    "CVE-2026-121035",
+    "CVE-2026-121247",
+    "CVE-2026-121203",
+    "CVE-2026-121126",
+    "CVE-2026-121107",
+    "CVE-2026-121197",
+    "CVE-2026-121112",
+    "CVE-2026-121174",
+    "CVE-2026-121098"
+   ],
+   "cves_total": 213,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "chrome",
+   "titulo": "Extended Stable Update for Desktop",
+   "enlace": "http://chromereleases.googleblog.com/2026/11/extended-stable-update-for-desktop.html",
+   "fecha": "2026-11-03T18:47Z",
+   "cves": [
+    "CVE-2026-118306",
+    "CVE-2026-121156",
+    "CVE-2026-76024",
+    "CVE-2026-119260",
+    "CVE-2026-119261",
+    "CVE-2026-119262",
+    "CVE-2026-119263",
+    "CVE-2026-119264",
+    "CVE-2026-119265",
+    "CVE-2026-119266",
+    "CVE-2026-119267",
+    "CVE-2026-119268"
+   ],
+   "cves_total": 55,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0037,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "ubuntu",
    "titulo": "USN-8994-1: libvips vulnerabilities",
@@ -794,6 +874,29 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "cisa",
+   "titulo": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "enlace": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "fecha": "2026-11-03T12:00Z",
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "cves_total": 1,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-119977"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": 8.1,
+   "epss_max": 0.006,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1427,6 +1530,382 @@
    "sin_parche": false,
    "kev": [],
    "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-868: Microsoft Windows Aero Theme Improper Handling Of Error Condition Denial-of-Service Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-868/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-867: Cisco Snort sf_unfold_header Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-867/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-20043"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0036,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-866: Quest Foglight for Databases renderTemplateString Server-Side Template Injection Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-866/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92196"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-865: Quest Foglight for Databases Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92200"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-864: Quest Foglight for Databases getSource XML External Entity Processing Information Disclosure Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-864/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92198"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-863: Quest Foglight for Databases EncryptionUtil Hardcoded Encyption Key Local Privilege Escalation Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-863/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92199"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-862: Quest Foglight for Databases AbstractParser XML External Entity Processing Information Disclosure Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-862/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92185"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-861: Quest Foglight for Databases writeTopologySectionToFile External Control of File Path Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92189"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-860: Quest Foglight for Databases unzipFile Directory Traversal Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-860/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92197"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-859: Quest Foglight for Databases runScript Incorrect Authorization Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-859/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92191"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-858: Quest Foglight for Databases paFnUploadFileAndCreateInfo Directory Traversal Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-858/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92186"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-857: Quest Foglight for Databases loadManageServerLicense Directory Traversal Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-857/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92194"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-856: Quest Foglight for Databases loadEvolveLicense Directory Traversal Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92195"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-855: Quest Foglight for Databases installLicense Directory Traversal Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92192"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-854: Quest Foglight for Databases ForgeMBeanServerSupport Missing Authentication Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-854/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92188"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-853: Quest Foglight for Databases FileServlet External Control of File Path Information Disclosure Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-853/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92193"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-852: Quest Foglight for Databases extractAndCreateUploadInfoList Directory Traversal Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-852/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92187"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-851: Quest Foglight for Databases baseRmiServiceExporter Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-851/",
+   "fecha": "2026-11-03T06:00Z",
+   "cves": [
+    "CVE-2026-92190"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
@@ -2500,8 +2979,8 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 9.6,
+   "critica": false,
+   "cvss_max": null,
    "epss_max": 0.0037,
    "exploit_publico": false,
    "exploitdb": null
@@ -2542,8 +3021,8 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 9.6,
+   "critica": false,
+   "cvss_max": null,
    "epss_max": 0.0037,
    "exploit_publico": false,
    "exploitdb": null
@@ -2606,7 +3085,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.8,
+   "cvss_max": null,
    "epss_max": 0.004,
    "exploit_publico": false,
    "exploitdb": null
@@ -2711,7 +3190,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.8,
+   "cvss_max": null,
    "epss_max": 0.0034,
    "exploit_publico": false,
    "exploitdb": null
@@ -2795,7 +3274,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.8,
+   "cvss_max": null,
    "epss_max": 0.0039,
    "exploit_publico": false,
    "exploitdb": null
@@ -2899,8 +3378,8 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 9.6,
+   "critica": false,
+   "cvss_max": null,
    "epss_max": 0.0035,
    "exploit_publico": false,
    "exploitdb": null
@@ -2984,7 +3463,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.8,
+   "cvss_max": null,
    "epss_max": 0.0034,
    "exploit_publico": false,
    "exploitdb": null
@@ -3068,7 +3547,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.8,
+   "cvss_max": null,
    "epss_max": 0.0034,
    "exploit_publico": false,
    "exploitdb": null
@@ -4450,25 +4929,28 @@
   },
   {
    "fuente": "cisa",
-   "titulo": "Hitachi Energy CoreTec Product",
-   "enlace": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+   "titulo": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "enlace": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
    "fecha": "2026-10-29T12:00Z",
    "cves": [
-    "CVE-2026-13162",
-    "CVE-2026-43284"
+    "CVE-2026-97229",
+    "CVE-2026-76418"
    ],
    "cves_total": 2,
-   "texto_explotada": false,
+   "texto_explotada": true,
    "texto_critica": false,
    "dia_cero": false,
    "sin_parche": false,
-   "kev": [],
-   "explotada": false,
+   "kev": [
+    "CVE-2026-97229",
+    "CVE-2026-76418"
+   ],
+   "explotada": true,
    "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.9419,
-   "exploit_publico": true,
-   "exploitdb": 52585
+   "cvss_max": 8.6,
+   "epss_max": 0.2769,
+   "exploit_publico": false,
+   "exploitdb": null
   },
   {
    "fuente": "cisa",
@@ -4515,28 +4997,25 @@
   },
   {
    "fuente": "cisa",
-   "titulo": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-   "enlace": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "titulo": "Hitachi Energy CoreTec Product",
+   "enlace": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
    "fecha": "2026-10-29T12:00Z",
    "cves": [
-    "CVE-2026-97229",
-    "CVE-2026-76418"
+    "CVE-2026-13162",
+    "CVE-2026-43284"
    ],
    "cves_total": 2,
-   "texto_explotada": true,
+   "texto_explotada": false,
    "texto_critica": false,
    "dia_cero": false,
    "sin_parche": false,
-   "kev": [
-    "CVE-2026-97229",
-    "CVE-2026-76418"
-   ],
-   "explotada": true,
+   "kev": [],
+   "explotada": false,
    "critica": false,
-   "cvss_max": 8.6,
-   "epss_max": 0.2769,
-   "exploit_publico": false,
-   "exploitdb": null
+   "cvss_max": null,
+   "epss_max": 0.9419,
+   "exploit_publico": true,
+   "exploitdb": 52585
   },
   {
    "fuente": "thehackernews",
@@ -5612,7 +6091,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.8,
+   "cvss_max": null,
    "epss_max": 0.0036,
    "exploit_publico": false,
    "exploitdb": null
@@ -6641,7 +7120,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": null,
+   "cvss_max": 8.8,
    "epss_max": 0.0034,
    "exploit_publico": false,
    "exploitdb": null
@@ -6979,362 +7458,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.0024,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "siemens",
-   "titulo": "SSA-566512 V1.1 (Last Update: 2026-10-28): PHP2Shell Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
-   "enlace": "https://cert-portal.siemens.com/productcert/html/ssa-566512.html",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [
-    "CVE-2026-109618"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6592-1 chromium - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00511.html",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6591-1 openjdk-25 - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00510.html",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6590-1 firefox-esr - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00509.html",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Mitel OpenScape Endpoint Management (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1404/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Microsoft Edge (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1405/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans les produits Mozilla (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1406/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Vulnérabilité dans les produits Belden (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1407/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Vulnérabilité dans Axis Camera Station Pro (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1408/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Vulnérabilité dans CPython (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1397/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Google Chrome (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1398/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans les produits Veeam (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1399/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Vulnérabilité dans Samba (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1400/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Docker Desktop (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1401/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Palo Alto Networks PAN-OS (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1402/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Metabase (28 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1403/",
-   "fecha": "2026-10-28T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "seguinfo",
-   "titulo": "Más actualizaciones para Broccoli 2Shell (HTTP2Shell - CVE-2026-111497), revisa TODOS tus dispositivos y aplicaciones",
-   "enlace": "http://blog.segu-info.com.ar/2026/10/mas-actualizaciones-para-broccoli.html",
-   "fecha": "2026-10-27T21:33Z",
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111497"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.8264,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "ubuntu",
-   "titulo": "USN-8956-2: Brotli vulnerability",
-   "enlace": "https://ubuntu.com/security/notices/USN-8956-2",
-   "fecha": "2026-10-27T21:14Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   }
