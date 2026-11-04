@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-04 01:11",
+ "generado_utc": "2026-11-04 10:30",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -15,7 +15,7 @@
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
    "estado": "ok",
-   "avisos": 17
+   "avisos": 18
   },
   {
    "id": "incibe_sci",
@@ -78,7 +78,7 @@
    "idioma": "en",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "estado": "ok",
-   "avisos": 60
+   "avisos": 49
   },
   {
    "id": "cisco",
@@ -168,7 +168,7 @@
    "idioma": "en",
    "url": "https://www.zerodayinitiative.com/rss/published/",
    "estado": "ok",
-   "avisos": 57
+   "avisos": 35
   },
   {
    "id": "exploitdb",
@@ -176,8 +176,9 @@
    "tipo": "exploit",
    "idioma": "en",
    "url": "https://www.exploit-db.com/rss.xml",
-   "estado": "ok",
-   "avisos": 0
+   "estado": "error",
+   "avisos": 0,
+   "detalle": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.exploit-db.com/rss.xml"
   },
   {
    "id": "projectzero",
@@ -222,7 +223,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 34
+   "avisos": 32
   },
   {
    "id": "bleeping",
@@ -231,7 +232,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 18
+   "avisos": 19
   },
   {
    "id": "securityweek",
@@ -240,24 +241,24 @@
    "idioma": "en",
    "url": "https://www.securityweek.com/feed/",
    "estado": "ok",
-   "avisos": 17
+   "avisos": 15
   }
  ],
  "resumen": {
-  "avisos": 329,
+  "avisos": 294,
   "por_tipo": {
-   "noticia": 73,
-   "fabricante": 116,
-   "cert": 80,
-   "exploit": 60
+   "noticia": 70,
+   "cert": 81,
+   "fabricante": 105,
+   "exploit": 38
   },
-  "explotados": 76,
-  "dia_cero": 9,
-  "sin_parche": 30,
+  "explotados": 73,
+  "dia_cero": 8,
+  "sin_parche": 12,
   "criticos": 19,
-  "exploit_publico": 21,
-  "cves_citados": 308,
-  "fuentes_ok": 26,
+  "exploit_publico": 19,
+  "cves_citados": 277,
+  "fuentes_ok": 25,
   "fuentes_total": 26
  },
  "mas_citados": [
@@ -269,27 +270,25 @@
     "incibe_sci",
     "paloalto",
     "siemens",
-    "thehackernews",
     "ubuntu",
     "wordfence"
    ],
-   "avisos": 15,
+   "avisos": 14,
    "kev": true,
    "cvss": null,
    "epss": 0.82641,
-   "ultimo": "2026-11-03T10:48Z"
+   "ultimo": "2026-11-04T08:25Z"
   },
   {
    "cve": "CVE-2026-109618",
    "fuentes": [
     "cisco",
-    "incibe",
     "incibe_sci",
     "paloalto",
     "seguinfo",
     "siemens"
    ],
-   "avisos": 18,
+   "avisos": 16,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
@@ -299,13 +298,12 @@
    "cve": "CVE-2026-109619",
    "fuentes": [
     "cisco",
-    "incibe",
     "incibe_sci",
     "paloalto",
     "seguinfo",
     "siemens"
    ],
-   "avisos": 18,
+   "avisos": 16,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
@@ -334,11 +332,11 @@
     "seguinfo",
     "thehackernews"
    ],
-   "avisos": 5,
+   "avisos": 6,
    "kev": false,
    "cvss": null,
    "epss": 0.0076,
-   "ultimo": "2026-11-03T11:23Z"
+   "ultimo": "2026-11-04T08:25Z"
   },
   {
    "cve": "CVE-2026-97229",
@@ -365,6 +363,19 @@
    "cvss": null,
    "epss": 0.00533,
    "ultimo": "2026-11-02T07:57Z"
+  },
+  {
+   "cve": "CVE-2026-119977",
+   "fuentes": [
+    "cisa",
+    "thehackernews",
+    "wordfence"
+   ],
+   "avisos": 3,
+   "kev": true,
+   "cvss": 8.1,
+   "epss": 0.006,
+   "ultimo": "2026-11-04T05:43Z"
   },
   {
    "cve": "CVE-2026-105482",
@@ -403,18 +414,6 @@
    "ultimo": "2026-11-02T21:16Z"
   },
   {
-   "cve": "CVE-2026-101767",
-   "fuentes": [
-    "securityweek",
-    "thehackernews"
-   ],
-   "avisos": 2,
-   "kev": false,
-   "cvss": null,
-   "epss": 0.00614,
-   "ultimo": "2026-10-28T12:48Z"
-  },
-  {
    "cve": "CVE-2026-118306",
    "fuentes": [
     "chrome",
@@ -428,6 +427,251 @@
   }
  ],
  "avisos": [
+  {
+   "fuente": "bleeping",
+   "titulo": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+   "enlace": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+   "fecha": "2026-11-04T09:39Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en Coupa Total Spend Management Platform de Coupa",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-coupa-total-spend-management-platform-de-coupa",
+   "fecha": "2026-11-04T08:44Z",
+   "cves": [
+    "CVE-2026-111036",
+    "CVE-2026-111037",
+    "CVE-2026-111038",
+    "CVE-2026-111040"
+   ],
+   "cves_total": 4,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": true,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Uso de memoria previamente liberada en productos de WatchGuard",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/uso-de-memoria-previamente-liberada-en-productos-de-watchguard",
+   "fecha": "2026-11-04T08:25Z",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0076,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en GMS de SonicWall",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-gms-de-sonicwall",
+   "fecha": "2026-11-04T08:25Z",
+   "cves": [
+    "CVE-2026-109593"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": true,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Omisión de autenticación en StorageGRID de NetApp",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-storagegrid-de-netapp",
+   "fecha": "2026-11-04T08:25Z",
+   "cves": [
+    "CVE-2026-22058"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en Dameware de SolarWinds",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-dameware-de-solarwinds",
+   "fecha": "2026-11-04T08:25Z",
+   "cves": [
+    "CVE-2026-28336",
+    "CVE-2026-111497"
+   ],
+   "cves_total": 2,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-111497"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.8264,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en Fabric Composer de HPE",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-fabric-composer-de-hpe",
+   "fecha": "2026-11-04T08:25Z",
+   "cves": [
+    "CVE-2026-95731",
+    "CVE-2026-95732",
+    "CVE-2026-95733"
+   ],
+   "cves_total": 3,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe_sci",
+   "titulo": "Múltiples vulnerabilidades en PowerSYSTEM Center de Subnet Solutions",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-powersystem-center-de-subnet-2",
+   "fecha": "2026-11-04T08:25Z",
+   "cves": [
+    "CVE-2026-63017",
+    "CVE-2026-63774"
+   ],
+   "cves_total": 2,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe_sci",
+   "titulo": "Múltiples vulnerabilidades en productos de Welotec",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-welotec",
+   "fecha": "2026-11-04T08:25Z",
+   "cves": [
+    "CVE-2026-105982",
+    "CVE-2026-105981",
+    "CVE-2026-105980",
+    "CVE-2026-105979",
+    "CVE-2026-105978",
+    "CVE-2026-109161"
+   ],
+   "cves_total": 6,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": 8.6,
+   "epss_max": 0.0047,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+   "enlace": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "fecha": "2026-11-04T07:46Z",
+   "cves": [
+    "CVE-2026-58868"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": true,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": null,
+   "epss_max": 0.0021,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+   "enlace": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+   "fecha": "2026-11-04T05:43Z",
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "cves_total": 1,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-119977"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": 8.1,
+   "epss_max": 0.006,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "bleeping",
    "titulo": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
@@ -6476,988 +6720,6 @@
    "critica": true,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
-   "enlace": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
-   "fecha": "2026-10-28T09:14Z",
-   "cves": [
-    "CVE-2026-101767"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0061,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Escritura fuera de límites en SDDC Manager de Broadcom",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-sddc-manager-de-broadcom",
-   "fecha": "2026-10-28T09:06Z",
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111497"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.8264,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en productos de Citrix",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-citrix-2",
-   "fecha": "2026-10-28T09:06Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en Fireware OS de WatchGuard",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-fireware-os-de-watchguard",
-   "fecha": "2026-10-28T09:06Z",
-   "cves": [
-    "CVE-2026-103594",
-    "CVE-2026-112710",
-    "CVE-2026-112709",
-    "CVE-2026-93865",
-    "CVE-2026-93857",
-    "CVE-2026-93866",
-    "CVE-2026-103593"
-   ],
-   "cves_total": 7,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0056,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en SPRECON-NDM de Sprecher Automation",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-sprecon-ndm-de-sprecher-automation",
-   "fecha": "2026-10-28T09:06Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en EPICS Base de The EPICS Community",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-epics-base-de-epics-community",
-   "fecha": "2026-10-28T09:05Z",
-   "cves": [
-    "CVE-2026-114595",
-    "CVE-2026-114596",
-    "CVE-2026-114597",
-    "CVE-2026-114598"
-   ],
-   "cves_total": 4,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.005,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79293 Information leak in Animation",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79293",
-   "fecha": "2026-10-28T08:54Z",
-   "cves": [
-    "CVE-2026-79293"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0032,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79292 Integer overflow in Chromecast",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79292",
-   "fecha": "2026-10-28T08:54Z",
-   "cves": [
-    "CVE-2026-79292"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.004,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79291 Information leak in CSS",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79291",
-   "fecha": "2026-10-28T08:54Z",
-   "cves": [
-    "CVE-2026-79291"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0032,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79290 Use after free in Aura",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79290",
-   "fecha": "2026-10-28T08:54Z",
-   "cves": [
-    "CVE-2026-79290"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0046,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79289 Improper control of a resource through its lifetime in Workers",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79289",
-   "fecha": "2026-10-28T08:54Z",
-   "cves": [
-    "CVE-2026-79289"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0028,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79287 Observable discrepancy in Forms",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79287",
-   "fecha": "2026-10-28T08:54Z",
-   "cves": [
-    "CVE-2026-79287"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0028,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79285 Uninitialized resource in ANGLE",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79285",
-   "fecha": "2026-10-28T08:54Z",
-   "cves": [
-    "CVE-2026-79285"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0037,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79284 UI misrepresentation in Core",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79284",
-   "fecha": "2026-10-28T08:54Z",
-   "cves": [
-    "CVE-2026-79284"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0024,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79283 UI misrepresentation in Geometry",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79283",
-   "fecha": "2026-10-28T08:54Z",
-   "cves": [
-    "CVE-2026-79283"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0026,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79276 Improper privilege management in FileSystem",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79276",
-   "fecha": "2026-10-28T08:53Z",
-   "cves": [
-    "CVE-2026-79276"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0028,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-79275 Use after free in ANGLE",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79275",
-   "fecha": "2026-10-28T08:53Z",
-   "cves": [
-    "CVE-2026-79275"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0048,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Inyección SQL (SQLi) en el módulo de autenticación de usuarios de Futurum Software",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-sqli-en-el-modulo-de-autenticacion-de-usuarios-de-futurum-software",
-   "fecha": "2026-10-28T08:44Z",
-   "cves": [
-    "CVE-2026-14571"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0025,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en NoviGest Desktop App de Tactis",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-novigest-desktop-app-de-tactis",
-   "fecha": "2026-10-28T08:39Z",
-   "cves": [
-    "CVE-2026-112197",
-    "CVE-2026-112198"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": 9.4,
-   "epss_max": 0.0038,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
-   "enlace": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
-   "fecha": "2026-10-28T08:37Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-   "enlace": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-   "fecha": "2026-10-28T08:15Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-   "enlace": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-   "fecha": "2026-10-28T06:20Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-   "enlace": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-   "fecha": "2026-10-28T06:04Z",
-   "cves": [
-    "CVE-2026-35273"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": true,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-35273"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.9668,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-   "enlace": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-   "fecha": "2026-10-28T05:42Z",
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111497"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.8264,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-833: Valkey clusterCreatePublishMsgBlock Numeric Truncation Error Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-833/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-832: AVG Internet Security avgToolsSvc Link Following Local Privilege Escalation Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-832/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-6064"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0012,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-831: Apple macOS CoreText GDEF LigCaretList Out-Of-Bounds Read Information Disclosure Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-831/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-112656"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0024,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-830: Apple Safari jsToWasm IC Entrypoint Type Confusion Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-830/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-86974"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0019,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-829: (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-829/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118611"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.003,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-828: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-828/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118610"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": 8.8,
-   "epss_max": 0.0034,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-827: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Connection Handler Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118609"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.003,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-826: (0Day) (Pwn2Own) Alpine iLX-F511 libanwbtstack.so prh_rfcomm_cc_process_test Out-Of-Bounds Read Information Disclosure Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-826/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118608"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0015,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-825: (0Day) (Pwn2Own) Alpine iLX-F511 diagapp Command Injection Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-825/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118607"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0087,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-824: (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Exposed Dangerous Function Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-824/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118606"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": 8.8,
-   "epss_max": 0.0034,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-823: (0Day) (Pwn2Own) Alpine iLX-F511 prh_sdp_service_search_decode Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-823/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118605"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0024,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-822: (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-822/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118604"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.003,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-821: (0Day) (Pwn2Own) Alpine iLX-F511 vCard Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-821/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118603"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0024,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-820: (0Day) (Pwn2Own) Alpine iLX-F511 Fiv.System Exposed Dangerous Method Local Privilege Escalation Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-820/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118602"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0012,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-819: (0Day) (Pwn2Own) Alpine iLX-F511 SSH Hard-Coded Credentials Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-819/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118601"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0027,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-818: (0Day) Ultralytics Google Drive Download Path Traversal Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-818/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118619"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": 8.8,
-   "epss_max": 0.0053,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-817: (0Day) Ultralytics parse_model Code Injection Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118618"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0022,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-816: (0Day) Ultralytics load_dataset_cache_file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118617"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0026,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-815: (0Day) Ultralytics parse_model Code Injection Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118616"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.002,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-814: (0Day) Ultralytics torch_safe_load Command Injection Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-814/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118615"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": 7.8,
-   "epss_max": 0.0041,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-813: (0Day) Ultralytics check_det_dataset Code Injection Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118614"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.002,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-812: (0Day) Ultralytics torch_load Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-812/",
-   "fecha": "2026-10-28T05:00Z",
-   "cves": [
-    "CVE-2026-118613"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0024,
    "exploit_publico": false,
    "exploitdb": null
   }
