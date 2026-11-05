@@ -221,42 +221,46 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-10-29 23:13 UTC · **IOCs recolectados:** 2510 · **CVEs KEV recientes:** 19
+**Última actualización:** 2026-11-05 01:25 UTC · **IOCs recolectados:** 1473 · **CVEs KEV recientes:** 14
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 80 (alta) | media | `85[.]137[.]54[.]178:18082` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
-| 78 (alta) | media | `80[.]87[.]206[.]86:443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
-| 76 (alta) | media | `176[.]123[.]7[.]7:443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
-| 75 (alta) | media | `160[.]119[.]71[.]27:80` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:48:12 UTC |
-| 71 (alta) | media | `146[.]190[.]103[.]76:443` | ip:port | Jackskid | ThreatFox | 2026-10-29 06:33:19 UTC |
-| 68 (media) | alta | `157[.]66[.]225[.]224:7707` | ip:port | AsyncRAT | ThreatFox | 2026-10-29 05:19:21 UTC |
-| 66 (media) | alta | `159[.]203[.]28[.]151:8002` | ip:port | Aisuru | ThreatFox | 2026-10-29 16:54:41 UTC |
-| 62 (media) | media | `104[.]248[.]206[.]134:36275` | ip:port | Drifter | ThreatFox | 2026-10-29 16:51:42 UTC |
-| 61 (media) | media | `46[.]101[.]249[.]247:36275` | ip:port | Drifter | ThreatFox | 2026-10-29 13:48:46 UTC |
-| 59 (media) | media | `130[.]254[.]45[.]8:443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 17:28:19 UTC |
-| 59 (media) | media | `138[.]68[.]134[.]9:36275` | ip:port | Drifter | ThreatFox | 2026-10-29 13:48:45 UTC |
-| 58 (media) | media | `157[.]230[.]122[.]72:32505` | ip:port | Drifter | ThreatFox | 2026-10-29 16:51:42 UTC |
-| 58 (media) | media | `38[.]127[.]244[.]12:18081` | ip:port | Unknown malware | ThreatFox | 2026-10-29 14:32:44 UTC |
-| 58 (media) | media | `103[.]39[.]79[.]102:8443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 05:05:06 UTC |
-| 57 (media) | media | `156[.]246[.]90[.]214:443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 17:28:20 UTC |
-| 57 (media) | media | `178[.]83[.]206[.]213:443` | ip:port | Unknown malware | ThreatFox | 2026-10-29 17:28:20 UTC |
-| 57 (media) | media | `135[.]136[.]191[.]231:2222` | ip:port | Unknown malware | ThreatFox | 2026-10-29 17:28:19 UTC |
-| 57 (media) | media | `152[.]42[.]135[.]240:34532` | ip:port | Drifter | ThreatFox | 2026-10-29 13:48:45 UTC |
-| 57 (media) | media | `8[.]138[.]27[.]20:8084` | ip:port | VShell | ThreatFox | 2026-10-29 12:05:04 UTC |
-| 57 (media) | media | `119[.]42[.]148[.]189:2333` | ip:port | VShell | ThreatFox | 2026-10-29 05:05:07 UTC |
-| 56 (media) | alta | `hxxps://c[.]bb69[.]org/m/` | url | Vidar | ThreatFox | 2026-10-29 23:00:49 UTC |
-| 56 (media) | alta | `hxxps://c[.]bb69[.]org/o/` | url | Vidar | ThreatFox | 2026-10-29 22:30:48 UTC |
-| 56 (media) | alta | `hxxps://fastly[.]jsdelivr[.]net/gh/sdedyk172/ad8f6908-5019-42ff-a88e-b8279bfaed84/9cc8ac42-ee34-4250-bfee-d893438a3b3b` | url | ClearFake | ThreatFox | 2026-10-29 12:08:30 UTC |
-| 56 (media) | media | `hxxp://45[.]225[.]135[.]233/2/config[.]json` | url | XMRIG | ThreatFox | 2026-10-29 06:11:51 UTC |
-| 56 (media) | media | `89[.]32[.]41[.]114:23789` | ip:port | Potassium | ThreatFox | 2026-10-29 03:49:51 UTC |
+| 74 (alta) | media | `697c6512bae349fd442d6fd641ef0729edc197bb4b0d8db980b5146f3ce6764d` | filehash-sha256 | SalatStealer | ThreatFox | 2026-11-05 00:57:00 UTC |
+| 72 (alta) | media | `5a1f7f2d45bb505c36aaecb09dee8ca01e03c12371632b4e47f876947383779e` | filehash-sha256 | SalatStealer | ThreatFox | 2026-11-05 00:57:05 UTC |
+| 72 (alta) | media | `a64c9125d80432c78e8fd1656f5ba5fb5c08c2aefdd680a5d4de9d4d321e78d4` | filehash-sha256 | SalatStealer | ThreatFox | 2026-11-05 00:57:04 UTC |
+| 72 (alta) | media | `cded64d441bc0c2daaf0243eb4b804fa9e0a74ba30e9a0a21d20fcf9d761e303` | filehash-sha256 | SalatStealer | ThreatFox | 2026-11-05 00:57:03 UTC |
+| 72 (alta) | media | `b420e60cbb5cbe9b7802f67d597b4d0ff876a5440f4528ea74627a34a0cf2eb4` | filehash-sha256 | SalatStealer | ThreatFox | 2026-11-05 00:57:02 UTC |
+| 71 (alta) | media | `26d215ef03b273f2635e8b39cb1cb17c05c021911fcca6a8116e8701b2657f8b` | filehash-sha256 | SalatStealer | ThreatFox | 2026-11-05 00:57:08 UTC |
+| 71 (alta) | media | `4830e1a38ec80ac248a43aafdbcfedf85bed1569c4a9310f6ed7acd255f1e059` | filehash-sha256 | SalatStealer | ThreatFox | 2026-11-05 00:57:07 UTC |
+| 71 (alta) | media | `1496f4032a052de825b49858eb8c7c5e037e04dc1e447549e80b47448e93b3c8` | filehash-sha256 | SalatStealer | ThreatFox | 2026-11-05 00:57:06 UTC |
+| 71 (alta) | media | `141[.]98[.]10[.]86:80` | ip:port | Unknown malware | ThreatFox | 2026-11-04 07:25:09 UTC |
+| 68 (media) | media | `34[.]52[.]234[.]95` | ipv4 | php.shin_webshell | ThreatFox | 2026-11-04 22:07:30 UTC |
+| 68 (media) | media | `34[.]156[.]56[.]208` | ipv4 | php.shin_webshell | ThreatFox | 2026-11-04 14:46:54 UTC |
+| 67 (media) | media | `5865fb8b29d8c03175897e123910f5a1082b4b7d12dc9e455af0d88ccef83127` | filehash-sha256 | Unknown malware | ThreatFox | 2026-11-04 07:25:16 UTC |
+| 66 (media) | alta | `4be99a11476bddcad97559a7638b9be55493818c361eda83de42730d00084bdc` | filehash-sha256 | Mirai | ThreatFox | 2026-11-04 09:56:58 UTC |
+| 66 (media) | alta | `59f6039ac5293d05c26444bf3e4ebe4cae73dc94da9ef29d7ea163f0aa125749` | filehash-sha256 | Mirai | ThreatFox | 2026-11-04 09:56:57 UTC |
+| 66 (media) | alta | `5d61a76fc29ab6c0bd0dbe06a3cb084939e48af2f20af131df7fdec0b93dab98` | filehash-sha256 | Mirai | ThreatFox | 2026-11-04 09:56:55 UTC |
+| 66 (media) | media | `ff5a20d1976646be3fbedc058bef40d95161dcdd7cc197c23b25bf82d5079706` | filehash-sha256 | Unknown malware | ThreatFox | 2026-11-04 07:25:16 UTC |
+| 63 (media) | alta | `14d75b8e07529d89830532a5014ef7489412b7874f8dc9321952aa507ce09660` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-05 00:57:11 UTC |
+| 63 (media) | alta | `29d09b3ef708a8eff5dd1e416cc44dd3be7893232d739035342211205239de91` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-05 00:57:10 UTC |
+| 62 (media) | alta | `28f63a2e03d03f111d75525b7fd22ceac9917c1005c574772f3e8ddf8752e225` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-05 00:57:18 UTC |
+| 62 (media) | alta | `2d2563c65ebe944ee2505e7a048843ded4de27fcb77d6debcbca403254f08b26` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-05 00:57:13 UTC |
+| 62 (media) | alta | `5a7e9c83f38542463afcfa97885f69aa212f14534cd00c0b60571af996c73f68` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-05 00:57:12 UTC |
+| 62 (media) | alta | `75cd53e5ff76cffea431a9f640c156c6d2c8617c692c5445ee6b7a8486069d0b` | filehash-sha256 | Mirai | ThreatFox | 2026-11-04 09:57:01 UTC |
+| 61 (media) | alta | `68e0edddd394d4bae0d2a35efbb7e64df61870e95f6625718f77a43813abb7d0` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-05 00:57:17 UTC |
+| 61 (media) | media | `172[.]233[.]14[.]200:443` | ip:port | Jackskid | ThreatFox | 2026-11-04 11:52:25 UTC |
+| 61 (media) | alta | `193[.]187[.]91[.]224:50810` | ip:port | Remcos | ThreatFox | 2026-11-04 09:05:11 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
 | CVE | Producto | Añadido | Ransomware |
 |---|---|---|---|
+| CVE-2024-27834 | Apple Multiple Products | 2026-11-04 | Unknown |
+| CVE-2026-119977 | WordPress WordPress Core | 2026-11-03 | Unknown |
+| CVE-2026-118527 | Ivanti Connect Secure | 2026-10-30 | Unknown |
+| CVE-2026-111357 | Ivanti Connect Secure | 2026-10-30 | Unknown |
 | CVE-2026-97229 | GitLab Community Edition and Enterprise Edition | 2026-10-29 | Unknown |
 | CVE-2026-76418 | Cisco Secure Firewall ASA Software and Cisco Secure FTD Software | 2026-10-29 | Unknown |
 | CVE-2026-41709 | Broadcom VMware ESX | 2026-10-28 | Unknown |
@@ -267,119 +271,110 @@ python main.py
 | CVE-2026-109619 | PHP Group PHP | 2026-10-26 | Unknown |
 | CVE-2026-114625 | Arista VeloCloud Orchestrator | 2026-10-23 | Unknown |
 | CVE-2026-110447 | Collabora Collabora Online – Built-in CODE Server | 2026-10-23 | Unknown |
-| CVE-2026-106931 | EG Secure Solutions SiteGuard Server Edition | 2026-10-20 | Unknown |
-| CVE-2026-96656 | Plex Media Server | 2026-10-20 | Unknown |
-| CVE-2026-96655 | Plex Media Server | 2026-10-20 | Unknown |
-| CVE-2026-96654 | Plex Media Server | 2026-10-20 | Unknown |
-| CVE-2026-96652 | Plex Media Server | 2026-10-20 | Unknown |
-| CVE-2026-110936 | Siemens Software Center | 2026-10-20 | Unknown |
-| CVE-2026-102764 | BeyondTrust Remote Support | 2026-10-16 | Unknown |
-| CVE-2025-61624 | Fortinet Multiple Products | 2026-10-16 | Unknown |
-| CVE-2026-21589 | Atlassian Multiple Products | 2026-10-15 | Unknown |
 
 ### Avisos de seguridad de los últimos 7 días
 
-**294** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **66** de algo que ya se explota · **7** de día cero · **34** sin parche
+**316** avisos de 25/26 fuentes (fabricantes, CERT, exploits y noticias) · **71** de algo que ya se explota · **7** de día cero · **17** sin parche
 
-**Lo más citado:** CVE-2026-109618 (9 fuentes, KEV) · CVE-2026-111497 (9 fuentes, KEV) · CVE-2026-109619 (8 fuentes, KEV) · CVE-2026-76418 (5 fuentes, KEV) · CVE-2026-105482 (4 fuentes) · CVE-2026-105483 (4 fuentes) · CVE-2026-106069 (4 fuentes) · CVE-2026-115560 (2 fuentes)
+**Lo más citado:** CVE-2026-111497 (7 fuentes, KEV) · CVE-2026-109618 (5 fuentes, KEV) · CVE-2026-109619 (5 fuentes, KEV) · CVE-2026-98432 (4 fuentes) · CVE-2026-119977 (4 fuentes, KEV) · CVE-2026-76418 (3 fuentes, KEV) · CVE-2026-97229 (3 fuentes, KEV) · CVE-2026-111357 (3 fuentes, KEV)
 
 | Fecha | Fuente | Aviso | Señales |
 |---|---|---|---|
-| 2026-10-29 | Wordfence (WordPress) | [WordPress 7.1.4 Patches Unauthenticated Upgrade-Window RCE; Exploitation Attempts Detected After Release](https://www.wordfence.com/blog/2026/10/wordpress-7-1-4-security-release-rce/) | explotada, sin parche |
-| 2026-10-29 | Cisco | [Vulnerabilities in Node.js Affecting Cisco Products: October 2026](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1) | explotada |
-| 2026-10-29 | The Hacker News | [ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories](https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html) | crítica |
-| 2026-10-29 | BleepingComputer | [Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/) | explotada |
-| 2026-10-29 | Ubuntu | [USN-8958-1: .NET vulnerabilities](https://ubuntu.com/security/notices/USN-8958-1) | explotada |
-| 2026-10-29 | Wordfence (WordPress) | [Wordfence Intelligence Weekly WordPress Vulnerability Report (October 19, 2026 to October 25, 2026)](https://www.wordfence.com/blog/2026/10/wordfence-intelligence-weekly-wordpress-vulnerability-report-october-19-2026-to-october-25-2026/) | sin parche, crítica |
-| 2026-10-29 | SecurityWeek | [Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities](https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/) | crítica |
-| 2026-10-29 | CISA | [CISA Adds Two Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog) | explotada |
-| 2026-10-29 | BleepingComputer | [New Cisco firewall zero-day exploited to crash SSL VPN devices](https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/) | explotada, día cero |
-| 2026-10-29 | The Hacker News | [Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls](https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html) | explotada |
-| 2026-10-29 | SecurityWeek | [Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network](https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/) | explotada, día cero |
-| 2026-10-29 | SecurityWeek | [Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August](https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/) | explotada, día cero |
-| 2026-10-29 | The Hacker News | [Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open](https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html) | explotada |
-| 2026-10-29 | INCIBE-CERT | [Escritura fuera de límites en PHP para Windows](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-php-para-windows) | explotada |
-| 2026-10-29 | INCIBE-CERT | [Múltiples vulnerabilidades en OpenScape Endpoint Management de Mitel](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-openscape-endpoint-management-de-mitel) | explotada |
-| 2026-10-29 | INCIBE-CERT | [Múltiples vulnerabilidades en productos de Cisco](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-20) | explotada |
-| 2026-10-29 | INCIBE-CERT · industrial | [Múltiples vulnerabilidades en productos de Schneider Electric](https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-schneider-14) | explotada |
-| 2026-10-29 | INCIBE-CERT · industrial | [Múltiples vulnerabilidades en OCTO Image Server de Mettler Toledo](https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-octo-image-server-de-mettler-toledo) | explotada |
-| 2026-10-29 | The Hacker News | [Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys](https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html) | explotada |
-| 2026-10-29 | The Hacker News | [China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility](https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html) | explotada, día cero |
-| 2026-10-29 | The Hacker News | [Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces](https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html) | explotada |
-| 2026-10-29 | Palo Alto Networks | [CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Produ](https://security.paloaltonetworks.com/CVE-2026-111497) | explotada, crítica |
-| 2026-10-29 | Palo Alto Networks | [CVE-2026-109618 Impact of Critical Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Palo Alto Netw](https://security.paloaltonetworks.com/CVE-2026-109618) | explotada, crítica |
-| 2026-10-29 | Zero Day Initiative | [ZDI-26-846: MLflow Webhook Server-Side Request Forgery Vulnerability](http://www.zerodayinitiative.com/advisories/ZDI-26-846/) | explotada |
-| 2026-10-29 | CERT-FR · avisos | [Vulnérabilité dans les produits Cisco (29 octobre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1412/) | explotada |
+| 2026-11-05 | Cisco | [Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1) | explotada |
+| 2026-11-04 | BleepingComputer | [Zyxel fixes zero-day exploited to hack nearly 1,000 network switches](https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/) | explotada, día cero |
+| 2026-11-04 | The Hacker News | [SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records](https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html) | crítica |
+| 2026-11-04 | The Hacker News | [APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits](https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html) | explotada |
+| 2026-11-04 | Segu-Info | [Vulnerabilidad crítica en WordPress explotada activamente (CVE-2026-119977)](http://blog.segu-info.com.ar/2026/11/vulnerabilidad-critica-en-wordpress.html) | explotada, crítica |
+| 2026-11-04 | BleepingComputer | [CISA flags WordPress RCE flaw as actively exploited in attacks](https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/) | explotada |
+| 2026-11-04 | The Hacker News | [Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads](https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html) | crítica |
+| 2026-11-04 | The Hacker News | [China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor](https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html) | explotada |
+| 2026-11-04 | SecurityWeek | [Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical](https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/) | crítica |
+| 2026-11-04 | INCIBE-CERT | [Escritura fuera de límites en productos de Citrix](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-productos-de-citrix) | explotada |
+| 2026-11-04 | INCIBE-CERT | [Múltiples vulnerabilidades en GMS de SonicWall](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-gms-de-sonicwall) | sin parche, crítica |
+| 2026-11-04 | INCIBE-CERT | [Múltiples vulnerabilidades en Dameware de SolarWinds](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-dameware-de-solarwinds) | explotada, crítica |
+| 2026-11-04 | INCIBE-CERT | [Múltiples vulnerabilidades en Fabric Composer de HPE](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-fabric-composer-de-hpe) | crítica |
+| 2026-11-04 | The Hacker News | [Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction](https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html) | crítica |
+| 2026-11-04 | The Hacker News | [CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades](https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html) | explotada |
+| 2026-11-04 | Siemens ProductCERT | [SSA-566512 V1.2 (Last Update: 2026-11-04): PHP2Shell Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM](https://cert-portal.siemens.com/productcert/html/ssa-566512.html) | explotada |
+| 2026-11-04 | Siemens ProductCERT | [SSA-566435 V1.6 (Last Update: 2026-11-04): PHP2Shell Vulnerabilities in Siemens Software Products](https://cert-portal.siemens.com/productcert/html/ssa-566435.html) | explotada |
+| 2026-11-04 | Siemens ProductCERT | [SSA-045512 V1.1 (Last Update: 2026-11-04): Node2Shell Vulnerability in Siemens Products](https://cert-portal.siemens.com/productcert/html/ssa-045512.html) | explotada |
+| 2026-11-03 | BleepingComputer | [Hackers hijack cPGuard autoupdate to deploy backdoor, steal data](https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/) | explotada |
+| 2026-11-03 | Google Chrome | [Stable Channel Update for Desktop](http://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop.html) | crítica |
+| 2026-11-03 | Google Chrome | [Extended Stable Update for Desktop](http://chromereleases.googleblog.com/2026/11/extended-stable-update-for-desktop.html) | crítica |
+| 2026-11-03 | Ubuntu | [USN-8987-1: libuser vulnerabilities](https://ubuntu.com/security/notices/USN-8987-1) | explotada |
+| 2026-11-03 | Cisco | [Cisco Secure Email Gateway SQL Injection Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20SQL%20Injection%20Vulnerability%26vs_k=1) | explotada |
+| 2026-11-03 | The Hacker News | [Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access](https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html) | crítica |
+| 2026-11-03 | BleepingComputer | [Barracuda warns of critical flaws allowing root access to devices](https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/) | crítica |
 
 ### Vulnerabilidades de los últimos 7 días
 
-**3246** CVE publicados · **1** ya explotados · **19** urgentes · **241** con CVSS ≥ 9 · **334** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
+**3031** CVE publicados · **2** ya explotados · **57** urgentes · **286** con CVSS ≥ 9 · **338** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
 
 Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC). Un exploit de Exploit-DB cuenta como prueba de concepto.
 
 | Prioridad | CVE | Fabricante | CVSS | EPSS | Publicado |
 |---|---|---|---|---|---|
-| explotada | CVE-2026-76418 | Cisco | 8.6 | 0.6 % | 2026-10-28 |
-| urgente | CVE-2026-116505 | TOTOLINK | 9.1 | 2.7 % | 2026-10-26 |
-| urgente | CVE-2026-116485 | — | 9.8 | 2.3 % | 2026-10-26 |
-| urgente | CVE-2026-116506 | TOTOLINK | 9.9 | 1.9 % | 2026-10-26 |
-| urgente | CVE-2026-115995 | Unitree | 9.4 | 1.4 % | 2026-10-24 |
-| urgente | CVE-2026-112352 | — | 9.1 | 1.3 % | 2026-10-27 |
-| urgente | CVE-2026-104353 | Adobe | 9.9 | 1.3 % | 2026-10-27 |
-| urgente | CVE-2026-110879 | — | 9.8 | 1.2 % | 2026-10-28 |
-| urgente | CVE-2026-53921 | Código abierto (GitHub) | 9.8 | 1.1 % | 2026-10-23 |
-| urgente | CVE-2026-82119 | — | 9.8 | 1.0 % | 2026-10-27 |
-| urgente | CVE-2026-112346 | — | 9.8 | 1.0 % | 2026-10-26 |
-| urgente | CVE-2026-107092 | Nexopos | 9.8 | 0.9 % | 2026-10-26 |
-| urgente | CVE-2026-63190 | Código abierto (GitHub) | 9.4 | 0.5 % | 2026-10-28 |
-| urgente | CVE-2026-57116 | Código abierto (GitHub) | 9.8 | 0.4 % | 2026-10-23 |
-| urgente | CVE-2026-31158 | — | 9.8 | 0.4 % | 2026-10-26 |
-| urgente | CVE-2026-116111 | 2K | 9.6 | 0.3 % | 2026-10-26 |
-| urgente | CVE-2026-54630 | Código abierto (GitHub) | 9.6 | 0.2 % | 2026-10-23 |
-| urgente | CVE-2026-107058 | — | 9.8 | — | 2026-10-29 |
-| urgente | CVE-2026-107015 | — | 9.1 | — | 2026-10-29 |
-| urgente | CVE-2026-107032 | — | 9.1 | — | 2026-10-29 |
-| alta | CVE-2026-86379 | — | 7.2 | 2.8 % | 2026-10-28 |
-| alta | CVE-2026-112351 | — | 8.8 | 2.7 % | 2026-10-27 |
-| alta | CVE-2026-86394 | — | 7.2 | 2.2 % | 2026-10-28 |
-| alta | CVE-2026-86395 | — | 7.2 | 2.2 % | 2026-10-28 |
-| alta | CVE-2026-86399 | — | 7.2 | 2.2 % | 2026-10-28 |
+| explotada | CVE-2026-119977 | WordPress | 8.1 | 1.0 % | 2026-10-31 |
+| explotada | CVE-2026-118527 | Ivanti | 4.3 | 0.8 % | 2026-11-03 |
+| urgente | CVE-2026-77690 | — | 8.8 | 15.6 % | 2026-11-04 |
+| urgente | CVE-2026-120276 | Wavlink | 10.0 | 3.2 % | 2026-11-02 |
+| urgente | CVE-2026-120229 | Wavlink | 9.1 | 2.8 % | 2026-11-01 |
+| urgente | CVE-2026-120277 | Wavlink | 10.0 | 2.5 % | 2026-11-02 |
+| urgente | CVE-2026-120230 | Wavlink | 9.9 | 2.2 % | 2026-11-01 |
+| urgente | CVE-2026-93680 | Langflow | 9.8 | 2.2 % | 2026-10-29 |
+| urgente | CVE-2026-120195 | Wavlink | 10.0 | 2.1 % | 2026-11-01 |
+| urgente | CVE-2026-120198 | Wavlink | 9.3 | 2.1 % | 2026-11-01 |
+| urgente | CVE-2026-120280 | Wavlink | 10.0 | 2.0 % | 2026-11-02 |
+| urgente | CVE-2026-120345 | Wavlink | 10.0 | 2.0 % | 2026-11-02 |
+| urgente | CVE-2026-121607 | — | 10.0 | 2.0 % | 2026-11-04 |
+| urgente | CVE-2026-120279 | Wavlink | 9.3 | 2.0 % | 2026-11-02 |
+| urgente | CVE-2026-120344 | Wavlink | 9.3 | 2.0 % | 2026-11-02 |
+| urgente | CVE-2026-120196 | Wavlink | 9.9 | 1.7 % | 2026-11-01 |
+| urgente | CVE-2026-120238 | Wavlink | 9.9 | 1.7 % | 2026-11-01 |
+| urgente | CVE-2026-28336 | SolarWinds | 9.9 | 1.6 % | 2026-11-03 |
+| urgente | CVE-2026-90868 | Windows | 9.9 | 1.5 % | 2026-10-29 |
+| urgente | CVE-2026-86596 | WordPress (plugins) | 9.8 | 1.5 % | 2026-11-02 |
+| urgente | CVE-2026-97854 | — | 9.3 | 1.4 % | 2026-10-29 |
+| urgente | CVE-2025-31704 | Dahua | 9.8 | 1.4 % | 2026-10-30 |
+| urgente | CVE-2026-120189 | D-Link | 10.0 | 1.3 % | 2026-11-01 |
+| urgente | CVE-2026-90865 | Windows | 9.0 | 1.1 % | 2026-10-29 |
+| urgente | CVE-2026-13594 | — | 9.1 | 1.1 % | 2026-11-03 |
 
 ### Lenguajes (registros de paquetes, últimos 7 días)
 
 | Lenguaje | Estado | Paquetes maliciosos | Avisos críticos / altos |
 |---|---|---|---|
-| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 244 | 7 / 57 |
-| Python (PyPI) | 🔴 paquetes maliciosos | 89 | 9 / 59 |
-| Java / Kotlin (Maven) | 🟡 avisos altos | 0 | 0 / 5 |
-| .NET (C#) (NuGet) | 🟡 avisos altos | 0 | 0 / 1 |
-| PHP (Packagist) | 🔴 el lenguaje se explota | 0 | 1 / 7 |
-| Go (Go modules) | 🟠 avisos críticos | 0 | 1 / 13 |
-| Rust (crates.io) | 🟠 avisos críticos | 0 | 3 / 5 |
-| Ruby (RubyGems) | 🔴 paquetes maliciosos | 1 | 0 / 1 |
+| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 308 | 3 / 15 |
+| Python (PyPI) | 🔴 paquetes maliciosos | 24 | 0 / 18 |
+| Java / Kotlin (Maven) | 🟡 avisos altos | 0 | 0 / 3 |
+| .NET (C#) (NuGet) | 🟡 avisos altos | 0 | 0 / 2 |
+| PHP (Packagist) | 🔴 el lenguaje se explota | 0 | 0 / 5 |
+| Go (Go modules) | 🟠 avisos críticos | 0 | 1 / 7 |
+| Rust (crates.io) | 🟡 avisos altos | 0 | 0 / 4 |
+| Ruby (RubyGems) | 🔴 paquetes maliciosos | 6 | 0 / 1 |
 | Erlang / Elixir (Hex) | 🟢 sin alertas | 0 | 0 / 0 |
 | Dart / Flutter (pub.dev) | 🟢 sin alertas | 0 | 0 / 0 |
 | Swift (SwiftPM) | 🟢 sin alertas | 0 | 0 / 0 |
-| GitHub Actions (Marketplace) | 🟢 sin alertas | 0 | 0 / 0 |
+| GitHub Actions (Marketplace) | 🟠 avisos críticos | 0 | 1 / 0 |
 
 ### Sistemas
 
 | Sistema | Estado | CVE nuevos | CVSS ≥ 9 | En KEV (30 días) |
 |---|---|---|---|---|
-| Aplicaciones web y CMS | 🔴 explotación activa | 695 | 75 | 2 |
-| Software empresarial | 🔴 explotación activa | 99 | 17 | 4 |
-| Red, VPN y firewalls | 🔴 explotación activa | 29 | 5 | 9 |
-| Linux | 🔴 explotación activa | 379 | 4 | 1 |
-| Apple (macOS · iOS) | 🔴 explotación activa | 335 | 0 | 1 |
-| Windows y Microsoft | 🔴 explotación activa | 76 | 8 | 1 |
-| Virtualización y nube | 🔴 explotación activa | 21 | 3 | 1 |
-| Servidores y servicios | 🔴 explotación activa | 2 | 0 | 4 |
-| Industrial (OT · ICS) | 🔴 explotación activa | 2 | 0 | 1 |
+| Aplicaciones web y CMS | 🔴 explotación activa | 840 | 66 | 3 |
+| Software empresarial | 🔴 explotación activa | 130 | 10 | 4 |
+| Windows y Microsoft | 🔴 explotación activa | 45 | 11 | 1 |
+| Red, VPN y firewalls | 🔴 explotación activa | 16 | 6 | 8 |
+| Linux | 🔴 explotación activa | 107 | 3 | 1 |
+| Virtualización y nube | 🔴 explotación activa | 32 | 4 | 1 |
+| Servidores y servicios | 🔴 explotación activa | 10 | 0 | 4 |
+| Apple (macOS · iOS) | 🔴 explotación activa | 6 | 1 | 1 |
 | Lenguajes y entornos de ejecución | 🔴 explotación activa | 0 | 0 | 2 |
-| Otros | 🔴 explotación activa | 959 | 85 | 10 |
-| Librerías de código abierto | 🟠 riesgo alto | 349 | 24 | 0 |
-| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 26 | 5 | 0 |
-| Navegadores | 🟠 riesgo alto | 232 | 12 | 0 |
-| IA y agentes (LLM · MCP) | 🟠 riesgo alto | 31 | 2 | 0 |
-| Android | 🟠 riesgo alto | 11 | 1 | 0 |
+| Industrial (OT · ICS) | 🔴 explotación activa | 0 | 0 | 1 |
+| Otros | 🔴 explotación activa | 1097 | 87 | 8 |
+| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 42 | 27 | 0 |
+| Librerías de código abierto | 🟠 riesgo alto | 294 | 33 | 0 |
+| Navegadores | 🟠 riesgo alto | 254 | 34 | 0 |
+| Android | 🟠 riesgo alto | 149 | 3 | 0 |
+| IA y agentes (LLM · MCP) | 🟠 riesgo alto | 9 | 1 | 0 |
 <!-- CTI:END -->
