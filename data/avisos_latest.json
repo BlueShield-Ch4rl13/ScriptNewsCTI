@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-04 19:24",
+ "generado_utc": "2026-11-05 01:25",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -61,7 +61,7 @@
    "idioma": "fr",
    "url": "https://www.cert.ssi.gouv.fr/avis/feed/",
    "estado": "ok",
-   "avisos": 53
+   "avisos": 41
   },
   {
    "id": "certcc",
@@ -79,7 +79,7 @@
    "idioma": "en",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "estado": "ok",
-   "avisos": 45
+   "avisos": 60
   },
   {
    "id": "cisco",
@@ -88,7 +88,7 @@
    "idioma": "en",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "estado": "ok",
-   "avisos": 11
+   "avisos": 10
   },
   {
    "id": "fortinet",
@@ -124,7 +124,7 @@
    "idioma": "en",
    "url": "https://chromereleases.googleblog.com/feeds/posts/default",
    "estado": "ok",
-   "avisos": 4
+   "avisos": 3
   },
   {
    "id": "siemens",
@@ -133,7 +133,7 @@
    "idioma": "en",
    "url": "https://cert-portal.siemens.com/productcert/rss/advisories.atom",
    "estado": "ok",
-   "avisos": 7
+   "avisos": 6
   },
   {
    "id": "gitlab",
@@ -142,7 +142,7 @@
    "idioma": "en",
    "url": "https://about.gitlab.com/security-releases.xml",
    "estado": "ok",
-   "avisos": 1
+   "avisos": 0
   },
   {
    "id": "ubuntu",
@@ -151,7 +151,7 @@
    "idioma": "en",
    "url": "https://ubuntu.com/security/notices/rss.xml",
    "estado": "ok",
-   "avisos": 22
+   "avisos": 27
   },
   {
    "id": "debian",
@@ -160,7 +160,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 14
+   "avisos": 10
   },
   {
    "id": "zdi",
@@ -232,7 +232,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 17
+   "avisos": 18
   },
   {
    "id": "securityweek",
@@ -245,19 +245,19 @@
   }
  ],
  "resumen": {
-  "avisos": 315,
+  "avisos": 316,
   "por_tipo": {
-   "fabricante": 107,
-   "noticia": 69,
-   "cert": 95,
+   "fabricante": 119,
+   "noticia": 70,
+   "cert": 83,
    "exploit": 44
   },
-  "explotados": 73,
-  "dia_cero": 6,
+  "explotados": 71,
+  "dia_cero": 7,
   "sin_parche": 17,
   "criticos": 26,
-  "exploit_publico": 19,
-  "cves_citados": 280,
+  "exploit_publico": 18,
+  "cves_citados": 286,
   "fuentes_ok": 25,
   "fuentes_total": 26
  },
@@ -277,7 +277,7 @@
    "kev": true,
    "cvss": null,
    "epss": 0.82641,
-   "ultimo": "2026-11-04T18:52Z"
+   "ultimo": "2026-11-05T00:32Z"
   },
   {
    "cve": "CVE-2026-109618",
@@ -288,7 +288,7 @@
     "seguinfo",
     "siemens"
    ],
-   "avisos": 17,
+   "avisos": 16,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
@@ -303,7 +303,7 @@
     "seguinfo",
     "siemens"
    ],
-   "avisos": 16,
+   "avisos": 15,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
@@ -324,20 +324,6 @@
    "ultimo": "2026-11-04T08:25Z"
   },
   {
-   "cve": "CVE-2026-76418",
-   "fuentes": [
-    "cert_fr_avis",
-    "cisa",
-    "incibe",
-    "thehackernews"
-   ],
-   "avisos": 5,
-   "kev": true,
-   "cvss": 8.6,
-   "epss": 0.00821,
-   "ultimo": "2026-10-29T12:00Z"
-  },
-  {
    "cve": "CVE-2026-119977",
    "fuentes": [
     "cisa",
@@ -350,6 +336,19 @@
    "cvss": 8.1,
    "epss": 0.0102,
    "ultimo": "2026-11-04T12:18Z"
+  },
+  {
+   "cve": "CVE-2026-76418",
+   "fuentes": [
+    "cisa",
+    "incibe",
+    "thehackernews"
+   ],
+   "avisos": 4,
+   "kev": true,
+   "cvss": null,
+   "epss": 0.00821,
+   "ultimo": "2026-10-29T12:00Z"
   },
   {
    "cve": "CVE-2026-97229",
@@ -387,7 +386,7 @@
    "kev": false,
    "cvss": null,
    "epss": 0.00468,
-   "ultimo": "2026-11-04T18:52Z"
+   "ultimo": "2026-11-05T00:32Z"
   },
   {
    "cve": "CVE-2026-105483",
@@ -399,7 +398,7 @@
    "kev": false,
    "cvss": null,
    "epss": 0.00304,
-   "ultimo": "2026-11-04T18:52Z"
+   "ultimo": "2026-11-05T00:32Z"
   },
   {
    "cve": "CVE-2026-106069",
@@ -411,19 +410,19 @@
    "kev": false,
    "cvss": null,
    "epss": 0.00304,
-   "ultimo": "2026-11-04T18:52Z"
+   "ultimo": "2026-11-05T00:32Z"
   },
   {
-   "cve": "CVE-2026-109593",
+   "cve": "CVE-2026-119260",
    "fuentes": [
-    "incibe",
-    "thehackernews"
+    "chrome",
+    "msrc"
    ],
-   "avisos": 2,
+   "avisos": 3,
    "kev": false,
-   "cvss": 9.1,
-   "epss": 0.00521,
-   "ultimo": "2026-11-04T17:00Z"
+   "cvss": null,
+   "epss": 0.00242,
+   "ultimo": "2026-11-04T16:00Z"
   }
  ],
  "avisos": [
@@ -431,7 +430,7 @@
    "fuente": "cisco",
    "titulo": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
    "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "fecha": "2026-11-04T18:52Z",
+   "fecha": "2026-11-05T00:32Z",
    "cves": [
     "CVE-2026-111497",
     "CVE-2026-105482",
@@ -450,6 +449,65 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.8264,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "cisco",
+   "titulo": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+   "fecha": "2026-11-04T21:44Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "bleeping",
+   "titulo": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "enlace": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "fecha": "2026-11-04T20:58Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "cisco",
+   "titulo": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
+   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-cert-mE9BD5GO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerability%26vs_k=1",
+   "fecha": "2026-11-04T19:56Z",
+   "cves": [
+    "CVE-2026-20241"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -494,6 +552,25 @@
    "exploitdb": null
   },
   {
+   "fuente": "ubuntu",
+   "titulo": "USN-9000-1: Twisted vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9000-1",
+   "fecha": "2026-11-04T16:24Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "cisco",
    "titulo": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
    "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
@@ -513,6 +590,510 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119260: Use after free",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119260",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119260"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0024,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-118321: Use after free",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118321",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-118321"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0035,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-118314: Incorrect reference resolution",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118314",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-118314"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0017,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-118309: Incorrect reference resolution",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118309",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-118309"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0025,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119261: Improper input validation",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119261",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119261"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0032,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119262: Improper input validation",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119262",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119262"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0028,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119263: Memory corruption",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119263",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119263"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0027,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119264: Memory corruption",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119264",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119264"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0024,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119265: Memory corruption",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119265",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119265"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0022,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119266: Use after free",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119266",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119266"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0026,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119267: Memory corruption",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119267",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119267"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0024,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119268: Integer overflow",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119268",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119268"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0024,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119269: Use after free",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119269",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119269"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0021,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119270: Improper input validation",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119270",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119270"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0023,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119271: Use after free",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119271",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119271"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0022,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-119272: Out of bounds read",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119272",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-119272"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0016,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-76024: Memory corruption",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76024",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-76024"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0026,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-76025: Use after free",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76025",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-76025"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0029,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-76026: Memory corruption",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76026",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-76026"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0017,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-76027: Memory corruption",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76027",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-76027"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0023,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-76028: Use after free",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76028",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-76028"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0023,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-76029: Memory corruption",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76029",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-76029"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0022,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-76030: Memory corruption",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76030",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-76030"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0023,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "Chromium CVE-2026-76031: Use after free",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76031",
+   "fecha": "2026-11-04T16:00Z",
+   "cves": [
+    "CVE-2026-76031"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0026,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -539,11 +1120,11 @@
   },
   {
    "fuente": "cisco",
-   "titulo": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
-   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-cert-mE9BD5GO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerability%26vs_k=1",
+   "titulo": "Cisco UCS Central Software Remote Code Execution Vulnerability",
+   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20Central%20Software%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
    "fecha": "2026-11-04T16:00Z",
    "cves": [
-    "CVE-2026-20241"
+    "CVE-2026-76506"
    ],
    "cves_total": 1,
    "texto_explotada": false,
@@ -559,14 +1140,62 @@
    "exploitdb": null
   },
   {
-   "fuente": "cisco",
-   "titulo": "Cisco UCS Central Software Remote Code Execution Vulnerability",
-   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20Central%20Software%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
-   "fecha": "2026-11-04T16:00Z",
+   "fuente": "ubuntu",
+   "titulo": "USN-8999-1: Pillow vulnerabilities",
+   "enlace": "https://ubuntu.com/security/notices/USN-8999-1",
+   "fecha": "2026-11-04T15:49Z",
    "cves": [
-    "CVE-2026-76506"
+    "CVE-2026-54058",
+    "CVE-2026-54059",
+    "CVE-2026-54060",
+    "CVE-2026-55379",
+    "CVE-2026-55380",
+    "CVE-2026-59197",
+    "CVE-2026-59199",
+    "CVE-2026-59200",
+    "CVE-2026-59203",
+    "CVE-2026-59204",
+    "CVE-2026-59205"
    ],
-   "cves_total": 1,
+   "cves_total": 11,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0052,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-8998-1: Squid vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-8998-1",
+   "fecha": "2026-11-04T15:32Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-8997-1: Net-SNMP vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-8997-1",
+   "fecha": "2026-11-04T15:25Z",
+   "cves": [],
+   "cves_total": 0,
    "texto_explotada": false,
    "texto_critica": false,
    "dia_cero": false,
@@ -641,6 +1270,25 @@
    "titulo": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
    "enlace": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
    "fecha": "2026-11-04T14:24Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-8996-1: APT vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-8996-1",
+   "fecha": "2026-11-04T13:37Z",
    "cves": [],
    "cves_total": 0,
    "texto_explotada": false,
@@ -4581,90 +5229,6 @@
    "exploitdb": null
   },
   {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118347 Use after free in FileSystem",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118347",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118347"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0026,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118348 Improper input validation in Skia",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118348",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118348"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0034,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118349 Memory corruption in Payments",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118349",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118349"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0026,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118350 Use after free in Turbolev",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118350",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118350"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0029,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
    "fuente": "thehackernews",
    "titulo": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
    "enlace": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
@@ -4734,25 +5298,6 @@
    "titulo": "DSA-6597-1 dpdk - security update",
    "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00516.html",
    "fecha": "2026-10-31T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cisco",
-   "titulo": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-   "fecha": "2026-10-30T21:52Z",
    "cves": [],
    "cves_total": 0,
    "texto_explotada": false,
@@ -4903,69 +5448,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "CVE-2026-70125 Microsoft Office Outlook Remote Code Execution Vulnerability",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70125",
-   "fecha": "2026-10-30T14:00Z",
-   "cves": [
-    "CVE-2026-70125"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0032,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "CVE-2026-118147 Visual Studio Spoofing Vulnerability",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118147",
-   "fecha": "2026-10-30T14:00Z",
-   "cves": [
-    "CVE-2026-118147"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": 7.4,
-   "epss_max": 0.0061,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "CVE-2026-69446 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69446",
-   "fecha": "2026-10-30T14:00Z",
-   "cves": [
-    "CVE-2026-69446"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0025,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5792,7 +6274,7 @@
    ],
    "explotada": true,
    "critica": false,
-   "cvss_max": null,
+   "cvss_max": 7.8,
    "epss_max": 0.8264,
    "exploit_publico": false,
    "exploitdb": null
@@ -5872,27 +6354,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.0077,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "CVE-2026-88078 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88078",
-   "fecha": "2026-10-29T14:00Z",
-   "cves": [
-    "CVE-2026-88078"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0029,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5994,7 +6455,7 @@
    ],
    "explotada": true,
    "critica": false,
-   "cvss_max": 8.6,
+   "cvss_max": null,
    "epss_max": 0.6522,
    "exploit_publico": false,
    "exploitdb": null
@@ -6120,7 +6581,7 @@
    ],
    "explotada": true,
    "critica": false,
-   "cvss_max": 8.6,
+   "cvss_max": null,
    "epss_max": 0.0082,
    "exploit_publico": false,
    "exploitdb": null
@@ -6255,7 +6716,7 @@
    ],
    "explotada": true,
    "critica": false,
-   "cvss_max": 8.6,
+   "cvss_max": null,
    "epss_max": 0.8264,
    "exploit_publico": false,
    "exploitdb": null
@@ -6333,7 +6794,7 @@
    ],
    "explotada": true,
    "critica": false,
-   "cvss_max": 8.6,
+   "cvss_max": null,
    "epss_max": 0.8264,
    "exploit_publico": false,
    "exploitdb": null
@@ -6713,433 +7174,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.0043,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "CVE-2026-19175 Use after free in Payments",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-19175",
-   "fecha": "2026-10-29T00:06Z",
-   "cves": [
-    "CVE-2026-19175"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0034,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "siemens",
-   "titulo": "SSA-166980 V1.2 (Last Update: 2026-10-29): PHP2Shell Vulnerabilities in Siemens Products",
-   "enlace": "https://cert-portal.siemens.com/productcert/html/ssa-166980.html",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "gitlab",
-   "titulo": "GitLab Patch Release and Security Update: 19.5.3, 19.4.5, 19.3.7, 19.2.10, 19.1.10, 19.0.11, 18.11.14",
-   "enlace": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-3-released/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [
-    "CVE-2026-111943"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.004,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6596-1 wordpress - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00515.html",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6595-1 tor - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00514.html",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6594-1 python-git - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00513.html",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6593-1 imagemagick - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00512.html",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Vulnérabilité dans Mattermost Server (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1409/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Vulnérabilité dans les produits NetApp (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1410/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Veeam Backup for Microsoft 365 (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1411/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Vulnérabilité dans les produits Cisco (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1412/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [
-    "CVE-2026-76418"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-76418"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": 8.6,
-   "epss_max": 0.0082,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans PostgreSQL Anonymizer (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1413/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans les produits Juniper Networks (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1414/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Apache Kafka (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1415/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Vulnérabilité dans les produits ESET (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1416/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Vulnérabilité dans les produits Kaspersky (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1417/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Foxit Online Services (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1418/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Elastic Cloud Enterprise (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1419/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans WordPress (29 octobre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1420/",
-   "fecha": "2026-10-29T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cisco",
-   "titulo": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-   "fecha": "2026-10-28T21:54Z",
-   "cves": [
-    "CVE-2026-20127"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-20127"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.8762,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "chrome",
-   "titulo": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-   "enlace": "http://chromereleases.googleblog.com/2026/10/stable-channel-update-for-chromeos_01748991111.html",
-   "fecha": "2026-10-28T19:45Z",
-   "cves": [
-    "CVE-2026-118339",
-    "CVE-2026-118346",
-    "CVE-2026-118331",
-    "CVE-2026-118309",
-    "CVE-2026-118332",
-    "CVE-2026-118343",
-    "CVE-2026-118349",
-    "CVE-2026-118307",
-    "CVE-2026-118358"
-   ],
-   "cves_total": 9,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0036,
    "exploit_publico": false,
    "exploitdb": null
   }
