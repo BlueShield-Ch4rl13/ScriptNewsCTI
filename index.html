@@ -35,26 +35,65 @@
   </nav>
 </header>
 
-<section class="syncline" aria-live="polite">
-  <p class="syncline-label">Última sincronización</p>
-  <p class="syncline-value"><span id="sync-time">—</span> <span class="utc">UTC</span></p>
-  <p class="syncline-meta">
-    <span><b id="stat-avisos">0</b> avisos (7 d)</span>
-    <span class="sep">·</span>
-    <span><b id="stat-cves">0</b> CVE nuevos (7 d)</span>
-    <span class="sep">·</span>
-    <span><b id="stat-kev">—</b> CVEs en KEV</span>
-    <span class="sep">·</span>
-    <span><b id="stat-iocs">—</b> IOCs</span>
-    <span class="sep">·</span>
-    <span><b id="stat-sources">—</b> feeds activos</span>
-  </p>
+<section class="buscador" aria-labelledby="buscador-title">
+  <div class="buscador-in">
+    <h1 id="buscador-title" class="buscador-titulo">¿Aparece en la inteligencia de hoy?</h1>
+    <p class="buscador-sub">Escribe un CVE, un producto, un fabricante, una IP, un dominio o un hash. Se busca a la vez en los avisos, en los CVE de la semana y en los IOCs.</p>
+    <div class="buscador-caja" role="search">
+      <label class="visually-hidden" for="q">Buscar en todo el panel</label>
+      <input id="q" type="search" role="combobox" aria-controls="q-resultados" aria-expanded="false" aria-autocomplete="list"
+             placeholder="CVE-2026-…, Fortinet, OpenSSH, 45.137.21.9, evil[.]com…" autocomplete="off" spellcheck="false" maxlength="200">
+      <kbd class="buscador-atajo" aria-hidden="true">/</kbd>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      <div class="buscador-resultados" id="q-resultados" role="listbox" aria-label="Resultados" hidden></div>
+    </div>
+    <div class="buscador-sugerencias" id="q-sugerencias" aria-label="Búsquedas rápidas"></div>
+    <p class="buscador-meta">
+      Actualizado <span id="sync-time">—</span> UTC
+      <span class="sep" aria-hidden="true">/</span> <b id="stat-avisos">0</b> avisos
+      <span class="sep" aria-hidden="true">/</span> <b id="stat-cves">0</b> CVE nuevos
+      <span class="sep" aria-hidden="true">/</span> <b id="stat-kev">—</b> en KEV
+      <span class="sep" aria-hidden="true">/</span> <b id="stat-iocs">—</b> IOCs
+      <span class="sep" aria-hidden="true">/</span> <b id="stat-sources">—</b> feeds de IOCs
+    </p>
+  </div>
 </section>
+
+<section class="vistazo" aria-labelledby="vistazo-title">
+  <h2 id="vistazo-title" class="visually-hidden">La semana de un vistazo</h2>
+  <figure class="graf" id="g-prioridad">
+    <figcaption>CVE de la semana por prioridad</figcaption>
+    <div class="graf-cuerpo"><p class="graf-vacio">Cargando…</p></div>
+  </figure>
+  <figure class="graf" id="g-dias">
+    <figcaption>Avisos por día <span class="graf-leyenda"><i class="sw sw-grave"></i>ya explotados, día cero o críticos</span></figcaption>
+    <div class="graf-cuerpo"><p class="graf-vacio">Cargando…</p></div>
+  </figure>
+  <figure class="graf" id="g-sistemas">
+    <figcaption>CVE de la semana por tipo de sistema</figcaption>
+    <div class="graf-cuerpo"><p class="graf-vacio">Cargando…</p></div>
+  </figure>
+  <figure class="graf" id="g-amenazas">
+    <figcaption>Amenazas con más IOCs</figcaption>
+    <div class="graf-cuerpo"><p class="graf-vacio">Cargando…</p></div>
+  </figure>
+</section>
+
+<nav class="secciones" aria-label="Secciones del panel">
+  <a href="#s-vigia">Vigilancia</a>
+  <a href="#s-sistemas">Sistemas</a>
+  <a href="#s-lenguajes">Lenguajes</a>
+  <a href="#s-avisos">Avisos <span class="n" id="n-avisos"></span></a>
+  <a href="#s-tendencia">Tendencia</a>
+  <a href="#s-kev">KEV <span class="n" id="n-kev"></span></a>
+  <a href="#s-cves">CVE <span class="n" id="n-cves"></span></a>
+  <a href="#s-iocs">IOCs <span class="n" id="n-iocs"></span></a>
+</nav>
 
 <main>
 
   <!-- ===== Lista de vigilancia: se guarda solo en este navegador (localStorage) ===== -->
-  <section class="panel vigia" aria-labelledby="vigia-title">
+  <section class="panel vigia" id="s-vigia" aria-labelledby="vigia-title">
     <div class="panel-head">
       <h2 id="vigia-title">Mi lista de vigilancia</h2>
       <p class="panel-note">Añade los productos y fabricantes que usas: el panel marca los avisos y CVE de la semana que los citan y puedes filtrar por ellos. La lista se guarda solo en este navegador.</p>
@@ -69,7 +108,7 @@
   </section>
 
   <!-- ===== Vulnerabilidades: sistemas, lenguajes y CVE priorizados (data/vulns_latest.json) ===== -->
-  <section class="panel" aria-labelledby="sis-title">
+  <section class="panel" id="s-sistemas" aria-labelledby="sis-title">
     <div class="panel-head">
       <h2 id="sis-title">¿Está en riesgo mi sistema?</h2>
       <p class="panel-note">CVE publicados en los últimos 7 días y explotación activa (CISA KEV, 30 días), por tipo de sistema</p>
@@ -79,7 +118,7 @@
     <div class="empty" id="sis-empty" hidden><p>Sin datos de vulnerabilidades todavía.</p></div>
   </section>
 
-  <section class="panel" aria-labelledby="len-title">
+  <section class="panel" id="s-lenguajes" aria-labelledby="len-title">
     <div class="panel-head">
       <h2 id="len-title">¿Está comprometido mi lenguaje?</h2>
       <p class="panel-note">Paquetes maliciosos y vulnerabilidades revisadas en cada registro (GitHub Advisory Database, últimos 7 días)</p>
@@ -89,7 +128,7 @@
   </section>
 
   <!-- ===== Avisos que van saliendo: fabricantes, CERT, exploits y noticias (data/avisos_latest.json) ===== -->
-  <section class="panel" aria-labelledby="av-title">
+  <section class="panel" id="s-avisos" aria-labelledby="av-title">
     <div class="panel-head">
       <h2 id="av-title">Fallos de seguridad que van saliendo</h2>
       <p class="panel-note">Avisos de fabricantes, CERT y gobiernos (INCIBE, CISA, CERT-EU, CERT-FR…), exploits publicados y noticias de vulnerabilidades de los últimos 7 días, del más reciente al más antiguo. Cada aviso se cruza con CISA KEV y EPSS: si alguno de sus CVE ya se explota, se marca aunque el aviso no lo diga.</p>
@@ -126,7 +165,7 @@
   </section>
 
   <!-- ===== Tendencia: una cifra por día (data/historico.json) ===== -->
-  <section class="panel" aria-labelledby="tend-title">
+  <section class="panel" id="s-tendencia" aria-labelledby="tend-title">
     <div class="panel-head">
       <h2 id="tend-title">Tendencia</h2>
       <p class="panel-note">Una cifra por día: la de la última actualización de ese día. IOCs y KEV, desde julio de 2026; CVE y avisos, desde el 29 de octubre.</p>
@@ -135,7 +174,7 @@
     <div class="empty" id="tend-empty" hidden><p>Sin histórico todavía.</p></div>
   </section>
 
-  <section class="panel" aria-labelledby="kev-title">
+  <section class="panel" id="s-kev" aria-labelledby="kev-title">
     <div class="panel-head">
       <h2 id="kev-title">Explotación activa · CISA KEV</h2>
       <p class="panel-note">CVEs añadidos al catálogo en los últimos 14 días</p>
@@ -144,7 +183,7 @@
     <div class="empty" id="kev-empty" hidden><p>Sin CVEs nuevos en la ventana actual.</p></div>
   </section>
 
-  <section class="panel" aria-labelledby="cves-title">
+  <section class="panel" id="s-cves" aria-labelledby="cves-title">
     <div class="panel-head">
       <h2 id="cves-title">CVE de la semana, por prioridad real</h2>
       <p class="panel-note">Primero lo que ya se explota (CISA KEV o SSVC «active»), después lo que más probablemente se explotará (EPSS, o un exploit publicado en Exploit-DB) y, por último, la gravedad (CVSS). Descripción de NVD, en español cuando NVD la tiene traducida.</p>
@@ -191,7 +230,7 @@
     <p class="panel-note fuentes-nota" id="v-fuentes"></p>
   </section>
 
-  <section class="panel" aria-labelledby="iocs-title">
+  <section class="panel" id="s-iocs" aria-labelledby="iocs-title">
     <div class="panel-head">
       <h2 id="iocs-title">Indicadores de compromiso</h2>
       <p class="panel-note">Defangueados · fusionados multi-fuente · scoring propio · recolección cada 3 h vía GitHub Actions</p>
@@ -236,6 +275,7 @@
     <div class="empty" id="empty-state" hidden>
       <p id="empty-msg">Cargando datos…</p>
     </div>
+    <p class="mas-wrap"><button type="button" class="btn-mas" id="f-mas" hidden>Mostrar 25 más</button></p>
   </section>
 </main>
 
@@ -246,5 +286,6 @@
 </footer>
 
 <script src="assets/app.js"></script>
+<script src="assets/buscar.js"></script>
 </body>
 </html>
