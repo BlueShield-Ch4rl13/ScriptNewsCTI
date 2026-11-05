@@ -17,6 +17,7 @@ import html
 import logging
 import re
 import xml.etree.ElementTree as ET
+import xml.parsers.expat
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -218,14 +219,33 @@ def enlace_seguro(url: str) -> str:
     return url.strip() if p.scheme in ("http", "https") and p.netloc else ""
 
 
+def _sin_entidades(datos: bytes) -> None:
+    """Rechaza cualquier declaración de entidad, la vea quien la vea.
+
+    Antes se buscaba el texto '<!ENTITY' en los primeros 4 KB: no lo veía en
+    UTF-16, ni detrás de 4 KB de comentarios, ni en minúsculas raras. Ahora lo
+    dice el propio analizador de XML, con el documento entero."""
+    p = xml.parsers.expat.ParserCreate()
+
+    def entidad(*_args):
+        raise ValueError("el feed declara entidades XML")
+
+    p.EntityDeclHandler = entidad
+    p.UnparsedEntityDeclHandler = entidad
+    p.SetParamEntityParsing(xml.parsers.expat.XML_PARAM_ENTITY_PARSING_NEVER)
+    try:
+        p.Parse(datos, True)
+    except xml.parsers.expat.ExpatError as exc:
+        raise ValueError(f"el feed no es XML valido: {exc}") from None
+
+
 def leer_feed(datos: bytes) -> list[dict]:
     """RSS 2.0, RSS 1.0 (RDF) o Atom -> [{titulo, enlace, fecha, texto}].
 
     ElementTree no resuelve entidades externas y expat (>= 2.4, el de Python 3.12)
     limita la expansión de entidades; aun así, un feed con declaraciones de
     entidades no tiene motivo legítimo y se rechaza."""
-    if b"<!ENTITY" in datos[:4096].upper():
-        raise ValueError("el feed declara entidades XML")
+    _sin_entidades(datos)
     raiz = ET.fromstring(datos)
     entradas = []
     for el in raiz.iter():

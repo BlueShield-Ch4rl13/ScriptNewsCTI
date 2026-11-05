@@ -89,6 +89,29 @@ def test_un_feed_con_entidades_se_rechaza():
         A.leer_feed(bomba)
 
 
+@pytest.mark.parametrize("feed", [
+    pytest.param(b"<?xml version='1.0'?><!-- " + b"x" * 5000 + b" --><!DOCTYPE r [<!ENTITY a 'b'>]><rss/>",
+                 id="tras-4KB-de-comentario"),
+    pytest.param('<?xml version="1.0" encoding="utf-16"?><!DOCTYPE r [<!ENTITY a "b">]><rss/>'.encode("utf-16"),
+                 id="utf-16"),
+    pytest.param(b'<?xml version="1.0"?><!DOCTYPE r [<!ENTITY x SYSTEM "file:///etc/passwd">]><rss>&x;</rss>',
+                 id="externa"),
+    pytest.param(b'<?xml version="1.0"?><!DOCTYPE r [<!ENTITY % p SYSTEM "http://x.test/e.dtd"> %p;]><rss/>',
+                 id="de-parametro"),
+])
+def test_entidades_escondidas_tambien_se_rechazan(feed):
+    with pytest.raises(ValueError):
+        A.leer_feed(feed)
+
+
+def test_un_doctype_sin_entidades_se_sigue_leyendo():
+    feed = (b'<?xml version="1.0"?><!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" '
+            b'"http://my.netscape.com/publish/formats/rss-0.91.dtd"><rss version="0.91"><channel><title>x</title>'
+            b'<item><title>Aviso</title><link>https://a.example/1</link></item></channel></rss>')
+    [e] = A.leer_feed(feed)
+    assert e["titulo"] == "Aviso"
+
+
 @pytest.mark.parametrize("url, ok", [
     ("https://www.incibe.es/aviso", True), ("http://ejemplo.com/x", True),
     ("javascript:alert(1)", False), ("data:text/html,x", False), ("/relativa", False), ("https://", False), ("", False),

@@ -3,7 +3,9 @@ import csv
 import json
 import logging
 import os
+import re
 from datetime import datetime, timezone
+from urllib.parse import quote
 
 log = logging.getLogger(__name__)
 
@@ -50,10 +52,21 @@ def save_outputs(iocs: list[dict], kev: list[dict]) -> None:
         writer = csv.DictWriter(f, fieldnames=columns, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(
-            {**i, "sources": ", ".join(i.get("sources") or [])} for i in enriched
+            {k: _celda_csv(v) for k, v in {**i, "sources": ", ".join(i.get("sources") or [])}.items()}
+            for i in enriched
         )
 
     log.info("Guardados %d IOCs y %d CVEs en %s/", len(enriched), len(kev), DATA_DIR)
+
+
+def _celda_csv(valor):
+    """Neutraliza fórmulas: el CSV se abre en Excel o LibreOffice, y un nombre de
+    amenaza o una referencia del feed que empiece por =, +, -, @ o un tabulador se
+    ejecutaba como fórmula (=HYPERLINK(...), DDE). Se le antepone un apóstrofo,
+    que la hoja no muestra. Los números se quedan como números."""
+    if isinstance(valor, str) and valor[:1] in ("=", "+", "-", "@", "\t", "\r"):
+        return "'" + valor
+    return valor
 
 
 def save_vulns(vulns: dict) -> None:
@@ -157,15 +170,42 @@ def _bloque_avisos(avisos: dict, max_rows: int) -> list[str]:
     for a in graves[:max_rows]:
         senales = ", ".join(n for n, k in (("explotada", "explotada"), ("día cero", "dia_cero"),
                                             ("sin parche", "sin_parche"), ("crítica", "critica")) if a.get(k))
-        titulo = _md(a["titulo"][:110]).replace("[", "\\[").replace("]", "\\]")
+        titulo = _md(a["titulo"][:110])
+        enlace = _md_url(a.get("enlace"))
+        aviso = f"[{titulo}]({enlace})" if enlace else titulo
         lines.append(f"| {_md(a['fecha'][:10])} | {_md(nombres.get(a['fuente'], a['fuente']))} "
-                     f"| [{titulo}]({_md(a['enlace']).replace('(', '%28').replace(')', '%29')}) | {senales} |")
+                     f"| {aviso} | {senales} |")
     return lines
 
 
+_MD_ESPECIALES = re.compile(r"([\\`*_\[\]|~!])")
+
+
 def _md(value) -> str:
-    """Escapa pipes para tablas markdown."""
-    return str(value if value is not None else "").replace("|", "\\|")
+    """Texto de un feed dentro de una tabla del README.
+
+    Antes solo se escapaba '|': un titulo o un nombre de amenaza con un salto de
+    linea rompia la tabla, y con '![x](https://...)' o '<img>' metia una imagen
+    (o un enlace) en el README del repositorio. Ahora todo va en una linea, sin
+    HTML y con la puntuacion de markdown escapada."""
+    texto = " ".join(str(value if value is not None else "").split())
+    texto = texto.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return _MD_ESPECIALES.sub(r"\\\1", texto)
+
+
+def _md_codigo(value) -> str:
+    """Lo mismo dentro de `codigo`, donde la barra invertida no escapa: sin
+    saltos de linea ni comillas invertidas; '|' se escapa igual (lo exige la tabla)."""
+    texto = " ".join(str(value if value is not None else "").split())
+    return texto.replace("`", "'").replace("|", "\\|")
+
+
+def _md_url(value) -> str:
+    """Destino de un enlace: solo http(s), sin espacios ni nada que cierre el enlace."""
+    url = str(value or "").strip()
+    if not re.match(r"https?://[^\s]+$", url, re.IGNORECASE):
+        return ""
+    return quote(url, safe=":/?#@!$&'*+,;=%-._~[]").replace("(", "%28").replace(")", "%29")
 
 
 def update_readme(iocs: list[dict], kev: list[dict], vulns: dict | None = None, max_rows: int = 25,
@@ -186,7 +226,7 @@ def update_readme(iocs: list[dict], kev: list[dict], vulns: dict | None = None, 
         lines.append(
             f"| {_md(i.get('score', '—'))} ({_md(i.get('level', '—'))}) "
             f"| {_md(i.get('severity', '—'))} "
-            f"| `{_md(defang(i.get('value', '')))}` | {_md(i.get('type'))} "
+            f"| `{_md_codigo(defang(i.get('value', '')))}` | {_md(i.get('type'))} "
             f"| {_md(i.get('threat'))} | {_md(i.get('source'))} "
             f"| {_md(i.get('first_seen'))} |"
         )

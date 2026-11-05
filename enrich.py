@@ -175,13 +175,22 @@ def _extract_ip(value: str, ioc_type: str) -> str | None:
         return None
 
 
+_RE_HASH = re.compile(r"[0-9a-f]{32}|[0-9a-f]{40}|[0-9a-f]{64}")
+_RE_DOMINIO = re.compile(r"(?=.{1,253}$)([a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z][a-z0-9-]{1,62}")
+
+
 def _vt_target(value: str, ioc_type: str):
-    """Mapea (valor, tipo) a la colección de la API v3 de VirusTotal."""
+    """Mapea (valor, tipo) a la colección de la API v3 de VirusTotal.
+
+    El valor viene de un feed y va en la ruta de la petición: solo pasa un hash
+    hexadecimal o un dominio bien formado. Antes iba tal cual, y un IOC como
+    '../../users/...' cambiaba a qué ruta de la API se mandaba la clave."""
     t = (ioc_type or "").lower()
+    v = (value or "").strip().lower()
     if any(h in t for h in ("sha256", "sha1", "md5", "hash")):
-        return "files", value.lower()
+        return ("files", v) if _RE_HASH.fullmatch(v) else (None, None)
     if t in ("domain", "hostname"):
-        return "domains", value
+        return ("domains", v) if _RE_DOMINIO.fullmatch(v) else (None, None)
     if t == "url":
         vid = base64.urlsafe_b64encode(value.encode()).decode().rstrip("=")
         return "urls", vid
