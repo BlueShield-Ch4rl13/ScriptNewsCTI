@@ -120,9 +120,15 @@ jobs:
             exit 0
           fi
           git commit -m "CTI update: $(date -u +'%Y-%m-%d %H:%M UTC')"
-          # El remoto puede haber avanzado durante la ejecución (p. ej. una
-          # subida manual de ficheros): se rebasa encima antes de publicar.
-          # Si un fichero generado entra en conflicto, gana la versión recién
-          # generada (en un rebase, -X theirs = los commits que se reaplican).
-          git pull --rebase -X theirs origin main
+          # main puede haber avanzado durante la ejecución (un PR fusionado, una
+          # subida a mano): se rebasa encima antes de publicar. Sin -X theirs:
+          # con él, si el PR tocaba las mismas líneas del README, ganaba el
+          # README generado antes de fusionarlo y el bot deshacía el PR. Ahora,
+          # si hay conflicto, esta publicación se salta y la siguiente (3 h) se
+          # genera ya sobre el main nuevo.
+          if ! git pull --rebase origin main; then
+            git rebase --abort
+            echo "::warning::main ha cambiado en lo mismo que esta ejecución: no se publica para no deshacer nada; la siguiente lo regenera."
+            exit 0
+          fi
           git push
