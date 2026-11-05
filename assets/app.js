@@ -6,8 +6,8 @@
 (function () {
   "use strict";
 
-  var MAX_ROWS = 300;
   var state = { iocs: [], kev: [] };
+  var istate = { filtrados: [], mostrar: 25 };
 
   var $ = function (id) { return document.getElementById(id); };
 
@@ -16,6 +16,28 @@
     if (className) node.className = className;
     if (text !== undefined && text !== null) node.textContent = String(text);
     return node;
+  }
+
+  /* Búsqueda en cada sección (y en el buscador de arriba): sin mayúsculas ni
+     tildes, con los IOCs defangueados vueltos a su forma (hxxp, [.]) y todas
+     las palabras tienen que estar, en cualquier orden. */
+  function normalizar(t) {
+    return String(t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/\[\.\]|\(\.\)|\{\.\}/g, ".").replace(/\[:\]/g, ":").replace(/hxxp/g, "http");
+  }
+  function coincide(texto, consulta) {
+    var q = normalizar(consulta).trim();
+    if (!q) return true;
+    var hay = normalizar(texto);
+    return q.split(/\s+/).every(function (p) { return hay.indexOf(p) !== -1; });
+  }
+  window.CTI = window.CTI || {};
+  window.CTI.normalizar = normalizar;
+
+  // Cada bloque de datos que llega se deja en window.CTI y se avisa (buscar.js)
+  function publicar(nombre, datos) {
+    window.CTI[nombre] = datos;
+    document.dispatchEvent(new CustomEvent("cti:datos", { detail: nombre }));
   }
 
   var SEV_LABEL = { critica: "cr\u00edtica", alta: "alta", media: "media", baja: "baja" };
@@ -51,7 +73,7 @@
   }
 
   function applyFilters() {
-    var q = $("f-search").value.trim().toLowerCase();
+    var q = $("f-search").value;
     var type = $("f-type").value;
     var source = $("f-source").value;
     var level = $("f-level").value;
@@ -63,20 +85,19 @@
       if (source && srcs.indexOf(source) === -1) return false;
       if (level && (i.level || "") !== level) return false;
       if (sev && (i.severity || "") !== sev) return false;
-      if (q) {
-        var hay = ((i.value || "") + " " + (i.threat || "")).toLowerCase();
-        if (hay.indexOf(q) === -1) return false;
-      }
+      if (q && !coincide((i.value || "") + " " + (i.threat || "") + " " + (i.type || ""), q)) return false;
       return true;
     });
 
+    istate.mostrar = 25;
     renderRows(filtered);
   }
 
   function renderRows(iocs) {
     var tbody = $("ioc-rows");
     tbody.textContent = "";
-    var shown = iocs.slice(0, MAX_ROWS);
+    istate.filtrados = iocs;
+    var shown = iocs.slice(0, istate.mostrar);
 
     shown.forEach(function (i) {
       var tr = document.createElement("tr");
@@ -115,6 +136,7 @@
     $("result-count").textContent = iocs.length
       ? "Mostrando " + shown.length + " de " + iocs.length + " IOCs"
       : "";
+    $("f-mas").hidden = shown.length >= iocs.length;
     $("empty-state").hidden = iocs.length > 0;
     if (!iocs.length) $("empty-msg").textContent = "Sin resultados con estos filtros.";
   }
@@ -177,9 +199,12 @@
     ["f-search", "f-type", "f-source", "f-level", "f-sev"].forEach(function (id) {
       $(id).addEventListener("input", applyFilters);
     });
+    $("f-mas").addEventListener("click", function () { istate.mostrar += 25; renderRows(istate.filtrados); });
 
-    renderRows(iocs);
+    // Si el buscador de arriba ya había puesto una consulta, se aplica
+    if ($("f-search").value) applyFilters(); else renderRows(iocs);
     renderKev(kev);
+    publicar("iocs", data);
   }
 
   /* ── Vulnerabilidades (data/vulns_latest.json) ───────────────────────────
@@ -386,7 +411,7 @@
   }
 
   function aplicarFiltrosVulns() {
-    var q = $("v-search").value.trim().toLowerCase();
+    var q = $("v-search").value;
     var prio = $("v-prio").value;
     var cat = $("v-cat").value;
     var senal = $("v-senal").value;
@@ -397,10 +422,7 @@
       else if (senal === "avisos") { if (!c.avisos_total) return false; }
       else if (senal === "vigilado") { if (!vigilados(textoCve(c)).length) return false; }
       else if (senal && !c[senal]) return false;
-      if (q) {
-        var hay = (c.cve + " " + (c.fabricante || "") + " " + (c.descripcion || "")).toLowerCase();
-        if (hay.indexOf(q) === -1) return false;
-      }
+      if (q && !coincide(textoCve(c), q)) return false;
       return true;
     });
     vstate.mostrar = PASO;
@@ -488,7 +510,8 @@
     });
     ["v-search", "v-prio", "v-cat", "v-senal"].forEach(function (id) { $(id).addEventListener("input", aplicarFiltrosVulns); });
     $("v-mas").addEventListener("click", function () { vstate.mostrar += PASO; renderCves(vstate.filtrados); });
-    renderCves(vstate.cves);
+    publicar("vulns", d);
+    if ($("v-search").value) aplicarFiltrosVulns(); else renderCves(vstate.cves);
     cargado.vulns = true;
     resumenVigia();
     var caidas = Object.keys(d.fuentes || {}).filter(function (k) { return d.fuentes[k] !== "ok"; });
@@ -551,7 +574,7 @@
   }
 
   function aplicarFiltrosAvisos() {
-    var q = $("a-search").value.trim().toLowerCase();
+    var q = $("a-search").value;
     var f = $("a-fuente").value;
     var senal = $("a-senal").value;
     var lista = astate.avisos.filter(function (a) {
@@ -559,10 +582,7 @@
       if (f.indexOf("f:") === 0 && a.fuente !== f.slice(2)) return false;
       if (senal === "vigilado") { if (!vigilados(textoAviso(a)).length) return false; }
       else if (senal && !a[senal]) return false;
-      if (q) {
-        var hay = (a.titulo + " " + (a.cves || []).join(" ") + " " + ((astate.fuentes[a.fuente] || {}).nombre || "")).toLowerCase();
-        if (hay.indexOf(q) === -1) return false;
-      }
+      if (q && !coincide(textoAviso(a), q)) return false;
       return true;
     });
     astate.mostrar = PASO;
@@ -644,7 +664,8 @@
     renderCitados(d.mas_citados || []);
     ["a-search", "a-fuente", "a-senal"].forEach(function (id) { $(id).addEventListener("input", aplicarFiltrosAvisos); });
     $("a-mas").addEventListener("click", function () { astate.mostrar += PASO; renderAvisos(astate.filtrados); });
-    renderAvisos(astate.avisos);
+    publicar("avisos", d);
+    if ($("a-search").value) aplicarFiltrosAvisos(); else renderAvisos(astate.avisos);
     cargado.avisos = true;
     resumenVigia();
     var caidas = (d.fuentes || []).filter(function (f) { return f.estado !== "ok"; }).map(function (f) { return f.nombre; });
@@ -768,6 +789,7 @@
   function fmt(n) { return Number(n).toLocaleString("es-ES"); }
 
   function initTendencia(d) {
+    publicar("historico", d);
     var dias = d.dias || {};
     var fechas = Object.keys(dias).sort();
     var g = $("tend-grid");
@@ -819,6 +841,7 @@
       .then(init)
       .catch(showError);
   }
+  window.CTI.cargarIocs = cargarIocs;
   var seccionKev = document.querySelector('section[aria-labelledby="kev-title"]');
   if ("IntersectionObserver" in window && seccionKev) {
     var observadorIocs = new IntersectionObserver(function (entradas) {
