@@ -5,8 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NEWS CTI · BlueShield</title>
 <meta name="description" content="Panel de inteligencia de amenazas que se actualiza cada 3 horas: avisos de seguridad de fabricantes y CERT (INCIBE, CISA, CERT-EU…), CVE de la semana priorizados por explotación real (CISA KEV, EPSS, SSVC, Exploit-DB), paquetes maliciosos por lenguaje, sistemas en riesgo e IOCs de ThreatFox, URLhaus y OTX.">
+<link rel="canonical" href="https://cti.carlosvillalbalagos.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cti.carlosvillalbalagos.com/">
+<meta property="og:site_name" content="News CTI">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="News CTI · fallos de seguridad, CVE e IOCs que importan hoy">
+<meta property="og:description" content="Panel público que se actualiza cada 3 horas: avisos de 26 fuentes, CVE por explotación real, sistemas y lenguajes en riesgo e IOCs. Con feed Atom y feed MISP.">
+<meta property="og:image" content="https://cti.carlosvillalbalagos.com/assets/og-cti.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="News CTI · panel de ciberamenazas">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/atom+xml" title="News CTI · fallos de seguridad importantes" href="data/avisos.xml">
 <link rel="stylesheet" href="assets/style.css">
-<link rel="icon" type="image/x-icon" href="assets/red-global.png">
+<link rel="icon" type="image/png" href="assets/red-global.png">
 </head>
 <body>
 
@@ -30,15 +43,30 @@
     <span class="sep">·</span>
     <span><b id="stat-cves">0</b> CVE nuevos (7 d)</span>
     <span class="sep">·</span>
-    <span><b id="stat-kev">0</b> CVEs en KEV</span>
+    <span><b id="stat-kev">—</b> CVEs en KEV</span>
     <span class="sep">·</span>
-    <span><b id="stat-iocs">0</b> IOCs</span>
+    <span><b id="stat-iocs">—</b> IOCs</span>
     <span class="sep">·</span>
-    <span><b id="stat-sources">0</b> feeds activos</span>
+    <span><b id="stat-sources">—</b> feeds activos</span>
   </p>
 </section>
 
 <main>
+
+  <!-- ===== Lista de vigilancia: se guarda solo en este navegador (localStorage) ===== -->
+  <section class="panel vigia" aria-labelledby="vigia-title">
+    <div class="panel-head">
+      <h2 id="vigia-title">Mi lista de vigilancia</h2>
+      <p class="panel-note">Añade los productos y fabricantes que usas: el panel marca los avisos y CVE de la semana que los citan y puedes filtrar por ellos. La lista se guarda solo en este navegador.</p>
+    </div>
+    <div class="vigia-form">
+      <label class="visually-hidden" for="vigia-input">Producto o fabricante</label>
+      <input id="vigia-input" type="text" placeholder="Fortinet, Splunk, Wazuh…" autocomplete="off" maxlength="40">
+      <button type="button" class="btn-mas" id="vigia-add">Añadir</button>
+    </div>
+    <ul class="vigia-chips" id="vigia-chips" aria-label="Términos vigilados"></ul>
+    <p class="vigia-resumen" id="vigia-resumen" aria-live="polite">Todavía no vigilas nada.</p>
+  </section>
 
   <!-- ===== Vulnerabilidades: sistemas, lenguajes y CVE priorizados (data/vulns_latest.json) ===== -->
   <section class="panel" aria-labelledby="sis-title">
@@ -85,6 +113,7 @@
         <option value="sin_parche">Sin parche</option>
         <option value="critica">Crítica</option>
         <option value="exploit_publico">Con exploit público</option>
+        <option value="vigilado">En mi lista de vigilancia</option>
       </select>
     </div>
 
@@ -93,6 +122,17 @@
     <div class="empty" id="a-empty" hidden><p id="a-empty-msg">Cargando avisos…</p></div>
     <p class="mas-wrap"><button type="button" class="btn-mas" id="a-mas" hidden>Mostrar 25 más</button></p>
     <p class="panel-note fuentes-nota" id="a-fuentes"></p>
+    <p class="panel-note feeds-nota">Suscríbete a los importantes (ya explotados, de día cero o críticos): <a href="data/avisos.xml" type="application/atom+xml">feed Atom/RSS</a>.</p>
+  </section>
+
+  <!-- ===== Tendencia: una cifra por día (data/historico.json) ===== -->
+  <section class="panel" aria-labelledby="tend-title">
+    <div class="panel-head">
+      <h2 id="tend-title">Tendencia</h2>
+      <p class="panel-note">Una cifra por día: la de la última actualización de ese día. IOCs y KEV, desde julio de 2026; CVE y avisos, desde el 29 de octubre.</p>
+    </div>
+    <div class="tend-grid" id="tend-grid"></div>
+    <div class="empty" id="tend-empty" hidden><p>Sin histórico todavía.</p></div>
   </section>
 
   <section class="panel" aria-labelledby="kev-title">
@@ -132,6 +172,7 @@
         <option value="ransomware">Usada por ransomware</option>
         <option value="dia_cero">Explotada desde el día 0</option>
         <option value="avisos">Citada en avisos</option>
+        <option value="vigilado">En mi lista de vigilancia</option>
       </select>
     </div>
 
@@ -154,6 +195,7 @@
     <div class="panel-head">
       <h2 id="iocs-title">Indicadores de compromiso</h2>
       <p class="panel-note">Defangueados · fusionados multi-fuente · scoring propio · recolección cada 3 h vía GitHub Actions</p>
+      <p class="panel-note feeds-nota">Descargar: <a href="data/iocs_latest.csv" download>CSV</a> · <a href="data/iocs_latest.json" download>JSON</a> · Feed para MISP (formato «MISP Feed»): <code>https://cti.carlosvillalbalagos.com/data/misp</code></p>
     </div>
 
     <div class="filters">

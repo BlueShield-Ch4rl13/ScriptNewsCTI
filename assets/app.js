@@ -140,8 +140,12 @@
   }
 
   function showError() {
-    $("status-dot").classList.add("err");
-    $("sync-time").textContent = "sin datos";
+    // Si vulnerabilidades o avisos ya han llegado, la sincronización existe:
+    // solo faltan los IOCs y lo dice su propia sección
+    if ($("sync-time").textContent === "\u2014") {
+      $("status-dot").classList.add("err");
+      $("sync-time").textContent = "sin datos";
+    }
     $("empty-state").hidden = false;
     $("empty-msg").textContent =
       "No hay datos todavía. Ejecuta el workflow \u201CCTI Update\u201D en GitHub Actions y recarga la página.";
@@ -198,6 +202,42 @@
   };
   var vstate = { cves: [], nombres: {}, filtrados: [], mostrar: 25 };
   var PASO = 25;
+
+  /* ── Lista de vigilancia: términos del usuario, solo en este navegador ──── */
+  var CLAVE_VIGIA = "newscti.vigilancia";
+  var vigia = { terminos: [], rx: [] };
+
+  function escaparRx(t) { return t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+
+  function leerVigia() {
+    try {
+      var v = JSON.parse(window.localStorage.getItem(CLAVE_VIGIA) || "[]");
+      return Array.isArray(v) ? v.filter(function (t) { return typeof t === "string" && t.length >= 2; }).slice(0, 30) : [];
+    } catch (e) { return []; }
+  }
+
+  function guardarVigia() {
+    try { window.localStorage.setItem(CLAVE_VIGIA, JSON.stringify(vigia.terminos)); } catch (e) { /* sin almacenamiento: vale para esta visita */ }
+  }
+
+  function prepararVigia(lista) {
+    vigia.terminos = lista;
+    // palabra completa: «SAP» no casa con «sapphire»
+    vigia.rx = lista.map(function (t) { return new RegExp("(^|[^a-z0-9])" + escaparRx(t.toLowerCase()) + "($|[^a-z0-9])", "i"); });
+  }
+
+  function vigilados(texto) {
+    var t = String(texto || "").toLowerCase();
+    return vigia.terminos.filter(function (_, i) { return vigia.rx[i].test(t); });
+  }
+
+  function textoAviso(a) {
+    return a.titulo + " " + (a.cves || []).join(" ") + " " + ((astate.fuentes[a.fuente] || {}).nombre || "");
+  }
+
+  function textoCve(c) {
+    return c.cve + " " + (c.fabricante || "") + " " + (c.descripcion || "") + " " + (vstate.nombres[c.categoria] || "");
+  }
   // Nombre corto de cada sistema para la tabla (las tarjetas usan el largo)
   var CORTO = {
     microsoft: "Microsoft", linux: "Linux", apple: "Apple", android: "Android", navegadores: "Navegador",
@@ -355,6 +395,7 @@
       if (cat && c.categoria !== cat) return false;
       if (senal === "exploitdb" || senal === "github") { if (c.exploit_publico !== senal) return false; }
       else if (senal === "avisos") { if (!c.avisos_total) return false; }
+      else if (senal === "vigilado") { if (!vigilados(textoCve(c)).length) return false; }
       else if (senal && !c[senal]) return false;
       if (q) {
         var hay = (c.cve + " " + (c.fabricante || "") + " " + (c.descripcion || "")).toLowerCase();
@@ -379,6 +420,8 @@
       var tdc = el("td", "cve-id");
       tdc.appendChild(cveNodo(c.cve));
       if (c.kev) tdc.appendChild(el("span", "badge-kev", "KEV"));
+      var vc = vigilados(textoCve(c));
+      if (vc.length) { tdc.appendChild(titulo(el("span", "badge-kev b-vigia", "EN TU LISTA"), vc.join(", "))); tr.className = "fila-vigilada"; }
       if (c.dia_cero) tdc.appendChild(titulo(el("span", "badge-kev b-cero", "D\u00cdA 0"), "CISA la dio por explotada el mismo d\u00eda o al siguiente de publicarse"));
       if (c.ransomware) tdc.appendChild(titulo(el("span", "badge-ransom mini", "RANSOMWARE"), "Usada en campa\u00f1as de ransomware (CISA KEV)"));
       if (c.exploit_publico === "exploitdb" && /^\d+$/.test(String(c.exploitdb))) {
@@ -419,7 +462,16 @@
     if (!lista.length) $("v-empty-msg").textContent = "Sin CVE con estos filtros.";
   }
 
+  // La hora de la última sincronización la da el primer fichero que llegue
+  // (los tres salen de la misma ejecución del pipeline)
+  function marcarSincronizado(utc) {
+    if (!utc || $("sync-time").textContent !== "\u2014") return;
+    $("sync-time").textContent = utc;
+    $("status-dot").classList.add("ok");
+  }
+
   function initVulns(d) {
+    marcarSincronizado(d.generado_utc);
     var r = d.resumen || {};
     setStat("stat-cves", r.cves || 0);
     renderTiles(r);
@@ -437,6 +489,8 @@
     ["v-search", "v-prio", "v-cat", "v-senal"].forEach(function (id) { $(id).addEventListener("input", aplicarFiltrosVulns); });
     $("v-mas").addEventListener("click", function () { vstate.mostrar += PASO; renderCves(vstate.filtrados); });
     renderCves(vstate.cves);
+    cargado.vulns = true;
+    resumenVigia();
     var caidas = Object.keys(d.fuentes || {}).filter(function (k) { return d.fuentes[k] !== "ok"; });
     $("v-fuentes").textContent = "Actualizado " + (d.generado_utc || "\u2014") + " UTC \u00b7 " +
       (r.cves || 0) + " CVE en " + (d.ventana_dias || 7) + " d\u00edas (la tabla muestra los " + (d.cves_publicados || 0) + " m\u00e1s prioritarios)" +
@@ -503,7 +557,8 @@
     var lista = astate.avisos.filter(function (a) {
       if (f.indexOf("t:") === 0 && (astate.fuentes[a.fuente] || {}).tipo !== f.slice(2)) return false;
       if (f.indexOf("f:") === 0 && a.fuente !== f.slice(2)) return false;
-      if (senal && !a[senal]) return false;
+      if (senal === "vigilado") { if (!vigilados(textoAviso(a)).length) return false; }
+      else if (senal && !a[senal]) return false;
       if (q) {
         var hay = (a.titulo + " " + (a.cves || []).join(" ") + " " + ((astate.fuentes[a.fuente] || {}).nombre || "")).toLowerCase();
         if (hay.indexOf(q) === -1) return false;
@@ -536,6 +591,8 @@
           cab.appendChild(chip(s_[1], s_[2]));
         }
       });
+      var va = vigilados(textoAviso(a));
+      if (va.length) { li.className += " av-vigilado"; cab.appendChild(titulo(el("span", "sev-chip sev-vigia", "En tu lista: " + va.join(", ")), "Coincide con tu lista de vigilancia")); }
       li.appendChild(cab);
       var h = el("p", "aviso-titulo");
       h.appendChild(url ? enlace(a.titulo, url) : el("span", null, a.titulo));
@@ -560,6 +617,7 @@
   }
 
   function initAvisos(d) {
+    marcarSincronizado(d.generado_utc);
     var r = d.resumen || {};
     setStat("stat-avisos", r.avisos || 0);
     renderAvTiles(r);
@@ -587,6 +645,8 @@
     ["a-search", "a-fuente", "a-senal"].forEach(function (id) { $(id).addEventListener("input", aplicarFiltrosAvisos); });
     $("a-mas").addEventListener("click", function () { astate.mostrar += PASO; renderAvisos(astate.filtrados); });
     renderAvisos(astate.avisos);
+    cargado.avisos = true;
+    resumenVigia();
     var caidas = (d.fuentes || []).filter(function (f) { return f.estado !== "ok"; }).map(function (f) { return f.nombre; });
     $("a-fuentes").textContent = "Actualizado " + (d.generado_utc || "\u2014") + " UTC \u00b7 " + (r.fuentes_ok || 0) + " de " +
       (r.fuentes_total || 0) + " fuentes respondieron" + (caidas.length ? " (sin respuesta: " + caidas.join(", ") + "; se mantienen sus avisos anteriores)" : "");
@@ -613,11 +673,160 @@
     .then(initVulns)
     .catch(sinVulns);
 
-  fetch("data/iocs_latest.json", { cache: "no-store" })
-    .then(function (r) {
-      if (!r.ok) throw new Error("HTTP " + r.status);
-      return r.json();
-    })
-    .then(init)
-    .catch(showError);
+  /* ── Lista de vigilancia: interfaz ─────────────────────────────────────── */
+  var cargado = { avisos: false, vulns: false };
+
+  function resumenVigia() {
+    var r = $("vigia-resumen");
+    if (!vigia.terminos.length) { r.textContent = "Todavía no vigilas nada."; return; }
+    if (!cargado.avisos && !cargado.vulns) { r.textContent = "Cargando avisos y CVE…"; return; }
+    var na = astate.avisos.filter(function (a) { return vigilados(textoAviso(a)).length; }).length;
+    var nc = vstate.cves.filter(function (c) { return vigilados(textoCve(c)).length; }).length;
+    r.textContent = na || nc
+      ? "Esta semana tu lista aparece en " + na + " aviso" + (na === 1 ? "" : "s") + " y " + nc + " CVE. Filtra por «En mi lista de vigilancia» en cada sección."
+      : "Esta semana no hay avisos ni CVE que citen tu lista.";
+  }
+
+  function pintarVigia() {
+    var ul = $("vigia-chips");
+    ul.textContent = "";
+    vigia.terminos.forEach(function (t, i) {
+      var li = el("li", "vigia-chip");
+      li.appendChild(el("span", null, t));
+      var b = el("button", "vigia-quitar", "\u00d7");
+      b.type = "button";
+      b.setAttribute("aria-label", "Dejar de vigilar " + t);
+      b.addEventListener("click", function () {
+        prepararVigia(vigia.terminos.filter(function (_, j) { return j !== i; }));
+        cambioVigia();
+      });
+      li.appendChild(b);
+      ul.appendChild(li);
+    });
+    resumenVigia();
+  }
+
+  function cambioVigia() {
+    guardarVigia();
+    pintarVigia();
+    if (cargado.avisos) aplicarFiltrosAvisos();
+    if (cargado.vulns) aplicarFiltrosVulns();
+  }
+
+  function anadirVigia() {
+    var inp = $("vigia-input");
+    var nuevos = inp.value.split(/[,;]/).map(function (t) { return t.trim(); }).filter(function (t) { return t.length >= 2 && t.length <= 40; });
+    nuevos.forEach(function (t) {
+      if (vigia.terminos.length < 30 && !vigia.terminos.some(function (x) { return x.toLowerCase() === t.toLowerCase(); })) vigia.terminos.push(t);
+    });
+    inp.value = "";
+    prepararVigia(vigia.terminos);
+    cambioVigia();
+  }
+
+  prepararVigia(leerVigia());
+  pintarVigia();
+  $("vigia-add").addEventListener("click", anadirVigia);
+  $("vigia-input").addEventListener("keydown", function (ev) { if (ev.key === "Enter") { ev.preventDefault(); anadirVigia(); } });
+
+  /* ── Tendencia (data/historico.json): SVG a mano, sin librerías ───────── */
+  var SERIES = [
+    ["iocs", "IOCs publicados", "por día"],
+    ["iocs_critica", "IOCs de gravedad crítica", "por día"],
+    ["kev_14d", "CVE añadidos a KEV", "en 14 días"],
+    ["cves_7d", "CVE nuevos", "en 7 días"],
+    ["avisos_explotados", "Avisos de algo ya explotado", "en 7 días"],
+    ["paquetes_maliciosos", "Paquetes maliciosos", "en 7 días"]
+  ];
+  var SVG = "http://www.w3.org/2000/svg";
+
+  function sparkline(valores) {
+    var w = 240, h = 48, n = valores.length;
+    var max = Math.max.apply(null, valores), min = Math.min.apply(null, valores);
+    var rango = max - min || 1;
+    var svg = document.createElementNS(SVG, "svg");
+    svg.setAttribute("viewBox", "0 0 " + w + " " + h);
+    svg.setAttribute("class", "spark");
+    svg.setAttribute("role", "img");
+    svg.setAttribute("preserveAspectRatio", "none");
+    var pts = valores.map(function (v, i) {
+      var x = n === 1 ? w : (i / (n - 1)) * w;
+      var y = h - 4 - ((v - min) / rango) * (h - 8);
+      return x.toFixed(1) + "," + y.toFixed(1);
+    });
+    var area = document.createElementNS(SVG, "polygon");
+    area.setAttribute("points", "0," + h + " " + pts.join(" ") + " " + w + "," + h);
+    area.setAttribute("class", "spark-area");
+    var linea = document.createElementNS(SVG, "polyline");
+    linea.setAttribute("points", pts.join(" "));
+    linea.setAttribute("class", "spark-linea");
+    svg.appendChild(area);
+    svg.appendChild(linea);
+    return svg;
+  }
+
+  function fmt(n) { return Number(n).toLocaleString("es-ES"); }
+
+  function initTendencia(d) {
+    var dias = d.dias || {};
+    var fechas = Object.keys(dias).sort();
+    var g = $("tend-grid");
+    g.textContent = "";
+    SERIES.forEach(function (s_) {
+      var puntos = fechas.filter(function (f) { return typeof dias[f][s_[0]] === "number"; });
+      if (!puntos.length) return;
+      var valores = puntos.map(function (f) { return dias[f][s_[0]]; });
+      var ult = valores[valores.length - 1];
+      var card = el("article", "tend-card");
+      card.appendChild(el("h3", null, s_[1]));
+      var cifra = el("p", "tend-cifra");
+      cifra.appendChild(el("b", null, fmt(ult)));
+      cifra.appendChild(el("small", null, " " + s_[2]));
+      card.appendChild(cifra);
+      if (valores.length > 1) {
+        var hace7 = puntos.length > 7 ? valores[valores.length - 8] : valores[0];
+        var dif = ult - hace7;
+        var svg = sparkline(valores);
+        svg.setAttribute("aria-label", s_[1] + ": de " + fmt(valores[0]) + " el " + puntos[0] + " a " + fmt(ult) + " el " + puntos[puntos.length - 1]);
+        card.appendChild(svg);
+        card.appendChild(el("p", "tend-pie", (dif > 0 ? "+" : "") + fmt(dif) + " frente a " + (puntos.length > 7 ? "hace 7 días" : puntos[0]) +
+          " \u00b7 m\u00ednimo " + fmt(Math.min.apply(null, valores)) + ", m\u00e1ximo " + fmt(Math.max.apply(null, valores))));
+      } else {
+        card.appendChild(el("p", "tend-pie", "Primer dato: " + puntos[0] + ". La gráfica aparece a partir del segundo día."));
+      }
+      g.appendChild(card);
+    });
+    $("tend-empty").hidden = g.childNodes.length > 0;
+  }
+
+  fetch("data/historico.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(initTendencia)
+    .catch(function () { $("tend-empty").hidden = false; });
+
+  /* Los IOCs (~1,7 MB) son lo último de la página: se piden cuando la sección
+     de KEV se acerca a la pantalla o, como tarde, 2,5 s después de cargar. Así
+     no compiten con lo primero que se ve, sobre todo en el móvil. */
+  var iocsPedidos = false;
+  function cargarIocs() {
+    if (iocsPedidos) return;
+    iocsPedidos = true;
+    fetch("data/iocs_latest.json", { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(init)
+      .catch(showError);
+  }
+  var seccionKev = document.querySelector('section[aria-labelledby="kev-title"]');
+  if ("IntersectionObserver" in window && seccionKev) {
+    var observadorIocs = new IntersectionObserver(function (entradas) {
+      if (entradas.some(function (e) { return e.isIntersecting; })) { observadorIocs.disconnect(); cargarIocs(); }
+    }, { rootMargin: "1500px 0px" });
+    observadorIocs.observe(seccionKev);
+    window.addEventListener("load", function () { setTimeout(cargarIocs, 2500); });
+  } else {
+    cargarIocs();
+  }
 })();

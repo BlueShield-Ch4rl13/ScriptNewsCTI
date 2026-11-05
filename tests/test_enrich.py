@@ -67,3 +67,14 @@ def test_el_titulo_de_un_pulse_no_hace_critico_cada_indicador(monkeypatch, tmp_p
                                      threat_from_title=True)])
     out = enrich.enrich(iocs)
     assert out[0]["severity"] == "media"
+
+
+def test_vt_solo_recibe_hashes_y_dominios_bien_formados():
+    sha = "a" * 64
+    assert enrich._vt_target(sha.upper(), "sha256_hash") == ("files", sha)
+    assert enrich._vt_target("Evil-Domain.example.com", "domain") == ("domains", "evil-domain.example.com")
+    for valor, tipo in [("../../users/me", "sha256_hash"), ("abc", "md5_hash"), ("a" * 63, "sha256_hash"),
+                        ("evil.com/../../x", "domain"), ("evil.com?x=1", "domain"), ("-evil.com", "domain"),
+                        ("evil", "domain"), ("x" * 300 + ".com", "domain")]:
+        assert enrich._vt_target(valor, tipo) == (None, None), valor
+    assert enrich._vt_target("http://x.example/a?b=../c", "url")[0] == "urls"

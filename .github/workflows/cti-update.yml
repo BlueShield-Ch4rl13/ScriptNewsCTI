@@ -58,6 +58,12 @@ jobs:
           # 8 ejecuciones al día: 120 IPs x 8 = 960, dentro de los 1.000 checks/día
           # gratuitos de AbuseIPDB (VirusTotal: 40 x 8 = 320 de 500)
           ABUSEIPDB_BUDGET: "120"
+          # Opcional: alertas de lo nuevo y grave a un webhook (n8n -> Telegram).
+          # Sin N8N_WEBHOOK_URL no se envía nada.
+          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
+          N8N_WEBHOOK_TOKEN: ${{ secrets.N8N_WEBHOOK_TOKEN }}
+          # Opcional (variable, no secreto): productos que vigilar, separados por comas
+          CTI_VIGILAR: ${{ vars.CTI_VIGILAR }}
           # Solo lectura (permissions: contents: read): 5000 consultas/h a la
           # GitHub Advisory Database en vez de 60
           GITHUB_TOKEN: ${{ github.token }}
@@ -77,6 +83,9 @@ jobs:
             data/iocs_latest.csv
             data/vulns_latest.json
             data/avisos_latest.json
+            data/avisos.xml
+            data/historico.json
+            data/misp/
             README.md
 
   # Solo copia los ficheros generados y hace commit: no ejecuta código del repo.
@@ -88,6 +97,11 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
 
+      # El feed de MISP se sustituye entero por el generado: así los eventos de
+      # más de 7 días que borró el pipeline también desaparecen del repositorio
+      - name: Vaciar el feed de MISP anterior
+        run: rm -rf data/misp
+
       - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333  # v8.0.2
         with:
           name: publicacion
@@ -97,15 +111,24 @@ jobs:
         run: |
           git config user.name "cti-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/iocs_latest.json data/iocs_latest.csv data/vulns_latest.json data/avisos_latest.json README.md
+          git add data/iocs_latest.json data/iocs_latest.csv data/vulns_latest.json data/avisos_latest.json \
+                  data/avisos.xml data/historico.json README.md
+          # -A: los eventos de MISP de hace más de 7 días se borran
+          git add -A data/misp
           if git diff --cached --quiet; then
             echo "Sin cambios que publicar"
             exit 0
           fi
           git commit -m "CTI update: $(date -u +'%Y-%m-%d %H:%M UTC')"
-          # El remoto puede haber avanzado durante la ejecución (p. ej. una
-          # subida manual de ficheros): se rebasa encima antes de publicar.
-          # Si un fichero generado entra en conflicto, gana la versión recién
-          # generada (en un rebase, -X theirs = los commits que se reaplican).
-          git pull --rebase -X theirs origin main
+          # main puede haber avanzado durante la ejecución (un PR fusionado, una
+          # subida a mano): se rebasa encima antes de publicar. Sin -X theirs:
+          # con él, si el PR tocaba las mismas líneas del README, ganaba el
+          # README generado antes de fusionarlo y el bot deshacía el PR. Ahora,
+          # si hay conflicto, esta publicación se salta y la siguiente (3 h) se
+          # genera ya sobre el main nuevo.
+          if ! git pull --rebase origin main; then
+            git rebase --abort
+            echo "::warning::main ha cambiado en lo mismo que esta ejecución: no se publica para no deshacer nada; la siguiente lo regenera."
+            exit 0
+          fi
           git push
