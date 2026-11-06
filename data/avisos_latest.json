@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-06 01:30",
+ "generado_utc": "2026-11-06 10:27",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -15,7 +15,7 @@
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
    "estado": "ok",
-   "avisos": 15
+   "avisos": 16
   },
   {
    "id": "incibe_sci",
@@ -24,7 +24,7 @@
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/feed",
    "estado": "ok",
-   "avisos": 15
+   "avisos": 11
   },
   {
    "id": "cisa",
@@ -222,7 +222,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 31
+   "avisos": 29
   },
   {
    "id": "bleeping",
@@ -231,7 +231,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 18
+   "avisos": 17
   },
   {
    "id": "securityweek",
@@ -239,25 +239,26 @@
    "tipo": "noticia",
    "idioma": "en",
    "url": "https://www.securityweek.com/feed/",
-   "estado": "ok",
-   "avisos": 15
+   "estado": "error",
+   "avisos": 13,
+   "detalle": "ValueError: el feed no es XML valido: syntax error: line 1, column 0"
   }
  ],
  "resumen": {
-  "avisos": 297,
+  "avisos": 289,
   "por_tipo": {
+   "cert": 71,
+   "noticia": 64,
    "fabricante": 124,
-   "noticia": 69,
-   "exploit": 30,
-   "cert": 74
+   "exploit": 30
   },
-  "explotados": 58,
+  "explotados": 50,
   "dia_cero": 5,
   "sin_parche": 16,
-  "criticos": 25,
-  "exploit_publico": 18,
-  "cves_citados": 279,
-  "fuentes_ok": 26,
+  "criticos": 23,
+  "exploit_publico": 14,
+  "cves_citados": 277,
+  "fuentes_ok": 25,
   "fuentes_total": 26
  },
  "mas_citados": [
@@ -285,7 +286,7 @@
     "seguinfo",
     "siemens"
    ],
-   "avisos": 16,
+   "avisos": 12,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
@@ -299,7 +300,7 @@
     "seguinfo",
     "siemens"
    ],
-   "avisos": 15,
+   "avisos": 11,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
@@ -419,6 +420,67 @@
   }
  ],
  "avisos": [
+  {
+   "fuente": "incibe",
+   "titulo": "Omisión de autenticación por contraseña en OpenSSH de Alpine Linux",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-por-contrasena-en-openssh-de-alpine-linux",
+   "fecha": "2026-11-06T08:45Z",
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Inyección SQL en SIREC de Atmira",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-sirec-de-atmira",
+   "fecha": "2026-11-06T08:26Z",
+   "cves": [
+    "CVE-2026-123087"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": true,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+   "enlace": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+   "fecha": "2026-11-06T05:58Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "cisco",
    "titulo": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
@@ -2362,29 +2424,6 @@
    "exploitdb": null
   },
   {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en Fabric Composer de HPE",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-fabric-composer-de-hpe",
-   "fecha": "2026-11-04T08:25Z",
-   "cves": [
-    "CVE-2026-95731",
-    "CVE-2026-95732",
-    "CVE-2026-95733"
-   ],
-   "cves_total": 3,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": 9.8,
-   "epss_max": 0.0053,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
    "fuente": "incibe_sci",
    "titulo": "Múltiples vulnerabilidades en PowerSYSTEM Center de Subnet Solutions",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-powersystem-center-de-subnet-2",
@@ -2429,6 +2468,29 @@
    "critica": false,
    "cvss_max": 8.6,
    "epss_max": 0.0047,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en Fabric Composer de HPE",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-fabric-composer-de-hpe",
+   "fecha": "2026-11-04T08:25Z",
+   "cves": [
+    "CVE-2026-95731",
+    "CVE-2026-95732",
+    "CVE-2026-95733"
+   ],
+   "cves_total": 3,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": 9.8,
+   "epss_max": 0.0053,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3861,27 +3923,6 @@
    "exploitdb": null
   },
   {
-   "fuente": "incibe",
-   "titulo": "Uso de memoria después de liberarla en productos de Red Hat",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/uso-de-memoria-despues-de-liberarla-en-productos-de-red-hat",
-   "fecha": "2026-11-03T10:48Z",
-   "cves": [
-    "CVE-2026-98432"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0076,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
    "fuente": "incibe_sci",
    "titulo": "Múltiples vulnerabilidades en REGARD 7000 OPC UA Server de Dräger",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-regard-7000-opc-ua-server-de-drager",
@@ -3956,7 +3997,7 @@
   },
   {
    "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en productos de Siemens",
+   "titulo": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Siemens",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-siemens-1",
    "fecha": "2026-11-03T10:48Z",
    "cves": [
@@ -3983,7 +4024,7 @@
   },
   {
    "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en productos de Festo",
+   "titulo": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Festo",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-festo-0",
    "fecha": "2026-11-03T10:48Z",
    "cves": [
@@ -4005,6 +4046,27 @@
    "epss_max": 1.0,
    "exploit_publico": true,
    "exploitdb": 52704
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Uso de memoria después de liberarla en productos de Red Hat",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/uso-de-memoria-despues-de-liberarla-en-productos-de-red-hat",
+   "fecha": "2026-11-03T10:48Z",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0076,
+   "exploit_publico": false,
+   "exploitdb": null
   },
   {
    "fuente": "incibe",
@@ -6475,253 +6537,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "bleeping",
-   "titulo": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-   "enlace": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-   "fecha": "2026-10-30T10:16Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": true,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": true,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
-   "enlace": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
-   "fecha": "2026-10-30T09:32Z",
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-97229"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.6522,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-   "enlace": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-   "fecha": "2026-10-30T08:55Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
-   "enlace": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-   "fecha": "2026-10-30T08:44Z",
-   "cves": [
-    "CVE-2026-111585"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0029,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en productos de PEAK-System de HMS Networks",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-peak-system-de-hms-networks",
-   "fecha": "2026-10-30T08:39Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en SMART EMS de Welotec",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-smart-ems-de-welotec",
-   "fecha": "2026-10-30T08:39Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en productos de Contec",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-contec",
-   "fecha": "2026-10-30T08:39Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en productos ASPECT de ABB",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-aspect-de-abb",
-   "fecha": "2026-10-30T08:39Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Exposición de información en el editor de comentarios de Forocoches",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/exposicion-de-informacion-en-el-editor-de-comentarios-de-forocoches",
-   "fecha": "2026-10-30T08:24Z",
-   "cves": [
-    "CVE-2026-14467"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0029,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-   "enlace": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-   "fecha": "2026-10-30T07:45Z",
-   "cves": [
-    "CVE-2026-118539"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": true,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": 0.0067,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-   "enlace": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-   "fecha": "2026-10-30T07:27Z",
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-97229"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.6522,
    "exploit_publico": false,
    "exploitdb": null
   }

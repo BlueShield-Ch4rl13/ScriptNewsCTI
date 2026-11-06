@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-06 01:30",
+ "generado_utc": "2026-11-06 10:27",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 2923,
-  "criticos": 245,
+  "cves": 2858,
+  "criticos": 244,
   "explotados": 2,
   "urgentes": 45,
   "epss_10": 1,
-  "sin_puntuar": 393,
+  "sin_puntuar": 342,
   "por_prioridad": {
    "explotada": 2,
    "urgente": 45,
-   "alta": 1403,
-   "media": 952,
-   "baja": 521
+   "alta": 1399,
+   "media": 947,
+   "baja": 465
   },
-  "paquetes_maliciosos": 357,
+  "paquetes_maliciosos": 362,
   "exploit_publico": 1,
-  "poc_github": 37,
+  "poc_github": 39,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -3242,7 +3242,7 @@
     "CWE-288"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -3780,30 +3780,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-64618",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00624,
-   "epss_percentil": 0.50066,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Apache",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "Improper Neutralization of Special Elements used in an SQL Command (\"SQL Injection\") vulnerability exists in Apache Fineract (through version 1.15.0). The vulnerability affects the outStandingAmountPercentageCondition parameter of the /fineract-provider/api/v1/search/advance HTTP…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-92190",
    "publicado": "2026-11-04",
    "prioridad": "alta",
@@ -4159,30 +4135,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "node-opcua is an OPC UA implementation for TypeScript and Node.js. From 2.42.0 until 2.180.0, namespace-level access control configured through setDefaultRolePermissions is not honored by the runtime enforcement path for nodes without explicit per-node RolePermissions. SessionCon…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-65874",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00596,
-   "epss_percentil": 0.48661,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Apache",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "This issue affects Apache Fineract versions up to and including 1.15.0. The Center read endpoint (GET /api/v1/centers) and the datatable entry read endpoints (GET /api/v1/datatables/{datatable}/{apptableId} and GET /api/v1/datatables/{datatable}/{apptableId}/{datatableId}) concat…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -5331,36 +5283,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-103039",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00508,
-   "epss_percentil": 0.43565,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Gravity Forms plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.1.2 via a Post Custom Field whose input type is List. This is due to GFFormsModel::create_post() passing the submitted value to WordPress' unrestricted global mayb…",
-   "avisos": [
-    {
-     "fuente": "wordfence",
-     "nombre": "Wordfence (WordPress)",
-     "enlace": "https://www.wordfence.com/blog/2026/11/wordfence-intelligence-weekly-wordpress-vulnerability-report-october-26-2026-to-november-1-2026/"
-    }
-   ],
-   "avisos_total": 1
-  },
-  {
    "cve": "CVE-2026-61737",
    "publicado": "2026-10-30",
    "prioridad": "alta",
@@ -5579,30 +5501,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-115274",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 6.9,
-   "gravedad": "medium",
-   "epss": 0.00498,
-   "epss_percentil": 0.42869,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1284"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Improper Validation of Specified Quantity in Input vulnerability in the Elixir standard library's JSON module allows an unauthenticated attacker who supplies a JSON document to cause a denial of service through CPU and memory exhaustion. JSON.decode/1 and JSON.decode!/1 convert e…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-62849",
    "publicado": "2026-10-30",
    "prioridad": "alta",
@@ -5623,31 +5521,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "ThingLinks is an enterprise IoT platform. Prior to 1.4.0, an unauthenticated SQL injection vulnerability in the `TDengine TDS APIs` allows request-controlled JSON field values submitted to `/anyUser/tds/insertTableData` to reach unsafe SQL construction in the `TDS mapper`. A remo…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-109821",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 6.3,
-   "gravedad": "medium",
-   "epss": 0.00496,
-   "epss_percentil": 0.42718,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1284",
-    "CWE-400"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Improper Validation of Specified Quantity in Input vulnerability in the Elixir standard library's URI module allows an attacker who supplies a URL to cause a denial of service through CPU exhaustion. URI.parse/1 converts the port component with String.to_integer/1 in split_author…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6193,30 +6066,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "iTerm2 before 3.7.7beta2 has an argument injection vulnerability in the x-man-page: URL handler, allowing an attacker to execute arbitrary commands with the privileges of the logged-in user by inducing the user to open a crafted URL in iTerm2. Percent-encoded NUL characters survi…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-114422",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00475,
-   "epss_percentil": 0.41226,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Wordpress",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Enable Media Replace WordPress plugin before 4.2.3 does not restrict the classes allowed when deserializing stored metadata during its media replace-and-update-links routine, allowing unauthenticated users to inject a PHP object that is instantiated when a user with upload ac…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10294,30 +10143,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-107249",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00394,
-   "epss_percentil": 0.33828,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Drupal",
-   "cwe": [
-    "CWE-915"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Improperly Controlled Modification of Dynamically-Determined Object Attributes vulnerability in Drupal Block AJAX allows Object Injection. This issue affects Block AJAX versions: from 0.0.0 to 3.0.2.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-93327",
    "publicado": "2026-10-30",
    "prioridad": "alta",
@@ -10559,30 +10384,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-89435",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00392,
-   "epss_percentil": 0.33564,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-74"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Formidable Forms – WordPress Form Builder for Contact Forms, Calculators, Quizzes & More plugin for WordPress is vulnerable to Arbitrary Plugin Installation in all versions up to, and including, 6.35 via the 'file_url' parameter parameter. This is due to insufficient URL pref…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-105600",
    "publicado": "2026-11-02",
    "prioridad": "alta",
@@ -10675,30 +10476,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Shop manager PHP Object Injection in Product Feed Manager <= 7.14.1 versions.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-82104",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 9.4,
-   "gravedad": "critical",
-   "epss": 0.00389,
-   "epss_percentil": 0.33207,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-306"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "In Teltonika Networks RUTOS devices running versions from 7.22 through 7.24.2 and TSWOS devices running versions 1.9 through 1.10, a vulnerability exists whereby an unauthenticated user can directly call LUA functions, bypassing validations that might be called under normal API r…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -12640,7 +12417,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. From 2.2.0 until 2.2.2, cluster_apiserver_proxy forwarded an authenticated non-administrator's requests to a selected Kubernetes cluster without a resource-level authorization check…",
    "avisos": [],
    "avisos_total": 0
@@ -13803,30 +13580,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-104368",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00347,
-   "epss_percentil": 0.28403,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-116"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Export and Import Users and Customers plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.7.5 via the plugin's own export and re-import workflow. The vulnerability exists because of a CSV escape-character mismatch between the exp…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-111038",
    "publicado": "2026-11-04",
    "prioridad": "alta",
@@ -14215,7 +13968,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM MQ 9.2.0.0 through 9.2.0.44 LTS, 9.3.0.0 through 9.3.0.42 LTS, 9.4.0.0 through 9.4.0.26 LTS, 9.4.0.0 through 9.4.5.1 CD, and 10.0.0.0 through 10.0.0.5 LTS and CD could allow an authenticated user with command queue access to execute arbitrary code by injecting malicious argum…",
    "avisos": [],
    "avisos_total": 0
@@ -14313,30 +14066,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "phpMyAdmin through 5.2.3 contains a server-side request forgery vulnerability that allows unauthenticated attackers to trigger outbound connections via setup/validate.php, which lacks the setup-disabled guard. Attackers can POST attacker-chosen host and port values reaching Valid…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-103963",
-   "publicado": "2026-10-30",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00339,
-   "epss_percentil": 0.27475,
-   "kev": false,
-   "categoria": "linux",
-   "fabricante": "Red Hat",
-   "cwe": [
-    "CWE-400"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A flaw was found in glib-networking. When establishing connections using Transport Layer Security (TLS) version 1.3, the client-side session cache does not limit the number of session tickets retained for a single host. A malicious server can exploit this by sending excessive ses…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14819,6 +14548,274 @@
    "descripcion": "WebVirtCloud through commit bb920b0 contains a missing authorization vulnerability that allows low-privileged authenticated users to reach MigrateViewSet and CreateInstanceViewSet because no permission_classes are declared, so Django REST Framework defaults to AllowAny. Attackers…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-111089",
+   "publicado": "2026-11-01",
+   "prioridad": "alta",
+   "cvss": 7.6,
+   "gravedad": "high",
+   "epss": 0.00333,
+   "epss_percentil": 0.26634,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Apache",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Apache Wicket reads texts from the application's resource bundles — a localized label, a css class name — and writes some of them into the JavaScript and the markup it generates for a component. Those texts are placed inside single-quoted JavaScript string literals and inside quo…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-95863",
+   "publicado": "2026-11-01",
+   "prioridad": "alta",
+   "cvss": 7.6,
+   "gravedad": "high",
+   "epss": 0.00333,
+   "epss_percentil": 0.26633,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Apache",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Improper neutralization of input during web page generation in Apache Wicket. Apache Wicket generates JavaScript that refers to the elements it renders, and writes into that JavaScript two values it derives itself: a component's markup id, and the input name of a form component, …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-84231",
+   "publicado": "2026-11-01",
+   "prioridad": "alta",
+   "cvss": 7.4,
+   "gravedad": "high",
+   "epss": 0.00333,
+   "epss_percentil": 0.26634,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Apache",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Improper neutralization of input during web page generation in Apache Wicket. org.apache.wicket.markup.html.link.ExternalLink builds a JavaScript click handler and writes it into the tag's onclick attribute whenever the markup tag the component is bound to is not an a, link or ar…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120347",
+   "publicado": "2026-11-02",
+   "prioridad": "alta",
+   "cvss": 7.3,
+   "gravedad": "high",
+   "epss": 0.00333,
+   "epss_percentil": 0.26622,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-74",
+    "CWE-89"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "A vulnerability was determined in dayrui XunRuiCMS up to 4.7.4. Affected is the function View of the file dayrui/Fcms/Core/View.php of the component Member Module. Executing a manipulation of the argument catid can lead to sql injection. It is possible to launch the attack remote…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-121966",
+   "publicado": "2026-11-04",
+   "prioridad": "alta",
+   "cvss": 7.0,
+   "gravedad": "high",
+   "epss": 0.00333,
+   "epss_percentil": 0.26821,
+   "kev": false,
+   "categoria": "servidores",
+   "fabricante": "Nginx",
+   "cwe": [
+    "CWE-488"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Traefik 2.x before 2.11.60 and 3.x before 3.7.16 sends ForwardAuth subrequests (and, in 3.7, Ingress NGINX auth-url requests) through an auth-server connection pool shared by all clients, exposing connection-bound NTLM or Negotiate authentication. An unauthenticated attacker can …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-121421",
+   "publicado": "2026-11-03",
+   "prioridad": "alta",
+   "cvss": 5.3,
+   "gravedad": "medium",
+   "epss": 0.00333,
+   "epss_percentil": 0.26625,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "SurrealDB 3.1.0 before 3.3.0 contains a server-side request forgery vulnerability in network-capability matching because port-specific --deny-net rules (HOST:PORT or IP:PORT) match only a literal host string, while the resolved-IP check discards the port. Authenticated users can …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116243",
+   "publicado": "2026-10-30",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00332,
+   "epss_percentil": 0.26554,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "Pgadmin",
+   "cwe": [
+    "CWE-426",
+    "CWE-427"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "pgAdmin 4 runs pg_dump, pg_restore, pg_dumpall and psql from the binary path a user sets in their preferences. In server mode the binary path was refused only when it lay under the per-user storage directory (STORAGE_DIR), not under a SHARED_STORAGE directory, which ordinary user…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-102895",
+   "publicado": "2026-11-04",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00331,
+   "epss_percentil": 0.26401,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-287",
+    "CWE-290",
+    "CWE-346"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. Prior to 2.2.0, get_current_user in gpustack/api/auth.py treated a loopback request source as the built-in administrator when force_auth_localhost was false, which was the default. …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120574",
+   "publicado": "2026-11-03",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00331,
+   "epss_percentil": 0.26375,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-287"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The SureCart plugin for WordPress is vulnerable to unauthenticated account takeover in all versions up to, and including, 4.9.5. The passwordless one-time-code login REST route (VerificationCodeController::verify(), whose permission callback returns true) resolves an attacker-sup…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119733",
+   "publicado": "2026-11-02",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00331,
+   "epss_percentil": 0.26371,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Munshi (by Petpooja) before 2026-07-07 contained a missing authorization vulnerability in its company deletion workflow at DELETE /api/companies/{company_id}, where the application fails to enforce the dedicated company_delete permission or verify company ownership. An authentica…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-122303",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 9.9,
+   "gravedad": "critical",
+   "epss": 0.0033,
+   "epss_percentil": 0.26275,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace tenants to overwrite resources in other namespaces via NamespacedMutatingPolicy mutate-existing targetMatchConstraints.expression. Attackers can return a CEL map literal fabrica…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14835,7 +14832,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 325,
+   "maliciosos": 330,
    "maliciosos_mas": false,
    "avisos": 32,
    "avisos_mas": false,
@@ -14843,10 +14840,10 @@
    "altos": 12,
    "ejemplos_maliciosos": [
     {
-     "ghsa": "GHSA-h8q9-4jrq-9vfq",
+     "ghsa": "GHSA-f64g-9rx5-4jxf",
      "cve": null,
-     "paquete": "rafael-bails",
-     "resumen": "Malicious code in rafael-bails (npm)",
+     "paquete": "sickle-wrapper",
+     "resumen": "Malware in sickle-wrapper",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14854,10 +14851,10 @@
      "publicado": "2026-11-06"
     },
     {
-     "ghsa": "GHSA-gv3w-r6c7-9p4m",
+     "ghsa": "GHSA-jxh5-v495-r962",
      "cve": null,
-     "paquete": "nishiki-bail",
-     "resumen": "Malicious code in nishiki-bail (npm)",
+     "paquete": "vfat-tools",
+     "resumen": "Malware in vfat-tools",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14865,10 +14862,10 @@
      "publicado": "2026-11-06"
     },
     {
-     "ghsa": "GHSA-wmf5-rghr-gxcf",
+     "ghsa": "GHSA-g42p-gwv6-w549",
      "cve": null,
-     "paquete": "oktz-baileys",
-     "resumen": "Malicious code in oktz-baileys (npm)",
+     "paquete": "@kora20030101/test-pkg-delete-me",
+     "resumen": "Malware in @kora20030101/test-pkg-delete-me",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14876,10 +14873,10 @@
      "publicado": "2026-11-06"
     },
     {
-     "ghsa": "GHSA-2g7c-j9mq-h3xp",
+     "ghsa": "GHSA-9fv3-7f93-gcqh",
      "cve": null,
-     "paquete": "kurobails",
-     "resumen": "Malicious code in kurobails (npm)",
+     "paquete": "@exclipz/baileys",
+     "resumen": "Malware in @exclipz/baileys",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14887,10 +14884,10 @@
      "publicado": "2026-11-06"
     },
     {
-     "ghsa": "GHSA-w25j-c6g4-mhwq",
+     "ghsa": "GHSA-9j99-fw58-88hg",
      "cve": null,
-     "paquete": "@nuri.yavuz.tr.2/my-unique-pinger",
-     "resumen": "Malicious code in @nuri.yavuz.tr.2/my-unique-pinger (npm)",
+     "paquete": "@exclipz/bails",
+     "resumen": "Malware in @exclipz/bails",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15507,17 +15504,17 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 686,
-   "criticos": 36,
-   "altos": 192,
+   "cves": 612,
+   "criticos": 38,
+   "altos": 193,
    "urgentes": 5,
    "epss_max": 0.0409,
    "fabricantes": [
     "WordPress (plugins)",
-    "Drupal",
     "Wordpress",
     "Joomla",
-    "Woocommerce"
+    "Woocommerce",
+    "Phpmyadmin"
    ],
    "kev_recientes": [
     {
@@ -15588,9 +15585,9 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 147,
-   "criticos": 14,
-   "altos": 43,
+   "cves": 145,
+   "criticos": 13,
+   "altos": 42,
    "urgentes": 1,
    "epss_max": 0.0163,
    "fabricantes": [
@@ -15651,13 +15648,6 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-64618",
-     "fabricante": "Apache",
-     "cvss": 9.8,
-     "epss": 0.00624,
-     "prioridad": "alta"
-    },
-    {
      "cve": "CVE-2026-115448",
      "fabricante": "Apache",
      "cvss": 8.7,
@@ -15665,10 +15655,17 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-65874",
+     "cve": "CVE-2026-118636",
      "fabricante": "Apache",
-     "cvss": 8.8,
-     "epss": 0.00596,
+     "cvss": 9.8,
+     "epss": 0.00575,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-120135",
+     "fabricante": "Apache",
+     "cvss": 8.2,
+     "epss": 0.00553,
      "prioridad": "alta"
     }
    ]
@@ -15774,9 +15771,9 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 110,
+   "cves": 118,
    "criticos": 4,
-   "altos": 49,
+   "altos": 48,
    "urgentes": 0,
    "epss_max": 0.0176,
    "fabricantes": [
@@ -15839,17 +15836,17 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 29,
+   "cves": 24,
    "criticos": 6,
-   "altos": 10,
+   "altos": 9,
    "urgentes": 0,
    "epss_max": 0.0063,
    "fabricantes": [
     "AWS",
     "Docker",
-    "VMware",
     "Amazon",
-    "Google Cloud"
+    "Google Cloud",
+    "Kubernetes"
    ],
    "kev_recientes": [
     {
@@ -15968,7 +15965,7 @@
    "categoria": "servidores",
    "nombre": "Servidores y servicios",
    "estado": "explotacion_activa",
-   "cves": 11,
+   "cves": 10,
    "criticos": 0,
    "altos": 2,
    "urgentes": 0,
@@ -16150,9 +16147,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1091,
-   "criticos": 70,
-   "altos": 377,
+   "cves": 1100,
+   "criticos": 68,
+   "altos": 379,
    "urgentes": 11,
    "epss_max": 0.1558,
    "fabricantes": [
@@ -16303,9 +16300,9 @@
    "categoria": "oss",
    "nombre": "Librerías de código abierto",
    "estado": "riesgo_alto",
-   "cves": 381,
+   "cves": 382,
    "criticos": 42,
-   "altos": 185,
+   "altos": 186,
    "urgentes": 12,
    "epss_max": 0.0104,
    "fabricantes": [
@@ -16411,9 +16408,9 @@
    "categoria": "android",
    "nombre": "Android",
    "estado": "riesgo_alto",
-   "cves": 157,
+   "cves": 156,
    "criticos": 5,
-   "altos": 86,
+   "altos": 85,
    "urgentes": 0,
    "epss_max": 0.0089,
    "fabricantes": [
