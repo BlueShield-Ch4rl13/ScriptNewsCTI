@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-07 00:45",
+ "generado_utc": "2026-11-07 09:42",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -105,7 +105,7 @@
    "idioma": "en",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "estado": "ok",
-   "avisos": 1
+   "avisos": 0
   },
   {
    "id": "ivanti",
@@ -123,7 +123,7 @@
    "idioma": "en",
    "url": "https://chromereleases.googleblog.com/feeds/posts/default",
    "estado": "ok",
-   "avisos": 2
+   "avisos": 3
   },
   {
    "id": "siemens",
@@ -222,7 +222,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 30
+   "avisos": 29
   },
   {
    "id": "bleeping",
@@ -244,19 +244,19 @@
   }
  ],
  "resumen": {
-  "avisos": 327,
+  "avisos": 326,
   "por_tipo": {
-   "noticia": 66,
    "fabricante": 125,
+   "noticia": 65,
    "cert": 83,
    "exploit": 53
   },
-  "explotados": 51,
+  "explotados": 49,
   "dia_cero": 6,
   "sin_parche": 18,
-  "criticos": 25,
+  "criticos": 24,
   "exploit_publico": 13,
-  "cves_citados": 330,
+  "cves_citados": 340,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -267,11 +267,10 @@
     "cisco",
     "incibe",
     "incibe_sci",
-    "paloalto",
     "siemens",
     "wordfence"
    ],
-   "avisos": 11,
+   "avisos": 10,
    "kev": true,
    "cvss": null,
    "epss": 0.82641,
@@ -315,7 +314,7 @@
    ],
    "avisos": 4,
    "kev": true,
-   "cvss": 8.1,
+   "cvss": null,
    "epss": 0.01157,
    "ultimo": "2026-11-05T15:52Z"
   },
@@ -370,18 +369,6 @@
    "ultimo": "2026-11-04T17:00Z"
   },
   {
-   "cve": "CVE-2026-111357",
-   "fuentes": [
-    "securityweek",
-    "thehackernews"
-   ],
-   "avisos": 2,
-   "kev": true,
-   "cvss": null,
-   "epss": 0.00533,
-   "ultimo": "2026-11-02T07:57Z"
-  },
-  {
    "cve": "CVE-2026-118306",
    "fuentes": [
     "chrome",
@@ -416,9 +403,51 @@
    "cvss": null,
    "epss": 0.00316,
    "ultimo": "2026-11-04T16:00Z"
+  },
+  {
+   "cve": "CVE-2026-119262",
+   "fuentes": [
+    "chrome",
+    "msrc"
+   ],
+   "avisos": 2,
+   "kev": false,
+   "cvss": null,
+   "epss": 0.0028,
+   "ultimo": "2026-11-04T16:00Z"
   }
  ],
  "avisos": [
+  {
+   "fuente": "chrome",
+   "titulo": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+   "enlace": "http://chromereleases.googleblog.com/2026/11/stable-channel-update-for-chromeos.html",
+   "fecha": "2026-11-07T00:52Z",
+   "cves": [
+    "CVE-2026-121076",
+    "CVE-2026-121208",
+    "CVE-2026-79235",
+    "CVE-2026-121233",
+    "CVE-2026-121184",
+    "CVE-2026-121213",
+    "CVE-2026-121241",
+    "CVE-2026-121201",
+    "CVE-2026-121135",
+    "CVE-2026-121141"
+   ],
+   "cves_total": 10,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": 9.6,
+   "epss_max": 0.0046,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "bleeping",
    "titulo": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
@@ -1737,8 +1766,8 @@
    "sin_parche": true,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 9.8,
+   "critica": false,
+   "cvss_max": null,
    "epss_max": 0.0064,
    "exploit_publico": false,
    "exploitdb": null
@@ -1799,7 +1828,7 @@
    ],
    "explotada": true,
    "critica": false,
-   "cvss_max": 8.1,
+   "cvss_max": null,
    "epss_max": 0.0116,
    "exploit_publico": false,
    "exploitdb": null
@@ -3296,7 +3325,7 @@
    ],
    "explotada": true,
    "critica": true,
-   "cvss_max": 8.1,
+   "cvss_max": null,
    "epss_max": 0.0116,
    "exploit_publico": false,
    "exploitdb": null
@@ -3808,7 +3837,7 @@
    ],
    "explotada": true,
    "critica": false,
-   "cvss_max": 8.1,
+   "cvss_max": null,
    "epss_max": 0.0116,
    "exploit_publico": false,
    "exploitdb": null
@@ -4705,7 +4734,7 @@
    ],
    "explotada": true,
    "critica": false,
-   "cvss_max": 8.1,
+   "cvss_max": null,
    "epss_max": 0.0116,
    "exploit_publico": false,
    "exploitdb": null
@@ -7293,52 +7322,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.0027,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-   "enlace": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-   "fecha": "2026-10-31T08:27Z",
-   "cves": [
-    "CVE-2026-111357"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111357"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0053,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-111497",
-   "fecha": "2026-10-31T03:15Z",
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111497"
-   ],
-   "explotada": true,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": 0.8264,
    "exploit_publico": false,
    "exploitdb": null
   }
