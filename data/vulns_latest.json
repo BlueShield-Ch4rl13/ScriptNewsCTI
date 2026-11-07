@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-07 17:27",
+ "generado_utc": "2026-11-07 21:30",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3087,
-  "criticos": 292,
+  "cves": 3084,
+  "criticos": 295,
   "explotados": 2,
-  "urgentes": 46,
+  "urgentes": 45,
   "epss_10": 1,
-  "sin_puntuar": 250,
+  "sin_puntuar": 229,
   "por_prioridad": {
    "explotada": 2,
-   "urgente": 46,
+   "urgente": 45,
    "alta": 1526,
-   "media": 1118,
-   "baja": 395
+   "media": 1132,
+   "baja": 379
   },
   "paquetes_maliciosos": 370,
   "exploit_publico": 1,
-  "poc_github": 39,
+  "poc_github": 38,
   "ransomware": 0,
   "dia_cero": 2
  },
@@ -266,30 +266,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "A vulnerability was detected in Linksys E5350 1.0.00.037. This affects the function system of the file /wizard/apply.cgi. Performing a manipulation of the argument ping_ip/traceroute_ip results in os command injection. The attack may be initiated remotely. The exploit is now publ…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120201",
-   "publicado": "2026-10-31",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.02215,
-   "epss_percentil": 0.82737,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-943"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Jpom 2.10.0 through 2.11.12 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain super-administrator access by injecting query conditions into the JPOM-USER-TOKEN header. Attackers can send a value like 'is not null', which Hutool's Condit…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -5159,30 +5135,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-118147",
-   "publicado": "2026-10-31",
-   "prioridad": "alta",
-   "cvss": 7.4,
-   "gravedad": "high",
-   "epss": 0.00612,
-   "epss_percentil": 0.49559,
-   "kev": false,
-   "categoria": "microsoft",
-   "fabricante": "Microsoft",
-   "cwe": [
-    "CWE-295"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Improper certificate validation in Visual Studio allows an unauthorized attacker to perform spoofing over a network.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-115448",
    "publicado": "2026-11-04",
    "prioridad": "alta",
@@ -5828,30 +5780,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-118636",
-   "publicado": "2026-10-31",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00575,
-   "epss_percentil": 0.47683,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Apache",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "**UNSUPPORTED WHEN ASSIGNED** JavaNativeMessageDecoder in the MINA 3.0 codec module calls ObjectInputStream.readObject() on frame bytes with no class filter, so an application that puts it in front of an untrusted peer is open to gadget-chain RCE. As the 3.0.0 branch is inactive,…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-121964",
    "publicado": "2026-11-04",
    "prioridad": "alta",
@@ -6454,30 +6382,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-120135",
-   "publicado": "2026-10-31",
-   "prioridad": "alta",
-   "cvss": 8.2,
-   "gravedad": "high",
-   "epss": 0.00553,
-   "epss_percentil": 0.46403,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Apache",
-   "cwe": [
-    "CWE-674"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Uncontrolled Recursion vulnerability in Apache Thrift Java bindings. This issue affects Apache Thrift: before 0.24.0. Users are recommended to upgrade to version 0.24.0, which fixes the issue.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-116570",
    "publicado": "2026-11-05",
    "prioridad": "alta",
@@ -6645,30 +6549,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to perform unauthenticated brute-force attacks to obtain valid credentials due to improper restriction of excessive authentication attempts.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120209",
-   "publicado": "2026-10-31",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00544,
-   "epss_percentil": 0.45889,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-321"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts to GroovyClassLoader for unauthenticate…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -7453,7 +7333,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "The Interactive Real Estate – Floor Plan & Building Visualizer plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.6.0 via the extract_zip_data function. This is due to missing capability check, nonce verification, and file extensio…",
    "avisos": [],
    "avisos_total": 0
@@ -14783,6 +14663,127 @@
    "descripcion": "Grafana Mimir's Alertmanager rejects tenant-supplied receiver configurations that reference local files, but the check did not cover two HTTP client settings: http_headers.<name>.files and basic_auth.username_file. A tenant permitted to upload an Alertmanager configuration could …",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-122304",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 9.9,
+   "gravedad": "critical",
+   "epss": 0.00392,
+   "epss_percentil": 0.33581,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-863"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace admins to escape namespace confinement because the cleanup controller builds its context loader with a nil policy. Attackers can create a namespaced CleanupPolicy with apiCall o…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-102802",
+   "publicado": "2026-11-02",
+   "prioridad": "alta",
+   "cvss": 8.9,
+   "gravedad": "high",
+   "epss": 0.00392,
+   "epss_percentil": 0.33608,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "Joomla",
+   "cwe": [
+    "CWE-94"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Joomla Extension - regularlabs.com - PHP code injection vector in Sourcerer extension < 17.0.1 when used with Articles Anywhere extension < 20.1.1 - Sourcerer can restrict PHP in articles according to article-author trust; the exact creator and last-editor rule varies by release.…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-105600",
+   "publicado": "2026-11-02",
+   "prioridad": "alta",
+   "cvss": 8.6,
+   "gravedad": "high",
+   "epss": 0.00392,
+   "epss_percentil": 0.33608,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "Joomla",
+   "cwe": [
+    "CWE-94"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Joomla Extension - php-web-design.com - RCE via setting strings in StageIt 1.0-5.7.5, 6.0-6.3.5",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-71901",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00392,
+   "epss_percentil": 0.33554,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Apache",
+   "cwe": [
+    "CWE-99"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Improper Control of Resource Identifiers ('Resource Injection') vulnerability in Apache OFBiz. An authenticate user with access to sfa component can override the service to use on vcard import and access to other service. This issue affects Apache OFBiz: before 24.09.08. Users ar…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120190",
+   "publicado": "2026-11-01",
+   "prioridad": "alta",
+   "cvss": 2.0,
+   "gravedad": "low",
+   "epss": 0.00392,
+   "epss_percentil": 0.33532,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-79",
+    "CWE-94"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A security flaw has been discovered in PostyBirb Plus up to 3.1.75. Affected by this vulnerability is an unknown functionality of the file ui/src/views/submissions/submission-forms/form-components/DescriptionInput.tsx of the component Submission Description Editor. The manipulati…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -15369,9 +15370,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 665,
-   "criticos": 38,
-   "altos": 189,
+   "cves": 669,
+   "criticos": 40,
+   "altos": 192,
    "urgentes": 5,
    "epss_max": 0.0409,
    "fabricantes": [
@@ -15450,9 +15451,9 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 363,
-   "criticos": 66,
-   "altos": 142,
+   "cves": 361,
+   "criticos": 65,
+   "altos": 141,
    "urgentes": 3,
    "epss_max": 0.0191,
    "fabricantes": [
@@ -15636,9 +15637,9 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 29,
+   "cves": 28,
    "criticos": 5,
-   "altos": 7,
+   "altos": 6,
    "urgentes": 1,
    "epss_max": 0.0144,
    "fabricantes": [
@@ -15681,17 +15682,17 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-118147",
-     "fabricante": "Microsoft",
-     "cvss": 7.4,
-     "epss": 0.00612,
-     "prioridad": "alta"
-    },
-    {
      "cve": "CVE-2026-123619",
      "fabricante": "Windows",
      "cvss": 5.9,
      "epss": 0.00467,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-120422",
+     "fabricante": "Windows",
+     "cvss": 8.9,
+     "epss": 0.00446,
      "prioridad": "alta"
     }
    ]
@@ -15700,7 +15701,7 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 124,
+   "cves": 126,
    "criticos": 5,
    "altos": 42,
    "urgentes": 0,
@@ -15830,7 +15831,7 @@
    "categoria": "servidores",
    "nombre": "Servidores y servicios",
    "estado": "explotacion_activa",
-   "cves": 10,
+   "cves": 9,
    "criticos": 0,
    "altos": 3,
    "urgentes": 0,
@@ -15899,14 +15900,14 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-120210",
+     "cve": "CVE-2026-120243",
      "fabricante": "Ffmpeg",
-     "cvss": 5.3,
-     "epss": 0.00276,
+     "cvss": 6.8,
+     "epss": 0.00124,
      "prioridad": "media"
     },
     {
-     "cve": "CVE-2026-120243",
+     "cve": "CVE-2026-120244",
      "fabricante": "Ffmpeg",
      "cvss": 6.8,
      "epss": 0.00124,
@@ -15995,10 +15996,10 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1114,
-   "criticos": 66,
-   "altos": 392,
-   "urgentes": 12,
+   "cves": 1105,
+   "criticos": 64,
+   "altos": 388,
+   "urgentes": 11,
    "epss_max": 0.1558,
    "fabricantes": [
     "Freerdp",
@@ -16059,13 +16060,6 @@
      "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-120201",
-     "fabricante": "",
-     "cvss": 9.3,
-     "epss": 0.02215,
-     "prioridad": "urgente"
-    },
-    {
      "cve": "CVE-2026-121607",
      "fabricante": "",
      "cvss": 10.0,
@@ -16085,6 +16079,13 @@
      "cvss": 9.3,
      "epss": 0.01626,
      "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-13594",
+     "fabricante": "",
+     "cvss": 9.1,
+     "epss": 0.01142,
+     "prioridad": "urgente"
     }
    ]
   },
@@ -16092,15 +16093,15 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 43,
-   "criticos": 25,
+   "cves": 47,
+   "criticos": 29,
    "altos": 15,
    "urgentes": 13,
    "epss_max": 0.0321,
    "fabricantes": [
     "Wavlink",
-    "Linksys",
     "TOTOLINK",
+    "Linksys",
     "Edimax",
     "D-Link"
    ],
