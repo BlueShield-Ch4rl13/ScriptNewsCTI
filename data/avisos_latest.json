@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-07 09:42",
+ "generado_utc": "2026-11-07 17:27",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -78,7 +78,7 @@
    "idioma": "en",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "estado": "ok",
-   "avisos": 60
+   "avisos": 25
   },
   {
    "id": "cisco",
@@ -159,7 +159,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 13
+   "avisos": 14
   },
   {
    "id": "zdi",
@@ -213,7 +213,7 @@
    "idioma": "es",
    "url": "https://blog.segu-info.com.ar/feeds/posts/default",
    "estado": "ok",
-   "avisos": 6
+   "avisos": 5
   },
   {
    "id": "thehackernews",
@@ -240,23 +240,23 @@
    "idioma": "en",
    "url": "https://www.securityweek.com/feed/",
    "estado": "ok",
-   "avisos": 13
+   "avisos": 14
   }
  ],
  "resumen": {
-  "avisos": 326,
+  "avisos": 292,
   "por_tipo": {
-   "fabricante": 125,
    "noticia": 65,
+   "fabricante": 91,
    "cert": 83,
    "exploit": 53
   },
-  "explotados": 49,
+  "explotados": 50,
   "dia_cero": 6,
-  "sin_parche": 18,
-  "criticos": 24,
+  "sin_parche": 17,
+  "criticos": 22,
   "exploit_publico": 13,
-  "cves_citados": 340,
+  "cves_citados": 306,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -369,18 +369,6 @@
    "ultimo": "2026-11-04T17:00Z"
   },
   {
-   "cve": "CVE-2026-118306",
-   "fuentes": [
-    "chrome",
-    "msrc"
-   ],
-   "avisos": 2,
-   "kev": false,
-   "cvss": null,
-   "epss": 0.00369,
-   "ultimo": "2026-11-03T18:47Z"
-  },
-  {
    "cve": "CVE-2026-119260",
    "fuentes": [
     "chrome",
@@ -415,9 +403,63 @@
    "cvss": null,
    "epss": 0.0028,
    "ultimo": "2026-11-04T16:00Z"
+  },
+  {
+   "cve": "CVE-2026-119263",
+   "fuentes": [
+    "chrome",
+    "msrc"
+   ],
+   "avisos": 2,
+   "kev": false,
+   "cvss": null,
+   "epss": 0.00271,
+   "ultimo": "2026-11-04T16:00Z"
   }
  ],
  "avisos": [
+  {
+   "fuente": "bleeping",
+   "titulo": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+   "enlace": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+   "fecha": "2026-11-07T14:10Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "securityweek",
+   "titulo": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+   "enlace": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+   "fecha": "2026-11-07T10:16Z",
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-19868"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": 7.5,
+   "epss_max": 0.0062,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "chrome",
    "titulo": "Stable Channel Update for ChromeOS / ChromeOS Flex",
@@ -442,9 +484,28 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 9.6,
+   "critica": false,
+   "cvss_max": 8.8,
    "epss_max": 0.0046,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6613-1 zlib - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00532.html",
+   "fecha": "2026-11-07T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -816,7 +877,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": 7.5,
-   "epss_max": null,
+   "epss_max": 0.0062,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -921,8 +982,8 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 8.7,
-   "epss_max": 0.0034,
+   "cvss_max": null,
+   "epss_max": 0.0025,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2137,8 +2198,8 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 9.9,
+   "critica": false,
+   "cvss_max": 8.7,
    "epss_max": 0.0048,
    "exploit_publico": false,
    "exploitdb": null
@@ -3688,7 +3749,7 @@
    "kev": [],
    "explotada": false,
    "critica": true,
-   "cvss_max": 9.8,
+   "cvss_max": null,
    "epss_max": 0.0039,
    "exploit_publico": false,
    "exploitdb": null
@@ -5270,8 +5331,8 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 9.8,
+   "critica": false,
+   "cvss_max": null,
    "epss_max": 0.0041,
    "exploit_publico": false,
    "exploitdb": null
@@ -5972,7 +6033,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0019,
+   "epss_max": 0.0035,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6015,9 +6076,9 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0026,
+   "critica": true,
+   "cvss_max": 9.8,
+   "epss_max": 0.0067,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6547,781 +6608,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.0135,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "bleeping",
-   "titulo": "New Android SMS of Death exploit can remotely crash unpatched phones",
-   "enlace": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-   "fecha": "2026-10-31T15:35Z",
-   "cves": [
-    "CVE-2026-58882"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0019,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "seguinfo",
-   "titulo": "Sitios JavaScript comprometidos atacan a los administradores de WordPress para implementar una puerta trasera PHP persistente.",
-   "enlace": "http://blog.segu-info.com.ar/2026/10/sitios-javascript-comprometidos-atacan.html",
-   "fecha": "2026-10-31T14:16Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118304 Improper input validation in SVG",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118304",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118304"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0027,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118313 Use after free in Video",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118313",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118313"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0027,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118311 Memory corruption in Media",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118311",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118311"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0027,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118317 Memory corruption in HTML",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118317",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118317"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0032,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118315 Improper input validation in SVG",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118315",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118315"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0029,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118312 Memory corruption in Paint",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118312",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118312"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0023,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118316 Improper input validation in V8",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118316",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118316"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0029,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118318 Improper access control in V8",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118318",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118318"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0028,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118308 Use after free in SVG",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118308",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118308"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0031,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118310 Improper input validation in Views",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118310",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118310"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0031,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118305 Memory corruption in Turbolev",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118305",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118305"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.004,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118307 Use after free in Paint",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118307",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118307"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0033,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118306 Memory corruption in FileSystem",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118306",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118306"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0037,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118319 Memory corruption in Skia",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118319",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118319"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0021,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118322 Memory corruption in ANGLE",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118322",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118322"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0022,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118328 Improper input validation in WebRTC",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118328",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118328"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0027,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118327 Memory corruption in Media",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118327",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118327"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0022,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118332 Improper input validation in Compositing",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118332",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118332"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0029,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118320 Memory corruption in V8",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118320",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118320"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0025,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118334 Use after free in ImageCapture",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118334",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118334"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0026,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118331 Improper input validation in FileAPI",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118331",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118331"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0034,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118330 Use after free in Browser",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118330",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118330"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0033,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118333 Missing authorization in Video",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118333",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118333"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0025,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118335 Improper input validation in Metrics",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118335",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118335"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0024,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118329 Improper input validation in ANGLE",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118329",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118329"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0035,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118336 Improper input validation in Headless",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118336",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118336"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0025,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118337 Improper access control in Forms",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118337",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118337"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0023,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118338 Use after free in Animation",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118338",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118338"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0022,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118339 Use after free in Animation",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118339",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118339"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0032,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118340 Memory corruption in Skia",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118340",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118340"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0027,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118341 Use after free in Modularization",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118341",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118341"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0026,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118342 Out of bounds write in Editing",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118342",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118342"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0029,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118343 Improper input validation in ReadingList",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118343",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118343"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0026,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118344 Use after free in Layout",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118344",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118344"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0034,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118345 Use after free in PDFium",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118345",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118345"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0027,
    "exploit_publico": false,
    "exploitdb": null
   }
