@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-06 18:58",
+ "generado_utc": "2026-11-07 00:45",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -33,7 +33,7 @@
    "idioma": "en",
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
    "estado": "ok",
-   "avisos": 5
+   "avisos": 6
   },
   {
    "id": "cert_eu",
@@ -87,7 +87,7 @@
    "idioma": "en",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "estado": "ok",
-   "avisos": 10
+   "avisos": 9
   },
   {
    "id": "fortinet",
@@ -159,7 +159,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 15
+   "avisos": 13
   },
   {
    "id": "zdi",
@@ -168,7 +168,7 @@
    "idioma": "en",
    "url": "https://www.zerodayinitiative.com/rss/published/",
    "estado": "ok",
-   "avisos": 27
+   "avisos": 50
   },
   {
    "id": "exploitdb",
@@ -231,7 +231,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 16
+   "avisos": 17
   },
   {
    "id": "securityweek",
@@ -244,19 +244,19 @@
   }
  ],
  "resumen": {
-  "avisos": 305,
+  "avisos": 327,
   "por_tipo": {
-   "noticia": 65,
-   "fabricante": 128,
-   "cert": 82,
-   "exploit": 30
+   "noticia": 66,
+   "fabricante": 125,
+   "cert": 83,
+   "exploit": 53
   },
-  "explotados": 50,
+  "explotados": 51,
   "dia_cero": 6,
   "sin_parche": 18,
-  "criticos": 26,
-  "exploit_publico": 14,
-  "cves_citados": 308,
+  "criticos": 25,
+  "exploit_publico": 13,
+  "cves_citados": 330,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -275,7 +275,7 @@
    "kev": true,
    "cvss": null,
    "epss": 0.82641,
-   "ultimo": "2026-11-06T00:00Z"
+   "ultimo": "2026-11-06T20:17Z"
   },
   {
    "cve": "CVE-2026-109618",
@@ -285,7 +285,7 @@
     "seguinfo",
     "siemens"
    ],
-   "avisos": 12,
+   "avisos": 11,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
@@ -299,7 +299,7 @@
     "seguinfo",
     "siemens"
    ],
-   "avisos": 11,
+   "avisos": 10,
    "kev": true,
    "cvss": null,
    "epss": 0.99999,
@@ -421,6 +421,89 @@
  "avisos": [
   {
    "fuente": "bleeping",
+   "titulo": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "enlace": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "fecha": "2026-11-07T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "cisco",
+   "titulo": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+   "fecha": "2026-11-06T20:40Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "bleeping",
+   "titulo": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+   "enlace": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "fecha": "2026-11-06T20:24Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "cisco",
+   "titulo": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+   "fecha": "2026-11-06T20:17Z",
+   "cves": [
+    "CVE-2026-111497",
+    "CVE-2026-105482",
+    "CVE-2026-105483",
+    "CVE-2026-106069"
+   ],
+   "cves_total": 4,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-111497"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.8264,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "bleeping",
    "titulo": "Fake security tools on GitHub push backdoors and infostealers",
    "enlace": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
    "fecha": "2026-11-06T18:46Z",
@@ -454,6 +537,27 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "msrc",
+   "titulo": "CVE-2026-83844 Windows Paint Remote Code Execution Vulnerability",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
+   "fecha": "2026-11-06T16:00Z",
+   "cves": [
+    "CVE-2026-83844"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0073,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -665,6 +769,29 @@
    "exploitdb": null
   },
   {
+   "fuente": "cisa",
+   "titulo": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "enlace": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "fecha": "2026-11-06T12:00Z",
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "cves_total": 1,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-19868"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": 7.5,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "ubuntu",
    "titulo": "USN-9003-1: Linux kernel (NVIDIA) vulnerabilities",
    "enlace": "https://ubuntu.com/security/notices/USN-9003-1",
@@ -765,8 +892,491 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": null,
+   "cvss_max": 8.7,
    "epss_max": 0.0034,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-897: (Pwn2Own) Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-897/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-91131"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-896: (Pwn2Own) Home Assistant Green Cleartext Storage of Credentials Local Privilege Escalation Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-91131"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-895: LibreOffice dBase File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-76181"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0014,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-894: Docker Sandboxes Inclusion of Functionality from Untrusted Control Sphere Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-894/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-121614"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0013,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-893: Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-893/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-121741"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-892: Philips Hue Bridge Pro Protection Mechanism Failure Authentication Bypass Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-892/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-122044"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-891: Philips Hue Bridge Pro SQL Injection Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-118632"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-890: Philips Hue Bridge Pro Argument Injection Restricted File Write Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-118631"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-889: Quest NetVault Backup nvpmgr Integer Underflow Denial-of-Service Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-889/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-13270"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-888: Quest NetVault Backup StnzCreateKey Numeric Truncation Error Denial-of-Service Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-888/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-13269"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-887: libilbm ILBM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2025-10935"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-886: OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-886/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114558"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-885: OriginLab Origin Viewer OPJ File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114568"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-884: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-884/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114567"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-883: OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-883/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114566"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-882: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-882/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114565"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-881: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-881/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114564"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-880: OriginLab Origin Viewer OGWU File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-880/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114563"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-879: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-879/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114562"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-878: OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-878/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114561"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-877: OriginLab Origin Viewer OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-877/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114560"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-876: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-876/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114559"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "zdi",
+   "titulo": "ZDI-26-875: OriginLab Origin Viewer OGWU File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-875/",
+   "fecha": "2026-11-06T06:00Z",
+   "cves": [
+    "CVE-2026-114569"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1064,25 +1674,6 @@
    "exploitdb": null
   },
   {
-   "fuente": "cisco",
-   "titulo": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-   "fecha": "2026-11-05T21:58Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
    "fuente": "bleeping",
    "titulo": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
    "enlace": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
@@ -1210,32 +1801,6 @@
    "critica": false,
    "cvss_max": 8.1,
    "epss_max": 0.0116,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cisco",
-   "titulo": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "fecha": "2026-11-05T15:22Z",
-   "cves": [
-    "CVE-2026-111497",
-    "CVE-2026-105482",
-    "CVE-2026-105483",
-    "CVE-2026-106069"
-   ],
-   "cves_total": 4,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111497"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.8264,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1387,15 +1952,15 @@
   },
   {
    "fuente": "cisa",
-   "titulo": "Post-Quantum Questions to Ask Your Vendors",
-   "enlace": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+   "titulo": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+   "enlace": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
    "fecha": "2026-11-05T12:00Z",
    "cves": [],
    "cves_total": 0,
    "texto_explotada": false,
    "texto_critica": false,
    "dia_cero": false,
-   "sin_parche": false,
+   "sin_parche": true,
    "kev": [],
    "explotada": false,
    "critica": false,
@@ -1406,15 +1971,15 @@
   },
   {
    "fuente": "cisa",
-   "titulo": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
-   "enlace": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+   "titulo": "Post-Quantum Questions to Ask Your Vendors",
+   "enlace": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
    "fecha": "2026-11-05T12:00Z",
    "cves": [],
    "cves_total": 0,
    "texto_explotada": false,
    "texto_critica": false,
    "dia_cero": false,
-   "sin_parche": true,
+   "sin_parche": false,
    "kev": [],
    "explotada": false,
    "critica": false,
@@ -6732,27 +7297,6 @@
    "exploitdb": null
   },
   {
-   "fuente": "msrc",
-   "titulo": "Chromium: CVE-2026-118346 Use after free in Compositing",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118346",
-   "fecha": "2026-10-31T14:00Z",
-   "cves": [
-    "CVE-2026-118346"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0022,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
    "fuente": "thehackernews",
    "titulo": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
    "enlace": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
@@ -6797,88 +7341,6 @@
    "epss_max": 0.8264,
    "exploit_publico": false,
    "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6599-1 nss - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00518.html",
-   "fecha": "2026-10-31T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6597-1 dpdk - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00516.html",
-   "fecha": "2026-10-31T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "bleeping",
-   "titulo": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-   "enlace": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-   "fecha": "2026-10-30T21:09Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cisco",
-   "titulo": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
-   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20%20October%202026%26vs_k=1",
-   "fecha": "2026-10-30T19:24Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
   }
  ]
 }
