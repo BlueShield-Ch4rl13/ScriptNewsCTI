@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-07 21:30",
+ "generado_utc": "2026-11-08 04:05",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,20 +10,20 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3084,
-  "criticos": 295,
+  "cves": 3195,
+  "criticos": 298,
   "explotados": 2,
-  "urgentes": 45,
+  "urgentes": 44,
   "epss_10": 1,
-  "sin_puntuar": 229,
+  "sin_puntuar": 228,
   "por_prioridad": {
    "explotada": 2,
-   "urgente": 45,
-   "alta": 1526,
-   "media": 1132,
-   "baja": 379
+   "urgente": 44,
+   "alta": 1563,
+   "media": 1189,
+   "baja": 397
   },
-  "paquetes_maliciosos": 370,
+  "paquetes_maliciosos": 367,
   "exploit_publico": 1,
   "poc_github": 38,
   "ransomware": 0,
@@ -592,31 +592,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Jumis (formerly Tildes Jumis) creates and uses a Microsoft SQL Server login named ##Tilde_JumisAdmin## whose password is derived deterministically from a single non-secret input - the SQL Server name (@@servername). The derivation algorithm is hard-coded in the client application…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120189",
-   "publicado": "2026-11-01",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.01346,
-   "epss_percentil": 0.71597,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "D-Link",
-   "cwe": [
-    "CWE-119",
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_upload_file/mp_upload_file of the file /usr/bin/tftpd of the component TFTP Upload Filename Handler. The manipulation leads to stack-based buffer overflow. The attack is possible to be carried…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -2898,31 +2873,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-120192",
-   "publicado": "2026-11-01",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00852,
-   "epss_percentil": 0.58465,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-200",
-    "CWE-284"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A security vulnerability has been detected in Presenton up to 0.9.11-beta. This affects an unknown part of the file /app_data of the component Desktop Authentication Middleware. Such manipulation leads to information disclosure. It is possible to launch the attack remotely. The e…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-17342",
    "publicado": "2026-11-07",
    "prioridad": "alta",
@@ -3186,31 +3136,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to improperly controlled modification of object attributes. A user could set a field that should only be controlled by the system, wh…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120191",
-   "publicado": "2026-11-01",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00803,
-   "epss_percentil": 0.56917,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-287",
-    "CWE-306"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A weakness has been identified in Presenton up to 0.9.11-beta. Affected by this issue is some unknown functionality of the component API. This manipulation causes missing authentication. It is possible to initiate the attack remotely. The exploit has been made available to the pu…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -4345,7 +4270,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper validation of file paths.",
    "avisos": [],
    "avisos_total": 0
@@ -4369,7 +4294,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to path traversal.",
    "avisos": [],
    "avisos_total": 0
@@ -5556,7 +5481,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information due to XML external entity (XXE) injection.",
    "avisos": [],
    "avisos_total": 0
@@ -6305,7 +6230,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute unauthorized administrative operations and obtain sensitive information due to improper handling of case sensitivity. Access controls are not applied consistently to …",
    "avisos": [],
    "avisos_total": 0
@@ -7261,7 +7186,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to cause a denial of service due to uncontrolled resource consumption. Certain requests can cause internal processing to stall, which could make the service unavai…",
    "avisos": [],
    "avisos_total": 0
@@ -7603,7 +7528,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to read arbitrary files on the server due to external control of a file name or path.",
    "avisos": [],
    "avisos_total": 0
@@ -8587,7 +8512,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper neutralization of special elements used in an SQL command.",
    "avisos": [],
    "avisos_total": 0
@@ -8904,7 +8829,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to SQL injection.",
    "avisos": [],
    "avisos_total": 0
@@ -8928,7 +8853,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to SQL injection.",
    "avisos": [],
    "avisos_total": 0
@@ -9690,7 +9615,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information belonging to other tenants due to an injection vulnerability. Input used to build a data query is not properly neutralized, which could allow the query to return …",
    "avisos": [],
    "avisos_total": 0
@@ -11064,7 +10989,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information from other tenants due to improper authorization. Identifiers supplied in requests are not sufficiently checked against the user's …",
    "avisos": [],
    "avisos_total": 0
@@ -11088,7 +11013,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information from other tenants due to broken object-level authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -11112,7 +11037,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information belonging to other tenants due to broken object-level authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -11136,7 +11061,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
    "avisos": [],
    "avisos_total": 0
@@ -11160,7 +11085,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -11184,7 +11109,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -11208,7 +11133,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper validation of external references. When schemas are validated, references to external resources are not sufficientl…",
    "avisos": [],
    "avisos_total": 0
@@ -11232,7 +11157,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
    "avisos": [],
    "avisos_total": 0
@@ -11256,7 +11181,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -11280,7 +11205,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -11304,7 +11229,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -11328,7 +11253,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization. Authorization decisions rely on information supplied by the client, which could allow access to info…",
    "avisos": [],
    "avisos_total": 0
@@ -11352,7 +11277,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -11376,7 +11301,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -11400,7 +11325,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information from other tenants due to broken object-level authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -11424,7 +11349,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -12194,7 +12119,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
    "avisos": [],
    "avisos_total": 0
@@ -12218,7 +12143,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to an insecure direct object reference.",
    "avisos": [],
    "avisos_total": 0
@@ -12242,7 +12167,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
    "avisos": [],
    "avisos_total": 0
@@ -14586,7 +14511,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow an authenticated attacker to send unauthorized requests from the system due to server-side request forgery. This could be used to enumerate network resources or to support further attacks.",
    "avisos": [],
    "avisos_total": 0
@@ -14761,27 +14686,98 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-120190",
-   "publicado": "2026-11-01",
+   "cve": "CVE-2026-123280",
+   "publicado": "2026-11-06",
    "prioridad": "alta",
-   "cvss": 2.0,
-   "gravedad": "low",
-   "epss": 0.00392,
-   "epss_percentil": 0.33532,
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00391,
+   "epss_percentil": 0.33493,
    "kev": false,
    "categoria": "otros",
    "fabricante": "",
    "cwe": [
-    "CWE-79",
-    "CWE-94"
+    "CWE-863"
    ],
-   "estado_nvd": "Deferred",
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "In JetBrains Datalore before 2026.2.4 unauthenticated users could execute code via published interactive reports",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-121938",
+   "publicado": "2026-11-04",
+   "prioridad": "alta",
+   "cvss": 6.0,
+   "gravedad": "medium",
+   "epss": 0.00391,
+   "epss_percentil": 0.33435,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Received",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
    "explotacion_ssvc": "poc",
-   "descripcion": "A security flaw has been discovered in PostyBirb Plus up to 3.1.75. Affected by this vulnerability is an unknown functionality of the file ui/src/views/submissions/submission-forms/form-components/DescriptionInput.tsx of the component Submission Description Editor. The manipulati…",
+   "descripcion": "langchain4j-aideepin before 3.31.0 contains an insecure direct object reference vulnerability that allows authenticated users to read other users' character-chat conversations by supplying their character uuid. Attackers can request GET /character/{uuid}, which CharacterService.d…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120678",
+   "publicado": "2026-11-03",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00389,
+   "epss_percentil": 0.33236,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-401"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "A memory management flaw in the MongoDB C Driver's handling of compressed responses may cause the client library to hold on to memory that is never released. An unauthenticated party that controls the database endpoint a client application connects to may cause repeated, unbounde…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-121727",
+   "publicado": "2026-11-03",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00389,
+   "epss_percentil": 0.33286,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-191"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Kore before 4.3.0 contains an integer underflow vulnerability in HTTP request body handling that allows unauthenticated attackers to bypass http_body_max by sending more body bytes than declared. Attackers can send oversized first segments over many concurrent POST, PUT or DELETE…",
    "avisos": [],
    "avisos_total": 0
   }
@@ -14800,7 +14796,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 330,
+   "maliciosos": 328,
    "maliciosos_mas": false,
    "avisos": 8,
    "avisos_mas": false,
@@ -14901,13 +14897,57 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 34,
+   "maliciosos": 33,
    "maliciosos_mas": false,
    "avisos": 5,
    "avisos_mas": false,
    "criticos": 0,
    "altos": 3,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-q95f-rr76-j36f",
+     "cve": null,
+     "paquete": "twitch-stream-py",
+     "resumen": "Malicious code in twitch-stream-py (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-08"
+    },
+    {
+     "ghsa": "GHSA-j4qg-f3r8-33f3",
+     "cve": null,
+     "paquete": "pyuserfox",
+     "resumen": "Malicious code in pyuserfox (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-08"
+    },
+    {
+     "ghsa": "GHSA-hqrq-q4mq-qwpp",
+     "cve": null,
+     "paquete": "pyuserox",
+     "resumen": "Malicious code in pyuserox (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-08"
+    },
+    {
+     "ghsa": "GHSA-3qwc-2vj2-6vc8",
+     "cve": null,
+     "paquete": "gcp-log-poc",
+     "resumen": "Malicious code in gcp-log-poc (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-07"
+    },
     {
      "ghsa": "GHSA-c8hx-79hf-pwfm",
      "cve": null,
@@ -14918,53 +14958,20 @@
      "epss": null,
      "corregido_en": null,
      "publicado": "2026-11-07"
-    },
-    {
-     "ghsa": "GHSA-h276-9v4j-fwr7",
-     "cve": null,
-     "paquete": "qzc690385",
-     "resumen": "Malicious code in qzc690385 (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-07"
-    },
-    {
-     "ghsa": "GHSA-43g4-m7g8-p53p",
-     "cve": null,
-     "paquete": "qzc690383",
-     "resumen": "Malicious code in qzc690383 (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-07"
-    },
-    {
-     "ghsa": "GHSA-4h5h-42vv-83c5",
-     "cve": null,
-     "paquete": "qzc690382",
-     "resumen": "Malicious code in qzc690382 (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-07"
-    },
-    {
-     "ghsa": "GHSA-5h9m-426q-pqq2",
-     "cve": null,
-     "paquete": "genblaze-fal",
-     "resumen": "Malicious code in genblaze-fal (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-07"
     }
    ],
    "ejemplos_graves": [
+    {
+     "ghsa": "GHSA-9fpx-fr6j-2vh6",
+     "cve": "CVE-2026-33050",
+     "paquete": "GeoNode",
+     "resumen": "GeoNode has OS command injection via uploaded file layer name",
+     "gravedad": "high",
+     "cvss": 8.8,
+     "epss": 0.00653,
+     "corregido_en": "5.1.0",
+     "publicado": "2026-11-06"
+    },
     {
      "ghsa": "GHSA-gh9r-c94j-cmp5",
      "cve": "CVE-2026-115878",
@@ -14986,17 +14993,6 @@
      "epss": 0.00377,
      "corregido_en": "2.4.3",
      "publicado": "2026-11-05"
-    },
-    {
-     "ghsa": "GHSA-9fpx-fr6j-2vh6",
-     "cve": "CVE-2026-33050",
-     "paquete": "GeoNode",
-     "resumen": "GeoNode has OS command injection via uploaded file layer name",
-     "gravedad": "high",
-     "cvss": 8.8,
-     "epss": null,
-     "corregido_en": "5.1.0",
-     "publicado": "2026-11-06"
     }
    ],
    "estado": "maliciosos"
@@ -15370,9 +15366,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 669,
+   "cves": 672,
    "criticos": 40,
-   "altos": 192,
+   "altos": 194,
    "urgentes": 5,
    "epss_max": 0.0409,
    "fabricantes": [
@@ -15487,17 +15483,9 @@
      "nombre": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
      "anadido": "2026-10-15",
      "ransomware": false
-    },
-    {
-     "cve": "CVE-2016-3081",
-     "fabricante": "Apache",
-     "producto": "Struts",
-     "nombre": "Apache Struts Command Injection Vulnerability",
-     "anadido": "2026-10-08",
-     "ransomware": false
     }
    ],
-   "kev_recientes_total": 4,
+   "kev_recientes_total": 3,
    "destacados": [
     {
      "cve": "CVE-2026-17402",
@@ -15540,9 +15528,9 @@
    "categoria": "red",
    "nombre": "Red, VPN y firewalls",
    "estado": "explotacion_activa",
-   "cves": 17,
+   "cves": 19,
    "criticos": 6,
-   "altos": 7,
+   "altos": 9,
    "urgentes": 3,
    "epss_max": 0.0169,
    "fabricantes": [
@@ -15637,7 +15625,7 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 28,
+   "cves": 30,
    "criticos": 5,
    "altos": 6,
    "urgentes": 1,
@@ -15766,7 +15754,7 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 23,
+   "cves": 24,
    "criticos": 7,
    "altos": 9,
    "urgentes": 0,
@@ -15831,13 +15819,12 @@
    "categoria": "servidores",
    "nombre": "Servidores y servicios",
    "estado": "explotacion_activa",
-   "cves": 9,
+   "cves": 4,
    "criticos": 0,
    "altos": 3,
    "urgentes": 0,
    "epss_max": 0.0063,
    "fabricantes": [
-    "Ffmpeg",
     "Nginx",
     "Samba",
     "Openssl"
@@ -15900,18 +15887,11 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-120243",
-     "fabricante": "Ffmpeg",
-     "cvss": 6.8,
-     "epss": 0.00124,
-     "prioridad": "media"
-    },
-    {
-     "cve": "CVE-2026-120244",
-     "fabricante": "Ffmpeg",
-     "cvss": 6.8,
-     "epss": 0.00124,
-     "prioridad": "media"
+     "cve": "CVE-2026-116472",
+     "fabricante": "Nginx",
+     "cvss": 2.7,
+     "epss": 0.00411,
+     "prioridad": "baja"
     }
    ]
   },
@@ -15996,9 +15976,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1105,
-   "criticos": 64,
-   "altos": 388,
+   "cves": 1214,
+   "criticos": 68,
+   "altos": 422,
    "urgentes": 11,
    "epss_max": 0.1558,
    "fabricantes": [
@@ -16040,17 +16020,9 @@
      "nombre": "Ahsay AhsayCBS Improper Authentication Vulnerability",
      "anadido": "2026-10-14",
      "ransomware": false
-    },
-    {
-     "cve": "CVE-2015-5477",
-     "fabricante": "ISC",
-     "producto": "BIND",
-     "nombre": " ISC BIND Data Processing Errors Vulnerability",
-     "anadido": "2026-10-08",
-     "ransomware": false
     }
    ],
-   "kev_recientes_total": 8,
+   "kev_recientes_total": 4,
    "destacados": [
     {
      "cve": "CVE-2026-77690",
@@ -16093,17 +16065,17 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 47,
-   "criticos": 29,
+   "cves": 46,
+   "criticos": 28,
    "altos": 15,
-   "urgentes": 13,
+   "urgentes": 12,
    "epss_max": 0.0321,
    "fabricantes": [
     "Wavlink",
     "TOTOLINK",
     "Linksys",
     "Edimax",
-    "D-Link"
+    "Tenda"
    ],
    "kev_recientes": [],
    "kev_recientes_total": 0,

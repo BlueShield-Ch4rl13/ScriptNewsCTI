@@ -223,7 +223,7 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-11-07 21:30 UTC · **IOCs recolectados:** 1364 · **CVEs KEV recientes:** 13
+**Última actualización:** 2026-11-08 04:06 UTC · **IOCs recolectados:** 1702 · **CVEs KEV recientes:** 13
 
 ### Últimos IOCs (defangueados, máx. 25)
 
@@ -250,10 +250,10 @@ python main.py
 | 70 (alta) | alta | `229520991a6a8e5e79c64bae0d37528190005b5a` | filehash-sha1 | Formbook | ThreatFox | 2026-11-07 16:43:28 UTC |
 | 70 (alta) | alta | `3a34a7209bfb6b1e2b5e3cf530bcfd3989371b9cefa0beefbb838ea37ad6e415` | filehash-sha256 | Formbook | ThreatFox | 2026-11-07 16:43:28 UTC |
 | 69 (media) | media | `5[.]231[.]31[.]114:443` | ip:port | Jackskid | ThreatFox | 2026-11-07 18:13:36 UTC |
+| 68 (media) | media | `34[.]77[.]173[.]196` | ipv4 | php.shin\_webshell | ThreatFox | 2026-11-08 00:51:26 UTC |
 | 68 (media) | media | `ce4151078747c513881d39736f1c3c1c` | filehash-md5 | Cerberus | ThreatFox | 2026-11-07 16:44:02 UTC |
 | 68 (media) | media | `1d8bb3f42e21e76fe5447aae5d404565b8bb45aa` | filehash-sha1 | Cerberus | ThreatFox | 2026-11-07 16:44:01 UTC |
 | 68 (media) | media | `3133d6f286397e43e45302d6925a125ab7b06cd254537af050d06062b0be7bc1` | filehash-sha256 | Cerberus | ThreatFox | 2026-11-07 16:44:01 UTC |
-| 68 (media) | media | `4109193fb7821fe4fbf7dc899f84fb51` | filehash-md5 | GUIDLOADER | ThreatFox | 2026-11-07 16:43:26 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -275,7 +275,7 @@ python main.py
 
 ### Avisos de seguridad de los últimos 7 días
 
-**293** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **50** de algo que ya se explota · **6** de día cero · **17** sin parche
+**292** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **50** de algo que ya se explota · **6** de día cero · **17** sin parche
 
 **Lo más citado:** CVE-2026-111497 (5 fuentes, KEV) · CVE-2026-109618 (4 fuentes, KEV) · CVE-2026-109619 (4 fuentes, KEV) · CVE-2026-119977 (4 fuentes, KEV) · CVE-2026-98432 (3 fuentes) · CVE-2026-123158 (3 fuentes) · CVE-2024-27834 (2 fuentes, KEV) · CVE-2026-109593 (2 fuentes)
 
@@ -309,7 +309,7 @@ python main.py
 
 ### Vulnerabilidades de los últimos 7 días
 
-**3084** CVE publicados · **2** ya explotados · **45** urgentes · **295** con CVSS ≥ 9 · **370** paquetes maliciosos en los registros · **1** con exploit en Exploit-DB · **2** explotados desde el primer día
+**3195** CVE publicados · **2** ya explotados · **44** urgentes · **298** con CVSS ≥ 9 · **367** paquetes maliciosos en los registros · **1** con exploit en Exploit-DB · **2** explotados desde el primer día
 
 Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC). Un exploit de Exploit-DB cuenta como prueba de concepto.
 
@@ -337,16 +337,16 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 | urgente | CVE-2026-122193 | — | 9.3 | 1.6 % | 2026-11-06 |
 | urgente | CVE-2026-86596 | WordPress (plugins) | 9.8 | 1.5 % | 2026-11-02 |
 | urgente | CVE-2026-59105 | Microsoft | 9.3 | 1.4 % | 2026-11-06 |
-| urgente | CVE-2026-120189 | D-Link | 9.3 | 1.3 % | 2026-11-01 |
 | urgente | CVE-2026-114630 | WordPress (plugins) | 9.1 | 1.3 % | 2026-11-06 |
 | urgente | CVE-2026-116779 | Código abierto (GitHub) | 9.8 | 1.3 % | 2026-11-05 |
+| urgente | CVE-2026-54143 | Código abierto (GitHub) | 9.8 | 1.2 % | 2026-11-05 |
 
 ### Lenguajes (registros de paquetes, últimos 7 días)
 
 | Lenguaje | Estado | Paquetes maliciosos | Avisos críticos / altos |
 |---|---|---|---|
-| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 330 | 2 / 2 |
-| Python (PyPI) | 🔴 paquetes maliciosos | 34 | 0 / 3 |
+| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 328 | 2 / 2 |
+| Python (PyPI) | 🔴 paquetes maliciosos | 33 | 0 / 3 |
 | Java / Kotlin (Maven) | 🟡 avisos altos | 0 | 0 / 1 |
 | .NET (C#) (NuGet) | 🟡 avisos altos | 0 | 0 / 2 |
 | PHP (Packagist) | 🔴 el lenguaje se explota | 0 | 0 / 0 |
@@ -362,18 +362,18 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 
 | Sistema | Estado | CVE nuevos | CVSS ≥ 9 | En KEV (30 días) |
 |---|---|---|---|---|
-| Aplicaciones web y CMS | 🔴 explotación activa | 669 | 40 | 3 |
-| Software empresarial | 🔴 explotación activa | 361 | 65 | 4 |
-| Red, VPN y firewalls | 🔴 explotación activa | 17 | 6 | 9 |
-| Windows y Microsoft | 🔴 explotación activa | 28 | 5 | 1 |
+| Aplicaciones web y CMS | 🔴 explotación activa | 672 | 40 | 3 |
+| Software empresarial | 🔴 explotación activa | 361 | 65 | 3 |
+| Red, VPN y firewalls | 🔴 explotación activa | 19 | 6 | 9 |
+| Windows y Microsoft | 🔴 explotación activa | 30 | 5 | 1 |
 | Linux | 🔴 explotación activa | 126 | 5 | 1 |
-| Virtualización y nube | 🔴 explotación activa | 23 | 7 | 1 |
-| Servidores y servicios | 🔴 explotación activa | 9 | 0 | 4 |
+| Virtualización y nube | 🔴 explotación activa | 24 | 7 | 1 |
+| Servidores y servicios | 🔴 explotación activa | 4 | 0 | 4 |
 | Apple (macOS · iOS) | 🔴 explotación activa | 0 | 0 | 1 |
 | Lenguajes y entornos de ejecución | 🔴 explotación activa | 0 | 0 | 2 |
 | Industrial (OT · ICS) | 🔴 explotación activa | 0 | 0 | 1 |
-| Otros | 🔴 explotación activa | 1105 | 64 | 8 |
-| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 47 | 29 | 0 |
+| Otros | 🔴 explotación activa | 1214 | 68 | 4 |
+| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 46 | 28 | 0 |
 | Librerías de código abierto | 🟠 riesgo alto | 314 | 37 | 0 |
 | Navegadores | 🟠 riesgo alto | 217 | 32 | 0 |
 | Android | 🟠 riesgo alto | 155 | 5 | 0 |

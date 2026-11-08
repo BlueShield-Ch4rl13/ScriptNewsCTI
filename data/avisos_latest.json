@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-07 21:30",
+ "generado_utc": "2026-11-08 04:06",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -159,7 +159,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 15
+   "avisos": 14
   },
   {
    "id": "zdi",
@@ -244,10 +244,10 @@
   }
  ],
  "resumen": {
-  "avisos": 293,
+  "avisos": 292,
   "por_tipo": {
+   "fabricante": 91,
    "noticia": 65,
-   "fabricante": 92,
    "cert": 83,
    "exploit": 53
   },
@@ -256,7 +256,7 @@
   "sin_parche": 17,
   "criticos": 22,
   "exploit_publico": 13,
-  "cves_citados": 306,
+  "cves_citados": 294,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -419,6 +419,27 @@
  ],
  "avisos": [
   {
+   "fuente": "msrc",
+   "titulo": "CVE-2026-83844 Windows Paint Remote Code Execution Vulnerability",
+   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
+   "fecha": "2026-11-07T16:00Z",
+   "cves": [
+    "CVE-2026-83844"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0073,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "bleeping",
    "titulo": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
    "enlace": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
@@ -487,6 +508,25 @@
    "critica": false,
    "cvss_max": 8.8,
    "epss_max": 0.0046,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6615-1 libreoffice - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00534.html",
+   "fecha": "2026-11-07T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -646,27 +686,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "msrc",
-   "titulo": "CVE-2026-83844 Windows Paint Remote Code Execution Vulnerability",
-   "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
-   "fecha": "2026-11-06T16:00Z",
-   "cves": [
-    "CVE-2026-83844"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0073,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6576,57 +6595,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6601-1 eog - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00520.html",
-   "fecha": "2026-11-01T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6600-1 vim - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00519.html",
-   "fecha": "2026-11-01T00:00Z",
-   "cves": [
-    "CVE-2025-53905",
-    "CVE-2025-53906",
-    "CVE-2026-25749",
-    "CVE-2026-26269",
-    "CVE-2026-28417",
-    "CVE-2026-28418",
-    "CVE-2026-28419",
-    "CVE-2026-28420",
-    "CVE-2026-28421",
-    "CVE-2026-28422",
-    "CVE-2026-32249",
-    "CVE-2026-33412"
-   ],
-   "cves_total": 40,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0135,
    "exploit_publico": false,
    "exploitdb": null
   }
