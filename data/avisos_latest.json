@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-08 04:06",
+ "generado_utc": "2026-11-08 12:48",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -176,8 +176,9 @@
    "tipo": "exploit",
    "idioma": "en",
    "url": "https://www.exploit-db.com/rss.xml",
-   "estado": "ok",
-   "avisos": 0
+   "estado": "error",
+   "avisos": 0,
+   "detalle": "ConnectTimeout: HTTPSConnectionPool(host='www.exploit-db.com', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnectio"
   },
   {
    "id": "projectzero",
@@ -222,7 +223,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 29
+   "avisos": 28
   },
   {
    "id": "bleeping",
@@ -244,20 +245,20 @@
   }
  ],
  "resumen": {
-  "avisos": 292,
+  "avisos": 291,
   "por_tipo": {
    "fabricante": 91,
-   "noticia": 65,
+   "noticia": 64,
    "cert": 83,
    "exploit": 53
   },
   "explotados": 50,
   "dia_cero": 6,
   "sin_parche": 17,
-  "criticos": 22,
+  "criticos": 23,
   "exploit_publico": 13,
   "cves_citados": 294,
-  "fuentes_ok": 26,
+  "fuentes_ok": 25,
   "fuentes_total": 26
  },
  "mas_citados": [
@@ -3787,7 +3788,7 @@
    "kev": [],
    "explotada": false,
    "critica": true,
-   "cvss_max": null,
+   "cvss_max": 9.8,
    "epss_max": 0.0039,
    "exploit_publico": false,
    "exploitdb": null
@@ -5369,8 +5370,8 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": false,
-   "cvss_max": null,
+   "critica": true,
+   "cvss_max": 9.8,
    "epss_max": 0.0041,
    "exploit_publico": false,
    "exploitdb": null
@@ -6565,25 +6566,6 @@
    "titulo": "Alpine Linux rebuilds GitLab after attempted RCE attack",
    "enlace": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
    "fecha": "2026-11-01T15:11Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-   "enlace": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-   "fecha": "2026-11-01T08:51Z",
    "cves": [],
    "cves_total": 0,
    "texto_explotada": false,

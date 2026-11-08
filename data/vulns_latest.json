@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-08 04:05",
+ "generado_utc": "2026-11-08 12:47",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3195,
-  "criticos": 298,
+  "cves": 3184,
+  "criticos": 293,
   "explotados": 2,
-  "urgentes": 44,
+  "urgentes": 42,
   "epss_10": 1,
-  "sin_puntuar": 228,
+  "sin_puntuar": 248,
   "por_prioridad": {
    "explotada": 2,
-   "urgente": 44,
-   "alta": 1563,
-   "media": 1189,
-   "baja": 397
+   "urgente": 42,
+   "alta": 1551,
+   "media": 1174,
+   "baja": 415
   },
-  "paquetes_maliciosos": 367,
+  "paquetes_maliciosos": 378,
   "exploit_publico": 1,
-  "poc_github": 38,
+  "poc_github": 37,
   "ransomware": 0,
   "dia_cero": 2
  },
@@ -266,56 +266,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "A vulnerability was detected in Linksys E5350 1.0.00.037. This affects the function system of the file /wizard/apply.cgi. Performing a manipulation of the argument ping_ip/traceroute_ip results in os command injection. The attack may be initiated remotely. The exploit is now publ…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120195",
-   "publicado": "2026-11-01",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.0207,
-   "epss_percentil": 0.81543,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Wavlink",
-   "cwe": [
-    "CWE-77",
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. The impacted element is the function set_wzdgwMesh of the file /cgi-bin/adm.cgi of the component Initial Setup Wizard. The manipulation of the argument wlan_ssid leads to os command injection. …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120198",
-   "publicado": "2026-11-01",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.0207,
-   "epss_percentil": 0.81543,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Wavlink",
-   "cwe": [
-    "CWE-74",
-    "CWE-77"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability has been found in WAVLINK WL-WN530BE1-A V251117. Affected is the function con_check_read_finish of the file /protocol.csp. Such manipulation of the argument group_name/IP-FROM leads to command injection. It is possible to launch the attack remotely. The exploit ha…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1536,56 +1486,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Control Web Panel (CWP) before webpanel_version 1.16 contains an arbitrary file write and OS command injection vulnerability in the phpini_editor user panel module that allows attackers with access to the module to write attacker-controlled content to arbitrary paths and execute …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120196",
-   "publicado": "2026-11-01",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.01687,
-   "epss_percentil": 0.77161,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Wavlink",
-   "cwe": [
-    "CWE-77",
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was detected in WAVLINK WN579X3-D V250402. This affects the function port_forward of the file /cgi-bin/wapi.cgi. The manipulation of the argument Name results in os command injection. The attack may be performed from remote. The exploit is now public and may be us…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120197",
-   "publicado": "2026-11-01",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.01687,
-   "epss_percentil": 0.7716,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Wavlink",
-   "cwe": [
-    "CWE-77",
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A flaw has been found in WAVLINK WL-WN530HG4B M_V260724. This impacts the function port_forward of the file /cgi-bin/wapi.cgi. This manipulation of the argument Name causes os command injection. It is possible to initiate the attack remotely. The exploit has been published and ma…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -3725,31 +3625,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Improper Neutralization of Special Elements Used in an Expression Language Statement ('Expression Language Injection') in EmailServices in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only OFBTOOLS_VIEW and ACCOUNTING_VIEW, th…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120225",
-   "publicado": "2026-11-01",
-   "prioridad": "alta",
-   "cvss": 8.5,
-   "gravedad": "high",
-   "epss": 0.00727,
-   "epss_percentil": 0.54407,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22",
-    "CWE-23"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A weakness has been identified in Oray Pugongying X5 Pro up to 7.6.1. Affected by this vulnerability is the function config_restore_ex of the file /etc/openwrt_release. This manipulation of the argument filename causes relative path traversal. The attack may be initiated remotely…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14780,6 +14655,138 @@
    "descripcion": "Kore before 4.3.0 contains an integer underflow vulnerability in HTTP request body handling that allows unauthenticated attackers to bypass http_body_max by sending more body bytes than declared. Attackers can send oversized first segments over many concurrent POST, PUT or DELETE…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-103939",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 5.4,
+   "gravedad": "medium",
+   "epss": 0.00389,
+   "epss_percentil": 0.33204,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "OpenEMR is a free and open source electronic health records and medical practice management application. Prior to 8.3.0, interface/modules/custom_modules/oe-module-weno/scripts/file_download.php has no ACL or CSRF check and ignores the result of validateAdminCredentials(). When t…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120320",
+   "publicado": "2026-11-02",
+   "prioridad": "alta",
+   "cvss": 2.0,
+   "gravedad": "low",
+   "epss": 0.00389,
+   "epss_percentil": 0.33307,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-20",
+    "CWE-502"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A vulnerability was determined in jxxghp MoviePilot up to 3.1.2. This vulnerability affects the function WorkflowExecutor.restore_context of the file app/chain/workflow.py of the component Workflow Fork Endpoint. Executing a manipulation can lead to deserialization. The attack ca…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-71550",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 9.9,
+   "gravedad": "critical",
+   "epss": 0.00388,
+   "epss_percentil": 0.33175,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-98"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. Prior to 7.15.2 and 8.10.2, the workflow controller uses a path-traversal-capable aow_action value in require_once() without constraining the resolved file. The affected flow…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-58868",
+   "publicado": "2026-11-02",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00388,
+   "epss_percentil": 0.33175,
+   "kev": false,
+   "categoria": "android",
+   "fabricante": "Google Android",
+   "cwe": [
+    "CWE-787"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": "github",
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "In onOutputReceived of FrameDecoder.cpp, there is a possible out-of-bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.",
+   "avisos": [
+    {
+     "fuente": "thehackernews",
+     "nombre": "The Hacker News",
+     "enlace": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
+    },
+    {
+     "fuente": "incibe",
+     "nombre": "INCIBE-CERT",
+     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-de-seguridad-de-android-noviembre-2026"
+    }
+   ],
+   "avisos_total": 2
+  },
+  {
+   "cve": "CVE-2026-85111",
+   "publicado": "2026-11-06",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00388,
+   "epss_percentil": 0.33152,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Apache",
+   "cwe": [
+    "CWE-770"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Allocation of Resources Without Limits or Throttling in Apache James Mime4J library prior version 0.8.15 allows Denial of Service upon parsing Mime messages. Users are recommended to upgrade to Apache James server 3.9.1 that relies on fixed MIME4J 0.8.15 which addresses the issue…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14796,13 +14803,24 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 328,
+   "maliciosos": 329,
    "maliciosos_mas": false,
    "avisos": 8,
    "avisos_mas": false,
    "criticos": 2,
    "altos": 2,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-r6cf-96rv-f56v",
+     "cve": null,
+     "paquete": "@htooayelwinict/travis234",
+     "resumen": "Malware in @htooayelwinict/travis234",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-08"
+    },
     {
      "ghsa": "GHSA-xf64-9h92-4jxq",
      "cve": null,
@@ -14841,17 +14859,6 @@
      "cve": null,
      "paquete": "modelsdesk",
      "resumen": "Malware in modelsdesk",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-06"
-    },
-    {
-     "ghsa": "GHSA-j6x3-5wfw-v23f",
-     "cve": null,
-     "paquete": "kampodine",
-     "resumen": "Malware in kampodine",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14897,7 +14904,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 33,
+   "maliciosos": 39,
    "maliciosos_mas": false,
    "avisos": 5,
    "avisos_mas": false,
@@ -14905,10 +14912,10 @@
    "altos": 3,
    "ejemplos_maliciosos": [
     {
-     "ghsa": "GHSA-q95f-rr76-j36f",
+     "ghsa": "GHSA-fh9h-99qg-6xm4",
      "cve": null,
-     "paquete": "twitch-stream-py",
-     "resumen": "Malicious code in twitch-stream-py (PyPI)",
+     "paquete": "rainbowcolors",
+     "resumen": "Malicious code in rainbowcolors (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14916,10 +14923,10 @@
      "publicado": "2026-11-08"
     },
     {
-     "ghsa": "GHSA-j4qg-f3r8-33f3",
+     "ghsa": "GHSA-cj88-j9xh-9cwj",
      "cve": null,
-     "paquete": "pyuserfox",
-     "resumen": "Malicious code in pyuserfox (PyPI)",
+     "paquete": "infra-libs",
+     "resumen": "Malicious code in infra-libs (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14927,10 +14934,10 @@
      "publicado": "2026-11-08"
     },
     {
-     "ghsa": "GHSA-hqrq-q4mq-qwpp",
+     "ghsa": "GHSA-q9wx-v688-22hj",
      "cve": null,
-     "paquete": "pyuserox",
-     "resumen": "Malicious code in pyuserox (PyPI)",
+     "paquete": "supercolor-tui",
+     "resumen": "Malicious code in supercolor-tui (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14938,26 +14945,26 @@
      "publicado": "2026-11-08"
     },
     {
-     "ghsa": "GHSA-3qwc-2vj2-6vc8",
+     "ghsa": "GHSA-95c3-v4h5-2pg5",
      "cve": null,
-     "paquete": "gcp-log-poc",
-     "resumen": "Malicious code in gcp-log-poc (PyPI)",
+     "paquete": "chromacli",
+     "resumen": "Malicious code in chromacli (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-07"
+     "publicado": "2026-11-08"
     },
     {
-     "ghsa": "GHSA-c8hx-79hf-pwfm",
+     "ghsa": "GHSA-6j7m-w72r-qp6x",
      "cve": null,
-     "paquete": "qzc690384",
-     "resumen": "Malicious code in qzc690384 (PyPI)",
+     "paquete": "expect-tests",
+     "resumen": "Malicious code in expect-tests (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-07"
+     "publicado": "2026-11-08"
     }
    ],
    "ejemplos_graves": [
@@ -15212,13 +15219,57 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 6,
+   "maliciosos": 10,
    "maliciosos_mas": false,
    "avisos": 0,
    "avisos_mas": false,
    "criticos": 0,
    "altos": 0,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-cjv6-h9qm-8rh2",
+     "cve": null,
+     "paquete": "dynamic-object-handler",
+     "resumen": "Malicious code in dynamic-object-handler (RubyGems)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-08"
+    },
+    {
+     "ghsa": "GHSA-cp9w-g6w9-gq4r",
+     "cve": null,
+     "paquete": "donjon-ledger",
+     "resumen": "Malicious code in donjon-ledger (RubyGems)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-08"
+    },
+    {
+     "ghsa": "GHSA-37p4-q3w5-83pw",
+     "cve": null,
+     "paquete": "control-character-command-injection",
+     "resumen": "Malicious code in control-character-command-injection (RubyGems)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-08"
+    },
+    {
+     "ghsa": "GHSA-g75m-rp8v-87w3",
+     "cve": null,
+     "paquete": "agentic-call-control",
+     "resumen": "Malicious code in agentic-call-control (RubyGems)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-08"
+    },
     {
      "ghsa": "GHSA-cv4q-gcjm-77v8",
      "cve": null,
@@ -15229,50 +15280,6 @@
      "epss": null,
      "corregido_en": null,
      "publicado": "2026-11-04"
-    },
-    {
-     "ghsa": "GHSA-vqw2-j6mj-82hq",
-     "cve": null,
-     "paquete": "brida-frida-hooks",
-     "resumen": "Malicious code in brida-frida-hooks (RubyGems)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-04"
-    },
-    {
-     "ghsa": "GHSA-8v7q-mrx4-jvfg",
-     "cve": null,
-     "paquete": "dopc-client",
-     "resumen": "Malicious code in dopc-client (RubyGems)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-03"
-    },
-    {
-     "ghsa": "GHSA-x49r-jpx2-h4h9",
-     "cve": null,
-     "paquete": "shoaib-unity",
-     "resumen": "Malicious code in shoaib-unity (RubyGems)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-02"
-    },
-    {
-     "ghsa": "GHSA-ppjw-cwjq-6w82",
-     "cve": null,
-     "paquete": "intercom-react-native-example-e2e-tests",
-     "resumen": "Malicious code in intercom-react-native-example-e2e-tests (RubyGems)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-02"
     }
    ],
    "ejemplos_graves": [],
@@ -15366,16 +15373,16 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 672,
+   "cves": 681,
    "criticos": 40,
-   "altos": 194,
+   "altos": 192,
    "urgentes": 5,
    "epss_max": 0.0409,
    "fabricantes": [
     "WordPress (plugins)",
     "Wordpress",
-    "Joomla",
     "Woocommerce",
+    "Joomla",
     "Froxlor"
    ],
    "kev_recientes": [
@@ -15625,7 +15632,7 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 30,
+   "cves": 29,
    "criticos": 5,
    "altos": 6,
    "urgentes": 1,
@@ -15976,9 +15983,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1214,
-   "criticos": 68,
-   "altos": 422,
+   "cves": 1199,
+   "criticos": 65,
+   "altos": 420,
    "urgentes": 11,
    "epss_max": 0.1558,
    "fabricantes": [
@@ -16062,62 +16069,6 @@
    ]
   },
   {
-   "categoria": "iot",
-   "nombre": "Routers domésticos, IoT y cámaras",
-   "estado": "riesgo_alto",
-   "cves": 46,
-   "criticos": 28,
-   "altos": 15,
-   "urgentes": 12,
-   "epss_max": 0.0321,
-   "fabricantes": [
-    "Wavlink",
-    "TOTOLINK",
-    "Linksys",
-    "Edimax",
-    "Tenda"
-   ],
-   "kev_recientes": [],
-   "kev_recientes_total": 0,
-   "destacados": [
-    {
-     "cve": "CVE-2026-120276",
-     "fabricante": "Wavlink",
-     "cvss": 9.3,
-     "epss": 0.03211,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-121930",
-     "fabricante": "Linksys",
-     "cvss": 9.1,
-     "epss": 0.02722,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-121931",
-     "fabricante": "Linksys",
-     "cvss": 9.1,
-     "epss": 0.02722,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-122051",
-     "fabricante": "Edimax",
-     "cvss": 9.3,
-     "epss": 0.02575,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-120277",
-     "fabricante": "Wavlink",
-     "cvss": 9.3,
-     "epss": 0.02451,
-     "prioridad": "urgente"
-    }
-   ]
-  },
-  {
    "categoria": "oss",
    "nombre": "Librerías de código abierto",
    "estado": "riesgo_alto",
@@ -16165,6 +16116,62 @@
      "fabricante": "Código abierto (GitHub)",
      "cvss": 9.8,
      "epss": 0.00833,
+     "prioridad": "urgente"
+    }
+   ]
+  },
+  {
+   "categoria": "iot",
+   "nombre": "Routers domésticos, IoT y cámaras",
+   "estado": "riesgo_alto",
+   "cves": 42,
+   "criticos": 26,
+   "altos": 13,
+   "urgentes": 10,
+   "epss_max": 0.0321,
+   "fabricantes": [
+    "Wavlink",
+    "TOTOLINK",
+    "Linksys",
+    "Edimax",
+    "Tenda"
+   ],
+   "kev_recientes": [],
+   "kev_recientes_total": 0,
+   "destacados": [
+    {
+     "cve": "CVE-2026-120276",
+     "fabricante": "Wavlink",
+     "cvss": 9.3,
+     "epss": 0.03211,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-121930",
+     "fabricante": "Linksys",
+     "cvss": 9.1,
+     "epss": 0.02722,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-121931",
+     "fabricante": "Linksys",
+     "cvss": 9.1,
+     "epss": 0.02722,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-122051",
+     "fabricante": "Edimax",
+     "cvss": 9.3,
+     "epss": 0.02575,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-120277",
+     "fabricante": "Wavlink",
+     "cvss": 9.3,
+     "epss": 0.02451,
      "prioridad": "urgente"
     }
    ]
