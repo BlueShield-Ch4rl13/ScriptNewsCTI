@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-08 19:27",
+ "generado_utc": "2026-11-09 00:36",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,20 +10,20 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3319,
-  "criticos": 304,
+  "cves": 3307,
+  "criticos": 302,
   "explotados": 2,
-  "urgentes": 43,
+  "urgentes": 41,
   "epss_10": 1,
   "sin_puntuar": 226,
   "por_prioridad": {
    "explotada": 2,
-   "urgente": 43,
-   "alta": 1596,
+   "urgente": 41,
+   "alta": 1589,
    "media": 1272,
-   "baja": 406
+   "baja": 403
   },
-  "paquetes_maliciosos": 380,
+  "paquetes_maliciosos": 376,
   "exploit_publico": 1,
   "poc_github": 38,
   "ransomware": 0,
@@ -120,31 +120,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-120276",
-   "publicado": "2026-11-02",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.03211,
-   "epss_percentil": 0.8826,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Wavlink",
-   "cwe": [
-    "CWE-77",
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A weakness has been identified in WAVLINK WN536AX6-A V260507_2.0.0. This vulnerability affects the function sub_416760 of the file /bin/ioos of the component Web Management Interface. This manipulation of the argument group_name causes os command injection. It is possible to init…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-121930",
    "publicado": "2026-11-04",
    "prioridad": "urgente",
@@ -216,31 +191,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "A flaw has been found in Edimax BR-6208AC 1.32. Affected by this vulnerability is an unknown functionality of the file /goform/mp. Executing a manipulation can lead to command injection. The attack may be launched remotely. The exploit has been published and may be used. The vend…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120277",
-   "publicado": "2026-11-02",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.02451,
-   "epss_percentil": 0.84492,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Wavlink",
-   "cwe": [
-    "CWE-77",
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A security vulnerability has been detected in WAVLINK WN536AX6-A V260507_2.0.0. This issue affects the function sub_41a1d8 of the file /bin/ioos of the component WireGuard CLI Group Handler. Such manipulation of the argument group_name leads to os command injection. It is possibl…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14766,6 +14716,54 @@
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to take over ownership of other organizations due to broken object-level authorization. Access checks on organization objects are incomplete, which could allow own…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-118193",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00397,
+   "epss_percentil": 0.34181,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-269"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.19.1 via the `donor_default_user_role` parameter. This is due to the `sanitize_option_donor_default_user_role()` function apply…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-112338",
+   "publicado": "2026-11-06",
+   "prioridad": "alta",
+   "cvss": 8.2,
+   "gravedad": "high",
+   "epss": 0.00397,
+   "epss_percentil": 0.34187,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Wazuh from 4.3.0 before 4.14.9 contains a server-side request forgery vulnerability in the GitHub module (wm_github.c) that trusts unvalidated Link rel=\"next\" pagination URLs. Attackers controlling the next-page URL can make the manager send requests with the GitHub API token to …",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14782,7 +14780,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 329,
+   "maliciosos": 325,
    "maliciosos_mas": false,
    "avisos": 8,
    "avisos_mas": false,
@@ -14883,13 +14881,46 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 41,
+   "maliciosos": 42,
    "maliciosos_mas": false,
    "avisos": 5,
    "avisos_mas": false,
    "criticos": 0,
    "altos": 3,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-w2rp-hfm9-fh77",
+     "cve": null,
+     "paquete": "bundyfed",
+     "resumen": "Malicious code in bundyfed (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-09"
+    },
+    {
+     "ghsa": "GHSA-c4fv-65c3-6g99",
+     "cve": null,
+     "paquete": "parseyaml",
+     "resumen": "Malicious code in parseyaml (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-09"
+    },
+    {
+     "ghsa": "GHSA-vc26-46g2-h3rp",
+     "cve": null,
+     "paquete": "extrahtml",
+     "resumen": "Malicious code in extrahtml (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-09"
+    },
     {
      "ghsa": "GHSA-c9jc-238p-3h46",
      "cve": null,
@@ -14906,39 +14937,6 @@
      "cve": null,
      "paquete": "super-color",
      "resumen": "Malicious code in super-color (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-08"
-    },
-    {
-     "ghsa": "GHSA-fh9h-99qg-6xm4",
-     "cve": null,
-     "paquete": "rainbowcolors",
-     "resumen": "Malicious code in rainbowcolors (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-08"
-    },
-    {
-     "ghsa": "GHSA-cj88-j9xh-9cwj",
-     "cve": null,
-     "paquete": "infra-libs",
-     "resumen": "Malicious code in infra-libs (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-08"
-    },
-    {
-     "ghsa": "GHSA-q9wx-v688-22hj",
-     "cve": null,
-     "paquete": "supercolor-tui",
-     "resumen": "Malicious code in supercolor-tui (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15198,7 +15196,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 10,
+   "maliciosos": 9,
    "maliciosos_mas": false,
    "avisos": 0,
    "avisos_mas": false,
@@ -15352,7 +15350,7 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 729,
+   "cves": 732,
    "criticos": 48,
    "altos": 219,
    "urgentes": 5,
@@ -15433,9 +15431,9 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 440,
+   "cves": 428,
    "criticos": 71,
-   "altos": 154,
+   "altos": 147,
    "urgentes": 3,
    "epss_max": 0.0191,
    "fabricantes": [
@@ -15740,14 +15738,14 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 23,
+   "cves": 24,
    "criticos": 6,
-   "altos": 9,
+   "altos": 10,
    "urgentes": 0,
    "epss_max": 0.0063,
    "fabricantes": [
-    "Docker",
     "AWS",
+    "Docker",
     "Amazon",
     "Terraform",
     "Google Cloud"
@@ -15970,7 +15968,7 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1214,
+   "cves": 1213,
    "criticos": 63,
    "altos": 429,
    "urgentes": 11,
@@ -16111,11 +16109,11 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 36,
-   "criticos": 26,
+   "cves": 33,
+   "criticos": 24,
    "altos": 7,
-   "urgentes": 11,
-   "epss_max": 0.0321,
+   "urgentes": 9,
+   "epss_max": 0.0272,
    "fabricantes": [
     "TOTOLINK",
     "Linksys",
@@ -16126,13 +16124,6 @@
    "kev_recientes": [],
    "kev_recientes_total": 0,
    "destacados": [
-    {
-     "cve": "CVE-2026-120276",
-     "fabricante": "Wavlink",
-     "cvss": 9.3,
-     "epss": 0.03211,
-     "prioridad": "urgente"
-    },
     {
      "cve": "CVE-2026-121930",
      "fabricante": "Linksys",
@@ -16155,10 +16146,17 @@
      "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-120277",
+     "cve": "CVE-2026-121932",
+     "fabricante": "Linksys",
+     "cvss": 10.0,
+     "epss": 0.02381,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-120279",
      "fabricante": "Wavlink",
      "cvss": 9.3,
-     "epss": 0.02451,
+     "epss": 0.01989,
      "prioridad": "urgente"
     }
    ]
