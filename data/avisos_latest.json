@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-09 00:37",
+ "generado_utc": "2026-11-09 10:58",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -15,7 +15,7 @@
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
    "estado": "ok",
-   "avisos": 16
+   "avisos": 18
   },
   {
    "id": "incibe_sci",
@@ -96,7 +96,7 @@
    "idioma": "en",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "estado": "ok",
-   "avisos": 1
+   "avisos": 0
   },
   {
    "id": "paloalto",
@@ -168,7 +168,7 @@
    "idioma": "en",
    "url": "https://www.zerodayinitiative.com/rss/published/",
    "estado": "ok",
-   "avisos": 50
+   "avisos": 47
   },
   {
    "id": "exploitdb",
@@ -222,7 +222,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 28
+   "avisos": 29
   },
   {
    "id": "bleeping",
@@ -231,7 +231,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 16
+   "avisos": 15
   },
   {
    "id": "securityweek",
@@ -240,23 +240,23 @@
    "idioma": "en",
    "url": "https://www.securityweek.com/feed/",
    "estado": "ok",
-   "avisos": 14
+   "avisos": 13
   }
  ],
  "resumen": {
-  "avisos": 279,
+  "avisos": 276,
   "por_tipo": {
-   "fabricante": 89,
-   "noticia": 63,
-   "cert": 74,
-   "exploit": 53
+   "cert": 76,
+   "noticia": 62,
+   "fabricante": 88,
+   "exploit": 50
   },
   "explotados": 49,
-  "dia_cero": 6,
+  "dia_cero": 4,
   "sin_parche": 17,
   "criticos": 22,
   "exploit_publico": 13,
-  "cves_citados": 293,
+  "cves_citados": 292,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -319,17 +319,18 @@
    "ultimo": "2026-11-05T15:52Z"
   },
   {
-   "cve": "CVE-2026-98432",
+   "cve": "CVE-2026-19868",
    "fuentes": [
-    "fortinet",
+    "cisa",
     "incibe",
+    "securityweek",
     "thehackernews"
    ],
    "avisos": 4,
-   "kev": false,
-   "cvss": null,
-   "epss": 0.0076,
-   "ultimo": "2026-11-04T08:25Z"
+   "kev": true,
+   "cvss": 7.5,
+   "epss": 0.00621,
+   "ultimo": "2026-11-09T08:15Z"
   },
   {
    "cve": "CVE-2026-123158",
@@ -343,6 +344,18 @@
    "cvss": 8.1,
    "epss": 0.01014,
    "ultimo": "2026-11-06T15:21Z"
+  },
+  {
+   "cve": "CVE-2026-98432",
+   "fuentes": [
+    "incibe",
+    "thehackernews"
+   ],
+   "avisos": 3,
+   "kev": false,
+   "cvss": null,
+   "epss": 0.0076,
+   "ultimo": "2026-11-04T08:25Z"
   },
   {
    "cve": "CVE-2024-27834",
@@ -403,21 +416,76 @@
    "cvss": null,
    "epss": 0.0028,
    "ultimo": "2026-11-04T16:00Z"
-  },
-  {
-   "cve": "CVE-2026-119263",
-   "fuentes": [
-    "chrome",
-    "msrc"
-   ],
-   "avisos": 2,
-   "kev": false,
-   "cvss": null,
-   "epss": 0.00271,
-   "ultimo": "2026-11-04T16:00Z"
   }
  ],
  "avisos": [
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en SonicOS de SonicWall",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-sonicos-de-sonicwall",
+   "fecha": "2026-11-09T08:15Z",
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-19868"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": 7.5,
+   "epss_max": 0.0062,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Cross-site Scripting (XSS) almacenado en Tankuam Places",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-xss-almacenado-en-tankuam-places",
+   "fecha": "2026-11-09T08:10Z",
+   "cves": [
+    "CVE-2026-124637"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": true,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+   "enlace": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+   "fecha": "2026-11-09T06:05Z",
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-19868"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": 7.5,
+   "epss_max": 0.0062,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "debian",
    "titulo": "DSA-6616-1 linux - security update",
@@ -3694,51 +3762,6 @@
    "exploitdb": null
   },
   {
-   "fuente": "incibe",
-   "titulo": "Omisión de autenticación en StorageGRID de NetApp",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-storagegrid-de-netapp",
-   "fecha": "2026-11-04T08:25Z",
-   "cves": [
-    "CVE-2026-22058"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0027,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en Dameware de SolarWinds",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-dameware-de-solarwinds",
-   "fecha": "2026-11-04T08:25Z",
-   "cves": [
-    "CVE-2026-28336",
-    "CVE-2026-111497"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111497"
-   ],
-   "explotada": true,
-   "critica": true,
-   "cvss_max": 9.9,
-   "epss_max": 0.8264,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
    "fuente": "incibe_sci",
    "titulo": "Múltiples vulnerabilidades en PowerSYSTEM Center de Subnet Solutions",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-powersystem-center-de-subnet-2",
@@ -3783,6 +3806,51 @@
    "critica": false,
    "cvss_max": 8.6,
    "epss_max": 0.0047,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Omisión de autenticación en StorageGRID de NetApp",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-storagegrid-de-netapp",
+   "fecha": "2026-11-04T08:25Z",
+   "cves": [
+    "CVE-2026-22058"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0027,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en Dameware de SolarWinds",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-dameware-de-solarwinds",
+   "fecha": "2026-11-04T08:25Z",
+   "cves": [
+    "CVE-2026-28336",
+    "CVE-2026-111497"
+   ],
+   "cves_total": 2,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-111497"
+   ],
+   "explotada": true,
+   "critica": true,
+   "cvss_max": 9.9,
+   "epss_max": 0.8264,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5289,7 +5357,7 @@
   },
   {
    "fuente": "incibe_sci",
-   "titulo": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Siemens",
+   "titulo": "[Actualización 09/11/2026] Múltiples vulnerabilidades en productos de Siemens",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-siemens-1",
    "fecha": "2026-11-03T10:48Z",
    "cves": [
@@ -5301,7 +5369,7 @@
    "texto_explotada": false,
    "texto_critica": false,
    "dia_cero": false,
-   "sin_parche": true,
+   "sin_parche": false,
    "kev": [
     "CVE-2026-111497",
     "CVE-2026-109618",
@@ -6220,128 +6288,6 @@
    "kev": [],
    "explotada": false,
    "critica": true,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "bleeping",
-   "titulo": "Ivanti patches two more Connect Secure zero-days chained in attacks",
-   "enlace": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
-   "fecha": "2026-11-02T09:33Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": true,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "fortinet",
-   "titulo": "Linux kernel RCE CVE-2026-98432",
-   "enlace": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
-   "fecha": "2026-11-02T08:00Z",
-   "cves": [
-    "CVE-2026-98432"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0076,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
-   "enlace": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
-   "fecha": "2026-11-02T07:57Z",
-   "cves": [
-    "CVE-2026-111357",
-    "CVE-2026-118527"
-   ],
-   "cves_total": 2,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": true,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111357",
-    "CVE-2026-118527"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": 4.3,
-   "epss_max": 0.0082,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-850: Microsoft Qlib MLflowRecorder Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-850/",
-   "fecha": "2026-11-02T06:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-849: Microsoft Qlib RestrictedUnpickler Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
-   "fecha": "2026-11-02T06:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-848: Microsoft Qlib StaticDataLoader Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
-   "fecha": "2026-11-02T06:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
    "cvss_max": null,
    "epss_max": null,
    "exploit_publico": false,
