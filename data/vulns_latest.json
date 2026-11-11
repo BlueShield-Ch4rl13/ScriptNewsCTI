@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-10 21:19",
+ "generado_utc": "2026-11-11 04:20",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 4605,
-  "criticos": 319,
+  "cves": 4652,
+  "criticos": 333,
   "explotados": 7,
-  "urgentes": 43,
+  "urgentes": 40,
   "epss_10": 2,
-  "sin_puntuar": 316,
+  "sin_puntuar": 290,
   "por_prioridad": {
    "explotada": 7,
-   "urgente": 43,
-   "alta": 2517,
-   "media": 1533,
-   "baja": 505
+   "urgente": 40,
+   "alta": 2543,
+   "media": 1580,
+   "baja": 482
   },
-  "paquetes_maliciosos": 668,
+  "paquetes_maliciosos": 580,
   "exploit_publico": 1,
-  "poc_github": 48,
+  "poc_github": 49,
   "ransomware": 0,
   "dia_cero": 3
  },
@@ -273,8 +273,8 @@
    "cwe": [
     "CWE-356"
    ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
+   "estado_nvd": "Analyzed",
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": true,
@@ -467,31 +467,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-121607",
-   "publicado": "2026-11-04",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.01989,
-   "epss_percentil": 0.80804,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-77",
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was found in Qihoo 360 D603-2, D600-2, D606-6 and D706 up to 6.4.9. This affects the function testspeed_command of the file /fs2/bin/iscm. Performing a manipulation of the argument host results in os command injection. The attack may be initiated remotely. The exp…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-17402",
    "publicado": "2026-11-07",
    "prioridad": "urgente",
@@ -627,7 +602,7 @@
    "cwe": [
     "CWE-94"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
@@ -807,30 +782,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "OpenHuman is an open-source agent harness available as a desktop application and Rust library. Before 0.57.13, a remote direct message received through a configured Yuanbao channel is converted into a generic channel AgentTurnRequest that uses the default tool policy without esta…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-121615",
-   "publicado": "2026-11-04",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00754,
-   "epss_percentil": 0.55428,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Linksys",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was determined in Linksys E5600 1.1.0.26. Affected is an unknown function of the file /cgi-bin/mesh_login.cgi of the component Login Handler. Executing a manipulation can lead to improper authentication. The attack can be launched remotely. The exploit has been pu…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1028,19 +979,18 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-121609",
-   "publicado": "2026-11-04",
+   "cve": "CVE-2026-86005",
+   "publicado": "2026-11-06",
    "prioridad": "urgente",
    "cvss": 9.3,
    "gravedad": "critical",
-   "epss": 0.00501,
-   "epss_percentil": 0.43244,
+   "epss": 0.00468,
+   "epss_percentil": 0.40798,
    "kev": false,
-   "categoria": "iot",
-   "fabricante": "",
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
    "cwe": [
-    "CWE-259",
-    "CWE-798"
+    "CWE-306"
    ],
    "estado_nvd": "Deferred",
    "exploit_publico": null,
@@ -1048,7 +998,7 @@
    "ransomware": false,
    "dia_cero": false,
    "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was identified in Qihoo 360 Whole Home Router M5 4.0.17.1566. This issue affects the function Home of the file /etc/init.d/mpt of the component Boot Script. The manipulation leads to hard-coded credentials. Remote exploitation of the attack is possible. The exploi…",
+   "descripcion": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, the administrative BullMQ dashboard was mounted without an authentication check. The vulnerable surface is the Bull Board/BullMQ administ…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1222,31 +1172,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-121606",
-   "publicado": "2026-11-04",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.0024,
-   "epss_percentil": 0.15151,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-345",
-    "CWE-347"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability has been found in Qihoo 360 D621-2, D603-2, D600-2, D619, D606-6 and D706 up to 6.4.9. Affected by this issue is the function verify_sign of the file fs2/bin/iscm of the component Firmware Signature Verification. Such manipulation of the argument sign leads to imp…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-54378",
    "publicado": "2026-11-04",
    "prioridad": "urgente",
@@ -1391,30 +1316,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-92198",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.2,
-   "gravedad": "high",
-   "epss": 0.02798,
-   "epss_percentil": 0.86567,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-611"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases getSource XML External Entity Processing Information Disclosure Vulnerability. This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Quest Foglight for Databases. Authentication is not requi…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-121930",
    "publicado": "2026-11-04",
    "prioridad": "alta",
@@ -1461,30 +1362,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "A security vulnerability has been detected in Linksys WRT54GL 4.30.18. The impacted element is the function system of the file apply.cgi of the component Traceroute Diagnostic Function. Such manipulation of the argument traceroute_ip leads to os command injection. The attack can …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92185",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.01888,
-   "epss_percentil": 0.79715,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-611"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases AbstractParser XML External Entity Processing Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Quest Foglight for Databases. Authentication is not required …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1596,31 +1473,6 @@
    "avisos_total": 2
   },
   {
-   "cve": "CVE-2026-121608",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.01308,
-   "epss_percentil": 0.7084,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-77",
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was determined in Qihoo 360 D603-2, D600-2 and D606-6 up to 6.3.2. This vulnerability affects the function on_push_message of the file /fs2/bin/iscm of the component Timezone Push Handler. Executing a manipulation of the argument tz can lead to os command injectio…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-125399",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -1665,150 +1517,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Improper neutralization of special elements used in an OS command ('OS command injection') vulnerability in TÜBİTAK BİLGEM Software Technologies Research Institute Pardus Boot Repair allows OS Command Injection. This issue affects Pardus Boot Repair: from 1.0.8 before 1.0.9.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92186",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.01273,
-   "epss_percentil": 0.70111,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases paFnUploadFileAndCreateInfo Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92187",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.01273,
-   "epss_percentil": 0.70112,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases extractAndCreateUploadInfoList Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to explo…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92192",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.01273,
-   "epss_percentil": 0.70111,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases installLicense Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerab…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92194",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.01273,
-   "epss_percentil": 0.7011,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases loadManageServerLicense Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92195",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.01273,
-   "epss_percentil": 0.70111,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases loadEvolveLicense Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulne…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92197",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.01273,
-   "epss_percentil": 0.70111,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases unzipFile Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1972,7 +1680,7 @@
    "cwe": [
     "CWE-863"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -2303,30 +2011,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-118865",
-   "publicado": "2026-11-03",
-   "prioridad": "alta",
-   "cvss": 7.3,
-   "gravedad": "high",
-   "epss": 0.00881,
-   "epss_percentil": 0.59435,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "An authenticated OS command injection vulnerability exists in the Offline Download component (USB storage allocation) of Archer AX3000 v2. When a USB storage device is attached, an authenticated administrator can submit a crafted path value containing shell metacharacters that is…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-15266",
    "publicado": "2026-11-08",
    "prioridad": "alta",
@@ -2520,35 +2204,11 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-114550",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.1,
-   "gravedad": "high",
-   "epss": 0.00842,
-   "epss_percentil": 0.58235,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-787"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerabilit…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-123959",
    "publicado": "2026-11-07",
    "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
+   "cvss": 8.5,
+   "gravedad": "high",
    "epss": 0.00841,
    "epss_percentil": 0.58193,
    "kev": false,
@@ -2563,7 +2223,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "poc",
    "descripcion": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. The impacted element is the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument langType results in buffer overflow. The attack can be initiated remotely. The explo…",
    "avisos": [],
    "avisos_total": 0
@@ -2754,7 +2414,7 @@
     "CWE-294",
     "CWE-613"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -3031,31 +2691,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-121618",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00752,
-   "epss_percentil": 0.55373,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Linksys",
-   "cwe": [
-    "CWE-200",
-    "CWE-284"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A weakness has been identified in Linksys E5600 1.1.0.26. This affects an unknown part of the file /cgi-bin/fqc.cgi of the component Factory Quality Control. This manipulation causes information disclosure. Remote exploitation of the attack is possible. The exploit has been made …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-112319",
    "publicado": "2026-11-09",
    "prioridad": "alta",
@@ -3189,7 +2824,7 @@
    "cwe": [
     "CWE-917"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -3636,7 +3271,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Authorization bypass through user-controlled key in Entra Device Registration allows an unauthorized attacker to elevate privileges over a network.",
    "avisos": [],
    "avisos_total": 0
@@ -3967,7 +3602,7 @@
    "cwe": [
     "CWE-1336"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -4172,30 +3807,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-92196",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00629,
-   "epss_percentil": 0.50484,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1336"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases renderTemplateString Server-Side Template Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to expl…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-123963",
    "publicado": "2026-11-07",
    "prioridad": "alta",
@@ -4265,30 +3876,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "rConfig Core 8.0.0 before 8.2.19 and rConfig Pro before 8.4.1 contain a deserialization of untrusted data vulnerability that allows unauthenticated network attackers to execute arbitrary code by pushing a crafted serialized job onto the Redis-backed Laravel Horizon queue, which r…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92190",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00621,
-   "epss_percentil": 0.50124,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases baseRmiServiceExporter Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not require…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -4378,7 +3965,7 @@
    "cwe": [
     "CWE-94"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -4451,7 +4038,7 @@
    "cwe": [
     "CWE-863"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -4510,30 +4097,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-92189",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00608,
-   "epss_percentil": 0.49451,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-73"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases writeTopologySectionToFile External Control of File Path Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not require…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-125086",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -4583,31 +4146,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-121597",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00601,
-   "epss_percentil": 0.4911,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "TOTOLINK",
-   "cwe": [
-    "CWE-119",
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A weakness has been identified in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This affects the function setAppEasyWizardConfig of the file /cgi-bin/cstecgi.cgi of the component Easy Setup Wizard Handler. Executing a manipulation of the argument functionType can lead to stack-based bu…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-77439",
    "publicado": "2026-11-05",
    "prioridad": "alta",
@@ -4629,30 +4167,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "Immich is a self-hosted photo and video management solution. Prior to 3.0.3, an authenticated user with editor access to a shared album can change the existing owner's role because album member role updates do not protect the owner from modification. By demoting the owner and the…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92188",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00599,
-   "epss_percentil": 0.49017,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-306"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases ForgeMBeanServerSupport Missing Authentication Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to explo…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -4828,30 +4342,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-114549",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00584,
-   "epss_percentil": 0.48239,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-122"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "NoMachine nxwebrunner Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of NoMachine. Authentication is not required to exploit this vulnerability. The specific flaw exist…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-125117",
    "publicado": "2026-11-09",
    "prioridad": "alta",
@@ -4889,7 +4379,7 @@
    "cwe": [
     "CWE-1336"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -5395,7 +4885,7 @@
     "CWE-770",
     "CWE-862"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -5563,7 +5053,7 @@
    "cwe": [
     "CWE-290"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -5622,6 +5112,30 @@
    "avisos_total": 0
   },
   {
+   "cve": "CVE-2026-124318",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.6,
+   "gravedad": "high",
+   "epss": 0.00557,
+   "epss_percentil": 0.46758,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-502"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Treeio through 2.0 contains an insecure deserialization vulnerability in UpdateRecord.get_format_strings and ModuleSetting.loads that allows staff users to execute code via unverified pickle data. Attackers can store a crafted base64 pickle payload in an UpdateRecord format_strin…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
    "cve": "CVE-2026-58273",
    "publicado": "2026-11-05",
    "prioridad": "alta",
@@ -5642,30 +5156,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "Rucio is a scientific data management framework. From 1.16.1 until 35.9.0, 38.6.0, and 41.0.0rc1, the /credentials/signurl endpoint reads X-Rucio-Account instead of the account stored in request.environ['issuer'] by token authentication. Any authenticated low-privilege user can s…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-124318",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00557,
-   "epss_percentil": 0.46758,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "Treeio through 2.0 contains an insecure deserialization vulnerability in UpdateRecord.get_format_strings and ModuleSetting.loads that allows staff users to execute code via unverified pickle data. Attackers can store a crafted base64 pickle payload in an UpdateRecord format_strin…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -5955,30 +5445,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. From 6.0.0 until 6.13.12, 7.8.13, 8.24.7, and 9.11.4, Mongoose stores the connection-level sanitizeFilter option in Connection.config, but Query.prototype._castConditions() and query casti…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-112354",
-   "publicado": "2026-11-03",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.0054,
-   "epss_percentil": 0.45759,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1392"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Etrel INCH AC charging station management web interface prior to firmware versions 7.1.2 and 8.0.1 contains a hard-coded default credentials vulnerability that allows remote attackers to gain full Administrator access by authenticating with the factory-default account. Attackers …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6442,30 +5908,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-120637",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00527,
-   "epss_percentil": 0.44999,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-489"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "CGI versions before 5.00 for Perl take request parameters from the process command line arguments for an unrecognised REQUEST_METHOD. For a REQUEST_METHOD such as OPTIONS, CGI falls through to its offline debugging mode, which is on by default, and builds the parameters and path_…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-116568",
    "publicado": "2026-11-05",
    "prioridad": "alta",
@@ -6610,30 +6052,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-120647",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00521,
-   "epss_percentil": 0.44555,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-116"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "CGI versions before 5.00 for Perl allow Content-Disposition parameter injection via unescaped double quotes in the header attachment filename. header(-attachment => $name) writes $name into the quoted filename parameter of Content-Disposition without escaping double quotes. An ap…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-114604",
    "publicado": "2026-11-05",
    "prioridad": "alta",
@@ -6654,31 +6072,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "GraphQL Tools provides utilities for building, stitching, and mocking GraphQL schemas. From 10.10.1 until 12.0.2, the @graphql-tools/utils mergeIncrementalResult helper passes incrementalResult.path segments to setObjectKeyPath without runtime primitive-type validation. A non-pri…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-121535",
-   "publicado": "2026-11-03",
-   "prioridad": "alta",
-   "cvss": 2.9,
-   "gravedad": "low",
-   "epss": 0.00521,
-   "epss_percentil": 0.44604,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-307",
-    "CWE-799"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was found in miroslavpejic85 MiroTalk P2P up to 2.0.87. This vulnerability affects the function checkPassword of the file app/src/server.js of the component Room Action Handler. The manipulation results in improper restriction of excessive authentication attempts.…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6919,78 +6312,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information due to server-side request forgery. A service that can be reached without authentication could be made to send requests to unintended destinations.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120635",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.1,
-   "gravedad": "high",
-   "epss": 0.0051,
-   "epss_percentil": 0.43878,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-436"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "CGI versions before 5.00 for Perl allow form fields to be smuggled past proxies and WAFs via multipart parsing that differs from the RFCs. The multipart/form-data parser matches the boundary anywhere rather than at the start of a line, uses the boundary without its leading -- for…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-92191",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00509,
-   "epss_percentil": 0.43766,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-863"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Quest Foglight for Databases runScript Incorrect Authorization Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerabi…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120641",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00508,
-   "epss_percentil": 0.4374,
-   "kev": false,
-   "categoria": "microsoft",
-   "fabricante": "Windows",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "CGI versions before 5.00 for Perl return upload filenames with any client-supplied path, including ../ and Windows paths. The name returned for an uploaded file is the filename parameter of the part's Content-Disposition header, unchanged. An application that saves the upload und…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -7431,56 +6752,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-120631",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00495,
-   "epss_percentil": 0.42798,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1333",
-    "CWE-625"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "CGI::Cookie versions from 4.67 before 5.00 for Perl allow denial of service via the client cookie expires value used as a regex in parse. CGI's cookie method reads the Cookie request header through parse, which interpolates the header's expires value unescaped into the substituti…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120645",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00495,
-   "epss_percentil": 0.42798,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1333",
-    "CWE-625"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "CGI versions before 5.00 for Perl allow denial of service via submitted values used as a regex for optgroup selection in scrolling_list. When rendering option groups, scrolling_list marks the selected options by interpolating each selected value, by default taken from the request…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-17339",
    "publicado": "2026-11-07",
    "prioridad": "alta",
@@ -7784,7 +7055,7 @@
    "cwe": [
     "CWE-73"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
@@ -7928,7 +7199,7 @@
    "cwe": [
     "CWE-89"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -8344,7 +7615,7 @@
    "cwe": [
     "CWE-94"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -8375,30 +7646,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "iTerm2 before 3.7.7beta2 has an argument injection vulnerability in the x-man-page: URL handler, allowing an attacker to execute arbitrary commands with the privileges of the logged-in user by inducing the user to open a crafted URL in iTerm2. Percent-encoded NUL characters survi…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120646",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00474,
-   "epss_percentil": 0.41278,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-843"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "CGI versions from 4.71 before 5.00 for Perl allow denial of service via a plain string dereferenced as a symbolic reference in uploadInfo. uploadInfo dereferences its argument and calls its filename method without checking that it is an upload filehandle. A plain string naming a …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -8521,31 +7768,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. Prior to 7.15.2 and 8.10.2, legacy REST methods append an authenticated caller's query parameter as a SQL WHERE clause after insufficient structural validation. The affected …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-121617",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 7.7,
-   "gravedad": "high",
-   "epss": 0.0047,
-   "epss_percentil": 0.40978,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Linksys",
-   "cwe": [
-    "CWE-119",
-    "CWE-787"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A security flaw has been discovered in Linksys E5600 1.1.0.26. Affected by this issue is the function init_multipart of the file /cgi-bin/upload_fw.cgi of the component Header Parser. The manipulation results in out-of-bounds write. The attack may be launched remotely. The exploi…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -8676,30 +7898,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-86005",
-   "publicado": "2026-11-06",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00468,
-   "epss_percentil": 0.40798,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-306"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, the administrative BullMQ dashboard was mounted without an authentication check. The vulnerable surface is the Bull Board/BullMQ administ…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-118494",
    "publicado": "2026-11-05",
    "prioridad": "alta",
@@ -8773,81 +7971,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-121598",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00466,
-   "epss_percentil": 0.40681,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "TOTOLINK",
-   "cwe": [
-    "CWE-119",
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A security vulnerability has been detected in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function strcpy of the file /cgi-bin/cstecgi.cgi of the component Basic Wireless Configuration Handler. The manipulation of the argument wepkey leads to stack-based buffer overf…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-121599",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00466,
-   "epss_percentil": 0.4068,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "TOTOLINK",
-   "cwe": [
-    "CWE-119",
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was detected in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected is the function setWiFiMultipleConfig/delWiFiMultipleConfig of the file /cgi-bin/cstecgi.cgi of the component Multi-SSID Configuration. The manipulation of the argument wepkey2/wepkey3 results in sta…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-121600",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00466,
-   "epss_percentil": 0.40682,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "TOTOLINK",
-   "cwe": [
-    "CWE-119",
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this vulnerability is the function setMacFilterRules of the file /cgi-bin/cstecgi.cgi of the component MAC Filter Handler. This manipulation of the argument addEffect causes stack-based buffer overflow. …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-123957",
    "publicado": "2026-11-07",
    "prioridad": "alta",
@@ -8910,7 +8033,7 @@
    "cwe": [
     "CWE-22"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -9161,30 +8284,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-79405",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.0046,
-   "epss_percentil": 0.40195,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-20"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Transient DOS when processing a malformed NR RRC configuration message due to improper input validation.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-123797",
    "publicado": "2026-11-09",
    "prioridad": "alta",
@@ -9426,6 +8525,31 @@
    "avisos_total": 0
   },
   {
+   "cve": "CVE-2026-123964",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 2.1,
+   "gravedad": "low",
+   "epss": 0.00451,
+   "epss_percentil": 0.39478,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-404",
+    "CWE-835"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A vulnerability was detected in OpenBMB Internet of Agents up to 9d78e88e47160eb42ee1ee8538c05e1c2c47877a. This affects the function launch_goal of the file im_client/communication/communication_layer.py of the component Collaboration Layer. Performing a manipulation of the argum…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
    "cve": "CVE-2026-123831",
    "publicado": "2026-11-06",
    "prioridad": "alta",
@@ -9654,37 +8778,13 @@
    "cwe": [
     "CWE-22"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "The agent_memory module accepts a caller-supplied tenant parameter in create_client(tenant=...). Prior to version 0.50.0, the tenant parameter was not validated before being used to construct filesystem paths for secret resolution. A value containing path traversal sequences (for…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-119084",
-   "publicado": "2026-11-03",
-   "prioridad": "alta",
-   "cvss": 9.2,
-   "gravedad": "critical",
-   "epss": 0.00445,
-   "epss_percentil": 0.38989,
-   "kev": false,
-   "categoria": "virtualizacion",
-   "fabricante": "Amazon",
-   "cwe": [
-    "CWE-470"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Unsafe reflection in the connection parameter and credentials profile handling of Amazon Redshift JDBC Driver before 2.3.0 might allow an actor who can influence the JDBC connection URL or the AWS credentials profile to execute arbitrary code in the application context, provided …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10687,7 +9787,7 @@
    "cwe": [
     "CWE-1287"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -10717,12 +9817,12 @@
    "cwe": [
     "CWE-122"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "SAP Web Dispatcher does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation cou…",
    "avisos": [
     {
@@ -10819,7 +9919,7 @@
    "cwe": [
     "CWE-201"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -10994,54 +10094,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to access internal network resources due to server-side request forgery.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120642",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00424,
-   "epss_percentil": 0.37039,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1173"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "CGI versions before 5.00 for Perl return request-derived values untainted under taint mode. The upload filename, uploadInfo values, some path_info and script_name values, Accept results, and the name lists from url_param and cookie are returned without the taint flag, as is a coo…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-120644",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00424,
-   "epss_percentil": 0.37039,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-116"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "CGI::Cookie versions before 5.00 for Perl allow cookie attribute injection via unvalidated path, domain and expires values. The path, domain and expires values are written into the Set-Cookie header without checking for semicolons or control characters. An application that sets t…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -11359,30 +10411,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-120931",
-   "publicado": "2026-11-03",
-   "prioridad": "alta",
-   "cvss": 9.6,
-   "gravedad": "critical",
-   "epss": 0.0042,
-   "epss_percentil": 0.36685,
-   "kev": false,
-   "categoria": "navegadores",
-   "fabricante": "Google",
-   "cwe": [
-    "CWE-787"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Out of bounds write in WebGL in Google Chrome on on Android prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-53980",
    "publicado": "2026-11-06",
    "prioridad": "alta",
@@ -11551,30 +10579,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-121589",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00419,
-   "epss_percentil": 0.3649,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-704"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A weakness has been identified in spatie url-signer up to 2.1.3. Affected is the function AbstractUrlSigner::validate of the file AbstractUrlSigner.php of the component URL Validation. This manipulation of the argument expires causes incorrect type conversion. It is possible to i…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-115252",
    "publicado": "2026-11-09",
    "prioridad": "alta",
@@ -11613,7 +10617,7 @@
     "CWE-1336",
     "CWE-425"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -11910,7 +10914,7 @@
    "cwe": [
     "CWE-94"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -11934,7 +10938,7 @@
    "cwe": [
     "CWE-94"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -11980,7 +10984,7 @@
    "cwe": [
     "CWE-400"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -12004,7 +11008,7 @@
    "cwe": [
     "CWE-770"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -12028,7 +11032,7 @@
    "cwe": [
     "CWE-400"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -12103,7 +11107,7 @@
    "cwe": [
     "CWE-191"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -12127,7 +11131,7 @@
    "cwe": [
     "CWE-770"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -12151,7 +11155,7 @@
    "cwe": [
     "CWE-770"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -12175,7 +11179,7 @@
    "cwe": [
     "CWE-407"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Deferred",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -12767,54 +11771,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-120651",
-   "publicado": "2026-11-04",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00401,
-   "epss_percentil": 0.34727,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-835"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "CGI versions before 5.00 for Perl allow an infinite loop on a short request body when $DISABLE_UPLOADS is set. When $CGI::PUTDATA_UPLOAD or an upload hook is set, read_postdata_putdata takes a request body that is not a form submission. With $CGI::DISABLE_UPLOADS set, it discards…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-115541",
-   "publicado": "2026-11-03",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00401,
-   "epss_percentil": 0.34638,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-79"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "HumHub Community Edition 1.19.0 contains a stored cross-site scripting vulnerability in the friendship confirmation dialog. An authenticated low-privileged member can save HTML in their first and last name. When another authenticated user clicks Friends for that profile, HumHub p…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-85076",
    "publicado": "2026-11-05",
    "prioridad": "alta",
@@ -12882,31 +11838,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "Replicate Cog through 0.23.1 contains a server-side request forgery vulnerability that allows attackers to cause the Cog process to make server-side HTTP requests by submitting prediction inputs with attacker-controlled URLs that are not validated against the resolved destination…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-104608",
-   "publicado": "2026-11-03",
-   "prioridad": "alta",
-   "cvss": 7.7,
-   "gravedad": "high",
-   "epss": 0.004,
-   "epss_percentil": 0.34628,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1265",
-    "CWE-416"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A remote code execution vulnerability was identified in GitHub Enterprise Server in the Git service (babeld). babeld held references into internal collections while calling into the SSH library, where a re-entrant callback could modify a collection and invalidate those references…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13165,7 +12096,7 @@
    "cwe": [
     "CWE-131"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -13309,7 +12240,7 @@
    "cwe": [
     "CWE-770"
    ],
-   "estado_nvd": "Received",
+   "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -13344,30 +12275,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2022-29966",
-   "publicado": "2026-11-03",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00393,
-   "epss_percentil": 0.33846,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-306"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Emerson Ovation has several protocols that have no authentication, which could allow an attacker to change controller configuration or cause a denial-of-service condition.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-122304",
    "publicado": "2026-11-05",
    "prioridad": "alta",
@@ -13377,11 +12284,11 @@
    "epss_percentil": 0.3367,
    "kev": false,
    "categoria": "otros",
-   "fabricante": "",
+   "fabricante": "Kyverno",
    "cwe": [
     "CWE-863"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -13484,30 +12391,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "langchain4j-aideepin before 3.31.0 contains an insecure direct object reference vulnerability that allows authenticated users to read other users' character-chat conversations by supplying their character uuid. Attackers can request GET /character/{uuid}, which CharacterService.d…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-121727",
-   "publicado": "2026-11-03",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00389,
-   "epss_percentil": 0.33376,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-191"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Kore before 4.3.0 contains an integer underflow vulnerability in HTTP request body handling that allows unauthenticated attackers to bypass http_body_max by sending more body bytes than declared. Attackers can send oversized first segments over many concurrent POST, PUT or DELETE…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13891,7 +12774,7 @@
     "CWE-73",
     "CWE-862"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
@@ -14210,31 +13093,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "WWBN AVideo contains a path traversal vulnerability in plugin/AI/receiveAsync.json.php that allows holders of any valid AI token to write arbitrary .vtt files by injecting traversal sequences into the unsanitized response[lang] parameter. Attackers can send a type=translation req…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-121582",
-   "publicado": "2026-11-03",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00381,
-   "epss_percentil": 0.3238,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-285",
-    "CWE-639"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability has been found in Umami up to 3.4.1. Impacted is an unknown function of the file src/app/api/record/route.ts of the component Record API Endpoint. Such manipulation of the argument Website leads to authorization bypass. The attack may be launched remotely. The exp…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14678,6 +13536,1139 @@
    "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17287",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31589,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Ibm",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery. User-supplied addresses are not sufficiently validated, so the server could be made to send req…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17288",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31591,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Ibm",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17294",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31589,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Ibm",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17365",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.3159,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17381",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.3159,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization validation using user-controlled keys.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17385",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31589,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17388",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.3159,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17397",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31591,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17398",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31591,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17404",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31591,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-124427",
+   "publicado": "2026-11-08",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00372,
+   "epss_percentil": 0.31455,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Craft CMS from 5.0.0 before 5.11.2 contains an authorization bypass vulnerability that allows anonymous GraphQL clients to read out-of-scope section entries via prev/next fields. Attackers can chain next hops from one visible in-scope entry to enumerate entries and read titles, s…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123815",
+   "publicado": "2026-11-09",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.00372,
+   "epss_percentil": 0.31418,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-22",
+    "CWE-434"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "pyLoad is a free and open-source download manager written in Python. Prior to 0.5.0b3.dev102, UnTar._safe_extractall in src/pyload/plugins/extractors/UnTar.py validates archive member paths and link targets but does not call TarInfo.isdev to reject special tar member types before…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115339",
+   "publicado": "2026-11-09",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00372,
+   "epss_percentil": 0.31485,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Windows",
+   "cwe": [
+    "CWE-770"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Insufficient resource limits in Progress Software WS_FTP Server releases prior to 2025.0.5 on Windows could allow an unauthenticated remote attacker to cause denial of service.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123805",
+   "publicado": "2026-11-09",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00372,
+   "epss_percentil": 0.31452,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-125",
+    "CWE-755"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "SIPSorcery is a WebRTC, SIP, and VoIP library for C# and .NET. Prior to 10.0.14, SctpSackChunk.ParseChunk reads the numGapAckBlocks and numDuplicateTSNs fields from an attacker-controlled SCTP SACK chunk without checking that the corresponding entries fit the declared chunk lengt…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-52848",
+   "publicado": "2026-11-04",
+   "prioridad": "alta",
+   "cvss": 9.2,
+   "gravedad": "critical",
+   "epss": 0.0037,
+   "epss_percentil": 0.31168,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-288"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "GLPI is a free asset and IT management software package. From 11.0.0 until 11.0.8, during the login phase, an unauthenticated user could use a crafted URL to skip one-time-password verification, defeating two-factor authentication. This issue is fixed in version 11.0.8.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-100358",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.0037,
+   "epss_percentil": 0.31242,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Suitecrm",
+   "cwe": [
+    "CWE-94"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. Prior to 7.15.2 and 8.10.2, the Studio Dropdown Editor passes $dropdown_name through html_entity_decode() and writes the result verbatim into a PHP language file under custom…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-100109",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00369,
+   "epss_percentil": 0.3107,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "Woocommerce",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": "github",
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The Security For WooCommerce WordPress plugin from 1.0.10 to 1.0.16 does not perform capability checks when creating users through an action available to unauthenticated visitors, and lets the caller choose the new account's role, allowing unauthenticated attackers to create admi…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123531",
+   "publicado": "2026-11-08",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00369,
+   "epss_percentil": 0.31143,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-400"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Vikunja from 1.0.0 before 2.7.1 contains an uncontrolled resource consumption vulnerability that allows authenticated users to bypass service.maxitemsperpage by sending page=0 to /api/v1 list endpoints. Attackers can self-register and repeatedly request page=0 to force unbounded …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-85712",
+   "publicado": "2026-11-06",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00369,
+   "epss_percentil": 0.31081,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, the shared project permission check trusted a caller-controlled team_id and let the teamOwner/teamAdmin branch continue without confirmin…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-122126",
+   "publicado": "2026-11-04",
+   "prioridad": "alta",
+   "cvss": 8.2,
+   "gravedad": "high",
+   "epss": 0.00369,
+   "epss_percentil": 0.31026,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "reSIProcate reTurn client through 1.14.0 contains a heap buffer overflow in TurnTcpSocket::handleReadHeader(), which TurnTlsSocket inherits, that allows malicious TURN servers or on-path attackers to overwrite memory via oversized frame lengths. Attackers can send STUN or Channel…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120015",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00369,
+   "epss_percentil": 0.3106,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "SAP",
+   "cwe": [
+    "CWE-427"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "SAP Host Agent does not sufficiently validate certain inputs. Under certain condition, an attacker with low privileges could abuse the affected functionality to influence an internal component into loading a malicious file under a privileged account. Successful exploitation could…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17355",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.2,
+   "gravedad": "high",
+   "epss": 0.00368,
+   "epss_percentil": 0.30889,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information from internal network resources due to server-side request forgery. Destination checks on outbound requests can be bypassed, which could allow the server to reach…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-111770",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 7.7,
+   "gravedad": "high",
+   "epss": 0.00367,
+   "epss_percentil": 0.30869,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-362"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": "github",
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The Model Context Protocol TypeScript SDK provides TypeScript client and server implementations of the Model Context Protocol. From 2.0.0 until 2.3.0 in @modelcontextprotocol/server, applications that shared one stateless HTTP transport or one McpServer or Server instance among m…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123327",
+   "publicado": "2026-11-06",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00367,
+   "epss_percentil": 0.30869,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "In JetBrains YouTrack before 2026.2.19562 missing authorization in the saved query endpoint allowed disclosure of issue descriptions",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-117545",
+   "publicado": "2026-11-08",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00366,
+   "epss_percentil": 0.30747,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-287"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM webMethods Integration Server 12.1 could allow a remote authenticated attacker to bypass security restrictions due to improper authentication.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-124436",
+   "publicado": "2026-11-08",
+   "prioridad": "alta",
+   "cvss": 8.6,
+   "gravedad": "high",
+   "epss": 0.00366,
+   "epss_percentil": 0.30745,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-863"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "OpenRemote before 1.32.2 contains an improper authorization vulnerability that allows realm administrators to access and modify global resources by calling admin endpoints lacking super administrator checks. Attackers can change the global keycloakUrl via /configuration/manager t…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-125111",
+   "publicado": "2026-11-09",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00366,
+   "epss_percentil": 0.30734,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-400"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Rack is a modular Ruby web server interface. Prior to 2.2.25, 3.1.23, and 3.2.8, Rack::Multipart::Parser can retain parsed data in its internal StringScanner buffer when reads end inside or immediately after multipart headers. An unauthenticated attacker can align many small part…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123281",
+   "publicado": "2026-11-06",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00365,
+   "epss_percentil": 0.30598,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-88"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "In JetBrains Datalore before 2026.4 notebook code could execute commands in the sidecar container via the mount broker",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-124438",
+   "publicado": "2026-11-08",
+   "prioridad": "alta",
+   "cvss": 7.4,
+   "gravedad": "high",
+   "epss": 0.00364,
+   "epss_percentil": 0.30495,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-200"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Scriban before 7.5.2 contains an information disclosure and object manipulation vulnerability that allows template authors to access .NET internals of function values through reflection member accessors. Attackers can use array.map to read Target, Method, or ReturnType on importe…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-88709",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.0,
+   "gravedad": "high",
+   "epss": 0.00364,
+   "epss_percentil": 0.3051,
+   "kev": false,
+   "categoria": "iot",
+   "fabricante": "",
+   "cwe": [
+    "CWE-78"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Improper neutralization of special elements used in an OS command in certain ASUS Router firmware allows an user with physical access to insert a USB device containing a specially crafted directory name, potentially executing arbitrary commands with root privileges. Refer to the …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119749",
+   "publicado": "2026-11-04",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00363,
+   "epss_percentil": 0.30403,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "Wordpress",
+   "cwe": [
+    "CWE-1284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The GetPaid plugin for WordPress before 2.8.63 contains an improper input validation vulnerability that allows unauthenticated attackers to bypass payment processing by submitting a negative item quantity on a public payment form. Attackers can exploit the unchecked quantity valu…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-110776",
+   "publicado": "2026-11-06",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00363,
+   "epss_percentil": 0.3041,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The MDTF – Meta Data and Taxonomies Filter plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'vars' parameter in all versions up to, and including, 1.4.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-12389",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.4,
+   "gravedad": "high",
+   "epss": 0.00362,
+   "epss_percentil": 0.30366,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-502"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "A vulnerability that could lead to a high privileged authenticated user performing a remote code execution attack.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-122236",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 2.1,
+   "gravedad": "low",
+   "epss": 0.00362,
+   "epss_percentil": 0.30258,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-287",
+    "CWE-306"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A vulnerability has been found in OpenHands up to 1.24.0. This impacts an unknown function of the component Landing Page. Such manipulation leads to missing authentication. The attack must be carried out from within the local network. The exploit has been disclosed to the public …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-124078",
+   "publicado": "2026-11-06",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00361,
+   "epss_percentil": 0.30235,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-674",
+    "CWE-776"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "plist.js (npm package 'plist') before 5.0.1 contains an uncontrolled resource consumption vulnerability in the binary property-list parser (parseBinary) that allows unauthenticated attackers to crash a Node.js process by exploiting unmemoized recursive resolution of shared object…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-92857",
+   "publicado": "2026-11-05",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00361,
+   "epss_percentil": 0.30207,
+   "kev": false,
+   "categoria": "linux",
+   "fabricante": "Red Hat",
+   "cwe": [
+    "CWE-20"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Keycloak provides a Dynamic Client Registration feature that allows users with specific tokens to register their own applications. A flaw in how Keycloak validates these registration requests allows an attacker to create a malicious application that forges identity information. B…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-13284",
+   "publicado": "2026-11-04",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00361,
+   "epss_percentil": 0.3016,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-611"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM MQ 9.2.0.0 through 9.2.0.44 LTS, 9.3.0.0 through 9.3.0.42 LTS, 9.4.0.0 through 9.4.0.26 LTS, 9.4.0.0 through 9.4.5.1 CD, and 10.0.0.0 through 10.0.0.5 LTS and CD is vulnerable to an XML external entity injection (XXE) attack when processing XML data. A remote attacker could e…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-13289",
+   "publicado": "2026-11-04",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00361,
+   "epss_percentil": 0.3016,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-611"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM MQ 9.2.0.0 through 9.2.0.44 LTS, 9.3.0.0 through 9.3.0.42 LTS, 9.4.0.0 through 9.4.0.26 LTS, 9.4.0.0 through 9.4.5.1 CD, and 10.0.0.0 through 10.0.0.5 LTS and CD is vulnerable to an XML external entity injection (XXE) attack when processing XML data. A remote attacker could e…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-103002",
+   "publicado": "2026-11-04",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0036,
+   "epss_percentil": 0.30105,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-639",
+    "CWE-862"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. From 2.2.0 until 2.2.2, cluster_apiserver_proxy forwarded an authenticated non-administrator's requests to a selected Kubernetes cluster without a resource-level authorization check…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17108",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00359,
+   "epss_percentil": 0.29962,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Ibm",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17187",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00359,
+   "epss_percentil": 0.29963,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper validation of user-supplied URLs.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17188",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00359,
+   "epss_percentil": 0.29963,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Ibm",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery. When service definitions are imported, references to external resources are not sufficiently restricted, so the server could b…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17325",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00359,
+   "epss_percentil": 0.29964,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper validation of user-supplied URLs.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17327",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00359,
+   "epss_percentil": 0.29963,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17330",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00359,
+   "epss_percentil": 0.29964,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17334",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00359,
+   "epss_percentil": 0.29962,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization via user-controlled keys.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-17352",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00359,
+   "epss_percentil": 0.29962,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14694,81 +14685,70 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 615,
+   "maliciosos": 531,
    "maliciosos_mas": false,
    "avisos": 37,
    "avisos_mas": false,
-   "criticos": 5,
-   "altos": 13,
+   "criticos": 4,
+   "altos": 14,
    "ejemplos_maliciosos": [
     {
-     "ghsa": "GHSA-5mg5-p59w-76r5",
+     "ghsa": "GHSA-cm5x-2764-c8p9",
      "cve": null,
-     "paquete": "react-svg-chunk",
-     "resumen": "Malware in react-svg-chunk",
+     "paquete": "chalks-log",
+     "resumen": "Malware in chalks-log",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-10"
+     "publicado": "2026-11-11"
     },
     {
-     "ghsa": "GHSA-wfqq-mfhj-vpr2",
+     "ghsa": "GHSA-rq54-jmqc-j8qj",
      "cve": null,
-     "paquete": "health-relay-client",
-     "resumen": "Malware in health-relay-client",
+     "paquete": "@solana-trade/core",
+     "resumen": "Malware in @solana-trade/core",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-10"
+     "publicado": "2026-11-11"
     },
     {
-     "ghsa": "GHSA-4m72-8w6v-x24q",
+     "ghsa": "GHSA-7m86-chx9-8rr7",
      "cve": null,
-     "paquete": "commerce-utils",
-     "resumen": "Malware in commerce-utils",
+     "paquete": "prettlog",
+     "resumen": "Malware in prettlog",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-10"
+     "publicado": "2026-11-11"
     },
     {
-     "ghsa": "GHSA-qg83-c6x5-qw8f",
+     "ghsa": "GHSA-727x-2mvh-8r5c",
      "cve": null,
-     "paquete": "@2oolkit/hyperliquid-cli",
-     "resumen": "Malware in @2oolkit/hyperliquid-cli",
+     "paquete": "termchalk",
+     "resumen": "Malware in termchalk",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-10"
+     "publicado": "2026-11-11"
     },
     {
-     "ghsa": "GHSA-fw89-fphx-4q5r",
+     "ghsa": "GHSA-8cvx-wq76-pcwg",
      "cve": null,
-     "paquete": "trgrip",
-     "resumen": "Malware in trgrip",
+     "paquete": "kbmathlessons",
+     "resumen": "Malware in kbmathlessons",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-10"
+     "publicado": "2026-11-11"
     }
    ],
    "ejemplos_graves": [
-    {
-     "ghsa": "GHSA-7w38-ggh5-v542",
-     "cve": "CVE-2026-44266",
-     "paquete": "@enspirit/elo",
-     "resumen": "Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels",
-     "gravedad": "critical",
-     "cvss": 9.8,
-     "epss": 0.00995,
-     "corregido_en": "1.0.1",
-     "publicado": "2026-11-03"
-    },
     {
      "ghsa": "GHSA-xggf-m53x-jc3f",
      "cve": "CVE-2026-95860",
@@ -14778,6 +14758,17 @@
      "cvss": 9.1,
      "epss": 0.00596,
      "corregido_en": "2.180.0",
+     "publicado": "2026-11-10"
+    },
+    {
+     "ghsa": "GHSA-pcrw-h46h-c93h",
+     "cve": "CVE-2026-125120",
+     "paquete": "mongoose",
+     "resumen": "Mongoose: sanitizeFilter not applied on countDocuments",
+     "gravedad": "critical",
+     "cvss": 9.8,
+     "epss": 0.00566,
+     "corregido_en": "6.13.11",
      "publicado": "2026-11-10"
     },
     {
@@ -14792,14 +14783,14 @@
      "publicado": "2026-11-10"
     },
     {
-     "ghsa": "GHSA-pcrw-h46h-c93h",
-     "cve": "CVE-2026-125120",
-     "paquete": "mongoose",
-     "resumen": "Mongoose: sanitizeFilter not applied on countDocuments",
+     "ghsa": "GHSA-xqc2-xf4c-x3h3",
+     "cve": "CVE-2026-126187",
+     "paquete": "react-server-dom-parcel, react-server-dom-turbopack, y 1 más",
+     "resumen": "React: Unauthenticated Remote Code Execution in React Server Components",
      "gravedad": "critical",
-     "cvss": 9.8,
+     "cvss": null,
      "epss": null,
-     "corregido_en": "6.13.11",
+     "corregido_en": "19.0.9",
      "publicado": "2026-11-10"
     },
     {
@@ -14828,12 +14819,12 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 43,
+   "maliciosos": 40,
    "maliciosos_mas": false,
-   "avisos": 28,
+   "avisos": 29,
    "avisos_mas": false,
    "criticos": 5,
-   "altos": 9,
+   "altos": 8,
    "ejemplos_maliciosos": [
     {
      "ghsa": "GHSA-547v-q874-636x",
@@ -14893,6 +14884,17 @@
    ],
    "ejemplos_graves": [
     {
+     "ghsa": "GHSA-gj9m-f8ph-pmhr",
+     "cve": "CVE-2026-102895",
+     "paquete": "gpustack",
+     "resumen": "GPUStack: Authentication bypass via trusted loopback source (reverse-proxy TCP peer or X-GPUStack-Real-IP header) grants unauthenticated admin",
+     "gravedad": "critical",
+     "cvss": 9.8,
+     "epss": 0.00555,
+     "corregido_en": "2.2.0",
+     "publicado": "2026-11-09"
+    },
+    {
      "ghsa": "GHSA-h667-4jj2-cgv4",
      "cve": "CVE-2026-63470",
      "paquete": "fastapi-code-generator",
@@ -14901,17 +14903,6 @@
      "cvss": null,
      "epss": 0.00468,
      "corregido_en": "0.8.1",
-     "publicado": "2026-11-09"
-    },
-    {
-     "ghsa": "GHSA-gj9m-f8ph-pmhr",
-     "cve": "CVE-2026-102895",
-     "paquete": "gpustack",
-     "resumen": "GPUStack: Authentication bypass via trusted loopback source (reverse-proxy TCP peer or X-GPUStack-Real-IP header) grants unauthenticated admin",
-     "gravedad": "critical",
-     "cvss": 9.8,
-     "epss": 0.00331,
-     "corregido_en": "2.2.0",
      "publicado": "2026-11-09"
     },
     {
@@ -14926,26 +14917,26 @@
      "publicado": "2026-11-06"
     },
     {
-     "ghsa": "GHSA-gh9r-c94j-cmp5",
-     "cve": "CVE-2026-115878",
-     "paquete": "stanza",
-     "resumen": "Stanza: RCE via pickle deserialization in the lemmatizer",
-     "gravedad": "high",
-     "cvss": 7.8,
-     "epss": 0.00597,
-     "corregido_en": "1.15.0",
-     "publicado": "2026-11-03"
-    },
-    {
      "ghsa": "GHSA-vvr2-h2jp-838m",
      "cve": "CVE-2026-77604",
      "paquete": "code-graph-rag",
      "resumen": "Code Graph RAG: MCP paginated read_file path traversal / arbitrary file read",
      "gravedad": "high",
      "cvss": 7.5,
-     "epss": 0.00383,
+     "epss": 0.00391,
      "corregido_en": "0.0.345",
      "publicado": "2026-11-09"
+    },
+    {
+     "ghsa": "GHSA-64vx-6h2c-rjh7",
+     "cve": "CVE-2026-61536",
+     "paquete": "banks",
+     "resumen": "Banks: Unsafe importlib.import_module of attacker-controlled Tool.import_path in CompletionExtension allows RCE",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": 0.00377,
+     "corregido_en": "2.4.3",
+     "publicado": "2026-11-05"
     }
    ],
    "estado": "maliciosos"
@@ -14964,23 +14955,12 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 6,
+   "avisos": 5,
    "avisos_mas": false,
    "criticos": 0,
-   "altos": 3,
+   "altos": 2,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
-    {
-     "ghsa": "GHSA-j97h-3f8r-mrjr",
-     "cve": "CVE-2026-11800",
-     "paquete": "org.keycloak:keycloak-services",
-     "resumen": "Keycloak has authentication bypass via jwt algorithm confusion",
-     "gravedad": "high",
-     "cvss": 8.1,
-     "epss": 0.003,
-     "corregido_en": "26.6.4",
-     "publicado": "2026-11-03"
-    },
     {
      "ghsa": "GHSA-52c6-99qm-3hqr",
      "cve": "CVE-2026-63436",
@@ -15020,33 +15000,66 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 2,
+   "avisos": 40,
    "avisos_mas": false,
    "criticos": 0,
-   "altos": 2,
+   "altos": 23,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
-     "ghsa": "GHSA-h26j-4vp7-x9w2",
-     "cve": "CVE-2026-62848",
-     "paquete": "Metalama.Framework",
-     "resumen": "Metalama: Unsafe deserialization over Metalama's Visual Studio inter-process named pipe enables local code execution",
+     "ghsa": "GHSA-x8x8-p968-x646",
+     "cve": "CVE-2026-118745",
+     "paquete": "Microsoft.NETCore.App.Runtime.win-x86, Microsoft.NETCore.App.Runtime.win-x64, y 1 más",
+     "resumen": "Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
      "gravedad": "high",
-     "cvss": 7.3,
-     "epss": 0.00186,
-     "corregido_en": "2026.1.19",
-     "publicado": "2026-11-03"
+     "cvss": 7.7,
+     "epss": null,
+     "corregido_en": "8.0.34",
+     "publicado": "2026-11-11"
     },
     {
-     "ghsa": "GHSA-p3jp-9v83-76w9",
-     "cve": null,
-     "paquete": "Microsoft.DotNet.ILCompiler, Microsoft.NETCore.App.Runtime.NativeAOT.ios-arm64, y 75 más",
-     "resumen": "Microsoft Security Advisory CVE-2026-111497 - .NET Brotli Decoder Out-of-bounds Write Vulnerability",
+     "ghsa": "GHSA-q6jf-24jf-m3cg",
+     "cve": "CVE-2026-120792",
+     "paquete": "Aspire.Cli, Aspire.Cli.linux-x64, y 4 más",
+     "resumen": "Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
      "gravedad": "high",
-     "cvss": 8.1,
+     "cvss": 7.3,
      "epss": null,
-     "corregido_en": "8.0.33",
-     "publicado": "2026-11-03"
+     "corregido_en": "13.6.5",
+     "publicado": "2026-11-11"
+    },
+    {
+     "ghsa": "GHSA-wr8v-9x5q-ggcm",
+     "cve": "CVE-2026-114147",
+     "paquete": "Microsoft.AspNetCore.SignalR.StackExchangeRedis, Microsoft.AspNetCore.App.Runtime.linux-arm, y 10 más",
+     "resumen": "Microsoft Security Advisory CVE-2026-114147 - ASP.NET Core Denial of Service Vulnerability",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": null,
+     "corregido_en": "8.0.34",
+     "publicado": "2026-11-11"
+    },
+    {
+     "ghsa": "GHSA-67wp-ghc2-fw2g",
+     "cve": "CVE-2026-114146",
+     "paquete": "Microsoft.AspNetCore.Http.Connections, Microsoft.AspNetCore.App.Runtime.linux-arm, y 10 más",
+     "resumen": "Microsoft Security Advisory CVE-2026-114146 - ASP.NET Core Elevation of Privilege Vulnerability",
+     "gravedad": "high",
+     "cvss": 7.8,
+     "epss": null,
+     "corregido_en": "1.2.14",
+     "publicado": "2026-11-11"
+    },
+    {
+     "ghsa": "GHSA-f7vh-h5g3-7jrh",
+     "cve": "CVE-2026-120006",
+     "paquete": "Aspire.Hosting.AppHost, Aspire.Hosting",
+     "resumen": "Microsoft Security Advisory CVE-2026-120006 - Aspire Elevation of Privilege Vulnerability",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": null,
+     "corregido_en": "13.6.5",
+     "publicado": "2026-11-10"
     }
    ],
    "estado": "alto"
@@ -15100,10 +15113,10 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 39,
+   "avisos": 36,
    "avisos_mas": false,
    "criticos": 9,
-   "altos": 14,
+   "altos": 13,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
@@ -15151,15 +15164,15 @@
      "publicado": "2026-11-06"
     },
     {
-     "ghsa": "GHSA-48v2-6jcm-fc99",
-     "cve": "CVE-2026-62331",
-     "paquete": "github.com/mtzanidakis/praktor",
-     "resumen": "praktor: Path traversal in Telegram file uploads allows writing outside the agent workspace uploads/ directory (stored instruction injection)",
+     "ghsa": "GHSA-g3c2-rjq2-c763",
+     "cve": "CVE-2026-102657",
+     "paquete": "github.com/esm-dev/esm.sh/web",
+     "resumen": "esm.sh: web.NewHandler allows arbitrary file read via encoded dot-segment path traversal",
      "gravedad": "high",
-     "cvss": 8.2,
-     "epss": 0.00778,
-     "corregido_en": "0.9.1",
-     "publicado": "2026-11-03"
+     "cvss": 7.5,
+     "epss": 0.00716,
+     "corregido_en": "0.2.0",
+     "publicado": "2026-11-09"
     }
    ],
    "estado": "critico"
@@ -15221,12 +15234,12 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 8,
+   "maliciosos": 7,
    "maliciosos_mas": false,
-   "avisos": 9,
+   "avisos": 19,
    "avisos_mas": false,
    "criticos": 0,
-   "altos": 1,
+   "altos": 4,
    "ejemplos_maliciosos": [
     {
      "ghsa": "GHSA-gv9w-h836-5f8g",
@@ -15292,8 +15305,41 @@
      "resumen": "Rack: Multipart parsing allows DoS via unbounded scan buffer growth",
      "gravedad": "high",
      "cvss": 7.5,
-     "epss": null,
+     "epss": 0.00366,
      "corregido_en": "2.2.25",
+     "publicado": "2026-11-10"
+    },
+    {
+     "ghsa": "GHSA-v924-7rp8-4mxh",
+     "cve": "CVE-2026-126186",
+     "paquete": "activestorage",
+     "resumen": "Active Storage: Possible arbitrary file read and remote code execution in video previews, analysis and image processing",
+     "gravedad": "high",
+     "cvss": 8.8,
+     "epss": null,
+     "corregido_en": "8.1.4.1",
+     "publicado": "2026-11-10"
+    },
+    {
+     "ghsa": "GHSA-8474-xrp6-wh69",
+     "cve": "CVE-2026-126080",
+     "paquete": "activesupport",
+     "resumen": "Active Support: Possible DoS vulnerability in Active Support safe_constantize",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": null,
+     "corregido_en": "8.1.4.1",
+     "publicado": "2026-11-10"
+    },
+    {
+     "ghsa": "GHSA-2gff-2mmg-m73p",
+     "cve": "CVE-2026-126083",
+     "paquete": "actionpack",
+     "resumen": "Action Pack: Possible IP spoofing in Action Dispatch RemoteIp",
+     "gravedad": "high",
+     "cvss": 7.4,
+     "epss": null,
+     "corregido_en": "8.1.4.1",
      "publicado": "2026-11-10"
     }
    ],
@@ -15373,7 +15419,7 @@
    "runtime": null,
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 6,
+   "avisos": 7,
    "avisos_mas": false,
    "criticos": 0,
    "altos": 0,
@@ -15387,9 +15433,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 711,
-   "criticos": 50,
-   "altos": 233,
+   "cves": 722,
+   "criticos": 52,
+   "altos": 236,
    "urgentes": 5,
    "epss_max": 0.0226,
    "fabricantes": [
@@ -15468,7 +15514,7 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 1133,
+   "cves": 1132,
    "criticos": 30,
    "altos": 822,
    "urgentes": 3,
@@ -15541,16 +15587,16 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 579,
-   "criticos": 78,
-   "altos": 222,
+   "cves": 635,
+   "criticos": 99,
+   "altos": 232,
    "urgentes": 3,
    "epss_max": 0.0191,
    "fabricantes": [
     "IBM",
     "Apache",
-    "Ibm",
     "Adobe",
+    "Ibm",
     "SAP"
    ],
    "kev_recientes": [
@@ -15727,11 +15773,11 @@
    "categoria": "navegadores",
    "nombre": "Navegadores",
    "estado": "explotacion_activa",
-   "cves": 119,
+   "cves": 117,
    "criticos": 8,
-   "altos": 56,
+   "altos": 59,
    "urgentes": 1,
-   "epss_max": 0.0042,
+   "epss_max": 0.0029,
    "fabricantes": [
     "Mozilla",
     "Google Chrome",
@@ -15757,13 +15803,6 @@
      "prioridad": "explotada"
     },
     {
-     "cve": "CVE-2026-120931",
-     "fabricante": "Google",
-     "cvss": 9.6,
-     "epss": 0.0042,
-     "prioridad": "alta"
-    },
-    {
      "cve": "CVE-2026-121842",
      "fabricante": "Mozilla",
      "cvss": 8.8,
@@ -15783,6 +15822,13 @@
      "cvss": 9.6,
      "epss": null,
      "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-124859",
+     "fabricante": "Mozilla",
+     "cvss": 9.6,
+     "epss": null,
+     "prioridad": "alta"
     }
    ]
   },
@@ -15790,8 +15836,8 @@
    "categoria": "red",
    "nombre": "Red, VPN y firewalls",
    "estado": "explotacion_activa",
-   "cves": 49,
-   "criticos": 10,
+   "cves": 51,
+   "criticos": 11,
    "altos": 16,
    "urgentes": 1,
    "epss_max": 0.0136,
@@ -15887,16 +15933,16 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 25,
-   "criticos": 5,
-   "altos": 12,
+   "cves": 21,
+   "criticos": 4,
+   "altos": 11,
    "urgentes": 1,
    "epss_max": 0.0085,
    "fabricantes": [
     "AWS",
-    "Docker",
-    "Amazon",
     "Vmware",
+    "Amazon",
+    "Docker",
     "Jetbrains"
    ],
    "kev_recientes": [
@@ -15961,8 +16007,7 @@
     "Red Hat",
     "Linux",
     "Canonical (Ubuntu)",
-    "Debian",
-    "Canonical"
+    "Debian"
    ],
    "kev_recientes": [
     {
@@ -16017,7 +16062,7 @@
    "categoria": "apple",
    "nombre": "Apple (macOS · iOS)",
    "estado": "explotacion_activa",
-   "cves": 11,
+   "cves": 12,
    "criticos": 1,
    "altos": 2,
    "urgentes": 0,
@@ -16170,17 +16215,17 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1290,
-   "criticos": 82,
-   "altos": 433,
-   "urgentes": 14,
+   "cves": 1255,
+   "criticos": 73,
+   "altos": 428,
+   "urgentes": 12,
    "epss_max": 0.1558,
    "fabricantes": [
     "Intel",
     "Jetbrains",
+    "AMD",
     "Zephyr RTOS",
-    "Freerdp",
-    "Eclipse"
+    "Kyverno"
    ],
    "kev_recientes": [
     {
@@ -16267,10 +16312,10 @@
    "categoria": "oss",
    "nombre": "Librerías de código abierto",
    "estado": "riesgo_alto",
-   "cves": 365,
-   "criticos": 37,
-   "altos": 154,
-   "urgentes": 15,
+   "cves": 394,
+   "criticos": 40,
+   "altos": 161,
+   "urgentes": 16,
    "epss_max": 0.0376,
    "fabricantes": [
     "Código abierto (GitHub)",
@@ -16323,15 +16368,15 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 40,
-   "criticos": 12,
-   "altos": 21,
-   "urgentes": 6,
+   "cves": 29,
+   "criticos": 9,
+   "altos": 15,
+   "urgentes": 4,
    "epss_max": 0.0272,
    "fabricantes": [
     "TOTOLINK",
-    "Linksys",
     "D-Link",
+    "Linksys",
     "Netgear",
     "Edimax"
    ],
@@ -16367,11 +16412,11 @@
      "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-121615",
+     "cve": "CVE-2026-121930",
      "fabricante": "Linksys",
-     "cvss": 9.3,
-     "epss": 0.00754,
-     "prioridad": "urgente"
+     "cvss": 8.5,
+     "epss": 0.02722,
+     "prioridad": "alta"
     }
    ]
   },
@@ -16431,9 +16476,9 @@
    "categoria": "ia",
    "nombre": "IA y agentes (LLM · MCP)",
    "estado": "vigilar",
-   "cves": 10,
+   "cves": 11,
    "criticos": 0,
-   "altos": 1,
+   "altos": 2,
    "urgentes": 0,
    "epss_max": 0.0164,
    "fabricantes": [
@@ -16471,11 +16516,11 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-123022",
+     "cve": "CVE-2026-92544",
      "fabricante": "",
-     "cvss": 5.5,
-     "epss": 0.01638,
-     "prioridad": "media"
+     "cvss": 8.7,
+     "epss": null,
+     "prioridad": "alta"
     }
    ]
   }
