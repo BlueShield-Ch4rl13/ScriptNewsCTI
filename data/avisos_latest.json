@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-11 21:54",
+ "generado_utc": "2026-11-12 05:32",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -14,9 +14,8 @@
    "tipo": "cert",
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
-   "estado": "error",
-   "avisos": 13,
-   "detalle": "ReadTimeout: HTTPSConnectionPool(host='www.incibe.es', port=443): Read timed out. (read timeout=30)"
+   "estado": "ok",
+   "avisos": 13
   },
   {
    "id": "incibe_sci",
@@ -24,9 +23,8 @@
    "tipo": "cert",
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/feed",
-   "estado": "error",
-   "avisos": 5,
-   "detalle": "ReadTimeout: HTTPSConnectionPool(host='www.incibe.es', port=443): Read timed out. (read timeout=30)"
+   "estado": "ok",
+   "avisos": 5
   },
   {
    "id": "cisa",
@@ -53,7 +51,7 @@
    "idioma": "fr",
    "url": "https://www.cert.ssi.gouv.fr/alerte/feed/",
    "estado": "ok",
-   "avisos": 1
+   "avisos": 0
   },
   {
    "id": "cert_fr_avis",
@@ -62,7 +60,7 @@
    "idioma": "fr",
    "url": "https://www.cert.ssi.gouv.fr/avis/feed/",
    "estado": "ok",
-   "avisos": 36
+   "avisos": 29
   },
   {
    "id": "certcc",
@@ -125,7 +123,7 @@
    "idioma": "en",
    "url": "https://chromereleases.googleblog.com/feeds/posts/default",
    "estado": "ok",
-   "avisos": 3
+   "avisos": 6
   },
   {
    "id": "siemens",
@@ -134,7 +132,7 @@
    "idioma": "en",
    "url": "https://cert-portal.siemens.com/productcert/rss/advisories.atom",
    "estado": "ok",
-   "avisos": 24
+   "avisos": 23
   },
   {
    "id": "gitlab",
@@ -152,7 +150,7 @@
    "idioma": "en",
    "url": "https://ubuntu.com/security/notices/rss.xml",
    "estado": "ok",
-   "avisos": 40
+   "avisos": 50
   },
   {
    "id": "debian",
@@ -161,7 +159,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 7
+   "avisos": 8
   },
   {
    "id": "zdi",
@@ -178,8 +176,9 @@
    "tipo": "exploit",
    "idioma": "en",
    "url": "https://www.exploit-db.com/rss.xml",
-   "estado": "ok",
-   "avisos": 1
+   "estado": "error",
+   "avisos": 1,
+   "detalle": "ConnectTimeout: HTTPSConnectionPool(host='www.exploit-db.com', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnectio"
   },
   {
    "id": "projectzero",
@@ -246,38 +245,23 @@
   }
  ],
  "resumen": {
-  "avisos": 401,
+  "avisos": 406,
   "por_tipo": {
-   "fabricante": 193,
    "noticia": 83,
-   "cert": 62,
+   "fabricante": 206,
+   "cert": 54,
    "exploit": 63
   },
-  "explotados": 52,
+  "explotados": 49,
   "dia_cero": 13,
   "sin_parche": 47,
-  "criticos": 19,
-  "exploit_publico": 4,
-  "cves_citados": 384,
-  "fuentes_ok": 24,
+  "criticos": 20,
+  "exploit_publico": 3,
+  "cves_citados": 412,
+  "fuentes_ok": 25,
   "fuentes_total": 26
  },
  "mas_citados": [
-  {
-   "cve": "CVE-2026-123158",
-   "fuentes": [
-    "bleeping",
-    "cert_fr",
-    "cisa",
-    "incibe",
-    "thehackernews"
-   ],
-   "avisos": 5,
-   "kev": true,
-   "cvss": 8.1,
-   "epss": 0.16501,
-   "ultimo": "2026-11-09T16:04Z"
-  },
   {
    "cve": "CVE-2026-111497",
    "fuentes": [
@@ -307,6 +291,20 @@
    "ultimo": "2026-11-10T12:00Z"
   },
   {
+   "cve": "CVE-2026-123158",
+   "fuentes": [
+    "bleeping",
+    "cisa",
+    "incibe",
+    "thehackernews"
+   ],
+   "avisos": 4,
+   "kev": true,
+   "cvss": 8.1,
+   "epss": 0.16501,
+   "ultimo": "2026-11-09T16:04Z"
+  },
+  {
    "cve": "CVE-2026-124194",
    "fuentes": [
     "cisa",
@@ -333,32 +331,6 @@
    "cvss": 7.5,
    "epss": 0.00532,
    "ultimo": "2026-11-09T08:15Z"
-  },
-  {
-   "cve": "CVE-2026-109618",
-   "fuentes": [
-    "cisco",
-    "incibe_sci",
-    "siemens"
-   ],
-   "avisos": 3,
-   "kev": true,
-   "cvss": null,
-   "epss": 0.99999,
-   "ultimo": "2026-11-06T14:21Z"
-  },
-  {
-   "cve": "CVE-2026-109619",
-   "fuentes": [
-    "cisco",
-    "incibe_sci",
-    "siemens"
-   ],
-   "avisos": 3,
-   "kev": true,
-   "cvss": null,
-   "epss": 0.99999,
-   "ultimo": "2026-11-06T14:21Z"
   },
   {
    "cve": "CVE-2026-123218",
@@ -399,6 +371,30 @@
    "ultimo": "2026-11-11T08:41Z"
   },
   {
+   "cve": "CVE-2026-109618",
+   "fuentes": [
+    "cisco",
+    "incibe_sci"
+   ],
+   "avisos": 2,
+   "kev": true,
+   "cvss": null,
+   "epss": 0.99999,
+   "ultimo": "2026-11-06T14:21Z"
+  },
+  {
+   "cve": "CVE-2026-109619",
+   "fuentes": [
+    "cisco",
+    "incibe_sci"
+   ],
+   "avisos": 2,
+   "kev": true,
+   "cvss": null,
+   "epss": 0.99999,
+   "ultimo": "2026-11-06T14:21Z"
+  },
+  {
    "cve": "CVE-2026-111793",
    "fuentes": [
     "cisa",
@@ -424,6 +420,313 @@
   }
  ],
  "avisos": [
+  {
+   "fuente": "thehackernews",
+   "titulo": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+   "enlace": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+   "fecha": "2026-11-12T05:12Z",
+   "cves": [
+    "CVE-2026-119618"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": true,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "chrome",
+   "titulo": "Long Term Support Channel Update for ChromeOS",
+   "enlace": "http://chromereleases.googleblog.com/2026/11/long-term-support-channel-update-for.html",
+   "fecha": "2026-11-11T23:06Z",
+   "cves": [
+    "CVE-2026-126901",
+    "CVE-2026-126856",
+    "CVE-2026-126887",
+    "CVE-2026-121182",
+    "CVE-2026-126859",
+    "CVE-2026-121213",
+    "CVE-2026-119267",
+    "CVE-2026-126879",
+    "CVE-2026-126869",
+    "CVE-2026-110917",
+    "CVE-2026-126863",
+    "CVE-2026-121119"
+   ],
+   "cves_total": 62,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0037,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "chrome",
+   "titulo": "Extended Stable Update for Desktop",
+   "enlace": "http://chromereleases.googleblog.com/2026/11/extended-stable-update-for-desktop_01570615041.html",
+   "fecha": "2026-11-11T20:02Z",
+   "cves": [
+    "CVE-2026-126879",
+    "CVE-2026-126885",
+    "CVE-2026-126895",
+    "CVE-2026-126911",
+    "CVE-2026-126840",
+    "CVE-2026-126841",
+    "CVE-2026-126842",
+    "CVE-2026-126843",
+    "CVE-2026-126844",
+    "CVE-2026-126847",
+    "CVE-2026-126848",
+    "CVE-2026-126849"
+   ],
+   "cves_total": 72,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "chrome",
+   "titulo": "Stable Channel Update for Desktop",
+   "enlace": "http://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html",
+   "fecha": "2026-11-11T20:02Z",
+   "cves": [
+    "CVE-2026-126885",
+    "CVE-2026-126895",
+    "CVE-2026-126879",
+    "CVE-2026-126846",
+    "CVE-2026-126911",
+    "CVE-2026-126864",
+    "CVE-2026-126889",
+    "CVE-2026-126859",
+    "CVE-2026-126886",
+    "CVE-2026-126887",
+    "CVE-2026-126870",
+    "CVE-2026-126912"
+   ],
+   "cves_total": 83,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9063-1: Yodl vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9063-1",
+   "fecha": "2026-11-11T18:33Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9062-1: SNMPTT vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9062-1",
+   "fecha": "2026-11-11T18:33Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9060-1: kramdown vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9060-1",
+   "fecha": "2026-11-11T18:33Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9059-1: ruby-jwt vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9059-1",
+   "fecha": "2026-11-11T18:33Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9058-1: Action Pack Page Caching vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9058-1",
+   "fecha": "2026-11-11T18:33Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9057-1: rkhunter vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9057-1",
+   "fecha": "2026-11-11T18:32Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9056-1: Prosody Community Modules vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9056-1",
+   "fecha": "2026-11-11T18:32Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9055-1: pecl_http vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9055-1",
+   "fecha": "2026-11-11T18:32Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9054-1: Babel vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9054-1",
+   "fecha": "2026-11-11T18:32Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9053-1: NetworkManager-ssh vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9053-1",
+   "fecha": "2026-11-11T18:32Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "ubuntu",
    "titulo": "USN-9046-1: MySQL vulnerabilities",
@@ -474,114 +777,11 @@
   },
   {
    "fuente": "paloalto",
-   "titulo": "CVE-2026-0329 PAN-OS: Buffer Overflow Vulnerability (Severity: MEDIUM)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0329",
+   "titulo": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0326",
    "fecha": "2026-11-11T17:00Z",
    "cves": [
-    "CVE-2026-0329"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "PAN-SA-2026-0014 Chromium: Monthly Vulnerability Update (November 2026) (Severity: HIGH)",
-   "enlace": "https://security.paloaltonetworks.com/PAN-SA-2026-0014",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-0331 PAN-OS: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0331",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0331"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-0323 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0323",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0323"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0325",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0325"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0330",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0330"
+    "CVE-2026-0326"
    ],
    "cves_total": 1,
    "texto_explotada": false,
@@ -619,6 +819,109 @@
   },
   {
    "fuente": "paloalto",
+   "titulo": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0330",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0330"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "PAN-SA-2026-0014 Chromium: Monthly Vulnerability Update (November 2026) (Severity: HIGH)",
+   "enlace": "https://security.paloaltonetworks.com/PAN-SA-2026-0014",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-0329 PAN-OS: Buffer Overflow Vulnerability (Severity: MEDIUM)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0329",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0329"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-0323 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0323",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0323"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-0331 PAN-OS: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0331",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0331"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
    "titulo": "CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
    "enlace": "https://security.paloaltonetworks.com/CVE-2026-0328",
    "fecha": "2026-11-11T17:00Z",
@@ -640,11 +943,11 @@
   },
   {
    "fuente": "paloalto",
-   "titulo": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0326",
+   "titulo": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0325",
    "fecha": "2026-11-11T17:00Z",
    "cves": [
-    "CVE-2026-0326"
+    "CVE-2026-0325"
    ],
    "cves_total": 1,
    "texto_explotada": false,
@@ -2819,6 +3122,25 @@
    "texto_critica": false,
    "dia_cero": false,
    "sin_parche": true,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6619-1 spip - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00539.html",
+   "fecha": "2026-11-11T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
    "kev": [],
    "explotada": false,
    "critica": false,
@@ -8675,210 +8997,6 @@
    "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-   "enlace": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-   "fecha": "2026-11-05T05:17Z",
-   "cves": [
-    "CVE-2024-27834"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2024-27834"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.015,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr",
-   "titulo": "[MàJ] Vulnérabilité dans OpenSSH (05 novembre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-015/",
-   "fecha": "2026-11-05T00:00Z",
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-123158"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": 8.1,
-   "epss_max": 0.165,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans MongoDB (05 novembre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1462/",
-   "fecha": "2026-11-05T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans OpenOffice (05 novembre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1463/",
-   "fecha": "2026-11-05T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans les produits Siemens (05 novembre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1464/",
-   "fecha": "2026-11-05T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans SPIP (05 novembre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1465/",
-   "fecha": "2026-11-05T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans Microsoft Edge (05 novembre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1466/",
-   "fecha": "2026-11-05T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Multiples vulnérabilités dans les produits Cisco (05 novembre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1467/",
-   "fecha": "2026-11-05T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cert_fr_avis",
-   "titulo": "Vulnérabilité dans OpenSSH (05 novembre 2026)",
-   "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1468/",
-   "fecha": "2026-11-05T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "siemens",
-   "titulo": "SSA-166980 V1.3 (Last Update: 2026-11-05): PHP2Shell Vulnerabilities in Siemens Products",
-   "enlace": "https://cert-portal.siemens.com/productcert/html/ssa-166980.html",
-   "fecha": "2026-11-05T00:00Z",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 1.0,
-   "exploit_publico": true,
-   "exploitdb": 52704
   }
  ]
 }
