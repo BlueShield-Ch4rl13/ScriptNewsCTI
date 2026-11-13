@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-13 04:45",
+ "generado_utc": "2026-11-13 13:59",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -15,7 +15,7 @@
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
    "estado": "ok",
-   "avisos": 15
+   "avisos": 16
   },
   {
    "id": "incibe_sci",
@@ -33,7 +33,7 @@
    "idioma": "en",
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
    "estado": "ok",
-   "avisos": 8
+   "avisos": 7
   },
   {
    "id": "cert_eu",
@@ -159,7 +159,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 12
+   "avisos": 14
   },
   {
    "id": "zdi",
@@ -168,7 +168,7 @@
    "idioma": "en",
    "url": "https://www.zerodayinitiative.com/rss/published/",
    "estado": "ok",
-   "avisos": 60
+   "avisos": 49
   },
   {
    "id": "exploitdb",
@@ -213,7 +213,7 @@
    "idioma": "es",
    "url": "https://blog.segu-info.com.ar/feeds/posts/default",
    "estado": "ok",
-   "avisos": 7
+   "avisos": 6
   },
   {
    "id": "thehackernews",
@@ -231,7 +231,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 22
+   "avisos": 23
   },
   {
    "id": "securityweek",
@@ -240,23 +240,23 @@
    "idioma": "en",
    "url": "https://www.securityweek.com/feed/",
    "estado": "ok",
-   "avisos": 25
+   "avisos": 27
   }
  ],
  "resumen": {
-  "avisos": 452,
+  "avisos": 445,
   "por_tipo": {
+   "noticia": 90,
    "cert": 80,
-   "fabricante": 221,
-   "noticia": 88,
-   "exploit": 63
+   "fabricante": 223,
+   "exploit": 52
   },
-  "explotados": 56,
-  "dia_cero": 16,
-  "sin_parche": 48,
+  "explotados": 60,
+  "dia_cero": 18,
+  "sin_parche": 49,
   "criticos": 37,
-  "exploit_publico": 6,
-  "cves_citados": 421,
+  "exploit_publico": 7,
+  "cves_citados": 418,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -294,6 +294,34 @@
    "ultimo": "2026-11-12T21:25Z"
   },
   {
+   "cve": "CVE-2026-109618",
+   "fuentes": [
+    "cisa",
+    "cisco",
+    "incibe",
+    "incibe_sci"
+   ],
+   "avisos": 6,
+   "kev": true,
+   "cvss": null,
+   "epss": 0.99999,
+   "ultimo": "2026-11-13T10:36Z"
+  },
+  {
+   "cve": "CVE-2026-109619",
+   "fuentes": [
+    "cisa",
+    "cisco",
+    "incibe",
+    "incibe_sci"
+   ],
+   "avisos": 6,
+   "kev": true,
+   "cvss": null,
+   "epss": 0.99999,
+   "ultimo": "2026-11-13T10:36Z"
+  },
+  {
    "cve": "CVE-2026-124194",
    "fuentes": [
     "cisa",
@@ -322,34 +350,6 @@
    "ultimo": "2026-11-10T12:00Z"
   },
   {
-   "cve": "CVE-2026-123158",
-   "fuentes": [
-    "bleeping",
-    "cisa",
-    "incibe",
-    "thehackernews"
-   ],
-   "avisos": 4,
-   "kev": true,
-   "cvss": null,
-   "epss": 0.189,
-   "ultimo": "2026-11-09T16:04Z"
-  },
-  {
-   "cve": "CVE-2026-19868",
-   "fuentes": [
-    "cisa",
-    "incibe",
-    "securityweek",
-    "thehackernews"
-   ],
-   "avisos": 4,
-   "kev": true,
-   "cvss": 7.5,
-   "epss": 0.00532,
-   "ultimo": "2026-11-09T08:15Z"
-  },
-  {
    "cve": "CVE-2026-20320",
    "fuentes": [
     "cisa",
@@ -364,30 +364,30 @@
    "ultimo": "2026-11-12T17:25Z"
   },
   {
-   "cve": "CVE-2026-109618",
+   "cve": "CVE-2026-120868",
    "fuentes": [
-    "cisa",
-    "cisco",
-    "incibe_sci"
+    "cert_eu",
+    "incibe",
+    "thehackernews"
    ],
-   "avisos": 5,
-   "kev": true,
+   "avisos": 3,
+   "kev": false,
    "cvss": null,
-   "epss": 0.99999,
-   "ultimo": "2026-11-12T12:00Z"
+   "epss": null,
+   "ultimo": "2026-11-13T09:54Z"
   },
   {
-   "cve": "CVE-2026-109619",
+   "cve": "CVE-2026-123158",
    "fuentes": [
+    "bleeping",
     "cisa",
-    "cisco",
-    "incibe_sci"
+    "thehackernews"
    ],
-   "avisos": 5,
+   "avisos": 3,
    "kev": true,
    "cvss": null,
-   "epss": 0.99999,
-   "ultimo": "2026-11-12T12:00Z"
+   "epss": 0.189,
+   "ultimo": "2026-11-09T16:04Z"
   },
   {
    "cve": "CVE-2026-123218",
@@ -403,6 +403,19 @@
    "ultimo": "2026-11-10T09:42Z"
   },
   {
+   "cve": "CVE-2026-19868",
+   "fuentes": [
+    "incibe",
+    "securityweek",
+    "thehackernews"
+   ],
+   "avisos": 3,
+   "kev": true,
+   "cvss": 7.5,
+   "epss": 0.00532,
+   "ultimo": "2026-11-09T08:15Z"
+  },
+  {
    "cve": "CVE-2026-112967",
    "fuentes": [
     "incibe",
@@ -413,21 +426,298 @@
    "cvss": 9.8,
    "epss": 0.01154,
    "ultimo": "2026-11-12T12:00Z"
-  },
-  {
-   "cve": "CVE-2026-116928",
-   "fuentes": [
-    "incibe",
-    "seguinfo"
-   ],
-   "avisos": 3,
-   "kev": false,
-   "cvss": 9.8,
-   "epss": 0.01161,
-   "ultimo": "2026-11-12T12:00Z"
   }
  ],
  "avisos": [
+  {
+   "fuente": "bleeping",
+   "titulo": "Microsoft says November security updates cause printing issues",
+   "enlace": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+   "fecha": "2026-11-13T12:27Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "bleeping",
+   "titulo": "Check Point warns of zero-day flaw exploited for root access",
+   "enlace": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+   "fecha": "2026-11-13T10:44Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en productos de Check Point",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-check-point-0",
+   "fecha": "2026-11-13T10:36Z",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619",
+    "CVE-2026-123039"
+   ],
+   "cves_total": 3,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": true,
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 1.0,
+   "exploit_publico": true,
+   "exploitdb": 52704
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9027-2: Linux kernel (FIPS) vulnerabilities",
+   "enlace": "https://ubuntu.com/security/notices/USN-9027-2",
+   "fecha": "2026-11-13T10:30Z",
+   "cves": [
+    "CVE-2025-21656",
+    "CVE-2026-63940",
+    "CVE-2026-74350",
+    "CVE-2026-98432",
+    "CVE-2026-99999"
+   ],
+   "cves_total": 5,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0079,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9091-1: Linux kernel (NVIDIA Tegra) vulnerabilities",
+   "enlace": "https://ubuntu.com/security/notices/USN-9091-1",
+   "fecha": "2026-11-13T10:18Z",
+   "cves": [
+    "CVE-2023-20585",
+    "CVE-2024-53056",
+    "CVE-2024-58095",
+    "CVE-2025-22127",
+    "CVE-2025-23131",
+    "CVE-2025-37833",
+    "CVE-2025-38203",
+    "CVE-2025-38205",
+    "CVE-2025-38237",
+    "CVE-2025-38621",
+    "CVE-2025-39833",
+    "CVE-2025-39925"
+   ],
+   "cves_total": 2205,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0024,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en productos de Citrix",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-citrix-3",
+   "fecha": "2026-11-13T09:54Z",
+   "cves": [
+    "CVE-2026-120868",
+    "CVE-2026-107407",
+    "CVE-2026-107408",
+    "CVE-2026-107409",
+    "CVE-2026-107410",
+    "CVE-2026-107412",
+    "CVE-2026-107415",
+    "CVE-2026-111334",
+    "CVE-2026-120864",
+    "CVE-2026-120869"
+   ],
+   "cves_total": 10,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "securityweek",
+   "titulo": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+   "enlace": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+   "fecha": "2026-11-13T09:36Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": true,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "securityweek",
+   "titulo": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+   "enlace": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
+   "fecha": "2026-11-13T08:50Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en OpenKM Community Edition de OpenKM",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-openkm-community-edition-de-openkm",
+   "fecha": "2026-11-13T08:42Z",
+   "cves": [
+    "CVE-2026-112181",
+    "CVE-2026-112182"
+   ],
+   "cves_total": 2,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": true,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "enlace": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+   "fecha": "2026-11-13T08:05Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": true,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "securityweek",
+   "titulo": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+   "enlace": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+   "fecha": "2026-11-13T07:39Z",
+   "cves": [
+    "CVE-2026-123039"
+   ],
+   "cves_total": 1,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "securityweek",
+   "titulo": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+   "enlace": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
+   "fecha": "2026-11-13T07:20Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+   "enlace": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+   "fecha": "2026-11-13T05:43Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "certcc",
    "titulo": "VU#644655: TightVNC and UltraVNC Viewer contains a heap-based buffer overflow",
@@ -437,6 +727,46 @@
     "CVE-2026-128321"
    ],
    "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6625-1 postgresql-17 - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00545.html",
+   "fecha": "2026-11-13T00:00Z",
+   "cves": [
+    "CVE-2026-6460"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6624-1 sympa - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00544.html",
+   "fecha": "2026-11-13T00:00Z",
+   "cves": [],
+   "cves_total": 0,
    "texto_explotada": false,
    "texto_critica": false,
    "dia_cero": false,
@@ -2621,88 +2951,6 @@
   },
   {
    "fuente": "paloalto",
-   "titulo": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0326",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0326"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0043,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-0327 PAN-OS: Privilege Escalation Vulnerability in GlobalProtect (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0327",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0327"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0037,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0330",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0330"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.005,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "PAN-SA-2026-0014 Chromium: Monthly Vulnerability Update (November 2026) (Severity: HIGH)",
-   "enlace": "https://security.paloaltonetworks.com/PAN-SA-2026-0014",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
    "titulo": "CVE-2026-0329 PAN-OS: Buffer Overflow Vulnerability (Severity: MEDIUM)",
    "enlace": "https://security.paloaltonetworks.com/CVE-2026-0329",
    "fecha": "2026-11-11T17:00Z",
@@ -2724,13 +2972,11 @@
   },
   {
    "fuente": "paloalto",
-   "titulo": "CVE-2026-0323 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0323",
+   "titulo": "PAN-SA-2026-0014 Chromium: Monthly Vulnerability Update (November 2026) (Severity: HIGH)",
+   "enlace": "https://security.paloaltonetworks.com/PAN-SA-2026-0014",
    "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0323"
-   ],
-   "cves_total": 1,
+   "cves": [],
+   "cves_total": 0,
    "texto_explotada": false,
    "texto_critica": false,
    "dia_cero": false,
@@ -2739,7 +2985,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0015,
+   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2766,11 +3012,11 @@
   },
   {
    "fuente": "paloalto",
-   "titulo": "CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0328",
+   "titulo": "CVE-2026-0323 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0323",
    "fecha": "2026-11-11T17:00Z",
    "cves": [
-    "CVE-2026-0328"
+    "CVE-2026-0323"
    ],
    "cves_total": 1,
    "texto_explotada": false,
@@ -2781,7 +3027,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0057,
+   "epss_max": 0.0015,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2803,6 +3049,90 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.0036,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0330",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0330"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.005,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-0327 PAN-OS: Privilege Escalation Vulnerability in GlobalProtect (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0327",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0327"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0037,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0328",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0328"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0057,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0326",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0326"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0043,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3863,6 +4193,27 @@
    "exploitdb": null
   },
   {
+   "fuente": "incibe_sci",
+   "titulo": "Múltiples vulnerabilidades en productos de B&R",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-br-1",
+   "fecha": "2026-11-11T08:41Z",
+   "cves": [
+    "CVE-2025-15467"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.7479,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "incibe",
    "titulo": "Boletín de seguridad de SAP de noviembre de 2026",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-de-seguridad-de-sap-de-noviembre-de-2026",
@@ -3927,49 +4278,6 @@
   },
   {
    "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en productos de B&R",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-br-1",
-   "fecha": "2026-11-11T08:41Z",
-   "cves": [
-    "CVE-2025-15467"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.7479,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en N-central de N-able",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-n-central-de-n-able",
-   "fecha": "2026-11-11T08:40Z",
-   "cves": [
-    "CVE-2026-125883",
-    "CVE-2026-125881"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": 9.3,
-   "epss_max": 0.0092,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe_sci",
    "titulo": "Boletín de seguridad de Siemens de noviembre de 2026",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/boletin-de-seguridad-de-siemens-de-noviembre-de-2026",
    "fecha": "2026-11-11T08:40Z",
@@ -3994,6 +4302,28 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.8264,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en N-central de N-able",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-n-central-de-n-able",
+   "fecha": "2026-11-11T08:40Z",
+   "cves": [
+    "CVE-2026-125883",
+    "CVE-2026-125881"
+   ],
+   "cves_total": 2,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": 9.3,
+   "epss_max": 0.0092,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -9471,484 +9801,6 @@
    "epss_max": 1.0,
    "exploit_publico": true,
    "exploitdb": 52704
-  },
-  {
-   "fuente": "seguinfo",
-   "titulo": "Cloudflare lanza Zero Wire: para realizar un seguimiento de CVE críticos, exploits activos y correcciones de seguridad",
-   "enlace": "http://blog.segu-info.com.ar/2026/11/cloudflare-lanza-zero-wire-para.html",
-   "fecha": "2026-11-06T13:38Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
-   "enlace": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
-   "fecha": "2026-11-06T13:19Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "bleeping",
-   "titulo": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-   "enlace": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-   "fecha": "2026-11-06T12:37Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": true,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
-   "enlace": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
-   "fecha": "2026-11-06T12:07Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-   "enlace": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-   "fecha": "2026-11-06T12:06Z",
-   "cves": [
-    "CVE-2026-83844"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0038,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cisa",
-   "titulo": "CISA Adds One Known Exploited Vulnerability to Catalog",
-   "enlace": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-   "fecha": "2026-11-06T12:00Z",
-   "cves": [
-    "CVE-2026-19868"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-19868"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": 7.5,
-   "epss_max": 0.0053,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "ubuntu",
-   "titulo": "USN-9003-1: Linux kernel (NVIDIA) vulnerabilities",
-   "enlace": "https://ubuntu.com/security/notices/USN-9003-1",
-   "fecha": "2026-11-06T11:30Z",
-   "cves": [
-    "CVE-2023-20585",
-    "CVE-2026-64349",
-    "CVE-2026-64530",
-    "CVE-2026-64532",
-    "CVE-2026-64533",
-    "CVE-2026-64534",
-    "CVE-2026-64535",
-    "CVE-2026-64537",
-    "CVE-2026-64538",
-    "CVE-2026-64539",
-    "CVE-2026-64540",
-    "CVE-2026-64541"
-   ],
-   "cves_total": 1150,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0066,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "ubuntu",
-   "titulo": "USN-9002-1: Linux kernel (NVIDIA Tegra) vulnerabilities",
-   "enlace": "https://ubuntu.com/security/notices/USN-9002-1",
-   "fecha": "2026-11-06T11:22Z",
-   "cves": [
-    "CVE-2026-81010",
-    "CVE-2024-40954",
-    "CVE-2025-38261",
-    "CVE-2025-68296",
-    "CVE-2025-68730",
-    "CVE-2025-68768",
-    "CVE-2026-23346",
-    "CVE-2026-43219",
-    "CVE-2026-43240",
-    "CVE-2026-43311",
-    "CVE-2026-43331",
-    "CVE-2026-45930"
-   ],
-   "cves_total": 485,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0026,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Omisión de autenticación por contraseña en OpenSSH de Alpine Linux",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-por-contrasena-en-openssh-de-alpine-linux",
-   "fecha": "2026-11-06T08:45Z",
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-123158"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.189,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Inyección SQL en SIREC de Atmira",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-sirec-de-atmira",
-   "fecha": "2026-11-06T08:26Z",
-   "cves": [
-    "CVE-2026-123087"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0025,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-897: (Pwn2Own) Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-897/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2026-91131"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-896: (Pwn2Own) Home Assistant Green Cleartext Storage of Credentials Local Privilege Escalation Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2026-91131"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-895: LibreOffice dBase File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2026-76181"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0014,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-894: Docker Sandboxes Inclusion of Functionality from Untrusted Control Sphere Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-894/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2026-121614"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0013,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-893: Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-893/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2026-121741"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.002,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-892: Philips Hue Bridge Pro Protection Mechanism Failure Authentication Bypass Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-892/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2026-122044"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0037,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-891: Philips Hue Bridge Pro SQL Injection Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2026-118632"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": 8.0,
-   "epss_max": 0.0086,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-890: Philips Hue Bridge Pro Argument Injection Restricted File Write Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2026-118631"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0016,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-889: Quest NetVault Backup nvpmgr Integer Underflow Denial-of-Service Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-889/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2026-13270"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": 7.5,
-   "epss_max": 0.008,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-888: Quest NetVault Backup StnzCreateKey Numeric Truncation Error Denial-of-Service Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-888/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2026-13269"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": 7.5,
-   "epss_max": 0.008,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "zdi",
-   "titulo": "ZDI-26-887: libilbm ILBM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-   "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
-   "fecha": "2026-11-06T06:00Z",
-   "cves": [
-    "CVE-2025-10935"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0017,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-   "enlace": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-   "fecha": "2026-11-06T05:58Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
   }
  ]
 }

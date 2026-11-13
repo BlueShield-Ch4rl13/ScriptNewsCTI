@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-13 04:45",
+ "generado_utc": "2026-11-13 13:58",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 4898,
-  "criticos": 333,
+  "cves": 5121,
+  "criticos": 328,
   "explotados": 4,
-  "urgentes": 64,
+  "urgentes": 63,
   "epss_10": 0,
-  "sin_puntuar": 253,
+  "sin_puntuar": 271,
   "por_prioridad": {
    "explotada": 4,
-   "urgente": 64,
-   "alta": 2648,
-   "media": 1705,
-   "baja": 477
+   "urgente": 63,
+   "alta": 2741,
+   "media": 1824,
+   "baja": 489
   },
-  "paquetes_maliciosos": 570,
+  "paquetes_maliciosos": 587,
   "exploit_publico": 1,
-  "poc_github": 69,
+  "poc_github": 73,
   "ransomware": 0,
   "dia_cero": 3
  },
@@ -188,7 +188,7 @@
      "enlace": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
     }
    ],
-   "avisos_total": 4
+   "avisos_total": 3
   },
   {
    "cve": "CVE-2026-12507",
@@ -483,30 +483,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Jumis (formerly Tildes Jumis) creates and uses a Microsoft SQL Server login named ##Tilde_JumisAdmin## whose password is derived deterministically from a single non-secret input - the SQL Server name (@@servername). The derivation algorithm is hard-coded in the client application…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-114630",
-   "publicado": "2026-11-06",
-   "prioridad": "urgente",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.01323,
-   "epss_percentil": 0.71318,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The ELEX WordPress HelpDesk & Customer Ticketing System plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the factory_reset function in all versions up to, and including, 3.3.8 This makes it possible for unauthenticated atta…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6390,30 +6366,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-87964",
-   "publicado": "2026-11-06",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00946,
-   "epss_percentil": 0.61573,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Product Feed Manager for WooCommerce – CTX Feed – Support 220+ Shopping, AI & Social Channels plugin for WordPress is vulnerable to PHP Code Injection in all versions up to, and including, 8.0.26. This is due to insufficient sanitization of the `feedConfigCustom2` parameter —…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-121900",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -6917,30 +6869,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-92895",
-   "publicado": "2026-11-06",
-   "prioridad": "alta",
-   "cvss": 8.1,
-   "gravedad": "high",
-   "epss": 0.00915,
-   "epss_percentil": 0.6063,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-434"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Live2DWebCanvas plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.2.1 via the download_one_file function. This is due to missing file extension whitelist and MIME type validation in download_one_file() when writing files deriv…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-112314",
    "publicado": "2026-11-09",
    "prioridad": "alta",
@@ -7343,7 +7271,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper control of generation of code ('code injection') vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11, FortiManager 7.2.0 through 7.2.12, FortiManager Cloud 8.0.0 through 8.0.1, FortiManager Clo…",
    "avisos": [],
    "avisos_total": 0
@@ -8034,14 +7962,8 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "Philips Hue Bridge Pro SQL Injection Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge Pro. Although authentication is required to exploit this vulnerability, the exi…",
-   "avisos": [
-    {
-     "fuente": "zdi",
-     "nombre": "Zero Day Initiative",
-     "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-891/"
-    }
-   ],
-   "avisos_total": 1
+   "avisos": [],
+   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-116941",
@@ -8192,30 +8114,6 @@
     }
    ],
    "avisos_total": 1
-  },
-  {
-   "cve": "CVE-2026-123285",
-   "publicado": "2026-11-06",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00851,
-   "epss_percentil": 0.5871,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Jetbrains",
-   "cwe": [
-    "CWE-88"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "In JetBrains Datalore before 2026.3 command execution was possible in the database task container via JVM options injection",
-   "avisos": [],
-   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-91756",
@@ -9251,14 +9149,8 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "Quest NetVault Backup StnzCreateKey Numeric Truncation Error Denial-of-Service Vulnerability. This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Quest NetVault Backup. Authentication is not required to exploit this vuln…",
-   "avisos": [
-    {
-     "fuente": "zdi",
-     "nombre": "Zero Day Initiative",
-     "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-888/"
-    }
-   ],
-   "avisos_total": 1
+   "avisos": [],
+   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-13270",
@@ -9281,14 +9173,8 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "Quest NetVault Backup nvpmgr Integer Underflow Denial-of-Service Vulnerability. This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Quest NetVault Backup. Authentication is not required to exploit this vulnerability. The…",
-   "avisos": [
-    {
-     "fuente": "zdi",
-     "nombre": "Zero Day Initiative",
-     "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-889/"
-    }
-   ],
-   "avisos_total": 1
+   "avisos": [],
+   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-116934",
@@ -10536,36 +10422,6 @@
    "descripcion": "Out-of-bounds write in DNS Server allows an authorized attacker to execute code over a network.",
    "avisos": [],
    "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-107622",
-   "publicado": "2026-11-06",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00736,
-   "epss_percentil": 0.5496,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-269"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The BuddyForms plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.10.5 via a form-type confusion attack through the `bf_post_type` parameter. This is due to the public frontend submission handler `buddyforms_form_response_no_ajax()`…",
-   "avisos": [
-    {
-     "fuente": "wordfence",
-     "nombre": "Wordfence (WordPress)",
-     "enlace": "https://www.wordfence.com/blog/2026/11/wordfence-intelligence-weekly-wordpress-vulnerability-report-november-2-2026-to-november-8-2026/"
-    }
-   ],
-   "avisos_total": 1
   },
   {
    "cve": "CVE-2026-112320",
@@ -13453,7 +13309,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "poc",
    "descripcion": "decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 (aka krb5) 1.11 and later grows the decoded element array one entry at a time, which allows remote attackers to cause a denial of service (CPU consumption in the KDC) by sending an unauthenticated AS-REQ or TG…",
    "avisos": [],
    "avisos_total": 0
@@ -13811,30 +13667,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "Action Pack is a framework for handling and responding to web requests. Prior to 8.1.4.1 and 8.0.5.2, ActionController::Parameters#each_key delegates to the internal ActiveSupport::HashWithIndifferentAccess that holds the request parameters, so when called with a block it returns…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-123655",
-   "publicado": "2026-11-06",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00623,
-   "epss_percentil": 0.50372,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-862"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A flaw was found in Moodle. Insufficient access control checks on H5P content files allow unauthenticated remote attackers to view restricted materials, including content stored in the system context and files belonging to hidden or unavailable course modules. This issue results …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14907,6 +14739,150 @@
    "descripcion": "Improper neutralization of special elements used in an OS command in Lenovo XClarity Integrator for Microsoft Windows Admin Center 5.1.1 and 5.2.0 allows an authenticated remote attacker to execute arbitrary PowerShell commands by submitting a crafted hostname.",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-124170",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00599,
+   "epss_percentil": 0.49192,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-124185",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00599,
+   "epss_percentil": 0.49192,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-908"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use of uninitialized resource in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-104989",
+   "publicado": "2026-11-09",
+   "prioridad": "alta",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": 0.00598,
+   "epss_percentil": 0.49131,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-427"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Uncontrolled search path element in package upload feature in Chaos Software V-Ray versions through 2.0.19 allows remote unauthenticated attackers to execute arbitrary code via redirecting access to libraries",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-127016",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 9.2,
+   "gravedad": "critical",
+   "epss": 0.00598,
+   "epss_percentil": 0.49145,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": "github",
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The MISP Modules website component exposes external tool management endpoints (add, delete, change status, and change configuration) that did not enforce the optional administrator authentication policy. When ADMIN_PASSWORD was configured in the application environment, the modul…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-16880",
+   "publicado": "2026-11-07",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00597,
+   "epss_percentil": 0.49084,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Ibm",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to path traversal.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126152",
+   "publicado": "2026-11-11",
+   "prioridad": "alta",
+   "cvss": 7.6,
+   "gravedad": "high",
+   "epss": 0.00597,
+   "epss_percentil": 0.49081,
+   "kev": false,
+   "categoria": "red",
+   "fabricante": "Fortinet",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker to delete arbitrary directories as root,…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14923,7 +14899,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 505,
+   "maliciosos": 522,
    "maliciosos_mas": false,
    "avisos": 48,
    "avisos_mas": false,
@@ -14931,10 +14907,10 @@
    "altos": 14,
    "ejemplos_maliciosos": [
     {
-     "ghsa": "GHSA-p5wc-vpqp-p35f",
+     "ghsa": "GHSA-72xc-q3v8-7grp",
      "cve": null,
-     "paquete": "mre-notificacao-react",
-     "resumen": "Malware in mre-notificacao-react",
+     "paquete": "karma365-mcp",
+     "resumen": "Malware in karma365-mcp",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14942,10 +14918,10 @@
      "publicado": "2026-11-13"
     },
     {
-     "ghsa": "GHSA-r79p-hc83-2mjh",
+     "ghsa": "GHSA-mq7w-jmv5-vq3p",
      "cve": null,
-     "paquete": "tailwind-lines-clamps",
-     "resumen": "Malware in tailwind-lines-clamps",
+     "paquete": "@rclaude/darwin-arm64",
+     "resumen": "Malware in @rclaude/darwin-arm64",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14953,10 +14929,10 @@
      "publicado": "2026-11-13"
     },
     {
-     "ghsa": "GHSA-m9qg-5q7p-qw74",
+     "ghsa": "GHSA-38gh-x97r-9cx2",
      "cve": null,
-     "paquete": "poxios-chain",
-     "resumen": "Malware in poxios-chain",
+     "paquete": "@wanzforme/bails4u",
+     "resumen": "Malicious code in @wanzforme/bails4u (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14964,10 +14940,10 @@
      "publicado": "2026-11-13"
     },
     {
-     "ghsa": "GHSA-rvgp-2hwx-w3mq",
+     "ghsa": "GHSA-2rfv-gw97-96gg",
      "cve": null,
-     "paquete": "winston-loggerex",
-     "resumen": "Malware in winston-loggerex",
+     "paquete": "zxcvb90-utils-helper",
+     "resumen": "Malicious code in zxcvb90-utils-helper (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14975,10 +14951,10 @@
      "publicado": "2026-11-13"
     },
     {
-     "ghsa": "GHSA-86hq-c3m7-846h",
+     "ghsa": "GHSA-f9q5-c8jm-95mw",
      "cve": null,
-     "paquete": "black-moon-js",
-     "resumen": "Malware in black-moon-js",
+     "paquete": "quickgreet",
+     "resumen": "Malicious code in quickgreet (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15704,9 +15680,9 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 556,
-   "criticos": 87,
-   "altos": 199,
+   "cves": 551,
+   "criticos": 84,
+   "altos": 196,
    "urgentes": 19,
    "epss_max": 0.0191,
    "fabricantes": [
@@ -15793,7 +15769,7 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 1144,
+   "cves": 1145,
    "criticos": 31,
    "altos": 829,
    "urgentes": 11,
@@ -15858,17 +15834,17 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 823,
-   "criticos": 61,
-   "altos": 258,
-   "urgentes": 9,
+   "cves": 941,
+   "criticos": 55,
+   "altos": 297,
+   "urgentes": 8,
    "epss_max": 0.0337,
    "fabricantes": [
     "WordPress (plugins)",
     "Wordpress",
     "Woocommerce",
-    "Joomla",
-    "Eclipse"
+    "Magento",
+    "Joomla"
    ],
    "kev_recientes": [
     {
@@ -15913,13 +15889,6 @@
      "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-114630",
-     "fabricante": "WordPress (plugins)",
-     "cvss": 9.1,
-     "epss": 0.01323,
-     "prioridad": "urgente"
-    },
-    {
      "cve": "CVE-2026-126768",
      "fabricante": "",
      "cvss": 9.3,
@@ -15932,6 +15901,13 @@
      "cvss": 9.3,
      "epss": 0.00488,
      "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-119446",
+     "fabricante": "",
+     "cvss": 9.4,
+     "epss": 0.00468,
+     "prioridad": "urgente"
     }
    ]
   },
@@ -15939,15 +15915,15 @@
    "categoria": "red",
    "nombre": "Red, VPN y firewalls",
    "estado": "explotacion_activa",
-   "cves": 160,
-   "criticos": 32,
-   "altos": 94,
+   "cves": 176,
+   "criticos": 34,
+   "altos": 104,
    "urgentes": 3,
    "epss_max": 0.0388,
    "fabricantes": [
     "Fortinet",
-    "Arista",
     "Citrix",
+    "Arista",
     "Ivanti",
     "Palo Alto Networks"
    ],
@@ -16099,14 +16075,14 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 30,
-   "criticos": 3,
-   "altos": 16,
+   "cves": 34,
+   "criticos": 6,
+   "altos": 17,
    "urgentes": 1,
    "epss_max": 0.0093,
    "fabricantes": [
-    "Amazon",
     "Docker",
+    "Amazon",
     "Terraform",
     "AWS",
     "Vmware"
@@ -16156,70 +16132,6 @@
      "fabricante": "Amazon",
      "cvss": 7.5,
      "epss": 0.00579,
-     "prioridad": "alta"
-    }
-   ]
-  },
-  {
-   "categoria": "linux",
-   "nombre": "Linux",
-   "estado": "explotacion_activa",
-   "cves": 141,
-   "criticos": 6,
-   "altos": 52,
-   "urgentes": 0,
-   "epss_max": 0.0132,
-   "fabricantes": [
-    "Red Hat",
-    "Linux",
-    "Canonical (Ubuntu)",
-    "Debian"
-   ],
-   "kev_recientes": [
-    {
-     "cve": "CVE-2026-46300",
-     "fabricante": "Linux",
-     "producto": "Kernel",
-     "nombre": "Linux Kernel Missing Initialization of a Variable Vulnerability",
-     "anadido": "2026-10-28",
-     "ransomware": false
-    }
-   ],
-   "kev_recientes_total": 1,
-   "destacados": [
-    {
-     "cve": "CVE-2026-95651",
-     "fabricante": "Linux",
-     "cvss": 7.5,
-     "epss": 0.01322,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-123747",
-     "fabricante": "Red Hat",
-     "cvss": 7.3,
-     "epss": 0.01232,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-112314",
-     "fabricante": "Red Hat",
-     "cvss": 7.5,
-     "epss": 0.00915,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-108472",
-     "fabricante": "Red Hat",
-     "cvss": 7.8,
-     "epss": 0.00908,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-112321",
-     "fabricante": "Red Hat",
-     "cvss": 7.5,
-     "epss": 0.009,
      "prioridad": "alta"
     }
    ]
@@ -16316,6 +16228,70 @@
      "fabricante": "Postfix",
      "cvss": 8.7,
      "epss": 0.00454,
+     "prioridad": "alta"
+    }
+   ]
+  },
+  {
+   "categoria": "linux",
+   "nombre": "Linux",
+   "estado": "explotacion_activa",
+   "cves": 124,
+   "criticos": 5,
+   "altos": 52,
+   "urgentes": 0,
+   "epss_max": 0.0132,
+   "fabricantes": [
+    "Red Hat",
+    "Linux",
+    "Canonical (Ubuntu)",
+    "Debian"
+   ],
+   "kev_recientes": [
+    {
+     "cve": "CVE-2026-46300",
+     "fabricante": "Linux",
+     "producto": "Kernel",
+     "nombre": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+     "anadido": "2026-10-28",
+     "ransomware": false
+    }
+   ],
+   "kev_recientes_total": 1,
+   "destacados": [
+    {
+     "cve": "CVE-2026-95651",
+     "fabricante": "Linux",
+     "cvss": 7.5,
+     "epss": 0.01322,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-123747",
+     "fabricante": "Red Hat",
+     "cvss": 7.3,
+     "epss": 0.01232,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-112314",
+     "fabricante": "Red Hat",
+     "cvss": 7.5,
+     "epss": 0.00915,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-108472",
+     "fabricante": "Red Hat",
+     "cvss": 7.8,
+     "epss": 0.00908,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-112321",
+     "fabricante": "Red Hat",
+     "cvss": 7.5,
+     "epss": 0.009,
      "prioridad": "alta"
     }
    ]
@@ -16477,16 +16453,16 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1350,
+   "cves": 1454,
    "criticos": 67,
-   "altos": 534,
+   "altos": 581,
    "urgentes": 10,
    "epss_max": 0.0944,
    "fabricantes": [
     "Intel",
     "AMD",
-    "Jetbrains",
     "Zephyr RTOS",
+    "Jetbrains",
     "Eclipse"
    ],
    "kev_recientes": [
@@ -16734,13 +16710,14 @@
    "categoria": "ia",
    "nombre": "IA y agentes (LLM · MCP)",
    "estado": "vigilar",
-   "cves": 6,
+   "cves": 8,
    "criticos": 0,
-   "altos": 2,
+   "altos": 3,
    "urgentes": 0,
    "epss_max": 0.0054,
    "fabricantes": [
     "Huggingface",
+    "Hugging Face",
     "Comfyui"
    ],
    "kev_recientes": [],
@@ -16775,11 +16752,11 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-123492",
-     "fabricante": "",
-     "cvss": 6.9,
-     "epss": 0.00266,
-     "prioridad": "media"
+     "cve": "CVE-2026-126397",
+     "fabricante": "Hugging Face",
+     "cvss": 7.5,
+     "epss": null,
+     "prioridad": "alta"
     }
    ]
   }
