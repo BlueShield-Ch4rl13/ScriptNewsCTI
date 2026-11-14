@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-14 04:42",
+ "generado_utc": "2026-11-14 13:03",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -222,7 +222,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 32
+   "avisos": 33
   },
   {
    "id": "bleeping",
@@ -240,14 +240,14 @@
    "idioma": "en",
    "url": "https://www.securityweek.com/feed/",
    "estado": "ok",
-   "avisos": 26
+   "avisos": 25
   }
  ],
  "resumen": {
   "avisos": 463,
   "por_tipo": {
-   "fabricante": 221,
    "noticia": 84,
+   "fabricante": 221,
    "cert": 95,
    "exploit": 63
   },
@@ -401,19 +401,6 @@
    "ultimo": "2026-11-10T09:42Z"
   },
   {
-   "cve": "CVE-2026-19868",
-   "fuentes": [
-    "incibe",
-    "securityweek",
-    "thehackernews"
-   ],
-   "avisos": 3,
-   "kev": true,
-   "cvss": null,
-   "epss": 0.00532,
-   "ultimo": "2026-11-09T08:15Z"
-  },
-  {
    "cve": "CVE-2026-112967",
    "fuentes": [
     "incibe",
@@ -424,9 +411,44 @@
    "cvss": 9.8,
    "epss": 0.01154,
    "ultimo": "2026-11-12T12:00Z"
+  },
+  {
+   "cve": "CVE-2026-116928",
+   "fuentes": [
+    "incibe",
+    "seguinfo"
+   ],
+   "avisos": 3,
+   "kev": false,
+   "cvss": 9.8,
+   "epss": 0.01161,
+   "ultimo": "2026-11-12T12:00Z"
   }
  ],
  "avisos": [
+  {
+   "fuente": "thehackernews",
+   "titulo": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+   "enlace": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+   "fecha": "2026-11-14T12:38Z",
+   "cves": [
+    "CVE-2026-114713"
+   ],
+   "cves_total": 1,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-114713"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": 8.6,
+   "epss_max": 0.003,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "cisco",
    "titulo": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
@@ -10177,29 +10199,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-   "enlace": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-   "fecha": "2026-11-07T10:16Z",
-   "cves": [
-    "CVE-2026-19868"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-19868"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0053,
    "exploit_publico": false,
    "exploitdb": null
   }

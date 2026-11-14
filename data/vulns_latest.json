@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-14 04:41",
+ "generado_utc": "2026-11-14 13:02",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 5158,
-  "criticos": 350,
+  "cves": 4820,
+  "criticos": 305,
   "explotados": 4,
-  "urgentes": 72,
+  "urgentes": 70,
   "epss_10": 1,
-  "sin_puntuar": 167,
+  "sin_puntuar": 190,
   "por_prioridad": {
    "explotada": 4,
-   "urgente": 72,
-   "alta": 2873,
-   "media": 1833,
-   "baja": 376
+   "urgente": 70,
+   "alta": 2690,
+   "media": 1663,
+   "baja": 393
   },
-  "paquetes_maliciosos": 1068,
+  "paquetes_maliciosos": 1070,
   "exploit_publico": 1,
-  "poc_github": 67,
+  "poc_github": 73,
   "ransomware": 0,
   "dia_cero": 3
  },
@@ -166,7 +166,7 @@
     "CWE-140"
    ],
    "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -174,12 +174,17 @@
    "descripcion": "The labeled-response module in UnrealIRCd 6.0.0 before 6.2.7.1 does not escape the IRCv3 \"label\" message tag when echoing it into replies, which allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authorit…",
    "avisos": [
     {
+     "fuente": "thehackernews",
+     "nombre": "The Hacker News",
+     "enlace": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
+    },
+    {
      "fuente": "cisa",
      "nombre": "CISA",
      "enlace": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
     }
    ],
-   "avisos_total": 1
+   "avisos_total": 2
   },
   {
    "cve": "CVE-2026-75869",
@@ -224,7 +229,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Zohocorp ManageEngine AssetExplorer versions below 7860, ServiceDesk Plus versions below 15290, ServiceDesk Plus MSP versions below 15150, and SupportCenter Plus versions below 15150 are affected by a authenticated remote code execution vulnerability in the Reports module. An aut…",
    "avisos": [],
    "avisos_total": 0
@@ -323,7 +328,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6 may allow an unauthenticated attacker to execute unauthorized code or commands via crafted HA join-r…",
    "avisos": [],
    "avisos_total": 0
@@ -349,30 +354,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Redpanda Connect versions 4.39 to 4.110 contain a missing authentication vulnerability that enables unauthenticated remote code execution (RCE). In streams mode, the management HTTP API is exposed on `0.0.0.0:4195`, but authentication is disabled by default and there is no authen…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-118066",
-   "publicado": "2026-11-07",
-   "prioridad": "urgente",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.02255,
-   "epss_percentil": 0.83216,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin for WordPress is vulnerable to Authentication Bypass via Account Takeover in all versions up to, and including, 5.7.6. This is due to the `OsModel::build_conditions_query()` function in `lib/m…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -455,30 +436,6 @@
    "avisos_total": 1
   },
   {
-   "cve": "CVE-2026-17402",
-   "publicado": "2026-11-07",
-   "prioridad": "urgente",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.01908,
-   "epss_percentil": 0.80091,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary commands due to OS command injection. User-supplied input is not properly neutralized before it is passed to the operating system, which could…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-126187",
    "publicado": "2026-11-10",
    "prioridad": "urgente",
@@ -521,7 +478,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Zohocorp ManageEngine M365 Manager Plus versions below 4818 is affected by an authenticated technician may exploit insufficient permission validation in the delegated administration interface to escalate privileges beyond their intended scope, which could result in remote code ex…",
    "avisos": [],
    "avisos_total": 0
@@ -2118,7 +2075,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Zoho Corporation ManageEngine ADAudit Plus versions below 8703 are vulnerable to an authenticated SQL injection vulnerability in ADAudit Plus Reports API.",
    "avisos": [],
    "avisos_total": 0
@@ -2142,7 +2099,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Zoho Corporation ManageEngine ADAudit Plus versions below 8711 are vulnerable to an authenticated second order SQL injection vulnerability affecting ADAudit Plus custom reports module.",
    "avisos": [],
    "avisos_total": 0
@@ -2605,30 +2562,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-118267",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.1,
-   "gravedad": "high",
-   "epss": 0.0162,
-   "epss_percentil": 0.76452,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-863"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The WP Data Access – App Builder for Tables, Forms, Dashboards, Charts & Maps plugin for WordPress is vulnerable to Incorrect Authorization leading to Privilege Escalation in all versions up to, and including, 5.5.89 This is due to the plugin's write endpoints (`wpda/app/update`,…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-109472",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -2743,7 +2676,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper neutralization of special elements used in a command ('command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with …",
    "avisos": [],
    "avisos_total": 0
@@ -2846,7 +2779,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0, FortiA…",
    "avisos": [],
    "avisos_total": 0
@@ -4244,7 +4177,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1 may allow an authenticated administrator to execute unauthorized code or commands as root via specially crafted HTTP requests.",
    "avisos": [],
    "avisos_total": 0
@@ -4268,7 +4201,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.4, FortiMail 7.4.0 through 7.4.6, FortiMail 7.2 all versions, FortiRecorder 7.6.0 through 7.6.2, Forti…",
    "avisos": [],
    "avisos_total": 0
@@ -5068,7 +5001,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated administrator …",
    "avisos": [],
    "avisos_total": 0
@@ -5092,7 +5025,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.4, FortiMail 7.4.0 through 7.4.6, FortiMail 7.2.0 through 7.2.9, FortiRecorder 7.6.0, FortiRecorder 7.…",
    "avisos": [],
    "avisos_total": 0
@@ -7058,54 +6991,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-17147",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00948,
-   "epss_percentil": 0.61695,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Ibm",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code and perform unauthorized administrative actions due to a path traversal vulnerability.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-104746",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.1,
-   "gravedad": "high",
-   "epss": 0.00947,
-   "epss_percentil": 0.61671,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Motors – Car Dealership & Classified Listings Plugin plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the stm_listings_ajax_save_user_data function in all versions up to, and including, 1.4.125 This makes it possible fo…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-121900",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -7202,30 +7087,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-17408",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00926,
-   "epss_percentil": 0.61003,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute arbitrary code due to improper neutralization of special elements in an OS command.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-118105",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -7294,30 +7155,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Missing authorization in Aspire allows an unauthorized attacker to bypass a security feature over a network.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-17340",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00922,
-   "epss_percentil": 0.60863,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute arbitrary code due to a path traversal vulnerability.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -7718,30 +7555,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Authorization bypass through user-controlled key in Microsoft Exchange Server allows an authorized attacker to elevate privileges over a network.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-17401",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00899,
-   "epss_percentil": 0.60163,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-121"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to a stack-based buffer overflow.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -8471,7 +8284,7 @@
    "fabricante": "Docker",
    "cwe": [],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -8673,30 +8486,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-17239",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00853,
-   "epss_percentil": 0.58835,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Ibm",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to a path traversal vulnerability.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-88234",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -8799,54 +8588,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-17342",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.0085,
-   "epss_percentil": 0.58714,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to improper control of generation of code.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-17359",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.0085,
-   "epss_percentil": 0.58714,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to improper control of generation of code. A user-supplied value can influence code that the product generates, which could lead to c…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-102643",
    "publicado": "2026-11-09",
    "prioridad": "alta",
@@ -8892,31 +8633,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Adobe Connect is affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could lead to arbitrary file system read. A low-privileged attacker could exploit this vulnerability to access sensitive files and directories outside the intended acc…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-123959",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.5,
-   "gravedad": "high",
-   "epss": 0.00841,
-   "epss_percentil": 0.58425,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "TOTOLINK",
-   "cwe": [
-    "CWE-119",
-    "CWE-120"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. The impacted element is the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument langType results in buffer overflow. The attack can be initiated remotely. The explo…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -9234,30 +8950,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-17335",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00835,
-   "epss_percentil": 0.58232,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to path traversal. File paths in uploaded content are not sufficiently validated, which could allow files to be written outside the intended location and code to be…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-100386",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -9423,30 +9115,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Heap-based buffer overflow in SQL Server allows an authorized attacker to execute code over a network.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-17117",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00821,
-   "epss_percentil": 0.57839,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Ibm",
-   "cwe": [
-    "CWE-915"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to improperly controlled modification of object attributes. A user could set a field that should only be controlled by the system, wh…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -9665,30 +9333,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "A flaw was found in yggdrasil-worker-package-manager. An authenticated attacker can exploit this issue to achieve arbitrary file modification or potential privilege escalation. The vulnerability exists because repository management operations fail to sanitize directory traversal …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-17150",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.00804,
-   "epss_percentil": 0.57282,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Ibm",
-   "cwe": [
-    "CWE-184"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code and access sensitive information from other tenants due to insufficient input validation. Uploaded custom module content is not sufficien…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -9957,56 +9601,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-123960",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00796,
-   "epss_percentil": 0.56999,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "TOTOLINK",
-   "cwe": [
-    "CWE-119",
-    "CWE-120"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. This affects the function setWanConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument pppoeUser/priDns/secDns can lead to buffer overflow. The attack can be launched remotely. The exploit h…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-123961",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00796,
-   "epss_percentil": 0.56998,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "TOTOLINK",
-   "cwe": [
-    "CWE-119",
-    "CWE-120"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiBasicConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument KeyStr leads to buffer overflow. The attack may be initiated remotely. The exploit has been d…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-109492",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -10075,30 +9669,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-87112",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00795,
-   "epss_percentil": 0.5696,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The QA Assistants – Driven by data plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 5.3.0 via the 'dlevent_ver' parameter. This is due to unrestricted PHP deserialization via wrap_unserialize_static() calling unserialize() without a…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10204,30 +9774,6 @@
     }
    ],
    "avisos_total": 1
-  },
-  {
-   "cve": "CVE-2026-17399",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.00786,
-   "epss_percentil": 0.56686,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-434"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to insufficient validation of uploaded content. Content uploaded to the product is not sufficiently checked before it is processed, w…",
-   "avisos": [],
-   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-109494",
@@ -10573,30 +10119,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-17313",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.0078,
-   "epss_percentil": 0.56473,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-288"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information and take control of gateway configuration due to authentication bypass via an alternate path.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-67547",
    "publicado": "2026-11-11",
    "prioridad": "alta",
@@ -10696,30 +10218,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Heap-based buffer overflow in SQL Server allows an authorized attacker to execute code over a network.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-16720",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00766,
-   "epss_percentil": 0.56023,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Ibm",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain valid access tokens for other users due to improper authentication. Authentication against a connected directory service is not sufficiently enforced, which could allo…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -11110,7 +10608,7 @@
     "CWE-787"
    ],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -11388,36 +10886,6 @@
    "descripcion": "Improper neutralization of special elements used in an os command ('os command injection') in Azure CycleCloud allows an authorized attacker to elevate privileges over a network.",
    "avisos": [],
    "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-104014",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00723,
-   "epss_percentil": 0.54562,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Naimur Email OTP Verification for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.1.0. This is due to the plugin's password-reset finalization endpoint (the wp_ajax_nopriv_ceovw_update_new_password action handled by …",
-   "avisos": [
-    {
-     "fuente": "wordfence",
-     "nombre": "Wordfence (WordPress)",
-     "enlace": "https://www.wordfence.com/blog/2026/11/wordfence-intelligence-weekly-wordpress-vulnerability-report-november-2-2026-to-november-8-2026/"
-    }
-   ],
-   "avisos_total": 1
   },
   {
    "cve": "CVE-2026-95962",
@@ -12474,54 +11942,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-16718",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 7.7,
-   "gravedad": "high",
-   "epss": 0.00701,
-   "epss_percentil": 0.53773,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Ibm",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper validation of file paths.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-17295",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 7.7,
-   "gravedad": "high",
-   "epss": 0.00701,
-   "epss_percentil": 0.53773,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Ibm",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to path traversal.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-128339",
    "publicado": "2026-11-13",
    "prioridad": "alta",
@@ -13098,30 +12518,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-18838",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.4,
-   "gravedad": "critical",
-   "epss": 0.00672,
-   "epss_percentil": 0.5264,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-290"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information and modify API configurations due to improper authentication. Identity information supplied in requests is not sufficiently verified, which could allow a caller to impersonate …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-72998",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -13219,30 +12615,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-17146",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.00666,
-   "epss_percentil": 0.524,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-79"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary JavaScript and obtain sensitive information due to improper input validation.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-122102",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -13291,30 +12663,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-17354",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.00664,
-   "epss_percentil": 0.52319,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to perform arbitrary file writes due to path traversal.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-18596",
    "publicado": "2026-11-12",
    "prioridad": "alta",
@@ -13359,54 +12707,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Integer overflow or wraparound in Windows SMB Server allows an authorized attacker to execute code over a network.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-17278",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00663,
-   "epss_percentil": 0.52266,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Ibm",
-   "cwe": [
-    "CWE-290"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain unauthorized access to sensitive API catalog and runtime configuration data due to improper authentication. Information supplied by the client is not sufficiently verified, which could allow a caller …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-17158",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.00662,
-   "epss_percentil": 0.52226,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to gain elevated privileges due to improper authentication.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13531,54 +12831,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-17392",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.00655,
-   "epss_percentil": 0.51935,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-90"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to gain unauthorized administrative access to other tenants due to LDAP injection. User-supplied input is not properly neutralized in directory queries, which coul…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-17410",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.9,
-   "gravedad": "critical",
-   "epss": 0.00655,
-   "epss_percentil": 0.51935,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-88"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access and modify other tenants' portal data due to improper neutralization of argument delimiters.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-126397",
    "publicado": "2026-11-13",
    "prioridad": "alta",
@@ -13669,7 +12921,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with d…",
    "avisos": [],
    "avisos_total": 0
@@ -13693,7 +12945,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with d…",
    "avisos": [],
    "avisos_total": 0
@@ -13717,7 +12969,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with d…",
    "avisos": [],
    "avisos_total": 0
@@ -14248,30 +13500,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-123776",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00633,
-   "epss_percentil": 0.5093,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "RRD::CGI::Image versions through 0.01 for Perl pass CGI query parameters containting \"tz\" to tzset(), , so a FIFO or device path blocks the CGI process. The normalize_params method sends any query key matching /tz/i to tz(), which sets $ENV{TZ} to that value, with no validation. …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-126147",
    "publicado": "2026-11-11",
    "prioridad": "alta",
@@ -14290,32 +13518,8 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated attacker to execute unau…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-17132",
-   "publicado": "2026-11-07",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00632,
-   "epss_percentil": 0.50842,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Ibm",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
    "explotacion_ssvc": "none",
-   "descripcion": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary SQL commands due to improper neutralization of special elements used in an SQL command.",
+   "descripcion": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated attacker to execute unau…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14338,7 +13542,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer 7.0 all versions, FortiAnalyzer Cloud 8.0.1, Fo…",
    "avisos": [
     {
@@ -14590,7 +13794,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A improper encoding or escaping of output vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.2, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer Cloud 8.0.1 through 8.0.2, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer-BigData 7.6.0 through 7.6.2, FortiManager 8.0.…",
    "avisos": [
     {
@@ -14793,6 +13997,809 @@
    "descripcion": "Heap-based buffer overflow in Windows NetBIOS allows an unauthorized attacker to elevate privileges over a network.",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-105578",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00621,
+   "epss_percentil": 0.50356,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-190",
+    "CWE-822"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Integer overflow or wraparound in Microsoft JScript allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-113768",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00621,
+   "epss_percentil": 0.50356,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Windows Performance Counters allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116698",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00621,
+   "epss_percentil": 0.50357,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Microsoft WDAC OLE DB provider for SQL allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119880",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00621,
+   "epss_percentil": 0.50356,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft XPS Document Converter allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119938",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00621,
+   "epss_percentil": 0.50357,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Windows Shell allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119944",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00621,
+   "epss_percentil": 0.50357,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Windows Mobile Device Management allows an unauthorized attacker to elevate privileges over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-96164",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00619,
+   "epss_percentil": 0.50246,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Windows Imaging Component allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-67546",
+   "publicado": "2026-11-11",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00618,
+   "epss_percentil": 0.50196,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-94"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heym builds and runs agentic systems and business-process automations on self-hosted infrastructure. Prior to version 0.0.75, the same POST /api/mcp/fetch-tools endpoint (any authenticated user, lowest role) also accepts the stdio transport, which spawns the attacker-supplied com…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-88249",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00618,
+   "epss_percentil": 0.50212,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Windows Client for NFS allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119837",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00618,
+   "epss_percentil": 0.50196,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Windows Universal Disk Format File System Driver (UDFS) allows an authorized attacker to elevate privileges locally.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-84010",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00618,
+   "epss_percentil": 0.5018,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-749"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Exposed dangerous method or function in SQL Server allows an authorized attacker to elevate privileges over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-68540",
+   "publicado": "2026-11-11",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00616,
+   "epss_percentil": 0.50061,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-400",
+    "CWE-405"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "fulgur converts untrusted HTML/CSS into PDF, commonly on a server that processes input supplied by many tenants. From version 0.6.0 to before version 0.33.0, quadratic style-list reprocessing during containing-block resolution for absolutely-positioned pseudo-elements cause denia…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126797",
+   "publicado": "2026-11-11",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00615,
+   "epss_percentil": 0.50036,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-321"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "NextScan 1.1.0 through 1.2.0 contains an authentication bypass vulnerability in ns-admin that allows unauthenticated attackers to forge administrator tokens using a hardcoded JWT signing key. Attackers can sign an HS256 X-Access-Token carrying the public super administrator role …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120824",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00615,
+   "epss_percentil": 0.50044,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "A use-after-free in the time-series collection component of MongoDB Server can occur when the server validates a time-series bucket document during a write. The condition can be caused by an authenticated user with privileges to write bucket documents directly, and may result in …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-105558",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00615,
+   "epss_percentil": 0.50035,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Windows Deployment Services allows an authorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115864",
+   "publicado": "2026-11-09",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00615,
+   "epss_percentil": 0.50057,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-789"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Monoceros versions before 0.30 for Perl allow a request declaring a large Content-Length to kill a worker by exhausting memory. The request body is read in a loop that asks sysread for all of the remaining declared length at once. Perl grows the read buffer to that size before an…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-6467",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00615,
+   "epss_percentil": 0.50046,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-427"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Uncontrolled search path element in PostgreSQL CREATE EXTENSION allows an attacker with database-level CREATE privilege to execute arbitrary code as the bootstrap superuser, via ALTER SCHEMA ... RENAME or CREATE EXTENSION ... SCHEMA \"$user\". ALTER EXTENSION was also affected. A t…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123751",
+   "publicado": "2026-11-09",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00611,
+   "epss_percentil": 0.49827,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "Wordpress",
+   "cwe": [
+    "CWE-434"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The WP Duplicate WordPress plugin through 1.1.11 does not properly verify a request authentication value and does not validate the path or type of uploaded files, making it possible for unauthenticated attackers to write arbitrary files to the server and achieve remote code execu…",
+   "avisos": [
+    {
+     "fuente": "wordfence",
+     "nombre": "Wordfence (WordPress)",
+     "enlace": "https://www.wordfence.com/blog/2026/11/wordfence-intelligence-weekly-wordpress-vulnerability-report-november-2-2026-to-november-8-2026/"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-126949",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.0,
+   "gravedad": "high",
+   "epss": 0.00611,
+   "epss_percentil": 0.49848,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Zipline through 4.4.0 contains a path traversal vulnerability in the PATCH /api/user/files/:id rename endpoint that allows authenticated users to overwrite existing uploads by supplying unsanitized names. Attackers can submit names like ../uploads/victim.txt that bypass the raw-s…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-124016",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 6.9,
+   "gravedad": "medium",
+   "epss": 0.00609,
+   "epss_percentil": 0.4973,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-407"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "postal-mime before 4.2.1 contains an algorithmic complexity denial of service vulnerability that allows unauthenticated remote attackers to cause excessive CPU consumption in the PostalMime.processLine() function by crafting deeply nested multipart email messages with boundary li…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-88222",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00608,
+   "epss_percentil": 0.49681,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft WDAC OLE DB provider for SQL allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120785",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49625,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120791",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49627,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-122198",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49626,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123375",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49625,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-121",
+    "CWE-191"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Stack-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123376",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49626,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123377",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49626,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122",
+    "CWE-190"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123381",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49624,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-121",
+    "CWE-681"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Stack-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123382",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49625,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-822"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Untrusted pointer dereference in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123383",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49625,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123385",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49626,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-121"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-124174",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49627,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-124176",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00607,
+   "epss_percentil": 0.49624,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14816,6 +14823,17 @@
    "criticos": 4,
    "altos": 15,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-7jf6-qwv2-qppp",
+     "cve": null,
+     "paquete": "@sfunction/dsh-screenshot",
+     "resumen": "Malware in @sfunction/dsh-screenshot",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-14"
+    },
     {
      "ghsa": "GHSA-vfc7-g3hx-84wp",
      "cve": null,
@@ -14854,17 +14872,6 @@
      "cve": null,
      "paquete": "@zread/cli-linux-arm64",
      "resumen": "Malware in @zread/cli-linux-arm64",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-13"
-    },
-    {
-     "ghsa": "GHSA-4r36-qqxv-mv2c",
-     "cve": null,
-     "paquete": "@zread/cli-darwin-x64",
-     "resumen": "Malware in @zread/cli-darwin-x64",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14943,13 +14950,35 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 55,
+   "maliciosos": 57,
    "maliciosos_mas": false,
    "avisos": 52,
    "avisos_mas": false,
    "criticos": 6,
    "altos": 21,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-fmq9-qj28-89vh",
+     "cve": null,
+     "paquete": "xrfdc",
+     "resumen": "Malicious code in xrfdc (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-14"
+    },
+    {
+     "ghsa": "GHSA-9fc6-4mrc-h6pp",
+     "cve": null,
+     "paquete": "trezortranslate",
+     "resumen": "Malicious code in trezortranslate (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-14"
+    },
     {
      "ghsa": "GHSA-xxj6-4xmj-wx6q",
      "cve": null,
@@ -14977,28 +15006,6 @@
      "cve": null,
      "paquete": "testing1345",
      "resumen": "Malicious code in testing1345 (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-13"
-    },
-    {
-     "ghsa": "GHSA-wg5f-m5mv-gmjg",
-     "cve": null,
-     "paquete": "my-mcp-server-driving-license-ocr",
-     "resumen": "Malicious code in my-mcp-server-driving-license-ocr (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-13"
-    },
-    {
-     "ghsa": "GHSA-85xg-c949-ffc6",
-     "cve": null,
-     "paquete": "garvisometerui",
-     "resumen": "Malicious code in garvisometerui (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15590,17 +15597,17 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 576,
-   "criticos": 82,
-   "altos": 205,
-   "urgentes": 17,
-   "epss_max": 0.0191,
+   "cves": 369,
+   "criticos": 42,
+   "altos": 104,
+   "urgentes": 16,
+   "epss_max": 0.0128,
    "fabricantes": [
-    "IBM",
     "Adobe",
     "Apache",
-    "Ibm",
-    "SAP"
+    "IBM",
+    "SAP",
+    "Ibm"
    ],
    "kev_recientes": [
     {
@@ -15639,13 +15646,6 @@
    "kev_recientes_total": 4,
    "destacados": [
     {
-     "cve": "CVE-2026-17402",
-     "fabricante": "IBM",
-     "cvss": 9.9,
-     "epss": 0.01908,
-     "prioridad": "urgente"
-    },
-    {
      "cve": "CVE-2026-121349",
      "fabricante": "Adobe",
      "cvss": 9.6,
@@ -15672,78 +15672,12 @@
      "cvss": 9.9,
      "epss": 0.01243,
      "prioridad": "urgente"
-    }
-   ]
-  },
-  {
-   "categoria": "web",
-   "nombre": "Aplicaciones web y CMS",
-   "estado": "explotacion_activa",
-   "cves": 966,
-   "criticos": 70,
-   "altos": 320,
-   "urgentes": 12,
-   "epss_max": 0.0337,
-   "fabricantes": [
-    "WordPress (plugins)",
-    "Wordpress",
-    "Woocommerce",
-    "Magento",
-    "Joomla"
-   ],
-   "kev_recientes": [
-    {
-     "cve": "CVE-2026-119977",
-     "fabricante": "WordPress",
-     "producto": "WordPress Core",
-     "nombre": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
-     "anadido": "2026-11-03",
-     "ransomware": false
     },
     {
-     "cve": "CVE-2026-110447",
-     "fabricante": "Collabora",
-     "producto": "Collabora Online – Built-in CODE Server",
-     "nombre": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
-     "anadido": "2026-10-23",
-     "ransomware": false
-    }
-   ],
-   "kev_recientes_total": 2,
-   "destacados": [
-    {
-     "cve": "CVE-2026-118066",
-     "fabricante": "WordPress (plugins)",
-     "cvss": 9.1,
-     "epss": 0.02255,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-119077",
-     "fabricante": "WordPress (plugins)",
-     "cvss": 9.8,
-     "epss": 0.01337,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-125055",
-     "fabricante": "WordPress (plugins)",
-     "cvss": 9.8,
-     "epss": 0.01141,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-126768",
-     "fabricante": "",
-     "cvss": 9.3,
-     "epss": 0.0077,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-126542",
-     "fabricante": "",
-     "cvss": 9.3,
-     "epss": 0.00753,
+     "cve": "CVE-2026-121887",
+     "fabricante": "Adobe",
+     "cvss": 9.9,
+     "epss": 0.01222,
      "prioridad": "urgente"
     }
    ]
@@ -15808,6 +15742,79 @@
      "fabricante": "Microsoft",
      "cvss": 9.8,
      "epss": 0.01161,
+     "prioridad": "urgente"
+    }
+   ]
+  },
+  {
+   "categoria": "web",
+   "nombre": "Aplicaciones web y CMS",
+   "estado": "explotacion_activa",
+   "cves": 832,
+   "criticos": 65,
+   "altos": 285,
+   "urgentes": 11,
+   "epss_max": 0.0337,
+   "fabricantes": [
+    "WordPress (plugins)",
+    "Wordpress",
+    "Woocommerce",
+    "Magento",
+    "Joomla"
+   ],
+   "kev_recientes": [
+    {
+     "cve": "CVE-2026-119977",
+     "fabricante": "WordPress",
+     "producto": "WordPress Core",
+     "nombre": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+     "anadido": "2026-11-03",
+     "ransomware": false
+    },
+    {
+     "cve": "CVE-2026-110447",
+     "fabricante": "Collabora",
+     "producto": "Collabora Online – Built-in CODE Server",
+     "nombre": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
+     "anadido": "2026-10-23",
+     "ransomware": false
+    }
+   ],
+   "kev_recientes_total": 2,
+   "destacados": [
+    {
+     "cve": "CVE-2026-119077",
+     "fabricante": "WordPress (plugins)",
+     "cvss": 9.8,
+     "epss": 0.01337,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-125055",
+     "fabricante": "WordPress (plugins)",
+     "cvss": 9.8,
+     "epss": 0.01141,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-126768",
+     "fabricante": "",
+     "cvss": 9.3,
+     "epss": 0.0077,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-126542",
+     "fabricante": "",
+     "cvss": 9.3,
+     "epss": 0.00753,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-126380",
+     "fabricante": "",
+     "cvss": 9.4,
+     "epss": 0.00643,
      "prioridad": "urgente"
     }
    ]
@@ -16041,7 +16048,7 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 124,
+   "cves": 123,
    "criticos": 6,
    "altos": 50,
    "urgentes": 1,
@@ -16354,9 +16361,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1454,
-   "criticos": 88,
-   "altos": 629,
+   "cves": 1462,
+   "criticos": 87,
+   "altos": 631,
    "urgentes": 18,
    "epss_max": 0.2035,
    "fabricantes": [
@@ -16503,15 +16510,15 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 35,
-   "criticos": 4,
-   "altos": 17,
+   "cves": 31,
+   "criticos": 5,
+   "altos": 12,
    "urgentes": 3,
    "epss_max": 0.0163,
    "fabricantes": [
-    "TOTOLINK",
     "D-Link",
     "Linksys",
+    "TOTOLINK",
     "Netgear",
     "Tenda"
    ],
@@ -16547,10 +16554,10 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-123959",
-     "fabricante": "TOTOLINK",
-     "cvss": 8.5,
-     "epss": 0.00841,
+     "cve": "CVE-2026-124560",
+     "fabricante": "D-Link",
+     "cvss": 8.9,
+     "epss": 0.00721,
      "prioridad": "alta"
     }
    ]
