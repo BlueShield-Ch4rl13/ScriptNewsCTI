@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-14 19:50",
+ "generado_utc": "2026-11-15 00:48",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 4782,
-  "criticos": 306,
+  "cves": 4783,
+  "criticos": 309,
   "explotados": 4,
   "urgentes": 71,
   "epss_10": 1,
-  "sin_puntuar": 181,
+  "sin_puntuar": 180,
   "por_prioridad": {
    "explotada": 4,
    "urgente": 71,
-   "alta": 2679,
+   "alta": 2681,
    "media": 1643,
-   "baja": 385
+   "baja": 384
   },
-  "paquetes_maliciosos": 1075,
+  "paquetes_maliciosos": 1063,
   "exploit_publico": 1,
-  "poc_github": 80,
+  "poc_github": 84,
   "ransomware": 0,
   "dia_cero": 3
  },
@@ -4554,7 +4554,7 @@
     "CWE-78"
    ],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -13391,7 +13391,7 @@
     "CWE-640"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -14831,6 +14831,28 @@
    "altos": 15,
    "ejemplos_maliciosos": [
     {
+     "ghsa": "GHSA-w3gq-mm9x-7w7c",
+     "cve": null,
+     "paquete": "@crvouga/mockingbird-service-microsoft",
+     "resumen": "Malware in @crvouga/mockingbird-service-microsoft",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-15"
+    },
+    {
+     "ghsa": "GHSA-ccgw-9w4v-vqh2",
+     "cve": null,
+     "paquete": "testpackage83",
+     "resumen": "Malicious code in testpackage83 (npm)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-14"
+    },
+    {
      "ghsa": "GHSA-7jf6-qwv2-qppp",
      "cve": null,
      "paquete": "@sfunction/dsh-screenshot",
@@ -14857,28 +14879,6 @@
      "cve": null,
      "paquete": "@zread/cli-win32-x64",
      "resumen": "Malware in @zread/cli-win32-x64",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-13"
-    },
-    {
-     "ghsa": "GHSA-rmrw-hx84-5hgq",
-     "cve": null,
-     "paquete": "@zread/cli-linux-x64",
-     "resumen": "Malware in @zread/cli-linux-x64",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-13"
-    },
-    {
-     "ghsa": "GHSA-jw9g-9vcc-5xjv",
-     "cve": null,
-     "paquete": "@zread/cli-linux-arm64",
-     "resumen": "Malware in @zread/cli-linux-arm64",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14957,7 +14957,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 62,
+   "maliciosos": 50,
    "maliciosos_mas": false,
    "avisos": 52,
    "avisos_mas": false,
@@ -15055,15 +15055,15 @@
      "publicado": "2026-11-13"
     },
     {
-     "ghsa": "GHSA-89p3-fcch-88ph",
-     "cve": "CVE-2026-126299",
+     "ghsa": "GHSA-qg35-44qx-7vrr",
+     "cve": "CVE-2026-126304",
      "paquete": "nltk",
-     "resumen": "NLTK: Quadratic-time CPU denial of service in CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
+     "resumen": "NLTK: Symlink escape in YCOECorpusReader lets a psd/pos directory symlink read files outside the corpus root within the data sandbox",
      "gravedad": "high",
      "cvss": 7.5,
-     "epss": 0.00582,
+     "epss": 0.00619,
      "corregido_en": "3.10.4",
-     "publicado": "2026-11-14"
+     "publicado": "2026-11-13"
     },
     {
      "ghsa": "GHSA-mmhr-3c5m-f64f",
@@ -15640,17 +15640,9 @@
      "nombre": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
      "anadido": "2026-10-27",
      "ransomware": false
-    },
-    {
-     "cve": "CVE-2026-21589",
-     "fabricante": "Atlassian",
-     "producto": "Multiple Products",
-     "nombre": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
-     "anadido": "2026-10-15",
-     "ransomware": false
     }
    ],
-   "kev_recientes_total": 4,
+   "kev_recientes_total": 3,
    "destacados": [
     {
      "cve": "CVE-2026-121349",
@@ -15757,9 +15749,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 816,
+   "cves": 815,
    "criticos": 66,
-   "altos": 285,
+   "altos": 284,
    "urgentes": 11,
    "epss_max": 0.0337,
    "fabricantes": [
@@ -16055,7 +16047,7 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 110,
+   "cves": 108,
    "criticos": 5,
    "altos": 48,
    "urgentes": 1,
@@ -16368,9 +16360,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1456,
+   "cves": 1458,
    "criticos": 88,
-   "altos": 632,
+   "altos": 633,
    "urgentes": 20,
    "epss_max": 0.2035,
    "fabricantes": [
@@ -16517,16 +16509,16 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 28,
-   "criticos": 5,
-   "altos": 9,
+   "cves": 30,
+   "criticos": 8,
+   "altos": 8,
    "urgentes": 2,
    "epss_max": 0.0163,
    "fabricantes": [
     "D-Link",
     "Linksys",
+    "Trendnet",
     "Netgear",
-    "TOTOLINK",
     "Edimax"
    ],
    "kev_recientes": [],

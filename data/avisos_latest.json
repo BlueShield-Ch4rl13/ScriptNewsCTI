@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-14 19:50",
+ "generado_utc": "2026-11-15 00:48",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -159,7 +159,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 15
+   "avisos": 14
   },
   {
    "id": "zdi",
@@ -244,9 +244,9 @@
   }
  ],
  "resumen": {
-  "avisos": 464,
+  "avisos": 463,
   "por_tipo": {
-   "fabricante": 222,
+   "fabricante": 221,
    "noticia": 84,
    "cert": 95,
    "exploit": 63
@@ -431,7 +431,7 @@
    "fuente": "debian",
    "titulo": "DSA-6629-1 network-manager-iodine - security update",
    "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00549.html",
-   "fecha": "2026-11-14T19:50Z",
+   "fecha": "2026-11-15T00:00Z",
    "cves": [],
    "cves_total": 0,
    "texto_explotada": false,
@@ -488,6 +488,25 @@
    "critica": false,
    "cvss_max": 8.6,
    "epss_max": 0.0051,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6630-1 pdns-recursor - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00550.html",
+   "fecha": "2026-11-14T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5463,11 +5482,11 @@
   },
   {
    "fuente": "paloalto",
-   "titulo": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0325",
+   "titulo": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0326",
    "fecha": "2026-11-11T17:00Z",
    "cves": [
-    "CVE-2026-0325"
+    "CVE-2026-0326"
    ],
    "cves_total": 1,
    "texto_explotada": false,
@@ -5478,7 +5497,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0036,
+   "epss_max": 0.0043,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5505,11 +5524,11 @@
   },
   {
    "fuente": "paloalto",
-   "titulo": "CVE-2026-0331 PAN-OS: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0331",
+   "titulo": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0330",
    "fecha": "2026-11-11T17:00Z",
    "cves": [
-    "CVE-2026-0331"
+    "CVE-2026-0330"
    ],
    "cves_total": 1,
    "texto_explotada": false,
@@ -5520,7 +5539,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0056,
+   "epss_max": 0.005,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5540,69 +5559,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0328",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0328"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0057,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-0323 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0323",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0323"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0015,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0330",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0330"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.005,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5629,6 +5585,90 @@
   },
   {
    "fuente": "paloalto",
+   "titulo": "CVE-2026-0323 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0323",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0323"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0015,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-0331 PAN-OS: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0331",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0331"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0056,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0328",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0328"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0057,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
+   "titulo": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0325",
+   "fecha": "2026-11-11T17:00Z",
+   "cves": [
+    "CVE-2026-0325"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0036,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
    "titulo": "CVE-2026-0324 GlobalProtect App: Incorrect Privilege Management Vulnerability in OPSWAT MetaDefender Endpoint Security SDK on Windows (Severity: MEDIUM)",
    "enlace": "https://security.paloaltonetworks.com/CVE-2026-0324",
    "fecha": "2026-11-11T17:00Z",
@@ -5645,27 +5685,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.0013,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0326",
-   "fecha": "2026-11-11T17:00Z",
-   "cves": [
-    "CVE-2026-0326"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0043,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -10173,44 +10192,6 @@
    "titulo": "Multiples vulnérabilités dans Xen (09 novembre 2026)",
    "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1485/",
    "fecha": "2026-11-09T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6616-1 linux - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00536.html",
-   "fecha": "2026-11-08T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6600-2 vim - regression update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00535.html",
-   "fecha": "2026-11-08T00:00Z",
    "cves": [],
    "cves_total": 0,
    "texto_explotada": false,
