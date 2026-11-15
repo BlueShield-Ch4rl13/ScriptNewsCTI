@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-15 00:48",
+ "generado_utc": "2026-11-15 10:28",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 4783,
-  "criticos": 309,
-  "explotados": 4,
+  "cves": 4664,
+  "criticos": 306,
+  "explotados": 3,
   "urgentes": 71,
   "epss_10": 1,
-  "sin_puntuar": 180,
+  "sin_puntuar": 192,
   "por_prioridad": {
-   "explotada": 4,
+   "explotada": 3,
    "urgente": 71,
-   "alta": 2681,
-   "media": 1643,
-   "baja": 384
+   "alta": 2621,
+   "media": 1587,
+   "baja": 382
   },
-  "paquetes_maliciosos": 1063,
+  "paquetes_maliciosos": 1065,
   "exploit_publico": 1,
-  "poc_github": 84,
+  "poc_github": 94,
   "ransomware": 0,
   "dia_cero": 3
  },
@@ -152,41 +152,6 @@
    "avisos_total": 5
   },
   {
-   "cve": "CVE-2026-114713",
-   "publicado": "2026-11-08",
-   "prioridad": "explotada",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00508,
-   "epss_percentil": 0.43896,
-   "kev": true,
-   "categoria": "otros",
-   "fabricante": "UnrealIRCd",
-   "cwe": [
-    "CWE-140"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "active",
-   "descripcion": "The labeled-response module in UnrealIRCd 6.0.0 before 6.2.7.1 does not escape the IRCv3 \"label\" message tag when echoing it into replies, which allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authorit…",
-   "avisos": [
-    {
-     "fuente": "thehackernews",
-     "nombre": "The Hacker News",
-     "enlace": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
-    },
-    {
-     "fuente": "cisa",
-     "nombre": "CISA",
-     "enlace": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-    }
-   ],
-   "avisos_total": 2
-  },
-  {
    "cve": "CVE-2026-75869",
    "publicado": "2026-11-12",
    "prioridad": "urgente",
@@ -250,7 +215,7 @@
     "CWE-78"
    ],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -2965,7 +2930,7 @@
    "cwe": [
     "CWE-362"
    ],
-   "estado_nvd": "Analyzed",
+   "estado_nvd": "Modified",
    "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
@@ -13256,30 +13221,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-123614",
-   "publicado": "2026-11-08",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00657,
-   "epss_percentil": 0.52058,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-122"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "imgproxy from 4.0.0 before 4.0.16 contains an integer overflow in the ICO loader that allows remote attackers to trigger a heap buffer overflow via a crafted data_size value. Attackers can submit a crafted ICO image whose data_size wraps the allocation in vips/icoload.c, corrupti…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-126428",
    "publicado": "2026-11-13",
    "prioridad": "alta",
@@ -14807,6 +14748,54 @@
    "descripcion": "NextScan 1.1.0 through 1.2.0 contains an authentication bypass vulnerability in ns-admin that allows unauthenticated attackers to forge administrator tokens using a hardcoded JWT signing key. Attackers can sign an HS256 X-Access-Token carrying the public super administrator role …",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120824",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00615,
+   "epss_percentil": 0.50071,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "A use-after-free in the time-series collection component of MongoDB Server can occur when the server validates a time-series bucket document during a write. The condition can be caused by an authenticated user with privileges to write bucket documents directly, and may result in …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-105558",
+   "publicado": "2026-11-10",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00615,
+   "epss_percentil": 0.50062,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Microsoft",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Heap-based buffer overflow in Windows Deployment Services allows an authorized attacker to execute code over a network.",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14830,6 +14819,28 @@
    "criticos": 4,
    "altos": 15,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-95pv-hv63-58m8",
+     "cve": null,
+     "paquete": "@theholocron/holocron-plugin-discord",
+     "resumen": "Malware in @theholocron/holocron-plugin-discord",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-15"
+    },
+    {
+     "ghsa": "GHSA-2p2h-g9qq-v2wx",
+     "cve": null,
+     "paquete": "node-zserial",
+     "resumen": "Malware in node-zserial",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-15"
+    },
     {
      "ghsa": "GHSA-w3gq-mm9x-7w7c",
      "cve": null,
@@ -14862,28 +14873,6 @@
      "epss": null,
      "corregido_en": null,
      "publicado": "2026-11-14"
-    },
-    {
-     "ghsa": "GHSA-vfc7-g3hx-84wp",
-     "cve": null,
-     "paquete": "@zread/cli-win32-arm64",
-     "resumen": "Malware in @zread/cli-win32-arm64",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-13"
-    },
-    {
-     "ghsa": "GHSA-h7rw-cqm6-8xhc",
-     "cve": null,
-     "paquete": "@zread/cli-win32-x64",
-     "resumen": "Malware in @zread/cli-win32-x64",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-13"
     }
    ],
    "ejemplos_graves": [
@@ -14957,13 +14946,35 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 50,
+   "maliciosos": 52,
    "maliciosos_mas": false,
    "avisos": 52,
    "avisos_mas": false,
    "criticos": 6,
    "altos": 21,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-rp2f-46j6-grv4",
+     "cve": null,
+     "paquete": "gatepay-sdk-python",
+     "resumen": "Malicious code in gatepay-sdk-python (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-15"
+    },
+    {
+     "ghsa": "GHSA-8chm-xj53-hg7h",
+     "cve": null,
+     "paquete": "gateio-v4",
+     "resumen": "Malicious code in gateio-v4 (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-15"
+    },
     {
      "ghsa": "GHSA-29h4-x5fq-cp34",
      "cve": null,
@@ -14991,28 +15002,6 @@
      "cve": null,
      "paquete": "ps-bool",
      "resumen": "Malicious code in ps-bool (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-14"
-    },
-    {
-     "ghsa": "GHSA-h6gp-mprh-hhhv",
-     "cve": null,
-     "paquete": "gateio-ws",
-     "resumen": "Malicious code in gateio-ws (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-14"
-    },
-    {
-     "ghsa": "GHSA-7r7f-5mcw-j79p",
-     "cve": null,
-     "paquete": "demo-pingtest-xyz",
-     "resumen": "Malicious code in demo-pingtest-xyz (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15604,8 +15593,8 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 369,
-   "criticos": 42,
+   "cves": 370,
+   "criticos": 43,
    "altos": 104,
    "urgentes": 16,
    "epss_max": 0.0133,
@@ -15685,9 +15674,9 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 1134,
+   "cves": 1132,
    "criticos": 29,
-   "altos": 826,
+   "altos": 825,
    "urgentes": 11,
    "epss_max": 0.0247,
    "fabricantes": [
@@ -15749,9 +15738,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 815,
-   "criticos": 66,
-   "altos": 284,
+   "cves": 803,
+   "criticos": 64,
+   "altos": 282,
    "urgentes": 11,
    "epss_max": 0.0337,
    "fabricantes": [
@@ -15822,9 +15811,9 @@
    "categoria": "red",
    "nombre": "Red, VPN y firewalls",
    "estado": "explotacion_activa",
-   "cves": 179,
+   "cves": 177,
    "criticos": 34,
-   "altos": 107,
+   "altos": 105,
    "urgentes": 3,
    "epss_max": 0.0388,
    "fabricantes": [
@@ -15919,7 +15908,7 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 31,
+   "cves": 30,
    "criticos": 5,
    "altos": 15,
    "urgentes": 2,
@@ -16047,9 +16036,9 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 108,
+   "cves": 112,
    "criticos": 5,
-   "altos": 48,
+   "altos": 50,
    "urgentes": 1,
    "epss_max": 0.0132,
    "fabricantes": [
@@ -16360,17 +16349,17 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1458,
-   "criticos": 88,
-   "altos": 633,
-   "urgentes": 20,
+   "cves": 1348,
+   "criticos": 84,
+   "altos": 581,
+   "urgentes": 19,
    "epss_max": 0.2035,
    "fabricantes": [
     "Intel",
     "AMD",
     "Zephyr RTOS",
     "Eclipse",
-    "UnrealIRCd"
+    "Mongodb"
    ],
    "kev_recientes": [
     {
@@ -16417,13 +16406,6 @@
    "kev_recientes_total": 7,
    "destacados": [
     {
-     "cve": "CVE-2026-114713",
-     "fabricante": "UnrealIRCd",
-     "cvss": 8.6,
-     "epss": 0.00508,
-     "prioridad": "explotada"
-    },
-    {
      "cve": "CVE-2026-75869",
      "fabricante": "",
      "cvss": 8.8,
@@ -16449,6 +16431,13 @@
      "fabricante": "",
      "cvss": 9.3,
      "epss": 0.03128,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-124580",
+     "fabricante": "",
+     "cvss": 9.3,
+     "epss": 0.02794,
      "prioridad": "urgente"
     }
    ]
@@ -16509,9 +16498,9 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 30,
-   "criticos": 8,
-   "altos": 8,
+   "cves": 33,
+   "criticos": 10,
+   "altos": 9,
    "urgentes": 2,
    "epss_max": 0.0163,
    "fabricantes": [
