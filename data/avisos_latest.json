@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-16 00:49",
+ "generado_utc": "2026-11-16 10:43",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -15,7 +15,7 @@
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
    "estado": "ok",
-   "avisos": 16
+   "avisos": 14
   },
   {
    "id": "incibe_sci",
@@ -231,7 +231,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 19
+   "avisos": 20
   },
   {
    "id": "securityweek",
@@ -244,19 +244,19 @@
   }
  ],
  "resumen": {
-  "avisos": 459,
+  "avisos": 458,
   "por_tipo": {
-   "noticia": 85,
+   "noticia": 86,
    "fabricante": 222,
-   "cert": 89,
+   "cert": 87,
    "exploit": 63
   },
-  "explotados": 58,
+  "explotados": 56,
   "dia_cero": 18,
-  "sin_parche": 13,
+  "sin_parche": 12,
   "criticos": 30,
   "exploit_publico": 6,
-  "cves_citados": 439,
+  "cves_citados": 437,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -427,6 +427,44 @@
   }
  ],
  "avisos": [
+  {
+   "fuente": "bleeping",
+   "titulo": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+   "enlace": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+   "fecha": "2026-11-16T09:30Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+   "enlace": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+   "fecha": "2026-11-16T06:53Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "seguinfo",
    "titulo": "El tiempo medio transcurrido desde la divulgación de una vulnerabilidad hasta su explotación pasó de 771 días a \"menos siete días\"",
@@ -5539,11 +5577,11 @@
   },
   {
    "fuente": "paloalto",
-   "titulo": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0326",
+   "titulo": "CVE-2026-0329 PAN-OS: Buffer Overflow Vulnerability (Severity: MEDIUM)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0329",
    "fecha": "2026-11-11T17:00Z",
    "cves": [
-    "CVE-2026-0326"
+    "CVE-2026-0329"
    ],
    "cves_total": 1,
    "texto_explotada": false,
@@ -5621,11 +5659,11 @@
   },
   {
    "fuente": "paloalto",
-   "titulo": "CVE-2026-0329 PAN-OS: Buffer Overflow Vulnerability (Severity: MEDIUM)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0329",
+   "titulo": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0325",
    "fecha": "2026-11-11T17:00Z",
    "cves": [
-    "CVE-2026-0329"
+    "CVE-2026-0325"
    ],
    "cves_total": 1,
    "texto_explotada": false,
@@ -5636,7 +5674,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0043,
+   "epss_max": 0.0036,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5705,11 +5743,11 @@
   },
   {
    "fuente": "paloalto",
-   "titulo": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0325",
+   "titulo": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
+   "enlace": "https://security.paloaltonetworks.com/CVE-2026-0326",
    "fecha": "2026-11-11T17:00Z",
    "cves": [
-    "CVE-2026-0325"
+    "CVE-2026-0326"
    ],
    "cves_total": 1,
    "texto_explotada": false,
@@ -5720,7 +5758,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0036,
+   "epss_max": 0.0043,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -10060,73 +10098,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en SonicOS de SonicWall",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-sonicos-de-sonicwall",
-   "fecha": "2026-11-09T08:15Z",
-   "cves": [
-    "CVE-2026-19868"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-19868"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0053,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Cross-site Scripting (XSS) almacenado en Tankuam Places",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-xss-almacenado-en-tankuam-places",
-   "fecha": "2026-11-09T08:10Z",
-   "cves": [
-    "CVE-2026-124637"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0026,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-   "enlace": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-   "fecha": "2026-11-09T06:05Z",
-   "cves": [
-    "CVE-2026-19868"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-19868"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0053,
    "exploit_publico": false,
    "exploitdb": null
   }
