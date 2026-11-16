@@ -223,18 +223,27 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-11-16 10:43 UTC · **IOCs recolectados:** 1844 · **CVEs KEV recientes:** 15
+**Última actualización:** 2026-11-16 21:42 UTC · **IOCs recolectados:** 1822 · **CVEs KEV recientes:** 15
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
 | 75 (alta) | media | `102[.]220[.]161[.]178:10213` | ip:port | CECbot | ThreatFox | 2026-11-16 02:40:35 UTC |
-| 71 (alta) | media | `104[.]194[.]155[.]42:8443` | ip:port | Evilginx | ThreatFox | 2026-11-15 19:43:09 UTC |
+| 71 (alta) | media | `2[.]57[.]122[.]207:80` | ip:port | Unknown malware | ThreatFox | 2026-11-16 20:10:29 UTC |
+| 71 (alta) | media | `109[.]160[.]32[.]136:22` | ip:port | Unknown malware | ThreatFox | 2026-11-16 19:18:44 UTC |
 | 70 (alta) | media | `103[.]170[.]217[.]170:7002` | ip:port | Unknown malware | ThreatFox | 2026-11-16 06:52:35 UTC |
-| 68 (media) | media | `35[.]203[.]42[.]158` | ipv4 | php.shin\_webshell | ThreatFox | 2026-11-15 18:56:51 UTC |
-| 65 (media) | media | `hxxps://www[.]mediafire[.]com/file/r4xs0w0g7yrxtep/file` | url | Grandoreiro | ThreatFox, URLhaus | 2026-11-16 09:35:00 UTC |
+| 66 (media) | critica | `103[.]235[.]74[.]71:31337` | ip:port | Sliver | ThreatFox | 2026-11-16 17:47:54 UTC |
 | 65 (media) | alta | `39566f72e27080164979f74236905493e7dd80842869405a48a3eec835d09aa8` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 08:59:09 UTC |
+| 64 (media) | alta | `2aa3d787c2a904ca7dfa1b869ecab277` | filehash-md5 | Raven Stealer | ThreatFox, OTX | 2026-11-16 01:41:53 UTC |
+| 64 (media) | alta | `ef70bc0d88cea526dfb8803368d6343bfc0d7a79` | filehash-sha1 | Raven Stealer | ThreatFox, OTX | 2026-11-16 01:41:52 UTC |
+| 64 (media) | alta | `473779289b5ead474ff8298c88859b18667456eef9d3a40ed9dc0d23b9a4cba7` | filehash-sha256 | Raven Stealer | ThreatFox, OTX | 2026-11-16 01:41:52 UTC |
+| 64 (media) | alta | `f292bdfb1718ce6c6a27dfc63bf744dc` | filehash-md5 | Raven Stealer | ThreatFox, OTX | 2026-11-16 01:41:51 UTC |
+| 64 (media) | alta | `3013b0c5aaa533f5086fb97e675262db2fc20aa3` | filehash-sha1 | Raven Stealer | ThreatFox, OTX | 2026-11-16 01:41:51 UTC |
+| 64 (media) | alta | `a446881693739cbc0f18278e3f77863d` | filehash-md5 | Raven Stealer | ThreatFox, OTX | 2026-11-16 01:41:49 UTC |
+| 64 (media) | alta | `6d103781912332654a1bcb6b2ff6aabdddf4cd2d` | filehash-sha1 | Raven Stealer | ThreatFox, OTX | 2026-11-16 01:41:48 UTC |
+| 64 (media) | alta | `3b099d9754264f749514bbc3d3cf2606c6ae813ca6326bd1d7990aa579ff4f48` | filehash-sha256 | Raven Stealer | ThreatFox, OTX | 2026-11-16 01:41:48 UTC |
+| 63 (media) | media | `45[.]207[.]231[.]19:80` | ip:port | Unknown malware | ThreatFox | 2026-11-16 14:40:25 UTC |
 | 63 (media) | alta | `063b5fd7ec235067d12b1d5d59e82c7917c945de48495878da92b9be176346ab` | filehash-sha256 | Unknown RAT | ThreatFox | 2026-11-16 08:59:12 UTC |
 | 63 (media) | alta | `e450ab25fe7da47c99ecf4627cc6d908e61515dd52642f71a917cdcda2415ee9` | filehash-sha256 | Unknown RAT | ThreatFox | 2026-11-16 08:59:10 UTC |
 | 63 (media) | alta | `0b5c87f5a1f9002bdbbf35f4a8546acc00e4c7812ed37f8838eef08a599a5a72` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 08:59:02 UTC |
@@ -245,15 +254,6 @@ python main.py
 | 62 (media) | alta | `004c2713c85fb120c30412271bc5afd069f3ca6b637823fad47536ceaf0bc926` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 09:59:02 UTC |
 | 62 (media) | alta | `52a84b9d287b70341f2e90f89341a5328bc8f1772a7ef11defa54ad4cab0d9bf` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 09:59:01 UTC |
 | 62 (media) | alta | `f06cb053227f992e0dd36752f36312cbe5504570023b53db3665cb639f5381ea` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 09:59:00 UTC |
-| 62 (media) | alta | `ecb108fa724b92dfbb66c49da57bfeabcf592ba17dfdcd72d46c1e589dfdb455` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 09:58:59 UTC |
-| 62 (media) | alta | `d57f6154174a0bf32e9d6e310408bcb3e050dc05f3c49368d3b202e138fe3df1` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 08:59:08 UTC |
-| 62 (media) | alta | `81c53cfc3b9495e8f581bc177348d6678cd3b8b86f029aef42d2e24ca3409dec` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 08:59:07 UTC |
-| 62 (media) | alta | `84c7786f95b17b721a835e4ad1016f5c83fa2c6549946abce25db55f75c9b799` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 08:59:06 UTC |
-| 62 (media) | alta | `d1882c6b5bf6f4ce0742fea6307d0b0c52e17835b3180261678f759d1068109c` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 08:59:05 UTC |
-| 62 (media) | alta | `2ebc68f49525fc79da8d4c891face16a578ee8f656308f343a7215faaaefa4b1` | filehash-sha256 | Unknown Loader | ThreatFox | 2026-11-16 08:59:03 UTC |
-| 62 (media) | alta | `206[.]189[.]91[.]57:8001` | ip:port | Aisuru | ThreatFox | 2026-11-16 01:44:26 UTC |
-| 62 (media) | media | `136[.]110[.]49[.]199` | ipv4 | php.shin\_webshell | ThreatFox | 2026-11-15 20:09:01 UTC |
-| 61 (media) | media | `hxxp://182[.]34[.]60[.]169:48147/Mozi[.]m` | url | Mozi | ThreatFox, URLhaus | 2026-11-15 12:19:45 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -277,12 +277,17 @@ python main.py
 
 ### Avisos de seguridad de los últimos 7 días
 
-**458** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **56** de algo que ya se explota · **18** de día cero · **12** sin parche
+**455** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **53** de algo que ya se explota · **16** de día cero · **14** sin parche
 
-**Lo más citado:** CVE-2026-111497 (6 fuentes, KEV) · CVE-2026-119618 (6 fuentes) · CVE-2026-124194 (4 fuentes, KEV) · CVE-2026-125350 (4 fuentes, KEV) · CVE-2026-20320 (4 fuentes, KEV) · CVE-2026-109618 (3 fuentes, KEV) · CVE-2026-109619 (3 fuentes, KEV) · CVE-2026-120868 (3 fuentes)
+**Lo más citado:** CVE-2026-119618 (6 fuentes) · CVE-2026-111497 (5 fuentes, KEV) · CVE-2026-109618 (5 fuentes, KEV) · CVE-2026-109619 (5 fuentes, KEV) · CVE-2026-124194 (4 fuentes, KEV) · CVE-2026-20320 (4 fuentes, KEV) · CVE-2026-114713 (3 fuentes, KEV) · CVE-2026-120868 (3 fuentes)
 
 | Fecha | Fuente | Aviso | Señales |
 |---|---|---|---|
+| 2026-11-16 | Segu-Info | [PHP2Shell: Historia de una vulnerabilidad crítica, un embargo roto y un investigador que decidió no jugar segú](http://blog.segu-info.com.ar/2026/11/php2shell-historia-de-una.html) | explotada, crítica |
+| 2026-11-16 | INCIBE-CERT | [Múltiples vulnerabilidades en ScreenConnect y en la extensión RMM+](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-screenconnect-y-en-la-extension-rmm) | explotada |
+| 2026-11-16 | INCIBE-CERT | [Desbordamiento de búfer basado en pila en DIR-600L de D-Link](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-bufer-basado-en-pila-en-dir-600l-de-d-link) | crítica |
+| 2026-11-16 | SecurityWeek | [Recent UnrealIRCd Vulnerability Exploited in Attacks](https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/) | explotada |
+| 2026-11-16 | Siemens ProductCERT | [SSA-166980 V1.4 (Last Update: 2026-11-16): PHP2Shell Vulnerabilities in Siemens Products](https://cert-portal.siemens.com/productcert/html/ssa-166980.html) | explotada |
 | 2026-11-15 | Segu-Info | [El tiempo medio transcurrido desde la divulgación de una vulnerabilidad hasta su explotación pasó de 771 días](http://blog.segu-info.com.ar/2026/11/el-tiempo-medio-transcurrido-desde-la.html) | explotada, sin parche |
 | 2026-11-14 | The Hacker News | [Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection](https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html) | explotada |
 | 2026-11-13 | Cisco | [Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1) | explotada |
@@ -303,15 +308,10 @@ python main.py
 | 2026-11-12 | The Hacker News | [Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry](https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html) | crítica |
 | 2026-11-12 | BleepingComputer | [New Windows SignDrop zero-day gives hackers SYSTEM privileges](https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/) | explotada, día cero |
 | 2026-11-12 | Microsoft | [CVE-2026-111497 Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497) | explotada |
-| 2026-11-12 | SecurityWeek | [Apache Patches Critical HTTP Server RCE Found by Anthropic, Google](https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/) | crítica |
-| 2026-11-12 | Segu-Info | [Falla crítica en el módulo HTTP/2 de Apache (CVE-2026-119618) permite ejecución remota de código sin autentica](http://blog.segu-info.com.ar/2026/11/falla-critica-en-el-modulo-http2-de.html) | sin parche, crítica |
-| 2026-11-12 | Wordfence (WordPress) | [PSA: Critical Apache HTTP/2 Vulnerability: What WordPress Site Owners Should Know](https://www.wordfence.com/blog/2026/11/cve-2026-119618-apache-http2/) | crítica |
-| 2026-11-12 | CISA | [Siemens Desigo, Gridscale](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02) | explotada |
-| 2026-11-12 | CISA | [Siemens RUGGEDCOM APE1808](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05) | explotada |
 
 ### Vulnerabilidades de los últimos 7 días
 
-**4505** CVE publicados · **3** ya explotados · **65** urgentes · **288** con CVSS ≥ 9 · **1051** paquetes maliciosos en los registros · **1** con exploit en Exploit-DB · **3** explotados desde el primer día
+**4487** CVE publicados · **3** ya explotados · **68** urgentes · **304** con CVSS ≥ 9 · **1055** paquetes maliciosos en los registros · **1** con exploit en Exploit-DB · **3** explotados desde el primer día
 
 Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC). Un exploit de Exploit-DB cuenta como prueba de concepto.
 
@@ -325,12 +325,12 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 | urgente | CVE-2026-124002 | — | 9.3 | 3.2 % | 2026-11-12 |
 | urgente | CVE-2026-124010 | — | 9.3 | 3.1 % | 2026-11-12 |
 | urgente | CVE-2026-126148 | Fortinet | 9.8 | 2.4 % | 2026-11-11 |
-| urgente | CVE-2026-123270 | — | 9.8 | 2.4 % | 2026-11-09 |
-| urgente | CVE-2026-129433 | — | 9.9 | 2.4 % | 2026-11-14 |
+| urgente | CVE-2026-129433 | — | 9.4 | 2.4 % | 2026-11-14 |
 | urgente | CVE-2026-19422 | Windows | 9.1 | 2.2 % | 2026-11-12 |
+| urgente | CVE-2026-129452 | Draytek | 9.1 | 2.2 % | 2026-11-15 |
 | urgente | CVE-2026-124007 | — | 9.2 | 2.1 % | 2026-11-12 |
 | urgente | CVE-2026-121653 | Ivanti | 9.8 | 2.0 % | 2026-11-10 |
-| urgente | CVE-2026-129353 | D-Link | 10.0 | 1.8 % | 2026-11-15 |
+| urgente | CVE-2026-129353 | D-Link | 9.3 | 1.8 % | 2026-11-15 |
 | urgente | CVE-2026-126187 | Código abierto (GitHub) | 9.5 | 1.8 % | 2026-11-10 |
 | urgente | CVE-2026-12591 | — | 9.9 | 1.7 % | 2026-11-12 |
 | urgente | CVE-2026-103813 | — | 9.1 | 1.4 % | 2026-11-13 |
@@ -347,8 +347,8 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 
 | Lenguaje | Estado | Paquetes maliciosos | Avisos críticos / altos |
 |---|---|---|---|
-| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 1000+ | 4 / 15 |
-| Python (PyPI) | 🔴 paquetes maliciosos | 42 | 6 / 21 |
+| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 1000+ | 4 / 17 |
+| Python (PyPI) | 🔴 paquetes maliciosos | 46 | 6 / 30 |
 | Java / Kotlin (Maven) | 🟡 avisos altos | 0 | 0 / 2 |
 | .NET (C#) (NuGet) | 🟠 avisos críticos | 0 | 2 / 25 |
 | PHP (Packagist) | 🔴 el lenguaje se explota | 0 | 0 / 0 |
@@ -364,20 +364,20 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 
 | Sistema | Estado | CVE nuevos | CVSS ≥ 9 | En KEV (30 días) |
 |---|---|---|---|---|
-| Software empresarial | 🔴 explotación activa | 266 | 35 | 3 |
-| Windows y Microsoft | 🔴 explotación activa | 1129 | 27 | 1 |
-| Aplicaciones web y CMS | 🔴 explotación activa | 756 | 55 | 2 |
-| Red, VPN y firewalls | 🔴 explotación activa | 182 | 39 | 9 |
-| Virtualización y nube | 🔴 explotación activa | 29 | 5 | 1 |
-| Navegadores | 🔴 explotación activa | 199 | 15 | 1 |
-| Linux | 🔴 explotación activa | 135 | 5 | 1 |
-| Servidores y servicios | 🔴 explotación activa | 125 | 0 | 5 |
+| Software empresarial | 🔴 explotación activa | 264 | 49 | 3 |
+| Windows y Microsoft | 🔴 explotación activa | 1136 | 27 | 1 |
+| Aplicaciones web y CMS | 🔴 explotación activa | 759 | 59 | 2 |
+| Red, VPN y firewalls | 🔴 explotación activa | 182 | 36 | 9 |
+| Virtualización y nube | 🔴 explotación activa | 32 | 5 | 1 |
+| Navegadores | 🔴 explotación activa | 196 | 16 | 1 |
+| Linux | 🔴 explotación activa | 116 | 5 | 1 |
 | Apple (macOS · iOS) | 🔴 explotación activa | 13 | 1 | 1 |
 | Industrial (OT · ICS) | 🔴 explotación activa | 6 | 1 | 1 |
+| Servidores y servicios | 🔴 explotación activa | 4 | 0 | 5 |
 | Lenguajes y entornos de ejecución | 🔴 explotación activa | 0 | 0 | 2 |
-| Otros | 🔴 explotación activa | 1324 | 80 | 6 |
-| Librerías de código abierto | 🟠 riesgo alto | 299 | 15 | 0 |
-| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 27 | 10 | 0 |
-| Android | 🟢 vigilar | 10 | 0 | 0 |
+| Otros | 🔴 explotación activa | 1398 | 81 | 6 |
+| Librerías de código abierto | 🟠 riesgo alto | 336 | 17 | 0 |
+| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 27 | 7 | 0 |
+| Android | 🟢 vigilar | 13 | 0 | 0 |
 | IA y agentes (LLM · MCP) | 🟢 vigilar | 5 | 0 | 0 |
 <!-- CTI:END -->
