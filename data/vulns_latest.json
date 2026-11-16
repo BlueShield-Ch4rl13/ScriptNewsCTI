@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-15 18:35",
+ "generado_utc": "2026-11-16 00:49",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 4578,
-  "criticos": 299,
+  "cves": 4570,
+  "criticos": 298,
   "explotados": 3,
   "urgentes": 68,
   "epss_10": 1,
-  "sin_puntuar": 192,
+  "sin_puntuar": 212,
   "por_prioridad": {
    "explotada": 3,
    "urgente": 68,
-   "alta": 2570,
-   "media": 1559,
-   "baja": 378
+   "alta": 2566,
+   "media": 1538,
+   "baja": 395
   },
-  "paquetes_maliciosos": 1065,
+  "paquetes_maliciosos": 1050,
   "exploit_publico": 1,
-  "poc_github": 95,
+  "poc_github": 97,
   "ransomware": 0,
   "dia_cero": 3
  },
@@ -8328,30 +8328,6 @@
    "avisos_total": 1
   },
   {
-   "cve": "CVE-2026-6715",
-   "publicado": "2026-11-08",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.0086,
-   "epss_percentil": 0.59067,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "IBM",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Undergoing Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "IBM Concert 1.0 through 3.0.1.1 allows an attacker can supply crafted input that is incorporated into an operating system command without adequate validation or sanitization. Successful exploitation allows remote attackers to execute arbitrary commands on the underlying operating…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-114162",
    "publicado": "2026-11-10",
    "prioridad": "alta",
@@ -14801,6 +14777,30 @@
    "descripcion": "fulgur converts untrusted HTML/CSS into PDF, commonly on a server that processes input supplied by many tenants. From version 0.6.0 to before version 0.33.0, quadratic style-list reprocessing during containing-block resolution for absolutely-positioned pseudo-elements cause denia…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126797",
+   "publicado": "2026-11-11",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00615,
+   "epss_percentil": 0.50048,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-321"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "NextScan 1.1.0 through 1.2.0 contains an authentication bypass vulnerability in ns-admin that allows unauthenticated attackers to forge administrator tokens using a hardcoded JWT signing key. Attackers can sign an HS256 X-Access-Token carrying the public super administrator role …",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -14824,6 +14824,28 @@
    "criticos": 4,
    "altos": 15,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-h6jf-g8cj-x4v3",
+     "cve": null,
+     "paquete": "@univerjs-pro/sheets-pivot-chart",
+     "resumen": "Malware in @univerjs-pro/sheets-pivot-chart",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-16"
+    },
+    {
+     "ghsa": "GHSA-xxrh-88wg-7qf4",
+     "cve": null,
+     "paquete": "pmhq-dist-win-x64",
+     "resumen": "Malware in pmhq-dist-win-x64",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-16"
+    },
     {
      "ghsa": "GHSA-95pv-hv63-58m8",
      "cve": null,
@@ -14856,28 +14878,6 @@
      "epss": null,
      "corregido_en": null,
      "publicado": "2026-11-15"
-    },
-    {
-     "ghsa": "GHSA-ccgw-9w4v-vqh2",
-     "cve": null,
-     "paquete": "testpackage83",
-     "resumen": "Malicious code in testpackage83 (npm)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-14"
-    },
-    {
-     "ghsa": "GHSA-7jf6-qwv2-qppp",
-     "cve": null,
-     "paquete": "@sfunction/dsh-screenshot",
-     "resumen": "Malware in @sfunction/dsh-screenshot",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-14"
     }
    ],
    "ejemplos_graves": [
@@ -14951,7 +14951,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 52,
+   "maliciosos": 41,
    "maliciosos_mas": false,
    "avisos": 52,
    "avisos_mas": false,
@@ -15388,7 +15388,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 9,
+   "maliciosos": 5,
    "maliciosos_mas": false,
    "avisos": 45,
    "avisos_mas": false,
@@ -15598,17 +15598,17 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 318,
-   "criticos": 38,
-   "altos": 97,
+   "cves": 284,
+   "criticos": 37,
+   "altos": 89,
    "urgentes": 16,
    "epss_max": 0.0153,
    "fabricantes": [
     "Adobe",
     "Apache",
-    "IBM",
     "SAP",
-    "Ibm"
+    "IBM",
+    "Oracle"
    ],
    "kev_recientes": [
     {
@@ -15743,9 +15743,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 783,
+   "cves": 792,
    "criticos": 59,
-   "altos": 275,
+   "altos": 284,
    "urgentes": 7,
    "epss_max": 0.0337,
    "fabricantes": [
@@ -15870,7 +15870,7 @@
      "ransomware": false
     }
    ],
-   "kev_recientes_total": 10,
+   "kev_recientes_total": 9,
    "destacados": [
     {
      "cve": "CVE-2026-123039",
@@ -15913,7 +15913,7 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 30,
+   "cves": 29,
    "criticos": 5,
    "altos": 15,
    "urgentes": 2,
@@ -15921,9 +15921,9 @@
    "fabricantes": [
     "Docker",
     "Terraform",
-    "AWS",
     "Kubernetes",
-    "Vmware"
+    "Vmware",
+    "Amazon"
    ],
    "kev_recientes": [
     {
@@ -16353,7 +16353,7 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1331,
+   "cves": 1349,
    "criticos": 82,
    "altos": 560,
    "urgentes": 19,
@@ -16407,7 +16407,7 @@
      "ransomware": false
     }
    ],
-   "kev_recientes_total": 7,
+   "kev_recientes_total": 6,
    "destacados": [
     {
      "cve": "CVE-2026-75869",
