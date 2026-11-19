@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-18 20:02",
+ "generado_utc": "2026-11-19 02:21",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 3766,
-  "criticos": 356,
+  "cves": 3664,
+  "criticos": 354,
   "explotados": 1,
-  "urgentes": 69,
+  "urgentes": 68,
   "epss_10": 1,
-  "sin_puntuar": 137,
+  "sin_puntuar": 64,
   "por_prioridad": {
    "explotada": 1,
-   "urgente": 69,
-   "alta": 1997,
-   "media": 1332,
-   "baja": 367
+   "urgente": 68,
+   "alta": 1913,
+   "media": 1397,
+   "baja": 285
   },
-  "paquetes_maliciosos": 1065,
+  "paquetes_maliciosos": 1067,
   "exploit_publico": 0,
-  "poc_github": 81,
+  "poc_github": 89,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -166,30 +166,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "XWEB EVO before 5.6.2 contains a command injection vulnerability that allows unauthenticated remote attackers to execute arbitrary commands as root by exploiting the setuid-root CGI xwconsole.cgi. Attackers can supply malicious input through the sh parameter, which is passed unsa…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126148",
-   "publicado": "2026-11-11",
-   "prioridad": "urgente",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.02445,
-   "epss_percentil": 0.84656,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6 may allow an unauthenticated attacker to execute unauthorized code or commands via crafted HA join-r…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -353,7 +329,7 @@
     "CWE-502"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -600,7 +576,7 @@
     "CWE-287"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -1006,30 +982,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126812",
-   "publicado": "2026-11-11",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00604,
-   "epss_percentil": 0.49627,
-   "kev": false,
-   "categoria": "virtualizacion",
-   "fabricante": "Docker",
-   "cwe": [
-    "CWE-258"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "blueprintUE Self-Hosted Edition before 4.3.7 contains an insecure default configuration in its Docker Compose examples that sets MYSQL_ALLOW_EMPTY_PASSWORD=yes in database.env and publishes MariaDB on port 3306. Unauthenticated attackers reaching the Docker host on port 3306 can …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130366",
    "publicado": "2026-11-17",
    "prioridad": "urgente",
@@ -1367,30 +1319,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126806",
-   "publicado": "2026-11-11",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.0036,
-   "epss_percentil": 0.30346,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-79"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "WWBN AVideo 14.3 through 29.7.1 contains a stored cross-site scripting vulnerability that allows uploaders to inject scripts via the videoDownloadedLink value stored unescaped through objects/aVideoEncoder.json.php. Attackers can embed event-handler payloads in the URL host rende…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-120387",
    "publicado": "2026-11-17",
    "prioridad": "urgente",
@@ -1465,6 +1393,30 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "Zipline through 4.4.0 contains an authentication bypass vulnerability in the WebAuthn login endpoint that creates sessions for a supplied registered credential ID without verifying the assertion. Attackers who obtain a target's passkey credential ID can impersonate that account w…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130156",
+   "publicado": "2026-11-18",
+   "prioridad": "urgente",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": null,
+   "epss_percentil": null,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Bazarr is a companion application to Sonarr and Radarr. Prior to 1.6.3-beta.11, the /api/subtitles/subtitles-info handler uses SubtitleNameContents.get() in subtitles_contents.py and reads the caller-supplied subtitlePath after checking only its subtitle extension; because the re…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1733,6 +1685,31 @@
    "avisos_total": 0
   },
   {
+   "cve": "CVE-2026-76807",
+   "publicado": "2026-11-18",
+   "prioridad": "urgente",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": null,
+   "epss_percentil": null,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-346",
+    "CWE-350"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Todoist MCP Server provides tools that allow AI agents to access and modify a Todoist account. Prior to 10.3.3, the optional todoist-mcp-http server accepts browser-origin requests to POST /mcp without validating the Host and Origin headers or authenticating the browser caller. A…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
    "cve": "CVE-2016-20105",
    "publicado": "2026-11-18",
    "prioridad": "urgente",
@@ -1795,7 +1772,7 @@
     "CWE-863"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -2133,7 +2110,7 @@
     "CWE-22"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -2215,7 +2192,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Multiple ELECOM wireless LAN routers contain an OS command injection vulnerability that may cause an arbitrary OS command to be executed by an attacker who can access the administrative interface of the affected product.",
    "avisos": [],
    "avisos_total": 0
@@ -2299,78 +2276,6 @@
    "avisos_total": 1
   },
   {
-   "cve": "CVE-2026-126231",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.0156,
-   "epss_percentil": 0.75734,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2 all versions, FortiAnalyzer Cloud 7.6.0 through 7.6…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126236",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.0156,
-   "epss_percentil": 0.75734,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126167",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.01514,
-   "epss_percentil": 0.7501,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-77"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in a command ('command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-114556",
    "publicado": "2026-11-12",
    "prioridad": "alta",
@@ -2415,30 +2320,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Prime CMS (@primecms/core) through 0.4.0-beta.0 contains an OS command injection vulnerability in the updateSystem GraphQL mutation that allows authenticated administrators to execute shell commands via the package version string. Attackers can append shell metacharacters to the …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126179",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.01398,
-   "epss_percentil": 0.73004,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0, FortiA…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -2588,30 +2469,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126158",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.01069,
-   "epss_percentil": 0.65494,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1 may allow an authenticated administrator to execute unauthorized code or commands as root via specially crafted HTTP requests.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-129879",
    "publicado": "2026-11-16",
    "prioridad": "alta",
@@ -2632,54 +2489,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "DeepAudit 2.0.0-beta.1 through 3.8.0 contains a path traversal vulnerability that allows authenticated users to write arbitrary files by importing projects with crafted IDs. Attackers can set absolute or ../ project IDs via /api/v1/database/import, then upload ZIPs through /api/v…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126144",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.0106,
-   "epss_percentil": 0.65218,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.4, FortiMail 7.4.0 through 7.4.6, FortiMail 7.2 all versions, FortiRecorder 7.6.0 through 7.6.2, Forti…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126813",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.4,
-   "gravedad": "high",
-   "epss": 0.0106,
-   "epss_percentil": 0.6522,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Roundcube",
-   "cwe": [
-    "CWE-93"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Roundcube Webmail before 1.6.21 and 1.7.x before 1.7.6 contains an IMAP command injection vulnerability that allows attackers to inject commands via CRLF in the _uid parameter when messages_cache is enabled. Attackers can lure logged-in victims into opening crafted GET links to m…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -2804,30 +2613,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-67544",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00968,
-   "epss_percentil": 0.62524,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Heym builds and runs agentic systems and business-process automations on self-hosted infrastructure. Prior to version 0.0.71, Heym's workflow engine accepts an arbitrary Python code string in the playwrightCode field of a Playwright node. This string is written to a temporary .py…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-61689",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -2852,78 +2637,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126226",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00959,
-   "epss_percentil": 0.62176,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0, FortiA…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126145",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00958,
-   "epss_percentil": 0.6215,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated administrator …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126146",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00958,
-   "epss_percentil": 0.6215,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.4, FortiMail 7.4.0 through 7.4.6, FortiMail 7.2.0 through 7.2.9, FortiRecorder 7.6.0, FortiRecorder 7.…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-118900",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -2942,7 +2655,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "An OS command injection vulnerability exists in the Android application \"Imperial Palaces Guide\" provided by The Imperial Household Agency. An attacker may be able to execute arbitrary OS commands with the privileges of the application.",
    "avisos": [],
    "avisos_total": 0
@@ -3112,30 +2825,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "A missing critical step in authentication vulnerability in the Auth API in Synology DiskStation Manager (DSM) before 7.3.2-86009-5 and 7.4.1-90080-1 allows remote authenticated users to read or write arbitrary files and conduct denial-of-service attacks.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126182",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00891,
-   "epss_percentil": 0.60077,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper control of generation of code ('code injection') vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11, FortiManager 7.2.0 through 7.2.12, FortiManager Cloud 8.0.0 through 8.0.1, FortiManager Clo…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -3530,31 +3219,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-67449",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00815,
-   "epss_percentil": 0.57789,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-22",
-    "CWE-306"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Portabase is a database backup and restore tool for PostgreSQL, MySQL, MsSQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis, Files and Docker Volume. Prior to version 1.21.2, a path traversal in the TUS upload webhook handler (app/api/tus/hooks/route.ts) allowed an unauthenticate…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-82504",
    "publicado": "2026-11-13",
    "prioridad": "alta",
@@ -3600,30 +3264,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "A flaw was found in yggdrasil-worker-package-manager. An authenticated attacker can exploit this issue to achieve arbitrary file modification or potential privilege escalation. The vulnerability exists because repository management operations fail to sanitize directory traversal …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126224",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00802,
-   "epss_percentil": 0.57355,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-88"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0, FortiAnalyzer …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -3772,30 +3412,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-67547",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.0078,
-   "epss_percentil": 0.56651,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-862"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "taOS is a self-hosted AI agent OS. Prior to version 1.0.0-beta.23, the POST /api/skill-exec/{skill_id}/call endpoint in taOS executes built-in skills — including the code_exec skill which runs arbitrary Python via subprocess.run([\"python3\", \"-c\", code]) — without performing any a…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-129352",
    "publicado": "2026-11-14",
    "prioridad": "alta",
@@ -3935,30 +3551,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "An access of uninitialized pointer vulnerability in the nfsd in Synology DiskStation Manager (DSM) before 7.3.2-86009-5 and 7.4.1-90080-1 allows remote attackers to conduct denial-of-service attacks.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126255",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.4,
-   "gravedad": "high",
-   "epss": 0.00753,
-   "epss_percentil": 0.55783,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-24"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A path traversal: '../filedir' vulnerability in Fortinet FortiOS 8.0.0 through 8.0.1, FortiOS 7.6.0 through 7.6.7, FortiOS 7.4.0 through 7.4.12, FortiOS 7.2.0 through 7.2.13, FortiPAM 1.6 all versions, FortiPAM 1.5 all versions, FortiPAM 1.4 all versions, FortiPAM 1.3 all version…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -4252,22 +3844,22 @@
    "descripcion": "Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler). Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM…",
    "avisos": [
     {
-     "fuente": "cisco",
-     "nombre": "Cisco",
-     "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1"
+     "fuente": "ubuntu",
+     "nombre": "Ubuntu",
+     "enlace": "https://ubuntu.com/security/notices/USN-9158-1"
     },
     {
-     "fuente": "thehackernews",
-     "nombre": "The Hacker News",
-     "enlace": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+     "fuente": "ubuntu",
+     "nombre": "Ubuntu",
+     "enlace": "https://ubuntu.com/security/notices/USN-9157-1"
     },
     {
-     "fuente": "cert_eu",
-     "nombre": "CERT-EU",
-     "enlace": "https://cert.europa.eu/publications/security-advisories/2026-021/"
+     "fuente": "ubuntu",
+     "nombre": "Ubuntu",
+     "enlace": "https://ubuntu.com/security/notices/USN-9156-1"
     }
    ],
-   "avisos_total": 11
+   "avisos_total": 15
   },
   {
    "cve": "CVE-2026-13672",
@@ -4364,30 +3956,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Cudy TR3000 before 2.5.42 contains a remote code execution vulnerability that allows authenticated administrators to execute commands as root by uploading crafted OpenVPN private or tls-auth keys. Attackers can close the inline key block with </key>, inject directives such as tls…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-125637",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00716,
-   "epss_percentil": 0.54454,
-   "kev": false,
-   "categoria": "linux",
-   "fabricante": "Red Hat",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A flaw was found in the Konflux UI proxy. Hostname values defined in the KonfluxUI custom resource are inserted directly into proxy configuration files without adequate validation or sanitization. An authenticated user with permissions to modify the custom resource can inject mal…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -4508,30 +4076,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Improper Handling of Highly Compressed Data (Data Amplification) vulnerability in elixir-grpc grpc_core and grpc allows unauthenticated attackers to exhaust server memory via a compressed Erlang external term in a gRPC message body. GRPC.Codec.Erlpack.decode/2 (grpc_core/lib/grpc…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126234",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00695,
-   "epss_percentil": 0.53687,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-1336"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in a template engine vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer Cloud 8.0.0, FortiManager 8.0.0, FortiManager Cloud 8.0.0 may allow an authenticated attacker with restricted privileges to execute unauthorized co…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -4802,31 +4346,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-68539",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00669,
-   "epss_percentil": 0.52684,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-400",
-    "CWE-770"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "fulgur converts untrusted HTML/CSS into PDF, commonly on a server that processes input supplied by many tenants. From version 0.4.4 to before version 0.29.0, the CSS string-set named-string values resolved from a document were accumulated per element with no memory budget, lettin…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-126969",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -4992,11 +4511,11 @@
     "CWE-321"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Use of Hard-coded Cryptographic Key in ASUS Control Center Express allows a remote user to gain administrative privileges via a forged authentication token. Refer to the ' Security Update for ASUS Control Center Express Agent ' section on the ASUS Security Advisory for more infor…",
    "avisos": [],
    "avisos_total": 0
@@ -5022,30 +4541,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Multiple ServerUI and ServerUI2 SOAP operations in N-able N-central before 2026.4.1 HF3 do not verify the caller's session, permissions or customer scope. A remote attacker, in some cases without authentication, can read device and patch data, test passwords of user accounts, sen…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126155",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00662,
-   "epss_percentil": 0.52384,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-863"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A incorrect authorization vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated remote attacker to obtain an authenticated IBE webmail session as any IBE recip…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -5315,78 +4810,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126166",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00652,
-   "epss_percentil": 0.52002,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-88"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with d…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126168",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00652,
-   "epss_percentil": 0.52002,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-88"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with d…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126169",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00652,
-   "epss_percentil": 0.52002,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-88"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with d…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-131800",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -5405,80 +4828,8 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A stored cross-site scripting vulnerability was identified in GitHub Enterprise Server that allowed an organization member with permission to manage custom-property definitions and edit property values to add an attacker-controlled SSH authentication key to the personal account o…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126259",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00647,
-   "epss_percentil": 0.51757,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-306"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A missing authentication for critical function vulnerability in Fortinet FortiOS 8.0.0, FortiOS 7.6.0 through 7.6.7, FortiOS 7.4.0 through 7.4.12, FortiOS 7.2.0 through 7.2.13, FortiOS 7.0 all versions may allow an unauthenticated attacker with HA FGSP + standalone-config-sync, o…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126156",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00646,
-   "epss_percentil": 0.51706,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-639"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated remote attacker to take over an arbitrary IBE recipien…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126185",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00645,
-   "epss_percentil": 0.51686,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper control of generation of code ('code injection') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiA…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -5581,55 +4932,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "ICRTouch Commander administrative login interface does not adequately restrict repeated authentication attempts. The interface also returns distinguishable responses for multiple authentication states, including different behavior when a `siteID` value is supplied.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-67543",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00642,
-   "epss_percentil": 0.51548,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-269",
-    "CWE-94"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Heym builds and runs agentic systems and business-process automations on self-hosted infrastructure. Prior to version 0.0.70, heym hardens one untrusted-code path but not its sibling. The Python tool executor (python_tool_executor.py) treats user code as untrusted and mandates a …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126183",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00642,
-   "epss_percentil": 0.51539,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-639"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11, FortiManager 7.2.0 through 7.2.12, FortiManager Cloud 8.0.1, FortiManager Cloud 7.6.0 through 7.6.7,…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -5899,30 +5201,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126147",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00632,
-   "epss_percentil": 0.51025,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated attacker to execute unau…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2024-43361",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -5943,30 +5221,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "ZoneMinder is a free, open source closed-circuit television software application. Prior to 1.38.4, detaintPath() in web/includes/functions.php can be bypassed with a PHP stream-wrapper path when sanitizing modal.php input. A remote unauthenticated attacker can submit such a path …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126229",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.0063,
-   "epss_percentil": 0.50905,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-639"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer 7.0 all versions, FortiAnalyzer Cloud 8.0.1, Fo…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6017,54 +5271,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "libp2p is a JavaScript implementation of the libp2p networking stack. Prior to 17.0.0, the @libp2p/gossipsub default configuration allows a connected remote peer to submit unsigned subscription RPC metadata for arbitrarily many distinct topic strings. handleReceivedSubscription i…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126262",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00629,
-   "epss_percentil": 0.50868,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiManager 8.0.0, Forti…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126170",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00628,
-   "epss_percentil": 0.50818,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-116"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper encoding or escaping of output vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.2, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer Cloud 8.0.1 through 8.0.2, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer-BigData 7.6.0 through 7.6.2, FortiManager 8.0.…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6168,30 +5374,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-67546",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00618,
-   "epss_percentil": 0.5037,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Heym builds and runs agentic systems and business-process automations on self-hosted infrastructure. Prior to version 0.0.75, the same POST /api/mcp/fetch-tools endpoint (any authenticated user, lowest role) also accepts the stdio transport, which spawns the attacker-supplied com…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-124015",
    "publicado": "2026-11-12",
    "prioridad": "alta",
@@ -6240,55 +5422,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-68540",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00616,
-   "epss_percentil": 0.50235,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-400",
-    "CWE-405"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "fulgur converts untrusted HTML/CSS into PDF, commonly on a server that processes input supplied by many tenants. From version 0.6.0 to before version 0.33.0, quadratic style-list reprocessing during containing-block resolution for absolutely-positioned pseudo-elements cause denia…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126797",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00615,
-   "epss_percentil": 0.50209,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-321"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "NextScan 1.1.0 through 1.2.0 contains an authentication bypass vulnerability in ns-admin that allows unauthenticated attackers to forge administrator tokens using a hardcoded JWT signing key. Attackers can sign an HS256 X-Access-Token carrying the public super administrator role …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-6467",
    "publicado": "2026-11-12",
    "prioridad": "alta",
@@ -6331,7 +5464,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Use of Hard-coded Cryptographic Key in ASUS Control Center Express allows a remote user to bypass authentication by forging a session token for an account with a recent valid login, resulting in administrative control of the management console and of the clients it manages. Refer…",
    "avisos": [],
    "avisos_total": 0
@@ -6458,30 +5591,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126222",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00602,
-   "epss_percentil": 0.49559,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.3 through 7.6.7, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.3 through 7.6.7, FortiManager 8.0.0 th…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-107904",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -6502,55 +5611,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Joomla Extension - valorapps.com - Unauthenticated Remote Code Execution in Easy File Uploader < 2.9.7 - An unauthenticated remote attacker can upload a PHP-executable file to the Joomla web root with a single multipart POST request, requiring no credentials and no CSRF token.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126251",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.006,
-   "epss_percentil": 0.49452,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-863"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A incorrect authorization vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may allow an attacker to bypass authentication and gain unauthorized access.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-65949",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.006,
-   "epss_percentil": 0.49471,
-   "kev": false,
-   "categoria": "microsoft",
-   "fabricante": "Microsoft",
-   "cwe": [
-    "CWE-78",
-    "CWE-94"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Improper neutralization of special elements used in an OS command in Lenovo XClarity Integrator for Microsoft Windows Admin Center 5.1.1 and 5.2.0 allows an authenticated remote attacker to execute arbitrary PowerShell commands by submitting a crafted hostname.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6621,32 +5681,8 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
-   "descripcion": "Pleasanter contains an issue with insertion of sensitive information into sent data in the API. If the affected product receives a specially crafted API request sent by a remote authenticated attacker, the authentication credentials of other users, including administrators, such …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126152",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.6,
-   "gravedad": "high",
-   "epss": 0.00597,
-   "epss_percentil": 0.49318,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-639"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
    "explotacion_ssvc": "none",
-   "descripcion": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker to delete arbitrary directories as root,…",
+   "descripcion": "Pleasanter contains an issue with insertion of sensitive information into sent data in the API. If the affected product receives a specially crafted API request sent by a remote authenticated attacker, the authentication credentials of other users, including administrators, such …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6743,30 +5779,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "When authentication caching is enabled on DefaultLdapRealm, after a user logs in successfully once, subsequent logins for that user succeed with any password. A cached authentication skips the LDAP bind, and the AllowAllCredentialsMatcher installed by default in DefaultLdapRealm …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-68538",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00595,
-   "epss_percentil": 0.492,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-400"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "fulgur converts untrusted HTML/CSS into PDF, commonly on a server that processes input supplied by many tenants. From version 0.15.0 to before version 0.27.0, resolving the CSS counters(name, sep) function in generated content was bounded neither in the size of a single expansion…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -7412,78 +6424,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126151",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00584,
-   "epss_percentil": 0.48617,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-303"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A incorrect implementation of authentication algorithm vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated remote attacker to gain elevation of privilege (ac…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126219",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00584,
-   "epss_percentil": 0.48627,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer Cloud 8.0.0, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126235",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00584,
-   "epss_percentil": 0.48627,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.2 through 7.6.7, FortiAnalyzer 7.4.7 through 7.4.11, FortiAnalyzer 7.2.10 through 7.2.12, FortiAnalyzer Cloud 8.0.0 thro…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-21601",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -7578,54 +6518,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "Nexterm through 1.2.2-BETA contains a privilege escalation vulnerability that allows users with permissions.manage to gain unauthorized permissions because addGroupMember and setUserGroups lack the grantsBeyondCaller check. Attackers can add their own account to custom groups via…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126258",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00578,
-   "epss_percentil": 0.48303,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-121"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A stack-based buffer overflow vulnerability in Fortinet FortiOS 8.0.0, FortiOS 7.6.7 may allow an unauthenticated attacker with wad port access to crash proxy or ZTNA sessions via crafted HTTP or HTTPS requests.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126171",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00578,
-   "epss_percentil": 0.48327,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-134"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A use of externally-controlled format string vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7,…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -7768,7 +6660,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "An XML External Entity (XXE) vulnerability affects a Storefront REST API in HCL Commerce versions 8, 9.0.1 and 9.1.x. A remote attacker, using a specially crafted XML, could potentially view internal files or consume memory resources.",
    "avisos": [],
    "avisos_total": 0
@@ -7865,7 +6757,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "Improper neutralization of special elements used in an OS command in certain ASUS Router firmware models allows an remote attacker to to execute arbitrary commands with root privileges by inducing a logged-in administrator to visit a malicious website. Refer to the ' Security Upd…",
    "avisos": [],
    "avisos_total": 0
@@ -7891,30 +6783,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The WP Abstracts plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.7.6. This is due to a missing capability check on the wpabs_save_regform AJAX action and the use of a static, frontend-exposed nonce that allows any authenticated u…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126180",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.4,
-   "gravedad": "high",
-   "epss": 0.00564,
-   "epss_percentil": 0.47561,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-1336"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in a template engine vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11, FortiManager 7.2 all versions, FortiManager Cloud 8.0.0 through 8.0.1, FortiMan…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -8159,30 +7027,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126149",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00549,
-   "epss_percentil": 0.46662,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-190"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A integer overflow or wraparound vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow a remote unauthenticated attacker to crash the daemon.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130867",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -8419,30 +7263,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "A vulnerability in the GenericAdminAuthenticator component of Azul Payara Server and Azul Payara Micro allows a remote, unauthenticated attacker to bypass JMX/RMI administrative access restrictions by spoofing the client host address. Successful exploitation can grant administrat…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126162",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00539,
-   "epss_percentil": 0.46067,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-91"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A xml injection (aka blind xpath injection) vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6 may allow a remote unauthenticated attacker to execute unauthorized code or commands via a specially crafted request.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -8711,30 +7531,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126804",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00535,
-   "epss_percentil": 0.45881,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "WWBN AVideo 12.4 through 29.7.1 contains a path traversal vulnerability in the ADs plugin deleteImage.json.php that allows authenticated users with custom ads to delete arbitrary files. Attackers can set the unvalidated is_regular_user parameter to another user's id or ../ sequen…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130371",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -8975,30 +7771,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126218",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.2,
-   "gravedad": "high",
-   "epss": 0.00528,
-   "epss_percentil": 0.45431,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-639"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11 may allow a remote authenticated attacker with admin permission to elevate their privileges to root v…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-100972",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -9019,30 +7791,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "NVIDIA OpenShell for Linux contains a vulnerability in resource-level authorization for create, read, update, and delete operations where an authenticated remote attacker with low privileges could access or modify resources without the required authorization checks. A successful …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126815",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.1,
-   "gravedad": "high",
-   "epss": 0.00528,
-   "epss_percentil": 0.45428,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Pre-account hijacking in the authentication flow in Lagarto Chivato 0.4.1 and earlier on Web allows remote unauthenticated attackers to take over arbitrary accounts via a password planted on an unregistered email address that becomes valid upon the victim’s first passwordless log…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10044,54 +8792,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126178",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00509,
-   "epss_percentil": 0.44161,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-122"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A heap-based buffer overflow vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, F…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126212",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00509,
-   "epss_percentil": 0.4416,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-122"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A heap-based buffer overflow vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1 through 7.4…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-126301",
    "publicado": "2026-11-13",
    "prioridad": "alta",
@@ -10186,30 +8886,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126256",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.4,
-   "gravedad": "high",
-   "epss": 0.00508,
-   "epss_percentil": 0.44054,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-125"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A out-of-bounds read vulnerability in Fortinet FortiOS 8.0.0 through 8.0.1, FortiOS 7.6.0 through 7.6.7, FortiOS 7.4 all versions, FortiOS 7.2 all versions, FortiOS 7.0 all versions may allow an unauthenticated attacker to execute arbitrary code or command via crafted packets.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-107853",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -10234,30 +8910,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126150",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00506,
-   "epss_percentil": 0.43925,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-640"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A weak password recovery mechanism for forgotten password vulnerability in Fortinet FortiMail 8.0.0, FortiMail 7.6.0 through 7.6.5, FortiMail 7.4.0 through 7.4.7, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to reset the password of an arbitrary IBE webmail…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-13764",
    "publicado": "2026-11-12",
    "prioridad": "alta",
@@ -10278,31 +8930,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The Masterstudy - Education WordPress Theme theme for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.8.151. This is due to missing authorization and nonce validation on the `masterstudy_ms_stm_set_discard_transient` AJAX action. This makes…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-68507",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 6.9,
-   "gravedad": "medium",
-   "epss": 0.00506,
-   "epss_percentil": 0.43884,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-306",
-    "CWE-918"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "ideon is a self-hosted visual workspace. Prior to version 0.9.5, ideon's link-preview endpoint requires no authentication at all and forwards any URL a caller supplies straight into a server-side fetch. The app does have a general-purpose SSRF guard (safeFetch/validateSafeUrl in …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10762,30 +9389,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126184",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.2,
-   "gravedad": "high",
-   "epss": 0.00497,
-   "epss_percentil": 0.43294,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-290"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A authentication bypass by spoofing vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAna…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-97692",
    "publicado": "2026-11-13",
    "prioridad": "alta",
@@ -10928,30 +9531,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "basic-ftp is an FTP client for Node.js. Prior to 6.2.4, the MLSD directory-listing parser in src/parseListMLSD.ts uses untrusted fact names from the FTP server as keys in the plain-object factHandlersByName dictionary without checking that the resolved property is an own handler.…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126805",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00494,
-   "epss_percentil": 0.43121,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-863"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "WWBN AVideo through 29.7.1 contains an incorrect authorization vulnerability that allows delegated Videos Admin users to obtain video_id_hash values bound to any video owner via encoder endpoints like aVideoEncoderStatus.json.php. Attackers can request the hash for an administrat…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -11169,30 +9748,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "RedAmon before 7.8.0 contains a missing authentication vulnerability in the kali-sandbox terminal server that allows unauthenticated attackers to obtain a root shell by connecting to its WebSocket listener on port 8016. Attackers who can reach the port from co-resident containers…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126154",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00487,
-   "epss_percentil": 0.42667,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-787"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A out-of-bounds write vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow a remote unauthenticated attacker to cause a denial of service via a specially crafted HTTP request.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -11950,30 +10505,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Type confusion in PostgreSQL extended statistics allows an object creator to execute arbitrary code as the operating system user running the database, via a statistics expression of an anonymous RECORD type whose backend-local type identifier denotes a different row type in anoth…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-67545",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.4,
-   "gravedad": "high",
-   "epss": 0.00483,
-   "epss_percentil": 0.42284,
-   "kev": false,
-   "categoria": "oss",
-   "fabricante": "Código abierto (GitHub)",
-   "cwe": [
-    "CWE-918"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Heym builds and runs agentic systems and business-process automations on self-hosted infrastructure. Prior to version 0.0.73, the HTTP workflow node in Heym makes outbound HTTP requests to user-supplied URLs without validation of the target host or IP address. If a workflow autho…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13212,36 +11743,12 @@
     "CWE-122"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Philips Hue Bridge hap_pair_setup_handler Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126160",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.2,
-   "gravedad": "high",
-   "epss": 0.00473,
-   "epss_percentil": 0.41563,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper authentication vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated attacker to escalate privileges and release or delete quarantined messages for …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13266,31 +11773,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "NLTK from 3.2.5 before 3.10.4 contains an algorithmic complexity vulnerability in TreebankWordTokenizer.span_tokenize that allows remote attackers to cause quadratic CPU consumption through repeated list.pop(0) calls. Attackers can submit long runs of double-quote characters to s…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-100307",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00472,
-   "epss_percentil": 0.41464,
-   "kev": false,
-   "categoria": "virtualizacion",
-   "fabricante": "Amazon",
-   "cwe": [
-    "CWE-266",
-    "CWE-862"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Missing authorization in the external management API in Amazon mcp-gateway-registry 1.0.9 through 1.24.7 might allow an authenticated remote user to assign the registry administrator scope to their own identity group and obtain administrative control of every registered gateway a…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13512,54 +11994,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126673",
-   "publicado": "2026-11-12",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00466,
-   "epss_percentil": 0.41029,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Data::Dump::Streamer versions before 3.00 for Perl allow code injection via unescaped Regexp patterns in _dump_qr. A Regexp's pattern is written into a qr literal without escaping \"$\" or \"@\", so \"@{[ ... ]}\" and \"${\\ ... }\" in the pattern run as code when the dump is evaluated. A…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126254",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.6,
-   "gravedad": "critical",
-   "epss": 0.00466,
-   "epss_percentil": 0.40969,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-197"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A numeric truncation error vulnerability in Fortinet FortiOS 8.0.0 through 8.0.1, FortiOS 7.6.0 through 7.6.7, FortiOS 7.4.0 through 7.4.12, FortiOS 7.2.0 through 7.2.13 may allow a configured ibgp neighbor to send malicious/malformed attributes to all connected routers via a spe…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-129453",
    "publicado": "2026-11-15",
    "prioridad": "alta",
@@ -13681,46 +12115,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126859",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.6,
-   "gravedad": "critical",
-   "epss": 0.00463,
-   "epss_percentil": 0.40781,
-   "kev": false,
-   "categoria": "navegadores",
-   "fabricante": "Google",
-   "cwe": [
-    "CWE-59"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Link following in FileSystem in Google Chrome prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-   "avisos": [
-    {
-     "fuente": "msrc",
-     "nombre": "Microsoft",
-     "enlace": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126859"
-    },
-    {
-     "fuente": "chrome",
-     "nombre": "Google Chrome",
-     "enlace": "http://chromereleases.googleblog.com/2026/11/long-term-support-channel-update-for.html"
-    },
-    {
-     "fuente": "chrome",
-     "nombre": "Google Chrome",
-     "enlace": "http://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
-    }
-   ],
-   "avisos_total": 3
-  },
-  {
    "cve": "CVE-2026-122149",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -13765,30 +12159,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Kalmia through 0.2.0 contains an authentication bypass vulnerability in RsPressMiddleware that allows unauthenticated attackers to access private documentation by supplying any non-empty viewToken cookie. Attackers can send requests with a forged viewToken cookie, which is never …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126227",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00463,
-   "epss_percentil": 0.40821,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-441"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A unintended proxy or intermediary ('confused deputy') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.1, FortiAnalyzer Cloud 7.6.0 thro…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13915,30 +12285,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Dell PowerStore contains an Improper Authorization vulnerability. An authenticated user could exploit this vulnerability, potentially leading to privilege escalation to administrator.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126211",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00462,
-   "epss_percentil": 0.40698,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-269"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper privilege management vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.1 through 7.6.7, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.1 through 7.6.7, FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.1 through 7.6.7, Fo…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14271,7 +12617,7 @@
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": null,
+   "explotacion_ssvc": "none",
    "descripcion": "A path traversal vulnerability (CWE-22) was found in ansible-core's ansible-galaxy role installation. An explicit role \"name\" taken from a role's meta/requirements.yml is used to construct the on-disk installation path without validating that the resulting destination stays withi…",
    "avisos": [],
    "avisos_total": 0
@@ -14445,6 +12791,30 @@
    "avisos_total": 0
   },
   {
+   "cve": "CVE-2026-131922",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 4.3,
+   "gravedad": "medium",
+   "epss": 0.00451,
+   "epss_percentil": 0.3982,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-1333"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "In OpenStack keystonemiddleware before 13.0.3, by supplying a malicious regular expression when creating an application credential (aka AppCred) access_rules entry, an authenticated user may consume resources in the consuming process making a service unresponsive.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
    "cve": "CVE-2026-128024",
    "publicado": "2026-11-13",
    "prioridad": "alta",
@@ -14478,41 +12848,17 @@
    "epss_percentil": 0.39592,
    "kev": false,
    "categoria": "navegadores",
-   "fabricante": "Google Chrome",
+   "fabricante": "Google",
    "cwe": [
     "CWE-122"
    ],
-   "estado_nvd": "Undergoing Analysis",
+   "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Buffer overflow in Color in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126164",
-   "publicado": "2026-11-11",
-   "prioridad": "alta",
-   "cvss": 9.4,
-   "gravedad": "critical",
-   "epss": 0.00448,
-   "epss_percentil": 0.39565,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Fortinet",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an unauthenticated attacker to execut…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14613,26 +12959,1677 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126888",
-   "publicado": "2026-11-11",
+   "cve": "CVE-2026-80322",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00445,
+   "epss_percentil": 0.39368,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-201",
+    "CWE-226",
+    "CWE-366"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Under specific conditions, PingAuthorize in Gateway mode can continue an asynchronous upstream request after its 30-second gateway timeout. If the underlying keep-alive connection is reused for another request before the original response arrives, the late response can be written…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-21609",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00445,
+   "epss_percentil": 0.39377,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Atlassian",
+   "cwe": [
+    "CWE-285"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "This High severity Improper Authorization vulnerability was introduced in versions 5.12.0, 10.3.0, and 11.3.0 of Jira Service Management Data Center. This Improper Authorization vulnerability, with a CVSS Score of 7.1, allows an authenticated attacker to gain unintended access an…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-79614",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00444,
+   "epss_percentil": 0.39265,
+   "kev": false,
+   "categoria": "red",
+   "fabricante": "Zyxel",
+   "cwe": [
+    "CWE-787"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmware versions through 5.50(ABVY.8.3)C0 could allow an unauthenticated attacker to elevate privileges and potentially execute arbitrary commands by sending a crafted HTTP request. WAN access is…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115166",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.2,
+   "gravedad": "high",
+   "epss": 0.00444,
+   "epss_percentil": 0.39266,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Vulnerability in the Oracle Hyperion Infrastructure Technology product of Oracle Hyperion (component: Installation and Configuration). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with network access via…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129955",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": 0.00443,
+   "epss_percentil": 0.39136,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-1392"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "NodePress through 8.5.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain administrator access by using the hardcoded default password 'root'. Attackers can send base64-encoded 'root' to POST /admin/login when NP_ADMIN_DEFAULT_PASSWORD …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-82156",
+   "publicado": "2026-11-16",
    "prioridad": "alta",
    "cvss": 8.8,
    "gravedad": "high",
-   "epss": 0.00445,
-   "epss_percentil": 0.39382,
+   "epss": 0.00443,
+   "epss_percentil": 0.39151,
    "kev": false,
-   "categoria": "navegadores",
-   "fabricante": "Google",
+   "categoria": "otros",
+   "fabricante": "",
    "cwe": [
-    "CWE-122"
+    "CWE-863"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Dell PowerStore contains an authorization-bypass vulnerability. A low-privileged attacker could exploit it, potentially leading to elevation of privilege to administrator.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-86356",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00443,
+   "epss_percentil": 0.39152,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-863"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Dell PowerStore contains an authorization-bypass vulnerability that could lead to elevation of privilege to administrator.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-117551",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 10.0,
+   "gravedad": "critical",
+   "epss": 0.00442,
+   "epss_percentil": 0.39055,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "Joomla",
+   "cwe": [
+    "CWE-434"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": "github",
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Joomla Extension - jdownloads.com - RCE through file upload in jDownloads < 4.1.8 - Insufficient validation of frontend thumbnail uploads allowed users with upload permission to place executable files on the server. This results in PHP code execution.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-15309",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00442,
+   "epss_percentil": 0.39083,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-269"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The CourseCure Courses plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 1.5.1. This is due to a missing capability check in the ajax_save_settings() function, which accepts arbitrary POST parameters and calls update_option() with attack…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-16135",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00442,
+   "epss_percentil": 0.39089,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-269"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The VibeBP plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.9.9.8.1. This is due to the plugin allowing arbitrary user meta updates through the set_email_notification_settings() function. This makes it possible for authenticated a…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-128132",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00442,
+   "epss_percentil": 0.391,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-400",
+    "CWE-770"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "AIOHTTP is an asynchronous HTTP client/server framework for asyncio and Python. Prior to 3.14.4, the WebSocket reader continues parsing frames already received after the receive queue pauses the transport, and empty messages are not counted toward the queue size. With permessage-…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126948",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00441,
+   "epss_percentil": 0.38946,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Zipline before 4.5.0 contains an insecure direct object reference vulnerability caused by missing ownership verification in the PATCH and DELETE handlers for /api/user/folders/:id. Authenticated attackers can supply another user's folder ID to rename it, make it public, enable up…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129873",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00441,
+   "epss_percentil": 0.38962,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-266"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "REBUILD 4.3.0 through 4.5.4 contains a privilege escalation vulnerability that allows low-privileged authenticated users to obtain a SYSTEM_USER token by requesting /commons/file-preview with an arbitrary src value. Attackers can read the leaked _csrfToken from the redirect Locat…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2025-71459",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00441,
+   "epss_percentil": 0.38991,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Zipline hasta la versión 4.3.2 contiene una vulnerabilidad de salto de directorio (path traversal) que permite a usuarios autenticados con permisos de subida escribir archivos fuera del directorio de cargas suministrando secuencias de salto de ruta en la cabecera x-zipline-filena…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-95849",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 6.8,
+   "gravedad": "medium",
+   "epss": 0.00441,
+   "epss_percentil": 0.38985,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-78",
+    "CWE-94"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, organize and archive webpages. Prior to 2.15.0, .github/workflows/check-branch.yml runs on the privileged pull_request_target event and interpolates the attacker-controlled github.head_ref source …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-125795",
+   "publicado": "2026-11-15",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.0044,
+   "epss_percentil": 0.38857,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-98"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Estatik Estatik estatik allows PHP Local File Inclusion.This issue affects Estatik: from n/a through 4.3.6.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-127084",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.0044,
+   "epss_percentil": 0.38926,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Teable before 2026-10-12T12-45-53Z.3331 contains a stored cross-site scripting vulnerability that allows authenticated users to upload SVG or HTML attachments with an attacker-chosen content type. Attackers can send the same-origin /api/attachments/read URL, served inline with an…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-128047",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 9.2,
+   "gravedad": "critical",
+   "epss": 0.00439,
+   "epss_percentil": 0.38829,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "Magento",
+   "cwe": [
+    "CWE-330"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "OpenMage magento-lts before 20.18.2 and 21.0.0-beta pre-releases before 21.0.0-beta3 generate customer email-confirmation keys with md5(uniqid()) and customer and administrator password-reset tokens with the non-cryptographic uniqHash(). Unauthenticated attackers can brute-force …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-91469",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.00438,
+   "epss_percentil": 0.38735,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and 15.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129877",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00438,
+   "epss_percentil": 0.38723,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "DeepAudit 2.0.0-beta.1 through 3.8.0 contains an information disclosure vulnerability that allows unauthenticated attackers to retrieve server secrets through the /api/v1/config/defaults endpoint. Attackers can send a GET request to obtain the operator's LLM provider API keys and…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-128337",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.6,
+   "gravedad": "high",
+   "epss": 0.00438,
+   "epss_percentil": 0.38713,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "Exceljs Project",
+   "cwe": [
+    "CWE-1321"
    ],
    "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "ExcelJS through 4.4.0 contains a prototype pollution vulnerability in mergeConditionalFormattings that allows attackers to modify Object.prototype by supplying an x14:cfRule id of __proto__. Attackers can craft an xlsx file that, when loaded with xlsx.load(), sets properties such…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129091",
+   "publicado": "2026-11-15",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00438,
+   "epss_percentil": 0.38742,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-98"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
    "explotacion_ssvc": "none",
-   "descripcion": "Buffer overflow in Turbolev in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "descripcion": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Mikado-Themes GrandPrix Core grandprix-core allows PHP Local File Inclusion.This issue affects GrandPrix Core: from n/a through 1.0.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130070",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": 0.00436,
+   "epss_percentil": 0.38567,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-807"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Ghost by muneeb141 on the main branch from commit c731cdf through commit 672dfec contains an authentication bypass vulnerability in the whitelisted ghost.api.ghost.convert_to_real_user method that allows unauthenticated attackers to skip OTP verification by setting the client-sup…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120698",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00436,
+   "epss_percentil": 0.38498,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-863"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Wiki.js is an open source wiki app built on Node.js. Prior to 2.5.315, an authenticated account with only manage:users can use users.update to change the password of any local account, including the Root administrator and other accounts with manage:system, by omitting the optiona…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129281",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.5,
+   "gravedad": "high",
+   "epss": 0.00435,
+   "epss_percentil": 0.38458,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-863"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "N-able N-central before 2026.4.1 HF3 checks only a view permission for ServerII2 operations that write device execution configuration. An authenticated user with view-only access to a device can set configuration that the Windows agent on that device acts on.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130121",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00435,
+   "epss_percentil": 0.38462,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The AI Puffer - MCP Server for Claude & ChatGPT, with AI Chatbot plugin for WordPress is vulnerable to Stored Cross-Site Scripting via AI-generated comment replies in all versions up to, and including, 2.5.28 due to insufficient sanitization of the AI model's output in the insert…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129165",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.00434,
+   "epss_percentil": 0.3828,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-73"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Tactical RMM 0.17.0 through 1.6.1 contains an arbitrary file read in the /reporting/templates/preview/ endpoint because WeasyPrint resolves file:// links in user-supplied template_md and embeds the files in the returned PDF. Users with report management permission can read the Dj…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114813",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00434,
+   "epss_percentil": 0.38319,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Platform Security). Supported versions that are affected are 8.2.0.0.0 and 26.01.0.0.0. Easily exploitable vulnerability allows low privileged attacker with network access…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115150",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00434,
+   "epss_percentil": 0.3832,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Vulnerability in the Oracle Hyperion Infrastructure Technology product of Oracle Hyperion (component: Installation and Configuration). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows low privileged attacker with network access via …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-121708",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00434,
+   "epss_percentil": 0.38302,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-285",
+    "CWE-639"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "OpenCTI is an open source platform for managing cyber threat intelligence knowledge and observables. Prior to 7.260513.0, Draft Workspace identifiers are accepted without verifying that the authenticated user can access the referenced draft. Any authenticated user can enumerate d…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-127416",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00434,
+   "epss_percentil": 0.38318,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Vulnerability in the Oracle Hyperion Infrastructure Technology product of Oracle Hyperion (component: Lifecycle Management). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to co…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-14661",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00434,
+   "epss_percentil": 0.38319,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-73"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "External control of file name in PostgreSQL dblink and CREATE/ALTER SUBSCRIPTION allows a user to achieve persistent denial of service, via appending invalid data to a chosen file. Specifically, the \"sslkeylogfile\" connection parameter appends data, in NSS keylog format, to a fil…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126191",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00434,
+   "epss_percentil": 0.3835,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-1333"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Soup Sieve is a CSS selector library designed to be used with Beautiful Soup 4. Prior to 3.0, the CSS_ESCAPES and IDENTIFIER regular-expression subpatterns can backtrack exponentially on runs of ambiguous digit escapes in an attribute-name or tag position of an otherwise valid se…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-127082",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00433,
+   "epss_percentil": 0.3826,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-497"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Huginn before 2026.11.09 contains an information exposure vulnerability in JqAgent that allows authenticated users to read the server process environment because the jq child process inherits it. Attackers who can create, configure or dry-run a JqAgent can supply a filter using e…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-121684",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00433,
+   "epss_percentil": 0.38199,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-74"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": "github",
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The Soledad theme for WordPress is vulnerable to unauthenticated Remote Code Execution in versions up to, and including, 8.7.7 The public penci_more_post_ajax AJAX action feeds infeedads[ads_code] (base64+urldecoded) to penci_safe_shortcode(), whose allowlist regex inspects only …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126196",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00433,
+   "epss_percentil": 0.38267,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-693",
+    "CWE-89"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "pgEdge Postgres MCP Server enables SQL queries against PostgreSQL databases through Model Context Protocol compatible clients. Prior to 1.1.0, query_database on a read_only connection could send unrecognized statements through pgx Exec without bind parameters, selecting PostgreSQ…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126310",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.0,
+   "gravedad": "high",
+   "epss": 0.00433,
+   "epss_percentil": 0.38257,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-287"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "OpenBao before 2.6.5 and 2.7.2 contains an authentication bypass vulnerability that allows unauthenticated callers to obtain OIDC ID tokens by abusing public clients with client_credentials enabled. Attackers who know a public client's client_id can request tokens from the identi…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130072",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00432,
+   "epss_percentil": 0.38175,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Cloud Commander (cloudcmd) before 19.21.4 contains an authentication bypass and path traversal vulnerability that allows unauthenticated attackers to rename files by sending PUT /rename requests handled before authentication middleware. Attackers can supply absolute or ../ paths …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-122143",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00432,
+   "epss_percentil": 0.38129,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-749"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "ICRTouch Commander administrative interface performs security-sensitive operations through HTTP GET requests and includes an API key in the request query string. GET requests are commonly retained in browser history, proxy logs, server logs, analytics systems, referrer headers, a…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-109445",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": 0.00431,
+   "epss_percentil": 0.37918,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-121"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "PLANET GS-5220-8P2T2S (hardware version 3.0) firmware versions before 3.2412b261008 contains a stack-based buffer overflow vulnerability that allows unauthenticated attackers to corrupt stack memory by submitting an oversized webstax_auth HTTP Cookie value that is copied into a f…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129851",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 6.9,
+   "gravedad": "medium",
+   "epss": 0.00431,
+   "epss_percentil": 0.3801,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "SeaweedFS before 4.42 contains a server-side request forgery vulnerability in the VolumeServer.FetchAndWriteNeedle gRPC method that allows unauthenticated attackers to bypass the incomplete CVE-2026-73080 fix. Attackers can supply crafted replicas[].url entries or an azure_endpoi…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120699",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.0043,
+   "epss_percentil": 0.37862,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-22",
+    "CWE-269",
+    "CWE-284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "CubeSandbox is an instant, concurrent, secure, and lightweight sandbox for AI agents. Prior to 0.5.1, any authenticated tenant permitted to call POST /sandboxes can supply metadata[\"host-mount\"] with an arbitrary existing host path because the control plane performs no authorizat…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116318",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0043,
+   "epss_percentil": 0.37854,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-89"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "SQL injection in PostgreSQL pg_dump allows an object creator to execute arbitrary SQL as the user restoring the dump, via an inherited column having a child-local not-null constraint whose name requires quoting. Within major version 18, minor versions before PostgreSQL 18.7 are a…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-69155",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.0043,
+   "epss_percentil": 0.37873,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Atomic Server is an open source headless CMS and real-time database. From 0.30.0 until 0.40.3, an authenticated Agent with folder write access can use POST /upload to store HTML or SVG content that GET /download/{path} serves from the application origin through server/src/handler…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126465",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.0043,
+   "epss_percentil": 0.37887,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "Open-Emr",
+   "cwe": [
+    "CWE-89"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "OpenEMR before 8.5.0 contains an SQL injection vulnerability in the patient portal api/onsiteactivityviews endpoint that allows any authenticated staff user to inject SQL through unquoted Id_BitwiseAnd Criteria values. Attackers can close the bitwise parenthesis and append OR or …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-127109",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00428,
+   "epss_percentil": 0.3766,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-94"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "A code injection vulnerability in promzard’s template-loading functionality allows an attacker who can control property names in the context object (ctx) to execute arbitrary code with the privileges of the Node.js process. The library inserts context property names into a genera…",
+   "avisos": [
+    {
+     "fuente": "certcc",
+     "nombre": "CERT/CC",
+     "enlace": "https://kb.cert.org/vuls/id/685399"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-46674",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00428,
+   "epss_percentil": 0.3774,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-121",
+    "CWE-125"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "BACnet Stack is a BACnet open source protocol stack C library for embedded systems. Prior to versions 1.4.4 and 1.5.1, an out-of-bounds read vulnerability exists in bacnet-stack's AtomicWriteFile record-access path. The bug is caused by a mismatch between an externally controlled…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-52790",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00428,
+   "epss_percentil": 0.3774,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-416",
+    "CWE-562"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "BACnet Stack is a BACnet open source protocol stack C library for embedded systems. Prior to versions 1.4.5, 1.5.1, and 1.6.0, there is a library-level memory safety issue that is reachable from an unmodified official sample server (apps/server-basic/main.c) over BACnet/IP result…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-62973",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00428,
+   "epss_percentil": 0.3774,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-125"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "BACnet Stack is a BACnet open source protocol stack C library for embedded systems. Prior to versions 1.4.5, 1.5.1, and 1.6.0, a remote out-of-bounds read exists in the official BACnet client application apps/readpropm in bacnet-stack commit e2bdbf6. When readpropm sends a legiti…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114785",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.6,
+   "gravedad": "critical",
+   "epss": 0.00427,
+   "epss_percentil": 0.3762,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-601"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Hyperion Planning product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hyperion Pla…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114856",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.6,
+   "gravedad": "critical",
+   "epss": 0.00427,
+   "epss_percentil": 0.37619,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-601"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in Oracle REST Data Services (component: General). Supported versions that are affected are 24.2.0-26.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Oracle REST Data Services. Successful attacks requ…",
+   "avisos": [
+    {
+     "fuente": "incibe",
+     "nombre": "INCIBE-CERT",
+     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-oracle-java4shell"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-114205",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.00427,
+   "epss_percentil": 0.37603,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-863"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Incorrect authorization in ASUS Control Center Express allows a remote authenticated user with a low-privileged role to create an administrator account, resulting in administrative control of the management console and of the clients it manages. Refer to the ' Security Update for…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126574",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.00427,
+   "epss_percentil": 0.37602,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Missing authorization vulnerability in ASUS Control Center Datacenter and Control Center Enterprise allows remote authenticated users with a low-privileged Viewer role to change the password of an Administrator account, thereby obtaining administrative privileges, via a crafted p…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-128332",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.00427,
+   "epss_percentil": 0.37583,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-307"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Listmonk 6.0.0 before 7.0.0-beta.2 contains a 2FA bypass vulnerability that allows attackers with a valid password to brute-force TOTP codes because the attempt counter resets on every new password login. Attackers can repeatedly submit credentials to POST /admin/login to obtain …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-123769",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00427,
+   "epss_percentil": 0.37623,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-269"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The SureDash – Community, Courses & Member Dashboard plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.13.0 This is due to the `save_settings()` REST handler at `/suredash/v1/save-settings` being gated only by `admin_permission_cal…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-86322",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00427,
+   "epss_percentil": 0.37569,
+   "kev": false,
+   "categoria": "linux",
+   "fabricante": "Red Hat",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "A flaw was found in Foreman’s Api::V2::PersonalAccessTokensController, where Foreman::Controller::UserAware#find_user resolves the target account using User.find(params[:user_id]) without applying the required parent-user authorization check. An attacker with the create_personal_…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-68934",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00427,
+   "epss_percentil": 0.37617,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-78"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "code-review-mcp-server automates code review and can post comments directly on GitHub pull requests. Prior to 1.5.3, the getLocalGitDiff, codeReview, createPR, and getPRTemplate MCP tools accept caller-controlled folderPath and baseBranch string parameters that are interpolated i…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-112181",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00427,
+   "epss_percentil": 0.37602,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-611"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": "github",
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability due to inadequate restriction of references to external XML entities in OpenKM Community Edition. The XML processing in FormUtils / LocalEntityResolver does not properly restrict the resolution of external resources. An authenticated remote attacker with the ROLE_US…",
+   "avisos": [
+    {
+     "fuente": "incibe",
+     "nombre": "INCIBE-CERT",
+     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-openkm-community-edition-de-openkm"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-68918",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00427,
+   "epss_percentil": 0.37644,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Ikaros is a content management system for ACGMN media. Prior to 1.2.0, server/src/main/java/run/ikaros/server/core/tag/TagEndpoint.java does not enforce tag ownership for authenticated users with tag permissions. GET /tags/condition accepts an arbitrary userId and can enumerate a…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-127073",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.00426,
+   "epss_percentil": 0.37551,
+   "kev": false,
+   "categoria": "virtualizacion",
+   "fabricante": "Kubernetes",
+   "cwe": [
+    "CWE-269"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "OpsTree BuildPiper before 2.7.0 contains a privilege escalation vulnerability that allows project users to gain Kubernetes cluster-admin rights by submitting unrestricted manifests through the Additional Manifest feature. Attackers can deploy a ClusterRoleBinding binding a servic…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129113",
+   "publicado": "2026-11-14",
+   "prioridad": "alta",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.00426,
+   "epss_percentil": 0.3756,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-191"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "JSON::XS versions from 4.0_00 before 4.05 for Perl corrupt the incremental buffer length by chopping past its end in incr_skip after a top-level number. The incremental parser scans any run of digits, signs, dots and exponent markers as one number, but the decoder stops at the en…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129115",
+   "publicado": "2026-11-14",
+   "prioridad": "alta",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.00426,
+   "epss_percentil": 0.37559,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "JSON::XS versions from 3.0 before 4.05 for Perl read freed stack memory when a FREEZE result's serialisation grows the Perl stack under allow_tags in encode_rv. With allow_tags, an object's FREEZE method is called in list context and each returned value is encoded through a saved…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-111435",
+   "publicado": "2026-11-12",
+   "prioridad": "alta",
+   "cvss": 7.4,
+   "gravedad": "high",
+   "epss": 0.00426,
+   "epss_percentil": 0.37546,
+   "kev": false,
+   "categoria": "linux",
+   "fabricante": "Linux",
+   "cwe": [
+    "CWE-23"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Relative path traversal vulnerability in openEuler iSulad on Linux. This vulnerability is associated with program file src/daemon/modules/image/oci/oci_load.c. This issue affects iSulad: through 2.1.6. In oci_load.c, oci_load_process_manifest() does not sanitize the Config path o…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116411",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00424,
+   "epss_percentil": 0.37383,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Dell PowerStore contains a Server-Side Request Forgery (SSRF) vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability, potentially leading to information disclosure via requests to internal services.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129464",
+   "publicado": "2026-11-15",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00423,
+   "epss_percentil": 0.37294,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Zr.Admin.NET commit 0ee1ab8 through commit eb9228a contains a path traversal vulnerability that allows any logged-in user to read arbitrary server files via the path parameter of /common/DownloadFile. Attackers can supply absolute paths or ../ sequences to read appsettings files …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-128016",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00423,
+   "epss_percentil": 0.37241,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "FrankenPHP before 1.13.4 contains a use-after-free vulnerability in worker mode that frees internal streams of SplTempFileObject or SplFileObject on php://temp instances surviving across requests. Remote clients can send requests reaching code that uses such persisted objects, ca…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-128130",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00423,
+   "epss_percentil": 0.37221,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-770",
+    "CWE-835"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "AIOHTTP is an asynchronous HTTP client/server framework for asyncio and Python. Prior to 3.14.4, when the pipelined request queue is full, the pure-Python parser stores the unparsed remainder internally and also returns the same data to its caller. After a handler declines an upg…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-63151",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00422,
+   "epss_percentil": 0.37215,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-330"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Omnispace Agora Project through 26.10.0 contains a predictable token generation vulnerability that allows unauthenticated attackers to access private calendar data by exploiting a missing dateCrea value that causes the md5Id token to collapse to md5(calendarId.userId), both small…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-122150",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.0042,
+   "epss_percentil": 0.37012,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-287"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The PocketTouch and TouchPoint POS `CHECKPAYMENT` workflow accepts a caller-supplied clerk number without adequately verifying that the requesting client is authorized to act as that clerk. An attacker with access to the POS protocol may be able to specify another employee’s cler…",
    "avisos": [],
    "avisos_total": 0
   }
@@ -14653,78 +14650,89 @@
    },
    "maliciosos": 1000,
    "maliciosos_mas": true,
-   "avisos": 42,
+   "avisos": 43,
    "avisos_mas": false,
    "criticos": 0,
    "altos": 9,
    "ejemplos_maliciosos": [
     {
-     "ghsa": "GHSA-f4pf-fffj-pv2f",
+     "ghsa": "GHSA-82w4-rgrf-57v2",
      "cve": null,
-     "paquete": "abiba-avi-aumaunnaaa",
-     "resumen": "Malware in abiba-avi-aumaunnaaa",
+     "paquete": "@nuri.yavuz.tr.2/my-unique-pinger",
+     "resumen": "Malware in @nuri.yavuz.tr.2/my-unique-pinger",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-18"
+     "publicado": "2026-11-19"
     },
     {
-     "ghsa": "GHSA-xr82-65pq-hwqf",
+     "ghsa": "GHSA-4926-8w4g-8h5r",
      "cve": null,
-     "paquete": "abiba-avbai-ayub",
-     "resumen": "Malware in abiba-avbai-ayub",
+     "paquete": "csv-generater",
+     "resumen": "Malware in csv-generater",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-18"
+     "publicado": "2026-11-19"
     },
     {
-     "ghsa": "GHSA-x524-w3hq-7h99",
+     "ghsa": "GHSA-7pqc-wx7c-xrxh",
      "cve": null,
-     "paquete": "ahmad-basikal",
-     "resumen": "Malware in ahmad-basikal",
+     "paquete": "csv-generatee",
+     "resumen": "Malware in csv-generatee",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-18"
+     "publicado": "2026-11-19"
     },
     {
-     "ghsa": "GHSA-266h-2r44-vrfv",
+     "ghsa": "GHSA-66p6-67hr-9hw7",
      "cve": null,
-     "paquete": "adnanyahya",
-     "resumen": "Malware in adnanyahya",
+     "paquete": "requestcatcher-pinger-v2",
+     "resumen": "Malware in requestcatcher-pinger-v2",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-18"
+     "publicado": "2026-11-19"
     },
     {
-     "ghsa": "GHSA-24fx-2xw3-w835",
+     "ghsa": "GHSA-h8xq-3qvf-p57g",
      "cve": null,
-     "paquete": "adnanwaleed",
-     "resumen": "Malware in adnanwaleed",
+     "paquete": "teick",
+     "resumen": "Malware in teick",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-18"
+     "publicado": "2026-11-19"
     }
    ],
    "ejemplos_graves": [
     {
-     "ghsa": "GHSA-m63f-xhvm-6mv5",
-     "cve": "CVE-2026-120778",
-     "paquete": "@microsoft/aspire-cli, @microsoft/aspire-cli-linux-x64, y 4 más",
-     "resumen": "Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
+     "ghsa": "GHSA-x2vm-cf3p-m2w8",
+     "cve": "CVE-2026-119793",
+     "paquete": "@libp2p/gossipsub",
+     "resumen": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
      "gravedad": "high",
-     "cvss": 7.3,
-     "epss": 0.00444,
-     "corregido_en": "13.6.5",
-     "publicado": "2026-11-11"
+     "cvss": 7.5,
+     "epss": 0.0063,
+     "corregido_en": "17.0.0",
+     "publicado": "2026-11-17"
+    },
+    {
+     "ghsa": "GHSA-rvfr-cqwq-rc4j",
+     "cve": "CVE-2026-110789",
+     "paquete": "@libp2p/crypto",
+     "resumen": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": 0.0063,
+     "corregido_en": "5.1.22",
+     "publicado": "2026-11-17"
     },
     {
      "ghsa": "GHSA-jq3q-62jc-fqq9",
@@ -14758,17 +14766,6 @@
      "epss": 0.00339,
      "corregido_en": "31.0.0",
      "publicado": "2026-11-13"
-    },
-    {
-     "ghsa": "GHSA-xvcc-vqjv-phqh",
-     "cve": "CVE-2026-63496",
-     "paquete": "@augment-vir/node",
-     "resumen": "augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
-     "gravedad": "high",
-     "cvss": 7.8,
-     "epss": 0.00184,
-     "corregido_en": "31.73.5",
-     "publicado": "2026-11-18"
     }
    ],
    "estado": "maliciosos"
@@ -14785,13 +14782,46 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 56,
+   "maliciosos": 57,
    "maliciosos_mas": false,
-   "avisos": 50,
+   "avisos": 52,
    "avisos_mas": false,
    "criticos": 2,
    "altos": 27,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-xcrh-m987-2gc7",
+     "cve": null,
+     "paquete": "solana-utils-terminalmoney1",
+     "resumen": "Malicious code in solana-utils-terminalmoney1 (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-18"
+    },
+    {
+     "ghsa": "GHSA-5f4r-g88f-gvwq",
+     "cve": null,
+     "paquete": "solana-py-utils",
+     "resumen": "Malicious code in solana-py-utils (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-18"
+    },
+    {
+     "ghsa": "GHSA-fq8c-cf54-787p",
+     "cve": null,
+     "paquete": "anchorpy-utils",
+     "resumen": "Malicious code in anchorpy-utils (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-18"
+    },
     {
      "ghsa": "GHSA-3qjx-3879-f59j",
      "cve": null,
@@ -14813,42 +14843,20 @@
      "epss": null,
      "corregido_en": null,
      "publicado": "2026-11-18"
-    },
-    {
-     "ghsa": "GHSA-28jx-3vgf-w5vr",
-     "cve": null,
-     "paquete": "setnetwork",
-     "resumen": "Malicious code in setnetwork (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-18"
-    },
-    {
-     "ghsa": "GHSA-53f3-fr3w-q637",
-     "cve": null,
-     "paquete": "libide",
-     "resumen": "Malicious code in libide (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-18"
-    },
-    {
-     "ghsa": "GHSA-q6j5-5xjf-4vc7",
-     "cve": null,
-     "paquete": "test23414234234",
-     "resumen": "Malicious code in test23414234234 (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-18"
     }
    ],
    "ejemplos_graves": [
+    {
+     "ghsa": "GHSA-x585-4vv8-2mh2",
+     "cve": "CVE-2026-100397",
+     "paquete": "rucio",
+     "resumen": "Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+     "gravedad": "critical",
+     "cvss": 9.8,
+     "epss": 0.01143,
+     "corregido_en": "35.9.1",
+     "publicado": "2026-11-13"
+    },
     {
      "ghsa": "GHSA-gfv3-m769-5xm3",
      "cve": "CVE-2026-53998",
@@ -14859,17 +14867,6 @@
      "epss": 0.00356,
      "corregido_en": "15.7.0",
      "publicado": "2026-11-17"
-    },
-    {
-     "ghsa": "GHSA-x585-4vv8-2mh2",
-     "cve": "CVE-2026-100397",
-     "paquete": "rucio",
-     "resumen": "Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
-     "gravedad": "critical",
-     "cvss": 9.8,
-     "epss": null,
-     "corregido_en": "35.9.1",
-     "publicado": "2026-11-13"
     },
     {
      "ghsa": "GHSA-pw86-h8fm-j323",
@@ -14921,10 +14918,10 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 1,
+   "avisos": 3,
    "avisos_mas": false,
    "criticos": 0,
-   "altos": 1,
+   "altos": 2,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
@@ -14937,6 +14934,17 @@
      "epss": 0.00727,
      "corregido_en": "4.0.1",
      "publicado": "2026-11-17"
+    },
+    {
+     "ghsa": "GHSA-cvx8-9ff6-54xq",
+     "cve": "CVE-2026-76088",
+     "paquete": "org.pgpainless:pgpainless-core",
+     "resumen": "PGPainless: Unbounded Compressed Packet Descent in inline-detach and MessageInspector leads to Denial of Service (DoS)",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": null,
+     "corregido_en": "1.7.8",
+     "publicado": "2026-11-19"
     }
    ],
    "estado": "alto"
@@ -14955,10 +14963,10 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 20,
+   "avisos": 3,
    "avisos_mas": false,
    "criticos": 1,
-   "altos": 11,
+   "altos": 2,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
@@ -14971,39 +14979,6 @@
      "epss": 0.00923,
      "corregido_en": "13.6.5",
      "publicado": "2026-11-12"
-    },
-    {
-     "ghsa": "GHSA-fpxj-5c99-g7vj",
-     "cve": "CVE-2026-114151",
-     "paquete": "Microsoft.NETCore.App.Runtime.win-x86, Microsoft.NETCore.App.Runtime.win-x64, y 1 más",
-     "resumen": "Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability",
-     "gravedad": "high",
-     "cvss": 7.7,
-     "epss": 0.01492,
-     "corregido_en": "8.0.34",
-     "publicado": "2026-11-11"
-    },
-    {
-     "ghsa": "GHSA-wr8v-9x5q-ggcm",
-     "cve": "CVE-2026-114147",
-     "paquete": "Microsoft.AspNetCore.SignalR.StackExchangeRedis, Microsoft.AspNetCore.App.Runtime.linux-arm, y 10 más",
-     "resumen": "Microsoft Security Advisory CVE-2026-114147 - ASP.NET Core Denial of Service Vulnerability",
-     "gravedad": "high",
-     "cvss": 7.5,
-     "epss": 0.013,
-     "corregido_en": "8.0.34",
-     "publicado": "2026-11-11"
-    },
-    {
-     "ghsa": "GHSA-67wp-ghc2-fw2g",
-     "cve": "CVE-2026-114146",
-     "paquete": "Microsoft.AspNetCore.Http.Connections, Microsoft.AspNetCore.App.Runtime.linux-arm, y 10 más",
-     "resumen": "Microsoft Security Advisory CVE-2026-114146 - ASP.NET Core Elevation of Privilege Vulnerability",
-     "gravedad": "high",
-     "cvss": 7.8,
-     "epss": 0.00758,
-     "corregido_en": "1.2.14",
-     "publicado": "2026-11-11"
     },
     {
      "ghsa": "GHSA-6vhm-j9h7-f9gh",
@@ -15046,10 +15021,10 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 14,
+   "avisos": 15,
    "avisos_mas": false,
    "criticos": 0,
-   "altos": 3,
+   "altos": 4,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
@@ -15064,6 +15039,17 @@
      "publicado": "2026-11-16"
     },
     {
+     "ghsa": "GHSA-r7hw-jx6r-756g",
+     "cve": "CVE-2026-110782",
+     "paquete": "simplesamlphp/saml2",
+     "resumen": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
+     "gravedad": "high",
+     "cvss": 8.7,
+     "epss": 0.00335,
+     "corregido_en": "6.2.4",
+     "publicado": "2026-11-17"
+    },
+    {
      "ghsa": "GHSA-w553-pwx6-3mg9",
      "cve": "CVE-2026-63182",
      "paquete": "litesaml/lightsaml",
@@ -15075,15 +15061,15 @@
      "publicado": "2026-11-16"
     },
     {
-     "ghsa": "GHSA-r7hw-jx6r-756g",
-     "cve": "CVE-2026-110782",
-     "paquete": "simplesamlphp/saml2",
-     "resumen": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
+     "ghsa": "GHSA-82w8-65qw-gch6",
+     "cve": "CVE-2026-71481",
+     "paquete": "altcha-org/altcha",
+     "resumen": "ALTCHA PHP: verifySolution bypasses HMAC signature check when challenge signature is absent",
      "gravedad": "high",
-     "cvss": 8.7,
+     "cvss": 7.5,
      "epss": null,
-     "corregido_en": "6.2.4",
-     "publicado": "2026-11-17"
+     "corregido_en": "2.0.3",
+     "publicado": "2026-11-18"
     }
    ],
    "estado": "runtime_explotado"
@@ -15102,12 +15088,23 @@
    },
    "maliciosos": 0,
    "maliciosos_mas": false,
-   "avisos": 12,
+   "avisos": 16,
    "avisos_mas": false,
-   "criticos": 0,
-   "altos": 4,
+   "criticos": 1,
+   "altos": 6,
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
+    {
+     "ghsa": "GHSA-8fh7-7q4q-cq52",
+     "cve": "CVE-2026-75521",
+     "paquete": "miren.dev/runtime",
+     "resumen": "Miren Runtime: Authentication bypass in RPC layer: unverified TLS client certificates grant cluster superuser access",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": "0.11.1",
+     "publicado": "2026-11-19"
+    },
     {
      "ghsa": "GHSA-5qg5-rgp6-j5m5",
      "cve": "CVE-2026-125327",
@@ -15153,7 +15150,7 @@
      "publicado": "2026-11-17"
     }
    ],
-   "estado": "alto"
+   "estado": "critico"
   },
   {
    "ecosistema": "rust",
@@ -15169,10 +15166,10 @@
    },
    "maliciosos": 2,
    "maliciosos_mas": false,
-   "avisos": 3,
+   "avisos": 7,
    "avisos_mas": false,
-   "criticos": 0,
-   "altos": 0,
+   "criticos": 1,
+   "altos": 3,
    "ejemplos_maliciosos": [
     {
      "ghsa": "GHSA-m88c-p2p9-g3x9",
@@ -15197,7 +15194,19 @@
      "publicado": "2026-11-13"
     }
    ],
-   "ejemplos_graves": [],
+   "ejemplos_graves": [
+    {
+     "ghsa": "GHSA-pfwx-xjp4-qxcj",
+     "cve": "CVE-2026-69157",
+     "paquete": "atomic-server",
+     "resumen": "Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
+     "gravedad": "critical",
+     "cvss": 9.8,
+     "epss": 0.00512,
+     "corregido_en": null,
+     "publicado": "2026-11-18"
+    }
+   ],
    "estado": "maliciosos"
   },
   {
@@ -15212,13 +15221,24 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 7,
+   "maliciosos": 8,
    "maliciosos_mas": false,
    "avisos": 27,
    "avisos_mas": false,
    "criticos": 2,
    "altos": 2,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-q63g-8phq-pcj6",
+     "cve": null,
+     "paquete": "rechargeapps",
+     "resumen": "Malicious code in rechargeapps (RubyGems)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-18"
+    },
     {
      "ghsa": "GHSA-fcw8-r3p6-3gcc",
      "cve": null,
@@ -15262,17 +15282,6 @@
      "epss": null,
      "corregido_en": null,
      "publicado": "2026-11-13"
-    },
-    {
-     "ghsa": "GHSA-9487-f86j-23m4",
-     "cve": null,
-     "paquete": "cheesebox",
-     "resumen": "Malicious code in cheesebox (RubyGems)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-12"
     }
    ],
    "ejemplos_graves": [
@@ -15411,10 +15420,10 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 811,
-   "criticos": 75,
-   "altos": 281,
-   "urgentes": 20,
+   "cves": 814,
+   "criticos": 73,
+   "altos": 279,
+   "urgentes": 19,
    "epss_max": 0.014,
    "fabricantes": [
     "WordPress (plugins)",
@@ -15424,6 +15433,14 @@
     "Joomla"
    ],
    "kev_recientes": [
+    {
+     "cve": "CVE-2024-10441",
+     "fabricante": "Synology",
+     "producto": "DiskStation Manager (DSM)",
+     "nombre": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+     "anadido": "2026-11-18",
+     "ransomware": false
+    },
     {
      "cve": "CVE-2026-119977",
      "fabricante": "WordPress",
@@ -15441,7 +15458,7 @@
      "ransomware": false
     }
    ],
-   "kev_recientes_total": 2,
+   "kev_recientes_total": 3,
    "destacados": [
     {
      "cve": "CVE-2026-119077",
@@ -15481,109 +15498,12 @@
    ]
   },
   {
-   "categoria": "red",
-   "nombre": "Red, VPN y firewalls",
-   "estado": "explotacion_activa",
-   "cves": 165,
-   "criticos": 30,
-   "altos": 118,
-   "urgentes": 2,
-   "epss_max": 0.0244,
-   "fabricantes": [
-    "Fortinet",
-    "Citrix",
-    "Cisco",
-    "Palo Alto Networks",
-    "F5"
-   ],
-   "kev_recientes": [
-    {
-     "cve": "CVE-2026-123039",
-     "fabricante": "Check Point",
-     "producto": "Multiple Products",
-     "nombre": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-     "anadido": "2026-11-13",
-     "ransomware": false
-    },
-    {
-     "cve": "CVE-2026-20320",
-     "fabricante": "Cisco",
-     "producto": "BroadWorks",
-     "nombre": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
-     "anadido": "2026-11-10",
-     "ransomware": false
-    },
-    {
-     "cve": "CVE-2026-111560",
-     "fabricante": "Barracuda Networks",
-     "producto": "Multiple Products",
-     "nombre": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-     "anadido": "2026-11-10",
-     "ransomware": false
-    },
-    {
-     "cve": "CVE-2026-116606",
-     "fabricante": "Barracuda Networks",
-     "producto": "Barracuda Email Security Gateway (ESG)",
-     "nombre": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-     "anadido": "2026-11-10",
-     "ransomware": false
-    },
-    {
-     "cve": "CVE-2026-19868",
-     "fabricante": "SonicWall",
-     "producto": "SonicOS SSLVPN",
-     "nombre": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
-     "anadido": "2026-11-06",
-     "ransomware": false
-    }
-   ],
-   "kev_recientes_total": 9,
-   "destacados": [
-    {
-     "cve": "CVE-2026-123039",
-     "fabricante": "Check Point",
-     "cvss": 7.8,
-     "epss": 0.01938,
-     "prioridad": "explotada"
-    },
-    {
-     "cve": "CVE-2026-126148",
-     "fabricante": "Fortinet",
-     "cvss": 9.8,
-     "epss": 0.02445,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-75578",
-     "fabricante": "Openvpn",
-     "cvss": 8.6,
-     "epss": 0.02253,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-129449",
-     "fabricante": "Draytek",
-     "cvss": 8.6,
-     "epss": 0.02216,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-129452",
-     "fabricante": "Draytek",
-     "cvss": 8.5,
-     "epss": 0.02154,
-     "prioridad": "alta"
-    }
-   ]
-  },
-  {
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 37,
+   "cves": 36,
    "criticos": 6,
-   "altos": 16,
+   "altos": 15,
    "urgentes": 2,
    "epss_max": 0.0247,
    "fabricantes": [
@@ -15642,77 +15562,12 @@
    ]
   },
   {
-   "categoria": "virtualizacion",
-   "nombre": "Virtualización y nube",
-   "estado": "explotacion_activa",
-   "cves": 22,
-   "criticos": 4,
-   "altos": 8,
-   "urgentes": 2,
-   "epss_max": 0.0077,
-   "fabricantes": [
-    "AWS",
-    "Docker",
-    "Kubernetes",
-    "Amazon",
-    "VMware"
-   ],
-   "kev_recientes": [
-    {
-     "cve": "CVE-2026-41709",
-     "fabricante": "Broadcom",
-     "producto": "VMware ESX",
-     "nombre": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
-     "anadido": "2026-10-28",
-     "ransomware": false
-    }
-   ],
-   "kev_recientes_total": 1,
-   "destacados": [
-    {
-     "cve": "CVE-2026-126812",
-     "fabricante": "Docker",
-     "cvss": 9.3,
-     "epss": 0.00604,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-127080",
-     "fabricante": "Kubernetes",
-     "cvss": 9.4,
-     "epss": 0.00505,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-128027",
-     "fabricante": "Docker",
-     "cvss": 9.3,
-     "epss": 0.00775,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-129266",
-     "fabricante": "Amazon",
-     "cvss": 8.7,
-     "epss": 0.00519,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-126384",
-     "fabricante": "Docker",
-     "cvss": 7.7,
-     "epss": 0.00499,
-     "prioridad": "alta"
-    }
-   ]
-  },
-  {
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 688,
+   "cves": 693,
    "criticos": 53,
-   "altos": 245,
+   "altos": 247,
    "urgentes": 1,
    "epss_max": 0.0179,
    "fabricantes": [
@@ -15723,6 +15578,14 @@
     "IBM"
    ],
    "kev_recientes": [
+    {
+     "cve": "CVE-2026-90436",
+     "fabricante": "Apache",
+     "producto": "Axis",
+     "nombre": "Apache Axis Unsafe Reflection Vulnerability",
+     "anadido": "2026-11-18",
+     "ransomware": false
+    },
     {
      "cve": "CVE-2026-123218",
      "fabricante": "IBM",
@@ -15748,7 +15611,7 @@
      "ransomware": false
     }
    ],
-   "kev_recientes_total": 3,
+   "kev_recientes_total": 4,
    "destacados": [
     {
      "cve": "CVE-2026-129448",
@@ -15791,9 +15654,9 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 104,
+   "cves": 103,
    "criticos": 2,
-   "altos": 30,
+   "altos": 29,
    "urgentes": 1,
    "epss_max": 0.0094,
    "fabricantes": [
@@ -15836,17 +15699,179 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-125637",
-     "fabricante": "Red Hat",
-     "cvss": 7.2,
-     "epss": 0.00716,
-     "prioridad": "alta"
-    },
-    {
      "cve": "CVE-2026-127030",
      "fabricante": "Red Hat",
      "cvss": 7.5,
      "epss": 0.00688,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-127029",
+     "fabricante": "Red Hat",
+     "cvss": 7.5,
+     "epss": 0.00602,
+     "prioridad": "alta"
+    }
+   ]
+  },
+  {
+   "categoria": "red",
+   "nombre": "Red, VPN y firewalls",
+   "estado": "explotacion_activa",
+   "cves": 68,
+   "criticos": 18,
+   "altos": 45,
+   "urgentes": 1,
+   "epss_max": 0.0225,
+   "fabricantes": [
+    "Citrix",
+    "Draytek",
+    "Cisco",
+    "F5",
+    "Openvpn"
+   ],
+   "kev_recientes": [
+    {
+     "cve": "CVE-2026-123039",
+     "fabricante": "Check Point",
+     "producto": "Multiple Products",
+     "nombre": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+     "anadido": "2026-11-13",
+     "ransomware": false
+    },
+    {
+     "cve": "CVE-2026-20320",
+     "fabricante": "Cisco",
+     "producto": "BroadWorks",
+     "nombre": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+     "anadido": "2026-11-10",
+     "ransomware": false
+    },
+    {
+     "cve": "CVE-2026-111560",
+     "fabricante": "Barracuda Networks",
+     "producto": "Multiple Products",
+     "nombre": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+     "anadido": "2026-11-10",
+     "ransomware": false
+    },
+    {
+     "cve": "CVE-2026-116606",
+     "fabricante": "Barracuda Networks",
+     "producto": "Barracuda Email Security Gateway (ESG)",
+     "nombre": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+     "anadido": "2026-11-10",
+     "ransomware": false
+    },
+    {
+     "cve": "CVE-2026-19868",
+     "fabricante": "SonicWall",
+     "producto": "SonicOS SSLVPN",
+     "nombre": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+     "anadido": "2026-11-06",
+     "ransomware": false
+    }
+   ],
+   "kev_recientes_total": 9,
+   "destacados": [
+    {
+     "cve": "CVE-2026-123039",
+     "fabricante": "Check Point",
+     "cvss": 7.8,
+     "epss": 0.01938,
+     "prioridad": "explotada"
+    },
+    {
+     "cve": "CVE-2026-75578",
+     "fabricante": "Openvpn",
+     "cvss": 8.6,
+     "epss": 0.02253,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-129449",
+     "fabricante": "Draytek",
+     "cvss": 8.6,
+     "epss": 0.02216,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-129452",
+     "fabricante": "Draytek",
+     "cvss": 8.5,
+     "epss": 0.02154,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-86676",
+     "fabricante": "Zyxel",
+     "cvss": 7.2,
+     "epss": 0.01043,
+     "prioridad": "alta"
+    }
+   ]
+  },
+  {
+   "categoria": "virtualizacion",
+   "nombre": "Virtualización y nube",
+   "estado": "explotacion_activa",
+   "cves": 19,
+   "criticos": 3,
+   "altos": 7,
+   "urgentes": 1,
+   "epss_max": 0.0077,
+   "fabricantes": [
+    "AWS",
+    "Kubernetes",
+    "Docker",
+    "Amazon",
+    "VMware"
+   ],
+   "kev_recientes": [
+    {
+     "cve": "CVE-2026-41709",
+     "fabricante": "Broadcom",
+     "producto": "VMware ESX",
+     "nombre": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+     "anadido": "2026-10-28",
+     "ransomware": false
+    }
+   ],
+   "kev_recientes_total": 1,
+   "destacados": [
+    {
+     "cve": "CVE-2026-127080",
+     "fabricante": "Kubernetes",
+     "cvss": 9.4,
+     "epss": 0.00505,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-128027",
+     "fabricante": "Docker",
+     "cvss": 9.3,
+     "epss": 0.00775,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-129266",
+     "fabricante": "Amazon",
+     "cvss": 8.7,
+     "epss": 0.00519,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-126384",
+     "fabricante": "Docker",
+     "cvss": 7.7,
+     "epss": 0.00499,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-127073",
+     "fabricante": "Kubernetes",
+     "cvss": 9.4,
+     "epss": 0.00426,
      "prioridad": "alta"
     }
    ]
@@ -15886,9 +15911,9 @@
    "categoria": "navegadores",
    "nombre": "Navegadores",
    "estado": "explotacion_activa",
-   "cves": 288,
+   "cves": 205,
    "criticos": 19,
-   "altos": 114,
+   "altos": 88,
    "urgentes": 0,
    "epss_max": 0.0046,
    "fabricantes": [
@@ -15909,13 +15934,6 @@
    "kev_recientes_total": 1,
    "destacados": [
     {
-     "cve": "CVE-2026-126859",
-     "fabricante": "Google",
-     "cvss": 9.6,
-     "epss": 0.00463,
-     "prioridad": "alta"
-    },
-    {
      "cve": "CVE-2026-130975",
      "fabricante": "Google",
      "cvss": 8.8,
@@ -15924,23 +15942,30 @@
     },
     {
      "cve": "CVE-2026-131061",
-     "fabricante": "Google Chrome",
+     "fabricante": "Google",
      "cvss": 9.6,
      "epss": 0.00448,
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-126888",
-     "fabricante": "Google",
-     "cvss": 8.8,
-     "epss": 0.00445,
+     "cve": "CVE-2026-131013",
+     "fabricante": "Google Chrome",
+     "cvss": 8.3,
+     "epss": 0.00414,
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-126874",
+     "cve": "CVE-2026-130910",
      "fabricante": "Google",
-     "cvss": 8.8,
-     "epss": 0.00443,
+     "cvss": 9.6,
+     "epss": 0.00408,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-130971",
+     "fabricante": "Google",
+     "cvss": 9.6,
+     "epss": 0.00408,
      "prioridad": "alta"
     }
    ]
@@ -16044,7 +16069,7 @@
    "categoria": "apple",
    "nombre": "Apple (macOS · iOS)",
    "estado": "explotacion_activa",
-   "cves": 4,
+   "cves": 5,
    "criticos": 1,
    "altos": 3,
    "urgentes": 0,
@@ -16091,6 +16116,13 @@
      "cvss": 7.2,
      "epss": null,
      "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-128974",
+     "fabricante": "Apple",
+     "cvss": 5.4,
+     "epss": null,
+     "prioridad": "media"
     }
    ]
   },
@@ -16129,9 +16161,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1311,
-   "criticos": 134,
-   "altos": 551,
+   "cves": 1348,
+   "criticos": 133,
+   "altos": 563,
    "urgentes": 32,
    "epss_max": 0.2035,
    "fabricantes": [
@@ -16142,6 +16174,22 @@
     "Open-Emr"
    ],
    "kev_recientes": [
+    {
+     "cve": "CVE-2026-40217",
+     "fabricante": "BerriAI",
+     "producto": "LiteLLM",
+     "nombre": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+     "anadido": "2026-11-18",
+     "ransomware": false
+    },
+    {
+     "cve": "CVE-2026-90817",
+     "fabricante": "Vanderbilt University",
+     "producto": "Research Electronic Data Capture (REDCap)",
+     "nombre": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+     "anadido": "2026-11-18",
+     "ransomware": false
+    },
     {
      "cve": "CVE-2026-115731",
      "fabricante": "Perforce",
@@ -16165,25 +16213,9 @@
      "nombre": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
      "anadido": "2026-11-10",
      "ransomware": false
-    },
-    {
-     "cve": "CVE-2026-102895",
-     "fabricante": "GPUStack",
-     "producto": "GPUStack",
-     "nombre": "GPUStack Improper Authentication Vulnerability",
-     "anadido": "2026-11-09",
-     "ransomware": false
-    },
-    {
-     "cve": "CVE-2026-116779",
-     "fabricante": "SignalWire",
-     "producto": "FreeSwitch",
-     "nombre": "SignalWire FreeSwitch Code Injection Vulnerability",
-     "anadido": "2026-11-09",
-     "ransomware": false
     }
    ],
-   "kev_recientes_total": 7,
+   "kev_recientes_total": 9,
    "destacados": [
     {
      "cve": "CVE-2026-75869",
@@ -16218,6 +16250,58 @@
      "fabricante": "",
      "cvss": 9.4,
      "epss": 0.02399,
+     "prioridad": "urgente"
+    }
+   ]
+  },
+  {
+   "categoria": "oss",
+   "nombre": "Librerías de código abierto",
+   "estado": "riesgo_alto",
+   "cves": 320,
+   "criticos": 34,
+   "altos": 136,
+   "urgentes": 6,
+   "epss_max": 0.0167,
+   "fabricantes": [
+    "Código abierto (GitHub)"
+   ],
+   "kev_recientes": [],
+   "kev_recientes_total": 0,
+   "destacados": [
+    {
+     "cve": "CVE-2026-100397",
+     "fabricante": "Código abierto (GitHub)",
+     "cvss": 10.0,
+     "epss": 0.01143,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-68548",
+     "fabricante": "Código abierto (GitHub)",
+     "cvss": 9.4,
+     "epss": 0.00754,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-61680",
+     "fabricante": "Código abierto (GitHub)",
+     "cvss": 9.8,
+     "epss": 0.00675,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-61675",
+     "fabricante": "Código abierto (GitHub)",
+     "cvss": 9.8,
+     "epss": 0.00653,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-130156",
+     "fabricante": "Código abierto (GitHub)",
+     "cvss": 9.4,
+     "epss": null,
      "prioridad": "urgente"
     }
    ]
@@ -16275,58 +16359,6 @@
      "cvss": 9.3,
      "epss": 0.00561,
      "prioridad": "urgente"
-    }
-   ]
-  },
-  {
-   "categoria": "oss",
-   "nombre": "Librerías de código abierto",
-   "estado": "riesgo_alto",
-   "cves": 283,
-   "criticos": 20,
-   "altos": 125,
-   "urgentes": 4,
-   "epss_max": 0.0167,
-   "fabricantes": [
-    "Código abierto (GitHub)"
-   ],
-   "kev_recientes": [],
-   "kev_recientes_total": 0,
-   "destacados": [
-    {
-     "cve": "CVE-2026-100397",
-     "fabricante": "Código abierto (GitHub)",
-     "cvss": 10.0,
-     "epss": 0.01143,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-68548",
-     "fabricante": "Código abierto (GitHub)",
-     "cvss": 9.4,
-     "epss": 0.00754,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-61680",
-     "fabricante": "Código abierto (GitHub)",
-     "cvss": 9.8,
-     "epss": 0.00675,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-61675",
-     "fabricante": "Código abierto (GitHub)",
-     "cvss": 9.8,
-     "epss": 0.00653,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-67544",
-     "fabricante": "Código abierto (GitHub)",
-     "cvss": 8.8,
-     "epss": 0.00968,
-     "prioridad": "alta"
     }
    ]
   },
