@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-20 02:10",
+ "generado_utc": "2026-11-20 11:01",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,21 +10,21 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 4316,
-  "criticos": 384,
+  "cves": 4328,
+  "criticos": 345,
   "explotados": 0,
-  "urgentes": 79,
+  "urgentes": 67,
   "epss_10": 2,
-  "sin_puntuar": 289,
+  "sin_puntuar": 530,
   "por_prioridad": {
-   "urgente": 79,
-   "alta": 2096,
-   "media": 1612,
-   "baja": 529
+   "urgente": 67,
+   "alta": 1877,
+   "media": 1632,
+   "baja": 752
   },
-  "paquetes_maliciosos": 1057,
+  "paquetes_maliciosos": 1059,
   "exploit_publico": 0,
-  "poc_github": 104,
+  "poc_github": 107,
   "ransomware": 0,
   "dia_cero": 0
  },
@@ -393,30 +393,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126953",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.2,
-   "gravedad": "critical",
-   "epss": 0.01621,
-   "epss_percentil": 0.76603,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Cudy TR3000 before 2.5.42 contains an OS command injection vulnerability that allows a malicious or compromised ACS to execute commands as root by supplying an unvalidated InternetGatewayDevice.User.{i}.Username value. Attackers can send a SetParameterValues request with shell me…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-123634",
    "publicado": "2026-11-18",
    "prioridad": "urgente",
@@ -497,30 +473,6 @@
    "avisos_total": 3
   },
   {
-   "cve": "CVE-2026-75495",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.2,
-   "gravedad": "critical",
-   "epss": 0.01427,
-   "epss_percentil": 0.73531,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Cudy TR3000 before 2.5.42 contains an OS command injection vulnerability that allows a malicious or compromised ACS to execute commands as root by supplying a crafted InternetGatewayDevice.User.{i}.Password value. Attackers can send a SetParameterValues request with shell metacha…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-103813",
    "publicado": "2026-11-13",
    "prioridad": "urgente",
@@ -541,30 +493,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Dell PowerStore contains an OS Command Injection vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability, potentially leading to privilege escalation to root on the appliance.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-119077",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.01337,
-   "epss_percentil": 0.71871,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The ELEX WordPress HelpDesk & Customer Ticketing System plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.3.9 via the 'form (specifically the attacker-controlled ticket_label field inside the url-encoded form string)' parameter par…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -764,30 +692,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Dokploy is a free, self-hostable Platform as a Service (PaaS). Prior to 0.31.1, the database password validation used by the MySQL, PostgreSQL, MariaDB, MongoDB, and Redis change-password procedures permits backticks, and the procedures interpolate attacker-controlled passwords i…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-125055",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.01031,
-   "epss_percentil": 0.64432,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-434"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Chatterbug Forms – Fast, Flexible WordPress Form Builder plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.0.2 via the cbforms_check_form_submissions function. This is due to missing server-side file extension validation in cb…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1199,30 +1103,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126378",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.4,
-   "gravedad": "critical",
-   "epss": 0.00635,
-   "epss_percentil": 0.51223,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-434"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Vvveb through 1.0.8.6 contains a file upload vulnerability in the theme installer validFile() function that uses strpos() instead of strict path matching. Attackers with admin credentials can upload a ZIP containing a PHP file whose path includes /theme.php to achieve remote code…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130366",
    "publicado": "2026-11-17",
    "prioridad": "urgente",
@@ -1291,54 +1171,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "OpenSNS 3.2.1 contains an unauthenticated code injection vulnerability in the shareBox method of ShareController that allows attackers to invoke arbitrary model methods via the query parameter. Attackers can send crafted GET requests to /index.php?s=weibo/Share/shareBox abusing p…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-127277",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00561,
-   "epss_percentil": 0.47434,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Linksys",
-   "cwe": [
-    "CWE-665"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A security flaw has been discovered in Linksys EA8100 1.0.3.216940. The affected element is an unknown function of the file etc/init.d/service_smbd.sh of the component SMB Service. Performing a manipulation of the argument ANON_ACCESS results in improper initialization. The attac…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126380",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.4,
-   "gravedad": "critical",
-   "epss": 0.0055,
-   "epss_percentil": 0.46798,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-434"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Vvveb before 1.0.9.0 contains a denylist bypass in system/traits/media.php where '.phar' is misconfigured with a leading dot, allowing authenticated administrators to upload .phar PHP files. Attackers can upload a GIF magic-byte polyglot webshell bypassing binary inspection and e…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1489,54 +1321,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-127080",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.4,
-   "gravedad": "critical",
-   "epss": 0.00505,
-   "epss_percentil": 0.43928,
-   "kev": false,
-   "categoria": "virtualizacion",
-   "fabricante": "Kubernetes",
-   "cwe": [
-    "CWE-269"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpsTree BuildPiper before 2.7.0 contains an improper authorization vulnerability that allows authenticated deploy users to define arbitrary Kubernetes hostPath volumes without allow-list or policy checks. Attackers can set the host path to / in the Define HostPath Volume configur…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126473",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.0049,
-   "epss_percentil": 0.42901,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-863"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.4.0 contains OAuth scope canonicalization and containment flaws that allow unauthenticated attackers to obtain unapproved system-level FHIR access. Attackers can register a colon-form system:Patient.read client that bypasses approval, then request unregistered sy…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130650",
    "publicado": "2026-11-18",
    "prioridad": "urgente",
@@ -1605,30 +1389,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "Lucee Server versions 5.0.0.0 before 5.3.4.46 contain an insecure default configuration that allows unauthenticated attackers to set the initial admin password via the first-run form on /lucee/admin/web.cfm and /lucee/admin/server.cfm. Attackers can access the 'New Password' set-…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128023",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00458,
-   "epss_percentil": 0.40455,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-290"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "FrankenPHP before 1.13.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to spoof trusted headers by sending dot-form header names that PHP rewrites to underscores. Attackers can send headers like X.Authenticated.User or X.Forwarded.For that …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -1806,54 +1566,6 @@
     }
    ],
    "avisos_total": 1
-  },
-  {
-   "cve": "CVE-2026-126265",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00289,
-   "epss_percentil": 0.21912,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-307"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "SiYuan 2.1.0 before 3.8.9 contains a flaw where the loginAuth CAPTCHA challenge lives in a signed client-side cookie, allowing reuse of a solved challenge. Attackers can replay the original signed siyuan cookie with distinct wrong access codes to brute-force the code and gain an …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126952",
-   "publicado": "2026-11-13",
-   "prioridad": "urgente",
-   "cvss": 9.2,
-   "gravedad": "critical",
-   "epss": 0.00287,
-   "epss_percentil": 0.21616,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-347"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Zipline through 4.4.0 contains an authentication bypass vulnerability in the WebAuthn login endpoint that creates sessions for a supplied registered credential ID without verifying the assertion. Attackers who obtain a target's passkey credential ID can impersonate that account w…",
-   "avisos": [],
-   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-130870",
@@ -2053,30 +1765,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-75578",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.02253,
-   "epss_percentil": 0.83302,
-   "kev": false,
-   "categoria": "red",
-   "fabricante": "Openvpn",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Cudy TR3000 before 2.5.42 contains a command injection vulnerability in luci/model/cbi/vpn/openvpn/client.lua, which embeds the shellquote()-quoted remote host token of an uploaded OpenVPN configuration inside an already single-quoted sed program run by os.execute(), so the neste…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-129449",
    "publicado": "2026-11-15",
    "prioridad": "alta",
@@ -2199,30 +1887,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-75577",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.01898,
-   "epss_percentil": 0.80104,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Cudy TR3000 before 2.5.42 contains a command injection vulnerability that allows authenticated administrators to execute commands as root by storing a malicious WireGuard private key. Attackers can save a private_key containing $() shell substitution and call the vpn.export_conf …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-128908",
    "publicado": "2026-11-13",
    "prioridad": "alta",
@@ -2267,14 +1931,8 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "SmarterTools SmarterMail File Edit API Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. Th…",
-   "avisos": [
-    {
-     "fuente": "zdi",
-     "nombre": "Zero Day Initiative",
-     "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-994/"
-    }
-   ],
-   "avisos_total": 1
+   "avisos": [],
+   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-129102",
@@ -2321,54 +1979,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Multiple ELECOM wireless LAN routers contain an OS command injection vulnerability that may cause an arbitrary OS command to be executed by an attacker who can access the administrative interface of the affected product.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-75487",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.01573,
-   "epss_percentil": 0.75938,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Cudy TR3000 before 2.5.42 contains a command injection vulnerability that allows authenticated administrators to execute commands as root via the WireGuard server private_key option. Attackers can save a private key containing $() command substitution, which runs when action_wire…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-75576",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.01573,
-   "epss_percentil": 0.75938,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-78"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Cudy TR3000 before 2.5.42 contains a command injection vulnerability that allows authenticated administrators to execute commands as root via an unvalidated multipart filename in the CBI FileUpload handler. Attackers can upload a valid OpenVPN configuration file through the VPN c…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -2495,30 +2105,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "This High severity OS Command Injection vulnerability known as CVE-2026-21593 was introduced in version 4.9.0. This OS Command Injection vulnerability, with a CVSS Score of 7.7 and a CVSS Vector of CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N allows an authenti…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-75492",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.01192,
-   "epss_percentil": 0.68641,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Cudy TR3000 before 2.5.42 contains an unauthenticated stack buffer overflow vulnerability in the stun_client TR-111 UDP Connection Request parser that parses requests before verifying username or HMAC. Remote attackers can send a single crafted UDP datagram lacking a space in the…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -2793,54 +2379,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-118191",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.1,
-   "gravedad": "high",
-   "epss": 0.00993,
-   "epss_percentil": 0.63303,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Photo Gallery, Sliders, Proofing and Themes – NextGEN Gallery plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the handle_job function in all versions up to, and including, 4.5.5 This makes it possible for authenticated…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-124218",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.2,
-   "gravedad": "high",
-   "epss": 0.00988,
-   "epss_percentil": 0.63199,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Drag and Drop File Upload for Elementor Forms plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the remove_files function in all versions up to, and including, 1.6.2 This makes it possible for unauthenticated attackers t…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-126558",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -2914,30 +2452,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-128242",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00932,
-   "epss_percentil": 0.61435,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-409"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "actix-http before 3.20.1 and actix-web before 4.18.2 contain an unbounded decompression vulnerability in encoding::Decoder that lets remote attackers exhaust memory and CPU via compressed bodies. Attackers can send small highly compressed gzip, deflate, Brotli or zstd request bod…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-106094",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -2986,10 +2500,15 @@
     {
      "fuente": "ubuntu",
      "nombre": "Ubuntu",
+     "enlace": "https://ubuntu.com/security/notices/USN-9182-1"
+    },
+    {
+     "fuente": "ubuntu",
+     "nombre": "Ubuntu",
      "enlace": "https://ubuntu.com/security/notices/USN-9159-1"
     }
    ],
-   "avisos_total": 1
+   "avisos_total": 2
   },
   {
    "cve": "CVE-2026-129986",
@@ -3109,36 +2628,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "open62541 Subscription Use-After-Free Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of open62541. Authentication is required to exploit this vulnerability. The specific flaw exists within the ha…",
-   "avisos": [
-    {
-     "fuente": "zdi",
-     "nombre": "Zero Day Initiative",
-     "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-990/"
-    }
-   ],
-   "avisos_total": 1
-  },
-  {
-   "cve": "CVE-2026-126294",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00882,
-   "epss_percentil": 0.59921,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Grav Login plugin before 3.11.0 contains an authentication bypass vulnerability that allows attackers with an account password to skip two-factor verification when the global twofa_enabled setting is off. Attackers can sign in through the /login form, remember-me cookie, or magic…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -3163,30 +2652,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Cudy TR3000 before 2.5.42 contains a remote code execution vulnerability that allows authenticated administrators to run root commands by importing a malicious OpenVPN client configuration. Attackers can include tls-verify or ipchange directives, which the incomplete denylist doe…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-116615",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00875,
-   "epss_percentil": 0.59726,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Widget Options – Advanced Conditional Visibility for Gutenberg Blocks & Classic Widgets plugin for WordPress is vulnerable to Code Injection in all versions up to, and including, 4.2.6.1 via the `post_content` parameter. This is due to asymmetric parsing between the save-time…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -3456,30 +2921,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126370",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00791,
-   "epss_percentil": 0.57062,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-184"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Vvveb through 1.0.8.6 contains a remote code execution vulnerability allowing restricted site_admin roles to inject PHP by saving .sql files through the admin code editor. Attackers can bypass extension and content deny-lists with an @IF macro payload that compiles into executabl…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-120522",
    "publicado": "2026-11-14",
    "prioridad": "alta",
@@ -3577,28 +3018,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-128027",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00775,
-   "epss_percentil": 0.56546,
-   "kev": false,
-   "categoria": "virtualizacion",
-   "fabricante": "Docker",
-   "cwe": [],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "FrankenPHP Docker images before 1.1.11 were rebuilt only when new base image tags were created, so security fixes that Alpine, PHP, and Go applied under existing tags were not propagated. Remote attackers could exploit known flaws in the stale system libraries, such as CVE-2025-1…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-123637",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -3669,22 +3088,22 @@
    "descripcion": "Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler). Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM…",
    "avisos": [
     {
-     "fuente": "paloalto",
-     "nombre": "Palo Alto Networks",
-     "enlace": "https://security.paloaltonetworks.com/CVE-2026-114938"
+     "fuente": "incibe",
+     "nombre": "INCIBE-CERT",
+     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-productos-de-palo-alto-networks-0"
     },
     {
-     "fuente": "cisco",
-     "nombre": "Cisco",
-     "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1"
+     "fuente": "ubuntu",
+     "nombre": "Ubuntu",
+     "enlace": "https://ubuntu.com/security/notices/USN-9179-1"
     },
     {
-     "fuente": "siemens",
-     "nombre": "Siemens ProductCERT",
-     "enlace": "https://cert-portal.siemens.com/productcert/html/ssa-810379.html"
+     "fuente": "ubuntu",
+     "nombre": "Ubuntu",
+     "enlace": "https://ubuntu.com/security/notices/USN-9178-1"
     }
    ],
-   "avisos_total": 17
+   "avisos_total": 21
   },
   {
    "cve": "CVE-2026-129250",
@@ -3736,30 +3155,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-128014",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 9.2,
-   "gravedad": "critical",
-   "epss": 0.00748,
-   "epss_percentil": 0.55674,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-787"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "FrankenPHP standalone static binaries 1.8.0 before 1.13.2 bundle the PHP brotli extension statically linked with Brotli 1.2.0, whose decoder contains an out-of-bounds write (CVE-2026-111497). Unauthenticated remote attackers can send crafted data to applications that pass it to b…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130375",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -3780,30 +3175,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "AdminNeo before 5.9.1 contains a remote code execution vulnerability that allows authenticated SQLite users to bypass the check_sqlite_name() extension guard using PDO_SQLite file: URI database names. Attackers can select the PDO driver with ext=pdo and submit names like file:/we…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2024-58404",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.3,
-   "gravedad": "high",
-   "epss": 0.00746,
-   "epss_percentil": 0.55611,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Zipline versions from 3.4.5 before 3.7.10 contain a path traversal vulnerability in the user data export endpoint via the name query parameter. Authenticated attackers can bypass the user id check and use directory traversal sequences to read arbitrary files on the server host.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -4340,30 +3711,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126428",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.7,
-   "gravedad": "high",
-   "epss": 0.00694,
-   "epss_percentil": 0.53701,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-434"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.5.0 contains a remote code execution vulnerability that allows authenticated billing users to store attacker-controlled PHP by uploading a malformed ERA file to era_payments.php. Attackers with a database-write primitive such as SQL injection can register a backg…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-83817",
    "publicado": "2026-11-16",
    "prioridad": "alta",
@@ -4413,30 +3760,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-128343",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00675,
-   "epss_percentil": 0.52965,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Exceljs Project",
-   "cwe": [
-    "CWE-606"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "exceljs through 4.4.0 contains a denial of service vulnerability that allows attackers to block the event loop by supplying unbounded row r attributes parsed in row-xform.js. Attackers can craft an XLSX file with a row numbered far beyond Excel's limit, making getSheetValues(), w…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-119623",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -4481,14 +3804,8 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "SmarterTools SmarterMail Insufficient Entropy Authentication Bypass Vulnerability. This vulnerability allows remote attackers to bypass authentication on affected installations of SmarterTools SmarterMail. Authentication is not required to exploit this vulnerability. The specific…",
-   "avisos": [
-    {
-     "fuente": "zdi",
-     "nombre": "Zero Day Initiative",
-     "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-997/"
-    }
-   ],
-   "avisos_total": 1
+   "avisos": [],
+   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-97699",
@@ -4805,54 +4122,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126307",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00644,
-   "epss_percentil": 0.51689,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-863"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Nezha Dashboard before 2.6.0 contains multiple authorization, tenant isolation, and resource exhaustion vulnerabilities that allow members or unauthenticated attackers to abuse NAT, DDNS, OAuth, cron, and server transfer features. Attackers can claim undeclared Dashboard hostname…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128046",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 9.2,
-   "gravedad": "critical",
-   "epss": 0.00643,
-   "epss_percentil": 0.51627,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Magento",
-   "cwe": [
-    "CWE-184"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "OpenMage magento-lts 20.17.0 before 20.18.2 and 21.0.0-beta1 before 21.0.0-beta3 contains an unrestricted file upload vulnerability because the general/file/protected_extensions blocklist omits phar, php8, and phps. Unauthenticated attackers can upload a .phar file through a prod…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-126966",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -4873,14 +4142,8 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "SmarterTools SmarterMail Missing Authorization Privilege Escalation Vulnerability. This vulnerability allows remote attackers to escalate privileges on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The specific flaw …",
-   "avisos": [
-    {
-     "fuente": "zdi",
-     "nombre": "Zero Day Initiative",
-     "enlace": "http://www.zerodayinitiative.com/advisories/ZDI-26-995/"
-    }
-   ],
-   "avisos_total": 1
+   "avisos": [],
+   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-91115",
@@ -4979,30 +4242,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-128339",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00635,
-   "epss_percentil": 0.51264,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Exceljs Project",
-   "cwe": [
-    "CWE-770"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "ExcelJS through 4.4.0 contains a memory exhaustion vulnerability in Worksheet._parseMergeCells that allows attackers to crash applications by supplying unbounded mergeCell ranges. Attackers can craft a small workbook with a mergeCell ref like A1:XFD1048576, causing xlsx.load() to…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-128129",
    "publicado": "2026-11-13",
    "prioridad": "alta",
@@ -5047,30 +4286,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "Microsoft jxrlib through 1.1 and the mircomir jxrlib fork before 1.3.7 contain a reachable assertion vulnerability in ParsePFDEntry() that allows attackers to abort applications via an invalid orientation tag. Attackers can supply a crafted JPEG XR file with an out-of-range WMP_t…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128344",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00634,
-   "epss_percentil": 0.51178,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Exceljs Project",
-   "cwe": [
-    "CWE-770"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "ExcelJS through 4.4.0 contains a memory exhaustion vulnerability that allows attackers to crash applications by supplying a workbook with an unbounded image anchor column in the drawing part. Attackers can set an anchor column such as 300000000 in xl/drawings/drawing1.xml so read…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -5197,30 +4412,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-128340",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00621,
-   "epss_percentil": 0.50569,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Exceljs Project",
-   "cwe": [
-    "CWE-770"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "ExcelJS through 4.4.0 contains a memory exhaustion vulnerability that allows attackers to crash applications by supplying a workbook with an oversized defined-name range. DefinedNames.addEx expands ranges such as S!$A$1:$XFD$1048576 from xl/workbook.xml cell by cell, causing an u…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130092",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -5241,30 +4432,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "A caller who can reach the temporal-proxy gRPC listener, with or without a valid credential, can grow the proxy's memory until the process is terminated by sending requests with many distinct gRPC method names. temporal-proxy labels its request metrics with the method name exactl…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126304",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00619,
-   "epss_percentil": 0.5049,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-59"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "NLTK from 3.10.0 before 3.10.4 contains a symlink escape vulnerability in YCOECorpusReader that allows attackers to read files outside the corpus root by planting psd or pos directory symlinks. Attackers controlling a YCOE corpus can make parsed_sents() and tagged_words() return …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -5484,30 +4651,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Baidu UEditor 1.4.0 through 1.4.3.3 contains an unrestricted file upload vulnerability in the catchimage action of /ueditor/net/controller.ashx that only validates the Content-Type header. Unauthenticated attackers can supply a source[] URL like x.jpg?.aspx to retain a malicious …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-127090",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00602,
-   "epss_percentil": 0.49592,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-305"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Jadaptive Maverick Synergy Server before 3.0.33 and 3.1.x before 3.1.7, and Maverick Legacy Server before 1.8.1, contain an authentication bypass vulnerability in SSH public key authentication that reuses cached key authorization decisions across usernames. Attackers holding a ke…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -5796,78 +4939,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126297",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00576,
-   "epss_percentil": 0.483,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-400"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "NLTK before 3.10.4 contains a quadratic-time denial of service vulnerability in ConllCorpusReader._get_srl_instances that allows remote attackers to exhaust CPU through nested span rescans. Attackers can supply a crafted CoNLL SRL corpus with many predicates and span columns, pla…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126298",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00576,
-   "epss_percentil": 0.48301,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-400"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "NLTK before 3.10.4 contains a denial of service vulnerability in Tree.chomsky_normal_form that allows remote attackers to exhaust CPU through quadratic-time right-factor binarization using list.pop(0). Attackers can supply a wide flat treebank tree parsed by Tree.fromstring to fo…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126299",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00576,
-   "epss_percentil": 0.483,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-400"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "NLTK before 3.10.4 contains a denial of service vulnerability in the CCG lexicon parser fromstring that allows remote attackers to exhaust CPU by supplying wide inputs. Attackers can submit lexicon text with long flat bracket bodies or operator chains, triggering quadratic string…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-127142",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -5937,30 +5008,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "An insecure password reset vulnerability in the Admin Password Recovery Module of PHPGurukul News Portal Project v4.1 allows unauthenticated remote attackers to change an administrator or sub-administrator account password by providing the corresponding username and email address…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-127088",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00571,
-   "epss_percentil": 0.48034,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-640"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "2FAuth before 9.0.1 contains a weak password recovery vulnerability that allows unauthenticated attackers to poison reset links by forging the HTTP Host header. Attackers can request password or WebAuthn recovery emails with an attacker-controlled host, capture the victim's token…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6159,30 +5206,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126303",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00558,
-   "epss_percentil": 0.47296,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-400"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "NLTK before 3.10.4 contains an uncontrolled resource consumption vulnerability in SteppingRecursiveDescentParser.parse() that lacks any max_time deadline or step limit. Attackers influencing the grammar can supply an ambiguous self-embedding grammar and short token input to force…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-67455",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -6275,30 +5298,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "mssql-mcp-core is the shared library that powers MSSQL MCP servers. Prior to core and server 0.6.0 and reader and writer 0.5.0, multiple database tools interpolate caller-controlled identifiers and predicates into T-SQL batches passed to Request.query() while parameterizing only …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128346",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00551,
-   "epss_percentil": 0.46875,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Exceljs Project",
-   "cwe": [
-    "CWE-459"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "ExcelJS through 4.4.0 contains a resource leak vulnerability in the streaming WorkbookReader.parse that leaves temporary files and open descriptors when sheet parsing fails or iteration stops early. Attackers can repeatedly upload malformed multi-sheet workbooks with worksheets p…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6495,78 +5494,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-128347",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00541,
-   "epss_percentil": 0.46274,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Exceljs Project",
-   "cwe": [
-    "CWE-73"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "ExcelJS through 4.4.0 contains an arbitrary file read vulnerability in the streaming WorkbookWriter that allows attackers to read local files by supplying crafted image filenames to addImage. Attackers can inject ../ path segments into user-controlled image paths, causing addMedi…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128338",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.0054,
-   "epss_percentil": 0.46209,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Exceljs Project",
-   "cwe": [
-    "CWE-770"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "exceljs through 4.4.0 contains a memory exhaustion vulnerability that allows attackers to crash applications by supplying a worksheet col element with an unbounded max attribute. Attackers can craft a small workbook with a huge max value, causing xlsx.load() to allocate hundreds …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128342",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.0054,
-   "epss_percentil": 0.46209,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Exceljs Project",
-   "cwe": [
-    "CWE-606"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "ExcelJS through 4.4.0 contains a denial of service vulnerability that allows attackers to block the event loop by supplying an unbounded sheetId in xl/workbook.xml. Attackers can provide a workbook with a huge sheetId, making the sparse worksheet array walk stall worksheets, getW…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-129941",
    "publicado": "2026-11-16",
    "prioridad": "alta",
@@ -6639,30 +5566,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126119",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00536,
-   "epss_percentil": 0.45958,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Wordpress",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Streamit WordPress plugin before 1.3.10 does not perform any authorization or nonce verification on one of its unauthenticated AJAX routes, which invokes an attacker-supplied PHP function with an attacker-supplied argument array, allowing unauthenticated attackers to call arb…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-129875",
    "publicado": "2026-11-16",
    "prioridad": "alta",
@@ -6731,30 +5634,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Tensei through 0.11.5 contains an authentication bypass vulnerability in @tensei/auth that falls back to the hard-coded JWT signing key 'auth-secret-key' when JWT_SECRET is unset. Unauthenticated attackers can sign tokens with arbitrary user ids accepted by populateContextFromTok…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126469",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00535,
-   "epss_percentil": 0.45916,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-862"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.5.0 contains a missing authorization vulnerability in several custom/ scripts that rely only on session authentication and never call AclMain::aclCheckCore(). Any authenticated low-privilege user can request export_labworks.php, chart_tracker.php, or export_regis…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -7300,30 +6179,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126481",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00523,
-   "epss_percentil": 0.45148,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.5.0 contains a path traversal vulnerability in era_payments.php and sl_eob_search.php that allows authenticated billing users to write files outside the ERA directory. Attackers can embed traversal sequences in the GS04 element of an uploaded X12 835 file to over…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-87789",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -7472,30 +6327,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-128017",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 6.3,
-   "gravedad": "medium",
-   "epss": 0.00519,
-   "epss_percentil": 0.44902,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-415"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "FrankenPHP before 1.13.4 contains a double free vulnerability in worker mode that frees SG(request_info).content_type_dup twice when a worker script ends its loop after a non-form POST request. Unauthenticated attackers can send repeated JSON POST requests until the worker loop e…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130786",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -7544,31 +6375,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-127276",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 3.7,
-   "gravedad": "low",
-   "epss": 0.00518,
-   "epss_percentil": 0.44782,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Linksys",
-   "cwe": [
-    "CWE-1004",
-    "CWE-732"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was identified in Linksys EA8100 1.0.3.216940. Impacted is an unknown function of the component Web UI. Such manipulation leads to cookie without 'httponly' flag. It is possible to launch the attack remotely. This attack is characterized by high complexity. The ex…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-125274",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -7589,30 +6395,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "An authenticated iControl SOAP user with at least Guest access can inject an unauthorized management request. Impact: This vulnerability may allow an authenticated attacker with network access and at least Guest role privileges to the iControl SOAP utility to execute arbitrary sy…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128329",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.3,
-   "gravedad": "high",
-   "epss": 0.00517,
-   "epss_percentil": 0.44762,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Dokploy 0.28.0 before 0.31.1 contains a path traversal vulnerability that allows authenticated organization members to read arbitrary files by supplying ../ sequences in the filePath of patch.readRepoFile. Attackers with service read permission can read /etc/shadow, SSH private k…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -7689,54 +6471,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126474",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 5.1,
-   "gravedad": "medium",
-   "epss": 0.00512,
-   "epss_percentil": 0.44447,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-79"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.5.0 contains a reflected cross-site scripting vulnerability in the ACL module that allows attackers to execute JavaScript in authenticated sessions via the module_id parameter. Attackers can deliver crafted acl/index or acl/acl links that inject unencoded input i…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126475",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 5.1,
-   "gravedad": "medium",
-   "epss": 0.00512,
-   "epss_percentil": 0.44447,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-79"
-   ],
-   "estado_nvd": "Modified",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.5.0 contains a reflected cross-site scripting vulnerability that allows authenticated attackers to execute JavaScript by injecting payloads into the searchEleNo POST parameter of the application/index/search endpoint. Attackers can break out of unencoded HTML att…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-127218",
    "publicado": "2026-11-16",
    "prioridad": "alta",
@@ -7809,54 +6543,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126301",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 6.9,
-   "gravedad": "medium",
-   "epss": 0.00509,
-   "epss_percentil": 0.4421,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-407"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "NLTK from 3.6 before 3.10.4 contains an algorithmic complexity vulnerability in LegalitySyllableTokenizer.tokenize that allows remote attackers to exhaust CPU by supplying long all-vowel tokens. Attackers can submit a token such as a long run of vowels, causing the unguarded onse…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126489",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00508,
-   "epss_percentil": 0.44172,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.5.0 contains a second-order SQL injection vulnerability in the IPPF contraceptive issue feature because issue_ippf_con_save concatenates layout_options field_id values into a REPLACE INTO query as column names. Authenticated administrators can add a malicious fie…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130841",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -7901,30 +6587,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "thirdweb Dashboard through commit 940b3745 contains a missing authorization vulnerability in revalidatePathAction and revalidateCacheTagAction server actions in revalidate.ts. Unauthenticated attackers can use action identifiers exposed in the client bundle to send POST requests …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-61418",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00503,
-   "epss_percentil": 0.43788,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-863"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Dell SmartFabric OS10 Software, versions prior to 10.6.0.10, contains an Incorrect Authorization vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Command execution.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -8027,28 +6689,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "LLMKube is a Kubernetes operator for self-hosted large language model inference across heterogeneous hardware. Prior to 0.9.0, the ModelReconciler accepts arbitrary absolute paths and file:// URIs in Model.spec.source without restricting them to approved roots. A namespace user w…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126384",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.7,
-   "gravedad": "high",
-   "epss": 0.00499,
-   "epss_percentil": 0.43546,
-   "kev": false,
-   "categoria": "virtualizacion",
-   "fabricante": "Docker",
-   "cwe": [],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "n8n before 1.123.89, 2.x before 2.45.5, 2.46.x before 2.46.1, and 3.x before 3.0.1 bundles a GraphicsMagick version with known vulnerabilities in its official Docker image, which the Edit Image node uses to process images. Attackers who can supply crafted untrusted images to an E…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -8272,30 +6912,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126315",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00493,
-   "epss_percentil": 0.4309,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-359"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Frappe HRMS 16.14.0 before 16.20.1 sends product usage events on certain HR transactions without checking the site's telemetry setting, and some events include more detail than needed. During normal use, with no user action, values such as leave type names, claimed amounts and ap…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-132142",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -8371,30 +6987,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-128341",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00492,
-   "epss_percentil": 0.43007,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Exceljs Project",
-   "cwe": [
-    "CWE-770"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "ExcelJS through 4.4.0 contains a resource exhaustion vulnerability in data-validations-xform.js that allows attackers to exhaust CPU and memory by supplying unbounded sqref ranges. Attackers can provide a small crafted workbook with a sqref of A1:XFD1048576 to make xlsx.load() it…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130849",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -8439,30 +7031,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Dell PowerStore SDNAS contains an authentication-bypass-by-replay vulnerability in the NAS NDMP service that could allow a network attacker to gain backup and restore control of the appliance.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-118063",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.0049,
-   "epss_percentil": 0.42925,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Wordpress",
-   "cwe": [
-    "CWE-434"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Advance Guest Post WordPress plugin through 1.9 does not properly validate uploaded files, relying on a case-sensitive and incomplete extension check that unauthenticated users can trivially bypass, allowing them to upload arbitrary files, including executable PHP variants, i…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -9103,30 +7671,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126293",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.1,
-   "gravedad": "high",
-   "epss": 0.00476,
-   "epss_percentil": 0.41904,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-770"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "NocoDB before 2026.06.2 contains an attachment size limit bypass that allows authenticated Editor users to store oversized files because data-attachment-v3.service.ts trusts the remote server's advertised content length. Attackers can point the v3 upload-by-URL endpoint at a serv…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-61715",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -9175,30 +7719,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126300",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 6.9,
-   "gravedad": "medium",
-   "epss": 0.00473,
-   "epss_percentil": 0.41643,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-407"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "NLTK from 3.2.5 before 3.10.4 contains an algorithmic complexity vulnerability in TreebankWordTokenizer.span_tokenize that allows remote attackers to cause quadratic CPU consumption through repeated list.pop(0) calls. Attackers can submit long runs of double-quote characters to s…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-111507",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -9243,54 +7763,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "A caller with write permission in a namespace can terminate temporal-proxy through memory exhaustion by storing highly compressed payloads in Workflow history, and the stored history causes the same failure on every later read. temporal-proxy 1.2.0 decompresses every payload mark…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126391",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.7,
-   "gravedad": "high",
-   "epss": 0.0047,
-   "epss_percentil": 0.41411,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-94"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "n8n before 1.123.89 contains an insufficient isolation vulnerability in workflow expression evaluation that allows authenticated users to escape the sandbox. Attackers with permission to create or modify workflows can craft expressions referencing unexpected JavaScript properties…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126468",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00469,
-   "epss_percentil": 0.41367,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-862"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "OpenEMR before 8.5.0 contains a missing authorization vulnerability that allows any authenticated low-privilege user to access reports, dated reminders, and batch reminder endpoints lacking AclMain::aclCheckCore() checks. Attackers can request patient_list.php, amc_full_report.ph…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -9610,30 +8082,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "NotrinosERP is an open-source web-based enterprise resource planning system written in PHP and MySQL. From 1.0.0 until 1.1.0, the employee document handler in hrm/manage/employees.php allows an authenticated user with SA_EMPLOYEE permission to submit doc_file through tab_document…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126397",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00464,
-   "epss_percentil": 0.40973,
-   "kev": false,
-   "categoria": "ia",
-   "fabricante": "Hugging Face",
-   "cwe": [
-    "CWE-400"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "vLLM from 0.10.1 before 0.31.0 forwards a request-controlled mm_processor_kwargs.max_patches value to the Hugging Face processor for Cohere2 Vision models without a server-side upper bound, causing quadratic CPU work during multimodal preprocessing. Remote clients can send small …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10047,54 +8495,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126949",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.0,
-   "gravedad": "high",
-   "epss": 0.00453,
-   "epss_percentil": 0.40091,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Zipline through 4.4.0 contains a path traversal vulnerability in the PATCH /api/user/files/:id rename endpoint that allows authenticated users to overwrite existing uploads by supplying unsanitized names. Attackers can submit names like ../uploads/victim.txt that bypass the raw-s…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-75490",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.7,
-   "gravedad": "high",
-   "epss": 0.00452,
-   "epss_percentil": 0.40028,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-306"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Cudy TR3000 before 2.5.42 contains a remote code execution vulnerability that allows unauthenticated adjacent attackers to run root commands by advertising a rogue automesh controller over mDNS. Attackers on the upstream Ethernet segment can advertise _cudycmagent._tcp records po…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-104796",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -10115,30 +8515,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "Chevereto before 4.5.8 contains a server-side request forgery vulnerability that allows authenticated administrators to cause the server to issue arbitrary requests by supplying a malicious URL to the uploadToWebsite function, which fetches the raw source via fetch_url before the…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-75493",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.2,
-   "gravedad": "high",
-   "epss": 0.00451,
-   "epss_percentil": 0.39964,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Cudy TR3000 before 2.5.42 contains a stack buffer overflow vulnerability in an obuspa getter for the TR-098 WLANConfiguration KeyPassphrase parameter, which copies the stored value with strcpy() into a 4,096-byte stack buffer without a length check. A malicious or compromised ACS…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10235,30 +8611,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The cHash argument, which ensures that only URL arguments originally generated by TYPO3 create separate page cache entries, was treated inconsistently when it was passed as an array. The cHash validation treated such a value as missing, while the page cache identifier treated it …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128024",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.2,
-   "gravedad": "high",
-   "epss": 0.00449,
-   "epss_percentil": 0.39733,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-248"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "FrankenPHP before 1.13.0 contains a denial of service vulnerability in goArray() that allows remote attackers to abort the server process via arrays with null integer-keyed elements. Attackers can send crafted JSON passed to frankenphp_log() or returned from worker callbacks, tri…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10684,30 +9036,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126948",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00441,
-   "epss_percentil": 0.39035,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-639"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Zipline before 4.5.0 contains an insecure direct object reference vulnerability caused by missing ownership verification in the PATCH and DELETE handlers for /api/user/folders/:id. Authenticated attackers can supply another user's folder ID to rename it, make it public, enable up…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-129873",
    "publicado": "2026-11-16",
    "prioridad": "alta",
@@ -10780,30 +9108,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2025-71459",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.2,
-   "gravedad": "high",
-   "epss": 0.00441,
-   "epss_percentil": 0.3908,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Zipline hasta la versión 4.3.2 contiene una vulnerabilidad de salto de directorio (path traversal) que permite a usuarios autenticados con permisos de subida escribir archivos fuera del directorio de cargas suministrando secuencias de salto de ruta en la cabecera x-zipline-filena…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-71499",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -10849,54 +9153,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Estatik Estatik estatik allows PHP Local File Inclusion.This issue affects Estatik: from n/a through 4.3.6.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-127084",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.5,
-   "gravedad": "high",
-   "epss": 0.0044,
-   "epss_percentil": 0.39015,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-79"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Teable before 2026-10-12T12-45-53Z.3331 contains a stored cross-site scripting vulnerability that allows authenticated users to upload SVG or HTML attachments with an attacker-chosen content type. Attackers can send the same-origin /api/attachments/read URL, served inline with an…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128047",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 9.2,
-   "gravedad": "critical",
-   "epss": 0.00439,
-   "epss_percentil": 0.38918,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Magento",
-   "cwe": [
-    "CWE-330"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "OpenMage magento-lts before 20.18.2 and 21.0.0-beta pre-releases before 21.0.0-beta3 generate customer email-confirmation keys with md5(uniqid()) and customer and administrator password-reset tokens with the non-cryptographic uniqHash(). Unauthenticated attackers can brute-force …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -10969,30 +9225,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "DeepAudit 2.0.0-beta.1 through 3.8.0 contains an information disclosure vulnerability that allows unauthenticated attackers to retrieve server secrets through the /api/v1/config/defaults endpoint. Attackers can send a GET request to obtain the operator's LLM provider API keys and…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128337",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00438,
-   "epss_percentil": 0.38802,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "Exceljs Project",
-   "cwe": [
-    "CWE-1321"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "ExcelJS through 4.4.0 contains a prototype pollution vulnerability in mergeConditionalFormattings that allows attackers to modify Object.prototype by supplying an x14:cfRule id of __proto__. Attackers can craft an xlsx file that, when loaded with xlsx.load(), sets properties such…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -11341,30 +9573,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-127082",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.3,
-   "gravedad": "high",
-   "epss": 0.00433,
-   "epss_percentil": 0.38352,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-497"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Huginn before 2026.11.09 contains an information exposure vulnerability in JqAgent that allows authenticated users to read the server process environment because the jq child process inherits it. Attackers who can create, configure or dry-run a JqAgent can supply a filter using e…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-121684",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -11385,30 +9593,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The Soledad theme for WordPress is vulnerable to unauthenticated Remote Code Execution in versions up to, and including, 8.7.7 The public penci_more_post_ajax AJAX action feeds infeedads[ads_code] (base64+urldecoded) to penci_safe_shortcode(), whose allowlist regex inspects only …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126310",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.0,
-   "gravedad": "high",
-   "epss": 0.00433,
-   "epss_percentil": 0.38349,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "OpenBao before 2.6.5 and 2.7.2 contains an authentication bypass vulnerability that allows unauthenticated callers to obtain OIDC ID tokens by abusing public clients with client_credentials enabled. Attackers who know a public client's client_id can request tokens from the identi…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -11579,30 +9763,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The UpdraftPlus: WP Backup & Migration Plugin for WordPress is vulnerable to second-order SQL Injection via the user profile description field in all Free versions up to, and including, 1.26.15 and all Premium versions up to, and including, 2.26.15. This makes it possible for aut…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126465",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.1,
-   "gravedad": "high",
-   "epss": 0.0043,
-   "epss_percentil": 0.37981,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.5.0 contains an SQL injection vulnerability in the patient portal api/onsiteactivityviews endpoint that allows any authenticated staff user to inject SQL through unquoted Id_BitwiseAnd Criteria values. Attackers can close the bitwise parenthesis and append OR or …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -11794,30 +9954,6 @@
    "avisos_total": 1
   },
   {
-   "cve": "CVE-2026-128332",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00427,
-   "epss_percentil": 0.37677,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-307"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Listmonk 6.0.0 before 7.0.0-beta.2 contains a 2FA bypass vulnerability that allows attackers with a valid password to brute-force TOTP codes because the attempt counter resets on every new password login. Attackers can repeatedly submit credentials to POST /admin/login to obtain …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130929",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -11842,30 +9978,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-123769",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.8,
-   "gravedad": "high",
-   "epss": 0.00427,
-   "epss_percentil": 0.37716,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-269"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The SureDash – Community, Courses & Member Dashboard plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.13.0 This is due to the `save_settings()` REST handler at `/suredash/v1/save-settings` being gated only by `admin_permission_cal…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-68934",
    "publicado": "2026-11-16",
    "prioridad": "alta",
@@ -11886,60 +9998,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "code-review-mcp-server automates code review and can post comments directly on GitHub pull requests. Prior to 1.5.3, the getLocalGitDiff, codeReview, createPR, and getPRTemplate MCP tools accept caller-controlled folderPath and baseBranch string parameters that are interpolated i…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-112181",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.3,
-   "gravedad": "high",
-   "epss": 0.00427,
-   "epss_percentil": 0.37696,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-611"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Vulnerability due to inadequate restriction of references to external XML entities in OpenKM Community Edition. The XML processing in FormUtils / LocalEntityResolver does not properly restrict the resolution of external resources. An authenticated remote attacker with the ROLE_US…",
-   "avisos": [
-    {
-     "fuente": "incibe",
-     "nombre": "INCIBE-CERT",
-     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-openkm-community-edition-de-openkm"
-    }
-   ],
-   "avisos_total": 1
-  },
-  {
-   "cve": "CVE-2026-127073",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 9.4,
-   "gravedad": "critical",
-   "epss": 0.00426,
-   "epss_percentil": 0.37645,
-   "kev": false,
-   "categoria": "virtualizacion",
-   "fabricante": "Kubernetes",
-   "cwe": [
-    "CWE-269"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "OpsTree BuildPiper before 2.7.0 contains a privilege escalation vulnerability that allows project users to gain Kubernetes cluster-admin rights by submitting unrestricted manifests through the Additional Manifest feature. Attackers can deploy a ClusterRoleBinding binding a servic…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -12162,30 +10220,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Zr.Admin.NET commit 0ee1ab8 through commit eb9228a contains a path traversal vulnerability that allows any logged-in user to read arbitrary server files via the path parameter of /common/DownloadFile. Attackers can supply absolute paths or ../ sequences to read appsettings files …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128016",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.3,
-   "gravedad": "high",
-   "epss": 0.00423,
-   "epss_percentil": 0.37334,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-416"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "FrankenPHP before 1.13.4 contains a use-after-free vulnerability in worker mode that frees internal streams of SplTempFileObject or SplFileObject on php://temp instances surviving across requests. Remote clients can send requests reaching code that uses such persisted objects, ca…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -12428,102 +10462,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "JSON::XS versions before 4.05 for Perl leak the decoded key of an object rejected for a missing colon in decode_hv. Unless it is short plain ASCII, a quoted key is decoded into a new scalar. Nothing frees that scalar when the object is rejected for a missing ':' after the key. A …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128333",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00418,
-   "epss_percentil": 0.36912,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-304"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "listmonk 6.0.0 before 7.0.0-beta.2 contains an authentication bypass vulnerability in doResetPassword that skips TOTP verification after a password reset. Attackers who can complete a reset, such as by reading the victim's reset email, obtain fully authenticated sessions includin…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126309",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.6,
-   "gravedad": "high",
-   "epss": 0.00418,
-   "epss_percentil": 0.36912,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-73"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "OpenBao before 2.6.5 and 2.7.2 contains a path traversal vulnerability in Transit key import that allows authenticated attackers to bypass name restrictions in ACL policies. Attackers limited by a required_parameters name constraint can craft traversal sequences during import to …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126312",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.6,
-   "gravedad": "high",
-   "epss": 0.00418,
-   "epss_percentil": 0.36912,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-178"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "OpenBao before 2.6.5 and 2.7.x before 2.7.2, and the openbao-plugins LDAP and RADIUS auth plugins before 0.2.0, contain an ACL bypass in the AppRole, Cert, LDAP, and RADIUS auth methods caused by implicit path canonicalization. Authenticated attackers can request non-canonical pa…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-128328",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 5.3,
-   "gravedad": "medium",
-   "epss": 0.00418,
-   "epss_percentil": 0.36823,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-22"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Dokploy 0.28.0 before 0.31.1 contains a path traversal vulnerability that allows authenticated organization members to list tracked files of any git repository by supplying an arbitrary repoPath to patch.readRepoDirectories. Attackers with read access to one service can enumerate…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -12892,30 +10830,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-75494",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.3,
-   "gravedad": "high",
-   "epss": 0.00417,
-   "epss_percentil": 0.36757,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-88"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Cudy TR3000 before 2.5.42 contains an argument injection vulnerability that allows a malicious or compromised ACS to inject curl options through unfiltered Username and Password values in the easycwmpd Upload handler. Attackers can embed whitespace to add options like -o and --ur…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-125159",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -13235,30 +11149,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-128030",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.4,
-   "gravedad": "high",
-   "epss": 0.00413,
-   "epss_percentil": 0.36303,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Magento",
-   "cwe": [
-    "CWE-613"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "OpenMage magento-lts before 20.18.2 and 21.0.0-beta1 before 21.0.0-beta3 contains an insufficient session expiration vulnerability because Mage_Api_Model_Session::_renewBySessId() never checks api_user.is_active and REST OAuth authorization never checks whether the admin user is …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-124646",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -13303,30 +11193,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The affected products process a server-supplied URL without sufficient validation. An unauthenticated remote attacker controlling a malicious Automation Server and tricking a user to trust it or performing a man-in-the-middle attack, can exploit this vulnerability by causing the …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126482",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00411,
-   "epss_percentil": 0.36128,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.5.0 contains an SQL injection vulnerability in SLEOB::slInvoiceNumber() in src/Billing/SLEOB.php, which concatenates the CLP01 claim identifier from uploaded X12 835 ERA files into a query without escaping or parameter binding. Authenticated users with billing pe…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13520,54 +11386,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The test email delivery function in N-able N-central before 2026.4.1 HF3 does not check permissions, lacks CSRF protection, and passes sender and recipient values to the mail program without neutralising option characters. An authenticated attacker can inject arguments into the m…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126480",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.6,
-   "gravedad": "high",
-   "epss": 0.00409,
-   "epss_percentil": 0.35945,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "OpenEMR before 8.5.0 contains an sql injection vulnerability in CcrTable::insertApprovedData() that allows authenticated users to inject SQL through request parameter names used as column names. Attackers can send crafted patient_data-*-sel parameters to the revandapprove route, …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126399",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.1,
-   "gravedad": "high",
-   "epss": 0.00409,
-   "epss_percentil": 0.35956,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-770"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "vLLM from 0.19.0 before 0.31.0 contains a resource exhaustion vulnerability that allows inference clients to bypass the server frame limit by setting media_io_kwargs.video.num_frames in chat completion requests. Attackers can supply num_frames=-1 or a large value with many base64…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -13843,30 +11661,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126938",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.1,
-   "gravedad": "high",
-   "epss": 0.00406,
-   "epss_percentil": 0.35633,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-770"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Zipline before 4.6.4 contains a resource allocation vulnerability that allows authenticated users to bypass chunked-upload size and quota checks by forging Content-Range offsets and totals. Attackers can send tiny chunks to the partial upload endpoint with large declared offsets,…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-129173",
    "publicado": "2026-11-13",
    "prioridad": "alta",
@@ -14011,30 +11805,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-127281",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00405,
-   "epss_percentil": 0.3554,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was found in lanyulei ferry 1.0.0-beta.1/1.0.0. Affected is an unknown function of the file middleware/auth.go of the component JWT Validation. The manipulation results in improper authentication. The attack can be executed remotely. The exploit has been made publ…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-114847",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -14095,30 +11865,6 @@
    "avisos_total": 1
   },
   {
-   "cve": "CVE-2026-128020",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.2,
-   "gravedad": "high",
-   "epss": 0.00404,
-   "epss_percentil": 0.35377,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-674"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "FrankenPHP before 1.13.2 contains an uncontrolled recursion vulnerability in its PHP-to-Go array converter that fails to detect circular references in PHP arrays. Passing a self-referential array to frankenphp_log() or returning one from a worker callback triggers a fatal Go stac…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130943",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -14169,30 +11915,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Out of bounds read in Editing in Google Chrome prior to 158.0.8127.36 allowed a remote attacker leveraging social engineering to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126372",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00403,
-   "epss_percentil": 0.35269,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-434"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Vvveb through 1.0.8.6 contains an incomplete fix for CVE-2026-41934 that allows authenticated editor or site_admin users to write server-side templates by bypassing save restrictions. Attackers can upload or rename .tpl files via editor/code upload and rename actions, or evade is…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14342,30 +12064,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126272",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 7.1,
-   "gravedad": "high",
-   "epss": 0.00401,
-   "epss_percentil": 0.35113,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-770"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "NocoDB before 2026.09.0 contains an uncontrolled resource consumption vulnerability that allows authenticated users to bypass bulk row-count limits by using session authentication instead of API tokens. Attackers with Editor write permission on one table can submit hundreds of th…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-129866",
    "publicado": "2026-11-16",
    "prioridad": "alta",
@@ -14386,30 +12084,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "Dinky through 1.2.5 contains a missing authorization vulnerability in ClusterConfigurationController that allows authenticated users without cluster configuration permissions to list Flink cluster configurations. Attackers can query the /api/clusterConfiguration/list and listAll …",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-126487",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.004,
-   "epss_percentil": 0.34946,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-269"
-   ],
-   "estado_nvd": "Modified",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.5.0 contains an authorization bypass vulnerability that allows authenticated users to override system-wide global configuration values by storing global-prefixed keys through library/ajax/user_settings.php. Attackers can submit lab or target parameters with globa…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -14606,30 +12280,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-126488",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 8.3,
-   "gravedad": "high",
-   "epss": 0.00398,
-   "epss_percentil": 0.34782,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Analyzed",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "OpenEMR before 8.5.0 contains an SQL injection vulnerability in the patient portal OnsiteDocument.Query endpoint, where mass-assigned _BitwiseAnd criteria parameters are placed unquoted into SQL with only quote-character escaping. Authenticated portal patients can inject SQL outs…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-130917",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -14702,55 +12352,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-127278",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00397,
-   "epss_percentil": 0.3467,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A weakness has been identified in AIP-PUB ACPs-community up to 2.2.0. The impacted element is the function send_verification_code of the file registry-server/app/account/service_auth.py of the component verify-code Endpoint. Executing a manipulation of the argument phone can lead…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-127279",
-   "publicado": "2026-11-13",
-   "prioridad": "alta",
-   "cvss": 5.5,
-   "gravedad": "medium",
-   "epss": 0.00397,
-   "epss_percentil": 0.34669,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-287",
-    "CWE-306"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was detected in AIP-PUB ACPs-community up to 2.2.0. This impacts an unknown function of the file discovery-server/app/main.py of the component Discovery Server. The manipulation results in missing authentication. The attack may be launched remotely. The exploit is…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-131008",
    "publicado": "2026-11-17",
    "prioridad": "alta",
@@ -14781,42 +12382,328 @@
    "avisos_total": 1
   },
   {
-   "cve": "CVE-2026-126466",
-   "publicado": "2026-11-13",
+   "cve": "CVE-2026-114785",
+   "publicado": "2026-11-17",
    "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00396,
-   "epss_percentil": 0.34584,
+   "cvss": 9.6,
+   "gravedad": "critical",
+   "epss": 0.00395,
+   "epss_percentil": 0.34469,
    "kev": false,
-   "categoria": "web",
-   "fabricante": "Open-Emr",
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
    "cwe": [
-    "CWE-862"
+    "CWE-601"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Hyperion Planning product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hyperion Pla…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129550",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": 0.00395,
+   "epss_percentil": 0.34447,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-915"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Tensei through 0.11.5 contains a privilege escalation vulnerability in @tensei/auth that allows unauthenticated or authenticated users to assign themselves arbitrary roles via the exposed User Roles field. Attackers can supply a roles array during registration, a POST to the user…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-55171",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.00395,
+   "epss_percentil": 0.34489,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-330"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Open OnDemand is an open-source high-performance computing portal. Prior to Open OnDemand 4.1.6 and 4.2.3, and prior to ood-ansible 4.2.1, the portal generator defaults OIDCCryptoPassphrase to SHA1(servername), and the templates/ood_portal.yml.j2 role checks a different variable …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130938",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00394,
+   "epss_percentil": 0.34372,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
    ],
    "estado_nvd": "Analyzed",
    "exploit_publico": null,
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "OpenEMR before 8.5.0 contains a missing authorization vulnerability that allows any authenticated user to create patient records and enumerate patients by omitting aclCheckCore() checks. Attackers can POST to new_comprehensive_save.php to create patients with insurance PHI, or qu…",
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Accessibility in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
    "avisos": [],
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-127091",
+   "cve": "CVE-2026-130944",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00394,
+   "epss_percentil": 0.34372,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Omnibox in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130948",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00394,
+   "epss_percentil": 0.34373,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Omnibox in Google Chrome prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-131093",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00394,
+   "epss_percentil": 0.34373,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in FedCM in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-91564",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00394,
+   "epss_percentil": 0.3431,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-287"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129101",
    "publicado": "2026-11-13",
    "prioridad": "alta",
-   "cvss": 7.6,
+   "cvss": 8.6,
    "gravedad": "high",
-   "epss": 0.00396,
-   "epss_percentil": 0.34537,
+   "epss": 0.00393,
+   "epss_percentil": 0.34226,
    "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
+   "categoria": "red",
+   "fabricante": "Openvpn",
    "cwe": [
-    "CWE-41"
+    "CWE-915"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Cudy TR3000 before 2.5.42 contains a mass assignment vulnerability in the vpn.set_conf App RPC method that allows authenticated administrators to inject arbitrary OpenVPN server options. Attackers can set enabled=1 and a malicious up option in the openvpns object, which the openv…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114871",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00392,
+   "epss_percentil": 0.34052,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Sales Online product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114909",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00392,
+   "epss_percentil": 0.3405,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle iProcurement product of Oracle E-Business Suite (component: Requisition Management). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Ora…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114914",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00392,
+   "epss_percentil": 0.34051,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-200"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Purchasing product of Oracle E-Business Suite (component: Endeca). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Purchasing. Su…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115062",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00392,
+   "epss_percentil": 0.3405,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows low privileged attacker with network access via SOAP to compromise Oracle H…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115788",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00392,
+   "epss_percentil": 0.3405,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-117"
    ],
    "estado_nvd": "Awaiting Analysis",
    "exploit_publico": null,
@@ -14824,7 +12711,2123 @@
    "ransomware": false,
    "dia_cero": false,
    "explotacion_ssvc": "none",
-   "descripcion": "Jadaptive Maverick Synergy Server before 3.0.33 and 3.1.x before 3.1.7, and Maverick Legacy Server before 1.8.1, contain an improper path equivalence flaw in VirtualFileFactory.canonicalisePath that bypasses mount-level access policy. Authenticated users can supply paths with dup…",
+   "descripcion": "IBM App Connect Operator and IBM App Connect Enterprise Certified Containers Operands is vulnerable to Log Forging on a request to create a resource.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-127143",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.00391,
+   "epss_percentil": 0.33925,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-829"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "LMS (Lan Management System) is vulnerable to privilege escalation in the lmsd daemon. The daemon loads the libraries listed in the LMS database without checking that they come from a trusted location. An attacker with access to the web server process or with write access to the L…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-63412",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": 0.00391,
+   "epss_percentil": 0.33978,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-116",
+    "CWE-94",
+    "CWE-95"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Jane is a set of PHP libraries that generates models and API clients from JSON Schema and OpenAPI specifications. Prior to 7.12.0, the Jane open-api-3 generator emits an OpenAPI query parameter name verbatim as an array key in generated Client/Endpoint method docblocks. A query p…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129151",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00391,
+   "epss_percentil": 0.33926,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "SurveyKing 1.13.2 contains a missing authorization vulnerability in result lookup: the anonymous survey view leaks the lookup configuration, including its password, and the lookup password check is skipped when no answer is sent. Unauthenticated attackers with a public survey lin…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114849",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.0039,
+   "epss_percentil": 0.33859,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in Oracle APEX (component: General). Supported versions that are affected are 24.1.22, 24.2.21, 26.1.5 and 26.2.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Oracle APEX. Successful attacks of this vu…",
+   "avisos": [
+    {
+     "fuente": "incibe",
+     "nombre": "INCIBE-CERT",
+     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-oracle-java4shell"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-114850",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.0039,
+   "epss_percentil": 0.33859,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in Oracle APEX (component: General). Supported versions that are affected are 24.1.22, 24.2.21, 26.1.5 and 26.2.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Oracle APEX. Successful attacks of this vu…",
+   "avisos": [
+    {
+     "fuente": "incibe",
+     "nombre": "INCIBE-CERT",
+     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-oracle-java4shell"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-114863",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.0039,
+   "epss_percentil": 0.3386,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Universal Work Queue product of Oracle E-Business Suite (component: Media Integration issues). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to com…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-109861",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.0039,
+   "epss_percentil": 0.33866,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-798"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "CAST Imaging contains a hardcoded authentication token in the \"KeyCloakController\" class of auth-service.jar. An attacker who gains access to the source code, application package, logs, or configuration files can reuse this token to call auth-service endpoints without authenticat…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114928",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00389,
+   "epss_percentil": 0.33735,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Application Server). Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Peop…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114937",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00389,
+   "epss_percentil": 0.33734,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Updates Environment Mgmt). Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromis…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2019-25785",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00389,
+   "epss_percentil": 0.33786,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Finereport",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "FineReport 8.0 contains a path traversal vulnerability that allows unauthenticated attackers to read arbitrary files through the resourcepath parameter of the /WebReport/ReportServer endpoint. Attackers can send GET requests with op=chart and cmd=get_geo_json to read sensitive fi…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2022-51029",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00389,
+   "epss_percentil": 0.33787,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Synway SMG Gateway Management Software builds through 2022-03-15 contain a path traversal vulnerability that allows unauthenticated attackers to read arbitrary files via the downfile parameter in /down.php. Attackers can send a multipart POST request to /down.php with a traversal…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2023-54417",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00389,
+   "epss_percentil": 0.33786,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Nuxt 3.0.0 before 3.4.2 contains a semi-arbitrary file read vulnerability in the vite-node dev server middleware that allows unauthenticated attackers to read files by supplying an absolute path as the moduleId. Attackers can send GET requests to /__nuxt_vite_node__/module/ with …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-125275",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.2,
+   "gravedad": "high",
+   "epss": 0.00389,
+   "epss_percentil": 0.33759,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-835"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in device certificate verification in nerves-hub nerves_hub_web allows an unauthenticated remote attacker to cause a denial of service via a TLS client certificate whose CA is not registered. When a client certi…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-124680",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.0,
+   "gravedad": "high",
+   "epss": 0.00389,
+   "epss_percentil": 0.3376,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Apache",
+   "cwe": [
+    "CWE-436"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Interpretation Conflict, resulting in (Incorrect Authorization) vulnerability in Apache APISIX. An unauthenticated client can reach upstream paths protected by a route-level auth plugin when a route without auth exists on the same upstream and the upstream does not collapse encod…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-132611",
+   "publicado": "2026-11-19",
+   "prioridad": "alta",
+   "cvss": 7.3,
+   "gravedad": "high",
+   "epss": 0.00388,
+   "epss_percentil": 0.3366,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-284",
+    "CWE-434"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "A security vulnerability has been detected in SourceCodester Simple Form Builder Web App 1.0. This impacts the function save_response of the file /classes/Forms.php. The manipulation of the argument q[<index>] leads to unrestricted upload. Remote exploitation of the attack is pos…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-132609",
+   "publicado": "2026-11-19",
+   "prioridad": "alta",
+   "cvss": 5.5,
+   "gravedad": "medium",
+   "epss": 0.00388,
+   "epss_percentil": 0.3366,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-284",
+    "CWE-434"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A vulnerability was identified in SourceCodester Online Food Ordering System 1.0. The affected element is an unknown function of the file /web/admin/add_food.php. Such manipulation leads to unrestricted upload. The attack can be launched remotely. The exploit is publicly availabl…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-131157",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00387,
+   "epss_percentil": 0.33572,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Windows",
+   "cwe": [
+    "CWE-78"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Improper neutralization of special elements used in an OS command in the package broker in Devolutions Agent 2026.3.0 and 2026.2.4 on Windows allows a local authenticated user to execute arbitrary commands with elevated privileges via crafted custom package parameters.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-107518",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00387,
+   "epss_percentil": 0.33526,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Dell PowerStore contains a Server-Side Request Forgery (SSRF) vulnerability. An authenticated user with limited privileges could potentially exploit this vulnerability to make the appliance connect to attacker-chosen internal systems.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130361",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00387,
+   "epss_percentil": 0.33526,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-88"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "AdminNeo before 5.9.1 contains a parameter injection vulnerability in its ClickHouse driver that allows attackers to inject ClickHouse HTTP query parameters through an unencoded db GET parameter. Attackers can lure a logged-in victim into opening a crafted GET link that injects a…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-132798",
+   "publicado": "2026-11-19",
+   "prioridad": "alta",
+   "cvss": 8.2,
+   "gravedad": "high",
+   "epss": 0.00387,
+   "epss_percentil": 0.33571,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Improper Limitation of a Pathname to a Restricted Directory in the Como log viewer in Temenos Application Framework Java (TAFJ) R18.SP76.0 allows remote authenticated attackers to read arbitrary files via path traversal",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115815",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00387,
+   "epss_percentil": 0.33557,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-89"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The rus to lat advanced plugin for WordPress is vulnerable to blind SQL Injection via the 'name' parameter in all versions up to, and including, 1.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This make…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130718",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00386,
+   "epss_percentil": 0.33439,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "NocoDB before 2026.08.0 contains an authorization bypass vulnerability that allows anonymous share link holders to access records excluded by a shared view's row filter, because the read-by-primary-key path ignores the view's filters. Attackers can request the public attachment-d…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130956",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00386,
+   "epss_percentil": 0.3337,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-20"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Improper input validation in WebAppInstalls in Google Chrome prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-131000",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00386,
+   "epss_percentil": 0.3337,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-20"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Improper input validation in WebAppInstalls in Google Chrome prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130680",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.00385,
+   "epss_percentil": 0.33313,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "SiYuan from 3.3.0 before 3.8.10 contains a stored cross-site scripting vulnerability that allows attackers to inject HTML via unescaped checkbox column names in Gallery and Kanban AttributeView renderers. Attackers can share a crafted .sy.zip document whose rendering in the Elect…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130926",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.0,
+   "gravedad": "critical",
+   "epss": 0.00384,
+   "epss_percentil": 0.33186,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google Chrome",
+   "cwe": [
+    "CWE-441"
+   ],
+   "estado_nvd": "Undergoing Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Confused deputy in Sync in Google Chrome prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via crafted network traffic. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126091",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00384,
+   "epss_percentil": 0.33191,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-538"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Dental practice sites hosted with iDentalSoft send a JSON response to any user who loads certain pages containing sensitive information, including OAuth credentials, password hashes, and PII. Fixed in iDentalSoft 14.0.3.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130708",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00384,
+   "epss_percentil": 0.33197,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-200"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "NocoDB before 2026.09.0 contains an improper authorization vulnerability that allows workspace Creator users to read plaintext notification webhook URLs by querying the webhook plugin listing endpoint. Attackers can replay exposed Slack, Teams, Discord and Mattermost webhook URLs…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130992",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00384,
+   "epss_percentil": 0.33165,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-863"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Incorrect authorization in Views in Google Chrome prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-127308",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00384,
+   "epss_percentil": 0.33223,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Vulnerability in the Oracle AutoVue product of Oracle Supply Chain (component: Security). The supported version that is affected is 21.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle AutoVue. Successful attac…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-109158",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00384,
+   "epss_percentil": 0.33197,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "IBM",
+   "cwe": [
+    "CWE-532"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "IBM App Connect Operator and IBM App Connect Enterprise Certified Containers Operands may allow the AI Agent to log sensitive information about the deployed environment within error messages.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-132286",
+   "publicado": "2026-11-19",
+   "prioridad": "alta",
+   "cvss": 7.3,
+   "gravedad": "high",
+   "epss": 0.00384,
+   "epss_percentil": 0.33243,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-20"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "A security vulnerability has been detected in yangzongzhuan RuoYi up to 4.8.3. The impacted element is an unknown function of the file ruoyi-admin/src/main/java/com/ruoyi/web/controller/system/SysLoginController.java of the component User Registration Endpoint. The manipulation o…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-91469",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.00383,
+   "epss_percentil": 0.33138,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and 15.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129863",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00383,
+   "epss_percentil": 0.33074,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-863"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "GitBucket through 4.48.0 contains an incorrect authorization vulnerability that allows authenticated users to edit and merge other users' pull requests because the PATCH pulls and PUT pulls merge REST API endpoints only check read access. Attackers can close, reopen, retitle, ret…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-69157",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00382,
+   "epss_percentil": 0.32951,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": "github",
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Atomic Server is an open source headless CMS and real-time database. From 0.29.0 to 0.40.2, Atomic Server provisions a well-known /setup invite with write enabled, the Drive root as its target, and usagesLeft set to one. construct_invite_redirect in server/src/plugins/invite.rs d…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130874",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00382,
+   "epss_percentil": 0.32959,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-770"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Seerr before 3.5.2 contains an uncontrolled resource consumption vulnerability that allows unauthenticated attackers to exhaust disk space through unnormalized /imageproxy cache keys. Attackers can request the same TMDB image using many equivalent dot-segment path spellings, stor…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114932",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00381,
+   "epss_percentil": 0.32785,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Test Framework). Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise PeopleS…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130855",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00381,
+   "epss_percentil": 0.32794,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-863"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Bonsai through 6.0 contains an incorrect authorization vulnerability that allows authenticated Editor users to access admin pages because AdminAuthHandler accepts both Administrator and Editor roles. Attackers can use UsersController and DynamicConfigController to reset administr…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130863",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00381,
+   "epss_percentil": 0.32794,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "ArtisanCloud PowerX through 1.0.2 contains a missing authorization vulnerability in the IAM role management API that allows authenticated tenant members to escalate privileges. Attackers holding even the lowest built-in role can call the permissions/grant-ids, permissions/grant, …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-61676",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.0038,
+   "epss_percentil": 0.32671,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "WeGIA is a web manager for charitable institutions. Prior to 3.8.7, web/html/socio/sistema/cadastro_cobranca.php creates billing records without checking for an authenticated session. An unauthenticated remote requester who supplies valid billing parameters can create arbitrary b…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-61677",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.0038,
+   "epss_percentil": 0.32672,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "WeGIA is a web manager for charitable institutions. Prior to 3.8.7, web/html/socio/sistema/processa_edicao_socio.php updates member information without validating an authenticated session. An unauthenticated remote requester who supplies a target member identifier and replacement…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-101691",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": 0.0038,
+   "epss_percentil": 0.32679,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle M…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-122122",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.1,
+   "gravedad": "critical",
+   "epss": 0.0038,
+   "epss_percentil": 0.32698,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The order-tracking functionality in ICRTouch ByTable and TouchTakeaway does not adequately verify that a requester is authorized to access the specified order. An unauthenticated remote attacker can modify an order identifier to retrieve information associated with other customer…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-132245",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.0038,
+   "epss_percentil": 0.32744,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-639"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "In JetBrains TeamCity before 2026.1.3, 2025.11.7 DoS via agent command results was possible",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116530",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00379,
+   "epss_percentil": 0.32602,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The Check & Log Email – Easy Email Testing & Mail logging plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'author' parameter in all versions up to, and including, 2.0.17 due to insufficient input sanitization and output escaping. This makes it possible f…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129104",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.0,
+   "gravedad": "high",
+   "epss": 0.00379,
+   "epss_percentil": 0.32602,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-93"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Cudy TR3000 before 2.5.42 contains a dnsmasq configuration injection vulnerability that allows authenticated administrators to inject directives by embedding a newline in the net.set_dhcp leasetime field. Attackers can append address= entries via /etc/init.d/dnsmasq to alter DNS …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129105",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.0,
+   "gravedad": "high",
+   "epss": 0.00379,
+   "epss_percentil": 0.32601,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-93"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Cudy TR3000 before 2.5.42 contains an option injection vulnerability that allows authenticated administrators to inject arbitrary pppd options by embedding quotes and newlines in L2TP credentials. Attackers can submit crafted usernames or passwords to the net.set_wan RPC method, …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114202",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 10.0,
+   "gravedad": "critical",
+   "epss": 0.00378,
+   "epss_percentil": 0.32489,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-321"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": "github",
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use of Hard-coded Cryptographic Key in ASUS Control Center Express allows a remote user to gain administrative privileges via a forged authentication token. Refer to the ' Security Update for ASUS Control Center Express Agent ' section on the ASUS Security Advisory for more infor…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-91500",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 10.0,
+   "gravedad": "critical",
+   "epss": 0.00378,
+   "epss_percentil": 0.32515,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-55506",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.6,
+   "gravedad": "critical",
+   "epss": 0.00375,
+   "epss_percentil": 0.32153,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-22",
+    "CWE-73"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Wavelog is web-based amateur radio logging software. Prior to 2.5, the filename parameter accepted by POST /qsl/addQsoToQsl in application/controllers/Qsl.php addQsoToQsl() is stored without rejecting directory separators or relative path components, and POST /qsl/delete reaches …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-77283",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00375,
+   "epss_percentil": 0.32168,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-350"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "obsidian-sync-mcp is an MCP server that gives AI agents access to Obsidian vaults. Prior to 0.5.7, deployments running without MCP_AUTH_TOKEN install no serverOptions.authenticate check for the HTTP /mcp endpoint, so requests are dispatched without validating the Host or Origin h…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130732",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.7,
+   "gravedad": "high",
+   "epss": 0.00375,
+   "epss_percentil": 0.32212,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-772"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Traefik from 2.11.58 before 2.11.61 contains a resource leak vulnerability that allows unauthenticated attackers to exhaust resources by sending Authorization headers with NTLM or Negotiate schemes. Attackers can open many short-lived connections that each allocate a dedicated ba…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-125033",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00375,
+   "epss_percentil": 0.32115,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The Smash Balloon Social Post Feed – Simple Social Feeds for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'attachments.data[].description' parameter in all versions up to, and including, 4.15.1 due to insufficient input sanitization and outp…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130333",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00375,
+   "epss_percentil": 0.32115,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The SNORDIAN's H5PxAPIkatchu plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'xapi' parameter in all versions up to, and including, 0.4.24 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119512",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00374,
+   "epss_percentil": 0.32094,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-502"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Deserialization of Untrusted Data vulnerability in Tribulant Software Newsletters newsletters-lite allows Object Injection.This issue affects Newsletters: from n/a through 4.18.2.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-120835",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00374,
+   "epss_percentil": 0.32095,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-502"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Deserialization of Untrusted Data vulnerability in VillaTheme AFFI – Affiliate Marketing for WooCommerce affi-affiliate-marketing-for-woo allows Object Injection.This issue affects AFFI – Affiliate Marketing for WooCommerce: from n/a through 1.0.11.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130951",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00374,
+   "epss_percentil": 0.32039,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Plugins in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-131090",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00374,
+   "epss_percentil": 0.3204,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Geometry in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-132144",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00374,
+   "epss_percentil": 0.3209,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-285",
+    "CWE-639"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "MISP contains an authorization flaw in the user login-email change logic. When an external authentication backend is configured (LDAP, Shibboleth, ApacheSecureAuth, or CustomAuth), the login email address serves as the key by which the directory service resolves a user's identity…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-119635",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 7.2,
+   "gravedad": "high",
+   "epss": 0.00374,
+   "epss_percentil": 0.32003,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The Groundhogg plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'post_title' merge-tag of the [ghr] shortcode in versions up to, and including, 4.10 The post_title replacement is registered with 'nested' => true, so the nested branch of Replacements::do_r…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-55508",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.00373,
+   "epss_percentil": 0.31989,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-89"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Wavelog is web-based amateur radio logging software. Prior to 2.5, the callsign parameter accepted by POST /oqrs/search_log in application/controllers/Oqrs.php search_log() reaches application/models/Oqrs_model.php search_log(), where it is concatenated directly into a raw SQL WH…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114788",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31958,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Hyperion Planning product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hyperion P…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115157",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31957,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Hyperion Infrastructure Technology product of Oracle Hyperion (component: Installation and Configuration). The supported version that is affected is 11.2.26.0.000. Difficult to exploit vulnerability allows unauthenticated attacker with network access v…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126547",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 7.8,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31898,
+   "kev": false,
+   "categoria": "microsoft",
+   "fabricante": "Windows",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Missing Authorization vulnerability in Broadcom AutoSys Workload Automation (Workload Control Center (WCC) modules) on Windows, Linux allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects AutoSys Workload Automation: from 12.1 through 24.2.00.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-118976",
+   "publicado": "2026-11-13",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00373,
+   "epss_percentil": 0.31902,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-23"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "In Progress® Telerik® UI for Blazor versions v11.1.0 through v14.0.0, the demo application's Chat AI Integration example contains a relative path traversal vulnerability that could allow an attacker to read files outside of the chat attachments folder that are within the server's…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130627",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00372,
+   "epss_percentil": 0.31756,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-522"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "The Vert.x HTTP client transport (a2a-java-sdk-http-client-vertx) hand-rolls a POST redirect follower that, when the documented PostBuilder.followRedirects(true) opt-in is enabled, re-issues the redirected request with the full request header map copied verbatim and performs no c…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130801",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.00371,
+   "epss_percentil": 0.31661,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "The device's command parser does not require asymmetric cryptographic signatures to validate incoming APDU packets. This enables an attacker to inject forged, unauthorized commands to manipulate device features and configurations once the initial handshake is bypassed.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-131001",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00371,
+   "epss_percentil": 0.31672,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Buffer overflow in Video in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114809",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 7.7,
+   "gravedad": "high",
+   "epss": 0.00371,
+   "epss_percentil": 0.31694,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Hyperion Planning product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Hyperion Plan…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-114874",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 7.7,
+   "gravedad": "high",
+   "epss": 0.00371,
+   "epss_percentil": 0.31703,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle iProcurement product of Oracle E-Business Suite (component: Internal operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-115076",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 7.7,
+   "gravedad": "high",
+   "epss": 0.00371,
+   "epss_percentil": 0.317,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Hyperion Financial Close Management product of Oracle Hyperion (component: Reconciliation Manage). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129878",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 7.1,
+   "gravedad": "high",
+   "epss": 0.00371,
+   "epss_percentil": 0.31752,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "DeepAudit 2.0.0-beta.1 through 3.8.0 contains an HTML injection vulnerability in ReportGenerator.generate_task_report that allows registered users to read server files and perform SSRF. Attackers can create a project whose name contains a link attachment element and download the …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130759",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.4,
+   "gravedad": "critical",
+   "epss": 0.0037,
+   "epss_percentil": 0.31543,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-347"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Fleet from 4.71.0 before 4.88.2 contains an authentication bypass vulnerability in the SAML SSO callback that looks up sessions using unvalidated client-supplied identifiers. Users able to run live queries or enroll secret holders can plant attacker-controlled identity provider m…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130909",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31531,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Extensions in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [
+    {
+     "fuente": "chrome",
+     "nombre": "Google Chrome",
+     "enlace": "http://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-130915",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31529,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in CSS in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130923",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31527,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-787"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Out of bounds write in V8 in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130979",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.3153,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Forms in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130980",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31526,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Layout in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-131005",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31532,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in DevTools in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-131065",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31529,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Autofill in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [
+    {
+     "fuente": "chrome",
+     "nombre": "Google Chrome",
+     "enlace": "http://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-131079",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31528,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in Bindings in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-131082",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31528,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in CSS in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-131084",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31532,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-416"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Use after free in XML in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-100972",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.1,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31544,
+   "kev": false,
+   "categoria": "linux",
+   "fabricante": "NVIDIA",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "NVIDIA OpenShell for Linux contains a vulnerability in resource-level authorization for create, read, update, and delete operations where an authenticated remote attacker with low privileges could access or modify resources without the required authorization checks. A successful …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130007",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 7.9,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.31603,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-306"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "k8s-mcp-server manages Kubernetes clusters through the Model Context Protocol. Prior to 1.1.0, SERVER_MODE defaults to SSE, with the listener on 0.0.0.0:8080, but main.go creates the SSE server without an authentication option or context function. The GET /sse handler creates a s…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-101693",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.0037,
+   "epss_percentil": 0.3165,
+   "kev": false,
+   "categoria": "empresarial",
+   "fabricante": "Oracle",
+   "cwe": [
+    "CWE-284"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerability in the Oracle Hyperion Financial Data Quality Management, Enterprise Edition product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Difficult to exploit vulnerability allows low privileged attacker with network acc…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-109858",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.3,
+   "gravedad": "high",
+   "epss": 0.00369,
+   "epss_percentil": 0.31454,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "CAST Imaging has multiple path traversal vulnerabilities in various endpoints. The application does not properly validate the path parameters, allowing an authenticated attacker to use \"../\" sequences to escape the intended directory and read arbitrary files. Critically, by readi…",
    "avisos": [],
    "avisos_total": 0
   }
@@ -14851,10 +14854,10 @@
    "altos": 14,
    "ejemplos_maliciosos": [
     {
-     "ghsa": "GHSA-8rw9-x9m5-7353",
+     "ghsa": "GHSA-gmwr-j73c-6xw3",
      "cve": null,
-     "paquete": "@zaiinlin/bails",
-     "resumen": "Malware in @zaiinlin/bails",
+     "paquete": "mayx-blog",
+     "resumen": "Malware in mayx-blog",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14862,10 +14865,10 @@
      "publicado": "2026-11-20"
     },
     {
-     "ghsa": "GHSA-hq35-gwxr-qq5x",
+     "ghsa": "GHSA-7ppq-5qfr-6796",
      "cve": null,
-     "paquete": "tsbwt-hawsi-util",
-     "resumen": "Malware in tsbwt-hawsi-util",
+     "paquete": "vite-plugin-bar-plus",
+     "resumen": "Malicious code in vite-plugin-bar-plus (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14873,10 +14876,10 @@
      "publicado": "2026-11-20"
     },
     {
-     "ghsa": "GHSA-h68g-7c77-4w37",
+     "ghsa": "GHSA-4rf3-5pmj-pw8m",
      "cve": null,
-     "paquete": "nuadg-jhtvh-util",
-     "resumen": "Malware in nuadg-jhtvh-util",
+     "paquete": "@ikyzanx/baileys",
+     "resumen": "Malicious code in @ikyzanx/baileys (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14884,10 +14887,10 @@
      "publicado": "2026-11-20"
     },
     {
-     "ghsa": "GHSA-6wmj-hgpg-2pp6",
+     "ghsa": "GHSA-h5f6-w383-w67g",
      "cve": null,
-     "paquete": "vcnwi-ihpgp-util",
-     "resumen": "Malware in vcnwi-ihpgp-util",
+     "paquete": "@izi-coder/baileys",
+     "resumen": "Malicious code in @izi-coder/baileys (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14895,10 +14898,10 @@
      "publicado": "2026-11-20"
     },
     {
-     "ghsa": "GHSA-vm96-5m7m-hr25",
+     "ghsa": "GHSA-f76h-3xwf-v78w",
      "cve": null,
-     "paquete": "jmrwd-gjdob-util",
-     "resumen": "Malware in jmrwd-gjdob-util",
+     "paquete": "@ikyerza/baileys",
+     "resumen": "Malicious code in @ikyerza/baileys (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -14977,13 +14980,35 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 44,
+   "maliciosos": 46,
    "maliciosos_mas": false,
    "avisos": 92,
    "avisos_mas": false,
    "criticos": 5,
    "altos": 44,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-f3g9-pmww-pww3",
+     "cve": null,
+     "paquete": "MRCL2",
+     "resumen": "Malicious code in mrcl2 (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-20"
+    },
+    {
+     "ghsa": "GHSA-5q5c-h8xj-h3fp",
+     "cve": null,
+     "paquete": "MRCL2Suhail",
+     "resumen": "Malicious code in mrcl2suhail (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-20"
+    },
     {
      "ghsa": "GHSA-v97v-7r82-xcjg",
      "cve": null,
@@ -15011,28 +15036,6 @@
      "cve": null,
      "paquete": "solana-utils-terminalmoney1",
      "resumen": "Malicious code in solana-utils-terminalmoney1 (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-18"
-    },
-    {
-     "ghsa": "GHSA-5f4r-g88f-gvwq",
-     "cve": null,
-     "paquete": "solana-py-utils",
-     "resumen": "Malicious code in solana-py-utils (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-18"
-    },
-    {
-     "ghsa": "GHSA-fq8c-cf54-787p",
-     "cve": null,
-     "paquete": "anchorpy-utils",
-     "resumen": "Malicious code in anchorpy-utils (PyPI)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15677,17 +15680,17 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 854,
-   "criticos": 75,
-   "altos": 292,
-   "urgentes": 19,
+   "cves": 774,
+   "criticos": 58,
+   "altos": 250,
+   "urgentes": 15,
    "epss_max": 0.0236,
    "fabricantes": [
     "WordPress (plugins)",
     "Wordpress",
-    "Open-Emr",
     "Joomla",
-    "Magento"
+    "Woocommerce",
+    "Prestashop"
    ],
    "kev_recientes": [
     {
@@ -15725,20 +15728,6 @@
      "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-119077",
-     "fabricante": "WordPress (plugins)",
-     "cvss": 9.8,
-     "epss": 0.01337,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-125055",
-     "fabricante": "WordPress (plugins)",
-     "cvss": 9.8,
-     "epss": 0.01031,
-     "prioridad": "urgente"
-    },
-    {
      "cve": "CVE-2026-126752",
      "fabricante": "",
      "cvss": 9.3,
@@ -15751,6 +15740,20 @@
      "cvss": 9.2,
      "epss": 0.0079,
      "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2022-51027",
+     "fabricante": "",
+     "cvss": 9.3,
+     "epss": 0.00782,
+     "prioridad": "urgente"
+    },
+    {
+     "cve": "CVE-2026-124020",
+     "fabricante": "",
+     "cvss": 9.2,
+     "epss": 0.00772,
+     "prioridad": "urgente"
     }
    ]
   },
@@ -15758,17 +15761,17 @@
    "categoria": "red",
    "nombre": "Red, VPN y firewalls",
    "estado": "explotacion_activa",
-   "cves": 234,
-   "criticos": 26,
-   "altos": 111,
+   "cves": 207,
+   "criticos": 18,
+   "altos": 95,
    "urgentes": 5,
    "epss_max": 0.0653,
    "fabricantes": [
     "Cisco",
-    "Citrix",
     "Watchguard",
     "F5",
-    "Draytek"
+    "Draytek",
+    "HPE Aruba"
    ],
    "kev_recientes": [
     {
@@ -15855,7 +15858,7 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 37,
+   "cves": 36,
    "criticos": 5,
    "altos": 17,
    "urgentes": 2,
@@ -15863,8 +15866,7 @@
    "fabricantes": [
     "Windows",
     "Microsoft",
-    "NVIDIA",
-    "Azure"
+    "NVIDIA"
    ],
    "kev_recientes": [
     {
@@ -16008,9 +16010,9 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 330,
+   "cves": 576,
    "criticos": 4,
-   "altos": 33,
+   "altos": 35,
    "urgentes": 1,
    "epss_max": 0.0093,
    "fabricantes": [
@@ -16069,75 +16071,10 @@
    ]
   },
   {
-   "categoria": "virtualizacion",
-   "nombre": "Virtualización y nube",
-   "estado": "explotacion_activa",
-   "cves": 28,
-   "criticos": 4,
-   "altos": 11,
-   "urgentes": 1,
-   "epss_max": 0.0077,
-   "fabricantes": [
-    "AWS",
-    "Kubernetes",
-    "VMware",
-    "Docker",
-    "Amazon"
-   ],
-   "kev_recientes": [
-    {
-     "cve": "CVE-2026-41709",
-     "fabricante": "Broadcom",
-     "producto": "VMware ESX",
-     "nombre": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
-     "anadido": "2026-10-28",
-     "ransomware": false
-    }
-   ],
-   "kev_recientes_total": 1,
-   "destacados": [
-    {
-     "cve": "CVE-2026-127080",
-     "fabricante": "Kubernetes",
-     "cvss": 9.4,
-     "epss": 0.00505,
-     "prioridad": "urgente"
-    },
-    {
-     "cve": "CVE-2026-128027",
-     "fabricante": "Docker",
-     "cvss": 9.3,
-     "epss": 0.00775,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-132243",
-     "fabricante": "Docker",
-     "cvss": 7.6,
-     "epss": 0.00736,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-129266",
-     "fabricante": "Amazon",
-     "cvss": 8.7,
-     "epss": 0.00519,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-126384",
-     "fabricante": "Docker",
-     "cvss": 7.7,
-     "epss": 0.00499,
-     "prioridad": "alta"
-    }
-   ]
-  },
-  {
    "categoria": "apple",
    "nombre": "Apple (macOS · iOS)",
    "estado": "explotacion_activa",
-   "cves": 5,
+   "cves": 6,
    "criticos": 1,
    "altos": 3,
    "urgentes": 1,
@@ -16186,9 +16123,9 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-83631",
+     "cve": "CVE-2026-102430",
      "fabricante": "Apple",
-     "cvss": 6.8,
+     "cvss": 6.9,
      "epss": null,
      "prioridad": "media"
     }
@@ -16198,7 +16135,7 @@
    "categoria": "navegadores",
    "nombre": "Navegadores",
    "estado": "explotacion_activa",
-   "cves": 206,
+   "cves": 208,
    "criticos": 18,
    "altos": 94,
    "urgentes": 0,
@@ -16254,6 +16191,71 @@
      "fabricante": "Google",
      "cvss": 8.8,
      "epss": 0.00437,
+     "prioridad": "alta"
+    }
+   ]
+  },
+  {
+   "categoria": "virtualizacion",
+   "nombre": "Virtualización y nube",
+   "estado": "explotacion_activa",
+   "cves": 24,
+   "criticos": 1,
+   "altos": 9,
+   "urgentes": 0,
+   "epss_max": 0.0074,
+   "fabricantes": [
+    "AWS",
+    "VMware",
+    "Amazon",
+    "Kubernetes",
+    "Docker"
+   ],
+   "kev_recientes": [
+    {
+     "cve": "CVE-2026-41709",
+     "fabricante": "Broadcom",
+     "producto": "VMware ESX",
+     "nombre": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+     "anadido": "2026-10-28",
+     "ransomware": false
+    }
+   ],
+   "kev_recientes_total": 1,
+   "destacados": [
+    {
+     "cve": "CVE-2026-132243",
+     "fabricante": "Docker",
+     "cvss": 7.6,
+     "epss": 0.00736,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-129266",
+     "fabricante": "Amazon",
+     "cvss": 8.7,
+     "epss": 0.00519,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-132239",
+     "fabricante": "Kubernetes",
+     "cvss": 7.6,
+     "epss": 0.0026,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-123890",
+     "fabricante": "VMware",
+     "cvss": 9.8,
+     "epss": null,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-123891",
+     "fabricante": "VMware",
+     "cvss": 8.1,
+     "epss": null,
      "prioridad": "alta"
     }
    ]
@@ -16367,16 +16369,14 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1512,
-   "criticos": 144,
-   "altos": 568,
-   "urgentes": 30,
+   "cves": 1386,
+   "criticos": 133,
+   "altos": 489,
+   "urgentes": 24,
    "epss_max": 0.2168,
    "fabricantes": [
-    "Zephyr RTOS",
     "Eclipse",
-    "Exceljs Project",
-    "Open-Emr",
+    "Zephyr RTOS",
     "NVIDIA"
    ],
    "kev_recientes": [
@@ -16517,17 +16517,17 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 17,
+   "cves": 18,
    "criticos": 5,
    "altos": 7,
-   "urgentes": 4,
+   "urgentes": 3,
    "epss_max": 0.0179,
    "fabricantes": [
     "D-Link",
     "Trendnet",
-    "Linksys",
     "Edimax",
-    "Eclipse"
+    "Eclipse",
+    "Tenda"
    ],
    "kev_recientes": [],
    "kev_recientes_total": 0,
@@ -16554,17 +16554,17 @@
      "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-127277",
-     "fabricante": "Linksys",
-     "cvss": 9.3,
-     "epss": 0.00561,
-     "prioridad": "urgente"
-    },
-    {
      "cve": "CVE-2026-129352",
      "fabricante": "Trendnet",
      "cvss": 8.5,
      "epss": 0.0078,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-129250",
+     "fabricante": "Edimax",
+     "cvss": 8.6,
+     "epss": 0.00751,
      "prioridad": "alta"
     }
    ]
@@ -16595,7 +16595,7 @@
    "categoria": "android",
    "nombre": "Android",
    "estado": "vigilar",
-   "cves": 9,
+   "cves": 10,
    "criticos": 0,
    "altos": 3,
    "urgentes": 0,
@@ -16647,24 +16647,17 @@
    "categoria": "ia",
    "nombre": "IA y agentes (LLM · MCP)",
    "estado": "vigilar",
-   "cves": 9,
+   "cves": 8,
    "criticos": 0,
-   "altos": 6,
+   "altos": 5,
    "urgentes": 0,
    "epss_max": 0.0062,
    "fabricantes": [
-    "Hugging Face"
+    "NVIDIA"
    ],
    "kev_recientes": [],
    "kev_recientes_total": 0,
    "destacados": [
-    {
-     "cve": "CVE-2026-126397",
-     "fabricante": "Hugging Face",
-     "cvss": 8.7,
-     "epss": 0.00464,
-     "prioridad": "alta"
-    },
     {
      "cve": "CVE-2026-130764",
      "fabricante": "",
@@ -16691,6 +16684,13 @@
      "fabricante": "",
      "cvss": 8.0,
      "epss": 0.00155,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-132122",
+     "fabricante": "",
+     "cvss": 5.7,
+     "epss": 0.00125,
      "prioridad": "alta"
     }
    ]
