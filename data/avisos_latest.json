@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-21 10:46",
+ "generado_utc": "2026-11-21 18:45",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -14,9 +14,8 @@
    "tipo": "cert",
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
-   "estado": "error",
-   "avisos": 26,
-   "detalle": "ConnectionError: HTTPSConnectionPool(host='www.incibe.es', port=443): Read timed out."
+   "estado": "ok",
+   "avisos": 26
   },
   {
    "id": "incibe_sci",
@@ -24,9 +23,8 @@
    "tipo": "cert",
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/feed",
-   "estado": "error",
-   "avisos": 7,
-   "detalle": "ConnectionError: HTTPSConnectionPool(host='www.incibe.es', port=443): Read timed out."
+   "estado": "ok",
+   "avisos": 7
   },
   {
    "id": "cisa",
@@ -215,7 +213,7 @@
    "idioma": "es",
    "url": "https://blog.segu-info.com.ar/feeds/posts/default",
    "estado": "ok",
-   "avisos": 8
+   "avisos": 7
   },
   {
    "id": "thehackernews",
@@ -224,7 +222,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 32
+   "avisos": 33
   },
   {
    "id": "bleeping",
@@ -233,7 +231,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 9
+   "avisos": 10
   },
   {
    "id": "securityweek",
@@ -242,24 +240,24 @@
    "idioma": "en",
    "url": "https://www.securityweek.com/feed/",
    "estado": "ok",
-   "avisos": 22
+   "avisos": 23
   }
  ],
  "resumen": {
-  "avisos": 376,
+  "avisos": 378,
   "por_tipo": {
-   "noticia": 71,
+   "noticia": 73,
    "fabricante": 156,
    "exploit": 34,
    "cert": 115
   },
-  "explotados": 39,
-  "dia_cero": 8,
+  "explotados": 38,
+  "dia_cero": 10,
   "sin_parche": 44,
-  "criticos": 57,
+  "criticos": 58,
   "exploit_publico": 9,
-  "cves_citados": 392,
-  "fuentes_ok": 24,
+  "cves_citados": 391,
+  "fuentes_ok": 26,
   "fuentes_total": 26
  },
  "mas_citados": [
@@ -281,7 +279,7 @@
    "avisos": 21,
    "kev": false,
    "cvss": 8.1,
-   "epss": 0.00907,
+   "epss": 0.45636,
    "ultimo": "2026-11-20T20:37Z"
   },
   {
@@ -302,8 +300,8 @@
    "avisos": 11,
    "kev": false,
    "cvss": 9.2,
-   "epss": 0.06033,
-   "ultimo": "2026-11-20T23:00Z"
+   "epss": 0.29863,
+   "ultimo": "2026-11-21T17:52Z"
   },
   {
    "cve": "CVE-2026-123633",
@@ -321,8 +319,8 @@
    "avisos": 9,
    "kev": false,
    "cvss": 9.2,
-   "epss": 0.06086,
-   "ultimo": "2026-11-20T23:00Z"
+   "epss": 0.17525,
+   "ultimo": "2026-11-21T17:52Z"
   },
   {
    "cve": "CVE-2026-113425",
@@ -337,8 +335,8 @@
    "avisos": 6,
    "kev": false,
    "cvss": 9.2,
-   "epss": 0.01503,
-   "ultimo": "2026-11-20T16:00Z"
+   "epss": 0.1386,
+   "ultimo": "2026-11-21T17:52Z"
   },
   {
    "cve": "CVE-2026-121810",
@@ -353,8 +351,8 @@
    "avisos": 6,
    "kev": false,
    "cvss": 9.2,
-   "epss": 0.01663,
-   "ultimo": "2026-11-20T16:00Z"
+   "epss": 0.16404,
+   "ultimo": "2026-11-21T17:52Z"
   },
   {
    "cve": "CVE-2026-123634",
@@ -369,8 +367,8 @@
    "avisos": 6,
    "kev": false,
    "cvss": 9.2,
-   "epss": 0.01512,
-   "ultimo": "2026-11-20T16:00Z"
+   "epss": 0.17103,
+   "ultimo": "2026-11-21T17:52Z"
   },
   {
    "cve": "CVE-2026-111497",
@@ -384,7 +382,7 @@
    "avisos": 7,
    "kev": true,
    "cvss": null,
-   "epss": 0.8237,
+   "epss": 0.99931,
    "ultimo": "2026-11-19T09:19Z"
   },
   {
@@ -399,7 +397,7 @@
    "avisos": 5,
    "kev": false,
    "cvss": 9.2,
-   "epss": 0.56429,
+   "epss": 0.71117,
    "ultimo": "2026-11-20T22:08Z"
   },
   {
@@ -413,7 +411,7 @@
    "avisos": 10,
    "kev": false,
    "cvss": null,
-   "epss": 0.00777,
+   "epss": 0.8213,
    "ultimo": "2026-11-20T16:08Z"
   },
   {
@@ -427,7 +425,7 @@
    "avisos": 4,
    "kev": true,
    "cvss": 9.8,
-   "epss": 0.00843,
+   "epss": 0.02985,
    "ultimo": "2026-11-20T12:56Z"
   },
   {
@@ -441,7 +439,7 @@
    "avisos": 4,
    "kev": false,
    "cvss": 9.2,
-   "epss": 0.17587,
+   "epss": 0.13104,
    "ultimo": "2026-11-20T22:08Z"
   },
   {
@@ -459,6 +457,109 @@
   }
  ],
  "avisos": [
+  {
+   "fuente": "bleeping",
+   "titulo": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+   "enlace": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+   "fecha": "2026-11-21T18:01Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "cisco",
+   "titulo": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+   "fecha": "2026-11-21T17:52Z",
+   "cves": [
+    "CVE-2026-113425",
+    "CVE-2026-121810",
+    "CVE-2026-123007",
+    "CVE-2026-123633",
+    "CVE-2026-123634"
+   ],
+   "cves_total": 5,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": 9.2,
+   "epss_max": 0.2986,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "securityweek",
+   "titulo": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+   "enlace": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+   "fecha": "2026-11-21T12:08Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+   "enlace": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+   "fecha": "2026-11-21T11:05Z",
+   "cves": [
+    "CVE-2026-129975"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": true,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+   "enlace": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+   "fecha": "2026-11-21T11:03Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "thehackernews",
    "titulo": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
@@ -478,7 +579,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.0119,
+   "epss_max": 0.0546,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -500,7 +601,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.0609,
+   "epss_max": 0.2986,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -527,7 +628,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.5643,
+   "epss_max": 0.7112,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -548,7 +649,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -569,7 +670,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": null,
+   "epss_max": 0.0048,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -609,7 +710,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -634,7 +735,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0079,
+   "epss_max": 0.8213,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -655,32 +756,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "cisco",
-   "titulo": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
-   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-   "fecha": "2026-11-20T16:00Z",
-   "cves": [
-    "CVE-2026-113425",
-    "CVE-2026-121810",
-    "CVE-2026-123007",
-    "CVE-2026-123633",
-    "CVE-2026-123634"
-   ],
-   "cves_total": 5,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": 9.2,
-   "epss_max": 0.0609,
+   "epss_max": 0.0048,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -712,7 +788,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.0134,
+   "epss_max": 0.0137,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -895,7 +971,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0139,
+   "epss_max": 0.8213,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -958,7 +1034,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.5069,
+   "epss_max": 0.5564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -998,7 +1074,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0015,
+   "epss_max": 0.0019,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1027,7 +1103,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.0119,
+   "epss_max": 0.0546,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1085,8 +1161,8 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0019,
+   "cvss_max": 7.4,
+   "epss_max": 0.0198,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1109,7 +1185,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": null,
-   "epss_max": 0.0042,
+   "epss_max": 0.0219,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1132,7 +1208,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.0084,
+   "epss_max": 0.0299,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1199,9 +1275,9 @@
    "sin_parche": true,
    "kev": [],
    "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
+   "critica": true,
+   "cvss_max": 9.4,
+   "epss_max": 0.0078,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1244,7 +1320,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1294,7 +1370,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.5643,
+   "epss_max": 0.7112,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1317,7 +1393,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.0084,
+   "epss_max": 0.0299,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1368,7 +1444,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.0609,
+   "epss_max": 0.2986,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1410,7 +1486,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.7,
-   "epss_max": 0.0094,
+   "epss_max": 0.0379,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1435,7 +1511,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.003,
+   "epss_max": 0.0031,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1467,7 +1543,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1499,7 +1575,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1529,7 +1605,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1934,7 +2010,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.0609,
+   "epss_max": 0.2986,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1979,8 +2055,8 @@
    "kev": [],
    "explotada": false,
    "critica": true,
-   "cvss_max": null,
-   "epss_max": 0.0019,
+   "cvss_max": 7.4,
+   "epss_max": 0.0198,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2134,7 +2210,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.1759,
+   "epss_max": 0.131,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2573,7 +2649,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0079,
+   "epss_max": 0.0084,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3084,7 +3160,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.5643,
+   "epss_max": 0.7112,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3202,7 +3278,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0079,
+   "epss_max": 0.8213,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3225,7 +3301,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0139,
+   "epss_max": 0.8213,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3285,7 +3361,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0079,
+   "epss_max": 0.8213,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3307,7 +3383,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0079,
+   "epss_max": 0.8213,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3330,7 +3406,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0139,
+   "epss_max": 0.8213,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3441,8 +3517,8 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
+   "cvss_max": 8.5,
+   "epss_max": 0.0146,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3462,8 +3538,8 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
+   "cvss_max": 8.8,
+   "epss_max": 0.0084,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3739,7 +3815,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.8237,
+   "epss_max": 0.9993,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3761,7 +3837,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0063,
+   "epss_max": 0.0093,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3815,7 +3891,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.0103,
+   "epss_max": 0.011,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3900,7 +3976,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.9,
-   "epss_max": 0.0071,
+   "epss_max": 0.0059,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3925,7 +4001,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.0609,
+   "epss_max": 0.2986,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3947,7 +4023,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.0103,
+   "epss_max": 0.011,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4065,7 +4141,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.5643,
+   "epss_max": 0.7112,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4137,7 +4213,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.0609,
+   "epss_max": 0.2986,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4169,7 +4245,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0079,
+   "epss_max": 0.8213,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4456,7 +4532,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4600,7 +4676,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4630,7 +4706,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4659,7 +4735,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4687,7 +4763,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4712,7 +4788,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.003,
+   "epss_max": 0.0031,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4734,7 +4810,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.0609,
+   "epss_max": 0.2986,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4804,7 +4880,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.0603,
+   "epss_max": 0.2986,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4825,7 +4901,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.0603,
+   "epss_max": 0.2986,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4867,7 +4943,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.0119,
+   "epss_max": 0.0546,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4892,7 +4968,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.0609,
+   "epss_max": 0.2986,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4941,7 +5017,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 7.5,
-   "epss_max": 0.0059,
+   "epss_max": 0.006,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4991,7 +5067,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.689,
+   "epss_max": 0.78,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5012,7 +5088,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5054,7 +5130,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": null,
-   "epss_max": 0.0069,
+   "epss_max": 0.0123,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5094,7 +5170,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5219,9 +5295,9 @@
     "CVE-2026-111497"
    ],
    "explotada": true,
-   "critica": true,
-   "cvss_max": 9.9,
-   "epss_max": 0.8237,
+   "critica": false,
+   "cvss_max": 8.1,
+   "epss_max": 0.9993,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5263,7 +5339,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": null,
-   "epss_max": 0.0069,
+   "epss_max": 0.0123,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5284,7 +5360,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5305,7 +5381,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5509,7 +5585,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": null,
+   "epss_max": 0.0033,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5530,7 +5606,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": null,
+   "epss_max": 0.0028,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5551,7 +5627,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": null,
+   "epss_max": 0.003,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5914,7 +5990,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5936,7 +6012,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.0609,
+   "epss_max": 0.2986,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6113,7 +6189,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6161,7 +6237,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.8237,
+   "epss_max": 0.9993,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6358,7 +6434,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.8237,
+   "epss_max": 0.9993,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6428,7 +6504,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.6,
-   "epss_max": 0.005,
+   "epss_max": 0.006,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6449,7 +6525,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6491,7 +6567,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0175,
+   "epss_max": 0.0177,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6723,7 +6799,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0078,
+   "epss_max": 0.8213,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6933,7 +7009,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -7083,7 +7159,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 8.1,
-   "epss_max": 0.0091,
+   "epss_max": 0.4564,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -7106,7 +7182,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.8237,
+   "epss_max": 0.9993,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -7171,7 +7247,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.8237,
+   "epss_max": 0.9993,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -7257,7 +7333,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0069,
+   "epss_max": 0.0123,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -7316,7 +7392,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 10.0,
-   "epss_max": 0.0035,
+   "epss_max": 0.004,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -7364,7 +7440,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0078,
+   "epss_max": 0.8213,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -7387,7 +7463,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0194,
+   "epss_max": 0.0327,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -8138,7 +8214,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.3,
-   "epss_max": 0.0087,
+   "epss_max": 0.0107,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -8180,7 +8256,7 @@
    "explotada": true,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.0047,
+   "epss_max": 0.0115,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -8288,7 +8364,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": 0.003,
+   "epss_max": 0.0039,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -8517,51 +8593,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "seguinfo",
-   "titulo": "PostgreSQL corrige 52 vulnerabilidades, incluido un fallo de 22 años que permite RCE tras la autenticación.",
-   "enlace": "http://blog.segu-info.com.ar/2026/11/postgresql-corrige-52-vulnerabilidades.html",
-   "fecha": "2026-11-14T15:09Z",
-   "cves": [
-    "CVE-2026-6460",
-    "CVE-2026-116322"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0059,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-   "enlace": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-   "fecha": "2026-11-14T12:38Z",
-   "cves": [
-    "CVE-2026-114713"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-114713"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0047,
    "exploit_publico": false,
    "exploitdb": null
   }
