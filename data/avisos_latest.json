@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-21 02:07",
+ "generado_utc": "2026-11-21 10:46",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -14,8 +14,9 @@
    "tipo": "cert",
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
-   "estado": "ok",
-   "avisos": 26
+   "estado": "error",
+   "avisos": 26,
+   "detalle": "ConnectionError: HTTPSConnectionPool(host='www.incibe.es', port=443): Read timed out."
   },
   {
    "id": "incibe_sci",
@@ -23,8 +24,9 @@
    "tipo": "cert",
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/feed",
-   "estado": "ok",
-   "avisos": 7
+   "estado": "error",
+   "avisos": 7,
+   "detalle": "ConnectionError: HTTPSConnectionPool(host='www.incibe.es', port=443): Read timed out."
   },
   {
    "id": "cisa",
@@ -123,7 +125,7 @@
    "idioma": "en",
    "url": "https://chromereleases.googleblog.com/feeds/posts/default",
    "estado": "ok",
-   "avisos": 4
+   "avisos": 3
   },
   {
    "id": "siemens",
@@ -222,7 +224,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 31
+   "avisos": 32
   },
   {
    "id": "bleeping",
@@ -246,18 +248,18 @@
  "resumen": {
   "avisos": 376,
   "por_tipo": {
-   "fabricante": 157,
+   "noticia": 71,
+   "fabricante": 156,
    "exploit": 34,
-   "noticia": 70,
    "cert": 115
   },
-  "explotados": 38,
+  "explotados": 39,
   "dia_cero": 8,
   "sin_parche": 44,
-  "criticos": 56,
+  "criticos": 57,
   "exploit_publico": 9,
-  "cves_citados": 404,
-  "fuentes_ok": 26,
+  "cves_citados": 392,
+  "fuentes_ok": 24,
   "fuentes_total": 26
  },
  "mas_citados": [
@@ -457,6 +459,29 @@
   }
  ],
  "avisos": [
+  {
+   "fuente": "thehackernews",
+   "titulo": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+   "enlace": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+   "fecha": "2026-11-21T08:49Z",
+   "cves": [
+    "CVE-2026-129448"
+   ],
+   "cves_total": 1,
+   "texto_explotada": true,
+   "texto_critica": true,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-129448"
+   ],
+   "explotada": true,
+   "critica": true,
+   "cvss_max": 9.8,
+   "epss_max": 0.0119,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "paloalto",
    "titulo": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
@@ -8537,38 +8562,6 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.0047,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "chrome",
-   "titulo": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-   "enlace": "http://chromereleases.googleblog.com/2026/11/stable-channel-update-for-chromeos_01089491269.html",
-   "fecha": "2026-11-14T05:00Z",
-   "cves": [
-    "CVE-2026-121174",
-    "CVE-2026-121161",
-    "CVE-2026-121107",
-    "CVE-2026-121102",
-    "CVE-2026-121108",
-    "CVE-2026-121134",
-    "CVE-2026-126866",
-    "CVE-2026-126890",
-    "CVE-2026-126919",
-    "CVE-2026-126840",
-    "CVE-2026-126904",
-    "CVE-2026-126872"
-   ],
-   "cves_total": 31,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0041,
    "exploit_publico": false,
    "exploitdb": null
   }
