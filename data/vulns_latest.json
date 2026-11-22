@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-22 01:03",
+ "generado_utc": "2026-11-22 10:48",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 4582,
-  "criticos": 348,
+  "cves": 4633,
+  "criticos": 343,
   "explotados": 2,
-  "urgentes": 81,
+  "urgentes": 80,
   "epss_10": 12,
-  "sin_puntuar": 553,
+  "sin_puntuar": 564,
   "por_prioridad": {
    "explotada": 2,
-   "urgente": 81,
-   "alta": 1945,
-   "media": 1778,
-   "baja": 776
+   "urgente": 80,
+   "alta": 1939,
+   "media": 1821,
+   "baja": 791
   },
-  "paquetes_maliciosos": 588,
+  "paquetes_maliciosos": 596,
   "exploit_publico": 0,
-  "poc_github": 153,
+  "poc_github": 158,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -1213,37 +1213,6 @@
     }
    ],
    "avisos_total": 2
-  },
-  {
-   "cve": "CVE-2026-129354",
-   "publicado": "2026-11-15",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.01068,
-   "epss_percentil": 0.65648,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "D-Link",
-   "cwe": [
-    "CWE-119",
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A flaw has been found in D-Link DIR-600L 2.17b02. Affected by this issue is the function hnap_main of the file htdocs/cgibin of the component HNAP Handler. Executing a manipulation can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been …",
-   "avisos": [
-    {
-     "fuente": "incibe",
-     "nombre": "INCIBE-CERT",
-     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-bufer-basado-en-pila-en-dir-600l-de-d-link"
-    }
-   ],
-   "avisos_total": 1
   },
   {
    "cve": "CVE-2026-133872",
@@ -7010,30 +6979,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-82568",
-   "publicado": "2026-11-15",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00654,
-   "epss_percentil": 0.52266,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-89"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Give - Peer-to-Peer plugin for WordPress is vulnerable to time-based SQL Injection via the 'sort' parameter in all versions up to, and including, 2.9.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. Th…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-132662",
    "publicado": "2026-11-20",
    "prioridad": "alta",
@@ -8029,31 +7974,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-129444",
-   "publicado": "2026-11-15",
-   "prioridad": "alta",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00619,
-   "epss_percentil": 0.5057,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "D-Link",
-   "cwe": [
-    "CWE-259",
-    "CWE-798"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A vulnerability was identified in D-Link DSL-6740C 20131126. This affects an unknown function of the file /etc/templates/ftpd/ftpd_conf.php of the component FTP Daemon. Such manipulation leads to hard-coded credentials. The attack can be executed remotely. The exploit is publicly…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-129987",
    "publicado": "2026-11-18",
    "prioridad": "alta",
@@ -8616,30 +8536,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via a context parameters callback in the Kotlin DSL sandbox",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-82663",
-   "publicado": "2026-11-15",
-   "prioridad": "alta",
-   "cvss": 7.5,
-   "gravedad": "high",
-   "epss": 0.00599,
-   "epss_percentil": 0.49601,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "WordPress (plugins)",
-   "cwe": [
-    "CWE-863"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Give - Peer-to-Peer plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.9.5. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers wh…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -9320,30 +9216,6 @@
     }
    ],
    "avisos_total": 1
-  },
-  {
-   "cve": "CVE-2026-129349",
-   "publicado": "2026-11-15",
-   "prioridad": "alta",
-   "cvss": 9.1,
-   "gravedad": "critical",
-   "epss": 0.00584,
-   "epss_percentil": 0.48812,
-   "kev": false,
-   "categoria": "empresarial",
-   "fabricante": "Apache",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "When authentication caching is enabled on DefaultLdapRealm, after a user logs in successfully once, subsequent logins for that user succeed with any password. A cached authentication skips the LDAP bind, and the AllowAllCredentialsMatcher installed by default in DefaultLdapRealm …",
-   "avisos": [],
-   "avisos_total": 0
   },
   {
    "cve": "CVE-2026-69156",
@@ -10952,7 +10824,7 @@
     "CWE-674"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -10977,7 +10849,7 @@
     "CWE-407"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -11253,7 +11125,7 @@
     "CWE-306"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -11261,36 +11133,6 @@
    "descripcion": "k8s-mcp-server manages Kubernetes clusters through the Model Context Protocol. Prior to 1.1.0, SERVER_MODE defaults to SSE, with the listener on 0.0.0.0:8080, but main.go creates the SSE server without an authentication option or context function. The GET /sse handler creates a s…",
    "avisos": [],
    "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-110960",
-   "publicado": "2026-11-15",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00532,
-   "epss_percentil": 0.45797,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "Wordpress",
-   "cwe": [
-    "CWE-287"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The Auth Armor WordPress plugin through 1.0.3 does not require authentication on several handlers available to logged-out users, which leak the site's stored API credentials and allow an unauthenticated attacker to reset an administrator's enrollment and take over that administra…",
-   "avisos": [
-    {
-     "fuente": "wordfence",
-     "nombre": "Wordfence (WordPress)",
-     "enlace": "https://www.wordfence.com/blog/2026/11/wordfence-intelligence-weekly-wordpress-vulnerability-report-november-9-2026-to-november-15-2026/"
-    }
-   ],
-   "avisos_total": 1
   },
   {
    "cve": "CVE-2026-130491",
@@ -14436,7 +14278,7 @@
     "CWE-674"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -14461,7 +14303,7 @@
     "CWE-407"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -14971,7 +14813,7 @@
     "CWE-674"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -15029,6 +14871,152 @@
    "descripcion": "Jane is a set of PHP libraries that generates models and API clients from JSON Schema and OpenAPI specifications. Prior to 7.12.0, the Jane open-api-3 generator emits an OpenAPI header parameter name verbatim as an array key in generated Client/Endpoint method docblocks. A header…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-125780",
+   "publicado": "2026-11-15",
+   "prioridad": "alta",
+   "cvss": 7.5,
+   "gravedad": "high",
+   "epss": 0.00468,
+   "epss_percentil": 0.41303,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "WordPress (plugins)",
+   "cwe": [
+    "CWE-22"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Acowebs Woocommerce Custom Product Addons Pro woo-custom-product-addons-pro allows Path Traversal.This issue affects Woocommerce Custom Product Addons Pro: from n/a through 5.9.0.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-130161",
+   "publicado": "2026-11-19",
+   "prioridad": "alta",
+   "cvss": 5.3,
+   "gravedad": "medium",
+   "epss": 0.00468,
+   "epss_percentil": 0.41292,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-918"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Tamari is a fully-featured recipe manager web application built using Python and the Flask Framework. Prior to 1.7.2, an authenticated user can bypass the recipe-autofill SSRF check by submitting a hostname under the user's control through the Autofill from URL feature; the hostn…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-54044",
+   "publicado": "2026-11-20",
+   "prioridad": "alta",
+   "cvss": 7.7,
+   "gravedad": "high",
+   "epss": 0.00467,
+   "epss_percentil": 0.41279,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-522",
+    "CWE-863"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "LibreChat is an enhanced ChatGPT clone that supports multiple AI providers. Prior to 0.8.7, POST /api/agents/actions/:agent_id in api/server/routes/agents/actions.js loads an existing action with owner credentials and merges editor-controlled metadata.domain and metadata.raw_spec…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-133704",
+   "publicado": "2026-11-20",
+   "prioridad": "alta",
+   "cvss": 5.1,
+   "gravedad": "medium",
+   "epss": 0.00467,
+   "epss_percentil": 0.41272,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-79"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "Penpot 2.18.0 before 2.18.2 contains a stored cross-site scripting vulnerability that allows authenticated users with edit rights to bypass the sanitize-svg-element blocklist using namespace-prefixed SVG elements. Attackers can upload SVGs containing elements like x:script or att…",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-126966",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.00466,
+   "epss_percentil": 0.41144,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-862"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "SmarterTools SmarterMail Missing Authorization Privilege Escalation Vulnerability. This vulnerability allows remote attackers to escalate privileges on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The specific flaw …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129453",
+   "publicado": "2026-11-15",
+   "prioridad": "alta",
+   "cvss": 8.6,
+   "gravedad": "high",
+   "epss": 0.00466,
+   "epss_percentil": 0.41169,
+   "kev": false,
+   "categoria": "red",
+   "fabricante": "Draytek",
+   "cwe": [
+    "CWE-119",
+    "CWE-122"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "A vulnerability was found in DrayTek Vigor2960 1.5.1.6. This issue affects the function check_file_exist of the file /cgi-bin/mainfunction.cgi of the component File Existence Check. Performing a manipulation of the argument upload_name results in heap-based buffer overflow. The a…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -15045,7 +15033,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 540,
+   "maliciosos": 548,
    "maliciosos_mas": false,
    "avisos": 40,
    "avisos_mas": false,
@@ -15053,59 +15041,59 @@
    "altos": 17,
    "ejemplos_maliciosos": [
     {
-     "ghsa": "GHSA-cxc9-87g6-qrj9",
+     "ghsa": "GHSA-6crj-9fxx-v653",
      "cve": null,
-     "paquete": "@wppconnect-team/wppconnect",
-     "resumen": "Malware in @wppconnect-team/wppconnect",
+     "paquete": "@leadstack/crm-connect",
+     "resumen": "Malware in @leadstack/crm-connect",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-21"
+     "publicado": "2026-11-22"
     },
     {
-     "ghsa": "GHSA-pgrg-83q3-w7vr",
+     "ghsa": "GHSA-hqfp-fhqg-4xc5",
      "cve": null,
-     "paquete": "aia-b-locator-fe",
-     "resumen": "Malicious code in aia-b-locator-fe (npm)",
+     "paquete": "@leadstack/crm-connect",
+     "resumen": "Malicious code in @leadstack/crm-connect (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-21"
+     "publicado": "2026-11-22"
     },
     {
-     "ghsa": "GHSA-r9wp-474x-c72c",
+     "ghsa": "GHSA-p7r2-5ppv-hr6g",
      "cve": null,
-     "paquete": "@pkgship/frps-windows-amd64",
-     "resumen": "Malware in @pkgship/frps-windows-amd64",
+     "paquete": "@c1-ease/core",
+     "resumen": "Malicious code in @c1-ease/core (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-21"
+     "publicado": "2026-11-22"
     },
     {
-     "ghsa": "GHSA-rf8v-v97c-32r7",
+     "ghsa": "GHSA-4w4w-phqm-jfpm",
      "cve": null,
-     "paquete": "orion-overlord",
-     "resumen": "Malware in orion-overlord",
+     "paquete": "@c1-ease/commerce",
+     "resumen": "Malicious code in @c1-ease/commerce (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-20"
+     "publicado": "2026-11-22"
     },
     {
-     "ghsa": "GHSA-f4pg-5677-5vm5",
+     "ghsa": "GHSA-q599-9j7q-8xf5",
      "cve": null,
-     "paquete": "xssdoctor-muse-task448-provider-runtime",
-     "resumen": "Malicious code in xssdoctor-muse-task448-provider-runtime (npm)",
+     "paquete": "@c1-ease/bank",
+     "resumen": "Malicious code in @c1-ease/bank (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-20"
+     "publicado": "2026-11-22"
     }
    ],
    "ejemplos_graves": [
@@ -15846,9 +15834,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 860,
-   "criticos": 59,
-   "altos": 283,
+   "cves": 871,
+   "criticos": 57,
+   "altos": 288,
    "urgentes": 15,
    "epss_max": 0.0216,
    "fabricantes": [
@@ -16024,7 +16012,7 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 38,
+   "cves": 39,
    "criticos": 5,
    "altos": 19,
    "urgentes": 2,
@@ -16087,8 +16075,8 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 694,
-   "criticos": 62,
+   "cves": 693,
+   "criticos": 61,
    "altos": 248,
    "urgentes": 1,
    "epss_max": 0.0546,
@@ -16184,7 +16172,7 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 575,
+   "cves": 572,
    "criticos": 4,
    "altos": 34,
    "urgentes": 1,
@@ -16552,9 +16540,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1544,
+   "cves": 1589,
    "criticos": 127,
-   "altos": 523,
+   "altos": 524,
    "urgentes": 33,
    "epss_max": 0.7112,
    "fabricantes": [
@@ -16701,10 +16689,10 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 18,
-   "criticos": 5,
-   "altos": 6,
-   "urgentes": 3,
+   "cves": 15,
+   "criticos": 3,
+   "altos": 5,
+   "urgentes": 2,
    "epss_max": 0.0297,
    "fabricantes": [
     "D-Link",
@@ -16729,13 +16717,6 @@
      "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-129354",
-     "fabricante": "D-Link",
-     "cvss": 9.3,
-     "epss": 0.01068,
-     "prioridad": "urgente"
-    },
-    {
      "cve": "CVE-2026-134169",
      "fabricante": "",
      "cvss": 7.5,
@@ -16743,10 +16724,17 @@
      "prioridad": "alta"
     },
     {
-     "cve": "CVE-2026-129444",
-     "fabricante": "D-Link",
-     "cvss": 9.3,
-     "epss": 0.00619,
+     "cve": "CVE-2026-133492",
+     "fabricante": "Trendnet",
+     "cvss": 5.5,
+     "epss": 0.00545,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-88711",
+     "fabricante": "",
+     "cvss": 8.7,
+     "epss": 0.00509,
      "prioridad": "alta"
     }
    ]
@@ -16829,7 +16817,7 @@
    "categoria": "ia",
    "nombre": "IA y agentes (LLM · MCP)",
    "estado": "vigilar",
-   "cves": 11,
+   "cves": 12,
    "criticos": 0,
    "altos": 6,
    "urgentes": 0,
