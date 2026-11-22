@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-22 10:50",
+ "generado_utc": "2026-11-22 19:07",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -14,9 +14,8 @@
    "tipo": "cert",
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
-   "estado": "error",
-   "avisos": 26,
-   "detalle": "ConnectionError: HTTPSConnectionPool(host='www.incibe.es', port=443): Read timed out."
+   "estado": "ok",
+   "avisos": 26
   },
   {
    "id": "incibe_sci",
@@ -24,9 +23,8 @@
    "tipo": "cert",
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/feed",
-   "estado": "error",
-   "avisos": 7,
-   "detalle": "ConnectionError: HTTPSConnectionPool(host='www.incibe.es', port=443): Read timed out."
+   "estado": "ok",
+   "avisos": 7
   },
   {
    "id": "cisa",
@@ -161,7 +159,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 16
+   "avisos": 17
   },
   {
    "id": "zdi",
@@ -233,7 +231,7 @@
    "idioma": "en",
    "url": "https://www.bleepingcomputer.com/feed/",
    "estado": "ok",
-   "avisos": 10
+   "avisos": 11
   },
   {
    "id": "securityweek",
@@ -246,20 +244,20 @@
   }
  ],
  "resumen": {
-  "avisos": 376,
+  "avisos": 378,
   "por_tipo": {
-   "noticia": 74,
-   "fabricante": 153,
+   "noticia": 75,
+   "fabricante": 154,
    "exploit": 34,
    "cert": 115
   },
   "explotados": 38,
-  "dia_cero": 10,
-  "sin_parche": 44,
-  "criticos": 56,
+  "dia_cero": 11,
+  "sin_parche": 43,
+  "criticos": 54,
   "exploit_publico": 9,
-  "cves_citados": 391,
-  "fuentes_ok": 24,
+  "cves_citados": 403,
+  "fuentes_ok": 26,
   "fuentes_total": 26
  },
  "mas_citados": [
@@ -302,7 +300,7 @@
    "avisos": 11,
    "kev": false,
    "cvss": 9.2,
-   "epss": 0.29863,
+   "epss": 0.27785,
    "ultimo": "2026-11-21T17:52Z"
   },
   {
@@ -399,7 +397,7 @@
    "avisos": 5,
    "kev": false,
    "cvss": 9.2,
-   "epss": 0.71117,
+   "epss": 0.73107,
    "ultimo": "2026-11-20T22:08Z"
   },
   {
@@ -427,7 +425,7 @@
    "avisos": 4,
    "kev": true,
    "cvss": 9.8,
-   "epss": 0.02985,
+   "epss": 0.03526,
    "ultimo": "2026-11-20T12:56Z"
   },
   {
@@ -441,7 +439,7 @@
    "avisos": 4,
    "kev": false,
    "cvss": 9.2,
-   "epss": 0.13104,
+   "epss": 0.13297,
    "ultimo": "2026-11-20T22:08Z"
   },
   {
@@ -460,6 +458,44 @@
  ],
  "avisos": [
   {
+   "fuente": "bleeping",
+   "titulo": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+   "enlace": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "fecha": "2026-11-22T18:45Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "seguinfo",
+   "titulo": "FastUnlock: Zero-Day en Bitlocker",
+   "enlace": "http://blog.segu-info.com.ar/2026/11/fastunlock-zero-day-en-bitlocker.html",
+   "fecha": "2026-11-22T13:30Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "thehackernews",
    "titulo": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
    "enlace": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
@@ -475,6 +511,38 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6647-1 webkit2gtk - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00569.html",
+   "fecha": "2026-11-22T00:00Z",
+   "cves": [
+    "CVE-2026-86973",
+    "CVE-2026-86974",
+    "CVE-2026-86985",
+    "CVE-2026-86986",
+    "CVE-2026-112615",
+    "CVE-2026-112623",
+    "CVE-2026-112626",
+    "CVE-2026-112637",
+    "CVE-2026-112639",
+    "CVE-2026-112640",
+    "CVE-2026-112651",
+    "CVE-2026-112653"
+   ],
+   "cves_total": 24,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0061,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -518,7 +586,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -622,7 +690,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -649,7 +717,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.7112,
+   "epss_max": 0.7311,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1055,7 +1123,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.5564,
+   "epss_max": 0.579,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1229,7 +1297,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.0299,
+   "epss_max": 0.0353,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1391,7 +1459,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.7112,
+   "epss_max": 0.7311,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1414,7 +1482,7 @@
    "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
-   "epss_max": 0.0299,
+   "epss_max": 0.0353,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1465,7 +1533,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2031,7 +2099,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -2231,7 +2299,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.131,
+   "epss_max": 0.133,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3181,7 +3249,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.7112,
+   "epss_max": 0.7311,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -3811,8 +3879,8 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 10.0,
+   "critica": false,
+   "cvss_max": 7.2,
    "epss_max": 0.0159,
    "exploit_publico": false,
    "exploitdb": null
@@ -3931,8 +3999,8 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": true,
-   "cvss_max": 9.2,
+   "critica": false,
+   "cvss_max": null,
    "epss_max": 0.0048,
    "exploit_publico": false,
    "exploitdb": null
@@ -4022,7 +4090,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4162,7 +4230,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.7112,
+   "epss_max": 0.7311,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4234,7 +4302,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4831,7 +4899,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4901,7 +4969,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4922,7 +4990,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4989,7 +5057,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5284,7 +5352,7 @@
    "explotada": false,
    "critica": false,
    "cvss_max": null,
-   "epss_max": null,
+   "epss_max": 0.0041,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -6033,7 +6101,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.2,
-   "epss_max": 0.2986,
+   "epss_max": 0.2778,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -8535,25 +8603,6 @@
    "sin_parche": false,
    "kev": [],
    "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "seguinfo",
-   "titulo": "El tiempo medio transcurrido desde la divulgación de una vulnerabilidad hasta su explotación pasó de 771 días a \"menos siete días\"",
-   "enlace": "http://blog.segu-info.com.ar/2026/11/el-tiempo-medio-transcurrido-desde-la.html",
-   "fecha": "2026-11-15T14:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": true,
    "critica": false,
    "cvss_max": null,
    "epss_max": null,

@@ -223,37 +223,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-11-22 10:50 UTC · **IOCs recolectados:** 295 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-11-22 19:07 UTC · **IOCs recolectados:** 300 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 45 (media) | media | `hxxp://210[.]208[.]110[.]42:46200/i` | url | malware\_download | URLhaus | 2026-11-22 10:32:06 UTC |
-| 43 (media) | media | `hxxp://113[.]53[.]69[.]133:43555/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 10:02:06 UTC |
-| 43 (media) | media | `hxxp://115[.]55[.]230[.]233:51891/i` | url | malware\_download | URLhaus | 2026-11-22 09:17:06 UTC |
-| 43 (media) | media | `hxxp://222[.]141[.]113[.]60:49544/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 09:17:06 UTC |
-| 43 (media) | media | `hxxp://124[.]161[.]116[.]7:59073/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 09:10:09 UTC |
-| 42 (media) | media | `hxxp://115[.]50[.]157[.]197:44934/i` | url | malware\_download | URLhaus | 2026-11-22 09:32:05 UTC |
-| 41 (media) | media | `hxxp://112[.]93[.]138[.]178:43429/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 10:28:26 UTC |
-| 41 (media) | media | `hxxp://45[.]90[.]81[.]17:56956/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 10:17:05 UTC |
-| 41 (media) | media | `hxxp://195[.]165[.]182[.]55:57789/i` | url | malware\_download | URLhaus | 2026-11-22 10:03:13 UTC |
-| 41 (media) | media | `hxxp://195[.]165[.]182[.]55:57789/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 09:41:14 UTC |
-| 41 (media) | media | `hxxps://raw[.]githubusercontent[.]com/VidathTheekshana/SLIIT_FINAL/refs/heads/main/public/fonts/fa-solid-500[.]woff2` | url | malware\_download | URLhaus | 2026-11-22 09:02:06 UTC |
-| 41 (media) | media | `hxxp://117[.]223[.]140[.]60:52817/i` | url | malware\_download | URLhaus | 2026-11-22 09:02:06 UTC |
-| 41 (media) | media | `hxxp://211[.]230[.]3[.]71/bins/jews[.]x86` | url | malware\_download | URLhaus | 2026-11-22 08:47:17 UTC |
-| 41 (media) | media | `hxxps://stcc[.]topickks[.]icu/HFinex[.]zip` | url | malware\_download | URLhaus | 2026-11-22 08:47:16 UTC |
-| 40 (media) | media | `hxxp://61[.]52[.]150[.]220:33045/i` | url | malware\_download | URLhaus | 2026-11-22 10:02:07 UTC |
-| 40 (media) | media | `hxxp://178[.]141[.]25[.]42:38851/i` | url | malware\_download | URLhaus | 2026-11-22 10:02:05 UTC |
-| 40 (media) | media | `hxxp://61[.]52[.]150[.]220:33045/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 09:32:07 UTC |
-| 40 (media) | media | `hxxp://222[.]141[.]139[.]136:37168/i` | url | malware\_download | URLhaus | 2026-11-22 09:17:05 UTC |
-| 40 (media) | media | `hxxps://www-featherwallet[.]org/download/files/releases/win-installer/feather-2[.]8[.]1-win[.]zip` | url | malware\_download | URLhaus | 2026-11-22 09:08:16 UTC |
-| 40 (media) | media | `hxxps://www-featherwallet[.]org/download/files/releases/win-installer/FeatherWalletSetup-2[.]8[.]1[.]exe` | url | malware\_download | URLhaus | 2026-11-22 09:08:07 UTC |
-| 40 (media) | media | `hxxps://raw[.]githubusercontent[.]com/WebAMM/PlotPocket-BE/refs/heads/master/public/fonts/fa-solid-500[.]woff2` | url | malware\_download | URLhaus | 2026-11-22 09:03:07 UTC |
-| 40 (media) | media | `hxxps://raw[.]githubusercontent[.]com/TG-Codes/jamb-clone/refs/heads/main/public/fonts/fa-solid-500[.]woff2` | url | malware\_download | URLhaus | 2026-11-22 09:03:05 UTC |
-| 40 (media) | media | `hxxps://raw[.]githubusercontent[.]com/Talent-Index/Freelancer_Payment_Escrow/refs/heads/main/public/fonts/fa-solid-400[.]woff2` | url | malware\_download | URLhaus | 2026-11-22 09:02:06 UTC |
-| 40 (media) | media | `hxxps://raw[.]githubusercontent[.]com/TAIJULAMAN/Clock-App/refs/heads/main/public/fonts/fa-solid-500[.]woff2` | url | malware\_download | URLhaus | 2026-11-22 09:02:06 UTC |
-| 40 (media) | media | `hxxps://cdc[.]fixiow[.]icu/DvnX[.]zip` | url | malware\_download | URLhaus | 2026-11-22 08:47:16 UTC |
+| 45 (media) | media | `hxxp://196[.]189[.]46[.]69:44663/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 18:02:05 UTC |
+| 44 (media) | media | `hxxp://179[.]49[.]213[.]85:33317/i` | url | malware\_download | URLhaus | 2026-11-22 17:47:05 UTC |
+| 44 (media) | media | `hxxp://210[.]208[.]111[.]26:35067/i` | url | malware\_download | URLhaus | 2026-11-22 17:40:19 UTC |
+| 43 (media) | media | `hxxp://138[.]204[.]196[.]254:44313/i` | url | malware\_download | URLhaus | 2026-11-22 18:32:06 UTC |
+| 43 (media) | media | `hxxps://sooyun-yun[.]com[.]cn/donwnload/ToDesk[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:26:44 UTC |
+| 43 (media) | media | `hxxp://210[.]208[.]111[.]234:42118/i` | url | malware\_download | URLhaus | 2026-11-22 18:02:08 UTC |
+| 43 (media) | media | `hxxp://210[.]208[.]106[.]68:51014/i` | url | malware\_download | URLhaus | 2026-11-22 17:58:10 UTC |
+| 43 (media) | media | `hxxp://210[.]208[.]106[.]68:51014/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 17:43:14 UTC |
+| 42 (media) | media | `hxxp://113[.]206[.]164[.]142:60003/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 18:42:06 UTC |
+| 41 (media) | media | `hxxp://42[.]239[.]191[.]173:54394/i` | url | malware\_download | URLhaus | 2026-11-22 18:47:05 UTC |
+| 40 (media) | media | `hxxps://doc[.]pdf-unico[.]lat/d/abpod6` | url | malware\_download | URLhaus | 2026-11-22 18:42:07 UTC |
+| 40 (media) | media | `hxxp://www[.]x9q[.]top/m` | url | malware\_download | URLhaus | 2026-11-22 18:36:07 UTC |
+| 40 (media) | media | `hxxp://123[.]9[.]43[.]224:44640/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 18:32:06 UTC |
+| 40 (media) | media | `hxxps://todenk[.]com[.]cn/generated_pages/moban53/static/pic/ToDesk[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:31:55 UTC |
+| 40 (media) | media | `hxxps://pub-f6745cf8efe14679acfbe49bedff70af[.]r2[.]dev/Todesk_Big_3[.]1[.]1[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:26:21 UTC |
+| 40 (media) | media | `hxxps://pub-e4396ac9c01344db998f3a97ab6a8226[.]r2[.]dev/11[.]22Tduinfwarw0eq[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:26:20 UTC |
+| 40 (media) | media | `hxxp://kuaifase-me[.]cn` | url | malware\_download | URLhaus | 2026-11-22 18:26:05 UTC |
+| 40 (media) | media | `hxxps://sasa2[.]fixiow[.]icu/DvnX[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:18:08 UTC |
+| 40 (media) | media | `hxxps://ckdb[.]hypstok[.]info/HFinex[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:18:06 UTC |
+| 40 (media) | media | `hxxp://121[.]43[.]62[.]98/ezo` | url | malware\_download | URLhaus | 2026-11-22 18:18:06 UTC |
+| 40 (media) | media | `hxxp://177[.]3[.]208[.]56/x86_64` | url | malware\_download | URLhaus | 2026-11-22 18:18:05 UTC |
+| 40 (media) | media | `hxxp://159[.]138[.]120[.]97/zzxbac0029fd9` | url | malware\_download | URLhaus | 2026-11-22 18:18:05 UTC |
+| 40 (media) | media | `hxxp://42[.]233[.]106[.]88:58031/i` | url | malware\_download | URLhaus | 2026-11-22 18:17:06 UTC |
+| 40 (media) | media | `hxxp://42[.]233[.]95[.]165:47496/i` | url | malware\_download | URLhaus | 2026-11-22 18:17:06 UTC |
+| 40 (media) | media | `hxxps://cdn[.]discordapp[.]com/attachments/1298616021669773397/1574123122292957448/e265dfdaa6?ex=6b047fe6&is=6b032e66&hm=6bfade5306c4cd7cbb36c1a4866fc219d4d8112e367f8726a94befc1e19e7e75&` | url | malware\_download | URLhaus | 2026-11-22 18:12:38 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -283,12 +283,14 @@ python main.py
 
 ### Avisos de seguridad de los últimos 7 días
 
-**376** avisos de 24/26 fuentes (fabricantes, CERT, exploits y noticias) · **38** de algo que ya se explota · **10** de día cero · **44** sin parche
+**378** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **38** de algo que ya se explota · **11** de día cero · **43** sin parche
 
 **Lo más citado:** CVE-2026-114938 (11 fuentes) · CVE-2026-123007 (11 fuentes) · CVE-2026-123633 (9 fuentes) · CVE-2026-113425 (6 fuentes) · CVE-2026-121810 (6 fuentes) · CVE-2026-123634 (6 fuentes) · CVE-2026-111497 (5 fuentes, KEV) · CVE-2026-115560 (5 fuentes)
 
 | Fecha | Fuente | Aviso | Señales |
 |---|---|---|---|
+| 2026-11-22 | BleepingComputer | [Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices](https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/) | explotada |
+| 2026-11-22 | Segu-Info | [FastUnlock: Zero-Day en Bitlocker](http://blog.segu-info.com.ar/2026/11/fastunlock-zero-day-en-bitlocker.html) | día cero |
 | 2026-11-21 | Cisco | [Vulnerabilities in nginx Affecting Cisco Products: November 2026](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1) | crítica |
 | 2026-11-21 | SecurityWeek | [Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day](https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/) | día cero |
 | 2026-11-21 | The Hacker News | [GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys](https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html) | crítica |
@@ -312,39 +314,37 @@ python main.py
 | 2026-11-20 | The Hacker News | [New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It](https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html) | día cero, sin parche |
 | 2026-11-20 | BleepingComputer | [VMware patches vCenter zero-day exploited in attacks since September](https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/) | explotada, día cero |
 | 2026-11-20 | Siemens ProductCERT | [SSA-935812 V1.0: NGINX2Root Vulnerability in Industrial Edge](https://cert-portal.siemens.com/productcert/html/ssa-935812.html) | crítica |
-| 2026-11-20 | Siemens ProductCERT | [SSA-566435 V1.7 (Last Update: 2026-11-20): PHP2Shell Vulnerabilities in Siemens Software Products](https://cert-portal.siemens.com/productcert/html/ssa-566435.html) | explotada |
-| 2026-11-20 | GitLab | [GitLab Critical Patch Release: 19.6.1, 19.5.8, 19.4.10](https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-6-1-released/) | crítica |
 
 ### Vulnerabilidades de los últimos 7 días
 
-**4633** CVE publicados · **2** ya explotados · **80** urgentes · **343** con CVSS ≥ 9 · **596** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
+**4630** CVE publicados · **2** ya explotados · **81** urgentes · **353** con CVSS ≥ 9 · **597** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
 
 Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC). Un exploit de Exploit-DB cuenta como prueba de concepto.
 
 | Prioridad | CVE | Fabricante | CVSS | EPSS | Publicado |
 |---|---|---|---|---|---|
 | explotada | CVE-2026-129448 | Apache | 9.8 | 5.5 % | 2026-11-17 |
-| explotada | CVE-2026-123890 | Broadcom | 9.8 | 3.0 % | 2026-11-19 |
-| urgente | CVE-2026-115560 | — | 9.2 | 71.1 % | 2026-11-19 |
+| explotada | CVE-2026-123890 | Broadcom | 9.8 | 3.5 % | 2026-11-19 |
+| urgente | CVE-2026-115560 | — | 9.2 | 73.1 % | 2026-11-19 |
 | urgente | CVE-2026-114938 | Oracle | 8.1 | 45.6 % | 2026-11-17 |
-| urgente | CVE-2026-123007 | F5 | 9.2 | 29.9 % | 2026-11-18 |
 | urgente | CVE-2026-95645 | Windows | 9.1 | 28.8 % | 2026-11-18 |
+| urgente | CVE-2026-123007 | F5 | 9.2 | 27.8 % | 2026-11-18 |
 | urgente | CVE-2026-95643 | — | 9.1 | 24.4 % | 2026-11-18 |
 | urgente | CVE-2026-123633 | F5 | 9.2 | 17.5 % | 2026-11-18 |
 | urgente | CVE-2026-123634 | F5 | 9.2 | 17.1 % | 2026-11-18 |
 | urgente | CVE-2026-121810 | F5 | 9.2 | 16.4 % | 2026-11-18 |
-| urgente | CVE-2026-129289 | — | 9.2 | 16.1 % | 2026-11-19 |
+| urgente | CVE-2026-129289 | — | 9.2 | 16.2 % | 2026-11-19 |
 | urgente | CVE-2026-113425 | F5 | 9.2 | 13.9 % | 2026-11-18 |
-| urgente | CVE-2026-126714 | — | 9.2 | 13.1 % | 2026-11-19 |
+| urgente | CVE-2026-126714 | — | 9.2 | 13.3 % | 2026-11-19 |
 | urgente | CVE-2026-129538 | — | 6.9 | 12.8 % | 2026-11-19 |
+| urgente | CVE-2026-129474 | — | 9.2 | 9.3 % | 2026-11-19 |
 | urgente | CVE-2026-129182 | — | 9.2 | 8.5 % | 2026-11-19 |
 | urgente | CVE-2026-129496 | — | 9.2 | 8.1 % | 2026-11-19 |
-| urgente | CVE-2026-129474 | — | 9.2 | 7.2 % | 2026-11-19 |
 | urgente | CVE-2026-127027 | — | 9.2 | 4.2 % | 2026-11-20 |
+| urgente | CVE-2026-133968 | — | 9.8 | 3.8 % | 2026-11-20 |
+| urgente | CVE-2026-133493 | D-Link | 9.3 | 3.7 % | 2026-11-20 |
 | urgente | CVE-2026-129481 | — | 9.2 | 3.5 % | 2026-11-19 |
-| urgente | CVE-2026-133968 | — | 9.8 | 3.1 % | 2026-11-20 |
 | urgente | CVE-2026-133500 | — | 9.1 | 3.0 % | 2026-11-20 |
-| urgente | CVE-2026-133493 | D-Link | 9.3 | 3.0 % | 2026-11-20 |
 | urgente | CVE-2026-116448 | — | 9.8 | 2.9 % | 2026-11-18 |
 | urgente | CVE-2026-132622 | — | 9.4 | 2.3 % | 2026-11-19 |
 | urgente | CVE-2026-133680 | D-Link | 9.9 | 2.2 % | 2026-11-20 |
@@ -354,7 +354,7 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 | Lenguaje | Estado | Paquetes maliciosos | Avisos críticos / altos |
 |---|---|---|---|
 | JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 548 | 2 / 17 |
-| Python (PyPI) | 🔴 paquetes maliciosos | 38 | 4 / 34 |
+| Python (PyPI) | 🔴 paquetes maliciosos | 39 | 4 / 34 |
 | Java / Kotlin (Maven) | 🟡 avisos altos | 0 | 0 / 4 |
 | .NET (C#) (NuGet) | 🟠 avisos críticos | 0 | 3 / 3 |
 | PHP (Packagist) | 🔴 el lenguaje se explota | 0 | 3 / 10 |
@@ -370,17 +370,17 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 
 | Sistema | Estado | CVE nuevos | CVSS ≥ 9 | En KEV (30 días) |
 |---|---|---|---|---|
-| Aplicaciones web y CMS | 🔴 explotación activa | 871 | 57 | 3 |
-| Red, VPN y firewalls | 🔴 explotación activa | 204 | 18 | 10 |
+| Aplicaciones web y CMS | 🔴 explotación activa | 880 | 56 | 3 |
+| Red, VPN y firewalls | 🔴 explotación activa | 199 | 18 | 10 |
 | Windows y Microsoft | 🔴 explotación activa | 39 | 5 | 1 |
 | Software empresarial | 🔴 explotación activa | 693 | 61 | 6 |
-| Linux | 🔴 explotación activa | 572 | 4 | 1 |
+| Linux | 🔴 explotación activa | 573 | 16 | 1 |
 | Virtualización y nube | 🔴 explotación activa | 28 | 2 | 2 |
 | Apple (macOS · iOS) | 🔴 explotación activa | 20 | 1 | 1 |
 | Lenguajes y entornos de ejecución | 🔴 explotación activa | 1 | 0 | 2 |
 | Navegadores | 🔴 explotación activa | 209 | 18 | 1 |
 | Servidores y servicios | 🔴 explotación activa | 7 | 1 | 1 |
-| Otros | 🔴 explotación activa | 1589 | 127 | 8 |
+| Otros | 🔴 explotación activa | 1581 | 126 | 8 |
 | Librerías de código abierto | 🟠 riesgo alto | 360 | 45 | 0 |
 | Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 15 | 3 | 0 |
 | Industrial (OT · ICS) | 🟠 riesgo alto | 1 | 1 | 0 |
