@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-21 18:45",
+ "generado_utc": "2026-11-22 01:06",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -14,8 +14,9 @@
    "tipo": "cert",
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
-   "estado": "ok",
-   "avisos": 26
+   "estado": "error",
+   "avisos": 26,
+   "detalle": "ConnectionError: HTTPSConnectionPool(host='www.incibe.es', port=443): Read timed out."
   },
   {
    "id": "incibe_sci",
@@ -23,8 +24,9 @@
    "tipo": "cert",
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/feed",
-   "estado": "ok",
-   "avisos": 7
+   "estado": "error",
+   "avisos": 7,
+   "detalle": "ConnectionError: HTTPSConnectionPool(host='www.incibe.es', port=443): Read timed out."
   },
   {
    "id": "cisa",
@@ -159,7 +161,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 19
+   "avisos": 16
   },
   {
    "id": "zdi",
@@ -244,10 +246,10 @@
   }
  ],
  "resumen": {
-  "avisos": 378,
+  "avisos": 375,
   "por_tipo": {
    "noticia": 73,
-   "fabricante": 156,
+   "fabricante": 153,
    "exploit": 34,
    "cert": 115
   },
@@ -257,7 +259,7 @@
   "criticos": 58,
   "exploit_publico": 9,
   "cves_citados": 391,
-  "fuentes_ok": 26,
+  "fuentes_ok": 24,
   "fuentes_total": 26
  },
  "mas_citados": [
@@ -8533,63 +8535,6 @@
    "sin_parche": true,
    "kev": [],
    "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6632-1 radsecproxy - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00552.html",
-   "fecha": "2026-11-15T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6631-1 freedombox - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00551.html",
-   "fecha": "2026-11-15T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "debian",
-   "titulo": "DSA-6629-1 network-manager-iodine - security update",
-   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00549.html",
-   "fecha": "2026-11-15T00:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
    "critica": false,
    "cvss_max": null,
    "epss_max": null,

@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-21 18:45",
+ "generado_utc": "2026-11-22 01:03",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 4575,
-  "criticos": 350,
+  "cves": 4582,
+  "criticos": 348,
   "explotados": 2,
-  "urgentes": 83,
+  "urgentes": 81,
   "epss_10": 12,
   "sin_puntuar": 553,
   "por_prioridad": {
    "explotada": 2,
-   "urgente": 83,
+   "urgente": 81,
    "alta": 1945,
-   "media": 1769,
+   "media": 1778,
    "baja": 776
   },
-  "paquetes_maliciosos": 597,
+  "paquetes_maliciosos": 588,
   "exploit_publico": 0,
-  "poc_github": 156,
+  "poc_github": 153,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -1103,31 +1103,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-129353",
-   "publicado": "2026-11-15",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.01264,
-   "epss_percentil": 0.70434,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "D-Link",
-   "cwe": [
-    "CWE-119",
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "A vulnerability was detected in D-Link DIR-600L 2.17/2.17b02. Affected by this vulnerability is the function authenticationcgi_main of the file authentication.cgi. Performing a manipulation of the argument id/password results in stack-based buffer overflow. Remote exploitation of…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-14492",
    "publicado": "2026-11-19",
    "prioridad": "urgente",
@@ -1439,31 +1414,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "poc",
    "descripcion": "U.S Department of the Interior Unstable Slope Management Program allows an unauthenticated user to inject unauthorized SQL commands that allow the attacker to gain root access and complete control over the database. Fixed on or around 2026-10-19.",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-129351",
-   "publicado": "2026-11-14",
-   "prioridad": "urgente",
-   "cvss": 9.3,
-   "gravedad": "critical",
-   "epss": 0.00842,
-   "epss_percentil": 0.58813,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Trendnet",
-   "cwe": [
-    "CWE-119",
-    "CWE-787"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A security vulnerability has been detected in TRENDnet TEW-657BRM 1.00.1. This vulnerability affects the function sprintf of the file /setup.cgi of the component mini_httpd. Such manipulation leads to out-of-bounds write. The attack can be executed remotely. The exploit has been …",
    "avisos": [],
    "avisos_total": 0
   },
@@ -6182,30 +6132,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2015-10149",
-   "publicado": "2026-11-14",
-   "prioridad": "alta",
-   "cvss": 9.8,
-   "gravedad": "critical",
-   "epss": 0.00694,
-   "epss_percentil": 0.53864,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-1286"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "Dancer versions before 1.3400 for Perl pass unvalidated session ids from the session cookie to the session engine. read_session_id returns the cookie value as the session id without checking its characters, and Dancer hands it to the session engine to load the session. A remote a…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-86130",
    "publicado": "2026-11-19",
    "prioridad": "alta",
@@ -6525,31 +6451,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Issue summary: A QUIC server that rejects a stream opened by the peer may retain that stream's state for the lifetime of the connection if the peer resets the stream before the rejection is signalled, even though the peer's stream credit is returned. Impact summary: A remote clie…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-129352",
-   "publicado": "2026-11-14",
-   "prioridad": "alta",
-   "cvss": 8.5,
-   "gravedad": "high",
-   "epss": 0.00672,
-   "epss_percentil": 0.52981,
-   "kev": false,
-   "categoria": "iot",
-   "fabricante": "Trendnet",
-   "cwe": [
-    "CWE-119",
-    "CWE-121"
-   ],
-   "estado_nvd": "Deferred",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "A vulnerability was detected in TRENDnet TEW-657BRM 1.00.1. This issue affects some unknown processing of the file /usr/sbin/upgrade_flash.cgi. Performing a manipulation of the argument boundary results in stack-based buffer overflow. The attack is possible to be carried out remo…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -15030,6 +14931,104 @@
    "descripcion": "A caller with write permission in a namespace can terminate temporal-proxy through memory exhaustion by storing highly compressed payloads in Workflow history, and the stored history causes the same failure on every later read. temporal-proxy 1.2.0 decompresses every payload mark…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-116446",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.8,
+   "gravedad": "critical",
+   "epss": 0.0047,
+   "epss_percentil": 0.41507,
+   "kev": false,
+   "categoria": "otros",
+   "fabricante": "",
+   "cwe": [
+    "CWE-787"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Dell PowerStore SDNAS contains an out-of-bounds memory vulnerability in the NAS NFS service that an unauthenticated remote attacker could exploit to cause a denial of service.",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-129228",
+   "publicado": "2026-11-19",
+   "prioridad": "alta",
+   "cvss": 5.3,
+   "gravedad": "medium",
+   "epss": 0.00469,
+   "epss_percentil": 0.41366,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-674"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "NLTK (Natural Language Toolkit) is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. Prior to 3.10.4, ToolboxSettings.parse builds a deeply nested attacker-controlled settings tree iteratively, but …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-63411",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": 0.00468,
+   "epss_percentil": 0.41327,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-116",
+    "CWE-94",
+    "CWE-95"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": null,
+   "descripcion": "Jane is a set of PHP libraries that generates models and API clients from JSON Schema and OpenAPI specifications. Prior to 7.12.0, the Jane open-api-3 generator emits an OpenAPI parameter description verbatim in generated Client/Endpoint method docblocks. A parameter description …",
+   "avisos": [],
+   "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-63413",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 9.3,
+   "gravedad": "critical",
+   "epss": 0.00468,
+   "epss_percentil": 0.41327,
+   "kev": false,
+   "categoria": "oss",
+   "fabricante": "Código abierto (GitHub)",
+   "cwe": [
+    "CWE-94"
+   ],
+   "estado_nvd": "Received",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Jane is a set of PHP libraries that generates models and API clients from JSON Schema and OpenAPI specifications. Prior to 7.12.0, the Jane open-api-3 generator emits an OpenAPI header parameter name verbatim as an array key in generated Client/Endpoint method docblocks. A header…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -15046,7 +15045,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 542,
+   "maliciosos": 540,
    "maliciosos_mas": false,
    "avisos": 40,
    "avisos_mas": false,
@@ -15117,7 +15116,7 @@
      "resumen": "Etherpad: Pre-auth arbitrary file read",
      "gravedad": "critical",
      "cvss": 9.8,
-     "epss": 0.01485,
+     "epss": 0.01163,
      "corregido_en": "3.3.3",
      "publicado": "2026-11-20"
     },
@@ -15133,25 +15132,14 @@
      "publicado": "2026-11-19"
     },
     {
-     "ghsa": "GHSA-3mgh-93r5-r7jf",
-     "cve": "CVE-2026-83816",
-     "paquete": "codewhale",
-     "resumen": "CodeWhale: exec_shell parallel-readonly classifier auto-approves fd/rg/git grep exec flags enabling silent RCE",
+     "ghsa": "GHSA-25qc-m4pw-2w8r",
+     "cve": "CVE-2026-122247",
+     "paquete": "@budibase/server",
+     "resumen": "Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST /api/global/users/init`)",
      "gravedad": "high",
-     "cvss": 8.1,
-     "epss": 0.00737,
-     "corregido_en": "0.9.0",
-     "publicado": "2026-11-19"
-    },
-    {
-     "ghsa": "GHSA-jwgx-mp9m-jwcr",
-     "cve": "CVE-2026-58192",
-     "paquete": "@appium/storage-plugin",
-     "resumen": "appium allows unauthenticated arbitrary file/directory deletion in @appium/storage-plugin",
-     "gravedad": "high",
-     "cvss": 8.6,
-     "epss": 0.00636,
-     "corregido_en": "1.1.6",
+     "cvss": 8.2,
+     "epss": 0.00838,
+     "corregido_en": null,
      "publicado": "2026-11-20"
     },
     {
@@ -15163,6 +15151,17 @@
      "cvss": 7.5,
      "epss": 0.00623,
      "corregido_en": "17.0.0",
+     "publicado": "2026-11-17"
+    },
+    {
+     "ghsa": "GHSA-rvfr-cqwq-rc4j",
+     "cve": "CVE-2026-110789",
+     "paquete": "@libp2p/crypto",
+     "resumen": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+     "gravedad": "high",
+     "cvss": 7.5,
+     "epss": 0.00623,
+     "corregido_en": "5.1.22",
      "publicado": "2026-11-17"
     }
    ],
@@ -15180,12 +15179,12 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 45,
+   "maliciosos": 38,
    "maliciosos_mas": false,
-   "avisos": 77,
+   "avisos": 74,
    "avisos_mas": false,
    "criticos": 4,
-   "altos": 37,
+   "altos": 34,
    "ejemplos_maliciosos": [
     {
      "ghsa": "GHSA-wqr9-48cj-55gj",
@@ -15245,17 +15244,6 @@
    ],
    "ejemplos_graves": [
     {
-     "ghsa": "GHSA-x8q7-6c7m-52gw",
-     "cve": "CVE-2026-128138",
-     "paquete": "nltk",
-     "resumen": "NLTK incomplete fix: additional JVM/JAR sandbox bypass through unvalidated launcher tokens in java() command arguments",
-     "gravedad": "critical",
-     "cvss": 9.8,
-     "epss": 0.00914,
-     "corregido_en": "3.10.4",
-     "publicado": "2026-11-19"
-    },
-    {
      "ghsa": "GHSA-p34x-fmph-9fjx",
      "cve": "CVE-2026-77312",
      "paquete": "flyto-core",
@@ -15265,6 +15253,28 @@
      "epss": 0.00748,
      "corregido_en": "2.26.8",
      "publicado": "2026-11-20"
+    },
+    {
+     "ghsa": "GHSA-x8q7-6c7m-52gw",
+     "cve": "CVE-2026-128138",
+     "paquete": "nltk",
+     "resumen": "NLTK incomplete fix: additional JVM/JAR sandbox bypass through unvalidated launcher tokens in java() command arguments",
+     "gravedad": "critical",
+     "cvss": 9.8,
+     "epss": 0.00683,
+     "corregido_en": "3.10.4",
+     "publicado": "2026-11-19"
+    },
+    {
+     "ghsa": "GHSA-gfv3-m769-5xm3",
+     "cve": "CVE-2026-53998",
+     "paquete": "arize-phoenix",
+     "resumen": "Phoenix: Format String Injection in applyChatTemplate",
+     "gravedad": "critical",
+     "cvss": 10.0,
+     "epss": 0.00553,
+     "corregido_en": "15.7.0",
+     "publicado": "2026-11-17"
     },
     {
      "ghsa": "GHSA-9x8x-crjq-g64h",
@@ -15278,26 +15288,15 @@
      "publicado": "2026-11-20"
     },
     {
-     "ghsa": "GHSA-gfv3-m769-5xm3",
-     "cve": "CVE-2026-53998",
-     "paquete": "arize-phoenix",
-     "resumen": "Phoenix: Format String Injection in applyChatTemplate",
-     "gravedad": "critical",
-     "cvss": 10.0,
-     "epss": 0.00356,
-     "corregido_en": "15.7.0",
-     "publicado": "2026-11-17"
-    },
-    {
-     "ghsa": "GHSA-phmp-hrw4-r36r",
-     "cve": "CVE-2026-97698",
-     "paquete": "mistune",
-     "resumen": "Mistune: Quadratic-time DoS in parse_link_href via unbounded parenthesis scan on empty-label links",
+     "ghsa": "GHSA-555j-qj3j-c8jv",
+     "cve": "CVE-2026-132275",
+     "paquete": "svglib",
+     "resumen": "svglib: Exponential resource consumption via nested <use> references in svg2rlg",
      "gravedad": "high",
      "cvss": 7.5,
-     "epss": 0.00719,
-     "corregido_en": "3.3.4",
-     "publicado": "2026-11-19"
+     "epss": 0.0106,
+     "corregido_en": "2.3.1",
+     "publicado": "2026-11-20"
     }
    ],
    "estado": "maliciosos"
@@ -15330,6 +15329,17 @@
    "ejemplos_maliciosos": [],
    "ejemplos_graves": [
     {
+     "ghsa": "GHSA-jmmc-wjpc-pg34",
+     "cve": "CVE-2026-61689",
+     "paquete": "org.xwiki.platform:xwiki-platform-rest-server",
+     "resumen": "XWiki Platform: HQL injection in search allows unauthenticated database extraction including password hashes",
+     "gravedad": "high",
+     "cvss": null,
+     "epss": 0.00801,
+     "corregido_en": "16.10.18",
+     "publicado": "2026-11-19"
+    },
+    {
      "ghsa": "GHSA-cvx8-9ff6-54xq",
      "cve": "CVE-2026-76088",
      "paquete": "org.pgpainless:pgpainless-core",
@@ -15338,17 +15348,6 @@
      "cvss": 7.5,
      "epss": 0.00717,
      "corregido_en": "1.7.8",
-     "publicado": "2026-11-19"
-    },
-    {
-     "ghsa": "GHSA-jmmc-wjpc-pg34",
-     "cve": "CVE-2026-61689",
-     "paquete": "org.xwiki.platform:xwiki-platform-rest-server",
-     "resumen": "XWiki Platform: HQL injection in search allows unauthenticated database extraction including password hashes",
-     "gravedad": "high",
-     "cvss": null,
-     "epss": 0.00531,
-     "corregido_en": "16.10.18",
      "publicado": "2026-11-19"
     },
     {
@@ -15403,7 +15402,7 @@
      "resumen": "Refitter allows arbitrary code execution through unescaped OpenAPI content-type values",
      "gravedad": "critical",
      "cvss": null,
-     "epss": 0.0035,
+     "epss": 0.00568,
      "corregido_en": "2.1.2",
      "publicado": "2026-11-20"
     },
@@ -15472,7 +15471,7 @@
      "resumen": "Jane: Instantiation RCE via query parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
      "gravedad": "critical",
      "cvss": null,
-     "epss": 0.00391,
+     "epss": 0.00507,
      "corregido_en": "7.12.0",
      "publicado": "2026-11-19"
     },
@@ -15488,6 +15487,17 @@
      "publicado": "2026-11-20"
     },
     {
+     "ghsa": "GHSA-9657-8vc2-7g2p",
+     "cve": "CVE-2026-115463",
+     "paquete": "poweradmin/poweradmin",
+     "resumen": "Poweradmin: The email second factor is an mt_rand() six-digit code verified with no attempt limit or lockout, so an attacker holding the password can brute-force it within the validity window",
+     "gravedad": "high",
+     "cvss": 7.4,
+     "epss": 0.009,
+     "corregido_en": "4.2.6",
+     "publicado": "2026-11-20"
+    },
+    {
      "ghsa": "GHSA-c94f-87xg-65wf",
      "cve": "CVE-2026-91115",
      "paquete": "silverstripe/framework",
@@ -15497,17 +15507,6 @@
      "epss": 0.00638,
      "corregido_en": "6.2.13",
      "publicado": "2026-11-16"
-    },
-    {
-     "ghsa": "GHSA-9657-8vc2-7g2p",
-     "cve": "CVE-2026-115463",
-     "paquete": "poweradmin/poweradmin",
-     "resumen": "Poweradmin: The email second factor is an mt_rand() six-digit code verified with no attempt limit or lockout, so an attacker holding the password can brute-force it within the validity window",
-     "gravedad": "high",
-     "cvss": 7.4,
-     "epss": 0.00616,
-     "corregido_en": "4.2.6",
-     "publicado": "2026-11-20"
     },
     {
      "ghsa": "GHSA-prhx-9q2h-ph2x",
@@ -15561,7 +15560,7 @@
      "resumen": "Fabio: Access-control bypass through unnormalized request paths",
      "gravedad": "critical",
      "cvss": 9.1,
-     "epss": 0.00477,
+     "epss": 0.00569,
      "corregido_en": "1.7.3",
      "publicado": "2026-11-20"
     },
@@ -15583,7 +15582,7 @@
      "resumen": "Git LFS may attempt arbitrary remote commands via crafted SSH URLs",
      "gravedad": "high",
      "cvss": null,
-     "epss": 0.01101,
+     "epss": 0.00871,
      "corregido_en": "3.8.1",
      "publicado": "2026-11-20"
     },
@@ -15640,20 +15639,9 @@
      "resumen": "Atomic Server: Unauthenticated `/setup` invite grants write access to the entire Drive",
      "gravedad": "critical",
      "cvss": 9.8,
-     "epss": 0.00382,
+     "epss": 0.00473,
      "corregido_en": null,
      "publicado": "2026-11-18"
-    },
-    {
-     "ghsa": "GHSA-3mgh-93r5-r7jf",
-     "cve": "CVE-2026-83816",
-     "paquete": "codewhale-tui",
-     "resumen": "CodeWhale: exec_shell parallel-readonly classifier auto-approves fd/rg/git grep exec flags enabling silent RCE",
-     "gravedad": "high",
-     "cvss": 8.1,
-     "epss": 0.00737,
-     "corregido_en": "0.9.0",
-     "publicado": "2026-11-19"
     },
     {
      "ghsa": "GHSA-pxh3-4qqv-58mg",
@@ -15662,8 +15650,19 @@
      "resumen": "Servo Sandbox bypass: declarative refresh can auto-navigate a sandboxed iframe",
      "gravedad": "high",
      "cvss": 8.3,
-     "epss": 0.00538,
+     "epss": 0.00671,
      "corregido_en": "0.3.0",
+     "publicado": "2026-11-19"
+    },
+    {
+     "ghsa": "GHSA-3mgh-93r5-r7jf",
+     "cve": "CVE-2026-83816",
+     "paquete": "codewhale-tui",
+     "resumen": "CodeWhale: exec_shell parallel-readonly classifier auto-approves fd/rg/git grep exec flags enabling silent RCE",
+     "gravedad": "high",
+     "cvss": 8.1,
+     "epss": 0.00606,
+     "corregido_en": "0.9.0",
      "publicado": "2026-11-19"
     }
    ],
@@ -15847,9 +15846,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 855,
-   "criticos": 58,
-   "altos": 282,
+   "cves": 860,
+   "criticos": 59,
+   "altos": 283,
    "urgentes": 15,
    "epss_max": 0.0216,
    "fabricantes": [
@@ -16553,8 +16552,8 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1539,
-   "criticos": 128,
+   "cves": 1544,
+   "criticos": 127,
    "altos": 523,
    "urgentes": 33,
    "epss_max": 0.7112,
@@ -16702,10 +16701,10 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 21,
-   "criticos": 7,
-   "altos": 7,
-   "urgentes": 5,
+   "cves": 18,
+   "criticos": 5,
+   "altos": 6,
+   "urgentes": 3,
    "epss_max": 0.0297,
    "fabricantes": [
     "D-Link",
@@ -16730,13 +16729,6 @@
      "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-129353",
-     "fabricante": "D-Link",
-     "cvss": 9.3,
-     "epss": 0.01264,
-     "prioridad": "urgente"
-    },
-    {
      "cve": "CVE-2026-129354",
      "fabricante": "D-Link",
      "cvss": 9.3,
@@ -16744,11 +16736,18 @@
      "prioridad": "urgente"
     },
     {
-     "cve": "CVE-2026-129351",
-     "fabricante": "Trendnet",
+     "cve": "CVE-2026-134169",
+     "fabricante": "",
+     "cvss": 7.5,
+     "epss": 0.00752,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-129444",
+     "fabricante": "D-Link",
      "cvss": 9.3,
-     "epss": 0.00842,
-     "prioridad": "urgente"
+     "epss": 0.00619,
+     "prioridad": "alta"
     }
    ]
   },

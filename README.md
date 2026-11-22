@@ -223,12 +223,13 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-11-21 18:45 UTC · **IOCs recolectados:** 2136 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-11-22 01:06 UTC · **IOCs recolectados:** 2490 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
+| 75 (alta) | media | `35[.]198[.]236[.]64:443` | ip:port | Unknown malware | ThreatFox | 2026-11-21 23:08:44 UTC |
 | 72 (alta) | alta | `37[.]221[.]79[.]4:80` | ip:port | Mirai | ThreatFox | 2026-11-21 09:44:45 UTC |
 | 72 (alta) | media | `171[.]221[.]160[.]227:22` | ip:port | Unknown malware | ThreatFox | 2026-11-21 07:43:11 UTC |
 | 71 (alta) | media | `109[.]160[.]32[.]45:22` | ip:port | Unknown malware | ThreatFox | 2026-11-21 07:43:16 UTC |
@@ -243,7 +244,8 @@ python main.py
 | 69 (media) | media | `193[.]32[.]162[.]84:22` | ip:port | Unknown malware | ThreatFox | 2026-11-21 07:43:12 UTC |
 | 68 (media) | critica | `45[.]156[.]87[.]227:31337` | ip:port | Sliver | ThreatFox | 2026-11-21 05:14:43 UTC |
 | 68 (media) | critica | `109[.]205[.]182[.]94:31337` | ip:port | Sliver | ThreatFox | 2026-11-21 05:14:25 UTC |
-| 67 (media) | media | `111[.]68[.]4[.]13:8787` | ip:port | Unknown malware | ThreatFox | 2026-11-21 17:36:50 UTC |
+| 67 (media) | media | `111[.]68[.]4[.]13:8787` | ip:port | Unknown malware | ThreatFox | 2026-11-21 18:51:12 UTC |
+| 64 (media) | alta | `hxxps://www[.]dropbox[.]com/scl/fi/gvt1norn57vcr43fx8ipg/cp[.]zip?rlkey=slrrhrn10c62di4kuziaebaiq&st=p2funnqp&dl=1` | url | Unknown RAT | ThreatFox, URLhaus | 2026-11-22 00:31:01 UTC |
 | 64 (media) | critica | `103[.]72[.]56[.]236:31337` | ip:port | Sliver | ThreatFox | 2026-11-21 05:09:11 UTC |
 | 63 (media) | alta | `09c3edd9f5f909f78c42bf15422edfec919f990707fa205d12a2c5cde67ab889` | filehash-sha256 | Mirai | ThreatFox | 2026-11-21 01:00:29 UTC |
 | 63 (media) | alta | `1942f23cc0b2fc32749d4e35394e8637e2ccc4ccc5c4cd9dd5a88bc1e1a9544f` | filehash-sha256 | Mirai | ThreatFox | 2026-11-21 01:00:28 UTC |
@@ -252,8 +254,6 @@ python main.py
 | 63 (media) | alta | `9a0abb7f92e5a8895d2ae2c7f6cea3658128eaa78f1dc80b81b83d919f809883` | filehash-sha256 | Mirai | ThreatFox | 2026-11-21 01:00:25 UTC |
 | 63 (media) | alta | `a4df402fa59a37f1f2ba5122993191ee4c876cc07183cf803026d81feb6503d1` | filehash-sha256 | Mirai | ThreatFox | 2026-11-21 01:00:24 UTC |
 | 63 (media) | alta | `a12a78687c0b0ddc46190c5dd9a28aeafcb9bd6739518818663d99e520f22609` | filehash-sha256 | Mirai | ThreatFox | 2026-11-21 01:00:23 UTC |
-| 63 (media) | alta | `22a66464a49bd9dcbd952cd5070b708621f6bd5d04fbf50301e450d86dccf9ad` | filehash-sha256 | Mirai | ThreatFox | 2026-11-21 01:00:22 UTC |
-| 62 (media) | media | `185[.]244[.]148[.]229:8080` | ip:port | Unknown malware | ThreatFox | 2026-11-21 13:42:21 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -283,7 +283,7 @@ python main.py
 
 ### Avisos de seguridad de los últimos 7 días
 
-**378** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **38** de algo que ya se explota · **10** de día cero · **44** sin parche
+**375** avisos de 24/26 fuentes (fabricantes, CERT, exploits y noticias) · **38** de algo que ya se explota · **10** de día cero · **44** sin parche
 
 **Lo más citado:** CVE-2026-114938 (11 fuentes) · CVE-2026-123007 (11 fuentes) · CVE-2026-123633 (9 fuentes) · CVE-2026-113425 (6 fuentes) · CVE-2026-121810 (6 fuentes) · CVE-2026-123634 (6 fuentes) · CVE-2026-111497 (5 fuentes, KEV) · CVE-2026-115560 (5 fuentes)
 
@@ -317,7 +317,7 @@ python main.py
 
 ### Vulnerabilidades de los últimos 7 días
 
-**4575** CVE publicados · **2** ya explotados · **83** urgentes · **350** con CVSS ≥ 9 · **597** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
+**4582** CVE publicados · **2** ya explotados · **81** urgentes · **348** con CVSS ≥ 9 · **588** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
 
 Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC). Un exploit de Exploit-DB cuenta como prueba de concepto.
 
@@ -353,8 +353,8 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 
 | Lenguaje | Estado | Paquetes maliciosos | Avisos críticos / altos |
 |---|---|---|---|
-| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 542 | 2 / 17 |
-| Python (PyPI) | 🔴 paquetes maliciosos | 45 | 4 / 37 |
+| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 540 | 2 / 17 |
+| Python (PyPI) | 🔴 paquetes maliciosos | 38 | 4 / 34 |
 | Java / Kotlin (Maven) | 🟡 avisos altos | 0 | 0 / 4 |
 | .NET (C#) (NuGet) | 🟠 avisos críticos | 0 | 3 / 3 |
 | PHP (Packagist) | 🔴 el lenguaje se explota | 0 | 3 / 10 |
@@ -370,7 +370,7 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 
 | Sistema | Estado | CVE nuevos | CVSS ≥ 9 | En KEV (30 días) |
 |---|---|---|---|---|
-| Aplicaciones web y CMS | 🔴 explotación activa | 855 | 58 | 3 |
+| Aplicaciones web y CMS | 🔴 explotación activa | 860 | 59 | 3 |
 | Red, VPN y firewalls | 🔴 explotación activa | 204 | 18 | 10 |
 | Windows y Microsoft | 🔴 explotación activa | 38 | 5 | 1 |
 | Software empresarial | 🔴 explotación activa | 694 | 62 | 6 |
@@ -380,9 +380,9 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 | Lenguajes y entornos de ejecución | 🔴 explotación activa | 1 | 0 | 2 |
 | Navegadores | 🔴 explotación activa | 209 | 18 | 1 |
 | Servidores y servicios | 🔴 explotación activa | 7 | 1 | 1 |
-| Otros | 🔴 explotación activa | 1539 | 128 | 8 |
+| Otros | 🔴 explotación activa | 1544 | 127 | 8 |
 | Librerías de código abierto | 🟠 riesgo alto | 360 | 45 | 0 |
-| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 21 | 7 | 0 |
+| Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 18 | 5 | 0 |
 | Industrial (OT · ICS) | 🟠 riesgo alto | 1 | 1 | 0 |
 | Android | 🟢 vigilar | 12 | 0 | 0 |
 | IA y agentes (LLM · MCP) | 🟢 vigilar | 11 | 0 | 0 |
