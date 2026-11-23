@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-23 01:32",
+ "generado_utc": "2026-11-23 11:51",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -25,7 +25,7 @@
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/feed",
    "estado": "ok",
-   "avisos": 7
+   "avisos": 8
   },
   {
    "id": "cisa",
@@ -177,9 +177,8 @@
    "tipo": "exploit",
    "idioma": "en",
    "url": "https://www.exploit-db.com/rss.xml",
-   "estado": "error",
-   "avisos": 0,
-   "detalle": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.exploit-db.com/rss.xml"
+   "estado": "ok",
+   "avisos": 0
   },
   {
    "id": "projectzero",
@@ -224,7 +223,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 34
+   "avisos": 35
   },
   {
    "id": "bleeping",
@@ -242,24 +241,24 @@
    "idioma": "en",
    "url": "https://www.securityweek.com/feed/",
    "estado": "ok",
-   "avisos": 23
+   "avisos": 22
   }
  ],
  "resumen": {
-  "avisos": 373,
+  "avisos": 374,
   "por_tipo": {
    "noticia": 75,
+   "cert": 109,
    "fabricante": 156,
-   "exploit": 34,
-   "cert": 108
+   "exploit": 34
   },
-  "explotados": 38,
+  "explotados": 41,
   "dia_cero": 11,
   "sin_parche": 43,
-  "criticos": 55,
+  "criticos": 58,
   "exploit_publico": 9,
-  "cves_citados": 393,
-  "fuentes_ok": 24,
+  "cves_citados": 394,
+  "fuentes_ok": 25,
   "fuentes_total": 26
  },
  "mas_citados": [
@@ -458,6 +457,105 @@
   }
  ],
  "avisos": [
+  {
+   "fuente": "securityweek",
+   "titulo": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
+   "enlace": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+   "fecha": "2026-11-23T11:35Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+   "enlace": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+   "fecha": "2026-11-23T09:11Z",
+   "cves": [
+    "CVE-2026-131914"
+   ],
+   "cves_total": 1,
+   "texto_explotada": true,
+   "texto_critica": true,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": true,
+   "cvss_max": 9.3,
+   "epss_max": 0.0061,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+   "enlace": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+   "fecha": "2026-11-23T09:04Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe_sci",
+   "titulo": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss",
+   "fecha": "2026-11-23T08:46Z",
+   "cves": [
+    "CVE-2026-127057"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": 9.9,
+   "epss_max": 0.0069,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "bleeping",
+   "titulo": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+   "enlace": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+   "fecha": "2026-11-23T07:44Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": true,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": true,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "bleeping",
    "titulo": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
@@ -8414,86 +8512,6 @@
    "texto_critica": false,
    "dia_cero": false,
    "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
-   "enlace": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
-   "fecha": "2026-11-16T11:15Z",
-   "cves": [
-    "CVE-2026-114713"
-   ],
-   "cves_total": 1,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-114713"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0115,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
-   "enlace": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
-   "fecha": "2026-11-16T11:05Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "bleeping",
-   "titulo": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-   "enlace": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-   "fecha": "2026-11-16T09:30Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-   "enlace": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-   "fecha": "2026-11-16T06:53Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
    "kev": [],
    "explotada": false,
    "critica": false,

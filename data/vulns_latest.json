@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-23 01:31",
+ "generado_utc": "2026-11-23 11:50",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,22 +10,22 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 4668,
-  "criticos": 354,
+  "cves": 4677,
+  "criticos": 355,
   "explotados": 2,
   "urgentes": 81,
   "epss_10": 12,
-  "sin_puntuar": 440,
+  "sin_puntuar": 429,
   "por_prioridad": {
    "explotada": 2,
    "urgente": 81,
-   "alta": 2053,
-   "media": 1863,
-   "baja": 669
+   "alta": 2049,
+   "media": 1886,
+   "baja": 659
   },
-  "paquetes_maliciosos": 594,
+  "paquetes_maliciosos": 611,
   "exploit_publico": 0,
-  "poc_github": 169,
+  "poc_github": 194,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -1574,7 +1574,7 @@
     "CWE-88"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -2736,7 +2736,7 @@
     "CWE-78"
    ],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -3221,7 +3221,7 @@
     "CWE-459"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -4396,7 +4396,7 @@
     "CWE-770"
    ],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -6634,8 +6634,14 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "The Danfoss legacy AK-SC 355 and AK-SM 800 Series are vulnerable to unauthorized access when default credentials or known passwords are used for authentication. These products were manufactured with default credentials documented in the product manual. All versions are affected.",
-   "avisos": [],
-   "avisos_total": 0
+   "avisos": [
+    {
+     "fuente": "incibe_sci",
+     "nombre": "INCIBE-CERT · industrial",
+     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss"
+    }
+   ],
+   "avisos_total": 1
   },
   {
    "cve": "CVE-2026-48118",
@@ -7216,30 +7222,6 @@
    "dia_cero": false,
    "explotacion_ssvc": null,
    "descripcion": "aMQTT is an open source MQTT broker and client. From 0.11.0 until 0.11.4, add_subscription() in amqtt/broker.py accepts malformed single-level + wildcard placement because it checks substrings instead of validating each slash-delimited level. The _matches() function converts each…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-129784",
-   "publicado": "2026-11-16",
-   "prioridad": "alta",
-   "cvss": 8.5,
-   "gravedad": "high",
-   "epss": 0.00659,
-   "epss_percentil": 0.52492,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-502"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": null,
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "none",
-   "descripcion": "The httpx Ruby gem parses JSON response bodies through its transcoder layer. HTTPX::Response#json delegates to Transcoder::JSON.decode, and when the oj gem is loaded and multi_json is absent, the decoder falls back to json_load, which calls Oj.load(response.to_s) with no mode opt…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -8549,8 +8531,14 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "Deserialization of untrusted data in double-submit cookie vs. form field validation in Idunno.AntiCsrf versions through 0.9.1 Beta on ASP.NET allows remote unauthenticated attackers to execute code via object injection",
-   "avisos": [],
-   "avisos_total": 0
+   "avisos": [
+    {
+     "fuente": "thehackernews",
+     "nombre": "The Hacker News",
+     "enlace": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
+    }
+   ],
+   "avisos_total": 1
   },
   {
    "cve": "CVE-2026-75612",
@@ -8737,7 +8725,7 @@
     "CWE-863"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -13203,7 +13191,7 @@
     "CWE-407"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -13324,7 +13312,7 @@
     "CWE-862"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -13947,7 +13935,7 @@
     "CWE-862"
    ],
    "estado_nvd": "Received",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -15009,6 +14997,30 @@
     }
    ],
    "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-129872",
+   "publicado": "2026-11-16",
+   "prioridad": "alta",
+   "cvss": 7.7,
+   "gravedad": "high",
+   "epss": 0.0048,
+   "epss_percentil": 0.42272,
+   "kev": false,
+   "categoria": "web",
+   "fabricante": "",
+   "cwe": [
+    "CWE-89"
+   ],
+   "estado_nvd": "Deferred",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "poc",
+   "descripcion": "REBUILD 2.7.0 through 4.5.4 contains an SQL injection vulnerability that allows low-privileged authenticated users to inject AjQL conditions through the plan parameter of /project/tasks/list. Attackers can use priority-* plans and the returned task count as a boolean oracle to re…",
+   "avisos": [],
+   "avisos_total": 0
   }
  ],
  "cves_publicados": 600,
@@ -15025,7 +15037,7 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 546,
+   "maliciosos": 563,
    "maliciosos_mas": false,
    "avisos": 40,
    "avisos_mas": false,
@@ -15033,59 +15045,59 @@
    "altos": 17,
    "ejemplos_maliciosos": [
     {
-     "ghsa": "GHSA-c4c4-vhh9-j3h4",
+     "ghsa": "GHSA-cmm8-6ggh-j5gg",
      "cve": null,
-     "paquete": "cti-defense",
-     "resumen": "Malware in cti-defense",
+     "paquete": "ppbbll5",
+     "resumen": "Malicious code in ppbbll5 (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-22"
+     "publicado": "2026-11-23"
     },
     {
-     "ghsa": "GHSA-6crj-9fxx-v653",
+     "ghsa": "GHSA-fvc9-6hmv-p93q",
      "cve": null,
-     "paquete": "@leadstack/crm-connect",
-     "resumen": "Malware in @leadstack/crm-connect",
+     "paquete": "t10-xor-spawn-testmetest",
+     "resumen": "Malicious code in t10-xor-spawn-testmetest (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-22"
+     "publicado": "2026-11-23"
     },
     {
-     "ghsa": "GHSA-hqfp-fhqg-4xc5",
+     "ghsa": "GHSA-3c7v-c247-p7m9",
      "cve": null,
-     "paquete": "@leadstack/crm-connect",
-     "resumen": "Malicious code in @leadstack/crm-connect (npm)",
+     "paquete": "array-flatten-utils",
+     "resumen": "Malicious code in array-flatten-utils (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-22"
+     "publicado": "2026-11-23"
     },
     {
-     "ghsa": "GHSA-p7r2-5ppv-hr6g",
+     "ghsa": "GHSA-5xqh-742j-hjvq",
      "cve": null,
-     "paquete": "@c1-ease/core",
-     "resumen": "Malicious code in @c1-ease/core (npm)",
+     "paquete": "t4-xorspawn-testmetest",
+     "resumen": "Malicious code in t4-xorspawn-testmetest (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-22"
+     "publicado": "2026-11-23"
     },
     {
-     "ghsa": "GHSA-4w4w-phqm-jfpm",
+     "ghsa": "GHSA-j3pm-jc6q-cq28",
      "cve": null,
-     "paquete": "@c1-ease/commerce",
-     "resumen": "Malicious code in @c1-ease/commerce (npm)",
+     "paquete": "fca-meta",
+     "resumen": "Malicious code in fca-meta (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
      "corregido_en": null,
-     "publicado": "2026-11-22"
+     "publicado": "2026-11-23"
     }
    ],
    "ejemplos_graves": [
@@ -15826,9 +15838,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 881,
+   "cves": 883,
    "criticos": 56,
-   "altos": 286,
+   "altos": 287,
    "urgentes": 16,
    "epss_max": 0.0216,
    "fabricantes": [
@@ -16060,9 +16072,9 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 694,
+   "cves": 692,
    "criticos": 61,
-   "altos": 249,
+   "altos": 247,
    "urgentes": 1,
    "epss_max": 0.0546,
    "fabricantes": [
@@ -16157,9 +16169,9 @@
    "categoria": "linux",
    "nombre": "Linux",
    "estado": "explotacion_activa",
-   "cves": 573,
-   "criticos": 16,
-   "altos": 146,
+   "cves": 555,
+   "criticos": 13,
+   "altos": 138,
    "urgentes": 1,
    "epss_max": 0.0147,
    "fabricantes": [
@@ -16221,15 +16233,15 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 29,
+   "cves": 32,
    "criticos": 2,
-   "altos": 11,
+   "altos": 13,
    "urgentes": 1,
    "epss_max": 0.0353,
    "fabricantes": [
     "AWS",
-    "Kubernetes",
     "VMware",
+    "Kubernetes",
     "Amazon",
     "Docker"
    ],
@@ -16525,9 +16537,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1611,
-   "criticos": 127,
-   "altos": 527,
+   "cves": 1634,
+   "criticos": 130,
+   "altos": 530,
    "urgentes": 32,
    "epss_max": 0.7311,
    "fabricantes": [
@@ -16674,14 +16686,15 @@
    "categoria": "iot",
    "nombre": "Routers domésticos, IoT y cámaras",
    "estado": "riesgo_alto",
-   "cves": 15,
-   "criticos": 3,
+   "cves": 16,
+   "criticos": 4,
    "altos": 5,
    "urgentes": 3,
    "epss_max": 0.0367,
    "fabricantes": [
     "D-Link",
     "Trendnet",
+    "TOTOLINK",
     "Zephyr RTOS"
    ],
    "kev_recientes": [],
