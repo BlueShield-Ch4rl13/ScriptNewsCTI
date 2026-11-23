@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-22 19:06",
+ "generado_utc": "2026-11-23 01:31",
  "ventana_dias": 7,
  "fuentes": {
   "nvd": "ok",
@@ -10,8 +10,8 @@
   "github_advisories": "ok"
  },
  "resumen": {
-  "cves": 4630,
-  "criticos": 353,
+  "cves": 4668,
+  "criticos": 354,
   "explotados": 2,
   "urgentes": 81,
   "epss_10": 12,
@@ -19,13 +19,13 @@
   "por_prioridad": {
    "explotada": 2,
    "urgente": 81,
-   "alta": 2051,
-   "media": 1829,
-   "baja": 667
+   "alta": 2053,
+   "media": 1863,
+   "baja": 669
   },
-  "paquetes_maliciosos": 597,
+  "paquetes_maliciosos": 594,
   "exploit_publico": 0,
-  "poc_github": 165,
+  "poc_github": 169,
   "ransomware": 0,
   "dia_cero": 1
  },
@@ -714,7 +714,7 @@
    "ransomware": false,
    "dia_cero": false,
    "explotacion_ssvc": "none",
-   "descripcion": "monailabel (aka MONAI Label) through 0.8.5 allows directory traversal, with resultant remote code execution, via the image parameter to the PUT /datastore/image endpoint, as exploited in the wild starting in September 2026.",
+   "descripcion": "monailabel (aka MONAI Label) before 0.8.6 allows directory traversal, with resultant remote code execution, via the image parameter to the PUT /datastore/image endpoint, as exploited in the wild starting in September 2026.",
    "avisos": [],
    "avisos_total": 0
   },
@@ -8626,30 +8626,6 @@
    "avisos_total": 0
   },
   {
-   "cve": "CVE-2026-129494",
-   "publicado": "2026-11-16",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00608,
-   "epss_percentil": 0.50029,
-   "kev": false,
-   "categoria": "web",
-   "fabricante": "",
-   "cwe": [
-    "CWE-522"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "CloudPaste 1.1.0 through 1.9.1 contains an information disclosure vulnerability that allows unauthenticated attackers to obtain WebDAV storage credentials through the unauthenticated /api/proxy/link endpoint. Attackers who know a public share slug can retrieve the Basic Authoriza…",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
    "cve": "CVE-2026-133835",
    "publicado": "2026-11-20",
    "prioridad": "alta",
@@ -9145,30 +9121,6 @@
    "dia_cero": false,
    "explotacion_ssvc": "none",
    "descripcion": "In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via a context parameters callback in the Kotlin DSL sandbox",
-   "avisos": [],
-   "avisos_total": 0
-  },
-  {
-   "cve": "CVE-2026-129493",
-   "publicado": "2026-11-16",
-   "prioridad": "alta",
-   "cvss": 8.7,
-   "gravedad": "high",
-   "epss": 0.00597,
-   "epss_percentil": 0.49462,
-   "kev": false,
-   "categoria": "otros",
-   "fabricante": "",
-   "cwe": [
-    "CWE-201"
-   ],
-   "estado_nvd": "Received",
-   "exploit_publico": "github",
-   "exploitdb": null,
-   "ransomware": false,
-   "dia_cero": false,
-   "explotacion_ssvc": "poc",
-   "descripcion": "Bolo (bolo-solo) 1.7 through 2.6.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read article view passwords via the public GET /articles endpoint. Attackers can retrieve the plaintext articleViewPwd field returned by ArticleProcessor.g…",
    "avisos": [],
    "avisos_total": 0
   },
@@ -11097,7 +11049,7 @@
     "CWE-407"
    ],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -11321,7 +11273,7 @@
     "CWE-407"
    ],
    "estado_nvd": "Deferred",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -12352,7 +12304,7 @@
     "CWE-400"
    ],
    "estado_nvd": "Awaiting Analysis",
-   "exploit_publico": null,
+   "exploit_publico": "github",
    "exploitdb": null,
    "ransomware": false,
    "dia_cero": false,
@@ -14997,6 +14949,66 @@
    "descripcion": "Rocboss paopao-ce through 0.6.0-alpha.3 contains a payment bypass vulnerability that allows unauthenticated attackers to obtain paid attachments by reading storage URLs from the GET /v1/post endpoint. Attackers can download the paid file directly from the unauthenticated LocalOSS…",
    "avisos": [],
    "avisos_total": 0
+  },
+  {
+   "cve": "CVE-2026-95787",
+   "publicado": "2026-11-18",
+   "prioridad": "alta",
+   "cvss": 10.0,
+   "gravedad": "critical",
+   "epss": 0.0048,
+   "epss_percentil": 0.42307,
+   "kev": false,
+   "categoria": "red",
+   "fabricante": "HPE Aruba",
+   "cwe": [
+    "CWE-269"
+   ],
+   "estado_nvd": "Awaiting Analysis",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Vulnerabilities in the PAPI protocol of AOS-10 could allow an unauthenticated remote attacker to circumvent existing authentication controls. Successful exploitation could allow an attacker to gain administrative access, modify system configurations, and access or manipulate sens…",
+   "avisos": [
+    {
+     "fuente": "incibe",
+     "nombre": "INCIBE-CERT",
+     "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-hpe-networking"
+    }
+   ],
+   "avisos_total": 1
+  },
+  {
+   "cve": "CVE-2026-131060",
+   "publicado": "2026-11-17",
+   "prioridad": "alta",
+   "cvss": 8.8,
+   "gravedad": "high",
+   "epss": 0.0048,
+   "epss_percentil": 0.42299,
+   "kev": false,
+   "categoria": "navegadores",
+   "fabricante": "Google",
+   "cwe": [
+    "CWE-122"
+   ],
+   "estado_nvd": "Analyzed",
+   "exploit_publico": null,
+   "exploitdb": null,
+   "ransomware": false,
+   "dia_cero": false,
+   "explotacion_ssvc": "none",
+   "descripcion": "Buffer overflow in Media in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+   "avisos": [
+    {
+     "fuente": "chrome",
+     "nombre": "Google Chrome",
+     "enlace": "http://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+    }
+   ],
+   "avisos_total": 1
   }
  ],
  "cves_publicados": 600,
@@ -15013,13 +15025,24 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 548,
+   "maliciosos": 546,
    "maliciosos_mas": false,
    "avisos": 40,
    "avisos_mas": false,
    "criticos": 2,
    "altos": 17,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-c4c4-vhh9-j3h4",
+     "cve": null,
+     "paquete": "cti-defense",
+     "resumen": "Malware in cti-defense",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-22"
+    },
     {
      "ghsa": "GHSA-6crj-9fxx-v653",
      "cve": null,
@@ -15058,17 +15081,6 @@
      "cve": null,
      "paquete": "@c1-ease/commerce",
      "resumen": "Malicious code in @c1-ease/commerce (npm)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-22"
-    },
-    {
-     "ghsa": "GHSA-q599-9j7q-8xf5",
-     "cve": null,
-     "paquete": "@c1-ease/bank",
-     "resumen": "Malicious code in @c1-ease/bank (npm)",
      "gravedad": "critical",
      "cvss": null,
      "epss": null,
@@ -15147,13 +15159,24 @@
     "explotados": [],
     "explotados_total": 0
    },
-   "maliciosos": 39,
+   "maliciosos": 38,
    "maliciosos_mas": false,
    "avisos": 74,
    "avisos_mas": false,
    "criticos": 4,
    "altos": 34,
    "ejemplos_maliciosos": [
+    {
+     "ghsa": "GHSA-gwr7-vg43-f4v4",
+     "cve": null,
+     "paquete": "devready-doctor",
+     "resumen": "Malicious code in devready-doctor (PyPI)",
+     "gravedad": "critical",
+     "cvss": null,
+     "epss": null,
+     "corregido_en": null,
+     "publicado": "2026-11-23"
+    },
     {
      "ghsa": "GHSA-f792-xx76-jpr6",
      "cve": null,
@@ -15197,17 +15220,6 @@
      "epss": null,
      "corregido_en": null,
      "publicado": "2026-11-21"
-    },
-    {
-     "ghsa": "GHSA-ggc8-jm8h-f86f",
-     "cve": null,
-     "paquete": "scope-token-fetch-vector",
-     "resumen": "Malicious code in scope-token-fetch-vector (PyPI)",
-     "gravedad": "critical",
-     "cvss": null,
-     "epss": null,
-     "corregido_en": null,
-     "publicado": "2026-11-20"
     }
    ],
    "ejemplos_graves": [
@@ -15555,14 +15567,14 @@
      "publicado": "2026-11-20"
     },
     {
-     "ghsa": "GHSA-r72h-j7qq-v6qg",
-     "cve": "CVE-2026-58210",
-     "paquete": "github.com/nats-io/nats-server/v2",
-     "resumen": "NATS Server allows unauthenticated memory exhaustion through incomplete MQTT CONNECT packets",
+     "ghsa": "GHSA-hghq-53p7-c582",
+     "cve": "CVE-2026-115578",
+     "paquete": "github.com/phires/go-guerrilla",
+     "resumen": "go-guerrilla crashes on a bare XCLIENT command (7-byte slice off-by-one panic)",
      "gravedad": "high",
      "cvss": 7.5,
-     "epss": 0.00742,
-     "corregido_en": "2.12.12",
+     "epss": 0.00623,
+     "corregido_en": "1.6.7-1",
      "publicado": "2026-11-20"
     }
    ],
@@ -15814,9 +15826,9 @@
    "categoria": "web",
    "nombre": "Aplicaciones web y CMS",
    "estado": "explotacion_activa",
-   "cves": 880,
+   "cves": 881,
    "criticos": 56,
-   "altos": 292,
+   "altos": 286,
    "urgentes": 16,
    "epss_max": 0.0216,
    "fabricantes": [
@@ -15842,17 +15854,9 @@
      "nombre": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
      "anadido": "2026-11-03",
      "ransomware": false
-    },
-    {
-     "cve": "CVE-2026-110447",
-     "fabricante": "Collabora",
-     "producto": "Collabora Online – Built-in CODE Server",
-     "nombre": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
-     "anadido": "2026-10-23",
-     "ransomware": false
     }
    ],
-   "kev_recientes_total": 3,
+   "kev_recientes_total": 2,
    "destacados": [
     {
      "cve": "CVE-2026-120539",
@@ -15949,7 +15953,7 @@
      "ransomware": false
     }
    ],
-   "kev_recientes_total": 10,
+   "kev_recientes_total": 9,
    "destacados": [
     {
      "cve": "CVE-2026-123007",
@@ -15992,15 +15996,16 @@
    "categoria": "microsoft",
    "nombre": "Windows y Microsoft",
    "estado": "explotacion_activa",
-   "cves": 39,
+   "cves": 42,
    "criticos": 5,
-   "altos": 19,
+   "altos": 21,
    "urgentes": 2,
    "epss_max": 0.2882,
    "fabricantes": [
     "Windows",
     "Microsoft",
-    "NVIDIA"
+    "NVIDIA",
+    "Azure"
    ],
    "kev_recientes": [
     {
@@ -16055,9 +16060,9 @@
    "categoria": "empresarial",
    "nombre": "Software empresarial",
    "estado": "explotacion_activa",
-   "cves": 693,
+   "cves": 694,
    "criticos": 61,
-   "altos": 248,
+   "altos": 249,
    "urgentes": 1,
    "epss_max": 0.0546,
    "fabricantes": [
@@ -16216,17 +16221,17 @@
    "categoria": "virtualizacion",
    "nombre": "Virtualización y nube",
    "estado": "explotacion_activa",
-   "cves": 28,
+   "cves": 29,
    "criticos": 2,
-   "altos": 10,
+   "altos": 11,
    "urgentes": 1,
    "epss_max": 0.0353,
    "fabricantes": [
     "AWS",
+    "Kubernetes",
     "VMware",
     "Amazon",
-    "Docker",
-    "Kubernetes"
+    "Docker"
    ],
    "kev_recientes": [
     {
@@ -16520,9 +16525,9 @@
    "categoria": "otros",
    "nombre": "Otros",
    "estado": "explotacion_activa",
-   "cves": 1581,
-   "criticos": 126,
-   "altos": 525,
+   "cves": 1611,
+   "criticos": 127,
+   "altos": 527,
    "urgentes": 32,
    "epss_max": 0.7311,
    "fabricantes": [
@@ -16742,6 +16747,60 @@
    ]
   },
   {
+   "categoria": "ia",
+   "nombre": "IA y agentes (LLM · MCP)",
+   "estado": "vigilar",
+   "cves": 14,
+   "criticos": 0,
+   "altos": 7,
+   "urgentes": 0,
+   "epss_max": 0.0075,
+   "fabricantes": [
+    "Model Context Protocol",
+    "NVIDIA",
+    "Hugging Face"
+   ],
+   "kev_recientes": [],
+   "kev_recientes_total": 0,
+   "destacados": [
+    {
+     "cve": "CVE-2026-130796",
+     "fabricante": "",
+     "cvss": 8.8,
+     "epss": 0.00463,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-18883",
+     "fabricante": "",
+     "cvss": 7.1,
+     "epss": 0.00341,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-130764",
+     "fabricante": "",
+     "cvss": 8.3,
+     "epss": 0.00321,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-134293",
+     "fabricante": "Model Context Protocol",
+     "cvss": 8.2,
+     "epss": 0.00263,
+     "prioridad": "alta"
+    },
+    {
+     "cve": "CVE-2026-130711",
+     "fabricante": "",
+     "cvss": 7.1,
+     "epss": 0.00263,
+     "prioridad": "alta"
+    }
+   ]
+  },
+  {
    "categoria": "android",
    "nombre": "Android",
    "estado": "vigilar",
@@ -16790,59 +16849,6 @@
      "cvss": 5.3,
      "epss": 0.00234,
      "prioridad": "media"
-    }
-   ]
-  },
-  {
-   "categoria": "ia",
-   "nombre": "IA y agentes (LLM · MCP)",
-   "estado": "vigilar",
-   "cves": 12,
-   "criticos": 0,
-   "altos": 6,
-   "urgentes": 0,
-   "epss_max": 0.0075,
-   "fabricantes": [
-    "Model Context Protocol",
-    "NVIDIA"
-   ],
-   "kev_recientes": [],
-   "kev_recientes_total": 0,
-   "destacados": [
-    {
-     "cve": "CVE-2026-130796",
-     "fabricante": "",
-     "cvss": 8.8,
-     "epss": 0.00463,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-18883",
-     "fabricante": "",
-     "cvss": 7.1,
-     "epss": 0.00341,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-130764",
-     "fabricante": "",
-     "cvss": 8.3,
-     "epss": 0.00321,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-134293",
-     "fabricante": "Model Context Protocol",
-     "cvss": 8.2,
-     "epss": 0.00263,
-     "prioridad": "alta"
-    },
-    {
-     "cve": "CVE-2026-130711",
-     "fabricante": "",
-     "cvss": 7.1,
-     "epss": 0.00263,
-     "prioridad": "alta"
     }
    ]
   }

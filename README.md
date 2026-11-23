@@ -223,37 +223,37 @@ python main.py
 ## 📊 Datos en vivo
 
 <!-- CTI:START -->
-**Última actualización:** 2026-11-22 19:07 UTC · **IOCs recolectados:** 300 · **CVEs KEV recientes:** 21
+**Última actualización:** 2026-11-23 01:32 UTC · **IOCs recolectados:** 2455 · **CVEs KEV recientes:** 21
 
 ### Últimos IOCs (defangueados, máx. 25)
 
 | Score | Gravedad | IOC | Tipo | Amenaza | Fuente | Visto |
 |---|---|---|---|---|---|---|
-| 45 (media) | media | `hxxp://196[.]189[.]46[.]69:44663/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 18:02:05 UTC |
-| 44 (media) | media | `hxxp://179[.]49[.]213[.]85:33317/i` | url | malware\_download | URLhaus | 2026-11-22 17:47:05 UTC |
-| 44 (media) | media | `hxxp://210[.]208[.]111[.]26:35067/i` | url | malware\_download | URLhaus | 2026-11-22 17:40:19 UTC |
-| 43 (media) | media | `hxxp://138[.]204[.]196[.]254:44313/i` | url | malware\_download | URLhaus | 2026-11-22 18:32:06 UTC |
-| 43 (media) | media | `hxxps://sooyun-yun[.]com[.]cn/donwnload/ToDesk[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:26:44 UTC |
-| 43 (media) | media | `hxxp://210[.]208[.]111[.]234:42118/i` | url | malware\_download | URLhaus | 2026-11-22 18:02:08 UTC |
-| 43 (media) | media | `hxxp://210[.]208[.]106[.]68:51014/i` | url | malware\_download | URLhaus | 2026-11-22 17:58:10 UTC |
-| 43 (media) | media | `hxxp://210[.]208[.]106[.]68:51014/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 17:43:14 UTC |
-| 42 (media) | media | `hxxp://113[.]206[.]164[.]142:60003/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 18:42:06 UTC |
-| 41 (media) | media | `hxxp://42[.]239[.]191[.]173:54394/i` | url | malware\_download | URLhaus | 2026-11-22 18:47:05 UTC |
-| 40 (media) | media | `hxxps://doc[.]pdf-unico[.]lat/d/abpod6` | url | malware\_download | URLhaus | 2026-11-22 18:42:07 UTC |
-| 40 (media) | media | `hxxp://www[.]x9q[.]top/m` | url | malware\_download | URLhaus | 2026-11-22 18:36:07 UTC |
-| 40 (media) | media | `hxxp://123[.]9[.]43[.]224:44640/bin[.]sh` | url | malware\_download | URLhaus | 2026-11-22 18:32:06 UTC |
-| 40 (media) | media | `hxxps://todenk[.]com[.]cn/generated_pages/moban53/static/pic/ToDesk[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:31:55 UTC |
-| 40 (media) | media | `hxxps://pub-f6745cf8efe14679acfbe49bedff70af[.]r2[.]dev/Todesk_Big_3[.]1[.]1[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:26:21 UTC |
-| 40 (media) | media | `hxxps://pub-e4396ac9c01344db998f3a97ab6a8226[.]r2[.]dev/11[.]22Tduinfwarw0eq[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:26:20 UTC |
-| 40 (media) | media | `hxxp://kuaifase-me[.]cn` | url | malware\_download | URLhaus | 2026-11-22 18:26:05 UTC |
-| 40 (media) | media | `hxxps://sasa2[.]fixiow[.]icu/DvnX[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:18:08 UTC |
-| 40 (media) | media | `hxxps://ckdb[.]hypstok[.]info/HFinex[.]zip` | url | malware\_download | URLhaus | 2026-11-22 18:18:06 UTC |
-| 40 (media) | media | `hxxp://121[.]43[.]62[.]98/ezo` | url | malware\_download | URLhaus | 2026-11-22 18:18:06 UTC |
-| 40 (media) | media | `hxxp://177[.]3[.]208[.]56/x86_64` | url | malware\_download | URLhaus | 2026-11-22 18:18:05 UTC |
-| 40 (media) | media | `hxxp://159[.]138[.]120[.]97/zzxbac0029fd9` | url | malware\_download | URLhaus | 2026-11-22 18:18:05 UTC |
-| 40 (media) | media | `hxxp://42[.]233[.]106[.]88:58031/i` | url | malware\_download | URLhaus | 2026-11-22 18:17:06 UTC |
-| 40 (media) | media | `hxxp://42[.]233[.]95[.]165:47496/i` | url | malware\_download | URLhaus | 2026-11-22 18:17:06 UTC |
-| 40 (media) | media | `hxxps://cdn[.]discordapp[.]com/attachments/1298616021669773397/1574123122292957448/e265dfdaa6?ex=6b047fe6&is=6b032e66&hm=6bfade5306c4cd7cbb36c1a4866fc219d4d8112e367f8726a94befc1e19e7e75&` | url | malware\_download | URLhaus | 2026-11-22 18:12:38 UTC |
+| 75 (alta) | media | `93[.]123[.]109[.]163:80` | ip:port | Unknown malware | ThreatFox | 2026-11-22 15:02:54 UTC |
+| 71 (alta) | media | `180[.]165[.]28[.]32:51050` | ip:port | VShell | ThreatFox | 2026-11-22 21:44:18 UTC |
+| 69 (media) | media | `45[.]159[.]58[.]80:8000` | ip:port | Unknown malware | ThreatFox | 2026-11-22 18:21:42 UTC |
+| 65 (media) | media | `77[.]239[.]124[.]134:8081` | ip:port | Unknown malware | ThreatFox | 2026-11-22 16:30:40 UTC |
+| 63 (media) | alta | `4ae22b6594b63a45a694f9d7e969c33395b5fab3cf3c411557d40338dfc671af` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:01:00 UTC |
+| 63 (media) | media | `2981b646744db3a45fbebe6d9fba548ecf584997aa17856a1f66c0eceb2ca3db` | filehash-sha256 | SNOWLIGHT | ThreatFox | 2026-11-23 01:00:33 UTC |
+| 63 (media) | media | `e2f7b8efce5cd7b9ea16a6398e627bcd4394ea758346d63ba2706209d96a03dc` | filehash-sha256 | SNOWLIGHT | ThreatFox | 2026-11-23 01:00:32 UTC |
+| 63 (media) | alta | `5108f3faf10f7d8573c22464b1f46f4d2aeed95f9d4e78701f727a7db376cce2` | filehash-sha256 | Vidar | ThreatFox | 2026-11-23 01:00:31 UTC |
+| 63 (media) | media | `e51979b91c53a6c03fdcc1d5b1fc43c96edf52b911b5987a5732ae87a5142c01` | filehash-sha256 | SNOWLIGHT | ThreatFox | 2026-11-23 01:00:30 UTC |
+| 63 (media) | media | `1132c348deebd0ce769c4b84a84c90a57252d7eb9c0860d1bb54d8cfb4487560` | filehash-sha256 | SNOWLIGHT | ThreatFox | 2026-11-23 01:00:29 UTC |
+| 62 (media) | alta | `d922912101f732cbe027d5a0fb8cb6a30d35ff86dccfbcfa9c7c1d9aa76adfc7` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:01:01 UTC |
+| 62 (media) | alta | `f611607cac4a351cd3636bef2cf1dfa8b6af65527c2348271eb3c398ce801ed5` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:00:59 UTC |
+| 62 (media) | media | `59fee70c5e84627486ca0df976f30fae5da07e7bcea92c0a0b7940174910899d` | filehash-sha256 | SNOWLIGHT | ThreatFox | 2026-11-23 01:00:52 UTC |
+| 62 (media) | alta | `5fc7177deae9f182f77237e2daec4ecc5d2266fce91215565240ed2d19cd7ddd` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:00:51 UTC |
+| 62 (media) | alta | `3211e50ffde5e1401a01168219e965588248e9b71e09757c5c6b79c14adac73a` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:00:50 UTC |
+| 62 (media) | alta | `2707eaf1d459d71ea9b233aa14af029bd69a9a1faf8b413d087ef66ad9ed9e0b` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:00:49 UTC |
+| 62 (media) | alta | `083a5116a99d15afb3a8b3232c1659486a5d68e385ceb7344d7aba1e2cf59618` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:00:48 UTC |
+| 62 (media) | media | `4b0e7fd60a39fcc0234522f90f4fd8a4abe2b418499b99c9a1197962eb590586` | filehash-sha256 | SNOWLIGHT | ThreatFox | 2026-11-23 01:00:47 UTC |
+| 62 (media) | alta | `3b175ca579f13d97e55dd084917ca8e0c1a404bb06e5b8b9589a86ce69037ae9` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:00:46 UTC |
+| 62 (media) | alta | `1056ea18f667b75d9215418544b9d136a09f46fe48213162916d35f4c9774376` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:00:45 UTC |
+| 62 (media) | alta | `d9c520ecac7331243dbbbcb1a740867d86d4fc4bffa39b55a661bf7e892c7dc7` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:00:44 UTC |
+| 62 (media) | alta | `d7c20284b97f98fb2e99a87c9b056df1671f344dc53249a5a562d25eb4210f4c` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:00:43 UTC |
+| 62 (media) | alta | `6881125708afebd45b27760b4aefa3d7bae2abb8faec302ffd9cbb5744b01600` | filehash-sha256 | Mirai | ThreatFox | 2026-11-23 01:00:42 UTC |
+| 62 (media) | media | `49d98df28a20561c8fe82b122f8c007372e50e777c3d71ec1f1ee8f4e0042099` | filehash-sha256 | SNOWLIGHT | ThreatFox | 2026-11-23 01:00:41 UTC |
+| 62 (media) | media | `6b5862bb5ecdb0365f4d92845c7173c539a7399ded590d2dd5f9a9acc955d3bd` | filehash-sha256 | SNOWLIGHT | ThreatFox | 2026-11-23 01:00:40 UTC |
 
 ### CVEs explotados activamente (CISA KEV, últimos 14 días)
 
@@ -283,7 +283,7 @@ python main.py
 
 ### Avisos de seguridad de los últimos 7 días
 
-**378** avisos de 26/26 fuentes (fabricantes, CERT, exploits y noticias) · **38** de algo que ya se explota · **11** de día cero · **43** sin parche
+**373** avisos de 24/26 fuentes (fabricantes, CERT, exploits y noticias) · **38** de algo que ya se explota · **11** de día cero · **43** sin parche
 
 **Lo más citado:** CVE-2026-114938 (11 fuentes) · CVE-2026-123007 (11 fuentes) · CVE-2026-123633 (9 fuentes) · CVE-2026-113425 (6 fuentes) · CVE-2026-121810 (6 fuentes) · CVE-2026-123634 (6 fuentes) · CVE-2026-111497 (5 fuentes, KEV) · CVE-2026-115560 (5 fuentes)
 
@@ -317,7 +317,7 @@ python main.py
 
 ### Vulnerabilidades de los últimos 7 días
 
-**4630** CVE publicados · **2** ya explotados · **81** urgentes · **353** con CVSS ≥ 9 · **597** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
+**4668** CVE publicados · **2** ya explotados · **81** urgentes · **354** con CVSS ≥ 9 · **594** paquetes maliciosos en los registros · **0** con exploit en Exploit-DB · **1** explotados desde el primer día
 
 Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, o CVSS ≥ 9 con EPSS ≥ 1 % o prueba de concepto) > *alta* (CVSS ≥ 7, percentil EPSS ≥ 90 o PoC). Un exploit de Exploit-DB cuenta como prueba de concepto.
 
@@ -353,8 +353,8 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 
 | Lenguaje | Estado | Paquetes maliciosos | Avisos críticos / altos |
 |---|---|---|---|
-| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 548 | 2 / 17 |
-| Python (PyPI) | 🔴 paquetes maliciosos | 39 | 4 / 34 |
+| JavaScript / TypeScript (npm) | 🔴 paquetes maliciosos | 546 | 2 / 17 |
+| Python (PyPI) | 🔴 paquetes maliciosos | 38 | 4 / 34 |
 | Java / Kotlin (Maven) | 🟡 avisos altos | 0 | 0 / 4 |
 | .NET (C#) (NuGet) | 🟠 avisos críticos | 0 | 3 / 3 |
 | PHP (Packagist) | 🔴 el lenguaje se explota | 0 | 3 / 10 |
@@ -370,20 +370,20 @@ Prioridad: *explotada* (CISA KEV o SSVC «active») > *urgente* (EPSS ≥ 10 %, 
 
 | Sistema | Estado | CVE nuevos | CVSS ≥ 9 | En KEV (30 días) |
 |---|---|---|---|---|
-| Aplicaciones web y CMS | 🔴 explotación activa | 880 | 56 | 3 |
-| Red, VPN y firewalls | 🔴 explotación activa | 199 | 18 | 10 |
-| Windows y Microsoft | 🔴 explotación activa | 39 | 5 | 1 |
-| Software empresarial | 🔴 explotación activa | 693 | 61 | 6 |
+| Aplicaciones web y CMS | 🔴 explotación activa | 881 | 56 | 2 |
+| Red, VPN y firewalls | 🔴 explotación activa | 199 | 18 | 9 |
+| Windows y Microsoft | 🔴 explotación activa | 42 | 5 | 1 |
+| Software empresarial | 🔴 explotación activa | 694 | 61 | 6 |
 | Linux | 🔴 explotación activa | 573 | 16 | 1 |
-| Virtualización y nube | 🔴 explotación activa | 28 | 2 | 2 |
+| Virtualización y nube | 🔴 explotación activa | 29 | 2 | 2 |
 | Apple (macOS · iOS) | 🔴 explotación activa | 20 | 1 | 1 |
 | Lenguajes y entornos de ejecución | 🔴 explotación activa | 1 | 0 | 2 |
 | Navegadores | 🔴 explotación activa | 209 | 18 | 1 |
 | Servidores y servicios | 🔴 explotación activa | 7 | 1 | 1 |
-| Otros | 🔴 explotación activa | 1581 | 126 | 8 |
+| Otros | 🔴 explotación activa | 1611 | 127 | 8 |
 | Librerías de código abierto | 🟠 riesgo alto | 360 | 45 | 0 |
 | Routers domésticos, IoT y cámaras | 🟠 riesgo alto | 15 | 3 | 0 |
 | Industrial (OT · ICS) | 🟠 riesgo alto | 1 | 1 | 0 |
+| IA y agentes (LLM · MCP) | 🟢 vigilar | 14 | 0 | 0 |
 | Android | 🟢 vigilar | 12 | 0 | 0 |
-| IA y agentes (LLM · MCP) | 🟢 vigilar | 12 | 0 | 0 |
 <!-- CTI:END -->
