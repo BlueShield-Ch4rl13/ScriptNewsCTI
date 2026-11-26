@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-26 01:38",
+ "generado_utc": "2026-11-26 11:59",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -15,7 +15,7 @@
    "idioma": "es",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
    "estado": "ok",
-   "avisos": 31
+   "avisos": 24
   },
   {
    "id": "incibe_sci",
@@ -123,7 +123,7 @@
    "idioma": "en",
    "url": "https://chromereleases.googleblog.com/feeds/posts/default",
    "estado": "ok",
-   "avisos": 3
+   "avisos": 2
   },
   {
    "id": "siemens",
@@ -150,7 +150,7 @@
    "idioma": "en",
    "url": "https://ubuntu.com/security/notices/rss.xml",
    "estado": "ok",
-   "avisos": 53
+   "avisos": 51
   },
   {
    "id": "debian",
@@ -213,7 +213,7 @@
    "idioma": "es",
    "url": "https://blog.segu-info.com.ar/feeds/posts/default",
    "estado": "ok",
-   "avisos": 6
+   "avisos": 5
   },
   {
    "id": "thehackernews",
@@ -222,7 +222,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 34
+   "avisos": 32
   },
   {
    "id": "bleeping",
@@ -240,23 +240,23 @@
    "idioma": "en",
    "url": "https://www.securityweek.com/feed/",
    "estado": "ok",
-   "avisos": 24
+   "avisos": 22
   }
  ],
  "resumen": {
-  "avisos": 383,
+  "avisos": 368,
   "por_tipo": {
-   "fabricante": 148,
-   "noticia": 80,
-   "exploit": 65,
-   "cert": 90
+   "noticia": 75,
+   "cert": 83,
+   "fabricante": 145,
+   "exploit": 65
   },
   "explotados": 41,
-  "dia_cero": 13,
-  "sin_parche": 21,
-  "criticos": 63,
-  "exploit_publico": 3,
-  "cves_citados": 451,
+  "dia_cero": 14,
+  "sin_parche": 22,
+  "criticos": 56,
+  "exploit_publico": 2,
+  "cves_citados": 392,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -272,11 +272,11 @@
     "siemens",
     "ubuntu"
    ],
-   "avisos": 10,
+   "avisos": 11,
    "kev": false,
    "cvss": null,
    "epss": 0.59265,
-   "ultimo": "2026-11-25T08:46Z"
+   "ultimo": "2026-11-26T08:34Z"
   },
   {
    "cve": "CVE-2026-123007",
@@ -285,14 +285,13 @@
     "fortinet",
     "incibe",
     "paloalto",
-    "siemens",
-    "ubuntu"
+    "siemens"
    ],
-   "avisos": 9,
+   "avisos": 8,
    "kev": false,
    "cvss": null,
    "epss": 0.45588,
-   "ultimo": "2026-11-26T00:36Z"
+   "ultimo": "2026-11-26T10:28Z"
   },
   {
    "cve": "CVE-2026-123633",
@@ -301,25 +300,23 @@
     "fortinet",
     "incibe",
     "paloalto",
-    "siemens",
-    "ubuntu"
+    "siemens"
    ],
-   "avisos": 8,
+   "avisos": 7,
    "kev": false,
    "cvss": null,
    "epss": 0.2211,
-   "ultimo": "2026-11-26T00:36Z"
+   "ultimo": "2026-11-26T10:28Z"
   },
   {
    "cve": "CVE-2026-126714",
    "fuentes": [
     "cisco",
     "incibe",
-    "seguinfo",
     "thehackernews",
     "wordfence"
    ],
-   "avisos": 7,
+   "avisos": 6,
    "kev": false,
    "cvss": 9.2,
    "epss": 0.33772,
@@ -331,29 +328,13 @@
     "cisco",
     "fortinet",
     "incibe",
-    "siemens",
-    "ubuntu"
+    "siemens"
    ],
-   "avisos": 6,
+   "avisos": 4,
    "kev": false,
    "cvss": null,
    "epss": 0.15289,
-   "ultimo": "2026-11-26T00:36Z"
-  },
-  {
-   "cve": "CVE-2026-115560",
-   "fuentes": [
-    "incibe",
-    "securityweek",
-    "seguinfo",
-    "thehackernews",
-    "wordfence"
-   ],
-   "avisos": 6,
-   "kev": false,
-   "cvss": 9.2,
-   "epss": 0.86584,
-   "ultimo": "2026-11-24T08:44Z"
+   "ultimo": "2026-11-26T01:48Z"
   },
   {
    "cve": "CVE-2026-121810",
@@ -361,14 +342,13 @@
     "cisco",
     "fortinet",
     "incibe",
-    "siemens",
-    "ubuntu"
+    "siemens"
    ],
-   "avisos": 6,
+   "avisos": 4,
    "kev": false,
    "cvss": null,
    "epss": 0.18075,
-   "ultimo": "2026-11-26T00:36Z"
+   "ultimo": "2026-11-26T01:48Z"
   },
   {
    "cve": "CVE-2026-123634",
@@ -376,14 +356,13 @@
     "cisco",
     "fortinet",
     "incibe",
-    "siemens",
-    "ubuntu"
+    "siemens"
    ],
-   "avisos": 6,
+   "avisos": 4,
    "kev": false,
    "cvss": null,
    "epss": 0.18839,
-   "ultimo": "2026-11-26T00:36Z"
+   "ultimo": "2026-11-26T01:48Z"
   },
   {
    "cve": "CVE-2026-123890",
@@ -409,22 +388,22 @@
    ],
    "avisos": 4,
    "kev": true,
-   "cvss": 9.8,
+   "cvss": null,
    "epss": 0.04292,
    "ultimo": "2026-11-25T09:05Z"
   },
   {
-   "cve": "CVE-2026-98432",
+   "cve": "CVE-2026-115560",
    "fuentes": [
-    "chrome",
-    "incibe_sci",
-    "ubuntu"
+    "incibe",
+    "thehackernews",
+    "wordfence"
    ],
-   "avisos": 10,
+   "avisos": 4,
    "kev": false,
-   "cvss": null,
-   "epss": 0.8484,
-   "ultimo": "2026-11-25T08:46Z"
+   "cvss": 9.2,
+   "epss": 0.86584,
+   "ultimo": "2026-11-24T08:44Z"
   },
   {
    "cve": "CVE-2026-111497",
@@ -433,19 +412,281 @@
     "incibe",
     "siemens"
    ],
-   "avisos": 4,
+   "avisos": 3,
    "kev": true,
    "cvss": null,
    "epss": 0.32976,
    "ultimo": "2026-11-24T21:17Z"
+  },
+  {
+   "cve": "CVE-2026-132825",
+   "fuentes": [
+    "gitlab",
+    "incibe",
+    "securityweek"
+   ],
+   "avisos": 3,
+   "kev": false,
+   "cvss": null,
+   "epss": 0.01976,
+   "ultimo": "2026-11-23T08:46Z"
   }
  ],
  "avisos": [
   {
+   "fuente": "securityweek",
+   "titulo": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+   "enlace": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+   "fecha": "2026-11-26T11:35Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Múltiples vulnerabilidades en Poly PrivateConnect de HP",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-poly-privateconnect-de-hp",
+   "fecha": "2026-11-26T10:28Z",
+   "cves": [
+    "CVE-2026-123007",
+    "CVE-2026-123633"
+   ],
+   "cves_total": 2,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.4559,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Omisión del control de acceso en Drupal",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-del-control-de-acceso-en-drupal",
+   "fecha": "2026-11-26T10:14Z",
+   "cves": [
+    "CVE-2026-136716"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9208-1: alsa-lib vulnerabilities",
+   "enlace": "https://ubuntu.com/security/notices/USN-9208-1",
+   "fecha": "2026-11-26T09:37Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Uso de credenciales codificadas en Bizum Pay para Android",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/uso-de-credenciales-codificadas-en-bizum-pay-para-android",
+   "fecha": "2026-11-26T09:21Z",
+   "cves": [
+    "CVE-2026-127041"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": true,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "securityweek",
+   "titulo": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+   "enlace": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+   "fecha": "2026-11-26T09:12Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe_sci",
+   "titulo": "Desbordamiento de búfer en controladores AK-SM 8xxA de Danfoss",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-bufer-en-controladores-ak-sm-8xxa-de-danfoss",
+   "fecha": "2026-11-26T08:34Z",
+   "cves": [
+    "CVE-2026-129713",
+    "CVE-2026-114938"
+   ],
+   "cves_total": 2,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": 9.3,
+   "epss_max": 0.5927,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Cross-Site Scripting almacenado en JobRouter Premium de JobRouter",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-almacenado-en-jobrouter-premium-de-jobrouter",
+   "fecha": "2026-11-26T08:29Z",
+   "cves": [
+    "CVE-2026-135899"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": true,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9207-1: Apache Commons BCEL vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9207-1",
+   "fecha": "2026-11-26T08:23Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+   "enlace": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+   "fecha": "2026-11-26T07:02Z",
+   "cves": [
+    "CVE-2026-136716",
+    "CVE-2026-132165"
+   ],
+   "cves_total": 2,
+   "texto_explotada": true,
+   "texto_critica": true,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-132165"
+   ],
+   "explotada": true,
+   "critica": true,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "thehackernews",
+   "titulo": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+   "enlace": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+   "fecha": "2026-11-26T06:44Z",
+   "cves": [
+    "CVE-2026-133275"
+   ],
+   "cves_total": 1,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-133275"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": 5.3,
+   "epss_max": 0.0032,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9204-1: dav1d vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9204-1",
+   "fecha": "2026-11-26T04:26Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "cisco",
    "titulo": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
    "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-   "fecha": "2026-11-26T00:36Z",
+   "fecha": "2026-11-26T01:48Z",
    "cves": [
     "CVE-2026-113425",
     "CVE-2026-121810",
@@ -531,7 +772,7 @@
     "CVE-2026-14492",
     "CVE-2026-132814"
    ],
-   "cves_total": 508,
+   "cves_total": 509,
    "texto_explotada": false,
    "texto_critica": false,
    "dia_cero": false,
@@ -611,6 +852,25 @@
    "critica": false,
    "cvss_max": null,
    "epss_max": 0.0124,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "ubuntu",
+   "titulo": "USN-9201-1: NetworkManager vulnerability",
+   "enlace": "https://ubuntu.com/security/notices/USN-9201-1",
+   "fecha": "2026-11-25T19:31Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -946,22 +1206,30 @@
     "CVE-2026-131914"
    ],
    "explotada": true,
-   "critica": true,
-   "cvss_max": 9.8,
+   "critica": false,
+   "cvss_max": null,
    "epss_max": 0.0429,
    "exploit_publico": false,
    "exploitdb": null
   },
   {
    "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en Serv-U de SolarWinds",
+   "titulo": "[Actualización 26/11/2026] Múltiples vulnerabilidades en Serv-U de SolarWinds",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-serv-u-de-solarwinds-0",
    "fecha": "2026-11-25T08:46Z",
    "cves": [
     "CVE-2026-123168",
-    "CVE-2026-123172"
+    "CVE-2026-123172",
+    "CVE-2026-82315",
+    "CVE-2026-82316",
+    "CVE-2026-82319",
+    "CVE-2026-82320",
+    "CVE-2026-82321",
+    "CVE-2026-82322",
+    "CVE-2026-123167",
+    "CVE-2026-75803"
    ],
-   "cves_total": 2,
+   "cves_total": 10,
    "texto_explotada": false,
    "texto_critica": false,
    "dia_cero": false,
@@ -970,7 +1238,7 @@
    "explotada": false,
    "critica": true,
    "cvss_max": 9.1,
-   "epss_max": 0.0088,
+   "epss_max": 0.0118,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -1002,7 +1270,7 @@
   },
   {
    "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en Enclave Security de Tenable",
+   "titulo": "[Actualización 26/11/2026] Múltiples vulnerabilidades en Enclave Security de Tenable",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-enclave-security-de-tenable-0",
    "fecha": "2026-11-25T08:46Z",
    "cves": [
@@ -1802,7 +2070,7 @@
    ],
    "explotada": true,
    "critica": true,
-   "cvss_max": 9.8,
+   "cvss_max": null,
    "epss_max": 0.0429,
    "exploit_publico": false,
    "exploitdb": null
@@ -1849,8 +2117,8 @@
     "CVE-2026-132224"
    ],
    "explotada": true,
-   "critica": true,
-   "cvss_max": 9.8,
+   "critica": false,
+   "cvss_max": null,
    "epss_max": 0.0429,
    "exploit_publico": false,
    "exploitdb": null
@@ -1987,27 +2255,6 @@
    "exploitdb": null
   },
   {
-   "fuente": "incibe",
-   "titulo": "Condición de carrera en la gestión de sesiones PHP en productos de Cisco",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/condicion-de-carrera-en-la-gestion-de-sesiones-php-en-productos-de-cisco",
-   "fecha": "2026-11-24T08:44Z",
-   "cves": [
-    "CVE-2026-126714"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": 9.2,
-   "epss_max": 0.3377,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
    "fuente": "incibe_sci",
    "titulo": "Múltiples vulnerabilidades en productos de Wiesemann & Theis",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-wiesemann-theis",
@@ -2050,6 +2297,27 @@
    "critica": true,
    "cvss_max": 9.3,
    "epss_max": 0.0075,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "incibe",
+   "titulo": "Condición de carrera en la gestión de sesiones PHP en productos de Cisco",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/condicion-de-carrera-en-la-gestion-de-sesiones-php-en-productos-de-cisco",
+   "fecha": "2026-11-24T08:44Z",
+   "cves": [
+    "CVE-2026-126714"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": true,
+   "cvss_max": 9.2,
+   "epss_max": 0.3377,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4531,7 +4799,7 @@
    ],
    "explotada": true,
    "critica": true,
-   "cvss_max": 9.8,
+   "cvss_max": null,
    "epss_max": 0.0429,
    "exploit_publico": false,
    "exploitdb": null
@@ -4556,6 +4824,27 @@
    "exploitdb": null
   },
   {
+   "fuente": "incibe_sci",
+   "titulo": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
+   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss",
+   "fecha": "2026-11-23T08:46Z",
+   "cves": [
+    "CVE-2026-127057"
+   ],
+   "cves_total": 1,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.0054,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "incibe",
    "titulo": "Múltiples vulnerabilidades en productos de Synology",
    "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-synology-0",
@@ -4575,27 +4864,6 @@
    "critica": true,
    "cvss_max": 9.8,
    "epss_max": 0.4559,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss",
-   "fecha": "2026-11-23T08:46Z",
-   "cves": [
-    "CVE-2026-127057"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0054,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -4685,7 +4953,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 7.4,
+   "cvss_max": null,
    "epss_max": 0.0198,
    "exploit_publico": false,
    "exploitdb": null
@@ -5761,7 +6029,7 @@
    "kev": [],
    "explotada": false,
    "critica": false,
-   "cvss_max": 7.4,
+   "cvss_max": null,
    "epss_max": 0.0198,
    "exploit_publico": false,
    "exploitdb": null
@@ -6598,7 +6866,7 @@
    "kev": [],
    "explotada": false,
    "critica": true,
-   "cvss_max": 7.4,
+   "cvss_max": null,
    "epss_max": 0.0198,
    "exploit_publico": false,
    "exploitdb": null
@@ -8140,668 +8408,6 @@
    "critica": false,
    "cvss_max": 8.8,
    "epss_max": 0.006,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "seguinfo",
-   "titulo": "(Nuevas) vulnerabilidades en PHP permiten ejecución remota de código #phpAfterShell",
-   "enlace": "http://blog.segu-info.com.ar/2026/11/nuevas-vulnerabilidades-en-php-permiten.html",
-   "fecha": "2026-11-19T11:51Z",
-   "cves": [
-    "CVE-2026-115560",
-    "CVE-2026-129182",
-    "CVE-2026-109619",
-    "CVE-2026-126714",
-    "CVE-2026-129289",
-    "CVE-2026-129474",
-    "CVE-2026-129481",
-    "CVE-2026-129496",
-    "CVE-2026-129291",
-    "CVE-2026-128064",
-    "CVE-2026-109618"
-   ],
-   "cves_total": 11,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-109619",
-    "CVE-2026-109618"
-   ],
-   "explotada": true,
-   "critica": true,
-   "cvss_max": 9.2,
-   "epss_max": 0.8658,
-   "exploit_publico": true,
-   "exploitdb": 52704
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
-   "enlace": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
-   "fecha": "2026-11-19T10:41Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
-   "enlace": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
-   "fecha": "2026-11-19T10:26Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "ubuntu",
-   "titulo": "USN-9160-1: Linux kernel (Azure) vulnerabilities",
-   "enlace": "https://ubuntu.com/security/notices/USN-9160-1",
-   "fecha": "2026-11-19T09:58Z",
-   "cves": [
-    "CVE-2026-100070",
-    "CVE-2026-100071",
-    "CVE-2026-100072",
-    "CVE-2026-100073",
-    "CVE-2026-100074",
-    "CVE-2026-100075",
-    "CVE-2026-100076",
-    "CVE-2026-100077",
-    "CVE-2026-100078",
-    "CVE-2026-100079",
-    "CVE-2026-68305",
-    "CVE-2026-68451"
-   ],
-   "cves_total": 3262,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0076,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "ubuntu",
-   "titulo": "USN-9164-1: Linux kernel (FIPS) vulnerabilities",
-   "enlace": "https://ubuntu.com/security/notices/USN-9164-1",
-   "fecha": "2026-11-19T09:58Z",
-   "cves": [
-    "CVE-2022-23036",
-    "CVE-2022-23037",
-    "CVE-2021-47633",
-    "CVE-2022-49058",
-    "CVE-2022-49170",
-    "CVE-2023-52784",
-    "CVE-2024-53194",
-    "CVE-2024-53210",
-    "CVE-2024-53214",
-    "CVE-2024-56570",
-    "CVE-2024-56616",
-    "CVE-2024-56763"
-   ],
-   "cves_total": 20,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0089,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "ubuntu",
-   "titulo": "USN-9163-1: Linux kernel vulnerability",
-   "enlace": "https://ubuntu.com/security/notices/USN-9163-1",
-   "fecha": "2026-11-19T09:57Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "ubuntu",
-   "titulo": "USN-9162-1: Linux kernel vulnerabilities",
-   "enlace": "https://ubuntu.com/security/notices/USN-9162-1",
-   "fecha": "2026-11-19T09:57Z",
-   "cves": [
-    "CVE-2025-39691",
-    "CVE-2025-39726"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0043,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "ubuntu",
-   "titulo": "USN-9161-1: Linux kernel vulnerabilities",
-   "enlace": "https://ubuntu.com/security/notices/USN-9161-1",
-   "fecha": "2026-11-19T09:57Z",
-   "cves": [
-    "CVE-2025-39689",
-    "CVE-2025-39691",
-    "CVE-2025-39726"
-   ],
-   "cves_total": 3,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0043,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe_sci",
-   "titulo": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-110486",
-    "CVE-2026-126708"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0127,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en productos de HPE Networking",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-hpe-networking",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-79845",
-    "CVE-2026-95787",
-    "CVE-2026-95788",
-    "CVE-2026-95789",
-    "CVE-2026-95790",
-    "CVE-2026-95791",
-    "CVE-2026-79844",
-    "CVE-2026-79846",
-    "CVE-2026-79847",
-    "CVE-2026-79848",
-    "CVE-2026-79849",
-    "CVE-2026-79850"
-   ],
-   "cves_total": 38,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0217,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en productos de Mitel",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-mitel",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-111497"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.3298,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en productos de Synology",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-synology",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-120382",
-    "CVE-2026-76954"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": 9.8,
-   "epss_max": 0.0067,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en productos de Atlassian",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-atlassian-2",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-4800",
-    "CVE-2026-47884",
-    "CVE-2026-47890",
-    "CVE-2026-59313",
-    "CVE-2026-65905",
-    "CVE-2026-76183",
-    "CVE-2026-86248",
-    "CVE-2026-110879",
-    "CVE-2026-59083",
-    "CVE-2026-59084",
-    "CVE-2026-59283",
-    "CVE-2026-71290"
-   ],
-   "cves_total": 18,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0278,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en CAST Imaging de CAST Software",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-cast-imaging-de-cast-software",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-109857"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.006,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Ejecución remota de código en Drupal",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/ejecucion-remota-de-codigo-en-drupal",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-132165"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [
-    "CVE-2026-132165"
-   ],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Escritura fuera de límites en Airlock Gateway de Ergon",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-airlock-gateway-de-ergon",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-19707"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0052,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en Splunk SOAR",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-splunk-soar",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-131253",
-    "CVE-2026-131287"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": 9.9,
-   "epss_max": 0.0064,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en productos NGINX de F5",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-nginx-de-f5",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-123007",
-    "CVE-2026-123633",
-    "CVE-2026-121810",
-    "CVE-2026-123634",
-    "CVE-2026-113425"
-   ],
-   "cves_total": 5,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.4559,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
-   "fecha": "2026-11-19T09:19Z",
-   "cves": [
-    "CVE-2026-110486",
-    "CVE-2026-126708"
-   ],
-   "cves_total": 2,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0127,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
-   "enlace": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
-   "fecha": "2026-11-19T09:10Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "incibe",
-   "titulo": "Exposición de información sensible en el Campus Virtual de la UOC",
-   "enlace": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/exposicion-de-informacion-sensible-en-el-campus-virtual-de-la-uoc",
-   "fecha": "2026-11-19T08:58Z",
-   "cves": [
-    "CVE-2026-112216"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0038,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
-   "enlace": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-   "fecha": "2026-11-19T08:42Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-   "enlace": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-   "fecha": "2026-11-19T08:14Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-   "enlace": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-   "fecha": "2026-11-19T08:00Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": true,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": true,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "securityweek",
-   "titulo": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-   "enlace": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
-   "fecha": "2026-11-19T07:45Z",
-   "cves": [
-    "CVE-2026-115560"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": 9.2,
-   "epss_max": 0.8658,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "ubuntu",
-   "titulo": "USN-9159-1: nginx vulnerabilities",
-   "enlace": "https://ubuntu.com/security/notices/USN-9159-1",
-   "fecha": "2026-11-19T05:21Z",
-   "cves": [
-    "CVE-2026-123007",
-    "CVE-2026-123633",
-    "CVE-2026-113425",
-    "CVE-2026-123634",
-    "CVE-2026-118899",
-    "CVE-2026-120967",
-    "CVE-2026-121810",
-    "CVE-2026-123640"
-   ],
-   "cves_total": 8,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.4559,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "chrome",
-   "titulo": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-   "enlace": "http://chromereleases.googleblog.com/2026/11/stable-channel-update-for-chromeos_01891834105.html",
-   "fecha": "2026-11-19T05:16Z",
-   "cves": [
-    "CVE-2026-99999",
-    "CVE-2026-74580",
-    "CVE-2026-98432",
-    "CVE-2026-121119",
-    "CVE-2026-121221",
-    "CVE-2026-121135",
-    "CVE-2026-121076",
-    "CVE-2026-121060",
-    "CVE-2026-121078",
-    "CVE-2026-121141",
-    "CVE-2026-121211",
-    "CVE-2026-121068"
-   ],
-   "cves_total": 403,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.8484,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-   "enlace": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-   "fecha": "2026-11-19T04:33Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   }
