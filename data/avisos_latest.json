@@ -1,5 +1,5 @@
 {
- "generado_utc": "2026-11-27 16:11",
+ "generado_utc": "2026-11-28 01:09",
  "ventana_dias": 7,
  "tipos": {
   "fabricante": "Fabricantes",
@@ -33,7 +33,7 @@
    "idioma": "en",
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
    "estado": "ok",
-   "avisos": 6
+   "avisos": 7
   },
   {
    "id": "cert_eu",
@@ -105,7 +105,7 @@
    "idioma": "en",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "estado": "ok",
-   "avisos": 4
+   "avisos": 3
   },
   {
    "id": "ivanti",
@@ -123,7 +123,7 @@
    "idioma": "en",
    "url": "https://chromereleases.googleblog.com/feeds/posts/default",
    "estado": "ok",
-   "avisos": 2
+   "avisos": 3
   },
   {
    "id": "siemens",
@@ -159,7 +159,7 @@
    "idioma": "en",
    "url": "https://www.debian.org/security/dsa-long",
    "estado": "ok",
-   "avisos": 17
+   "avisos": 21
   },
   {
    "id": "zdi",
@@ -195,7 +195,7 @@
    "idioma": "en",
    "url": "https://www.wordfence.com/feed/",
    "estado": "ok",
-   "avisos": 3
+   "avisos": 2
   },
   {
    "id": "unaaldia",
@@ -222,7 +222,7 @@
    "idioma": "en",
    "url": "https://feeds.feedburner.com/TheHackersNews",
    "estado": "ok",
-   "avisos": 23
+   "avisos": 22
   },
   {
    "id": "bleeping",
@@ -244,19 +244,19 @@
   }
  ],
  "resumen": {
-  "avisos": 280,
+  "avisos": 283,
   "por_tipo": {
-   "noticia": 57,
-   "fabricante": 86,
-   "cert": 74,
-   "exploit": 63
+   "fabricante": 90,
+   "noticia": 56,
+   "cert": 75,
+   "exploit": 62
   },
-  "explotados": 37,
+  "explotados": 40,
   "dia_cero": 10,
   "sin_parche": 21,
-  "criticos": 36,
+  "criticos": 34,
   "exploit_publico": 1,
-  "cves_citados": 334,
+  "cves_citados": 345,
   "fuentes_ok": 26,
   "fuentes_total": 26
  },
@@ -266,11 +266,10 @@
    "fuentes": [
     "cisco",
     "incibe_sci",
-    "paloalto",
     "seguinfo",
     "siemens"
    ],
-   "avisos": 7,
+   "avisos": 6,
    "kev": false,
    "cvss": null,
    "epss": 0.72539,
@@ -291,6 +290,20 @@
    "ultimo": "2026-11-25T09:05Z"
   },
   {
+   "cve": "CVE-2026-136716",
+   "fuentes": [
+    "cert_fr_avis",
+    "cisa",
+    "incibe",
+    "thehackernews"
+   ],
+   "avisos": 4,
+   "kev": true,
+   "cvss": 9.8,
+   "epss": 0.01212,
+   "ultimo": "2026-11-27T12:00Z"
+  },
+  {
    "cve": "CVE-2026-123007",
    "fuentes": [
     "cisco",
@@ -301,7 +314,7 @@
    "kev": false,
    "cvss": null,
    "epss": 0.46134,
-   "ultimo": "2026-11-26T10:28Z"
+   "ultimo": "2026-11-27T20:04Z"
   },
   {
    "cve": "CVE-2026-111497",
@@ -327,20 +340,7 @@
    "kev": false,
    "cvss": null,
    "epss": 0.22445,
-   "ultimo": "2026-11-26T10:28Z"
-  },
-  {
-   "cve": "CVE-2026-126714",
-   "fuentes": [
-    "cisco",
-    "incibe",
-    "wordfence"
-   ],
-   "avisos": 5,
-   "kev": false,
-   "cvss": null,
-   "epss": 0.32099,
-   "ultimo": "2026-11-27T08:14Z"
+   "ultimo": "2026-11-27T20:04Z"
   },
   {
    "cve": "CVE-2026-123903",
@@ -356,19 +356,6 @@
    "ultimo": "2026-11-27T12:30Z"
   },
   {
-   "cve": "CVE-2026-136716",
-   "fuentes": [
-    "cert_fr_avis",
-    "incibe",
-    "thehackernews"
-   ],
-   "avisos": 3,
-   "kev": false,
-   "cvss": 9.8,
-   "epss": 0.01212,
-   "ultimo": "2026-11-26T10:14Z"
-  },
-  {
    "cve": "CVE-2026-99362",
    "fuentes": [
     "bleeping",
@@ -382,15 +369,15 @@
    "ultimo": "2026-11-27T08:06Z"
   },
   {
-   "cve": "CVE-2026-115560",
+   "cve": "CVE-2026-126714",
    "fuentes": [
-    "incibe",
-    "wordfence"
+    "cisco",
+    "incibe"
    ],
-   "avisos": 3,
+   "avisos": 4,
    "kev": false,
    "cvss": null,
-   "epss": 0.86584,
+   "epss": 0.32099,
    "ultimo": "2026-11-27T08:14Z"
   },
   {
@@ -416,9 +403,99 @@
    "cvss": 8.7,
    "epss": 0.01793,
    "ultimo": "2026-11-24T06:02Z"
+  },
+  {
+   "cve": "CVE-2026-103406",
+   "fuentes": [
+    "cisa",
+    "securityweek"
+   ],
+   "avisos": 2,
+   "kev": true,
+   "cvss": null,
+   "epss": 0.01535,
+   "ultimo": "2026-11-26T13:04Z"
   }
  ],
  "avisos": [
+  {
+   "fuente": "cisco",
+   "titulo": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+   "fecha": "2026-11-27T20:04Z",
+   "cves": [
+    "CVE-2026-113425",
+    "CVE-2026-121810",
+    "CVE-2026-123007",
+    "CVE-2026-123633",
+    "CVE-2026-123634"
+   ],
+   "cves_total": 5,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.4613,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "chrome",
+   "titulo": "Long Term Support Channel Update for ChromeOS",
+   "enlace": "http://chromereleases.googleblog.com/2026/11/long-term-support-channel-update-for_01009121915.html",
+   "fecha": "2026-11-27T18:52Z",
+   "cves": [
+    "CVE-2026-87626",
+    "CVE-2026-121135",
+    "CVE-2026-103627",
+    "CVE-2026-131023",
+    "CVE-2026-126921",
+    "CVE-2026-126890",
+    "CVE-2026-126886",
+    "CVE-2026-126852",
+    "CVE-2026-126892",
+    "CVE-2026-125350",
+    "CVE-2026-126840",
+    "CVE-2026-126854"
+   ],
+   "cves_total": 25,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-125350"
+   ],
+   "explotada": true,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": 0.068,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "bleeping",
+   "titulo": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "enlace": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "fecha": "2026-11-27T17:06Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": true,
+   "sin_parche": true,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
   {
    "fuente": "seguinfo",
    "titulo": "Explotan vulnerabilidades críticas Zero-Day en VMware vCenter para obtener acceso de administrador y robar datos",
@@ -447,6 +524,33 @@
    "critica": true,
    "cvss_max": 9.8,
    "epss_max": 0.4102,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "cisa",
+   "titulo": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "enlace": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "fecha": "2026-11-27T12:00Z",
+   "cves": [
+    "CVE-2026-120705",
+    "CVE-2026-129243",
+    "CVE-2026-136716"
+   ],
+   "cves_total": 3,
+   "texto_explotada": true,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [
+    "CVE-2026-120705",
+    "CVE-2026-129243",
+    "CVE-2026-136716"
+   ],
+   "explotada": true,
+   "critica": true,
+   "cvss_max": 9.8,
+   "epss_max": 0.0121,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -867,6 +971,82 @@
    "exploitdb": null
   },
   {
+   "fuente": "debian",
+   "titulo": "DSA-6667-1 chromium - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00589.html",
+   "fecha": "2026-11-27T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6666-1 postfixadmin - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00588.html",
+   "fecha": "2026-11-27T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6665-1 ironic - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00587.html",
+   "fecha": "2026-11-27T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "debian",
+   "titulo": "DSA-6664-1 dnsdist - security update",
+   "enlace": "https://lists.debian.org/debian-security-announce/2026/msg00586.html",
+   "fecha": "2026-11-27T00:00Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
    "fuente": "ubuntu",
    "titulo": "USN-9016-2: Apache HTTP Server regression",
    "enlace": "https://ubuntu.com/security/notices/USN-9016-2",
@@ -1125,8 +1305,10 @@
    "texto_critica": false,
    "dia_cero": false,
    "sin_parche": false,
-   "kev": [],
-   "explotada": false,
+   "kev": [
+    "CVE-2026-136716"
+   ],
+   "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
    "epss_max": 0.0121,
@@ -1311,6 +1493,7 @@
    "dia_cero": false,
    "sin_parche": false,
    "kev": [
+    "CVE-2026-136716",
     "CVE-2026-132165"
    ],
    "explotada": true,
@@ -1363,31 +1546,6 @@
    "exploitdb": null
   },
   {
-   "fuente": "cisco",
-   "titulo": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
-   "enlace": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-   "fecha": "2026-11-26T01:48Z",
-   "cves": [
-    "CVE-2026-113425",
-    "CVE-2026-121810",
-    "CVE-2026-123007",
-    "CVE-2026-123633",
-    "CVE-2026-123634"
-   ],
-   "cves_total": 5,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.4613,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
    "fuente": "cert_fr_avis",
    "titulo": "Vulnérabilité dans Drupal (26 novembre 2026)",
    "enlace": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1623/",
@@ -1400,7 +1558,9 @@
    "texto_critica": false,
    "dia_cero": false,
    "sin_parche": false,
-   "kev": [],
+   "kev": [
+    "CVE-2026-136716"
+   ],
    "explotada": true,
    "critica": true,
    "cvss_max": 9.8,
@@ -1871,7 +2031,10 @@
    "texto_critica": false,
    "dia_cero": false,
    "sin_parche": false,
-   "kev": [],
+   "kev": [
+    "CVE-2026-120705",
+    "CVE-2026-129243"
+   ],
    "explotada": true,
    "critica": false,
    "cvss_max": null,
@@ -2549,6 +2712,25 @@
   },
   {
    "fuente": "paloalto",
+   "titulo": "PAN-SA-2026-0015 Security Bulletin: OSS CVEs Fixed in PAN-OS (Severity: INFORMATIONAL)",
+   "enlace": "https://security.paloaltonetworks.com/PAN-SA-2026-0015",
+   "fecha": "2026-11-24T23:10Z",
+   "cves": [],
+   "cves_total": 0,
+   "texto_explotada": false,
+   "texto_critica": false,
+   "dia_cero": false,
+   "sin_parche": false,
+   "kev": [],
+   "explotada": false,
+   "critica": false,
+   "cvss_max": null,
+   "epss_max": null,
+   "exploit_publico": false,
+   "exploitdb": null
+  },
+  {
+   "fuente": "paloalto",
    "titulo": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
    "enlace": "https://security.paloaltonetworks.com/CVE-2026-123633",
    "fecha": "2026-11-24T23:10Z",
@@ -2566,25 +2748,6 @@
    "critica": true,
    "cvss_max": null,
    "epss_max": 0.4613,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "PAN-SA-2026-0015 Security Bulletin: OSS CVEs Fixed in PAN-OS (Severity: INFORMATIONAL)",
-   "enlace": "https://security.paloaltonetworks.com/PAN-SA-2026-0015",
-   "fecha": "2026-11-24T23:10Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
    "exploit_publico": false,
    "exploitdb": null
   },
@@ -5550,8 +5713,8 @@
     "CVE-2026-134624"
    ],
    "explotada": true,
-   "critica": true,
-   "cvss_max": 9.8,
+   "critica": false,
+   "cvss_max": 8.7,
    "epss_max": 0.2716,
    "exploit_publico": false,
    "exploitdb": null
@@ -6325,94 +6488,6 @@
    "critica": true,
    "cvss_max": null,
    "epss_max": 0.2416,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "wordfence",
-   "titulo": "CVE-2026-129289 and Other Critical PHP Vulnerabilities: What WordPress Site Owners Need to Know",
-   "enlace": "https://www.wordfence.com/blog/2026/11/cve-2026-129289-wordpress-php-vulnerabilities/",
-   "fecha": "2026-11-20T22:08Z",
-   "cves": [
-    "CVE-2026-129289",
-    "CVE-2026-129496",
-    "CVE-2026-126714",
-    "CVE-2026-115560",
-    "CVE-2026-129481",
-    "CVE-2026-129474",
-    "CVE-2026-129182"
-   ],
-   "cves_total": 7,
-   "texto_explotada": false,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": true,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": 0.8658,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "thehackernews",
-   "titulo": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-   "enlace": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-   "fecha": "2026-11-20T17:57Z",
-   "cves": [
-    "CVE-2026-23871"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": 0.0048,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "bleeping",
-   "titulo": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-   "enlace": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-   "fecha": "2026-11-20T17:30Z",
-   "cves": [],
-   "cves_total": 0,
-   "texto_explotada": false,
-   "texto_critica": false,
-   "dia_cero": true,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": false,
-   "cvss_max": null,
-   "epss_max": null,
-   "exploit_publico": false,
-   "exploitdb": null
-  },
-  {
-   "fuente": "paloalto",
-   "titulo": "CVE-2026-114938 Portfolio Status: Impact of Java Vulnerability (CVE-2026-114938) on Palo Alto Networks Products (Severity: CRITICAL)",
-   "enlace": "https://security.paloaltonetworks.com/CVE-2026-114938",
-   "fecha": "2026-11-20T17:00Z",
-   "cves": [
-    "CVE-2026-114938"
-   ],
-   "cves_total": 1,
-   "texto_explotada": false,
-   "texto_critica": true,
-   "dia_cero": false,
-   "sin_parche": false,
-   "kev": [],
-   "explotada": false,
-   "critica": true,
-   "cvss_max": null,
-   "epss_max": 0.7254,
    "exploit_publico": false,
    "exploitdb": null
   }
